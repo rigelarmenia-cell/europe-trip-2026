@@ -43,7 +43,8 @@ test('Samsung detection uses SamsungBrowser token, including desktop mode', () =
 test('the provided intermediate trip is accepted with nulls, conflict label and private_van', () => {
   const trip = JSON.parse(readFileSync('trip.json', 'utf8'));
   assert.equal(validateTrip(trip), trip);
-  assert.equal(trip.days.length, 0);
+  assert.equal(trip.days.length, 4);
   assert.equal(trip.airport_transfers.length, 6);
   assert.equal(trip.flights.length, 4);
 });
+

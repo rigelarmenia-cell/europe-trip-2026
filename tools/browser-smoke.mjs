@@ -8,6 +8,7 @@ const context = await browser.newContext({ viewport: { width: 1400, height: 900 
 const page = await context.newPage(), errors = [];
 page.on('pageerror', e => errors.push(e.message));
 const base = 'http://127.0.0.1:4173/travel/';
+const realTrip = JSON.parse(await readFile('trip.json', 'utf8'));
 const output = { device: 'Windows desktop Edge / Playwright, NOT a physical phone', browser: browser.version(), checks: [] };
 const pass = name => { output.checks.push({ name, status: 'PASS' }); console.log('PASS ' + name); };
 const ready = () => page.locator('.airport-transfer').first().waitFor();
@@ -16,26 +17,24 @@ try {
   await page.goto(base); await ready();
   assert.equal(await page.locator('.airport-transfer').count(), 6);
   assert.equal(await page.locator('.flight-card').count(), 4);
-  assert.match(await page.locator('#day-title').textContent(), /Օրերի պլանը դեռ պատրաստվում է/);
+  assert.equal(await page.locator('#day-title').textContent(), realTrip.days[0].title_hy);
   assert.equal(await page.locator('#demo-banner').isVisible(), false);
   assert.equal(await page.locator('html').getAttribute('lang'), 'hy');
   assert.equal(await page.locator('html').getAttribute('translate'), 'no');
   assert.equal(await page.locator('meta[name=google]').getAttribute('content'), 'notranslate');
-  assert.equal(await page.locator('.buffer-short').count(), 0);
-  assert.equal(await page.locator('.buffer-note').count(), 12);
-  assert.match(await page.locator('#airports').textContent(), /ՀԱԿԱՍՈՒԹՅՈՒՆ/);
-  assert.match(await page.locator('#airports').textContent(), /private_van/);
+  assert.equal(await page.locator('.buffer-short').count(), realTrip.airport_transfers.flatMap(t=>t.options).filter(o=>typeof o.buffer_min==='number' && o.buffer_min<120).length);
+  for (const option of realTrip.airport_transfers.flatMap(t=>t.options)) assert.ok((await page.locator('#airports').textContent()).includes(option.label));
   assert.equal(await page.locator('.transfer-warning').count(), 6);
   assert.ok((await page.locator('#questions-section').textContent()).length > 100);
   assert.equal(await page.locator('.leaflet-marker-icon').count(), 0);
-  pass('Real intermediate file: 6 transfers, 4 flights, empty days, null buffers, warnings, unknown mode and labels');
+  pass('Real v5: 6 transfers, 4 flights, empty first day, supplied buffers, warnings and labels');
   for (let i = 0; i < 3; i++) {
     await page.locator('#cities button').nth(i).click();
-    assert.match(await page.locator('#home-note').textContent(), /կայարանը որոնված է անունով/i);
-    assert.ok(new URL(await page.locator('#home-actions a').first().getAttribute('href')).searchParams.get('destination').length > 10);
+    const station = realTrip.cities[i].home_station;
+    assert.equal(new URL(await page.locator('#home-actions a').first().getAttribute('href')).searchParams.get('destination'), `${station.lat},${station.lon}`);
   }
   await page.locator('#cities button').first().click();
-  pass('All three null-coordinate home stations use a named destination');
+  pass('All three v5 home stations use supplied coordinates');
   await page.evaluate(() => navigator.serviceWorker.ready);
   await page.waitForFunction(() => navigator.serviceWorker.controller);
   for (const width of [320, 375, 800, 900, 1400]) {

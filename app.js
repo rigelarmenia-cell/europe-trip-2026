@@ -2,6 +2,7 @@ import { coordinates, directions, localDate, localClock, parseHomes, safeUrl, va
 import { createMap } from './lib/map.js';
 import { orderedStops, dayRoutes, isSamsung } from './lib/itinerary.js';
 import { renderAirports } from './lib/airports.js';
+import { money } from './lib/format.js';
 
 const $ = id => document.getElementById(id);
 const base = new URL('./', location.href);
@@ -112,11 +113,11 @@ function render() {
   $('walk-total').textContent = day ? `Քայլք՝ ${day.total_walk_km == null ? 'չստուգված' : `${day.total_walk_km} կմ`}` : '';
   $('stop-count').textContent = `${stops.length} կանգառ`;
   $('stops').replaceChildren(...stops.map(renderStop));
-  if (!stops.length) $('stops').append(element('p', 'Այս օրվա կանգառները դեռ չեն տրամադրվել։ Կարող եք ընտրել այլ քաղաք կամ ստուգել տվյալների թարմացումը։', 'empty'));
+  if (!stops.length) $('stops').append(element('p', 'Կանգառները դեռ պատրաստվում են', 'empty'));
   renderHome(city);
   renderAirports($('airports'), $('flights'), trip); renderTickets(city);
   renderDayRoutes();
-  state.map?.show(stops, city?.home_station);
+  state.map?.show(stops, day && !stops.length ? null : city?.home_station);
   renderSafety();
   updateClock();
 }
@@ -147,7 +148,7 @@ function renderStop(stop, index) {
   for (const photo of photos) {
     const figure = element('figure'), img = document.createElement('img');
     img.src = photo.url; img.alt = stop.name_hy || stop.name_local || 'Կանգառ'; img.loading = 'lazy'; img.referrerPolicy = 'no-referrer';
-    img.onerror = () => img.replaceWith(element('div', 'Լուսանկարը չի բեռնվել։ Ստուգեք ինտերնետը։', 'photo-placeholder'));
+    img.onerror = () => img.replaceWith(element('div', 'Լուսանկարը չբեռնվեց', 'photo-placeholder'));
     const caption = element('figcaption', `${text(photo.author)} · ${text(photo.license)} `);
     if (safeUrl(photo.source_page)) caption.append(link('Լուսանկարի աղբյուրը', photo.source_page, ''));
     figure.append(img, caption); body.append(figure);
@@ -211,7 +212,7 @@ function renderTickets(city) {
   $('tickets').replaceChildren(element('p', city?.tickets?.summary_hy || 'Տոմսերի ստուգված տվյալները սպասվում են։'));
   for (const option of list(city?.tickets?.options)) {
     if (!option) continue;
-    const article = element('article'); article.append(element('h3', text(option.name)), element('p', `${text(option.price_eur)} € · ${option.label || 'ՉՍՏՈՒԳՎԱԾ'}`), element('p', text(option.where_to_buy_hy)), element('p', text(option.how_to_use_hy)));
+    const article = element('article'); article.append(element('h3', text(option.name)), element('p', `${money(option.price_eur)} · ${option.label || 'ՉՍՏՈՒԳՎԱԾ'}`), element('p', text(option.where_to_buy_hy)), element('p', text(option.how_to_use_hy)));
     if (option.source) article.append(link('Աղբյուրը', option.source)); $('tickets').append(article);
   }
   $('questions').replaceChildren(...state.trip.open_questions_hy.map(question => element('li', text(question))));

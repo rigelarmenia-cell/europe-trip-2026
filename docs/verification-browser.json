@@ -3,11 +3,11 @@
   "browser": "155.0.4283.45",
   "checks": [
     {
-      "name": "Real intermediate file: 6 transfers, 4 flights, empty days, null buffers, warnings, unknown mode and labels",
+      "name": "Real v5: 6 transfers, 4 flights, empty first day, supplied buffers, warnings and labels",
       "status": "PASS"
     },
     {
-      "name": "All three null-coordinate home stations use a named destination",
+      "name": "All three v5 home stations use supplied coordinates",
       "status": "PASS"
     },
     {

@@ -1,4 +1,4 @@
-"""Byte-compare current public files with the original delivered ZIP. Keep baseline intact."""
+"""B3 delta against the delivered B1 + B2 ZIP overlay. Keep both baselines intact."""
 from pathlib import Path
 from zipfile import ZipFile, ZIP_DEFLATED
 root = Path(__file__).resolve().parent.parent
@@ -11,10 +11,12 @@ for name in names:
             files[item.relative_to(root).as_posix()] = item.read_bytes()
 with ZipFile(root / 'europe-trip-2026.zip') as baseline:
     previous = {name: baseline.read(name) for name in baseline.namelist() if not name.endswith('/')}
+with ZipFile(root / 'europe-trip-2026-B2-update.zip') as baseline:
+    previous.update({name: baseline.read(name) for name in baseline.namelist() if not name.endswith('/')})
 changed = {name: data for name, data in files.items() if previous.get(name) != data}
 deleted = sorted(set(previous) - set(files))
 assert not deleted, f'Unexpected removals: {deleted}'
-target = root / 'europe-trip-2026-B2-update.zip'
+target = root / 'europe-trip-2026-B3-update.zip'
 with ZipFile(target, 'w', ZIP_DEFLATED) as archive:
     for name, data in sorted(changed.items()):
         archive.writestr(name, data)
