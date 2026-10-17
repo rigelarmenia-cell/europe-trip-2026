@@ -1,0 +1,86 @@
+[
+  {
+    "engine": "edge",
+    "browser": "155.0.4283.45",
+    "case": "v11",
+    "checks": [
+      "All days: title/notes/stops, Maps parts, photo attribution/placeholders, decimal km, line counts/styles/gaps, road geometry, 320–1400px",
+      "Visited retained; changed reordered edge is grey/unknown; station uses public coordinates",
+      "Malformed/missing paths fall back without JS error; valid data restores",
+      "Offline lines retained; no runtime routing requests; zero JS errors"
+    ],
+    "photos": 14,
+    "noPhotoStops": 51,
+    "status": "PASS"
+  },
+  {
+    "engine": "edge",
+    "browser": "155.0.4283.45",
+    "case": "full",
+    "checks": [
+      "All days: title/notes/stops, Maps parts, photo attribution/placeholders, decimal km, line counts/styles/gaps, road geometry, 320–1400px",
+      "Visited retained; changed reordered edge is grey/unknown; station uses public coordinates",
+      "Malformed/missing paths fall back without JS error; valid data restores",
+      "Offline lines retained; no runtime routing requests; zero JS errors"
+    ],
+    "photos": 36,
+    "noPhotoStops": 41,
+    "status": "PASS"
+  },
+  {
+    "engine": "edge",
+    "browser": "155.0.4283.45",
+    "case": "empty",
+    "checks": [
+      "All days: title/notes/stops, Maps parts, photo attribution/placeholders, decimal km, line counts/styles/gaps, road geometry, 320–1400px",
+      "Visited retained; changed reordered edge is grey/unknown; station uses public coordinates",
+      "Malformed/missing paths fall back without JS error; valid data restores",
+      "Offline lines retained; no runtime routing requests; zero JS errors"
+    ],
+    "photos": 33,
+    "noPhotoStops": 38,
+    "status": "PASS"
+  },
+  {
+    "engine": "webkit",
+    "browser": "26.5",
+    "case": "v11",
+    "checks": [
+      "All days: title/notes/stops, Maps parts, photo attribution/placeholders, decimal km, line counts/styles/gaps, road geometry, 320–1400px",
+      "Visited retained; changed reordered edge is grey/unknown; station uses public coordinates",
+      "Malformed/missing paths fall back without JS error; valid data restores",
+      "Offline lines retained; no runtime routing requests; zero JS errors"
+    ],
+    "photos": 14,
+    "noPhotoStops": 51,
+    "status": "PASS"
+  },
+  {
+    "engine": "webkit",
+    "browser": "26.5",
+    "case": "full",
+    "checks": [
+      "All days: title/notes/stops, Maps parts, photo attribution/placeholders, decimal km, line counts/styles/gaps, road geometry, 320–1400px",
+      "Visited retained; changed reordered edge is grey/unknown; station uses public coordinates",
+      "Malformed/missing paths fall back without JS error; valid data restores",
+      "Offline lines retained; no runtime routing requests; zero JS errors"
+    ],
+    "photos": 36,
+    "noPhotoStops": 41,
+    "status": "PASS"
+  },
+  {
+    "engine": "webkit",
+    "browser": "26.5",
+    "case": "empty",
+    "checks": [
+      "All days: title/notes/stops, Maps parts, photo attribution/placeholders, decimal km, line counts/styles/gaps, road geometry, 320–1400px",
+      "Visited retained; changed reordered edge is grey/unknown; station uses public coordinates",
+      "Malformed/missing paths fall back without JS error; valid data restores",
+      "Offline lines retained; no runtime routing requests; zero JS errors"
+    ],
+    "photos": 33,
+    "noPhotoStops": 38,
+    "status": "PASS"
+  }
+]

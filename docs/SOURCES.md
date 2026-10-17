@@ -33,3 +33,11 @@ Leaflet ներբեռնումները՝ `https://unpkg.com/leaflet@1.9.4/dist/` �
 
 Ռուսերեն տեղադրման անունը և Z Fold 4 արդյունքը սեփականատիրոջ հաղորդումն են։ Play Protect-ի պատճառը և իրական հեռախոսում notranslate արդյունքը չստուգված են։ Ստորև սկզբնական փուլի աղբյուրների պատմությունն է։
 
+
+# Բ4.2 աղբյուրներ · 17.10.2026
+
+- OSRM Route API, GeoJSON geometry/overview և driving profile. https://project-osrm.org/docs/v5.24.0/api/ և https://project-osrm.org/ ։ Build-time միայն. public demo service-ի հասանելիությունը երաշխավորված չէ։ Bus/tram-ի driving երկրաչափությունը փողոցային մոտարկում է, ոչ օպերատորի երթագիծ։
+- TMB պաշտոնական քարտեզ/գունային անվանումներ՝ L3 green, L4 yellow, L9 orange. https://static-web.tmb.cat/en/barcelona-transport/metro-bus-map
+- Paris RATP պաշտոնական գծերի քարտեզներ. https://www.ratp.fr/vos-lignes/metro/11 և https://www.iledefrance-mobilites.fr/le-reseau/plans ։ M1 դեղին, M11 շագանակագույն գունային ընտանիքներ. թվային ընտրված երանգները պաշտոնական hex-ի անկախ հավաստում չեն։
+- ATAC Metro B/B1 կապույտ քարտեզ. https://www.atac.roma.it/docs/default-source/mappe-tpl/mappa-metro-e-ferrovie-metropolitane.pdf?sfvrsn=e1e83890_20
+- WebKit offline emulation սահմանափակում. https://github.com/microsoft/playwright/issues/42775 ։ Այլընտրանք՝ կանգնեցված origin, service-worker reload. իրական iPhone փորձ չէ։

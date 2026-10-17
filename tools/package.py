@@ -3,7 +3,7 @@ from pathlib import Path
 from zipfile import ZipFile, ZIP_DEFLATED
 
 root = Path(__file__).resolve().parent.parent
-roots = ['.gitignore', '.nojekyll', 'index.html', 'styles.css', 'app.js', 'sw.js', 'manifest.webmanifest', 'trip.json', 'demo-trip.json', 'package.json', 'README.md', 'STATE.md', 'lib', 'icons', 'vendor', 'docs', 'tests', 'tools']
+roots = ['.gitignore', '.nojekyll', 'index.html', 'styles.css', 'app.js', 'sw.js', 'manifest.webmanifest', 'trip.json', 'demo-trip.json', 'paths.json', 'package.json', 'README.md', 'STATE.md', 'lib', 'icons', 'vendor', 'docs', 'tests', 'tools']
 paths = []
 for name in roots:
     source = root / name
@@ -11,7 +11,7 @@ for name in roots:
 target = root / 'europe-trip-2026-full-current.zip'
 with ZipFile(target, 'w', ZIP_DEFLATED) as archive:
     for path in paths:
-        if '__pycache__' in path.parts:
+        if '__pycache__' in path.parts or path.relative_to(root).as_posix().startswith('tests/fixtures/'):
             continue
         archive.write(path, path.relative_to(root).as_posix())
 with ZipFile(target) as archive:

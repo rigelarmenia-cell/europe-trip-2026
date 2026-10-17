@@ -1,0 +1,25 @@
+// Build-time only. Sends public stop/station coordinates, never saved homes.
+import {readFile,writeFile} from 'node:fs/promises';
+import {validateTrip} from '../lib/core.js';
+import {pathCandidates,validatePaths} from '../lib/paths.js';
+const file=process.argv[2],output=process.argv[3]||'paths.json';
+if(!file)throw Error('Usage: node tools/build-paths.mjs <trip.json> [output.json]');
+const trip=validateTrip(JSON.parse(await readFile(file,'utf8'))),paths={},failures=[];
+const candidates=[...pathCandidates(trip)].filter(([,s])=>['bus','tram','taxi'].includes(s.kind));
+for(const [key,s] of candidates) {
+ if(s.line.includes('+')) {failures.push({key,reason:'Mixed transport (+): straight fallback, not a complete road route'});continue;}
+ try {
+  const coords=s.points.map(([lat,lon])=>`${lon},${lat}`).join(';');
+  const url=`https://router.project-osrm.org/route/v1/driving/${coords}?overview=full&geometries=geojson&steps=false`;
+  const response=await fetch(url,{signal:AbortSignal.timeout(15000)});
+  if(!response.ok)throw Error(`HTTP ${response.status}`);
+  const data=await response.json();if(data.code!=='Ok')throw Error('No route');
+  let points=data.routes[0].geometry.coordinates.map(([lon,lat])=>[lat,lon]);
+  // Bound mobile payload; sampled geometry remains an explicitly approximate road path.
+  if(points.length>200)points=Array.from({length:200},(_,i)=>points[Math.round(i*(points.length-1)/199)]);
+  validatePaths({[key]:points},trip);paths[key]=points;
+ }catch(error){failures.push({key,reason:error.message});}
+ if(candidates.length>1)await new Promise(r=>setTimeout(r,1100));
+}
+await writeFile(output,JSON.stringify(paths,null,2)+'\n');
+console.log(JSON.stringify({output,candidates:candidates.length,built:Object.keys(paths).length,fallbacks:failures,source:'https://router.project-osrm.org',profile:'driving; road approximation, not verified bus/tram route'},null,2));

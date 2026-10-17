@@ -1,0 +1,52 @@
+{
+  "device": "Windows desktop edge / Playwright, NOT a physical phone",
+  "browser": "155.0.4283.45",
+  "checks": [
+    {
+      "name": "Supplied trip: transfers, flights, first day counts, buffers, warnings and labels",
+      "status": "PASS"
+    },
+    {
+      "name": "All home stations use supplied coordinates",
+      "status": "PASS"
+    },
+    {
+      "name": "Service worker controls subpath; real layout fits 320–1400px; translation attributes present",
+      "status": "PASS"
+    },
+    {
+      "name": "Synthetic home fragment scrubbed and persisted after reload",
+      "status": "PASS"
+    },
+    {
+      "name": "Explicit demo: two days, ten stops, red short buffer and optional city timezone; real storage isolated",
+      "status": "PASS"
+    },
+    {
+      "name": "Maps chunks respect mobile waypoint limit; visited/skipped persist and transit routes omit them",
+      "status": "PASS"
+    },
+    {
+      "name": "Safety polygon toggles independently of day route lines; full-screen map Back works",
+      "status": "PASS"
+    },
+    {
+      "name": "Malformed update rejected; accepted data update preserves personal stop IDs",
+      "status": "PASS"
+    },
+    {
+      "name": "Offline reload works for query demo and real data, airports, flights and personal notes",
+      "status": "PASS"
+    },
+    {
+      "name": "Simulated GPS and denial; Samsung official UA token banner; independent browser storage",
+      "status": "PASS"
+    },
+    {
+      "name": "Only local shell cached, no tiles/data; zero JavaScript page errors",
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS",
+  "engine": "edge"
+}

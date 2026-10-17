@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-17-7",
-  "generated_at": "2026-10-17T05:50:01+04:00",
+  "version": "2026-10-17-11",
+  "generated_at": "2026-10-17T19:04:37+04:00",
   "cities": [
     {
       "id": "paris",
@@ -17,7 +17,7 @@
         "walk_from_home_min": 10
       },
       "tickets": {
-        "summary_hy": "Ա2/Ա3 միջանկյալ. Navigo Easy-ը անհատական կրիչ է (2 €/քարտ՝ եթե չունեք), նույն քարտը չի փոխարինում 8 անձի 8 կրիչները։ Bus–Tram՝ 2,05 €/անձ, Metro–Train–RER՝ 2,55 €/անձ։ Android/iPhone անհատական թվային Navigo-ն նույնպես տարբերակ է՝ վավերացմամբ։ Օրական/առանձին տոմսերի օպտիմալ համեմատությունը մինչև վերջնական կանգառների երթուղիները ՉՍՏՈՒԳՎԱԾ է։ Տնից Romainville–Carnot քայլքի 10 րոպեն գնահատական է։",
+        "summary_hy": "Ա2/Ա3 միջանկյալ. Navigo Easy-ը անհատական կրիչ է (2 €/քարտ՝ եթե չունեք), նույն քարտը չի փոխարինում 8 անձի 8 կրիչները։ Bus–Tram՝ 2,05 €/անձ, Metro–Train–RER՝ 2,55 €/անձ։ Android/iPhone անհատական թվային Navigo-ն նույնպես տարբերակ է՝ վավերացմամբ։ Օրական/առանձին տոմսերի օպտիմալ համեմատությունը մինչև վերջնական կանգառների երթուղիները ՉՍՏՈՒԳՎԱԾ է։ Տնից Romainville–Carnot քայլքի 10 րոպեն գնահատական է։ 20–23.10 նախնական պլանով օրական 2 մետրոյի առանձին ուղևորություն՝ 5,10 €/անձ/օր, 40,80 €/8 օրական. չորս օրվա 2-ական ուղևորությամբ՝ 20,40 €/անձ, 163,20 €/8, եթե իրականում նույն ծավալը լինի։ BVA ավտոբուսն ու Noctilien-ը հաշվարկի մեջ ներառված չեն։ Navigo Jour՝ 12,30 €/անձ/օր (98,40 €/8), պաշտոնական 2026 սակագին. եթե օրում միայն 2 մետրոյի առանձին ուղևորություն է, 5,10 €/անձ (40,80 €/8) ավելի էժան է։ Օդանավակայանային հատուկ ծառայությունները բացառված են։",
         "options": [
           {
             "name": "Navigo Easy անհատական կրիչ",
@@ -42,6 +42,14 @@
             "how_to_use_hy": "Մետրո M11-ի ուղևորությունն առանձին է Noctilien N22-ի Bus–Tram տոմսից։",
             "label": "ՀԱՍՏԱՏՎԱԾ",
             "source": "https://www.iledefrance-mobilites.fr/titres-et-tarifs/detail/ticket-metro-train-rer"
+          },
+          {
+            "name": "Navigo Jour (1 օր, 1–5 գոտիներ, բացառությամբ օդանավակայանային ծառայությունների)",
+            "price_eur": 12.3,
+            "where_to_buy_hy": "Իր համար Navigo կրիչով կամ համապատասխան հեռախոսով՝ IDFM հավելված",
+            "how_to_use_hy": "Օրական անսահմանափակ. մեկ անձ՝ մեկ տոմս/կրիչ. երկու սովորական մետրոյի ուղևորության դեպքում սովորական տոմսերն ավելի էժան են։",
+            "label": "ՀԱՍՏԱՏՎԱԾ",
+            "source": "https://www.iledefrance-mobilites.fr/en/titres-et-tarifs/detail/forfait-navigo-jour"
           }
         ]
       },
@@ -163,10 +171,93 @@
         "walk_from_home_min": 9
       },
       "tickets": {
-        "summary_hy": "Ա1-ի տոմսերն են ներկայացված, քաղաքային տոմսերի Ա2 ամբողջական համեմատությունը դեռ բաց է։",
-        "options": []
+        "summary_hy": "TMB 2026. Մեկ տոմս՝ 2,90 €, T-familiar 11,50 € 8 ուղևորություն, T-dia 12 €/անձ, L9 օդանավակայանային մետրոյի հատուկ տոմս՝ 5,90 €/անձ։ T-familiar չի գործում L9 Aeroport T1/T2 կայարաններում։ Սպասարկման և կրիչի պայմանները ստուգել տեղում։",
+        "options": [
+          {
+            "name": "T-familiar, 8 ուղևորություն",
+            "price_eur": 11.5,
+            "where_to_buy_hy": "TMB մետրոյի ավտոմատ կամ թույլատրված պաշտոնական վաճառք",
+            "how_to_use_hy": "Յուրաքանչյուր ուղևորի առանձին վավերացում; օդանավակայանի L9 կայարաններում չի գործում",
+            "label": "ՀԱՍՏԱՏՎԱԾ",
+            "source": "https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares"
+          },
+          {
+            "name": "Միանգամյա տոմս",
+            "price_eur": 2.9,
+            "where_to_buy_hy": "TMB մետրոյի ավտոմատ կամ թույլատրված պաշտոնական վաճառք",
+            "how_to_use_hy": "Անհատական վավերացում",
+            "label": "ՀԱՍՏԱՏՎԱԾ",
+            "source": "https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares"
+          },
+          {
+            "name": "Airport Metro Ticket",
+            "price_eur": 5.9,
+            "where_to_buy_hy": "TMB մետրոյի ավտոմատ կամ թույլատրված պաշտոնական վաճառք",
+            "how_to_use_hy": "Aeroport T1/T2 L9 մետրոյի մուտքի համար հատուկ տոմս",
+            "label": "ՀԱՍՏԱՏՎԱԾ",
+            "source": "https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares"
+          }
+        ]
       },
-      "safety_zones": []
+      "safety_zones": [
+        {
+          "id": "bar-risk-rambla",
+          "name": "La Rambla / Barri Gòtic",
+          "polygon": [
+            [
+              41.377,
+              2.166
+            ],
+            [
+              41.377,
+              2.183
+            ],
+            [
+              41.389,
+              2.183
+            ],
+            [
+              41.389,
+              2.166
+            ]
+          ],
+          "risk_types": [
+            "գրպանահատություն"
+          ],
+          "day_night_hy": "Ցերեկ՝ մարդաշատ զբոսաշրջային մասերում իրերը վերահսկել; գիշեր՝ նախընտրել լուսավորված հիմնական փողոցները",
+          "explanation_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ ոչ պաշտոնական սահման, ոստիկանության ընդհանուր խորհրդի տարածքային արտապատկերում։",
+          "source": "https://mossos.gencat.cat/ca/consells_de_seguretat/persones/mobilitatsegura/transports-publics/"
+        },
+        {
+          "id": "bar-risk-catalunya",
+          "name": "Plaça de Catalunya / մետրո",
+          "polygon": [
+            [
+              41.385,
+              2.167
+            ],
+            [
+              41.385,
+              2.174
+            ],
+            [
+              41.39,
+              2.174
+            ],
+            [
+              41.39,
+              2.167
+            ]
+          ],
+          "risk_types": [
+            "գրպանահատություն",
+            "կայարանային հանգույց"
+          ],
+          "day_night_hy": "Երկու ժամային փուլերում՝ հատկապես կայարանային բազմության և ավտոմատի մոտ ուշադիր լինել",
+          "explanation_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ օրինակային պոլիգոն, ոչ ոստիկանության պաշտոնական սահմանագիծ։",
+          "source": "https://mossos.gencat.cat/ca/consells_de_seguretat/persones/mobilitatsegura/transports-publics/"
+        }
+      ]
     },
     {
       "id": "rome",
@@ -184,27 +275,270 @@
         "walk_from_home_min": 3
       },
       "tickets": {
-        "summary_hy": "Ա1-ի տոմսերն են ներկայացված, քաղաքային տոմսերի Ա2 ամբողջական համեմատությունը դեռ բաց է։",
-        "options": []
+        "summary_hy": "ATAC BIT՝ 1,50 €/անձ/100 րոպե։ Երկու առանձին օգտագործում՝ 3 €/անձ, 24 €/8։ Roma 24H՝ 8,50 €/անձ՝ երբ պահանջվում է ավելի շատ քաղաքային երթեր։ Outlet-ի EUR Fermi shuttle-ը առանձին տոմս է, 78 €/8 (6×13 + 2 մինչև 25 տարեկան անվճար), գումարած մետրո՝ ըստ վավերացումների։",
+        "options": [
+          {
+            "name": "ATAC BIT 100 րոպե",
+            "price_eur": 1.5,
+            "where_to_buy_hy": "ATAC մետրոյի ավտոմատներ, գրասենյակներ, Tap & Go կամ հավելվածներ",
+            "how_to_use_hy": "Անհատական վավերացնել; մետրոյի մեկ մուտք և ներսի գծափոխումներ՝ 100 րոպեում",
+            "label": "ՀԱՍՏԱՏՎԱԾ",
+            "source": "https://www.atac.roma.it/en/tickets-and-passes/bit"
+          },
+          {
+            "name": "ROMA 24H",
+            "price_eur": 8.5,
+            "where_to_buy_hy": "ATAC ավտոմատ կամ Tap & Go",
+            "how_to_use_hy": "24 ժամ. քաղաքի սովորական գծերի համար; օդանավակայանային հատուկ գնացքը ներառված չէ",
+            "label": "ՀԱՍՏԱՏՎԱԾ",
+            "source": "https://www.atac.roma.it/en/tickets-and-passes/"
+          }
+        ]
       },
-      "safety_zones": []
+      "safety_zones": [
+        {
+          "id": "rome-risk-termini",
+          "name": "Termini / metro-ի բազմամարդ հանգույց",
+          "polygon": [
+            [
+              41.9006,
+              12.497
+            ],
+            [
+              41.9006,
+              12.5035
+            ],
+            [
+              41.9043,
+              12.5035
+            ],
+            [
+              41.9043,
+              12.497
+            ]
+          ],
+          "risk_types": [
+            "գրպանահատություն",
+            "կայարանային հանգույց"
+          ],
+          "day_night_hy": "Ցերեկ՝ մարդաշատ փոխատեղումներ; գիշեր՝ երկար սպասման և մեկուսի հատվածի վտանգին զգուշանալ, աղբյուրում ռիսկի տոկոսներ չկան",
+          "explanation_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պատկերավոր, ոչ պաշտոնապես սահմանված պոլիգոն։ Պահել պայուսակները տեսադաշտում՝ ՄԹ արտաքին գործերի ընդհանուր խորհրդով։",
+          "source": "https://www.gov.uk/foreign-travel-advice/italy/safety-and-security"
+        },
+        {
+          "id": "rome-risk-trevi",
+          "name": "Trevi / պատմական կենտրոն",
+          "polygon": [
+            [
+              41.8992,
+              12.4812
+            ],
+            [
+              41.8992,
+              12.485
+            ],
+            [
+              41.9023,
+              12.485
+            ],
+            [
+              41.9023,
+              12.4812
+            ]
+          ],
+          "risk_types": [
+            "գրպանահատություն",
+            "խաբեություն"
+          ],
+          "day_night_hy": "Ցերեկ/երեկո՝ խիտ զբոսաշրջային բազմություն, հեռախոսներն ու դրամապանակները վերահսկել",
+          "explanation_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ տարածքային շրջանակը դրված է որպես զգուշության հիշեցում, ոչ հանցավորության պաշտոնական քարտեզ։",
+          "source": "https://www.gov.uk/foreign-travel-advice/italy/safety-and-security"
+        },
+        {
+          "id": "rome-risk-colosseo",
+          "name": "Colosseo-ի այցելուների հանգույց",
+          "polygon": [
+            [
+              41.8885,
+              12.4886
+            ],
+            [
+              41.8885,
+              12.4952
+            ],
+            [
+              41.8922,
+              12.4952
+            ],
+            [
+              41.8922,
+              12.4886
+            ]
+          ],
+          "risk_types": [
+            "գրպանահատություն"
+          ],
+          "day_night_hy": "Ցերեկ՝ զբոսաշրջային բազմություն; գիշեր՝ անծանոթ մութ նրբանցքները շրջանցել",
+          "explanation_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ ընդհանրական անվտանգության հիշեցում, ոչ պաշտոնական վտանգավորության գոտի։",
+          "source": "https://www.gov.uk/foreign-travel-advice/italy/safety-and-security"
+        }
+      ]
     }
   ],
   "days": [
     {
       "date": "2026-10-20",
       "city": "paris",
-      "title_hy": "Ժամանում BVA 16:55. սնունդ, կարճ երեկոյան զբոսանք և տուն՝ ընտրության ենթակա",
-      "notes_hy": "ՀԱՍՏԱՏՎԱԾ (սեփականատիրոջ ամրագրման պատկեր, 17.10.2026)՝ BVA վայրէջք 16:55։ ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ (timeanddate, 17.10.2026)՝ 20.10 արևամուտ 18:51, մթնշաղի ավարտ 19:23։ ԱՌԱՋԱՐԿ 1 / ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ եթե A01-ի մոտ 18:00 ավտոբուսը հաստատվի և իրականում հաջողվի նստել, մոտ 19:15–19:45 Porte Maillot հասնելուց հետո մինչև 21:00 կազմակերպել համեստ ընթրիք, մոտ 20–30ր լուսավորված քաղաքային զբոսանք և մետրոյով վերադառնալ Romainville–Carnot՝ 22:00–23:00 սահմանում. 8 հոգով սնվելու վայրը և վերադարձի մետրոն առանձին ստուգման կարիք ունեն։ ԱՌԱՋԱՐԿ 2 / ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ եթե քաղաք հասնելը ուշանա՝ սնունդ + շատ կարճ լուսավոր հրապարակ և տուն՝ առանց երկար կենտրոնական զբոսանքի։ ԱՌԱՋԱՐԿ 3՝ եթե խումբը ցանկանում է ցերեկային Փարիզը, տեղափոխել երկար զբոսանքը 21.10.2026 և 20-ին պահպանել միայն սնունդ/վերադարձ. պահանջի փոփոխության համար սեփականատիրոջ որոշում է անհրաժեշտ։ Ոչ մի սցենար դեռ ընտրված չէ։ A01-ի ճշգրիտ 20.10 ժամը, հետագա մետրոյի կապերը և 8 հոգու ռեստորանի տեղերը մինչև հաստատումը ՉՍՏՈՒԳՎԱԾ են։",
-      "total_walk_km": null,
-      "stops": []
+      "title_hy": "Ժամանում, ընթրիք և կարճ զբոսանք Hôtel de Ville շրջանում",
+      "notes_hy": "Սեփականատիրոջ ՀԱՍՏԱՏՎԱԾ սցենարը՝ ընթրիք և կարճ զբոսանք, ապա տուն։ A01 18:00 ՉՍՏՈՒԳՎԱԾ, պահուստ՝ ուշ ավտոբուս և կարճացված զբոսանք։ 20.10 մեկ սնունդը բավարար է։",
+      "total_walk_km": 2.1,
+      "stops": [
+        {
+          "id": "paris-20-01",
+          "order": 1,
+          "kind": "transport",
+          "name_hy": "Պորտ Մայոյի կանգառ",
+          "name_local": "Porte Maillot",
+          "lat": 48.8788,
+          "lon": 2.2824,
+          "description_hy": "BVA A01 18:00 չստուգված թեկնածուի հնարավոր վերջնակետը",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            10,
+            20
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "A01 տոմսը՝ օդանավակայանային տեղափոխության հաշվարկում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "M1",
+            "color": "դեղին",
+            "direction": "Château de Vincennes",
+            "get_off": "Hôtel de Ville",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ ընտրված կանգառների քայլքն ու իրական ժամը ՉՍՏՈՒԳՎԱԾ",
+            "ticket_hy": "2,55 € / անձ՝ առանձին մետրոյի տոմս"
+          },
+          "label": "ՉՍՏՈՒԳՎԱԾ",
+          "sources": []
+        },
+        {
+          "id": "paris-20-02",
+          "order": 2,
+          "kind": "sight",
+          "name_hy": "Քաղաքապետարանի հրապարակ",
+          "name_local": "Place de l’Hôtel de Ville",
+          "lat": 48.8566,
+          "lon": 2.3522,
+          "description_hy": "Մետրոյով կենտրոն հասնելուց հետո դիտել հրապարակն ու լուսավորված ճակատը",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            10,
+            20
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.65,
+            "min": 10,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ ուղու մոտավոր քայլք",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
+        },
+        {
+          "id": "paris-20-03",
+          "order": 3,
+          "kind": "food",
+          "name_hy": "Ընթրիքի թեկնածու՝ Le Trumilou",
+          "name_local": "Le Trumilou",
+          "lat": 48.8524,
+          "lon": 2.3562,
+          "description_hy": "Սեփականատերը ընտրել է ընթրիք + կարճ զբոսանք. ռեստորանի բաց լինելը և 8 տեղի առկայությունը չստուգված են",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            40,
+            65
+          ],
+          "hours_hy": "20.10 երեկոյան՝ ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հրապարակված մենյուի ընթացիկ ամբողջական արժեքը ՉՍՏՈՒԳՎԱԾ",
+          "photos": [],
+          "menu_url": "https://www.letrumilou.fr/carte-et-menu/menu-et-carte/",
+          "menu_prices_hy": "Ըստ նախկին ուսումնասիրության սոխով ապուր 11 €, օրվա մենյու 20 €՝ ընթացիկ կիրառելիությունը ՉՍՏՈՒԳՎԱԾ",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.65,
+            "min": 9,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ Սենի ափով քայլք",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": [
+            "https://www.letrumilou.fr/carte-et-menu/menu-et-carte/"
+          ]
+        },
+        {
+          "id": "paris-20-04",
+          "order": 4,
+          "kind": "sight",
+          "name_hy": "Արկոլի կամուրջ",
+          "name_local": "Pont d’Arcole",
+          "lat": 48.8556,
+          "lon": 2.3504,
+          "description_hy": "Կարճ երեկոյան զբոսանք Սենի ափին, վերադարձն առաջնահերթ է մինչև 23:00",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            10,
+            20
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "M11",
+            "color": "շագանակագույն",
+            "direction": "Rosny–Bois-Perrier",
+            "get_off": "Romainville–Carnot",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ Hôtel de Ville կայարան վերադառնալու քայլքը և M11 իրական ժամը ՉՍՏՈՒԳՎԱԾ",
+            "ticket_hy": "2,55 € / անձ"
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
+        }
+      ]
     },
     {
       "date": "2026-10-21",
       "city": "paris",
-      "title_hy": "Trocadéro → Tour Eiffel → Montparnasse (նախնական)",
-      "notes_hy": "Ա2/Ա3 ՄԻՋԱՆԿՅԱԼ. Հերթականությունն ընտրված է, բայց տնից մեկնում/վերադարձ, ժամանակներն ու քայլքի հանրագումարը դեռ չեն ստուգվել, ուստի չի ներկայացվում որպես ավարտված օրական երթուղի։",
-      "total_walk_km": null,
+      "title_hy": "Տրոկադերո, Էյֆելյան աշտարակ, Սեն և Ինվալիդներ",
+      "notes_hy": "Երթուղին պլանային է։ Երկրորդ սննդի կետի անունը/հասանելիությունը դեռ ՉՍՏՈՒԳՎԱԾ։ Chartier Montparnasse-ը կոնկրետ հայտնի կետ է, 8 հոգու տեղավորման երաշխիք չկա։ Նախկին «restaurant pending» կանգառը հեռացված է. երկրորդ սննդի կոնկրետ վայրը և 8 հոգու նստելը ՉՍՏՈՒԳՎԱԾ են. դա չի ներկայացվում որպես իրական տեղ։ Նախկին ID-ները մնացած կանգառների համար պահպանված են։",
+      "total_walk_km": 8.9,
       "stops": [
         {
           "id": "paris-21-01",
@@ -235,13 +569,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": null,
-            "min": null,
+            "km": 0.25,
+            "min": 4,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ՉՍՏՈՒԳՎԱԾ՝ անհրաժեշտ է հաշվարկել ճշգրիտ քայլքը/ընտրված մետրոյի ընթացքը",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -250,8 +584,78 @@
           ]
         },
         {
-          "id": "paris-21-02",
+          "id": "paris-21-04",
           "order": 2,
+          "kind": "sight",
+          "name_hy": "Տրոկադերոյի այգիներ",
+          "name_local": "Jardins du Trocadéro",
+          "lat": 48.8606,
+          "lon": 2.2891,
+          "description_hy": "Քայլել այգիներով դեպի Սեն, լուսանկարել աշտարակը",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            15,
+            25
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.5,
+            "min": 7,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": [
+            "https://www.paris.fr/lieux/jardins-du-trocadero-1789"
+          ]
+        },
+        {
+          "id": "paris-21-05",
+          "order": 3,
+          "kind": "sight",
+          "name_hy": "Իենայի կամուրջ",
+          "name_local": "Pont d’Iéna",
+          "lat": 48.8594,
+          "lon": 2.2927,
+          "description_hy": "Կամրջից տեսնել աշտարակը և Սենը",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            10,
+            20
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.35,
+            "min": 5,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
+        },
+        {
+          "id": "paris-21-02",
+          "order": 4,
           "kind": "sight",
           "name_hy": "Էյֆելյան աշտարակի այգի և էսպլանադ",
           "name_local": "Tour Eiffel – Jardins et esplanade",
@@ -265,30 +669,185 @@
           ],
           "hours_hy": "Այգի/էսպլանադ. մուտքը անվտանգության հսկողությամբ; տվյալ օրվա կոնկրետ ժամերը՝ ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "0 € այգի/էսպլանադ; աստիճաններով 2-րդ հարկ՝ 14,80 €/մեծահասակ, 7,40 €/12–24տ. (ընտրովի, 8-ի համար՝ 103,60 €)",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Eiffel_Tower_at_Trocadero.jpg",
+              "author": "Lieseylulu",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_at_Trocadero.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.7,
+            "min": 10,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.toureiffel.paris/en/faq/spot/can-you-walk-beneath-eiffel-tower-without-paying-ticket",
+            "https://www.toureiffel.paris/en/rates-opening-times",
+            "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_at_Trocadero.jpg"
+          ]
+        },
+        {
+          "id": "paris-21-06",
+          "order": 5,
+          "kind": "sight",
+          "name_hy": "Մարսյան դաշտ",
+          "name_local": "Champ-de-Mars",
+          "lat": 48.8556,
+          "lon": 2.2985,
+          "description_hy": "Էյֆելյան աշտարակի շուրջ կանաչ տարածք",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            20,
+            30
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
           "photos": [],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": null,
-            "min": null,
+            "km": 1.25,
+            "min": 18,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ՉՍՏՈՒԳՎԱԾ՝ անհրաժեշտ է հաշվարկել ճշգրիտ քայլքը/ընտրված մետրոյի ընթացքը",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
             "ticket_hy": ""
           },
-          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
           "sources": [
-            "https://www.toureiffel.paris/en/faq/spot/can-you-walk-beneath-eiffel-tower-without-paying-ticket",
-            "https://www.toureiffel.paris/en/rates-opening-times"
+            "https://www.paris.fr/lieux/parc-du-champ-de-mars-1807"
           ]
         },
         {
+          "id": "paris-21-07",
+          "order": 6,
+          "kind": "sight",
+          "name_hy": "Բիր-Հաքեյմ կամուրջ",
+          "name_local": "Pont de Bir-Hakeim",
+          "lat": 48.8555,
+          "lon": 2.2874,
+          "description_hy": "Կամրջի կամարների հեռանկարից լուսանկարել աշտարակը",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            15,
+            25
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 2.8,
+            "min": 40,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ Pont de Bir-Hakeim → Pont Alexandre III Սենի երկայնքով մոտ 2,8 կմ/40 րոպե, քարտեզային չափումը ՉՍՏՈՒԳՎԱԾ",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
+        },
+        {
+          "id": "paris-21-09",
+          "order": 7,
+          "kind": "sight",
+          "name_hy": "Ալեքսանդր III-ի կամուրջ",
+          "name_local": "Pont Alexandre III",
+          "lat": 48.8636,
+          "lon": 2.3136,
+          "description_hy": "Սենի ափերով զբոսանքի տեսարժան կամուրջ",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            15,
+            25
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Pont_Alexandre_III%2C_Paris%2C_France.jpg",
+              "author": "Didier Moïse",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Pont_Alexandre_III,_Paris,_France.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.35,
+            "min": 5,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": [
+            "https://commons.wikimedia.org/wiki/File:Pont_Alexandre_III,_Paris,_France.jpg"
+          ]
+        },
+        {
+          "id": "paris-21-10",
+          "order": 8,
+          "kind": "sight",
+          "name_hy": "Ինվալիդների էսպլանադ",
+          "name_local": "Esplanade des Invalides",
+          "lat": 48.8624,
+          "lon": 2.312,
+          "description_hy": "Զբոսնել լայն հրապարակով, դիտել գմբեթը",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            20,
+            35
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 2.7,
+            "min": 39,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
+        },
+        {
           "id": "paris-21-03",
-          "order": 3,
+          "order": 9,
           "kind": "food",
           "name_hy": "Շարտիե՝ Մոնպառնաս",
           "name_local": "Bouillon Chartier Montparnasse",
@@ -300,27 +859,27 @@
             40,
             75
           ],
-          "hours_hy": "Ամեն օր 11:30–00:00 (օպերատորի պաշտոնական էջ, ստուգված 17.10.2026)",
+          "hours_hy": "Ամեն օր 11:30–00:00 (պաշտոնական ընդհանուր ժամեր), առանց ամրագրման",
           "price_hy": "Սկսած՝ նախուտեստ 1 €, հիմնական 7 €, աղանդեր 2 €։ Գումարը ոչ կոնկրետ ուտեստի գին է։",
           "photos": [],
-          "menu_url": "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
-          "menu_prices_hy": "2025.10 պաշտոնական օրինակային մենյու՝ նախուտեստներ 1–7,50 €, հիմնականներ 7–13,80 €. Ամեն օր փոխվում է, 2026.10 այցի մենյուն ՉՍՏՈՒԳՎԱԾ։",
+          "menu_url": "https://www.bouillon-chartier.com/bouillon-chartier-montparnasse/",
+          "menu_prices_hy": "Պաշտոնական կայք՝ նախուտեստ սկսած 1 €, հիմնականը 7 €-ից, աղանդեր 2 €-ից. կոնկրետ ճաշացանկի բաղադրությունը/ամսաթիվը և 8 տեղը ՉՍՏՈՒԳՎԱԾ",
           "reviews_source": "Կարծիքները առանձին օրագրված աղբյուրներով դեռ չեն գնահատվել. 8 հոգով մի սեղանի երաշխիք չկա, ամրագրումներ չեն ընդունվում։",
           "to_next": {
-            "mode": "walk",
+            "mode": "metro",
             "km": null,
             "min": null,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "ՉՍՏՈՒԳՎԱԾ՝ անհրաժեշտ է հաշվարկել ճշգրիտ քայլքը/ընտրված մետրոյի ընթացքը",
-            "ticket_hy": ""
+            "line": "M11",
+            "color": "շագանակագույն",
+            "direction": "Rosny–Bois-Perrier",
+            "get_off": "Romainville–Carnot",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ դեպի մետրոյի համապատասխան կայարան և վերադարձ. կոնկրետ ժամերը ՉՍՏՈՒԳՎԱԾ",
+            "ticket_hy": "Ticket Métro–Train–RER, 2,55 €"
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
-            "https://www.bouillon-chartier.com/bouillon-chartier-montparnasse/",
-            "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf"
+            "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
+            "https://www.bouillon-chartier.com/bouillon-chartier-montparnasse/"
           ]
         }
       ]
@@ -328,9 +887,9 @@
     {
       "date": "2026-10-22",
       "city": "paris",
-      "title_hy": "Notre-Dame → Louvre → Tuileries → Chartier (նախնական)",
-      "notes_hy": "Ա2/Ա3 ՄԻՋԱՆԿՅԱԼ. Բացօթյա և անվճար կանգառների շեշտադրում; քայլքը, երկու սնվելու կետերն ու տնից/տուն երթուղիները հետագա ճշտման են ենթակա։",
-      "total_walk_km": null,
+      "title_hy": "Նոտր Դամ, Սեն, Լուվրի բակ, Տյուիլրի և Palais-Royal",
+      "notes_hy": "Բացօթյա պատմական երթուղի։ Louvre-ի ներսի վճարովի մուտք նախատեսված չէ։ Երկրորդ սննդի կետը՝ բաց հարց։ Նախկին «restaurant pending» կանգառը հեռացված է. երկրորդ սննդի կոնկրետ վայրը և 8 հոգու նստելը ՉՍՏՈՒԳՎԱԾ են. դա չի ներկայացվում որպես իրական տեղ։ Նախկին ID-ները մնացած կանգառների համար պահպանված են։",
+      "total_walk_km": 5.45,
       "stops": [
         {
           "id": "paris-22-01",
@@ -348,30 +907,115 @@
           ],
           "hours_hy": "Հինգշաբթի 22.10՝ 07:50–22:00, վերջին մուտքը փակվելուց 30 րոպե առաջ",
           "price_hy": "Մուտքն անվճար; գանձարանն առանձին վճարովի",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Cath%C3%A9drale_Notre_Dame_-_Paris_IV_%28FR75%29_-_2026-09-17_-_1.jpg",
+              "author": "Chabe01",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre_Dame_-_Paris_IV_(FR75)_-_2026-09-17_-_1.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.6,
+            "min": 9,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.notredamedeparis.fr/en/qa/?_filtres_faq_boutons_en=visit",
+            "https://www.notredamedeparis.fr/en/faq/reservation/",
+            "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre_Dame_-_Paris_IV_(FR75)_-_2026-09-17_-_1.jpg"
+          ]
+        },
+        {
+          "id": "paris-22-05",
+          "order": 2,
+          "kind": "sight",
+          "name_hy": "Սենայի Սեն-Միշել հատված",
+          "name_local": "Quai Saint-Michel",
+          "lat": 48.8539,
+          "lon": 2.3468,
+          "description_hy": "Սենի ափով կարճ զբոսանք Նոտր Դամի դիմաց",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            15,
+            25
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
           "photos": [],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": null,
-            "min": null,
+            "km": 0.8,
+            "min": 11,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ՉՍՏՈՒԳՎԱԾ՝ անհրաժեշտ է հաշվարկել ճշգրիտ քայլքը/ընտրված մետրոյի ընթացքը",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
             "ticket_hy": ""
           },
-          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
+        },
+        {
+          "id": "paris-22-06",
+          "order": 3,
+          "kind": "sight",
+          "name_hy": "Նոր կամուրջ",
+          "name_local": "Pont Neuf",
+          "lat": 48.857,
+          "lon": 2.3414,
+          "description_hy": "Քաղաքի պատմական կամրջից տեսարան դեպի Île de la Cité",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            15,
+            25
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Paris_-_pont_Neuf_-_2026-09-16_13-45-26_001.jpg",
+              "author": "Matthias Süßen",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Paris_-_pont_Neuf_-_2026-09-16_13-45-26_001.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 1.2,
+            "min": 17,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
           "sources": [
-            "https://www.notredamedeparis.fr/en/qa/?_filtres_faq_boutons_en=visit",
-            "https://www.notredamedeparis.fr/en/faq/reservation/"
+            "https://commons.wikimedia.org/wiki/File:Paris_-_pont_Neuf_-_2026-09-16_13-45-26_001.jpg"
           ]
         },
         {
           "id": "paris-22-02",
-          "order": 2,
+          "order": 4,
           "kind": "sight",
           "name_hy": "Լուվրի ապակե բուրգի բակ",
           "name_local": "Cour Napoléon – Pyramide du Louvre",
@@ -398,13 +1042,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": null,
-            "min": null,
+            "km": 0.85,
+            "min": 12,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ՉՍՏՈՒԳՎԱԾ՝ անհրաժեշտ է հաշվարկել ճշգրիտ քայլքը/ընտրված մետրոյի ընթացքը",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -415,7 +1059,7 @@
         },
         {
           "id": "paris-22-03",
-          "order": 3,
+          "order": 5,
           "kind": "sight",
           "name_hy": "Թյուիլրիի այգի",
           "name_local": "Jardin des Tuileries",
@@ -429,29 +1073,71 @@
           ],
           "hours_hy": "Հոկտեմբեր՝ 07:00–21:00; այցելուներին դուրս են հրավիրում 30 րոպե շուտ",
           "price_hy": "Անվճար",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Jardin-des-tuileries.jpg",
+              "author": "Pline",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Jardin-des-tuileries.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.9,
+            "min": 13,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "ticket_hy": ""
+          },
+          "label": "ՀԱՍՏԱՏՎԱԾ",
+          "sources": [
+            "https://www.louvre.fr/en/visit/hours-admission/tickets-and-prices",
+            "https://commons.wikimedia.org/wiki/File:Jardin-des-tuileries.jpg"
+          ]
+        },
+        {
+          "id": "paris-22-07",
+          "order": 6,
+          "kind": "sight",
+          "name_hy": "Պալե Ռուայալի սյունաշար",
+          "name_local": "Palais-Royal – Colonnes de Buren",
+          "lat": 48.8636,
+          "lon": 2.3362,
+          "description_hy": "Բացօթյա գեղարվեստական հրապարակ և լուսանկարվելու կանգառ",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            15,
+            25
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
           "photos": [],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": null,
-            "min": null,
+            "km": 1.1,
+            "min": 16,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ՉՍՏՈՒԳՎԱԾ՝ անհրաժեշտ է հաշվարկել ճշգրիտ քայլքը/ընտրված մետրոյի ընթացքը",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ Palais-Royal → Bouillon Chartier Grands Boulevards մոտ 1,1 կմ/16 րոպե, քարտեզային չափումը ՉՍՏՈՒԳՎԱԾ",
             "ticket_hy": ""
           },
-          "label": "ՀԱՍՏԱՏՎԱԾ",
-          "sources": [
-            "https://www.louvre.fr/en/visit/hours-admission/tickets-and-prices"
-          ]
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
         },
         {
           "id": "paris-22-04",
-          "order": 4,
+          "order": 7,
           "kind": "food",
           "name_hy": "Շարտիե՝ Գրանդ Բուլվար",
           "name_local": "Bouillon Chartier Grands Boulevards",
@@ -463,22 +1149,22 @@
             40,
             75
           ],
-          "hours_hy": "Ամեն օր 11:30–00:00 (օպերատորի պաշտոնական էջ, ստուգված 17.10.2026)",
+          "hours_hy": "Ամեն օր 11:30–00:00, առանց ամրագրման",
           "price_hy": "Սկսած՝ նախուտեստ 1 €, հիմնական 7 €, աղանդեր 2 €։ Գումարը ոչ կոնկրետ ուտեստի գին է։",
           "photos": [],
-          "menu_url": "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
-          "menu_prices_hy": "2025.10 պաշտոնական օրինակային մենյու՝ նախուտեստներ 1–7,50 €, հիմնականներ 7–13,80 €. Ամեն օր փոխվում է, 2026.10 այցի մենյուն ՉՍՏՈՒԳՎԱԾ։",
+          "menu_url": "https://www.bouillon-chartier.com/bouillon-chartier-grands-boulevards/",
+          "menu_prices_hy": "Պաշտոնական հրապարակված՝ նախուտեստ 1 €-ից, հիմնական 7 €-ից, աղանդեր 2 €-ից",
           "reviews_source": "Կարծիքները առանձին օրագրված աղբյուրներով դեռ չեն գնահատվել. 8 հոգով մի սեղանի երաշխիք չկա, ամրագրումներ չեն ընդունվում։",
           "to_next": {
-            "mode": "walk",
+            "mode": "metro",
             "km": null,
             "min": null,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "ՉՍՏՈՒԳՎԱԾ՝ անհրաժեշտ է հաշվարկել ճշգրիտ քայլքը/ընտրված մետրոյի ընթացքը",
-            "ticket_hy": ""
+            "line": "M11",
+            "color": "շագանակագույն",
+            "direction": "Rosny–Bois-Perrier",
+            "get_off": "Romainville–Carnot",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ դեպի մետրոյի համապատասխան կայարան և վերադարձ. կոնկրետ ժամերը ՉՍՏՈՒԳՎԱԾ",
+            "ticket_hy": "Ticket Métro–Train–RER, 2,55 €"
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
@@ -491,9 +1177,9 @@
     {
       "date": "2026-10-23",
       "city": "paris",
-      "title_hy": "Montmartre / Sacré-Cœur → Gare de l’Est (նախնական, կարճ երեկո)",
-      "notes_hy": "Ա2/Ա3 ՄԻՋԱՆԿՅԱԼ. Կարճացնել երեկոն, քանի որ 23.10 23:55-ին նախատեսված տնից օդանավակայանային մեկնում կա՝ 24.10 00:15 N12-ի համար։ Ըստ իրական քնի/ճանապարհի վերջնական այցը դեռ պետք է սահմանափակել, չհասնել 22:00–23:00։",
-      "total_walk_km": null,
+      "title_hy": "Մոնմարտր և Canal Saint-Martin՝ վաղ վերադարձով",
+      "notes_hy": "23→24 գիշերվա օդանավակայանային տեղափոխությունից առաջ նախատեսված է կարճ երեկո և հանգիստ։ Սննդի մեկ կետը դեռ չստուգված է։ Նախկին «restaurant pending» կանգառը հեռացված է. երկրորդ սննդի կոնկրետ վայրը և 8 հոգու նստելը ՉՍՏՈՒԳՎԱԾ են. դա չի ներկայացվում որպես իրական տեղ։ Նախկին ID-ները մնացած կանգառների համար պահպանված են։",
+      "total_walk_km": 5.25,
       "stops": [
         {
           "id": "paris-23-01",
@@ -524,13 +1210,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": null,
-            "min": null,
+            "km": 0.3,
+            "min": 4,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ՉՍՏՈՒԳՎԱԾ՝ անհրաժեշտ է հաշվարկել ճշգրիտ քայլքը/ընտրված մետրոյի ընթացքը",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -540,8 +1226,110 @@
           ]
         },
         {
-          "id": "paris-23-02",
+          "id": "paris-23-03",
           "order": 2,
+          "kind": "sight",
+          "name_hy": "Տերտրի հրապարակ",
+          "name_local": "Place du Tertre",
+          "lat": 48.8865,
+          "lon": 2.3408,
+          "description_hy": "Մոնմարտրի նկարիչների հրապարակ",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            20,
+            30
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.5,
+            "min": 7,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
+        },
+        {
+          "id": "paris-23-04",
+          "order": 3,
+          "kind": "sight",
+          "name_hy": "Աբեսի հրապարակ",
+          "name_local": "Place des Abbesses",
+          "lat": 48.8844,
+          "lon": 2.3388,
+          "description_hy": "Հանրային հրապարակ և թաղամասի մանր փողոցներ",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            20,
+            30
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 3.6,
+            "min": 52,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ Place des Abbesses → Canal Saint-Martin մոտ 3,6 կմ/52 րոպե, քարտեզային չափումը ՉՍՏՈՒԳՎԱԾ",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
+        },
+        {
+          "id": "paris-23-06",
+          "order": 4,
+          "kind": "sight",
+          "name_hy": "Սեն Մարտենի ջրանցք",
+          "name_local": "Canal Saint-Martin",
+          "lat": 48.8715,
+          "lon": 2.3648,
+          "description_hy": "Երեկոյան վաղ հանգիստ զբոսանք կամուրջների մոտ",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            20,
+            35
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.85,
+            "min": 12,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
+        },
+        {
+          "id": "paris-23-02",
+          "order": 5,
           "kind": "food",
           "name_hy": "Շարտիե՝ Արևելյան կայարան",
           "name_local": "Bouillon Chartier Gare de l’Est",
@@ -560,20 +1348,1552 @@
           "menu_prices_hy": "2025.10 պաշտոնական օրինակային մենյու՝ նախուտեստներ 1–7,50 €, հիմնականներ 7–13,80 €. Ամեն օր փոխվում է, 2026.10 այցի մենյուն ՉՍՏՈՒԳՎԱԾ։",
           "reviews_source": "Կարծիքները առանձին օրագրված աղբյուրներով դեռ չեն գնահատվել. 8 հոգով մի սեղանի երաշխիք չկա, ամրագրումներ չեն ընդունվում։",
           "to_next": {
-            "mode": "walk",
+            "mode": "metro",
             "km": null,
             "min": null,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "ՉՍՏՈՒԳՎԱԾ՝ անհրաժեշտ է հաշվարկել ճշգրիտ քայլքը/ընտրված մետրոյի ընթացքը",
-            "ticket_hy": ""
+            "line": "M11",
+            "color": "շագանակագույն",
+            "direction": "Rosny–Bois-Perrier",
+            "get_off": "Romainville–Carnot",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ դեպի մետրոյի համապատասխան կայարան և վերադարձ. կոնկրետ ժամերը ՉՍՏՈՒԳՎԱԾ",
+            "ticket_hy": "Ticket Métro–Train–RER, 2,55 €"
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://www.bouillon-chartier.com/bouillon-chartier-gare-de-lest/",
             "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "city": "barcelona",
+      "title_hy": "Ժամանում Բարսելոնա․ թեթև զբոսանք ուսապարկերով",
+      "notes_hy": "Առավոտյան ժամանում, 14:00-ից հետո տուն։ Քայլքի հաշվարկը միայն նկարագրված հատվածների նախնական գումարն է, իսկ տրանսպորտի մինչև/հետո քայլքը լրացուցիչ է։ Font Màgica-ի շոուի փաստը չի հաստատվել։",
+      "total_walk_km": 9.05,
+      "stops": [
+        {
+          "id": "barcelona-24-01",
+          "order": 1,
+          "kind": "airport",
+          "name_hy": "Բարսելոնայի օդանավակայան T1",
+          "name_local": "Aeroport de Barcelona T1",
+          "lat": 41.289,
+          "lon": 2.074,
+          "description_hy": "VY8003-ի պլանային ժամանումը 08:00 է։ Մինչև 14:00 խումբը ուսապարկերով է. առաջնահերթությունը թեթև զբոսանքն է։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). BCN Terminal 1 շենքի ներկայացուցչական կետը, ոչ կոնկրետ ժամանման ելքի դուռը։ Աղբյուր՝ https://commons.wikimedia.org/wiki/Category:Terminal_1_of_Barcelona_Airport",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "bus",
+            "km": null,
+            "min": null,
+            "line": "Bus 46",
+            "color": "TMB կարմիր/սպիտակ ավտոբուս (գծի պաշտոնական գույնը չի հաստատվել)",
+            "direction": "Plaça Espanya",
+            "get_off": "Plaça Espanya",
+            "transfers_hy": "Պլանային ժամանակ/հեռավորություն՝ ԵՆԹԱԴՐՈՒԹՅՈՒՆ, ճշգրիտ մեկնումը ՉՍՏՈՒԳՎԱԾ։ https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares",
+            "ticket_hy": "T-familiar՝ պայմաններով 11,50 €/8 ուղևորություն; L9 օդանավակայանի մետրոյին չի վերաբերում"
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "Սեփականատիրոջ ամրագրում՝ 17.10.2026",
+            "https://commons.wikimedia.org/wiki/Category:Terminal_1_of_Barcelona_Airport"
+          ]
+        },
+        {
+          "id": "barcelona-24-02",
+          "order": 2,
+          "kind": "sight",
+          "name_hy": "Իսպանիայի հրապարակ",
+          "name_local": "Plaça d’Espanya",
+          "lat": 41.375086,
+          "lon": 2.149158,
+          "description_hy": "Տեսնել Arenas-ի ճակատը և դեպի Montjuïc բացվող քաղաքային առանցքը։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). հրապարակի ներկայացուցչական կենտրոնական կետ։ Աղբյուր՝ https://commons.wikimedia.org/wiki/Category:Pla%C3%A7a_d%27Espanya_(Barcelona)",
+          "photo_spot_hy": "Հրապարակի կենտրոնի մոտ՝ դեպի երկու վենետիկյան աշտարակներ",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.25,
+            "min": 4,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://commons.wikimedia.org/wiki/Category:Pla%C3%A7a_d%27Espanya_(Barcelona)"
+          ]
+        },
+        {
+          "id": "barcelona-24-03",
+          "order": 3,
+          "kind": "food",
+          "name_hy": "La Tagliatella՝ Las Arenas",
+          "name_local": "La Tagliatella CC Las Arenas",
+          "lat": 41.37636,
+          "lon": 2.14931,
+          "description_hy": "Շաբաթվա ճաշի թեկնածու՝ հենց Plaça d’Espanya-ի մոտ։ 8 հոգու նստելը նախապես չի հաստատվել։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). կոնկրետ La Tagliatella Las Arenas հաստատության հրապարակված POI կետ, ոչ մուտքի դուռ։ Աղբյուր՝ https://es.aroundus.com/p/171650748-restaurant-la-tagliatella-cc.-las-arenas-barcelona",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Շաբաթ 12:30–00:00՝ հրապարակված կայքով",
+          "price_hy": "Կոնկրետ ուտեստների գները՝ ՉՍՏՈՒԳՎԱԾ",
+          "photos": [],
+          "menu_url": "https://www.latagliatella.es/es/restaurantes/barcelona/cc-las-arenas-barcelona",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.9,
+            "min": 13,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.latagliatella.es/es/restaurantes/barcelona/cc-las-arenas-barcelona",
+            "https://es.aroundus.com/p/171650748-restaurant-la-tagliatella-cc.-las-arenas-barcelona"
+          ]
+        },
+        {
+          "id": "barcelona-24-04",
+          "order": 4,
+          "kind": "sight",
+          "name_hy": "Մոնժուիկի ստորին այգիներ",
+          "name_local": "Avinguda de la Reina Maria Cristina / Montjuïc",
+          "lat": 41.372911,
+          "lon": 2.150561,
+          "description_hy": "Տեսնել National Palace-ի հեռավոր տեսարանը՝ խուսափելով մեծ վերելքից։ Font Màgica-ի ցուցադրությունը ՉՍՏՈՒԳՎԱԾ է։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Avinguda Reina Maria Cristina փողոցի ներկայացուցչական կետը՝ Montjuïc-ի ուղղությամբ։ Աղբյուր՝ https://www.wikidata.org/wiki/Q4828901",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 3.2,
+            "min": 46,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q4828901"
+          ]
+        },
+        {
+          "id": "barcelona-24-05",
+          "order": 5,
+          "kind": "home",
+          "name_hy": "Բնակություն՝ առանց հասցեի",
+          "name_local": "Maria Cristina (home vicinity)",
+          "lat": 41.38798,
+          "lon": 2.1265,
+          "description_hy": "14:00-ից հետո տուն մտնելու պլանային կանգառ։ Բնակության հասցեն միտումնավոր չկա։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            60,
+            120
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "L3",
+            "color": "կանաչ",
+            "direction": "Trinitat Nova",
+            "get_off": "Passeig de Gràcia",
+            "transfers_hy": "Պլանային ժամանակ/հեռավորություն՝ ԵՆԹԱԴՐՈՒԹՅՈՒՆ, ճշգրիտ մեկնումը ՉՍՏՈՒԳՎԱԾ։ https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares",
+            "ticket_hy": "T-familiar մեկ գոտու կամ մեկանգամյա տոմս, ըստ մնացած երթերի"
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "01 առաջադրանք՝ սեփականատիրոջ պայմաններ"
+          ]
+        },
+        {
+          "id": "barcelona-24-06",
+          "order": 6,
+          "kind": "sight",
+          "name_hy": "Կասա Բատյոյի արտաքին դիտում",
+          "name_local": "Casa Batlló",
+          "lat": 41.391581,
+          "lon": 2.164919,
+          "description_hy": "Գաուդիի ճակատը դիտել փողոցից. ներսի վճարովի այցելություն չի նախատեսվել։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Casa Batlló շենքի հրապարակված կետ։ Աղբյուր՝ https://www.wikidata.org/wiki/Q461371",
+          "photo_spot_hy": "Passeig de Gràcia-ի դիմացի մայթ",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Արտաքին դիտում, փողոց՝ հասանելի; ներքին այցելությունն այլ տոմսով",
+          "price_hy": "Արտաքին դիտում անվճար; ներս՝ 35 € սովորական մուտք (չի ընտրվել)",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Casa_Batllo_Overview_Barcelona_Spain_cut.jpg",
+              "author": "ChristianSchd",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Casa_Batllo_Overview_Barcelona_Spain_cut.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.7,
+            "min": 10,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://guia.barcelona.cat/es/detall/casa-batllo_75990398260.html",
+            "https://www.wikidata.org/wiki/Q461371",
+            "https://commons.wikimedia.org/wiki/File:Casa_Batllo_Overview_Barcelona_Spain_cut.jpg"
+          ]
+        },
+        {
+          "id": "barcelona-24-07",
+          "order": 7,
+          "kind": "sight",
+          "name_hy": "Կասա Միլայի արտաքին դիտում",
+          "name_local": "Casa Milà (La Pedrera)",
+          "lat": 41.39519,
+          "lon": 2.16178,
+          "description_hy": "Դիտել ալիքաձև քարի ճակատը և պատշգամբները Passeig de Gràcia-ից։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Casa Milà շենքի OSM օբյեկտի կետ։ Աղբյուր՝ https://mapcarta.com/La_Pedrera_-_Casa_Mil%C3%A0_R8974896",
+          "photo_spot_hy": "Passeig de Gràcia անկյունից",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Casa_Mil%C3%A0%2C_general_view.jpg",
+              "author": "Thomas Ledl",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0,_general_view.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 2.7,
+            "min": 39,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://mapcarta.com/La_Pedrera_-_Casa_Mil%C3%A0_R8974896",
+            "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0,_general_view.jpg"
+          ]
+        },
+        {
+          "id": "barcelona-24-08",
+          "order": 8,
+          "kind": "food",
+          "name_hy": "Faborit L’illa Diagonal",
+          "name_local": "Faborit L’illa Diagonal",
+          "lat": 41.38954,
+          "lon": 2.13519,
+          "description_hy": "Թեթև երեկոյան սնունդ Maria Cristina տան ուղղությամբ։ Նստեցումն ու ճշգրիտ մենյուի գինը ՉՍՏՈՒԳՎԱԾ են։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). L’illa Diagonal առևտրի կենտրոնի կետ՝ Faborit-ի շենքը. ռեստորանի ճշգրիտ դուռը չստուգված։ Աղբյուր՝ https://mapcarta.com/es/W653590486",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Ամեն օր 08:00–21:00՝ պաշտոնական էջի համաձայն",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "https://www.faborit.com/establecimientos-faborit/faborit-illa-diagonal/",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 1.3,
+            "min": 19,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.faborit.com/establecimientos-faborit/faborit-illa-diagonal/",
+            "https://mapcarta.com/es/W653590486"
+          ]
+        },
+        {
+          "id": "barcelona-24-09",
+          "order": 9,
+          "kind": "home",
+          "name_hy": "Վերադարձ դեպի Maria Cristina",
+          "name_local": "Maria Cristina",
+          "lat": 41.38798,
+          "lon": 2.1265,
+          "description_hy": "Վերադարձ և հանգիստ մինչև 22:00, բնակության հասցեն չի հրապարակվում։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0,
+            "min": 0,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Օրվա վերջ",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "city": "barcelona",
+      "title_hy": "Կիրակնօրյա Գոթական թաղամաս, MUHBA, ծովափ",
+      "notes_hy": "2026-10-25-ի ամառային/ձմեռային ժամային անցման օրը՝ ժամացույցները հետ են տրվում։ MUHBA-ն այցելել 15:00-ից հետո։ Շաբաթվա օրվա ժամերը ըստ պաշտոնական աղբյուրի, երթուղու քայլքը միայն գնահատական։",
+      "total_walk_km": 8.03,
+      "stops": [
+        {
+          "id": "barcelona-25-01",
+          "order": 1,
+          "kind": "home",
+          "name_hy": "Մեկնում Maria Cristina-ից",
+          "name_local": "Maria Cristina",
+          "lat": 41.38798,
+          "lon": 2.1265,
+          "description_hy": "Առավոտ տնից մոտ 09:00–10:00։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            0,
+            0
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.9,
+            "min": 13,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
+        },
+        {
+          "id": "barcelona-25-02",
+          "order": 2,
+          "kind": "food",
+          "name_hy": "Faborit L’illa Diagonal՝ նախաճաշ",
+          "name_local": "Faborit L’illa Diagonal",
+          "lat": 41.38954,
+          "lon": 2.13519,
+          "description_hy": "Նախաճաշ/ջուր՝ մեկ սննդի կանգառ։ Հրապարակված անհատական մենյուի գինը ՉՍՏՈՒԳՎԱԾ։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). L’illa Diagonal առևտրի կենտրոնի կետ՝ Faborit-ի շենքը. ռեստորանի ճշգրիտ դուռը չստուգված։ Աղբյուր՝ https://mapcarta.com/es/W653590486",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Կիրակի 08:00–21:00",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "https://www.faborit.com/establecimientos-faborit/faborit-illa-diagonal/",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "L3",
+            "color": "կանաչ",
+            "direction": "Trinitat Nova",
+            "get_off": "Catalunya",
+            "transfers_hy": "Պլանային ժամանակ/հեռավորություն՝ ԵՆԹԱԴՐՈՒԹՅՈՒՆ, ճշգրիտ մեկնումը ՉՍՏՈՒԳՎԱԾ։ https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares",
+            "ticket_hy": "T-familiar 1 գոտու պայմաններով"
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.faborit.com/establecimientos-faborit/faborit-illa-diagonal/",
+            "https://mapcarta.com/es/W653590486"
+          ]
+        },
+        {
+          "id": "barcelona-25-03",
+          "order": 3,
+          "kind": "sight",
+          "name_hy": "Կատալոնիայի հրապարակ",
+          "name_local": "Plaça de Catalunya",
+          "lat": 41.38700511789263,
+          "lon": 2.1700919537947616,
+          "description_hy": "Տեսնել հրապարակը, կենտրոնական շատրվանները և դեպի հին քաղաք տանող փողոցները։",
+          "photo_spot_hy": "Դեպի La Rambla հյուսիսային ծայրամաս",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.85,
+            "min": 12,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://geoportal.barcelona.cat/geoBCN/exemples/1.2/add_popup.aspx"
+          ]
+        },
+        {
+          "id": "barcelona-25-04",
+          "order": 4,
+          "kind": "sight",
+          "name_hy": "Լա Ռամբլա",
+          "name_local": "La Rambla",
+          "lat": 41.38151,
+          "lon": 2.174606,
+          "description_hy": "Հետևել գլխավոր զբոսավայրին՝ ձեռքի տակ պահելով պայուսակներն ու հեռախոսները։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). La Rambla-ի ներկայացուցչական կետ, ոչ ողջ պողոտայի սահման։ Աղբյուր՝ https://fr.wikipedia.org/wiki/La_Rambla",
+          "photo_spot_hy": "Պատմական ճակատները երկայնքով",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 1.0,
+            "min": 14,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://fr.wikipedia.org/wiki/La_Rambla"
+          ]
+        },
+        {
+          "id": "barcelona-25-05",
+          "order": 5,
+          "kind": "sight",
+          "name_hy": "Գոթական թաղամաս՝ տաճարի արտաքին",
+          "name_local": "Catedral de Barcelona / Barri Gòtic",
+          "lat": 41.38389,
+          "lon": 2.17639,
+          "description_hy": "Դիտել նեղ փողոցներն ու գլխավոր տաճարի ճակատը. վճարովի մուտքը հիմնական պլանում չէ։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Barcelona Cathedral շենքի ներկայացուցչական կետ։ Աղբյուր՝ https://en.wikipedia.org/wiki/Barcelona_Cathedral",
+          "photo_spot_hy": "Pla de la Seu",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/004_Catedral_de_Barcelona%2C_la_fa%C3%A7ana_al_capvespre.jpg",
+              "author": "Enric",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:004_Catedral_de_Barcelona,_la_fa%C3%A7ana_al_capvespre.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.65,
+            "min": 9,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Barcelona_Cathedral",
+            "https://commons.wikimedia.org/wiki/File:004_Catedral_de_Barcelona,_la_fa%C3%A7ana_al_capvespre.jpg"
+          ]
+        },
+        {
+          "id": "barcelona-25-06",
+          "order": 6,
+          "kind": "sight",
+          "name_hy": "Սանտ Ժաումեի հրապարակ",
+          "name_local": "Plaça Sant Jaume",
+          "lat": 41.382681,
+          "lon": 2.176982,
+          "description_hy": "Դիտել միջնադարյան կենտրոնի կարևոր քաղաքացիական ճակատները։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Plaça Sant Jaume-ի կենտրոնական կետ։ Աղբյուր՝ https://fr.wikipedia.org/wiki/Place_Sant_Jaume",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.3,
+            "min": 4,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://fr.wikipedia.org/wiki/Place_Sant_Jaume"
+          ]
+        },
+        {
+          "id": "barcelona-25-07",
+          "order": 7,
+          "kind": "sight",
+          "name_hy": "Թագավորական հրապարակ",
+          "name_local": "Plaça del Rei",
+          "lat": 41.384131,
+          "lon": 2.177439,
+          "description_hy": "Նախքան MUHBA-ի 15:00 անվճար մուտքը կարելի է շրջել հրապարակում։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Plaça del Rei-ի հրապարակված կետ։ Աղբյուր՝ https://www.wikidata.org/wiki/Q2067174",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.08,
+            "min": 1,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q2067174"
+          ]
+        },
+        {
+          "id": "barcelona-25-08",
+          "order": 8,
+          "kind": "sight",
+          "name_hy": "MUHBA՝ Plaça del Rei",
+          "name_local": "MUHBA Plaça del Rei",
+          "lat": 41.383906,
+          "lon": 2.177837,
+          "description_hy": "Կիրակի 15:00-ից ընդհանուր այցելուների անվճար մուտք՝ ըստ քաղաքային ուղեցույցի։ 8 հոգու հերթը/խմբային պայմանները ՉՍՏՈՒԳՎԱԾ։ Կոորդինատի նշում («ՀԱՍՏԱՏՎԱԾ», ստուգում՝ 17.10.2026). քաղաքային զբոսաշրջային ծառայության MUHBA այցելության կետ։ Աղբյուր՝ https://www.barcelonabusturistic.cat/en/muhba-barcelona-city-history-museum",
+          "photo_spot_hy": "",
+          "visit_min": [
+            40,
+            65
+          ],
+          "hours_hy": "Կիրակի 10:00–20:00, 15:00-ից անվճար՝ սովորական կիրակի օրերին",
+          "price_hy": "15:00-ից անվճար ըստ պաշտոնական հրապարակման; անհատական խմբային պայմանները չստուգված",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.55,
+            "min": 8,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ՀԱՍՏԱՏՎԱԾ",
+          "sources": [
+            "https://guia.barcelona.cat/en/detall/museu-d-historia-de-barcelona-placa-del-rei_92086011563.html",
+            "https://www.barcelonabusturistic.cat/en/muhba-barcelona-city-history-museum"
+          ]
+        },
+        {
+          "id": "barcelona-25-09",
+          "order": 9,
+          "kind": "food",
+          "name_hy": "La Fonda՝ ուշ ճաշ",
+          "name_local": "La Fonda",
+          "lat": 41.37936,
+          "lon": 2.17621,
+          "description_hy": "Հրապարակված երկրորդային մենյուի օրինակներով՝ մատչելի ճաշի թեկնածու, սակայն 8 հոգու տեղը հաստատված չէ։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). La Fonda նույնանուն ռեստորանի հրապարակված POI կետ՝ հանրային հասցեի մոտ։ Աղբյուր՝ https://findit.city/en/spain/barcelona/places/restaurants/la-fonda-3761312382",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Կիրակի 12:30–23:00՝ երկրորդային տեղեկությամբ",
+          "price_hy": "Հրապարակված օրինակներ՝ 5,25–11,95 €, 2025 տվյալներով",
+          "photos": [],
+          "menu_url": "https://www.thefork.es/restaurante/la-fonda-r618809/menu",
+          "menu_prices_hy": "TheFork (մենյուի փոփոխություն 06.08.2025). Gazpacho 5,25 €, Pasta bolognese 9,40 €, Arroz con pollo 11,95 € (որոշ ուտեստներ նվազագույն 2 պատվեր)",
+          "reviews_source": "https://www.thefork.es/restaurante/la-fonda-r618809/menu",
+          "to_next": {
+            "mode": "walk",
+            "km": 1.4,
+            "min": 20,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.thefork.es/restaurante/la-fonda-r618809/menu",
+            "https://findit.city/en/spain/barcelona/places/restaurants/la-fonda-3761312382"
+          ]
+        },
+        {
+          "id": "barcelona-25-10",
+          "order": 10,
+          "kind": "sight",
+          "name_hy": "Էլ Բոռն՝ Սանտա Մարիա",
+          "name_local": "Santa Maria del Mar / El Born",
+          "lat": 41.38361,
+          "lon": 2.18194,
+          "description_hy": "Քայլել El Born-ով դեպի եկեղեցու արտաքին դիտակետը։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Santa Maria del Mar շենքի կետ։ Աղբյուր՝ https://en.wikipedia.org/wiki/Santa_Maria_del_Mar,_Barcelona",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.8,
+            "min": 11,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Santa_Maria_del_Mar,_Barcelona"
+          ]
+        },
+        {
+          "id": "barcelona-25-11",
+          "order": 11,
+          "kind": "sight",
+          "name_hy": "Հին նավահանգիստ",
+          "name_local": "Port Vell",
+          "lat": 41.3797,
+          "lon": 2.18231,
+          "description_hy": "Ծովափնյա լուսանկարչության կարճ հատված։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Port Vell՝ զբոսաշրջային հասանելի առափնյա կետ Moll de Bosch i Alsina-ի շրջանում, ոչ ամբողջ նավահանգստի կենտրոն։ Աղբյուր՝ https://mapcarta.com/N7497437096",
+          "photo_spot_hy": "Նավահանգստի դեպի ջուրը բաց տարածքը",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 1.5,
+            "min": 21,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://mapcarta.com/N7497437096"
+          ]
+        },
+        {
+          "id": "barcelona-25-12",
+          "order": 12,
+          "kind": "sight",
+          "name_hy": "Բարսելոնետայի ծովափ",
+          "name_local": "Platja de la Barceloneta",
+          "lat": 41.38083,
+          "lon": 2.19375,
+          "description_hy": "Արտաքին լողափնյա զբոսանք, ոչ լողի օր։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Barceloneta լողափի ներկայացուցչական կետ։ Աղբյուր՝ https://mapcarta.com/25260254",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "L4+L3",
+            "color": "L4 դեղին, L3 կանաչ",
+            "direction": "Trinitat Nova, փոխատեղում Passeig de Gràcia-ում",
+            "get_off": "Maria Cristina",
+            "transfers_hy": "Պլանային ժամանակ/հեռավորություն՝ ԵՆԹԱԴՐՈՒԹՅՈՒՆ, ճշգրիտ մեկնումը ՉՍՏՈՒԳՎԱԾ։ https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares",
+            "ticket_hy": "Առանձին կամ ինտեգրված տոմս՝ ըստ TMB կանոնների"
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://mapcarta.com/25260254"
+          ]
+        },
+        {
+          "id": "barcelona-25-13",
+          "order": 13,
+          "kind": "home",
+          "name_hy": "Վերադարձ Maria Cristina",
+          "name_local": "Maria Cristina",
+          "lat": 41.38798,
+          "lon": 2.1265,
+          "description_hy": "Տուն՝ նախատեսված մինչև 22:00–23:00։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            0,
+            0
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0,
+            "min": 0,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Օրվա վերջ",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "city": "rome",
+      "title_hy": "Ֆիումիչինոյից Հռոմ․ Կոլիզեյ և հին կենտրոն",
+      "notes_hy": "11:55 FCO պլանային ժամանում, 14:00-ից տուն, հետո արտաքին անվճար տեսարժան վայրեր։ Եթե ուշացում լինի, հեռացնել երեկոյան կանգառներ միայն սեփականատիրոջ համաձայնությամբ։ 2 սննդի կանգառ՝ թեկնածու, 8 տեղերը չստուգված։",
+      "total_walk_km": 3.35,
+      "stops": [
+        {
+          "id": "rome-26-01",
+          "order": 1,
+          "kind": "airport",
+          "name_hy": "Հռոմի FCO օդանավակայան",
+          "name_local": "Aeroporto di Fiumicino (FCO)",
+          "lat": 41.79344,
+          "lon": 12.25187,
+          "description_hy": "Ամրագրման պլանային ժամանումը 11:55, տերմինալը ՉՍՏՈՒԳՎԱԾ։ FL1 կամ Leonardo Express-ից ընտրել ըստ իրական հասնելու ժամի։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Fiumicino Aeroporto երկաթուղային կայարանի կետ. սա ժամանման կոնկրետ տերմինալի ելքը չէ։ Աղբյուր՝ https://mapcarta.com/29388912",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "train",
+            "km": null,
+            "min": null,
+            "line": "FL1 + Metro B",
+            "color": "գնացքի/մետրոյի գույնը տարբեր է; B՝ կապույտ",
+            "direction": "FL1 Roma Tiburtina, ապա Metro B Laurentina",
+            "get_off": "Bologna",
+            "transfers_hy": "Պլանային ժամանակ/հեռավորություն՝ ԵՆԹԱԴՐՈՒԹՅՈՒՆ, ճշգրիտ մեկնումը ՉՍՏՈՒԳՎԱԾ։ https://www.atac.roma.it/en/tickets-and-passes/bit",
+            "ticket_hy": "FL1 8 € + BIT 1,50 €՝ ըստ Ա1. FL1 26.10 ճշգրիտ մեկնումը դեռ չստուգված"
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "Սեփականատիրոջ ամրագրում՝ 17.10.2026",
+            "https://mapcarta.com/29388912"
+          ]
+        },
+        {
+          "id": "rome-26-02",
+          "order": 2,
+          "kind": "home",
+          "name_hy": "Bologna՝ բնակության շրջան",
+          "name_local": "Bologna (Metro B)",
+          "lat": 41.913165,
+          "lon": 12.520425,
+          "description_hy": "Մոտ 14:00-ից տուն մտնելու թեկնածու, ժամանման և գնացքի իրական ժամանակներից կախված։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            40,
+            80
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "Metro B",
+            "color": "կապույտ",
+            "direction": "Laurentina",
+            "get_off": "Termini",
+            "transfers_hy": "Պլանային ժամանակ/հեռավորություն՝ ԵՆԹԱԴՐՈՒԹՅՈՒՆ, ճշգրիտ մեկնումը ՉՍՏՈՒԳՎԱԾ։ https://www.atac.roma.it/en/tickets-and-passes/bit",
+            "ticket_hy": "BIT 1,50 €"
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
+        },
+        {
+          "id": "rome-26-03",
+          "order": 3,
+          "kind": "food",
+          "name_hy": "Mercato Centrale Roma՝ ուշ ճաշ",
+          "name_local": "Mercato Centrale Roma",
+          "lat": 41.89917,
+          "lon": 12.50339,
+          "description_hy": "Քաղաքային ճաշի կանգառ Termini-ի մոտ, ընտրել տեղում վաճառվող ուտեստները։ Բյուջեի կոնկրետ ուտեստները չեն հաստատվել։ Կոորդինատի նշում («ՀԱՍՏԱՏՎԱԾ», ստուգում՝ 17.10.2026). Roma Capitale զբոսաշրջային պաշտոնական էջի ճշգրիտ POINT(12.50339 41.89917)։ Աղբյուր՝ https://www.turismoroma.it/it/luoghi/mercato-centrale-roma",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Ամեն օր 07:30–23:30՝ պաշտոնական կայքով",
+          "price_hy": "Կոնկրետ ուտեստների գները՝ ՉՍՏՈՒԳՎԱԾ",
+          "photos": [],
+          "menu_url": "https://www.mercatocentrale.it/roma/info/",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "Metro B",
+            "color": "կապույտ",
+            "direction": "Laurentina",
+            "get_off": "Colosseo",
+            "transfers_hy": "Պլանային ժամանակ/հեռավորություն՝ ԵՆԹԱԴՐՈՒԹՅՈՒՆ, ճշգրիտ մեկնումը ՉՍՏՈՒԳՎԱԾ։ https://www.atac.roma.it/en/tickets-and-passes/bit",
+            "ticket_hy": "BIT 1,50 € կամ նույն տոմսը՝ միայն վավերության և մետրոյի մուտքերի պայմաններում"
+          },
+          "label": "ՀԱՍՏԱՏՎԱԾ",
+          "sources": [
+            "https://www.mercatocentrale.it/roma/info/",
+            "https://www.turismoroma.it/it/luoghi/mercato-centrale-roma"
+          ]
+        },
+        {
+          "id": "rome-26-04",
+          "order": 4,
+          "kind": "sight",
+          "name_hy": "Կոլիզեյ՝ դրսից",
+          "name_local": "Colosseo",
+          "lat": 41.890501,
+          "lon": 12.491147,
+          "description_hy": "Դիտել ամֆիթատրոնի արտաքին օղակներն ու Կոնստանտինի կամարը՝ առանց վճարովի ներսի այցելության։",
+          "photo_spot_hy": "Piazza del Colosseo՝ արևմտյան դիտակետ",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Photo_of_The_Colosseum_in_Rome%2C_Italy.jpg",
+              "author": "Minimum-herb",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Photo_of_The_Colosseum_in_Rome,_Italy.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.65,
+            "min": 9,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.turismoroma.it/en/places/parco-archeologico-del-colosseo",
+            "https://commons.wikimedia.org/wiki/File:Photo_of_The_Colosseum_in_Rome,_Italy.jpg"
+          ]
+        },
+        {
+          "id": "rome-26-05",
+          "order": 5,
+          "kind": "sight",
+          "name_hy": "Կայսերական ֆորումների պողոտա",
+          "name_local": "Via dei Fori Imperiali",
+          "lat": 41.893327,
+          "lon": 12.487,
+          "description_hy": "Քայլել Colosseo-ից դեպի Piazza Venezia՝ հին ֆորումների բացօթյա տեսարաններով։",
+          "photo_spot_hy": "Via dei Fori Imperiali՝ Forum-ի բարձրադիր եզր",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.85,
+            "min": 12,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://turismoroma.it/en/places/dei-fori-imperiali"
+          ]
+        },
+        {
+          "id": "rome-26-06",
+          "order": 6,
+          "kind": "sight",
+          "name_hy": "Վենեցիայի հրապարակ",
+          "name_local": "Piazza Venezia",
+          "lat": 41.896043,
+          "lon": 12.482468,
+          "description_hy": "Դիտել Vittoriano-ի ճակատը։ Շինարարական աշխատանքների պատճառով անցումները տեղում կարող են փոխված լինել։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Piazza_venezia%2C_roma.jpg",
+              "author": "Sailko",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Piazza_venezia,_roma.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.8,
+            "min": 11,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://turismoroma.it/en/places/piazza-venezia",
+            "https://commons.wikimedia.org/wiki/File:Piazza_venezia,_roma.jpg"
+          ]
+        },
+        {
+          "id": "rome-26-07",
+          "order": 7,
+          "kind": "sight",
+          "name_hy": "Տրևիի շատրվան",
+          "name_local": "Fontana di Trevi",
+          "lat": 41.900765,
+          "lon": 12.483238,
+          "description_hy": "Դիտել հրապարակից։ Ներքին ավազանի մոտ մուտքը 2026-ից արժե 2 € ոչ ռեզիդենտ զբոսաշրջիկների համար և ընտրովի է։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            15,
+            30
+          ],
+          "hours_hy": "Ներքին մոտեցում՝ երեքշաբթիից կիրակի 09:00–22:00, երկուշաբթի 11:30–22:00՝ պաշտոնական հայտարարություն",
+          "price_hy": "Դրսից՝ անվճար դիտում, շատրվանի ներքին գոտի՝ 2 €/անձ",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/020250519_Fontana_di_Trevi.jpg",
+              "author": "Marsilar",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:020250519_Fontana_di_Trevi.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 1.05,
+            "min": 15,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.turismoroma.it/en/node/1286",
+            "https://commons.wikimedia.org/wiki/File:020250519_Fontana_di_Trevi.jpg"
+          ]
+        },
+        {
+          "id": "rome-26-08",
+          "order": 8,
+          "kind": "food",
+          "name_hy": "Monti Lab՝ երեկոյան պիցցա",
+          "name_local": "Monti Lab – Italian Street Food",
+          "lat": 41.89667,
+          "lon": 12.49432,
+          "description_hy": "Via Urbana, 128 հասցեում հրապարակված պիցցա/ֆոկաչայի գներ. երկուշաբթի երեկոյան կոնկրետ ժամերը և 8 տեղերը ՉՍՏՈՒԳՎԱԾ։ կետը՝ հասցեի մոտավոր դիրքը, ոչ դուռը։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "26.10 երեկոյան կոնկրետ ժամերը ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "https://www.thefork.it/ristorante/monti-lab-italian-street-food-r856246/menu",
+          "menu_prices_hy": "TheFork, 13.05.2026՝ focaccia 3–7 €, pizza Margherita 8 €, Diavola 9 €, այլ՝ 10–12 €",
+          "reviews_source": "https://www.thefork.it/ristorante/monti-lab-italian-street-food-r856246/menu",
+          "to_next": {
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "Metro B",
+            "color": "կապույտ",
+            "direction": "Rebibbia / Jonio",
+            "get_off": "Bologna",
+            "transfers_hy": "Պլանային ժամանակ/հեռավորություն՝ ԵՆԹԱԴՐՈՒԹՅՈՒՆ, ճշգրիտ մեկնումը ՉՍՏՈՒԳՎԱԾ։ https://www.atac.roma.it/en/tickets-and-passes/bit",
+            "ticket_hy": "BIT 1,50 €"
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.thefork.it/ristorante/monti-lab-italian-street-food-r856246/menu",
+            "https://www.reteimprese.it/pelli-pellami-produzione-vendita/roma/azienda/2164617"
+          ]
+        },
+        {
+          "id": "rome-26-09",
+          "order": 9,
+          "kind": "home",
+          "name_hy": "Տուն՝ Bologna կայարանով",
+          "name_local": "Bologna",
+          "lat": 41.913165,
+          "lon": 12.520425,
+          "description_hy": "Վերադարձ մինչև 22:00–23:00։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            0,
+            0
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0,
+            "min": 0,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Օրվա վերջ",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "city": "rome",
+      "title_hy": "Castel Romano Designer Outlet՝ բրենդային գնումներ",
+      "notes_hy": "Ամբողջ օրը՝ outlet, երեկոն կարճ. EUR Fermi տարբերակը 6 մեծահասակի 13 € վերադարձի տոմսով, 15/16 տարեկանները անվճար։ 8 անձի համար 78 € shuttle + 24 € մետրոյի 2 ուղևորության ենթադրյալ արժեք = 102 € (մետրոյի վերամուտքի պայմանով), առանց գնումների/սննդի։ 10:00→16:30 ընդհանուր ժամանակացույցը ստուգել նաև 27.10-ի համար։ Քաղաքային Via del Corso խանութներում զեղչերը չեն երաշխավորվում։ Քաղաքային այլընտրանք՝ Via del Corso և Rione Monti, առանց shuttle-ի ծախսի, բայց 27.10-ի կոնկրետ զեղչերի հաստատում չկա. https://www.turismoroma.it/en/page/shopping-streets (ստուգվել է 17.10.2026)։ Քաղաքային այլընտրանք՝ Via del Corso և Rione Monti, առանց shuttle-ի ծախսի, բայց 27.10-ի կոնկրետ զեղչերի հաստատում չկա. https://www.turismoroma.it/en/page/shopping-streets (ստուգվել է 17.10.2026)։ Քաղաքային այլընտրանք՝ Via del Corso և Rione Monti, առանց shuttle-ի ծախսի, բայց 27.10-ի կոնկրետ զեղչերի հաստատում չկա. https://www.turismoroma.it/en/page/shopping-streets (ստուգվել է 17.10.2026)։",
+      "total_walk_km": 3.8,
+      "stops": [
+        {
+          "id": "rome-27-01",
+          "order": 1,
+          "kind": "home",
+          "name_hy": "Առավոտ՝ Bologna",
+          "name_local": "Bologna",
+          "lat": 41.913165,
+          "lon": 12.520425,
+          "description_hy": "Մեկնել մոտ 09:00. Metro B/B1 դեպի Laurentina՝ իջնել EUR Fermi։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            0,
+            0
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "Metro B/B1",
+            "color": "կապույտ",
+            "direction": "Laurentina",
+            "get_off": "EUR Fermi",
+            "transfers_hy": "Պլանային ժամանակ/հեռավորություն՝ ԵՆԹԱԴՐՈՒԹՅՈՒՆ, ճշգրիտ մեկնումը ՉՍՏՈՒԳՎԱԾ։ https://www.atac.roma.it/en/tickets-and-passes/bit",
+            "ticket_hy": "ATAC BIT 1,50 €/անձ"
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
+        },
+        {
+          "id": "rome-27-02",
+          "order": 2,
+          "kind": "transport",
+          "name_hy": "EUR Fermi՝ outlet shuttle",
+          "name_local": "EUR Fermi (Metro B)",
+          "lat": 41.82861,
+          "lon": 12.47111,
+          "description_hy": "Գնումների ավտոբուսի պաշտոնական ընդհանուր մեկնումները՝ 10:00, 11:00, 12:00, 13:00։ Խորհուրդ տրվող 10:00-ը նախնական ընտրություն է, նստատեղերը չստուգված։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). EUR Fermi մետրոյի կայարանի ներկայացուցչական կետ։ Աղբյուր՝ https://en.wikipedia.org/wiki/EUR_Fermi",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            20
+          ],
+          "hours_hy": "Ավտոբուսի պաշտոնական ընդհանուր ժամանակացույց՝ ամեն օր",
+          "price_hy": "Շրջադարձային՝ մեծահասակ 13 €, մինչև 25 տարեկան անվճար. խմբի համար 78 €, բացառելով մետրոն",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "bus",
+            "km": null,
+            "min": null,
+            "line": "McArthurGlen Shuttle",
+            "color": "գույնը ՉՍՏՈՒԳՎԱԾ",
+            "direction": "Castel Romano Designer Outlet",
+            "get_off": "Castel Romano Outlet",
+            "transfers_hy": "Պլանային ժամանակ/հեռավորություն՝ ԵՆԹԱԴՐՈՒԹՅՈՒՆ, ճշգրիտ մեկնումը ՉՍՏՈՒԳՎԱԾ։ https://www.mcarthurglen.com/it/outlets/it/designer-outlet-castel-romano/servizi/servizio-navetta/",
+            "ticket_hy": "13 € մեծահասակ/վերադարձ, մինչև 25 տ. անվճար. 6×13=78 € (մետրոն ներառված չէ)"
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.mcarthurglen.com/it/outlets/it/designer-outlet-castel-romano/servizi/servizio-navetta/",
+            "https://en.wikipedia.org/wiki/EUR_Fermi"
+          ]
+        },
+        {
+          "id": "rome-27-03",
+          "order": 3,
+          "kind": "shop",
+          "name_hy": "Կաստել Ռոմանո դիզայներական outlet",
+          "name_local": "Castel Romano Designer Outlet",
+          "lat": 41.716961,
+          "lon": 12.444651,
+          "description_hy": "Ավելի քան 160 բրենդ, մինչև 70% գովազդվող զեղչեր՝ ոչ բոլոր ապրանքների վրա։ Nike, Adidas, Armani, BOSS, Burberry, Calvin Klein, New Balance, Michael Kors, Tommy Hilfiger։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            180,
+            300
+          ],
+          "hours_hy": "Երեքշաբթի 10:00–20:00",
+          "price_hy": "Մուտքը անվճար, գնումների գները՝ ՉՍՏՈՒԳՎԱԾ",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 2.8,
+            "min": 40,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ մոտ 2,8 կմ ներքին շրջայց outlet-ի խանութներով, ոչ ուղիղ Bonetti քայլուղու չափում։",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-castel-romano/",
+            "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-castel-romano/stores/",
+            "https://www.turismoroma.it/en/events/fashion-festival-castel-romano-designer-outlet"
+          ]
+        },
+        {
+          "id": "rome-27-04",
+          "order": 4,
+          "kind": "food",
+          "name_hy": "Bonetti՝ սուրճ և թեթև սնունդ",
+          "name_local": "Bonetti – Castel Romano",
+          "lat": 41.716961,
+          "lon": 12.444651,
+          "description_hy": "Outlet-ի ներսում 10:00–20:00 գործող սրճարան. մենյուի կոնկրետ գները չեն հրապարակվել ստուգելի տեքստով։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Երեքշաբթի 10:00–20:00",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-castel-romano/food-drink/bonetti/",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.5,
+            "min": 7,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-castel-romano/food-drink/bonetti/"
+          ]
+        },
+        {
+          "id": "rome-27-05",
+          "order": 5,
+          "kind": "food",
+          "name_hy": "Ham Holy Burger՝ outlet",
+          "name_local": "Ham Holy Burger – Castel Romano",
+          "lat": 41.716961,
+          "lon": 12.444651,
+          "description_hy": "Outlet-ի ներսում ճաշի թեկնածու. հրապարակված 2026 TheFork մենյու, բայց 8 տեղ ու տվյալ օրվա սպասարկումը չստուգված։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Outlet բաց՝ 10:00–20:00; անհատական ռեստորանի ժամերը ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "https://www.thefork.it/ristorante/ham-holy-burger-castel-romano-designer-outlet-r562143/menu",
+          "menu_prices_hy": "TheFork մենյու 2026՝ Honest Cheeseburger 8,50 €, Holyburger 12 €, Vegana աղցան 10 €. Գները հրապարակված, ոչ այցի օրով հաստատված",
+          "reviews_source": "https://www.thefork.it/ristorante/ham-holy-burger-castel-romano-designer-outlet-r562143/menu",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.5,
+            "min": 7,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.thefork.it/ristorante/ham-holy-burger-castel-romano-designer-outlet-r562143/menu",
+            "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-castel-romano/food-drink/"
+          ]
+        },
+        {
+          "id": "rome-27-06",
+          "order": 6,
+          "kind": "transport",
+          "name_hy": "Outlet-ից վերադարձի ավտոբուս",
+          "name_local": "Castel Romano → EUR Fermi",
+          "lat": 41.716961,
+          "lon": 12.444651,
+          "description_hy": "Նախընտրելի վերադարձ 16:30, որպես ավելի վաղ տարբերակ՝ մինչև 17:30 վերադառնալ։ Հատուկ օրվա շեղումը և 8 ուղևորի նստատեղերը դեռ չստուգված։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Ընդհանուր վերադարձներ՝ 16:30, 17:30, 19:00, 20:05",
+          "price_hy": "Ներառված է նույն գնված վերադարձի shuttle տոմսի մեջ",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "bus",
+            "km": null,
+            "min": null,
+            "line": "McArthurGlen Shuttle + Metro B",
+            "color": "գույնը ՉՍՏՈՒԳՎԱԾ; մետրո կապույտ",
+            "direction": "EUR Fermi, ապա Metro B Rebibbia/Jonio",
+            "get_off": "Bologna",
+            "transfers_hy": "Պլանային ժամանակ/հեռավորություն՝ ԵՆԹԱԴՐՈՒԹՅՈՒՆ, ճշգրիտ մեկնումը ՉՍՏՈՒԳՎԱԾ։ https://www.mcarthurglen.com/it/outlets/it/designer-outlet-castel-romano/servizi/servizio-navetta/",
+            "ticket_hy": "Վերադարձ shuttle-ը նույն վերադարձային տոմսով, մետրոն՝ նոր BIT 1,50 €"
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.mcarthurglen.com/it/outlets/it/designer-outlet-castel-romano/servizi/servizio-navetta/"
+          ]
+        },
+        {
+          "id": "rome-27-07",
+          "order": 7,
+          "kind": "home",
+          "name_hy": "Վերադարձ Bologna, վաղ հանգիստ",
+          "name_local": "Bologna",
+          "lat": 41.913165,
+          "lon": 12.520425,
+          "description_hy": "Հաջորդ առավոտի 06:15 թռիչքի պատճառով երեկոն կարճ։ Մասնավոր մեքենայի նախնական պատվիրումը սեփականատիրոջ գործողությունն է։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            0,
+            0
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0,
+            "min": 0,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Օրվա վերջ",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "city": "rome",
+      "title_hy": "Գիշերային մեկնում Հռոմից՝ FCO",
+      "notes_hy": "Միայն տուն → FCO → թռիչք։ Բնակության հասցեն հանրային JSON-ում չկա։ 2 տաքսի՝ սեփականատիրոջ որոշմամբ, նախապես պատվիրելու անհրաժեշտություն։",
+      "total_walk_km": 0,
+      "stops": [
+        {
+          "id": "rome-28-01",
+          "order": 1,
+          "kind": "home",
+          "name_hy": "Գիշերային մեկնում Bologna շրջանից",
+          "name_local": "Bologna",
+          "lat": 41.913165,
+          "lon": 12.520425,
+          "description_hy": "Սեփականատիրոջ ընդունած հիմնական տարբերակ՝ 2 տաքսի. 02:45 մեկնումը հաշվարկային ԵՆԹԱԴՐՈՒԹՅՈՒՆ է, իրական գին/ուղևորության ժամերն անհայտ են։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            0,
+            0
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "taxi",
+            "km": null,
+            "min": null,
+            "line": "2 լիցենզավորված տաքսի",
+            "color": "չի կիրառվում",
+            "direction": "FCO ճիշտ տերմինալ",
+            "get_off": "FCO",
+            "transfers_hy": "Պլանային ժամանակ/հեռավորություն՝ ԵՆԹԱԴՐՈՒԹՅՈՒՆ, ճշգրիտ մեկնումը ՉՍՏՈՒԳՎԱԾ։ https://www.gov.uk/foreign-travel-advice/italy/safety-and-security",
+            "ticket_hy": "Գինը անհայտ, ամրագրում չի կատարվել"
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": []
+        },
+        {
+          "id": "rome-28-02",
+          "order": 2,
+          "kind": "airport",
+          "name_hy": "Հռոմ FCO՝ մեկնման տերմինալը չստուգված",
+          "name_local": "Aeroporto di Fiumicino (FCO)",
+          "lat": 41.79344,
+          "lon": 12.25187,
+          "description_hy": "Թռիչք՝ 06:15, տերմինալում լինելու նպատակ՝ 03:45։ Ճշգրիտ տերմինալը ստուգել ADR/Wizz boarding pass-ով։ Առցանց գրանցումն անել նախապես՝ մինչև 03:15։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). FCO կայարանի տարածքի կողմնորոշիչ կետ, ՈՉ 28.10 W4 6167-ի հաստատված տերմինալ. տաքսիին պետք է ասել իրական տերմինալը։ Աղբյուր՝ https://mapcarta.com/29388912",
+          "photo_spot_hy": "",
+          "visit_min": [
+            120,
+            150
+          ],
+          "hours_hy": "Օդանավակայանի տերմինալի գիշերային մուտքն ու կոնկրետ բաժինը ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0,
+            "min": 0,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Երթուղու վերջ",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "Սեփականատիրոջ ամրագրում՝ 17.10.2026",
+            "https://mapcarta.com/29388912"
           ]
         }
       ]
@@ -672,8 +2992,8 @@
       "to_hy": "Paris Orly (ORY)",
       "flight_time_local": "06:20",
       "terminal": "Orly 1",
-      "target_at_terminal": "03:50",
-      "leave_home_at": "2026-10-23T23:55:00",
+      "target_at_terminal": "2026-10-24T03:50",
+      "leave_home_at": "2026-10-23T23:55",
       "options": [
         {
           "rank": "primary",
@@ -706,7 +3026,7 @@
               "depart": "2026-10-24T01:05",
               "arrive": "2026-10-24T02:03",
               "price_eur_person": 0,
-              "where_to_buy_hy": "N12-ի նույն Bus-Tram տոմսով՝ փոխատեղման սահմաններում. Չաթելե 21 րոպե սպասում/անցում"
+              "where_to_buy_hy": "Նույն տոմսով՝ N12-ի նույն Bus-Tram տոմսով՝ փոխատեղման սահմաններում. Չաթելե 21 րոպե սպասում/անցում"
             },
             {
               "mode": "walk",
@@ -798,7 +3118,7 @@
               "depart": null,
               "arrive": null,
               "price_eur_person": null,
-              "where_to_buy_hy": "Միայն նախնական սակագնային գնահատում, հաստատված գնանշում չկա, ամրագրում չի կատարվել։"
+              "where_to_buy_hy": "Միայն նախնական սակագնային գնահատում, հաստատված գնանշում չկա, ամրագրում չի կատարվել։։ Claude-ի ԳՆԱՀԱՏՈՒՄ (ԵՆԹԱԴՐՈՒԹՅՈՒՆ). Romainville–Carnot → Orly ուղիղ գծով ~18 կմ, ճանապարհով ~24–27 կմ, Tarif C 3 € + 1,76 €/կմ → ~45–51 €/մեքենա, 2 մեքենա ~90–105 €, առանց հավելավճարների (5-րդ ուղևոր, ուղեբեռ, պատվեր՝ ՉՍՏՈՒԳՎԱԾ)։ Ճանապարհը ~35–45 րոպե → տնից ելք ~02:45–03:00, Orly 1՝ մինչև 03:50։"
             }
           ],
           "total_min": null,
@@ -811,7 +3131,7 @@
           ]
         }
       ],
-      "warning_hy": "ՊԼԱՆԱՅԻՆ/ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ տնից ելք 23.10՝ 23:55 (24.10-ի 00:15 N12-ի համար)։ 2026-ի N12/N22 PDF-ների 9-րդ էջերի ճիշտ «Samedi, dimanche et jours fériés» սյունակը ստուգված է, սակայն Châtelet-ի երկու իրական կանգառների միջև քայլքը և 02:00-ից ORY4→ORY3→ORY1 անցումը չեն հաստատվել։ Orly4→1՝ մոտ 10 րոպե՝ հին պաշտոնական քարտեզի 5+5 րոպեանոց սխեմայից, ոչ երաշխավորված գիշերային անցում։ Քարտով գիշերային երկու ավտոբուսներին առանձին վավերացնել ըստ RATP/IDFM կանոնների։ 8 հոգու համար 21-րոպեանոց փոխատեղումը կարող է խաթարվել երթի ուշացմամբ։ 23→24.10-ի «Samedi, dimanche et jours fériés» PDF էջ 9 կիրառվել է ճիշտ գիշերվան. շարունակում է գործել ուղևորության օրը ժամանակավոր շեղումների հնարավորությունը։ Ուրբաթ M11-ի վերջին ճշգրիտ անցումը Romainville–Carnot-ից դեպի Châtelet ՉՍՏՈՒԳՎԱԾ է. միայն ընդհանուր RATP տեղեկատվությամբ գիծը ուրբաթ երեկոյան վերջնակետ է հասնում մոտ 02:15։ M11+N22-ի արժեքը մոտ 4,60 €/անձ (36,80 €/8)՝ առանց կրիչների, եթե 2 ժամերը համապատասխանում են։ 2 տաքսու իրական գինը չստուգված է. 45 € Paris rive droite–Orly սակագինը չի տարածվում ինքնաբերաբար Romainville-ի վրա։ Գիշերվա ենթադրյալ Tarif C 1,76 €/կմ+3 € մեկնարկ՝ առանց ճշգրիտ վարորդական հեռավորության, ժամանակի և հավելավճարների։ Սեփականատիրոջ հաստատումը սպասվում է",
+      "warning_hy": "ՊԼԱՆԱՅԻՆ/ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ տնից ելք 23.10՝ 23:55 (24.10-ի 00:15 N12-ի համար)։ 2026-ի N12/N22 PDF-ների 9-րդ էջերի ճիշտ «Samedi, dimanche et jours fériés» սյունակը ստուգված է, սակայն Châtelet-ի երկու իրական կանգառների միջև քայլքը և 02:00-ից ORY4→ORY3→ORY1 անցումը չեն հաստատվել։ Orly4→1՝ մոտ 10 րոպե՝ հին պաշտոնական քարտեզի 5+5 րոպեանոց սխեմայից, ոչ երաշխավորված գիշերային անցում։ Քարտով գիշերային երկու ավտոբուսներին առանձին վավերացնել ըստ RATP/IDFM կանոնների։ 8 հոգու համար 21-րոպեանոց փոխատեղումը կարող է խաթարվել երթի ուշացմամբ։ 23→24.10-ի «Samedi, dimanche et jours fériés» PDF էջ 9 կիրառվել է ճիշտ գիշերվան. շարունակում է գործել ուղևորության օրը ժամանակավոր շեղումների հնարավորությունը։ Ուրբաթ M11-ի վերջին ճշգրիտ անցումը Romainville–Carnot-ից դեպի Châtelet ՉՍՏՈՒԳՎԱԾ է. միայն ընդհանուր RATP տեղեկատվությամբ գիծը ուրբաթ երեկոյան վերջնակետ է հասնում մոտ 02:15։ M11+N22-ի արժեքը մոտ 4,60 €/անձ (36,80 €/8)՝ առանց կրիչների, եթե 2 ժամերը համապատասխանում են։ 2 տաքսու իրական գինը չստուգված է. 45 € Paris rive droite–Orly սակագինը չի տարածվում ինքնաբերաբար Romainville-ի վրա։ Գիշերվա ենթադրյալ Tarif C 1,76 €/կմ+3 € մեկնարկ՝ առանց ճշգրիտ վարորդական հեռավորության, ժամանակի և հավելավճարների։ Երկու տարբերակն էլ պահվում են, ընտրությունը՝ սեփականատիրոջ",
       "city": "paris"
     },
     {
@@ -845,7 +3165,7 @@
               "depart": null,
               "arrive": null,
               "price_eur_person": 0,
-              "where_to_buy_hy": "Նույն մետրոյի տոմսի ներքին փոխատեղում"
+              "where_to_buy_hy": "Նույն տոմսով՝ մետրոյի ներքին փոխատեղում"
             }
           ],
           "total_min": null,
@@ -880,7 +3200,7 @@
               "depart": null,
               "arrive": null,
               "price_eur_person": 0,
-              "where_to_buy_hy": "Նույն ինտեգրված տոմսի փոխատեղում 75 րոպեում"
+              "where_to_buy_hy": "Նույն տոմսով՝ ինտեգրված փոխատեղում 75 րոպեում"
             }
           ],
           "total_min": null,
@@ -904,8 +3224,8 @@
       "to_hy": "Barcelona BCN Terminal 2",
       "flight_time_local": "10:00",
       "terminal": "T2",
-      "target_at_terminal": "07:30",
-      "leave_home_at": "2026-10-26T05:55:00",
+      "target_at_terminal": "2026-10-26T07:30",
+      "leave_home_at": "2026-10-26T05:55",
       "options": [
         {
           "rank": "primary",
@@ -1090,11 +3410,33 @@
       "to_hy": "Rome Fiumicino (FCO)",
       "flight_time_local": "06:15",
       "terminal": null,
-      "target_at_terminal": "03:45",
-      "leave_home_at": null,
+      "target_at_terminal": "2026-10-28T03:45",
+      "leave_home_at": "2026-10-28T02:45",
       "options": [
         {
           "rank": "primary",
+          "steps": [
+            {
+              "mode": "taxi",
+              "line": "2 լիցենզավորված տաքսի. գույնը կիրառելի չէ",
+              "from": "Bologna (Metro B) շրջան",
+              "to": "FCO հաստատման ենթակա տերմինալ",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": null,
+              "where_to_buy_hy": "Պաշտոնական անհատական գնանշում չկա. ոչինչ չի ամրագրվել։ Claude-ի ԳՆԱՀԱՏՈՒՄ (ԵՆԹԱԴՐՈՒԹՅՈՒՆ, երկրորդային սակագներով). Bologna → FCO ուղիղ գծով ~27 կմ, ճանապարհով ~32–37 կմ, գիշերային մեկնարկ 7,50 € + 1,33–1,73 €/կմ → ~50–72 €/մեքենա, 2 մեքենա ~100–145 €։ Տնից ելք ~02:45, FCO՝ մինչև 03:45։ Տաքսին պետք է պատվիրել նախապես (սեփականատիրոջ գործողություն)։"
+            }
+          ],
+          "total_min": null,
+          "buffer_min": null,
+          "price_eur_group": null,
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": [
+            "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF45345"
+          ]
+        },
+        {
+          "rank": "backup",
           "steps": [
             {
               "mode": "walk",
@@ -1222,31 +3564,9 @@
           "price_eur_group": null,
           "label": "ՉՍՏՈՒԳՎԱԾ",
           "sources": []
-        },
-        {
-          "rank": "backup",
-          "steps": [
-            {
-              "mode": "taxi",
-              "line": "2 լիցենզավորված տաքսի. գույնը կիրառելի չէ",
-              "from": "Bologna (Metro B) շրջան",
-              "to": "FCO հաստատման ենթակա տերմինալ",
-              "depart": null,
-              "arrive": null,
-              "price_eur_person": null,
-              "where_to_buy_hy": "Պաշտոնական անհատական գնանշում չկա. ոչինչ չի ամրագրվել"
-            }
-          ],
-          "total_min": null,
-          "buffer_min": null,
-          "price_eur_group": null,
-          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": [
-            "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF45345"
-          ]
         }
       ],
-      "warning_hy": "ՉՍՏՈՒԳՎԱԾ՝ 28.10 կոնկրետ FCO→EVN չվերթի տերմինալը, 27→28-ի 00:xx nMB1 կանգառում մեկնումն ու Termini ժամանումը, TAM-ի 28.10 կոնկրետ վաճառքի օրով երթը, Termini→TAM քայլքը, T3→մեկնման ճիշտ տերմինալի քայլքը։ Օպերատորը հրապարակում է 00:30→01:10, 01:30→02:10, 02:30→03:10, բայց օրային սյունակ չի տալիս։ Միայն 02:30 TAM-ը թռիչքից 150ր շեմին թողնում է 35ր պահուստ՝ մինչև ճիշտ տերմինալը հասնելը։ Metro B/B1-ի վերջին ելքերը երեքշաբթի վերջնակետերից մոտ 23:27–23:30 են, Bologna-ի ճշգրիտ վերջին գնացքը հայտնի չէ։ Գործնական վերջնական leave_home_at չհաշվարկել առանց ճշգրիտ գիշերային կապի և FCO տերմինալի։ 8 տեղանոց մեքենայի գնանշում չի ստացվել։ ATAC 17.07.2026 հայտարարությամբ nMB1 շաբաթ գիշերը հաճախացել է, բայց երեքշաբթի գիշերվա այդ հաճախացումն ԱՊԱՑՈՒՅՑ ՉԷ։ ATAC-ի ինտերակտիվ էջը 17.10-ին ընտրության համար տալիս էր մինչև 22.10, ոչ 27→28.10։ Moovit-ի 31.08.2026 ընդհանուր աղյուսակում XXI Aprile/Ricotti համար հրապարակված 01:07/01:30/01:53 ժամերը ՉՍՏՈՒԳՎԱԾ են կոնկրետ գիշերվա համար, իսկ Termini-ի սյունակն ունի ժամանակագրական հակասություն։ TAM-ի 24-ժամյա վաճառքի կետի գոյությունն ինքնին չի հաստատում 28.10-ի կոնկրետ երթը։ Bologna/Nomentano հասցեն Aurelian Walls-ի ներսում չէ՝ FCO 55 € կենտրոնական ֆիքսված սակագինը ինքնաբերաբար չի կիրառվում. գիշերային տաքսու գնահատականը պայմանական է, իրական գինը չստուգված։ TAM Bus-ի ընդհանուր 00:30/01:30/02:30 աղյուսակը չի հաստատում 27→28-ի հատուկ փոփոխությունների բացակայությունը։ Այստեղ private_van-ը և 2 տաքսին առանձին չգնանշված տարբերակներ են։",
+      "warning_hy": "ՉՍՏՈՒԳՎԱԾ՝ 28.10 կոնկրետ FCO→EVN չվերթի տերմինալը, 27→28-ի 00:xx nMB1 կանգառում մեկնումն ու Termini ժամանումը, TAM-ի 28.10 կոնկրետ վաճառքի օրով երթը, Termini→TAM քայլքը, T3→մեկնման ճիշտ տերմինալի քայլքը։ Օպերատորը հրապարակում է 00:30→01:10, 01:30→02:10, 02:30→03:10, բայց օրային սյունակ չի տալիս։ Միայն 02:30 TAM-ը թռիչքից 150ր շեմին թողնում է 35ր պահուստ՝ մինչև ճիշտ տերմինալը հասնելը։ Metro B/B1-ի վերջին ելքերը երեքշաբթի վերջնակետերից մոտ 23:27–23:30 են, Bologna-ի ճշգրիտ վերջին գնացքը հայտնի չէ։ Գործնական վերջնական leave_home_at չհաշվարկել առանց ճշգրիտ գիշերային կապի և FCO տերմինալի։ 8 տեղանոց մեքենայի գնանշում չի ստացվել։ ATAC 17.07.2026 հայտարարությամբ nMB1 շաբաթ գիշերը հաճախացել է, բայց երեքշաբթի գիշերվա այդ հաճախացումն ԱՊԱՑՈՒՅՑ ՉԷ։ ATAC-ի ինտերակտիվ էջը 17.10-ին ընտրության համար տալիս էր մինչև 22.10, ոչ 27→28.10։ Moovit-ի 31.08.2026 ընդհանուր աղյուսակում XXI Aprile/Ricotti համար հրապարակված 01:07/01:30/01:53 ժամերը ՉՍՏՈՒԳՎԱԾ են կոնկրետ գիշերվա համար, իսկ Termini-ի սյունակն ունի ժամանակագրական հակասություն։ TAM-ի 24-ժամյա վաճառքի կետի գոյությունն ինքնին չի հաստատում 28.10-ի կոնկրետ երթը։ Bologna/Nomentano հասցեն Aurelian Walls-ի ներսում չէ՝ FCO 55 € կենտրոնական ֆիքսված սակագինը ինքնաբերաբար չի կիրառվում. գիշերային տաքսու գնահատականը պայմանական է, իրական գինը չստուգված։ TAM Bus-ի ընդհանուր 00:30/01:30/02:30 աղյուսակը չի հաստատում 27→28-ի հատուկ փոփոխությունների բացակայությունը։ Այստեղ private_van-ը և 2 տաքսին առանձին չգնանշված տարբերակներ են։ Սեփականատիրոջ պատվիրակած ընտրություն՝ երկու տաքսի՝ հիմնական, գիշերային հանրային փոխադրումներն ու van-ը՝ պահուստ։ 02:45 ելքը ԵՆԹԱԴՐՈՒԹՅՈՒՆ է, ոչ ստուգված երթևեկային ժամ։",
       "city": "rome"
     }
   ],
@@ -1303,10 +3623,18 @@
     "27→28.10՝ ATAC nMB1 Bologna→Termini կոնկրետ օրվա ժամը, Metro B Bologna վերջին մեկնումը, TAM տվյալ գիշեր ծառայությունը. S05 վերաստուգել 20–26.10։",
     "28.10՝ FCO W4 6167 մեկնման ճշգրիտ տերմինալը, ավտոբուսի կանգառից այնտեղ անցումը։",
     "Փարիզում և Հռոմում՝ 8 հոգու համար երկու տաքսու կամ մեկ van-ի գինը, առկայությունը և իրական գիշերային ճանապարհը չեն հաստատվել։",
-    "Ա2–Ա4-ի հաջորդ մասերի օրական կանգառները, ռեստորանների տվյալների և անվտանգության գոտիների լրացուցիչ ստուգումները։",
-    "Սեփականատիրոջ որոշումները սպասվում են. 20.10 երեկոյի սցենար, 24.10 N12→N22 կամ 2 տաքսի, Բարսելոնայի կայարան (Maria Cristina / Les Corts), 28.10 Հռոմի տարբերակ",
     "Առցանց գրանցում. 20.10 մինչև 10:25 (Երևան), 24.10 Vueling մինչև 05:30 (Փարիզ, անել 23.10-ին), 26.10 մինչև 07:00 (Բարսելոնա, անել 25.10-ին), 28.10 մինչև 03:15 (Հռոմ, անել 27.10-ին)",
     "23→24.10 M11-ի վերջին գնացքի ճշգրիտ ժամը Romainville–Carnot-ից՝ M11+N22 պահուստային երթուղու համար",
-    "26.10 FCO ժամանման տերմինալը (W4 6018)"
+    "26.10 FCO ժամանման տերմինալը (W4 6018)",
+    "Որոշված է. 20.10՝ ընթրիք + կարճ զբոսանք, Բարսելոնա՝ Maria Cristina, 28.10՝ 2 տաքսի (պատվիրել նախապես)։ 24.10՝ երկու տարբերակ, ընտրությունը տեղում",
+    "21–23.10 Փարիզ՝ օրական երկրորդ սննդի մի շարք կոնկրետ կետեր և 8 անձի նստելու պայմանները ՉՍՏՈՒԳՎԱԾ, ուղևորության քայլքի գնահատումները պահանջում են քարտեզային հաստատում։",
+    "Բարսելոնա 24–25.10՝ սննդի 8 տեղերը, բոլոր հրապարակված ուտեստների գները, MUHBA խմբային ընդունման պայմանները և քայլքի բոլոր հատվածների քարտեզային չափումները դեռ չստուգված են։",
+    "Հռոմ 26.10՝ FCO FL1 իրական ընտրված գնացքը, Տիբուրտինա փոխատեղումը, ժամանման տերմինալը և երեկոյան 8 հոգու երկու ճաշի հնարավորությունը դեռ չստուգված են։",
+    "Հռոմ 27.10 Castel Romano՝ EUR Fermi 10:00/16:30 shuttle-ի հենց 27.10 հատուկ շեղումները, 8 տեղերը և Bonetti/Ham Holy Burger 8 տեղանոց նստեցումը չստուգված են։",
+    "Հռոմ 27.10՝ EUR Fermi 6×13 € + 2 մինչև 25 տարեկան անվճար shuttle տարբերակը՝ 78 €; Metro B 24 € պայմանական լրացուցիչ, պետք է իրական գնման պայմանները ստուգել։",
+    "Հռոմ և Բարսելոնա անվտանգության պոլիգոնները նկարագրական ԵՆԹԱԴՐՈՒԹՅՈՒՆ են, ոչ պաշտոնական ռիսկային գոտիների սահմաններ։",
+    "Բոլոր օրերի լուսանկարները ոչ ամբողջական են. առանց հեղինակի, ուղիղ պատկերի հղման և լիցենզիայի հաստատման չեն ավելացվել։",
+    "28.10 Հռոմ՝ 2 տաքսին սեփականատիրոջ ընտրությունն է, սակայն գինը, պատվերը և FCO թռիչքի տերմինալը դեռ ՉՍՏՈՒԳՎԱԾ են։",
+    "rome-26-08 (Monti Lab). Հանրային հասցեի մոտավոր կետը լրացված է աղբյուրով, սակայն ռեստորանի ճշգրիտ մուտքը ՉՍՏՈՒԳՎԱԾ է։ Ծրագրի իրական Google Maps հղման check-trip ստուգումը պետք է կատարվի ծրագրում։"
   ]
 }

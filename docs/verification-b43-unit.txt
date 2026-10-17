@@ -1,0 +1,206 @@
+
+> travel-pwa-skeleton@0.3.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: personal order reconciles stable ids, ignores removed ids, appends new stops
+ok 1 - personal order reconciles stable ids, ignores removed ids, appends new stops
+  ---
+  duration_ms: 1.5136
+  type: 'test'
+  ...
+# Subtest: full-day routes preserve order with no more than three mobile waypoints and chained origins
+ok 2 - full-day routes preserve order with no more than three mobile waypoints and chained origins
+  ---
+  duration_ms: 0.5854
+  type: 'test'
+  ...
+# Subtest: visited and skipped stops leave routes; unknown coordinate blocks an incomplete route
+ok 3 - visited and skipped stops leave routes; unknown coordinate blocks an incomplete route
+  ---
+  duration_ms: 0.2721
+  type: 'test'
+  ...
+# Subtest: transit uses individual legs, not possibly ignored waypoints
+ok 4 - transit uses individual legs, not possibly ignored waypoints
+  ---
+  duration_ms: 0.14
+  type: 'test'
+  ...
+# Subtest: buffer unknown is never zero or green; boundary uses supplied number only
+ok 5 - buffer unknown is never zero or green; boundary uses supplied number only
+  ---
+  duration_ms: 0.1001
+  type: 'test'
+  ...
+# Subtest: Samsung detection uses SamsungBrowser token, including desktop mode
+ok 6 - Samsung detection uses SamsungBrowser token, including desktop mode
+  ---
+  duration_ms: 0.127
+  type: 'test'
+  ...
+# Subtest: the supplied trip validates without dropping collections
+ok 7 - the supplied trip validates without dropping collections
+  ---
+  duration_ms: 17.4265
+  type: 'test'
+  ...
+# Subtest: B3 literal time formatting never applies timezone arithmetic
+ok 8 - B3 literal time formatting never applies timezone arithmetic
+  ---
+  duration_ms: 0.5478
+  type: 'test'
+  ...
+# Subtest: B3 prices and unknown minutes preserve meaning
+ok 9 - B3 prices and unknown minutes preserve meaning
+  ---
+  duration_ms: 0.1947
+  type: 'test'
+  ...
+# Subtest: supplied trip accepts optional checkin text and rejects wrong type
+ok 10 - supplied trip accepts optional checkin text and rejects wrong type
+  ---
+  duration_ms: 14.4993
+  type: 'test'
+  ...
+# Subtest: empty itinerary cannot pass route readiness
+ok 11 - empty itinerary cannot pass route readiness
+  ---
+  duration_ms: 15.3104
+  type: 'test'
+  ...
+# Subtest: v9-like coordinate gap reports exact IDs and fails daily routing audit
+ok 12 - v9-like coordinate gap reports exact IDs and fails daily routing audit
+  ---
+  duration_ms: 2.338
+  type: 'test'
+  ...
+# Subtest: pending names in either language fail even when coordinates and routes exist
+ok 13 - pending names in either language fail even when coordinates and routes exist
+  ---
+  duration_ms: 3.461
+  type: 'test'
+  ...
+# Subtest: empty day has no Google Maps route and fails readiness audit
+ok 14 - empty day has no Google Maps route and fails readiness audit
+  ---
+  duration_ms: 1.5249
+  type: 'test'
+  ...
+# Subtest: audit rejects wrong group totals even with unrelated warning
+ok 15 - audit rejects wrong group totals even with unrelated warning
+  ---
+  duration_ms: 2.6234
+  type: 'test'
+  ...
+# Subtest: audit accepts unknown total and explicitly explained group fare
+ok 16 - audit accepts unknown total and explicitly explained group fare
+  ---
+  duration_ms: 3.1121
+  type: 'test'
+  ...
+# Subtest: audit rejects impossible or unsupported times and validates HH:mm/full dates
+ok 17 - audit rejects impossible or unsupported times and validates HH:mm/full dates
+  ---
+  duration_ms: 3.0296
+  type: 'test'
+  ...
+# Subtest: unknown coordinates never become a fake location at zero
+ok 18 - unknown coordinates never become a fake location at zero
+  ---
+  duration_ms: 0.5781
+  type: 'test'
+  ...
+# Subtest: directions use current position and the documented encoded destination
+ok 19 - directions use current position and the documented encoded destination
+  ---
+  duration_ms: 0.737
+  type: 'test'
+  ...
+# Subtest: local date and clock follow DST in the city, regardless of device zone
+ok 20 - local date and clock follow DST in the city, regardless of device zone
+  ---
+  duration_ms: 12.454
+  type: 'test'
+  ...
+# Subtest: home fragment accepts only known cities and plain nonempty addresses
+ok 21 - home fragment accepts only known cities and plain nonempty addresses
+  ---
+  duration_ms: 0.7578
+  type: 'test'
+  ...
+# Subtest: invalid data cannot replace a valid trip; absent coordinates remain allowed
+ok 22 - invalid data cannot replace a valid trip; absent coordinates remain allowed
+  ---
+  duration_ms: 0.8712
+  type: 'test'
+  ...
+# Subtest: untrusted source links cannot execute script or escape to local files
+ok 23 - untrusted source links cannot execute script or escape to local files
+  ---
+  duration_ms: 0.1129
+  type: 'test'
+  ...
+# Subtest: malformed nested fields are rejected before they can replace the offline plan
+ok 24 - malformed nested fields are rejected before they can replace the offline plan
+  ---
+  duration_ms: 1.3826
+  type: 'test'
+  ...
+# Subtest: mixed line identifiers use neutral color
+ok 25 - mixed line identifiers use neutral color
+  ---
+  duration_ms: 0.6817
+  type: 'test'
+  ...
+# Subtest: Armenian distance display preserves decimal precision
+ok 26 - Armenian distance display preserves decimal precision
+  ---
+  duration_ms: 0.0942
+  type: 'test'
+  ...
+# Subtest: mixed bus and metro cannot reuse road geometry
+ok 27 - mixed bus and metro cannot reuse road geometry
+  ---
+  duration_ms: 0.6083
+  type: 'test'
+  ...
+# Subtest: segments include station endpoints and preserve visited stops; metro is solid, walk dashed
+ok 28 - segments include station endpoints and preserve visited stops; metro is solid, walk dashed
+  ---
+  duration_ms: 0.284
+  type: 'test'
+  ...
+# Subtest: gap is not bridged; next valid outgoing segment is unknown
+ok 29 - gap is not bridged; next valid outgoing segment is unknown
+  ---
+  duration_ms: 0.2119
+  type: 'test'
+  ...
+# Subtest: reordered adjacency and moved last stop do not reuse old mode or path
+ok 30 - reordered adjacency and moved last stop do not reuse old mode or path
+  ---
+  duration_ms: 0.1181
+  type: 'test'
+  ...
+# Subtest: validated street geometry supports >2 points; malformed/stale paths rejected
+ok 31 - validated street geometry supports >2 points; malformed/stale paths rejected
+  ---
+  duration_ms: 0.5231
+  type: 'test'
+  ...
+# Subtest: line recognition uses city and full line identifier, never arbitrary CSS
+ok 32 - line recognition uses city and full line identifier, never arbitrary CSS
+  ---
+  duration_ms: 0.2024
+  type: 'test'
+  ...
+1..32
+# tests 32
+# suites 0
+# pass 32
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 126.605

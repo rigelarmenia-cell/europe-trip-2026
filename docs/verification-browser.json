@@ -27,7 +27,7 @@
       "status": "PASS"
     },
     {
-      "name": "Safety polygon toggles without route lines; full-screen map Back works",
+      "name": "Safety polygon toggles independently of day route lines; full-screen map Back works",
       "status": "PASS"
     },
     {

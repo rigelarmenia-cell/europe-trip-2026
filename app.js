@@ -2,7 +2,8 @@ import { coordinates, directions, localDate, localClock, parseHomes, safeUrl, va
 import { createMap } from './lib/map.js';
 import { orderedStops, dayRoutes, isSamsung } from './lib/itinerary.js';
 import { renderAirports } from './lib/airports.js';
-import { money } from './lib/format.js';
+import { money, distanceNumber } from './lib/format.js';
+import {validatePaths} from './lib/paths.js';
 
 const $ = id => document.getElementById(id);
 const base = new URL('./', location.href);
@@ -35,6 +36,8 @@ function personalDay() {
   return item && typeof item === 'object' && !Array.isArray(item) ? item : {};
 }
 function sortedStops(day) { return orderedStops(day, personalDay()); }
+function currentPaths() { try {return validatePaths(state.paths||{},state.trip);} catch {return {};} }
+function renderPaths() {state.map?.routes(currentDay(),sortedStops(currentDay()),currentCity(),currentPaths());}
 function updatePersonal(change) {
   const day = currentDay(); if (!day) return;
   const expanded = new Set([...document.querySelectorAll('.stop[open]')].map(el => el.dataset.id));
@@ -110,7 +113,7 @@ function render() {
   const stops = sortedStops(day);
   $('day-title').textContent = day?.title_hy || 'Օրերի պլանը դեռ պատրաստվում է';
   $('day-notes').textContent = day?.notes_hy || 'Ստուգված trip.json-ը ստանալուց հետո այստեղ կերևա օրվա ծրագիրը։';
-  $('walk-total').textContent = day ? `Քայլք՝ ${day.total_walk_km == null ? 'չստուգված' : `${day.total_walk_km} կմ`}` : '';
+  $('walk-total').textContent = day ? `Քայլք՝ ${day.total_walk_km == null ? 'չստուգված' : `${distanceNumber(day.total_walk_km)} կմ`}` : '';
   $('stop-count').textContent = `${stops.length} կանգառ`;
   $('stops').replaceChildren(...stops.map(renderStop));
   if (!stops.length) $('stops').append(element('p', 'Կանգառները դեռ պատրաստվում են', 'empty'));
@@ -118,6 +121,7 @@ function render() {
   renderAirports($('airports'), $('flights'), trip); renderTickets(city);
   renderDayRoutes();
   state.map?.show(stops, day && !stops.length ? null : city?.home_station);
+  renderPaths();
   renderSafety();
   updateClock();
 }
@@ -167,7 +171,7 @@ function renderStop(stop, index) {
     const details = element('details'); details.append(element('summary', `Սկզբնական պլանի հատված՝ դեպի ${originalNext?.name_hy || 'հաջորդ կանգառը'}`));
     details.append(element('p', 'Այս նկարագրությունը սկզբնական պլանից է։ Հերթականությունը կամ նշումները փոխելուց հետո օգտագործեք օրվա նոր Google Maps հղումները։', 'fine'));
     const info = element('dl'); field(info, 'Տրանսպորտ', modes[next.mode] || 'Սպասվում է');
-    field(info, 'Ճանապարհ', next.km == null || next.min == null ? 'Չստուգված' : `${next.km} կմ · ${next.min} րոպե`);
+    field(info, 'Ճանապարհ', next.km == null || next.min == null ? 'Չստուգված' : `${distanceNumber(next.km)} կմ · ${next.min} րոպե`);
     for (const [label, key] of [['Գիծ', 'line'], ['Գույն', 'color'], ['Ուղղություն', 'direction'], ['Իջնել', 'get_off'], ['Փոխատեղում', 'transfers_hy'], ['Տոմս', 'ticket_hy']]) if (next[key]) field(info, label, next[key]);
     details.append(info); body.append(details);
   }
@@ -192,7 +196,7 @@ function renderStop(stop, index) {
     mode.value = initialMode === 'walk' ? 'walk' : initialMode === 'taxi' ? 'taxi' : 'metro';
     mode.onchange = () => { go.href = directions(coordinates(stop), mode.value); };
     modeLabel.append(mode); body.append(modeLabel); actions.append(go);
-    const show = element('button', 'Քարտեզին'); show.onclick = () => { setMapView(true); state.map?.show([stop], null); }; actions.append(show);
+    const show = element('button', 'Քարտեզին'); show.onclick = () => { setMapView(true); state.map?.focus(stop); }; actions.append(show);
   } else actions.append(element('p', 'Կոորդինատները սպասվում են․ այս կանգառի նավիգացիան դեռ հասանելի չէ։', 'muted'));
   body.append(actions); card.append(summary, body); return card;
 }
@@ -291,18 +295,30 @@ async function checkData(manual = false) {
     const response = await fetch(new URL(dataFile, base), { cache: 'no-store', signal: abort.signal });
     if (!response.ok) throw new Error('network');
     const trip = validateTrip(await response.json());
-    if (!state.trip) applyTrip(trip, true);
+    if (!state.trip) {applyTrip(trip, true);checkPaths();}
     else if (JSON.stringify(trip) !== JSON.stringify(state.trip)) { state.pending = trip; $('update-banner').hidden = false; }
-    else { state.pending = null; $('update-banner').hidden = true; if (manual) notice('Ստուգվեց․ տվյալների նոր տարբերակ չկա։'); }
+    else { state.pending = null; $('update-banner').hidden = true; checkPaths(); if (manual) notice('Ստուգվեց․ տվյալների նոր տարբերակ չկա։'); }
   } catch {
     if (!state.trip) { $('day-title').textContent = 'Տվյալները չեն բեռնվել'; $('day-notes').textContent = 'Ստուգեք ինտերնետը և սեղմեք «Ստուգել տվյալների թարմացումը»։ Առաջին բացումը պետք է լինի ինտերնետով։'; }
     if (manual || !state.trip) notice('Նոր trip.json-ը չհաջողվեց կարդալ․ կապը բացակայում է կամ ֆայլը վավեր չէ։ Պահված վավեր տվյալները չեն փոխարինվել։');
   } finally { clearTimeout(timeout); state.loading = false; $('check-update').disabled = false; }
 }
 $('check-update').onclick = () => checkData(true);
+async function checkPaths() {
+  if(!state.trip)return;
+  const trip=state.trip;
+  try {
+    const response=await fetch(new URL('paths.json',base),{cache:'no-store',signal:AbortSignal.timeout(10000)});
+    if(state.trip!==trip)return;
+    let paths={};
+    if(response.ok){try{paths=validatePaths(await response.json(),trip);}catch{paths={};}}
+    if(state.trip!==trip)return;
+    state.paths=paths;save('paths',paths);renderPaths();
+  }catch { /* Offline: keep previously validated local geometry. */ }
+}
 $('apply-update').onclick = () => {
   if (!state.pending) return;
-  try { applyTrip(state.pending); state.pending = null; $('update-banner').hidden = true; notice('Տվյալները թարմացվել են։ Մասնավոր հասցեները պահպանվել են։'); }
+  try { applyTrip(state.pending); state.pending = null; checkPaths(); $('update-banner').hidden = true; notice('Տվյալները թարմացվել են։ Մասնավոր հասցեները պահպանվել են։'); }
   catch { notice('Նոր տվյալների ցուցադրումը չհաջողվեց։ Վերջին վավեր տարբերակը պահպանվել է։'); }
 };
 function connection() {
@@ -342,6 +358,7 @@ connection();
 state.map = createMap($('map'), message => { $('map-message').textContent = message; });
 new ResizeObserver(() => state.map?.resize()).observe($('map-panel'));
 const cached = read('trip');
+state.paths=read('paths')||{};
 if (cached) { try { applyTrip(validateTrip(cached), true); } catch { notice('Պահված տվյալները վնասված են․ փորձում ենք նորից բեռնել։'); } }
 checkData(); registerWorker();
 setInterval(updateClock, 30000);

@@ -1,17 +1,28 @@
 import { createRequire } from 'node:module';
-import { resolve } from 'node:path';
+import { resolve, extname, sep } from 'node:path';
+import {createServer} from 'node:http';
 import { readFile, mkdir, writeFile } from 'node:fs/promises';
 import assert from 'node:assert/strict';
-const { chromium } = createRequire(resolve(process.argv[2], 'package.json'))('playwright');
-const browser = await chromium.launch({ channel: 'msedge', headless: true });
+const { chromium, webkit } = createRequire(resolve(process.argv[2], 'package.json'))('playwright');
+const engine=process.argv[3]||'edge';
+const browser = await (engine==='webkit'?webkit.launch({headless:true}):chromium.launch({ channel: 'msedge', headless: true }));
 const context = await browser.newContext({ viewport: { width: 1400, height: 900 }, timezoneId: 'Asia/Yerevan' });
 const page = await context.newPage(), errors = [];
 page.on('pageerror', e => errors.push(e.message));
-const base = 'http://127.0.0.1:4173/travel/';
+const root=resolve('.');let demoOverride=null;
+const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.webmanifest':'application/manifest+json','.png':'image/png','.svg':'image/svg+xml'};
+const server=createServer(async(req,res)=>{try{
+ const rel=new URL(req.url,'http://localhost').pathname.replace(/^\/travel\//,'')||'index.html',file=resolve(root,rel);
+ if(!file.startsWith(root+sep))throw Error('path');
+ const body=rel==='demo-trip.json'&&demoOverride?JSON.stringify(demoOverride):await readFile(file);
+ res.writeHead(200,{'Content-Type':types[extname(file)]||'text/plain','Cache-Control':'no-store'});res.end(body);
+}catch{res.writeHead(404);res.end();}});
+await new Promise(r=>server.listen(0,'127.0.0.1',r));const port=server.address().port;
+const base = `http://127.0.0.1:${port}/travel/`;
 const realTrip = JSON.parse(await readFile('trip.json', 'utf8'));
 const output = { device: 'Windows desktop Edge / Playwright, NOT a physical phone', browser: browser.version(), checks: [] };
 const pass = name => { output.checks.push({ name, status: 'PASS' }); console.log('PASS ' + name); };
-const ready = () => page.locator('.airport-transfer').first().waitFor();
+const ready = async () => {await page.locator('.airport-transfer').first().waitFor();await page.waitForFunction(()=>document.querySelector('#day-title').textContent!=='Բեռնվում է…');};
 const realState = () => page.evaluate(() => Object.fromEntries(Object.entries(localStorage).filter(([k]) => k.includes(':real:') || k.endsWith(':homes') && !k.includes(':demo:'))));
 try {
   await page.goto(base); await ready();
@@ -26,8 +37,9 @@ try {
   for (const option of realTrip.airport_transfers.flatMap(t=>t.options)) assert.ok((await page.locator('#airports').textContent()).includes(option.label));
   assert.equal(await page.locator('.transfer-warning').count(), realTrip.airport_transfers.filter(t=>t.warning_hy).length);
   assert.ok((await page.locator('#questions-section').textContent()).length > 100);
-  assert.equal(await page.locator('.leaflet-marker-icon').count(), 0);
-  pass('Supplied trip: transfers, flights, empty first day, buffers, warnings and labels');
+  assert.equal(await page.locator('.stop').count(),realTrip.days[0].stops.length);
+  assert.equal(await page.locator('.leaflet-marker-icon').count(),realTrip.days[0].stops.length+1);
+  pass('Supplied trip: transfers, flights, first day counts, buffers, warnings and labels');
   for (let i = 0; i < realTrip.cities.length; i++) {
     await page.locator('#cities button').nth(i).click();
     const station = realTrip.cities[i].home_station;
@@ -79,30 +91,32 @@ try {
   await page.setViewportSize({ width: 375, height: 900 });
   await page.locator('#tab-map').click();
   await page.locator('#safety-toggle').check();
-  assert.equal(await page.locator('.leaflet-overlay-pane path').count(), 1);
+  assert.equal(await page.locator('.safety-zone').count(), 1);
+  assert.ok(await page.locator('.day-route').count()>0);
   await page.locator('#safety-toggle').uncheck();
-  assert.equal(await page.locator('.leaflet-overlay-pane path').count(), 0);
+  assert.equal(await page.locator('.safety-zone').count(), 0);
+  assert.ok(await page.locator('.day-route').count()>0);
   await page.locator('#map-full').click(); await page.goBack();
   assert.equal(await page.locator('body').evaluate(el => el.classList.contains('map-full')), false);
-  pass('Safety polygon toggles without route lines; full-screen map Back works');
+  pass('Safety polygon toggles independently of day route lines; full-screen map Back works');
   const next = JSON.parse(await readFile('demo-trip.json', 'utf8')); next.version = '2026-10-17-3';
   const bad = structuredClone(next); bad.days[0].notes_hy = 42;
-  await context.route('**/demo-trip.json', route => route.fulfill({ json: bad }));
+  demoOverride=bad;
   await page.locator('#check-update').click(); await page.waitForFunction(() => !document.getElementById('check-update').disabled);
   assert.equal(await page.locator('#update-banner').isVisible(), false);
-  await context.unroute('**/demo-trip.json');
-  await context.route('**/demo-trip.json', route => route.fulfill({ json: next }));
+  demoOverride=next;
   await page.locator('#check-update').click(); await page.locator('#update-banner').waitFor();
-  await context.unroute('**/demo-trip.json');
+  demoOverride=null;
   await page.locator('#check-update').click(); await page.waitForFunction(() => !document.getElementById('check-update').disabled);
   assert.equal(await page.locator('#update-banner').isVisible(), false);
-  await context.route('**/demo-trip.json', route => route.fulfill({ json: next }));
+  demoOverride=next;
   await page.locator('#check-update').click(); await page.locator('#update-banner').waitFor();
   await page.locator('#apply-update').click();
   assert.equal(await stop(1).getAttribute('data-status'), 'visited');
-  await context.unroute('**/demo-trip.json');
+  demoOverride=null;
   pass('Malformed update rejected; accepted data update preserves personal stop IDs');
-  await context.setOffline(true); await page.reload(); await ready();
+  if(engine==='webkit')await new Promise(r=>{server.close(r);server.closeAllConnections();});else await context.setOffline(true);
+  const offlineResponse=await page.reload();assert.equal(offlineResponse.fromServiceWorker(),true); await ready();
   assert.equal(await stop(1).getAttribute('data-status'), 'visited');
   assert.equal(await page.locator('.airport-transfer').count(), 2);
   await page.locator('#reset-day').click();
@@ -114,7 +128,7 @@ try {
   assert.equal(await page.locator('.flight-card').count(), realTrip.flights.length);
   assert.equal(await page.locator('#demo-banner').isVisible(), false);
   pass('Offline reload works for query demo and real data, airports, flights and personal notes');
-  await context.setOffline(false);
+  if(engine==='webkit')await new Promise(r=>server.listen(port,'127.0.0.1',r));else await context.setOffline(false);
   await context.grantPermissions(['geolocation']);
   await context.setGeolocation({ latitude: 48.851, longitude: 2.351, accuracy: 25 });
   await page.locator('#tab-map').click();
@@ -134,4 +148,4 @@ try {
   pass('Only local shell cached, no tiles/data; zero JavaScript page errors');
   output.status = 'PASS';
 } catch (error) { output.status = 'FAIL'; output.error = error.stack; throw error; }
-finally { await mkdir('artifacts', { recursive: true }); await writeFile('artifacts/browser-smoke.json', JSON.stringify(output, null, 2)); await browser.close(); }
+finally { await mkdir('artifacts', { recursive: true }); output.engine=engine;output.device=`Windows desktop ${engine} / Playwright, NOT a physical phone`; await writeFile(`artifacts/b43-smoke-${engine}.json`, JSON.stringify(output, null, 2)); await browser.close();server.close(); }

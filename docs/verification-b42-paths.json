@@ -1,0 +1,74 @@
+[
+  {
+    "engine": "edge",
+    "browser": "155.0.4283.45",
+    "case": "v7",
+    "checks": [
+      "All day line counts/styles, gaps and road geometry >2 points; 320–1400px",
+      "Visited retained; changed reordered edge is grey/unknown; station uses public coordinates",
+      "Malformed/missing paths fall back without JS error; valid data restores",
+      "Offline lines retained; no runtime routing requests; zero JS errors"
+    ],
+    "status": "PASS"
+  },
+  {
+    "engine": "edge",
+    "browser": "155.0.4283.45",
+    "case": "full",
+    "checks": [
+      "All day line counts/styles, gaps and road geometry >2 points; 320–1400px",
+      "Visited retained; changed reordered edge is grey/unknown; station uses public coordinates",
+      "Malformed/missing paths fall back without JS error; valid data restores",
+      "Offline lines retained; no runtime routing requests; zero JS errors"
+    ],
+    "status": "PASS"
+  },
+  {
+    "engine": "edge",
+    "browser": "155.0.4283.45",
+    "case": "v9",
+    "checks": [
+      "All day line counts/styles, gaps and road geometry >2 points; 320–1400px",
+      "Visited retained; changed reordered edge is grey/unknown; station uses public coordinates",
+      "Malformed/missing paths fall back without JS error; valid data restores",
+      "Offline lines retained; no runtime routing requests; zero JS errors"
+    ],
+    "status": "PASS"
+  },
+  {
+    "engine": "webkit",
+    "browser": "26.5",
+    "case": "v7",
+    "checks": [
+      "All day line counts/styles, gaps and road geometry >2 points; 320–1400px",
+      "Visited retained; changed reordered edge is grey/unknown; station uses public coordinates",
+      "Malformed/missing paths fall back without JS error; valid data restores",
+      "Offline lines retained; no runtime routing requests; zero JS errors"
+    ],
+    "status": "PASS"
+  },
+  {
+    "engine": "webkit",
+    "browser": "26.5",
+    "case": "full",
+    "checks": [
+      "All day line counts/styles, gaps and road geometry >2 points; 320–1400px",
+      "Visited retained; changed reordered edge is grey/unknown; station uses public coordinates",
+      "Malformed/missing paths fall back without JS error; valid data restores",
+      "Offline lines retained; no runtime routing requests; zero JS errors"
+    ],
+    "status": "PASS"
+  },
+  {
+    "engine": "webkit",
+    "browser": "26.5",
+    "case": "v9",
+    "checks": [
+      "All day line counts/styles, gaps and road geometry >2 points; 320–1400px",
+      "Visited retained; changed reordered edge is grey/unknown; station uses public coordinates",
+      "Malformed/missing paths fall back without JS error; valid data restores",
+      "Offline lines retained; no runtime routing requests; zero JS errors"
+    ],
+    "status": "PASS"
+  }
+]
