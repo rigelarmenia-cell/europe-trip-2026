@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="hy">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#183e42">
+  <meta name="description" content="Ճամփորդության պլանը՝ ձեր հեռախոսում։ Փորձնական կմախք։">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="./vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Ճամփա · Մեր ճանապարհը</title>
+  <script src="./vendor/leaflet/leaflet.js" defer></script>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#plan">Անցնել պլանին</a>
+  <header class="header">
+    <a class="brand" href="./" aria-label="Ճամփա՝ գլխավոր էջ"><img src="./icons/icon.svg" alt="" width="42" height="42"><span>ճամփա<small>ՄԵՐ ՃԱՆԱՊԱՐՀԸ</small></span></a>
+    <div class="header-meta"><span>20 — 28 հոկտեմբեր, 2026</span><span class="connection" id="connection">Կապի ստուգում…</span></div>
+    <button class="quiet" id="help-open">Տեղադրում և ստուգաթերթ</button>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow">ՓԱՐԻԶ · ԲԱՐՍԵԼՈՆԱ · ՀՌՈՄ</p><h1>Քայլ առ քայլ,<br>միասին։</h1><p class="intro-copy">Օրվա կանգառները, քարտեզը և հաջորդ քայլը՝ մեկ տեղում։</p></div>
+      <div class="trip-stamp"><span>ԵՎՐՈՊԱ / 2026</span><strong>03</strong><span>քաղաք · մեկ ճանապարհ</span></div>
+    </section>
+
+    <div id="demo-banner" class="banner demo" hidden><strong>ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ</strong><span>Սա ծրագրի կմախքն է։ Նշված կետերը ստուգված ճամփորդական պլան չեն։</span></div>
+    <p id="notice" class="banner" role="status" hidden></p>
+    <div id="update-banner" class="banner update" hidden><span>Թարմացում կա, սեղմեք թարմացնելու համար։</span><button id="apply-update">Թարմացնել տվյալները</button></div>
+    <div id="shell-update" class="banner update" hidden><span>Ծրագրի նոր տարբերակ կա։</span><button id="apply-shell">Բացել նոր տարբերակը</button></div>
+
+    <section class="trip-controls" aria-label="Պլանի ընտրություն">
+      <nav id="cities" class="cities" aria-label="Քաղաք"></nav>
+      <div class="day-controls"><label for="day">Օրը</label><select id="day" disabled><option>Տվյալները բեռնվում են…</option></select><button id="today" class="quiet">Այսօր</button><span id="city-time" class="muted"></span></div>
+    </section>
+
+    <nav class="mobile-tabs" aria-label="Ցուցադրման ձև"><button id="tab-plan" aria-pressed="true">☷ Ցանկ</button><button id="tab-map" aria-pressed="false">◎ Քարտեզ</button></nav>
+
+    <div class="workspace" id="workspace">
+      <section id="plan" class="plan-panel" tabindex="-1" aria-labelledby="day-title">
+        <div class="panel-heading"><div><p class="eyebrow">ՕՐՎԱ ՊԼԱՆԸ</p><h2 id="day-title">Բեռնվում է…</h2></div><span id="stop-count" class="count"></span></div>
+        <p id="day-notes" class="muted"></p>
+        <p id="walk-total" class="muted"></p>
+        <div id="stops" class="stops"></div>
+        <section class="home-box"><h3>Վերադարձ դեպի տուն</h3><p id="home-note"></p><div id="home-actions" class="actions"></div><p class="fine">Մասնավոր հղումը պահեք միայն խմբի ներսում։ Այն պարունակում է հասցեներ և չպետք է հրապարակվի։</p></section>
+      </section>
+
+      <section id="map-panel" class="map-panel" aria-label="Օրվա քարտեզ">
+        <div class="map-toolbar"><button id="map-back" aria-label="Վերադառնալ ցանկին">☰ <span>Ցանկ</span></button><button id="gps-open">◎ Իմ դիրքը</button><button id="map-full" aria-label="Քարտեզը բացել ամբողջ էկրանով">⛶ <span>Մեծացնել</span></button></div>
+        <div id="map" aria-label="OpenStreetMap քարտեզ"></div>
+        <div class="map-caption"><span><i class="legend-dot"></i> Կանգառներ՝ ըստ հերթականության</span><span>Երթուղին բացվում է Google Maps-ում</span></div>
+        <p id="map-message" class="map-message" role="status"></p>
+      </section>
+    </div>
+
+    <section class="support-grid">
+      <details class="support-card"><summary>Օդանավակայանային տեղափոխություններ <span>↗</span></summary><div id="airports"></div></details>
+      <details class="support-card"><summary>Տոմսեր և բաց հարցեր <span>＋</span></summary><div id="tickets"></div><ul id="questions"></ul></details>
+    </section>
+    <footer><div><strong>Ճամփա · առաջին կմախք</strong><p id="version">Տվյալների տարբերակը սպասվում է։</p></div><div><p id="offline-state">Առանց ինտերնետի բացվելու հնարավորությունը ստուգվում է…</p><p>Քարտեզի նոր հատվածները, լուսանկարները և Google Maps-ը պահանջում են ինտերնետ։</p><button id="check-update" class="text-button">Ստուգել տվյալների թարմացումը</button></div></footer>
+  </main>
+
+  <dialog id="gps-dialog"><form method="dialog"><button class="dialog-close" aria-label="Փակել">×</button><p class="eyebrow">ՁԵՐ ԴԻՐՔԸ</p><h2>Գտնենք ձեզ քարտեզի վրա</h2><p>Ձեր թույլտվությամբ հեռախոսը ցույց կտա դիրքը և ճշտության շառավիղը։ Մենք այն չենք պահում և չենք ուղարկում խմբի անդամներին։ Քարտեզի ծառայությունը ստանում է ցուցադրվող տարածքի հարցումները։</p><p>Դիրքը մերժելու դեպքում պլանը շարունակում է աշխատել։</p><button class="primary" id="gps-confirm" value="allow">Թույլատրել դիրքի հարցումը</button><button class="quiet" value="cancel">Առանց դիրքի</button></form></dialog>
+
+  <dialog id="help-dialog"><form method="dialog"><button class="dialog-close" aria-label="Փակել">×</button></form><p class="eyebrow">ՄԵԿՆԵԼՈՒՑ ԱՌԱՋ</p><h2>Ճամփան՝ ձեր հեռախոսում</h2><p><strong>Android · Chrome</strong><br>Բացեք կայքը, ապա ⋮ → «Install app» կամ «Add to Home screen»։</p><button id="install" class="primary" hidden>Տեղադրել ծրագիրը</button><p><strong>iPhone · Safari</strong><br>Share → Add to Home Screen → միացրեք «Open as Web App», եթե ցուցադրվում է → Add։</p><div class="checklist"><label><input type="checkbox"> Ծրագիրը բացել եմ գլխավոր էկրանի պատկերակից</label><label><input type="checkbox"> Google Maps-ը տեղադրել եմ</label><label><input type="checkbox"> Մասնավոր հղումը բացել և «Տուն»-ը ստուգել եմ հենց օգտագործվող պատուհանում</label><label><input type="checkbox"> Դիրքի հարցումը ստուգել եմ</label><label><input type="checkbox"> Ինտերնետն անջատել եմ, ծրագիրը փակել ու նորից բացել</label></div><p class="fine">Ստուգաթերթի նշումները այս պատուհանի համար են։ Սա դեռ փորձնական կմախք է. իրական հեռախոսներում տեղադրումն ու նավիգացիան դեռ ստուգման կարիք ունեն։</p></dialog>
+  <noscript><p class="banner">Ծրագիրն աշխատում է JavaScript-ով։ Միացրեք այն դիտարկչի կարգավորումներում և վերաբացեք էջը։</p></noscript>
+</body>
+</html>

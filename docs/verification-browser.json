@@ -1,0 +1,56 @@
+{
+  "device": "Desktop Microsoft Edge / Playwright",
+  "browser": "155.0.4283.45",
+  "platform": "win32",
+  "checks": [
+    {
+      "name": "Demo data renders; Google Maps uses the exact stop and current-position origin",
+      "status": "PASS"
+    },
+    {
+      "name": "Arrival navigation mode is visible and can be chosen independently of the outgoing leg",
+      "status": "PASS"
+    },
+    {
+      "name": "Service worker controls /travel/ and install manifest uses a relative scope",
+      "status": "PASS"
+    },
+    {
+      "name": "320–1440px layouts do not overflow; full-map browser Back preserves the date",
+      "status": "PASS"
+    },
+    {
+      "name": "Simulated GPS displays the provided accuracy, clearly as a single reading",
+      "status": "PASS"
+    },
+    {
+      "name": "Synthetic private fragment is removed; home address persists after reload",
+      "status": "PASS"
+    },
+    {
+      "name": "Malformed nested fields never become an update candidate or overwrite offline data",
+      "status": "PASS"
+    },
+    {
+      "name": "New data waits for a click and preserves the saved private home",
+      "status": "PASS"
+    },
+    {
+      "name": "Invalid new JSON keeps the last validated trip",
+      "status": "PASS"
+    },
+    {
+      "name": "Offline reload restores app shell, accepted text, airport empty state and home",
+      "status": "PASS"
+    },
+    {
+      "name": "GPS denial leaves the plan usable; a second browser has no first-browser home",
+      "status": "PASS"
+    },
+    {
+      "name": "Cache contains only the local app shell; no tile/photo caching and no JS page errors",
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

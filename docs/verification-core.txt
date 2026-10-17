@@ -1,0 +1,56 @@
+
+> travel-pwa-skeleton@0.1.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: unknown coordinates never become a fake location at zero
+ok 1 - unknown coordinates never become a fake location at zero
+  ---
+  duration_ms: 0.5558
+  type: 'test'
+  ...
+# Subtest: directions use current position and the documented encoded destination
+ok 2 - directions use current position and the documented encoded destination
+  ---
+  duration_ms: 0.6439
+  type: 'test'
+  ...
+# Subtest: local date and clock follow DST in the city, regardless of device zone
+ok 3 - local date and clock follow DST in the city, regardless of device zone
+  ---
+  duration_ms: 11.5172
+  type: 'test'
+  ...
+# Subtest: home fragment accepts only known cities and plain nonempty addresses
+ok 4 - home fragment accepts only known cities and plain nonempty addresses
+  ---
+  duration_ms: 0.7549
+  type: 'test'
+  ...
+# Subtest: invalid data cannot replace a valid trip; absent coordinates remain allowed
+ok 5 - invalid data cannot replace a valid trip; absent coordinates remain allowed
+  ---
+  duration_ms: 0.859
+  type: 'test'
+  ...
+# Subtest: untrusted source links cannot execute script or escape to local files
+ok 6 - untrusted source links cannot execute script or escape to local files
+  ---
+  duration_ms: 0.1087
+  type: 'test'
+  ...
+# Subtest: malformed nested fields are rejected before they can replace the offline plan
+ok 7 - malformed nested fields are rejected before they can replace the offline plan
+  ---
+  duration_ms: 1.4269
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 84.0671

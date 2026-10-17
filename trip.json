@@ -1,0 +1,45 @@
+{
+  "version": "2026-10-17-1",
+  "generated_at": "2026-10-17T03:46:20+04:00",
+  "cities": [
+    {
+      "id": "paris", "name_hy": "Փարիզ", "name_local": "Paris", "timezone": "Europe/Paris",
+      "home_station": { "name_local": "", "lat": null, "lon": null, "lines": [], "walk_from_home_min": null },
+      "tickets": { "summary_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ․ տոմսերի գներ և կանոններ դեռ չեն տրամադրվել։", "options": [] },
+      "safety_zones": []
+    },
+    {
+      "id": "barcelona", "name_hy": "Բարսելոնա", "name_local": "Barcelona", "timezone": "Europe/Madrid",
+      "home_station": { "name_local": "", "lat": null, "lon": null, "lines": [], "walk_from_home_min": null },
+      "tickets": { "summary_hy": "", "options": [] }, "safety_zones": []
+    },
+    {
+      "id": "rome", "name_hy": "Հռոմ", "name_local": "Roma", "timezone": "Europe/Rome",
+      "home_station": { "name_local": "", "lat": null, "lon": null, "lines": [], "walk_from_home_min": null },
+      "tickets": { "summary_hy": "", "options": [] }, "safety_zones": []
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-10-20", "city": "paris", "title_hy": "Փորձնական օր", "notes_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ․ երկու պայմանական կետ՝ քարտեզն ու կոճակները փորձելու համար։ Կոորդինատները տեսարժան վայրերի մուտքեր չեն և ճամփորդական առաջարկ չեն։", "total_walk_km": null,
+      "stops": [
+        {
+          "id": "demo-paris-01", "order": 1, "kind": "sight", "name_hy": "Փորձնական կանգառ Ա", "name_local": "Demo point A", "lat": 48.85, "lon": 2.35,
+          "description_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Այս կետը միայն ցույց է տալիս կանգառի քարտի կառուցվածքը։ Իրական նկարագրությունն ու ստուգված աղբյուրները կգան trip.json-ով։", "photo_spot_hy": "",
+          "visit_min": null, "hours_hy": "", "price_hy": "", "photos": [], "menu_url": "", "menu_prices_hy": "", "reviews_source": "",
+          "to_next": { "mode": "walk", "km": null, "min": null, "line": "", "color": "", "direction": "", "get_off": "", "transfers_hy": "", "ticket_hy": "" },
+          "label": "ՉՍՏՈՒԳՎԱԾ", "sources": []
+        },
+        {
+          "id": "demo-paris-02", "order": 2, "kind": "food", "name_hy": "Փորձնական կանգառ Բ", "name_local": "Demo point B", "lat": 48.86, "lon": 2.36,
+          "description_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Սա սննդի կետի քարտի օրինակ է, ոչ իրական ռեստորան։ Մենյուն, գները և ժամերը սպասվում են։", "photo_spot_hy": "",
+          "visit_min": null, "hours_hy": "", "price_hy": "", "photos": [], "menu_url": "", "menu_prices_hy": "", "reviews_source": "", "to_next": null,
+          "label": "ՉՍՏՈՒԳՎԱԾ", "sources": []
+        }
+      ]
+    }
+  ],
+  "airport_transfers": [],
+  "flights": [],
+  "open_questions_hy": ["ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ․ իրական trip.json-ը դեռ չի տրամադրվել։", "Իրական Android և iPhone ստուգումները դեռ չեն կատարվել։"]
+}
