@@ -6,85 +6,85 @@ TAP version 13
 # Subtest: personal order reconciles stable ids, ignores removed ids, appends new stops
 ok 1 - personal order reconciles stable ids, ignores removed ids, appends new stops
   ---
-  duration_ms: 1.3992
+  duration_ms: 1.4484
   type: 'test'
   ...
 # Subtest: full-day routes preserve order with no more than three mobile waypoints and chained origins
 ok 2 - full-day routes preserve order with no more than three mobile waypoints and chained origins
   ---
-  duration_ms: 0.4951
+  duration_ms: 0.5116
   type: 'test'
   ...
 # Subtest: visited and skipped stops leave routes; unknown coordinate blocks an incomplete route
 ok 3 - visited and skipped stops leave routes; unknown coordinate blocks an incomplete route
   ---
-  duration_ms: 0.2331
+  duration_ms: 0.244
   type: 'test'
   ...
 # Subtest: transit uses individual legs, not possibly ignored waypoints
 ok 4 - transit uses individual legs, not possibly ignored waypoints
   ---
-  duration_ms: 0.1438
+  duration_ms: 0.1379
   type: 'test'
   ...
 # Subtest: buffer unknown is never zero or green; boundary uses supplied number only
 ok 5 - buffer unknown is never zero or green; boundary uses supplied number only
   ---
-  duration_ms: 0.0929
+  duration_ms: 0.0976
   type: 'test'
   ...
 # Subtest: Samsung detection uses SamsungBrowser token, including desktop mode
 ok 6 - Samsung detection uses SamsungBrowser token, including desktop mode
   ---
-  duration_ms: 0.1237
+  duration_ms: 0.1253
   type: 'test'
   ...
-# Subtest: the provided intermediate trip is accepted with nulls, conflict label and private_van
-ok 7 - the provided intermediate trip is accepted with nulls, conflict label and private_van
+# Subtest: the supplied trip validates without dropping collections
+ok 7 - the supplied trip validates without dropping collections
   ---
-  duration_ms: 13.368
+  duration_ms: 14.3152
   type: 'test'
   ...
 # Subtest: B3 literal time formatting never applies timezone arithmetic
 ok 8 - B3 literal time formatting never applies timezone arithmetic
   ---
-  duration_ms: 0.5401
+  duration_ms: 0.5468
   type: 'test'
   ...
 # Subtest: B3 prices and unknown minutes preserve meaning
 ok 9 - B3 prices and unknown minutes preserve meaning
   ---
-  duration_ms: 0.1946
+  duration_ms: 0.1962
   type: 'test'
   ...
-# Subtest: B3 v5 accepts optional checkin text and rejects wrong type
-ok 10 - B3 v5 accepts optional checkin text and rejects wrong type
+# Subtest: supplied trip accepts optional checkin text and rejects wrong type
+ok 10 - supplied trip accepts optional checkin text and rejects wrong type
   ---
-  duration_ms: 13.5184
+  duration_ms: 13.4309
   type: 'test'
   ...
 # Subtest: unknown coordinates never become a fake location at zero
 ok 11 - unknown coordinates never become a fake location at zero
   ---
-  duration_ms: 0.5592
+  duration_ms: 0.557
   type: 'test'
   ...
 # Subtest: directions use current position and the documented encoded destination
 ok 12 - directions use current position and the documented encoded destination
   ---
-  duration_ms: 0.6573
+  duration_ms: 0.7265
   type: 'test'
   ...
 # Subtest: local date and clock follow DST in the city, regardless of device zone
 ok 13 - local date and clock follow DST in the city, regardless of device zone
   ---
-  duration_ms: 11.6167
+  duration_ms: 11.8082
   type: 'test'
   ...
 # Subtest: home fragment accepts only known cities and plain nonempty addresses
 ok 14 - home fragment accepts only known cities and plain nonempty addresses
   ---
-  duration_ms: 0.8083
+  duration_ms: 0.75
   type: 'test'
   ...
 # Subtest: invalid data cannot replace a valid trip; absent coordinates remain allowed
@@ -96,13 +96,13 @@ ok 15 - invalid data cannot replace a valid trip; absent coordinates remain allo
 # Subtest: untrusted source links cannot execute script or escape to local files
 ok 16 - untrusted source links cannot execute script or escape to local files
   ---
-  duration_ms: 0.1096
+  duration_ms: 0.1169
   type: 'test'
   ...
 # Subtest: malformed nested fields are rejected before they can replace the offline plan
 ok 17 - malformed nested fields are rejected before they can replace the offline plan
   ---
-  duration_ms: 1.3866
+  duration_ms: 1.3766
   type: 'test'
   ...
 1..17
@@ -113,4 +113,4 @@ ok 17 - malformed nested fields are rejected before they can replace the offline
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 103.9047
+# duration_ms 99.6488

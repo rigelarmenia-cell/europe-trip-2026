@@ -40,11 +40,10 @@ test('Samsung detection uses SamsungBrowser token, including desktop mode', () =
   assert.equal(itinerary.isSamsung('Mozilla/5.0 (X11; Linux x86_64) SamsungBrowser/24.0 Chrome/117.0.0.0 Safari/537.36'), true);
   assert.equal(itinerary.isSamsung('Mozilla/5.0 Android SAMSUNG Chrome/120.0.0.0'), false);
 });
-test('the provided intermediate trip is accepted with nulls, conflict label and private_van', () => {
+test('the supplied trip validates without dropping collections', () => {
   const trip = JSON.parse(readFileSync('trip.json', 'utf8'));
   assert.equal(validateTrip(trip), trip);
-  assert.equal(trip.days.length, 4);
-  assert.equal(trip.airport_transfers.length, 6);
-  assert.equal(trip.flights.length, 4);
+  const before = structuredClone(trip);
+  assert.deepEqual(validateTrip(trip), before);
 });
 

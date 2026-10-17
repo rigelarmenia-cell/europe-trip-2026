@@ -3,11 +3,11 @@
   "browser": "155.0.4283.45",
   "checks": [
     {
-      "name": "Real v5: 6 transfers, 4 flights, empty first day, supplied buffers, warnings and labels",
+      "name": "Supplied trip: transfers, flights, empty first day, buffers, warnings and labels",
       "status": "PASS"
     },
     {
-      "name": "All three v5 home stations use supplied coordinates",
+      "name": "All home stations use supplied coordinates",
       "status": "PASS"
     },
     {

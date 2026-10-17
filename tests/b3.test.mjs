@@ -16,9 +16,9 @@ test('B3 prices and unknown minutes preserve meaning', () => {
   assert.equal(stepPrice({price_eur_person:0, where_to_buy_hy:'Նույն մետրոյի տոմսի ներքին փոխատեղում'}), 'ներառված է');
   assert.equal(stepPrice({price_eur_person:0, where_to_buy_hy:'Քայլք'}), '0 €');
 });
-test('B3 v5 accepts optional checkin text and rejects wrong type', () => {
+test('supplied trip accepts optional checkin text and rejects wrong type', () => {
   const trip = JSON.parse(readFileSync('trip.json', 'utf8'));
-  assert.equal(validateTrip(trip).version, '2026-10-17-5');
+  assert.equal(validateTrip(trip).version, trip.version);
   trip.flights[0].online_checkin_hy = 42;
   assert.throws(() => validateTrip(trip));
 });

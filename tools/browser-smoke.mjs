@@ -15,8 +15,8 @@ const ready = () => page.locator('.airport-transfer').first().waitFor();
 const realState = () => page.evaluate(() => Object.fromEntries(Object.entries(localStorage).filter(([k]) => k.includes(':real:') || k.endsWith(':homes') && !k.includes(':demo:'))));
 try {
   await page.goto(base); await ready();
-  assert.equal(await page.locator('.airport-transfer').count(), 6);
-  assert.equal(await page.locator('.flight-card').count(), 4);
+  assert.equal(await page.locator('.airport-transfer').count(), realTrip.airport_transfers.length);
+  assert.equal(await page.locator('.flight-card').count(), realTrip.flights.length);
   assert.equal(await page.locator('#day-title').textContent(), realTrip.days[0].title_hy);
   assert.equal(await page.locator('#demo-banner').isVisible(), false);
   assert.equal(await page.locator('html').getAttribute('lang'), 'hy');
@@ -24,17 +24,17 @@ try {
   assert.equal(await page.locator('meta[name=google]').getAttribute('content'), 'notranslate');
   assert.equal(await page.locator('.buffer-short').count(), realTrip.airport_transfers.flatMap(t=>t.options).filter(o=>typeof o.buffer_min==='number' && o.buffer_min<120).length);
   for (const option of realTrip.airport_transfers.flatMap(t=>t.options)) assert.ok((await page.locator('#airports').textContent()).includes(option.label));
-  assert.equal(await page.locator('.transfer-warning').count(), 6);
+  assert.equal(await page.locator('.transfer-warning').count(), realTrip.airport_transfers.filter(t=>t.warning_hy).length);
   assert.ok((await page.locator('#questions-section').textContent()).length > 100);
   assert.equal(await page.locator('.leaflet-marker-icon').count(), 0);
-  pass('Real v5: 6 transfers, 4 flights, empty first day, supplied buffers, warnings and labels');
-  for (let i = 0; i < 3; i++) {
+  pass('Supplied trip: transfers, flights, empty first day, buffers, warnings and labels');
+  for (let i = 0; i < realTrip.cities.length; i++) {
     await page.locator('#cities button').nth(i).click();
     const station = realTrip.cities[i].home_station;
     assert.equal(new URL(await page.locator('#home-actions a').first().getAttribute('href')).searchParams.get('destination'), `${station.lat},${station.lon}`);
   }
   await page.locator('#cities button').first().click();
-  pass('All three v5 home stations use supplied coordinates');
+  pass('All home stations use supplied coordinates');
   await page.evaluate(() => navigator.serviceWorker.ready);
   await page.waitForFunction(() => navigator.serviceWorker.controller);
   for (const width of [320, 375, 800, 900, 1400]) {
@@ -110,8 +110,8 @@ try {
   assert.equal(await page.locator('.stop').nth(2).getAttribute('data-id'), 'demo-20-3');
   assert.deepEqual(await realState(), savedReal);
   await page.goto(base); await ready();
-  assert.equal(await page.locator('.airport-transfer').count(), 6);
-  assert.equal(await page.locator('.flight-card').count(), 4);
+  assert.equal(await page.locator('.airport-transfer').count(), realTrip.airport_transfers.length);
+  assert.equal(await page.locator('.flight-card').count(), realTrip.flights.length);
   assert.equal(await page.locator('#demo-banner').isVisible(), false);
   pass('Offline reload works for query demo and real data, airports, flights and personal notes');
   await context.setOffline(false);

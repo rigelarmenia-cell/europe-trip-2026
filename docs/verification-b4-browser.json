@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "device": "Desktop Windows Edge / Playwright, not a physical phone",
+  "browser": "155.0.4283.45",
+  "timezone": "America/Los_Angeles",
+  "checks": [
+    "Empty 20 October day preserves full title/notes and has no markers",
+    "All supplied transfers/options/questions, checkin blocks, literal times, null/zero prices",
+    "Taxi labels and null fares; checkin separate background/border/padding",
+    "All four day notes/counts; photo attribution and simulated network failure; personal note",
+    "Three Paris safety polygons; responsive 320–1400px",
+    "Offline supplied trip, checkin and notes retained; zero JavaScript errors"
+  ]
+}
