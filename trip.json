@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-17-11",
-  "generated_at": "2026-10-17T19:04:37+04:00",
+  "version": "2026-10-17-12",
+  "generated_at": "2026-10-17T21:27:37+04:00",
   "cities": [
     {
       "id": "paris",
@@ -3050,7 +3050,9 @@
             "https://help.vueling.com/hc/en-gb/articles/24435320866833-Paris-Airport-Orly-ORY",
             "https://www.parisaeroport.fr/en/passengers/transport-parking/shuttles-between-terminals/ory",
             "https://www.parisaeroport.fr/docs/default-source/passager-fichiers/plans/plan-map-orly-4.pdf?sfvrsn=471ae8bd_6",
-            "https://www.bonjour-ratp.fr/stations-metro/romainville-carnot/"
+            "https://www.bonjour-ratp.fr/stations-metro/romainville-carnot/",
+            "https://www.orlyval.com/orlyval-service/reglement-commercial-ligne-orlyval-9-juin-2026",
+            "https://www.iledefrance-mobilites.fr/medias/portail-idfm-operateurs/4b9080d9-981a-4eaf-9a84-185bbc2d97a4_DSP25_FH_N131.pdf"
           ]
         },
         {
@@ -3131,7 +3133,7 @@
           ]
         }
       ],
-      "warning_hy": "ՊԼԱՆԱՅԻՆ/ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ տնից ելք 23.10՝ 23:55 (24.10-ի 00:15 N12-ի համար)։ 2026-ի N12/N22 PDF-ների 9-րդ էջերի ճիշտ «Samedi, dimanche et jours fériés» սյունակը ստուգված է, սակայն Châtelet-ի երկու իրական կանգառների միջև քայլքը և 02:00-ից ORY4→ORY3→ORY1 անցումը չեն հաստատվել։ Orly4→1՝ մոտ 10 րոպե՝ հին պաշտոնական քարտեզի 5+5 րոպեանոց սխեմայից, ոչ երաշխավորված գիշերային անցում։ Քարտով գիշերային երկու ավտոբուսներին առանձին վավերացնել ըստ RATP/IDFM կանոնների։ 8 հոգու համար 21-րոպեանոց փոխատեղումը կարող է խաթարվել երթի ուշացմամբ։ 23→24.10-ի «Samedi, dimanche et jours fériés» PDF էջ 9 կիրառվել է ճիշտ գիշերվան. շարունակում է գործել ուղևորության օրը ժամանակավոր շեղումների հնարավորությունը։ Ուրբաթ M11-ի վերջին ճշգրիտ անցումը Romainville–Carnot-ից դեպի Châtelet ՉՍՏՈՒԳՎԱԾ է. միայն ընդհանուր RATP տեղեկատվությամբ գիծը ուրբաթ երեկոյան վերջնակետ է հասնում մոտ 02:15։ M11+N22-ի արժեքը մոտ 4,60 €/անձ (36,80 €/8)՝ առանց կրիչների, եթե 2 ժամերը համապատասխանում են։ 2 տաքսու իրական գինը չստուգված է. 45 € Paris rive droite–Orly սակագինը չի տարածվում ինքնաբերաբար Romainville-ի վրա։ Գիշերվա ենթադրյալ Tarif C 1,76 €/կմ+3 € մեկնարկ՝ առանց ճշգրիտ վարորդական հեռավորության, ժամանակի և հավելավճարների։ Երկու տարբերակն էլ պահվում են, ընտրությունը՝ սեփականատիրոջ",
+      "warning_hy": "ՊԼԱՆԱՅԻՆ/ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ տնից ելք 23.10՝ 23:55 (24.10-ի 00:15 N12-ի համար)։ 2026-ի N12/N22 PDF-ների 9-րդ էջերի ճիշտ «Samedi, dimanche et jours fériés» սյունակը ստուգված է, սակայն Châtelet-ի երկու իրական կանգառների միջև քայլքը և 02:00-ից ORY4→ORY3→ORY1 անցումը չեն հաստատվել։ Orly4→1՝ մոտ 10 րոպե՝ հին պաշտոնական քարտեզի 5+5 րոպեանոց սխեմայից, ոչ երաշխավորված գիշերային անցում։ Քարտով գիշերային երկու ավտոբուսներին առանձին վավերացնել ըստ RATP/IDFM կանոնների։ 8 հոգու համար 21-րոպեանոց փոխատեղումը կարող է խաթարվել երթի ուշացմամբ։ 23→24.10-ի «Samedi, dimanche et jours fériés» PDF էջ 9 կիրառվել է ճիշտ գիշերվան. շարունակում է գործել ուղևորության օրը ժամանակավոր շեղումների հնարավորությունը։ Ուրբաթ M11-ի վերջին ճշգրիտ անցումը Romainville–Carnot-ից դեպի Châtelet ՉՍՏՈՒԳՎԱԾ է. միայն ընդհանուր RATP տեղեկատվությամբ գիծը ուրբաթ երեկոյան վերջնակետ է հասնում մոտ 02:15։ M11+N22-ի արժեքը մոտ 4,60 €/անձ (36,80 €/8)՝ առանց կրիչների, եթե 2 ժամերը համապատասխանում են։ 2 տաքսու իրական գինը չստուգված է. 45 € Paris rive droite–Orly սակագինը չի տարածվում ինքնաբերաբար Romainville-ի վրա։ Գիշերվա ենթադրյալ Tarif C 1,76 €/կմ+3 € մեկնարկ՝ առանց ճշգրիտ վարորդական հեռավորության, ժամանակի և հավելավճարների։ Երկու տարբերակն էլ պահվում են, ընտրությունը՝ սեփականատիրոջ։ Orlyval-ը 02:00-ին չի աշխատում (պաշտոնական ժամեր՝ 06:00–23:35)։ N131-ի Orly 4 02:57 → Orly 1-2-3 03:00 կապը միայն 2023-ի պաշտոնական աղյուսակի թեկնածու է։ 2026-ի գիշերային անցումը ORY4 → ORY1 դեռ հաստատված չէ։",
       "city": "paris"
     },
     {
@@ -3337,7 +3339,7 @@
               "from": "Fiumicino Aeroporto",
               "to": "Roma Tiburtina",
               "depart": "2026-10-26T12:57",
-              "arrive": null,
+              "arrive": "2026-10-26T13:45",
               "price_eur_person": 8,
               "where_to_buy_hy": "Trenitalia Self Service մեքենա / տոմսարկղ / նախապես առցանց"
             },
@@ -3361,7 +3363,8 @@
             "https://www.trenitalia.com/content/dam/trenitalia/allegati/info/condizioni-generali-di-trasporto/parte-iii-trasporto-regionale/19-TARIFFA_1TER_Fiumicino_Aeroporto.pdf",
             "https://www.atac.roma.it/en/tickets-and-passes/bit",
             "https://www.trenitalia.com/content/dam/trenitalia/allegati/info/orario-digitale/orari-regionali/Regionale_Lazio.pdf",
-            "https://www.trenitalia.com/content/dam/tcom/allegati/trenitalia_2014/informazioni/orario_digitale/R03_L_light.pdf"
+            "https://www.trenitalia.com/content/dam/tcom/allegati/trenitalia_2014/informazioni/orario_digitale/R03_L_light.pdf",
+            "https://prm.rfi.it/qo_prm/QO_Partenze_SiPMR.aspx?Id=1228&alle=12.59&dalle=12.46&guid=12df553c-4179-405b-9a31-2e28930f4c66&lin=it&ora=12.46"
           ]
         },
         {
@@ -3400,7 +3403,7 @@
           ]
         }
       ],
-      "warning_hy": "26.10 W4 6018 FCO ժամանում 11:55՝ սեփականատիրոջ ամրագրումով ՀԱՍՏԱՏՎԱԾ։ FL1 12:57՝ հին Trenitalia պաշտոնական աղյուսակից վերցված ԹԵԿՆԱԾՈՒ, 10.10.2026-ից թարմացված Regionale Lazio PDF-ի համապատասխան 26.10 սյունակը հասանելի չեղավ ամբողջությամբ ստուգել. դրա համար 12:57-ը ՉՍՏՈՒԳՎԱԾ է։ Leonardo Express 13:08→13:40 (և 12:53→13:25՝ ավելի շուտ)՝ պաշտոնական 14.06–12.12.2026 ժամանակացույցով։ 8 հոգու համար արագ տեղափոխություն դեպի կայարան, տոմսերի գնում և գնացքին հասցնելը պետք է հաշվի առնել։ Leonardo Express սովորական 14 € × 8 + Metro BIT 1,50 € × 8 = 124 €։ Minigruppi 92 € ընդհանուր տարբերակը միայն զեղչի իրական թույլատրելիությունը ստուգելուց հետո. պաշտոնական աղյուսակի որոշ գնացքներում խմբային զեղչերը բացառվում են։ FCO-ի ժամանման տերմինալը դեռ չստուգված է։ Սովորական Leonardo Express 14 €/անձ ×8 + Metro 1,50 €/անձ ×8 = 124 €։ Minigruppi-ի 40 €/4 անձ (ընդհանուր 92 € մետրոյով) առաջարկը Trenitalia-ում հրապարակված է, սակայն 26.10-ի 13:08 կոնկրետ գնացքում կիրառելիությունը ՉՍՏՈՒԳՎԱԾ է՝ որպես հիմնական գին չի կիրառվել (ստուգում՝ 17.10.2026, https://www.trenitalia.com/en/connections/leonardo-express.html)։",
+      "warning_hy": "26.10 W4 6018 FCO ժամանում 11:55՝ սեփականատիրոջ ամրագրումով ՀԱՍՏԱՏՎԱԾ։ RFI-ի 14.06–12.12.2026 գործող աղյուսակում R 20653 Fiumicino Aeroporto 12:57 → Roma Tiburtina 13:45 է (ստուգված 17.10.2026)։ 26.10-ի օպերատիվ փոփոխությունները ստուգել մեկնումից առաջ։ Leonardo Express 13:08→13:40 (և 12:53→13:25՝ ավելի շուտ)՝ պաշտոնական 14.06–12.12.2026 ժամանակացույցով։ 8 հոգու համար արագ տեղափոխություն դեպի կայարան, տոմսերի գնում և գնացքին հասցնելը պետք է հաշվի առնել։ Leonardo Express սովորական 14 € × 8 + Metro BIT 1,50 € × 8 = 124 €։ Minigruppi 92 € ընդհանուր տարբերակը միայն զեղչի իրական թույլատրելիությունը ստուգելուց հետո. պաշտոնական աղյուսակի որոշ գնացքներում խմբային զեղչերը բացառվում են։ FCO-ի ժամանման տերմինալը դեռ չստուգված է։ Սովորական Leonardo Express 14 €/անձ ×8 + Metro 1,50 €/անձ ×8 = 124 €։ Minigruppi-ի 40 €/4 անձ (ընդհանուր 92 € մետրոյով) առաջարկը Trenitalia-ում հրապարակված է, սակայն 26.10-ի 13:08 կոնկրետ գնացքում կիրառելիությունը ՉՍՏՈՒԳՎԱԾ է՝ որպես հիմնական գին չի կիրառվել (ստուգում՝ 17.10.2026, https://www.trenitalia.com/en/connections/leonardo-express.html)։",
       "city": "rome"
     },
     {
