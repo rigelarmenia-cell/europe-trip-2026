@@ -1,45 +1,606 @@
 {
   "version": "2026-10-17-1",
-  "generated_at": "2026-10-17T03:46:20+04:00",
+  "generated_at": "2026-10-17T03:49:08+04:00",
   "cities": [
     {
-      "id": "paris", "name_hy": "Փարիզ", "name_local": "Paris", "timezone": "Europe/Paris",
-      "home_station": { "name_local": "", "lat": null, "lon": null, "lines": [], "walk_from_home_min": null },
-      "tickets": { "summary_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ․ տոմսերի գներ և կանոններ դեռ չեն տրամադրվել։", "options": [] },
+      "id": "paris",
+      "name_hy": "Փարիզ",
+      "name_local": "Paris",
+      "timezone": "Europe/Paris",
+      "home_station": {
+        "name_local": "Romainville–Carnot",
+        "lat": null,
+        "lon": null,
+        "lines": [
+          "M11"
+        ],
+        "walk_from_home_min": null
+      },
+      "tickets": {
+        "summary_hy": "Ա1-ի տոմսերն են ներկայացված, քաղաքային տոմսերի Ա2 ամբողջական համեմատությունը դեռ բաց է։",
+        "options": []
+      },
       "safety_zones": []
     },
     {
-      "id": "barcelona", "name_hy": "Բարսելոնա", "name_local": "Barcelona", "timezone": "Europe/Madrid",
-      "home_station": { "name_local": "", "lat": null, "lon": null, "lines": [], "walk_from_home_min": null },
-      "tickets": { "summary_hy": "", "options": [] }, "safety_zones": []
+      "id": "barcelona",
+      "name_hy": "Բարսելոնա",
+      "name_local": "Barcelona",
+      "timezone": "Europe/Madrid",
+      "home_station": {
+        "name_local": "Maria Cristina",
+        "lat": null,
+        "lon": null,
+        "lines": [
+          "L3"
+        ],
+        "walk_from_home_min": null
+      },
+      "tickets": {
+        "summary_hy": "Ա1-ի տոմսերն են ներկայացված, քաղաքային տոմսերի Ա2 ամբողջական համեմատությունը դեռ բաց է։",
+        "options": []
+      },
+      "safety_zones": []
     },
     {
-      "id": "rome", "name_hy": "Հռոմ", "name_local": "Roma", "timezone": "Europe/Rome",
-      "home_station": { "name_local": "", "lat": null, "lon": null, "lines": [], "walk_from_home_min": null },
-      "tickets": { "summary_hy": "", "options": [] }, "safety_zones": []
+      "id": "rome",
+      "name_hy": "Հռոմ",
+      "name_local": "Roma",
+      "timezone": "Europe/Rome",
+      "home_station": {
+        "name_local": "Bologna",
+        "lat": null,
+        "lon": null,
+        "lines": [
+          "B",
+          "B1"
+        ],
+        "walk_from_home_min": null
+      },
+      "tickets": {
+        "summary_hy": "Ա1-ի տոմսերն են ներկայացված, քաղաքային տոմսերի Ա2 ամբողջական համեմատությունը դեռ բաց է։",
+        "options": []
+      },
+      "safety_zones": []
     }
   ],
-  "days": [
+  "days": [],
+  "airport_transfers": [
     {
-      "date": "2026-10-20", "city": "paris", "title_hy": "Փորձնական օր", "notes_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ․ երկու պայմանական կետ՝ քարտեզն ու կոճակները փորձելու համար։ Կոորդինատները տեսարժան վայրերի մուտքեր չեն և ճամփորդական առաջարկ չեն։", "total_walk_km": null,
-      "stops": [
+      "id": "a1-20261020-bva-paris",
+      "date": "2026-10-20",
+      "from_hy": "Փարիզ-Բովե (BVA)",
+      "to_hy": "Փարիզի կենտրոն",
+      "flight_time_local": null,
+      "terminal": null,
+      "target_at_terminal": null,
+      "leave_home_at": null,
+      "options": [
         {
-          "id": "demo-paris-01", "order": 1, "kind": "sight", "name_hy": "Փորձնական կանգառ Ա", "name_local": "Demo point A", "lat": 48.85, "lon": 2.35,
-          "description_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Այս կետը միայն ցույց է տալիս կանգառի քարտի կառուցվածքը։ Իրական նկարագրությունն ու ստուգված աղբյուրները կգան trip.json-ով։", "photo_spot_hy": "",
-          "visit_min": null, "hours_hy": "", "price_hy": "", "photos": [], "menu_url": "", "menu_prices_hy": "", "reviews_source": "",
-          "to_next": { "mode": "walk", "km": null, "min": null, "line": "", "color": "", "direction": "", "get_off": "", "transfers_hy": "", "ticket_hy": "" },
-          "label": "ՉՍՏՈՒԳՎԱԾ", "sources": []
+          "rank": "primary",
+          "steps": [
+            {
+              "mode": "bus",
+              "line": "Aérobus A01",
+              "from": "Aéroport Paris-Beauvais",
+              "to": "Paris Porte Maillot",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": 17.9,
+              "where_to_buy_hy": "Ավտոբուսի կանգառի վաճառասեղան՝ տեղում 18,00 €; 17,90 €՝ առցանց"
+            },
+            {
+              "mode": "metro",
+              "line": "M1",
+              "from": "Porte Maillot",
+              "to": "Փարիզի կենտրոն (կանգառը՝ ըստ Ա2)",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": 2.55,
+              "where_to_buy_hy": "Մետրոյի տոմսատուփ / Navigo Easy / հեռախոս"
+            }
+          ],
+          "total_min": null,
+          "buffer_min": null,
+          "price_eur_group": 163.6,
+          "label": "ՀԱՍՏԱՏՎԱԾ",
+          "sources": [
+            "https://www.aerobus.fr/tarifs",
+            "https://www.aerobus.fr/aeroport-paris-beauvais-porte-maillot?arrivalStation=FRPARABE&departureArea=FRPARPB",
+            "https://www.iledefrance-mobilites.fr/titres-et-tarifs/detail/ticket-metro-train-rer"
+          ]
         },
         {
-          "id": "demo-paris-02", "order": 2, "kind": "food", "name_hy": "Փորձնական կանգառ Բ", "name_local": "Demo point B", "lat": 48.86, "lon": 2.36,
-          "description_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Սա սննդի կետի քարտի օրինակ է, ոչ իրական ռեստորան։ Մենյուն, գները և ժամերը սպասվում են։", "photo_spot_hy": "",
-          "visit_min": null, "hours_hy": "", "price_hy": "", "photos": [], "menu_url": "", "menu_prices_hy": "", "reviews_source": "", "to_next": null,
-          "label": "ՉՍՏՈՒԳՎԱԾ", "sources": []
+          "rank": "backup",
+          "steps": [
+            {
+              "mode": "bus",
+              "line": "Aérobus A04",
+              "from": "Aéroport Paris-Beauvais",
+              "to": "Paris La Villette",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": 15.9,
+              "where_to_buy_hy": "Միայն առցանց՝ տեղում տոմս ՉԻ վաճառվում"
+            },
+            {
+              "mode": "metro",
+              "line": "M7",
+              "from": "Porte de la Villette",
+              "to": "Փարիզի կենտրոն (կանգառը՝ ըստ Ա2)",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": 2.55,
+              "where_to_buy_hy": "Մետրոյի ավտոմատ"
+            }
+          ],
+          "total_min": null,
+          "buffer_min": null,
+          "price_eur_group": 147.6,
+          "label": "ՀԱԿԱՍՈՒԹՅՈՒՆ",
+          "sources": [
+            "https://www.aerobus.fr/tarifs",
+            "https://www.aeroportparisbeauvais.com/en/access-parking/paris-airport-shuttle",
+            "https://www.iledefrance-mobilites.fr/titres-et-tarifs/detail/ticket-metro-train-rer"
+          ]
         }
-      ]
+      ],
+      "warning_hy": "20.10-ի BVA ժամանումն անհայտ է. A01/A04 կոնկրետ մեկնումները և A04 վերջնական սակագինը չեն ստուգվել։ A04 15,90 € գնի մասին հակասական պաշտոնական էջ կա։"
+    },
+    {
+      "id": "a1-20261024-paris-ory",
+      "date": "2026-10-24",
+      "from_hy": "Romainville–Carnot (տան մոտ)",
+      "to_hy": "Paris Orly (ORY)",
+      "flight_time_local": "06:20",
+      "terminal": "Orly 1",
+      "target_at_terminal": "03:50",
+      "leave_home_at": null,
+      "options": [
+        {
+          "rank": "primary",
+          "steps": [
+            {
+              "mode": "bus",
+              "line": "Noctilien N12",
+              "from": "Romainville–Carnot",
+              "to": "Châtelet",
+              "depart": "00:15",
+              "arrive": "00:44",
+              "price_eur_person": 2.05,
+              "where_to_buy_hy": "Սմարթֆոն/անձնական Navigo Easy՝ նախապես"
+            },
+            {
+              "mode": "bus",
+              "line": "Noctilien N22",
+              "from": "Châtelet",
+              "to": "Aéroport d’Orly 4",
+              "depart": "01:05",
+              "arrive": "02:03",
+              "price_eur_person": 0,
+              "where_to_buy_hy": "N12-ի նույն տոմսը՝ 90 րոպեի մեջ փոխատեղմամբ"
+            },
+            {
+              "mode": "walk",
+              "line": "ORY 4 → ORY 1",
+              "from": "Orly 4",
+              "to": "Orly 1",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": 0,
+              "where_to_buy_hy": "Տերմինալի միջանցք՝ տևողությունը չստուգված"
+            }
+          ],
+          "total_min": null,
+          "buffer_min": null,
+          "price_eur_group": 16.4,
+          "label": "ՀԱՍՏԱՏՎԱԾ",
+          "sources": [
+            "https://ilico.iledefrance-mobilites.fr/uploads/fiches/20260824T072414Z-13e93cb4-1809-4a05-8df7-7ebf8b8ac217.pdf",
+            "https://ilico.iledefrance-mobilites.fr/uploads/fiches/20260814T123224Z-d397b767-c3bb-4d7c-ba16-71e30a361dd8.pdf",
+            "https://www.iledefrance-mobilites.fr/titres-et-tarifs/detail/ticket-bus-tram",
+            "https://help.vueling.com/hc/en-gb/articles/24435320866833-Paris-Airport-Orly-ORY",
+            "https://www.parisaeroport.fr/en/passengers/transport-parking/shuttles-between-terminals/ory"
+          ]
+        },
+        {
+          "rank": "backup",
+          "steps": [
+            {
+              "mode": "bus",
+              "line": "Noctilien N12",
+              "from": "Romainville–Carnot",
+              "to": "Châtelet",
+              "depart": "00:40",
+              "arrive": "01:09",
+              "price_eur_person": 2.05,
+              "where_to_buy_hy": "Սմարթֆոն/անձնական Navigo Easy՝ նախապես"
+            },
+            {
+              "mode": "bus",
+              "line": "Noctilien N22",
+              "from": "Châtelet",
+              "to": "Aéroport d’Orly 4",
+              "depart": "01:25",
+              "arrive": "02:23",
+              "price_eur_person": 0,
+              "where_to_buy_hy": "N12-ի նույն տոմսը՝ պայմանական 90 րոպեի սահմաններում"
+            }
+          ],
+          "total_min": null,
+          "buffer_min": null,
+          "price_eur_group": 16.4,
+          "label": "ՀԱՍՏԱՏՎԱԾ",
+          "sources": [
+            "https://ilico.iledefrance-mobilites.fr/uploads/fiches/20260824T072414Z-13e93cb4-1809-4a05-8df7-7ebf8b8ac217.pdf",
+            "https://ilico.iledefrance-mobilites.fr/uploads/fiches/20260814T123224Z-d397b767-c3bb-4d7c-ba16-71e30a361dd8.pdf",
+            "https://www.iledefrance-mobilites.fr/titres-et-tarifs/detail/ticket-bus-tram"
+          ]
+        }
+      ],
+      "warning_hy": "Տնից N12 քայլքը, Châtelet-ում կանգառների միջև քայլքը, ORY4→ORY1 գիշերային հասանելիությունն ու տևողությունը չեն չափվել։ Աշխատանքային 23-ի գիշերն է՝ արդեն 24-ի 00:15-ին։ 8 ուղևորների տեղ/խափանում չեն երաշխավորվում։"
+    },
+    {
+      "id": "a1-20261024-bcn-city",
+      "date": "2026-10-24",
+      "from_hy": "Barcelona BCN Terminal 1",
+      "to_hy": "Maria Cristina / Barcelona",
+      "flight_time_local": "08:00",
+      "terminal": "T1",
+      "target_at_terminal": null,
+      "leave_home_at": null,
+      "options": [
+        {
+          "rank": "primary",
+          "steps": [
+            {
+              "mode": "metro",
+              "line": "L9 Sud",
+              "from": "Aeroport T1",
+              "to": "Zona Universitària",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": 5.9,
+              "where_to_buy_hy": "Օդանավակայանի մետրոյի տոմսային ավտոմատ, Airport Ticket"
+            },
+            {
+              "mode": "metro",
+              "line": "L3 (Trinitat Nova)",
+              "from": "Zona Universitària",
+              "to": "Maria Cristina",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": 0,
+              "where_to_buy_hy": "Նույն մետրոյի տոմսի ներքին փոխատեղում"
+            }
+          ],
+          "total_min": null,
+          "buffer_min": null,
+          "price_eur_group": 47.2,
+          "label": "ՀԱՍՏԱՏՎԱԾ",
+          "sources": [
+            "https://www.aena.es/en/josep-tarradellas-barcelona-el-prat/aerolineas/vueling.html",
+            "https://www.tmb.cat/en/visit-barcelona/public-transport/metro-airport",
+            "https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares",
+            "https://www.tmb.cat/en/barcelona-transport/operating-hours-metro-bus"
+          ]
+        },
+        {
+          "rank": "backup",
+          "steps": [
+            {
+              "mode": "bus",
+              "line": "46",
+              "from": "Aeroport T1",
+              "to": "Plaça Espanya",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": null,
+              "where_to_buy_hy": "T-familiar՝ 8 ուղևորություն միասին 11,50 €, տոմսի կրիչը՝ առանձին"
+            },
+            {
+              "mode": "metro",
+              "line": "L3 (Zona Universitària)",
+              "from": "Espanya",
+              "to": "Maria Cristina",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": 0,
+              "where_to_buy_hy": "Նույն ինտեգրված տոմսի փոխատեղում 75 րոպեում"
+            }
+          ],
+          "total_min": null,
+          "buffer_min": null,
+          "price_eur_group": 11.5,
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": [
+            "https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares",
+            "https://www.tmb.cat/en/barcelona-fares-metro-bus/t-familiar",
+            "https://www.tmb.cat/en/customer-services/frequently-asked-questions"
+          ]
+        }
+      ],
+      "warning_hy": "Bus 46-ի հենց 24.10-ի առավոտյան ժամային կոնկրետ կանգառը և T-familiar կրիչի ձեռքբերման վճարը դեռ չեն ստուգվել։ Մետրոյի T-familiar չի գործում Aeroport T1/T2-ում։"
+    },
+    {
+      "id": "a1-20261026-city-bcn",
+      "date": "2026-10-26",
+      "from_hy": "Maria Cristina / Barcelona",
+      "to_hy": "Barcelona BCN Terminal 2",
+      "flight_time_local": "10:00",
+      "terminal": "T2",
+      "target_at_terminal": "07:30",
+      "leave_home_at": null,
+      "options": [
+        {
+          "rank": "primary",
+          "steps": [
+            {
+              "mode": "metro",
+              "line": "L3 (Zona Universitària)",
+              "from": "Maria Cristina",
+              "to": "Zona Universitària",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": 5.9,
+              "where_to_buy_hy": "Մետրոյի ավտոմատ՝ Airport Ticket"
+            },
+            {
+              "mode": "metro",
+              "line": "L9 Sud (Aeroport T1)",
+              "from": "Zona Universitària",
+              "to": "Aeroport T2",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": 0,
+              "where_to_buy_hy": "Նույն Airport Ticket-ով"
+            }
+          ],
+          "total_min": null,
+          "buffer_min": null,
+          "price_eur_group": 47.2,
+          "label": "ՀԱՍՏԱՏՎԱԾ",
+          "sources": [
+            "https://www.aena.es/en/josep-tarradellas-barcelona-el-prat/airlines-and-destinations/airlines.html",
+            "https://www.tmb.cat/en/visit-barcelona/public-transport/metro-airport",
+            "https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares",
+            "https://www.tmb.cat/en/barcelona-transport/operating-hours-metro-bus"
+          ]
+        },
+        {
+          "rank": "backup",
+          "steps": [
+            {
+              "mode": "metro",
+              "line": "L3 (Trinitat Nova)",
+              "from": "Maria Cristina",
+              "to": "Sants Estació",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": null,
+              "where_to_buy_hy": "Գինը՝ ըստ օգտագորվող քարտի"
+            },
+            {
+              "mode": "train",
+              "line": "R2 Nord (Aeroport)",
+              "from": "Barcelona Sants",
+              "to": "Aeroport T2",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": null,
+              "where_to_buy_hy": "Rodalies-ի տոմս/ինտեգրված քարտ. կոնկրետ գին ստուգել"
+            }
+          ],
+          "total_min": null,
+          "buffer_min": null,
+          "price_eur_group": null,
+          "label": "ՉՍՏՈՒԳՎԱԾ",
+          "sources": [
+            "https://rodalies.gencat.cat/web/.content/01_Actualitat/2026/02_12_Garraf/PDF/R2.pdf"
+          ]
+        }
+      ],
+      "warning_hy": "Տնից Maria Cristina քայլքը, 26.10-ի կոնկրետ 06–07 գնացքի ժամերը, R2 Nord տոմսի գինը և T2 տանող քայլքը վերջնական ստուգման կարիք ունեն։"
+    },
+    {
+      "id": "a1-20261026-fco-rome",
+      "date": "2026-10-26",
+      "from_hy": "Rome Fiumicino (FCO)",
+      "to_hy": "Bologna / Roma",
+      "flight_time_local": null,
+      "terminal": null,
+      "target_at_terminal": null,
+      "leave_home_at": null,
+      "options": [
+        {
+          "rank": "primary",
+          "steps": [
+            {
+              "mode": "train",
+              "line": "FL1",
+              "from": "Fiumicino Aeroporto",
+              "to": "Roma Tiburtina",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": 8,
+              "where_to_buy_hy": "Trenitalia Self Service մեքենա / տոմսարկղ / նախապես առցանց"
+            },
+            {
+              "mode": "metro",
+              "line": "B (Laurentina)",
+              "from": "Tiburtina",
+              "to": "Bologna",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": 1.5,
+              "where_to_buy_hy": "ATAC ավտոմատ / Tap & Go"
+            }
+          ],
+          "total_min": null,
+          "buffer_min": null,
+          "price_eur_group": 76,
+          "label": "ՀԱՍՏԱՏՎԱԾ",
+          "sources": [
+            "https://www.trenitalia.com/en/services/connections-to-and-from-rome-fiumicino-airport.html",
+            "https://www.trenitalia.com/content/dam/trenitalia/allegati/info/condizioni-generali-di-trasporto/parte-iii-trasporto-regionale/19-TARIFFA_1TER_Fiumicino_Aeroporto.pdf",
+            "https://www.atac.roma.it/en/tickets-and-passes/bit"
+          ]
+        },
+        {
+          "rank": "backup",
+          "steps": [
+            {
+              "mode": "train",
+              "line": "Leonardo Express",
+              "from": "Fiumicino Aeroporto",
+              "to": "Roma Termini",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": 10,
+              "where_to_buy_hy": "Trenitalia 4 հոգու Minigruppi 40 €՝ մեկ գործարքով, 2 խումբ"
+            },
+            {
+              "mode": "metro",
+              "line": "B (Rebibbia/Jonio)",
+              "from": "Termini",
+              "to": "Bologna",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": 1.5,
+              "where_to_buy_hy": "ATAC ավտոմատ"
+            }
+          ],
+          "total_min": null,
+          "buffer_min": null,
+          "price_eur_group": 92,
+          "label": "ՀԱՍՏԱՏՎԱԾ",
+          "sources": [
+            "https://www.trenitalia.com/content/dam/trenitalia/allegati/info/condizioni-generali-di-trasporto/parte-iii-trasporto-regionale/19-TARIFFA_1TER_Fiumicino_Aeroporto.pdf",
+            "https://www.trenitalia.com/en/connections/leonardo-express.html",
+            "https://www.atac.roma.it/en/tickets-and-passes/bit"
+          ]
+        }
+      ],
+      "warning_hy": "BCN→FCO ժամանման ժամը անհայտ է, ուստի ճշգրիտ FL1/Leonardo Express մեկնման ժամը չի կարելի ընտրել։ FCO ժամանման տերմինալը չի ստուգվել։"
+    },
+    {
+      "id": "a1-20261028-rome-fco",
+      "date": "2026-10-28",
+      "from_hy": "Bologna / Roma (տան մոտ)",
+      "to_hy": "Rome Fiumicino (FCO)",
+      "flight_time_local": "06:15",
+      "terminal": null,
+      "target_at_terminal": "03:45",
+      "leave_home_at": null,
+      "options": [
+        {
+          "rank": "primary",
+          "steps": [
+            {
+              "mode": "bus",
+              "line": "nMB1",
+              "from": "Bologna-ին մոտ՝ կանգառը ՉՍՏՈՒԳՎԱԾ",
+              "to": "Roma Termini",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": 1.5,
+              "where_to_buy_hy": "ATAC BIT՝ նախապես / վավերացնել"
+            },
+            {
+              "mode": "bus",
+              "line": "TAM Bus",
+              "from": "Roma Termini (Via Giolitti 34)",
+              "to": "FCO T3 ավտոբուսային հատված",
+              "depart": "01:30",
+              "arrive": "02:10",
+              "price_eur_person": 9,
+              "where_to_buy_hy": "Termini վաճառքի կետ / նախապես օնլայն; գիշերվա սեղանի աշխատանքը ՉՍՏՈՒԳՎԱԾ"
+            }
+          ],
+          "total_min": null,
+          "buffer_min": null,
+          "price_eur_group": 84,
+          "label": "ՉՍՏՈՒԳՎԱԾ",
+          "sources": [
+            "https://www.atac.roma.it/en/tickets-and-passes/bit",
+            "https://romamobilita.it/muoversi-a-roma/bus-tram-e-filobus/",
+            "https://www.tambus.it/en/rome-fiumicino/"
+          ]
+        },
+        {
+          "rank": "backup",
+          "steps": [
+            {
+              "mode": "private_van",
+              "line": "8 ուղևորական նստատեղով մեքենա (մեջբերված գին չկա)",
+              "from": "Bologna-ին մոտ",
+              "to": "FCO ճիշտ տերմինալ",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": null,
+              "where_to_buy_hy": "Գնանշում չի ստացվել, գնում/ամրագրում չի կատարվել"
+            }
+          ],
+          "total_min": null,
+          "buffer_min": null,
+          "price_eur_group": null,
+          "label": "ՉՍՏՈՒԳՎԱԾ",
+          "sources": []
+        }
+      ],
+      "warning_hy": "nMB1-ի 28.10-ի 00:xx–01:xx ճշգրիտ կանգառն ու Termini-ին հասցնելը ՉՍՏՈՒԳՎԱԾ են, ինչպես նաև 28.10 կոնկրետ թռիչքի տերմինալը։ TAM-ի 02:30→03:10 ուղևորությունն ունի ընդամենը 35 րոպե մինչև նպատակային 03:45, քայլքը/ուշացումը առանձին է։"
     }
   ],
-  "airport_transfers": [],
-  "flights": [],
-  "open_questions_hy": ["ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ․ իրական trip.json-ը դեռ չի տրամադրվել։", "Իրական Android և iPhone ստուգումները դեռ չեն կատարվել։"]
+  "flights": [
+    {
+      "date": "2026-10-20",
+      "from": "EVN",
+      "to": "BVA",
+      "depart_local": "13:25",
+      "arrive_local": null,
+      "airline": "Wizz Air",
+      "terminal": null,
+      "label": "ՀԱՍՏԱՏՎԱԾ"
+    },
+    {
+      "date": "2026-10-24",
+      "from": "ORY",
+      "to": "BCN",
+      "depart_local": "06:20",
+      "arrive_local": "08:00",
+      "airline": "Vueling VY8003",
+      "terminal": "ORY T1, BCN T1",
+      "label": "ՀԱՍՏԱՏՎԱԾ"
+    },
+    {
+      "date": "2026-10-26",
+      "from": "BCN",
+      "to": "FCO",
+      "depart_local": "10:00",
+      "arrive_local": null,
+      "airline": "Wizz Air",
+      "terminal": "BCN T2, FCO ժամանում՝ չստուգված",
+      "label": "ՀԱՍՏԱՏՎԱԾ"
+    },
+    {
+      "date": "2026-10-28",
+      "from": "FCO",
+      "to": "EVN",
+      "depart_local": "06:15",
+      "arrive_local": null,
+      "airline": "Wizz Air",
+      "terminal": null,
+      "label": "ՀԱՍՏԱՏՎԱԾ"
+    }
+  ],
+  "open_questions_hy": [
+    "Ա1-ի միջանկյալ տարբերակ է՝ Ա1 դեռ փակված չէ, Ա2–Ա4 (days և safety_zones) դեռ չեն կատարվել։",
+    "BVA ժամանում 20.10 և FCO ժամանում 26.10՝ անհայտ են. չհաշվել թռիչքի տևողությունից։",
+    "Փարիզ՝ տնից N12 կանգառ քայլք, Châtelet N12/N22 կանգառների միջև անցում, ORY4→ORY1 24ժ հասանելիություն/քայլքի տևողություն։",
+    "Բարսելոնա՝ Bus46 շաբաթ առավոտյան ճշգրիտ ժամերը, 26.10 երկուշաբթի R2 Nord առավոտյան կոնկրետ մեկնման ժամերը, բնակության մոտակա կայարանի ընտրություն։",
+    "Հռոմ՝ nMB1-ի 27/28 գիշերվա Bologna→Termini ճշգրիտ ժամերը, FCO կոնկրետ EVN չվերթի տերմինալը։",
+    "24 և 28 հոկտեմբերի համար 8 ուղևորական նստատեղով մեքենայի տեղային ուղեգնի պաշտոնական գնանշում չկա։",
+    "A04 15,90 € / 17,90 € հակասությունը, տոմսի վճարման պահին վերջնական գինը և 8 տեղը։",
+    "Բոլոր leave_home_at դաշտերը null են մինչև ոտքով հատվածները, փոխատեղումները, անվտանգության պահուստը չհաստատվեն։"
+  ]
 }

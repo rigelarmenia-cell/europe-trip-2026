@@ -20,3 +20,16 @@ Leaflet ներբեռնումները՝ `https://unpkg.com/leaflet@1.9.4/dist/` �
 - leaflet.css՝ `a7837102824184820dfa198d1ebcd109ff6d0ff9a2672a074b9a1b4d147d04c6`
 
 Կախվածության արտոնագիրը պահված է `vendor/leaflet/LICENSE`-ում։ Այնտեղ նշված հեղինակները գրադարանի հեղինակներն են, ոչ ճամփորդների անձնական տվյալներ։
+# Բ2 հավելում · 17.10.2026
+
+ՀԱՍՏԱՏՎԱԾ տեխնիկական փաստաթղթերով, ոչ սարքային ընդունմամբ.
+
+- Maps mobile browser՝ առավելագույնը 3 intermediate waypoint, այլ միջավայրերում՝ մինչև 9. https://developers.google.com/maps/documentation/urls/get-started
+- Chrome English՝ Install and create shortcut → Install. https://support.google.com/chrome/answer/9658361?hl=en&co=GENIE.Platform%3DAndroid
+- SamsungBrowser/version՝ պաշտոնական UA նշան. https://developer.samsung.com/browser/user-agent-string-format.html
+- HTML translate=no. https://html.spec.whatwg.org/multipage/dom.html#the-translate-attribute
+- Google notranslate meta. https://www.chromium.org/developers/design-documents/translate/
+- GitHub ֆայլերի upload. https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+
+Ռուսերեն տեղադրման անունը և Z Fold 4 արդյունքը սեփականատիրոջ հաղորդումն են։ Play Protect-ի պատճառը և իրական հեռախոսում notranslate արդյունքը չստուգված են։ Ստորև սկզբնական փուլի աղբյուրների պատմությունն է։
+

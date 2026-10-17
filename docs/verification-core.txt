@@ -1,56 +1,98 @@
 
-> travel-pwa-skeleton@0.1.0 test
+> travel-pwa-skeleton@0.2.0 test
 > node --test tests/*.test.mjs
 
 TAP version 13
-# Subtest: unknown coordinates never become a fake location at zero
-ok 1 - unknown coordinates never become a fake location at zero
+# Subtest: personal order reconciles stable ids, ignores removed ids, appends new stops
+ok 1 - personal order reconciles stable ids, ignores removed ids, appends new stops
   ---
-  duration_ms: 0.5558
+  duration_ms: 1.3792
+  type: 'test'
+  ...
+# Subtest: full-day routes preserve order with no more than three mobile waypoints and chained origins
+ok 2 - full-day routes preserve order with no more than three mobile waypoints and chained origins
+  ---
+  duration_ms: 0.5024
+  type: 'test'
+  ...
+# Subtest: visited and skipped stops leave routes; unknown coordinate blocks an incomplete route
+ok 3 - visited and skipped stops leave routes; unknown coordinate blocks an incomplete route
+  ---
+  duration_ms: 0.2304
+  type: 'test'
+  ...
+# Subtest: transit uses individual legs, not possibly ignored waypoints
+ok 4 - transit uses individual legs, not possibly ignored waypoints
+  ---
+  duration_ms: 0.1414
+  type: 'test'
+  ...
+# Subtest: buffer unknown is never zero or green; boundary uses supplied number only
+ok 5 - buffer unknown is never zero or green; boundary uses supplied number only
+  ---
+  duration_ms: 0.0919
+  type: 'test'
+  ...
+# Subtest: Samsung detection uses SamsungBrowser token, including desktop mode
+ok 6 - Samsung detection uses SamsungBrowser token, including desktop mode
+  ---
+  duration_ms: 0.1288
+  type: 'test'
+  ...
+# Subtest: the provided intermediate trip is accepted with nulls, conflict label and private_van
+ok 7 - the provided intermediate trip is accepted with nulls, conflict label and private_van
+  ---
+  duration_ms: 11.3195
+  type: 'test'
+  ...
+# Subtest: unknown coordinates never become a fake location at zero
+ok 8 - unknown coordinates never become a fake location at zero
+  ---
+  duration_ms: 0.545
   type: 'test'
   ...
 # Subtest: directions use current position and the documented encoded destination
-ok 2 - directions use current position and the documented encoded destination
+ok 9 - directions use current position and the documented encoded destination
   ---
-  duration_ms: 0.6439
+  duration_ms: 0.6658
   type: 'test'
   ...
 # Subtest: local date and clock follow DST in the city, regardless of device zone
-ok 3 - local date and clock follow DST in the city, regardless of device zone
+ok 10 - local date and clock follow DST in the city, regardless of device zone
   ---
-  duration_ms: 11.5172
+  duration_ms: 10.7828
   type: 'test'
   ...
 # Subtest: home fragment accepts only known cities and plain nonempty addresses
-ok 4 - home fragment accepts only known cities and plain nonempty addresses
+ok 11 - home fragment accepts only known cities and plain nonempty addresses
   ---
-  duration_ms: 0.7549
+  duration_ms: 0.7072
   type: 'test'
   ...
 # Subtest: invalid data cannot replace a valid trip; absent coordinates remain allowed
-ok 5 - invalid data cannot replace a valid trip; absent coordinates remain allowed
+ok 12 - invalid data cannot replace a valid trip; absent coordinates remain allowed
   ---
-  duration_ms: 0.859
+  duration_ms: 0.9045
   type: 'test'
   ...
 # Subtest: untrusted source links cannot execute script or escape to local files
-ok 6 - untrusted source links cannot execute script or escape to local files
+ok 13 - untrusted source links cannot execute script or escape to local files
   ---
-  duration_ms: 0.1087
+  duration_ms: 0.1063
   type: 'test'
   ...
 # Subtest: malformed nested fields are rejected before they can replace the offline plan
-ok 7 - malformed nested fields are rejected before they can replace the offline plan
+ok 14 - malformed nested fields are rejected before they can replace the offline plan
   ---
-  duration_ms: 1.4269
+  duration_ms: 1.6252
   type: 'test'
   ...
-1..7
-# tests 7
+1..14
+# tests 14
 # suites 0
-# pass 7
+# pass 14
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 84.0671
+# duration_ms 90.6727

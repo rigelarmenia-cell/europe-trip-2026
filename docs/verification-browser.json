@@ -1,54 +1,49 @@
 {
-  "device": "Desktop Microsoft Edge / Playwright",
+  "device": "Windows desktop Edge / Playwright, NOT a physical phone",
   "browser": "155.0.4283.45",
-  "platform": "win32",
   "checks": [
     {
-      "name": "Demo data renders; Google Maps uses the exact stop and current-position origin",
+      "name": "Real intermediate file: 6 transfers, 4 flights, empty days, null buffers, warnings, unknown mode and labels",
       "status": "PASS"
     },
     {
-      "name": "Arrival navigation mode is visible and can be chosen independently of the outgoing leg",
+      "name": "All three null-coordinate home stations use a named destination",
       "status": "PASS"
     },
     {
-      "name": "Service worker controls /travel/ and install manifest uses a relative scope",
+      "name": "Service worker controls subpath; real layout fits 320–1400px; translation attributes present",
       "status": "PASS"
     },
     {
-      "name": "320–1440px layouts do not overflow; full-map browser Back preserves the date",
+      "name": "Synthetic home fragment scrubbed and persisted after reload",
       "status": "PASS"
     },
     {
-      "name": "Simulated GPS displays the provided accuracy, clearly as a single reading",
+      "name": "Explicit demo: two days, ten stops, red short buffer and optional city timezone; real storage isolated",
       "status": "PASS"
     },
     {
-      "name": "Synthetic private fragment is removed; home address persists after reload",
+      "name": "Maps chunks respect mobile waypoint limit; visited/skipped persist and transit routes omit them",
       "status": "PASS"
     },
     {
-      "name": "Malformed nested fields never become an update candidate or overwrite offline data",
+      "name": "Safety polygon toggles without route lines; full-screen map Back works",
       "status": "PASS"
     },
     {
-      "name": "New data waits for a click and preserves the saved private home",
+      "name": "Malformed update rejected; accepted data update preserves personal stop IDs",
       "status": "PASS"
     },
     {
-      "name": "Invalid new JSON keeps the last validated trip",
+      "name": "Offline reload works for query demo and real data, airports, flights and personal notes",
       "status": "PASS"
     },
     {
-      "name": "Offline reload restores app shell, accepted text, airport empty state and home",
+      "name": "Simulated GPS and denial; Samsung official UA token banner; independent browser storage",
       "status": "PASS"
     },
     {
-      "name": "GPS denial leaves the plan usable; a second browser has no first-browser home",
-      "status": "PASS"
-    },
-    {
-      "name": "Cache contains only the local app shell; no tile/photo caching and no JS page errors",
+      "name": "Only local shell cached, no tiles/data; zero JavaScript page errors",
       "status": "PASS"
     }
   ],

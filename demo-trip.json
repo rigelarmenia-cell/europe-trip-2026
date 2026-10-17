@@ -1,0 +1,545 @@
+{
+  "version": "2026-10-17-2",
+  "generated_at": "2026-10-17T00:37:05.315Z",
+  "cities": [
+    {
+      "id": "paris",
+      "name_hy": "Փարիզ",
+      "name_local": "Paris",
+      "timezone": "Europe/Paris",
+      "home_station": {
+        "name_local": "",
+        "lat": null,
+        "lon": null,
+        "lines": [],
+        "walk_from_home_min": null
+      },
+      "tickets": {
+        "summary_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ․ տոմսերի գներ և կանոններ դեռ չեն տրամադրվել։",
+        "options": []
+      },
+      "safety_zones": [
+        {
+          "id": "demo-zone",
+          "name": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ · պայմանական գոտի",
+          "polygon": [
+            [
+              48.849,
+              2.349
+            ],
+            [
+              48.854,
+              2.349
+            ],
+            [
+              48.854,
+              2.355
+            ],
+            [
+              48.849,
+              2.355
+            ]
+          ],
+          "risk_types": [
+            "Փորձնական զգուշություն"
+          ],
+          "day_night_hy": "Ցերեկ/գիշեր՝ փորձնական բացատրություն",
+          "explanation_hy": "Սա իրական ռիսկի գոտու մասին պնդում չէ։",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": "barcelona",
+      "name_hy": "Բարսելոնա",
+      "name_local": "Barcelona",
+      "timezone": "Europe/Madrid",
+      "home_station": {
+        "name_local": "",
+        "lat": null,
+        "lon": null,
+        "lines": [],
+        "walk_from_home_min": null
+      },
+      "tickets": {
+        "summary_hy": "",
+        "options": []
+      },
+      "safety_zones": []
+    },
+    {
+      "id": "rome",
+      "name_hy": "Հռոմ",
+      "name_local": "Roma",
+      "timezone": "Europe/Rome",
+      "home_station": {
+        "name_local": "",
+        "lat": null,
+        "lon": null,
+        "lines": [],
+        "walk_from_home_min": null
+      },
+      "tickets": {
+        "summary_hy": "",
+        "options": []
+      },
+      "safety_zones": []
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-10-20",
+      "city": "paris",
+      "title_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ · օր 1",
+      "notes_hy": "ՓՈՐՁԱԿԱՆ ՏՎՅԱԼ։ Պայմանական կետեր, ժամեր, թվեր ու գոտիներ՝ միայն կոճակները ստուգելու համար։ Իրական այցելության, գնի կամ ռիսկի մասին պնդում չէ։",
+      "total_walk_km": null,
+      "stops": [
+        {
+          "id": "demo-20-1",
+          "order": 1,
+          "kind": "sight",
+          "name_hy": "Փորձնական կանգառ 1",
+          "name_local": "Demo 20 point 1",
+          "lat": 48.85,
+          "lon": 2.35,
+          "description_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Այս կետը միայն ցույց է տալիս կանգառի քարտի կառուցվածքը։ Իրական նկարագրությունն ու ստուգված աղբյուրները կգան trip.json-ով։",
+          "photo_spot_hy": "",
+          "visit_min": null,
+          "hours_hy": "",
+          "price_hy": "",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": null,
+            "min": null,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "",
+            "ticket_hy": ""
+          },
+          "label": "ՉՍՏՈՒԳՎԱԾ",
+          "sources": []
+        },
+        {
+          "id": "demo-20-2",
+          "order": 2,
+          "kind": "food",
+          "name_hy": "Փորձնական կանգառ 2",
+          "name_local": "Demo 20 point 2",
+          "lat": 48.851,
+          "lon": 2.351,
+          "description_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Այս կետը միայն ցույց է տալիս կանգառի քարտի կառուցվածքը։ Իրական նկարագրությունն ու ստուգված աղբյուրները կգան trip.json-ով։",
+          "photo_spot_hy": "",
+          "visit_min": null,
+          "hours_hy": "",
+          "price_hy": "",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": null,
+            "min": null,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "",
+            "ticket_hy": ""
+          },
+          "label": "ՉՍՏՈՒԳՎԱԾ",
+          "sources": []
+        },
+        {
+          "id": "demo-20-3",
+          "order": 3,
+          "kind": "sight",
+          "name_hy": "Փորձնական կանգառ 3",
+          "name_local": "Demo 20 point 3",
+          "lat": 48.852000000000004,
+          "lon": 2.352,
+          "description_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Այս կետը միայն ցույց է տալիս կանգառի քարտի կառուցվածքը։ Իրական նկարագրությունն ու ստուգված աղբյուրները կգան trip.json-ով։",
+          "photo_spot_hy": "",
+          "visit_min": null,
+          "hours_hy": "",
+          "price_hy": "",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "",
+            "ticket_hy": ""
+          },
+          "label": "ՉՍՏՈՒԳՎԱԾ",
+          "sources": []
+        },
+        {
+          "id": "demo-20-4",
+          "order": 4,
+          "kind": "sight",
+          "name_hy": "Փորձնական կանգառ 4",
+          "name_local": "Demo 20 point 4",
+          "lat": 48.853,
+          "lon": 2.353,
+          "description_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Այս կետը միայն ցույց է տալիս կանգառի քարտի կառուցվածքը։ Իրական նկարագրությունն ու ստուգված աղբյուրները կգան trip.json-ով։",
+          "photo_spot_hy": "",
+          "visit_min": null,
+          "hours_hy": "",
+          "price_hy": "",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": null,
+            "min": null,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "",
+            "ticket_hy": ""
+          },
+          "label": "ՉՍՏՈՒԳՎԱԾ",
+          "sources": []
+        },
+        {
+          "id": "demo-20-5",
+          "order": 5,
+          "kind": "sight",
+          "name_hy": "Փորձնական կանգառ 5",
+          "name_local": "Demo 20 point 5",
+          "lat": 48.854,
+          "lon": 2.354,
+          "description_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Այս կետը միայն ցույց է տալիս կանգառի քարտի կառուցվածքը։ Իրական նկարագրությունն ու ստուգված աղբյուրները կգան trip.json-ով։",
+          "photo_spot_hy": "",
+          "visit_min": null,
+          "hours_hy": "",
+          "price_hy": "",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": null,
+            "min": null,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "",
+            "ticket_hy": ""
+          },
+          "label": "ՉՍՏՈՒԳՎԱԾ",
+          "sources": []
+        },
+        {
+          "id": "demo-20-6",
+          "order": 6,
+          "kind": "sight",
+          "name_hy": "Փորձնական կանգառ 6",
+          "name_local": "Demo 20 point 6",
+          "lat": 48.855000000000004,
+          "lon": 2.355,
+          "description_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Այս կետը միայն ցույց է տալիս կանգառի քարտի կառուցվածքը։ Իրական նկարագրությունն ու ստուգված աղբյուրները կգան trip.json-ով։",
+          "photo_spot_hy": "",
+          "visit_min": null,
+          "hours_hy": "",
+          "price_hy": "",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": null,
+            "min": null,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "",
+            "ticket_hy": ""
+          },
+          "label": "ՉՍՏՈՒԳՎԱԾ",
+          "sources": []
+        },
+        {
+          "id": "demo-20-7",
+          "order": 7,
+          "kind": "sight",
+          "name_hy": "Փորձնական կանգառ 7",
+          "name_local": "Demo 20 point 7",
+          "lat": 48.856,
+          "lon": 2.356,
+          "description_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Այս կետը միայն ցույց է տալիս կանգառի քարտի կառուցվածքը։ Իրական նկարագրությունն ու ստուգված աղբյուրները կգան trip.json-ով։",
+          "photo_spot_hy": "",
+          "visit_min": null,
+          "hours_hy": "",
+          "price_hy": "",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": null,
+            "min": null,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "",
+            "ticket_hy": ""
+          },
+          "label": "ՉՍՏՈՒԳՎԱԾ",
+          "sources": []
+        },
+        {
+          "id": "demo-20-8",
+          "order": 8,
+          "kind": "sight",
+          "name_hy": "Փորձնական կանգառ 8",
+          "name_local": "Demo 20 point 8",
+          "lat": 48.857,
+          "lon": 2.357,
+          "description_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Այս կետը միայն ցույց է տալիս կանգառի քարտի կառուցվածքը։ Իրական նկարագրությունն ու ստուգված աղբյուրները կգան trip.json-ով։",
+          "photo_spot_hy": "",
+          "visit_min": null,
+          "hours_hy": "",
+          "price_hy": "",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": null,
+            "min": null,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "",
+            "ticket_hy": ""
+          },
+          "label": "ՉՍՏՈՒԳՎԱԾ",
+          "sources": []
+        },
+        {
+          "id": "demo-20-9",
+          "order": 9,
+          "kind": "sight",
+          "name_hy": "Փորձնական կանգառ 9",
+          "name_local": "Demo 20 point 9",
+          "lat": 48.858000000000004,
+          "lon": 2.358,
+          "description_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Այս կետը միայն ցույց է տալիս կանգառի քարտի կառուցվածքը։ Իրական նկարագրությունն ու ստուգված աղբյուրները կգան trip.json-ով։",
+          "photo_spot_hy": "",
+          "visit_min": null,
+          "hours_hy": "",
+          "price_hy": "",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": null,
+            "min": null,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "",
+            "ticket_hy": ""
+          },
+          "label": "ՉՍՏՈՒԳՎԱԾ",
+          "sources": []
+        },
+        {
+          "id": "demo-20-10",
+          "order": 10,
+          "kind": "sight",
+          "name_hy": "Փորձնական կանգառ 10",
+          "name_local": "Demo 20 point 10",
+          "lat": 48.859,
+          "lon": 2.359,
+          "description_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Այս կետը միայն ցույց է տալիս կանգառի քարտի կառուցվածքը։ Իրական նկարագրությունն ու ստուգված աղբյուրները կգան trip.json-ով։",
+          "photo_spot_hy": "",
+          "visit_min": null,
+          "hours_hy": "",
+          "price_hy": "",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": null,
+          "label": "ՉՍՏՈՒԳՎԱԾ",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "city": "paris",
+      "title_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ · օր 2",
+      "notes_hy": "ՓՈՐՁԱԿԱՆ ՏՎՅԱԼ։ Պայմանական կետեր, ժամեր, թվեր ու գոտիներ՝ միայն կոճակները ստուգելու համար։ Իրական այցելության, գնի կամ ռիսկի մասին պնդում չէ։",
+      "total_walk_km": null,
+      "stops": [
+        {
+          "id": "demo-21-1",
+          "order": 1,
+          "kind": "sight",
+          "name_hy": "Փորձնական կանգառ 1",
+          "name_local": "Demo 21 point 1",
+          "lat": 48.85,
+          "lon": 2.35,
+          "description_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Այս կետը միայն ցույց է տալիս կանգառի քարտի կառուցվածքը։ Իրական նկարագրությունն ու ստուգված աղբյուրները կգան trip.json-ով։",
+          "photo_spot_hy": "",
+          "visit_min": null,
+          "hours_hy": "",
+          "price_hy": "",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": null,
+            "min": null,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "",
+            "ticket_hy": ""
+          },
+          "label": "ՉՍՏՈՒԳՎԱԾ",
+          "sources": []
+        },
+        {
+          "id": "demo-21-2",
+          "order": 2,
+          "kind": "food",
+          "name_hy": "Փորձնական կանգառ 2",
+          "name_local": "Demo 21 point 2",
+          "lat": 48.851,
+          "lon": 2.351,
+          "description_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Այս կետը միայն ցույց է տալիս կանգառի քարտի կառուցվածքը։ Իրական նկարագրությունն ու ստուգված աղբյուրները կգան trip.json-ով։",
+          "photo_spot_hy": "",
+          "visit_min": null,
+          "hours_hy": "",
+          "price_hy": "",
+          "photos": [],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": null,
+          "label": "ՉՍՏՈՒԳՎԱԾ",
+          "sources": []
+        }
+      ]
+    }
+  ],
+  "airport_transfers": [
+    {
+      "id": "demo-airport-0",
+      "city": "paris",
+      "date": "2026-10-20",
+      "from_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ · կետ Ա",
+      "to_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ · կետ Բ",
+      "flight_time_local": "05:00",
+      "terminal": null,
+      "target_at_terminal": null,
+      "leave_home_at": null,
+      "warning_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Թվերը իրական ուղևորության խորհուրդ չեն։",
+      "options": [
+        {
+          "rank": "primary",
+          "steps": [
+            {
+              "mode": "bus",
+              "line": "Փորձնական գիծ",
+              "from": "Demo point A",
+              "to": "Demo point B",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": null,
+              "where_to_buy_hy": "Փորձնական տվյալ․ գնման առաջարկ չկա"
+            }
+          ],
+          "total_min": null,
+          "buffer_min": 90,
+          "price_eur_group": null,
+          "label": "ՀԱԿԱՍՈՒԹՅՈՒՆ",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "demo-airport-1",
+      "date": "2026-10-20",
+      "from_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ · կետ Ա",
+      "to_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ · կետ Բ",
+      "flight_time_local": "05:00",
+      "terminal": null,
+      "target_at_terminal": null,
+      "leave_home_at": null,
+      "warning_hy": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ։ Թվերը իրական ուղևորության խորհուրդ չեն։",
+      "options": [
+        {
+          "rank": "primary",
+          "steps": [
+            {
+              "mode": "private_van",
+              "line": "Փորձնական գիծ",
+              "from": "Demo point A",
+              "to": "Demo point B",
+              "depart": null,
+              "arrive": null,
+              "price_eur_person": null,
+              "where_to_buy_hy": "Փորձնական տվյալ․ գնման առաջարկ չկա"
+            }
+          ],
+          "total_min": null,
+          "buffer_min": null,
+          "price_eur_group": null,
+          "label": "ՆՈՐ ՓՈՐՁՆԱԿԱՆ ՊԻՏԱԿ",
+          "sources": []
+        }
+      ]
+    }
+  ],
+  "flights": [
+    {
+      "date": "2026-10-20",
+      "from": "DEMO-A",
+      "to": "DEMO-B",
+      "depart_local": "05:00",
+      "arrive_local": null,
+      "airline": "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ",
+      "terminal": null,
+      "label": "ՉՍՏՈՒԳՎԱԾ"
+    }
+  ],
+  "open_questions_hy": [
+    "ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ․ ռեժիմի բոլոր տվյալները միայն ծրագրի փորձարկման համար են։"
+  ]
+}

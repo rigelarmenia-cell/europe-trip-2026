@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="hy">
+<html lang="hy" translate="no">
 <head>
   <meta charset="utf-8">
+  <meta name="google" content="notranslate">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#183e42">
-  <meta name="description" content="Ճամփորդության պլանը՝ ձեր հեռախոսում։ Փորձնական կմախք։">
+  <meta name="description" content="Ճամփորդության միջանկյալ պլանը՝ ձեր հեռախոսում։">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
@@ -29,7 +30,9 @@
       <div class="trip-stamp"><span>ԵՎՐՈՊԱ / 2026</span><strong>03</strong><span>քաղաք · մեկ ճանապարհ</span></div>
     </section>
 
-    <div id="demo-banner" class="banner demo" hidden><strong>ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ</strong><span>Սա ծրագրի կմախքն է։ Նշված կետերը ստուգված ճամփորդական պլան չեն։</span></div>
+    <div id="browser-note" class="banner" hidden>Տեղադրելու համար բացեք այս հղումը Chrome-ով։ Samsung Internet-ով մի տեղադրեք։ Play Protect-ի պատուհանի դեպքում սեղմեք OK և բացեք Chrome-ը։</div>
+    <div id="demo-banner" class="banner demo" hidden><strong>ՓՈՐՁՆԱԿԱՆ ՏՎՅԱԼ</strong><span>Միայն գործառույթների փորձարկում․ սա իրական ճամփորդական պլան չէ։</span><a href="./">Վերադառնալ իրական տվյալներին</a></div>
+    <nav class="actions" aria-label="Էջի բաժիններ"><a class="action-link" href="#airport-page">Օդանավակայաններ և չվերթներ</a><a class="action-link" href="#questions-section">Բաց հարցեր</a></nav>
     <p id="notice" class="banner" role="status" hidden></p>
     <div id="update-banner" class="banner update" hidden><span>Թարմացում կա, սեղմեք թարմացնելու համար։</span><button id="apply-update">Թարմացնել տվյալները</button></div>
     <div id="shell-update" class="banner update" hidden><span>Ծրագրի նոր տարբերակ կա։</span><button id="apply-shell">Բացել նոր տարբերակը</button></div>
@@ -46,6 +49,7 @@
         <div class="panel-heading"><div><p class="eyebrow">ՕՐՎԱ ՊԼԱՆԸ</p><h2 id="day-title">Բեռնվում է…</h2></div><span id="stop-count" class="count"></span></div>
         <p id="day-notes" class="muted"></p>
         <p id="walk-total" class="muted"></p>
+        <section id="day-actions" hidden><h3>Բացել ամբողջ օրը Google Maps-ում</h3><label class="mode-label">Ռեժիմը <select id="route-mode"><option value="walk">Քայլքով</option><option value="metro">Հանրային տրանսպորտով</option><option value="taxi">Մեքենայով</option></select></label><p id="route-note" class="fine"></p><div id="day-routes" class="actions"></div><button id="reset-day" class="quiet">Վերականգնել օրվա սկզբնական պլանը</button></section>
         <div id="stops" class="stops"></div>
         <section class="home-box"><h3>Վերադարձ դեպի տուն</h3><p id="home-note"></p><div id="home-actions" class="actions"></div><p class="fine">Մասնավոր հղումը պահեք միայն խմբի ներսում։ Այն պարունակում է հասցեներ և չպետք է հրապարակվի։</p></section>
       </section>
@@ -53,21 +57,22 @@
       <section id="map-panel" class="map-panel" aria-label="Օրվա քարտեզ">
         <div class="map-toolbar"><button id="map-back" aria-label="Վերադառնալ ցանկին">☰ <span>Ցանկ</span></button><button id="gps-open">◎ Իմ դիրքը</button><button id="map-full" aria-label="Քարտեզը բացել ամբողջ էկրանով">⛶ <span>Մեծացնել</span></button></div>
         <div id="map" aria-label="OpenStreetMap քարտեզ"></div>
-        <div class="map-caption"><span><i class="legend-dot"></i> Կանգառներ՝ ըստ հերթականության</span><span>Երթուղին բացվում է Google Maps-ում</span></div>
+        <div class="map-caption"><span><i class="legend-dot"></i> Կանգառներ՝ ըստ հերթականության</span><label><input id="safety-toggle" type="checkbox"> Զգուշության գոտիներ</label><span id="safety-note"></span></div>
         <p id="map-message" class="map-message" role="status"></p>
       </section>
     </div>
 
     <section class="support-grid">
-      <details class="support-card"><summary>Օդանավակայանային տեղափոխություններ <span>↗</span></summary><div id="airports"></div></details>
-      <details class="support-card"><summary>Տոմսեր և բաց հարցեր <span>＋</span></summary><div id="tickets"></div><ul id="questions"></ul></details>
+      <details class="support-card"><summary>Քաղաքի տոմսերը <span>＋</span></summary><div id="tickets"></div></details>
     </section>
-    <footer><div><strong>Ճամփա · առաջին կմախք</strong><p id="version">Տվյալների տարբերակը սպասվում է։</p></div><div><p id="offline-state">Առանց ինտերնետի բացվելու հնարավորությունը ստուգվում է…</p><p>Քարտեզի նոր հատվածները, լուսանկարները և Google Maps-ը պահանջում են ինտերնետ։</p><button id="check-update" class="text-button">Ստուգել տվյալների թարմացումը</button></div></footer>
+    <section id="airport-page" class="airport-page"><h2>Օդանավակայանային տեղափոխություններ</h2><p class="muted">Ժամերը ցուցադրված են ֆայլի պես։ Պիտակները տվյալների աղբյուրից են․ ծրագիրը դրանց նոր ստուգում չի կատարում։</p><div id="airports"></div><h2>Չվերթներ</h2><div id="flights"></div></section>
+    <section id="questions-section" class="support-card"><h2>Բաց հարցեր</h2><ul id="questions"></ul></section>
+    <footer><div><strong>Ճամփա · Բ2 · 0.2.0</strong><p id="version">Տվյալների տարբերակը սպասվում է։</p></div><div><p id="offline-state">Առանց ինտերնետի բացվելու հնարավորությունը ստուգվում է…</p><p>Քարտեզի նոր հատվածները, լուսանկարները և Google Maps-ը պահանջում են ինտերնետ։</p><button id="check-update" class="text-button">Ստուգել տվյալների թարմացումը</button></div></footer>
   </main>
 
   <dialog id="gps-dialog"><form method="dialog"><button class="dialog-close" aria-label="Փակել">×</button><p class="eyebrow">ՁԵՐ ԴԻՐՔԸ</p><h2>Գտնենք ձեզ քարտեզի վրա</h2><p>Ձեր թույլտվությամբ հեռախոսը ցույց կտա դիրքը և ճշտության շառավիղը։ Մենք այն չենք պահում և չենք ուղարկում խմբի անդամներին։ Քարտեզի ծառայությունը ստանում է ցուցադրվող տարածքի հարցումները։</p><p>Դիրքը մերժելու դեպքում պլանը շարունակում է աշխատել։</p><button class="primary" id="gps-confirm" value="allow">Թույլատրել դիրքի հարցումը</button><button class="quiet" value="cancel">Առանց դիրքի</button></form></dialog>
 
-  <dialog id="help-dialog"><form method="dialog"><button class="dialog-close" aria-label="Փակել">×</button></form><p class="eyebrow">ՄԵԿՆԵԼՈՒՑ ԱՌԱՋ</p><h2>Ճամփան՝ ձեր հեռախոսում</h2><p><strong>Android · Chrome</strong><br>Բացեք կայքը, ապա ⋮ → «Install app» կամ «Add to Home screen»։</p><button id="install" class="primary" hidden>Տեղադրել ծրագիրը</button><p><strong>iPhone · Safari</strong><br>Share → Add to Home Screen → միացրեք «Open as Web App», եթե ցուցադրվում է → Add։</p><div class="checklist"><label><input type="checkbox"> Ծրագիրը բացել եմ գլխավոր էկրանի պատկերակից</label><label><input type="checkbox"> Google Maps-ը տեղադրել եմ</label><label><input type="checkbox"> Մասնավոր հղումը բացել և «Տուն»-ը ստուգել եմ հենց օգտագործվող պատուհանում</label><label><input type="checkbox"> Դիրքի հարցումը ստուգել եմ</label><label><input type="checkbox"> Ինտերնետն անջատել եմ, ծրագիրը փակել ու նորից բացել</label></div><p class="fine">Ստուգաթերթի նշումները այս պատուհանի համար են։ Սա դեռ փորձնական կմախք է. իրական հեռախոսներում տեղադրումն ու նավիգացիան դեռ ստուգման կարիք ունեն։</p></dialog>
+  <dialog id="help-dialog"><form method="dialog"><button class="dialog-close" aria-label="Փակել">×</button></form><p class="eyebrow">ՄԵԿՆԵԼՈՒՑ ԱՌԱՋ</p><h2>Ճամփան՝ ձեր հեռախոսում</h2><p><strong>Android · միայն Chrome</strong><br>Եթե Chrome չկա՝ տեղադրեք Play Store-ից։ Բացեք հղումը Chrome-ում, ապա ⋮ → «Установить и создать ярлык»։ <span class="fine">Սեփականատիրոջ տեսած ռուսերեն անվանումը։ Անգլերեն՝ «Install and create shortcut → Install» — ՀԱՍՏԱՏՎԱԾ, <a href="https://support.google.com/chrome/answer/9658361?hl=en&amp;co=GENIE.Platform%3DAndroid" target="_blank" rel="noopener noreferrer">Google-ի աղբյուր</a>, 17.10.2026։</span></p><p><strong>Samsung Internet-ով մի տեղադրեք։</strong> Play Protect-ի պատուհանի դեպքում սեղմեք OK և հղումը բացեք Chrome-ով։ Արգելափակման պատճառը չստուգված է։</p><button id="install" class="primary" hidden>Տեղադրել ծրագիրը</button><p><strong>iPhone · Safari</strong><br>Share → Add to Home Screen → միացրեք «Open as Web App», եթե ցուցադրվում է → Add։</p><div class="checklist"><label><input type="checkbox"> Ծրագիրը բացել եմ գլխավոր էկրանի պատկերակից</label><label><input type="checkbox"> Google Maps-ը տեղադրել եմ</label><label><input type="checkbox"> Մասնավոր հղումը բացել և «Տուն»-ը ստուգել եմ հենց օգտագործվող պատուհանում</label><label><input type="checkbox"> Դիրքի հարցումը ստուգել եմ</label><label><input type="checkbox"> Ինտերնետն անջատել եմ, ծրագիրը փակել ու նորից բացել</label></div><p class="fine">Ստուգաթերթի նշումները այս պատուհանի համար են։ Galaxy Z Fold 4-ում Chrome-ով նախորդ տարբերակի տեղադրումը հաստատվել է սեփականատիրոջ կողմից։ «Տուն»-ը, offline-ը և iPhone-ը դեռ ստուգման կարիք ունեն։</p></dialog>
   <noscript><p class="banner">Ծրագիրն աշխատում է JavaScript-ով։ Միացրեք այն դիտարկչի կարգավորումներում և վերաբացեք էջը։</p></noscript>
 </body>
 </html>
