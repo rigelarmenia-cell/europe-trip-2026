@@ -1,0 +1,24 @@
+[
+  {
+    "engine": "edge",
+    "browser": "155.0.4283.45",
+    "checks": [
+      "Photo layer toggle, separate routes/bounds, literal injection text, walk/source links, photo credit/error, 320–1400px",
+      "Numbered popup photo/source; completed markers and camera points remain dimmed; completed route omitted",
+      "Skipped middle grey adjacency, shortest explicit action, decimal notice, persistent food warning, undo, manual move clears undo",
+      "Offline SW reload, shortest/undo and camera markers, all completed zero lines, no routing calls, zero JS errors"
+    ],
+    "status": "PASS"
+  },
+  {
+    "engine": "webkit",
+    "browser": "26.5",
+    "checks": [
+      "Photo layer toggle, separate routes/bounds, literal injection text, walk/source links, photo credit/error, 320–1400px",
+      "Numbered popup photo/source; completed markers and camera points remain dimmed; completed route omitted",
+      "Skipped middle grey adjacency, shortest explicit action, decimal notice, persistent food warning, undo, manual move clears undo",
+      "Offline SW reload, shortest/undo and camera markers, all completed zero lines, no routing calls, zero JS errors"
+    ],
+    "status": "PASS"
+  }
+]

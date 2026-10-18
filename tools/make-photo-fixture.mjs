@@ -5,6 +5,7 @@ import {resolve} from 'node:path';
 
 export function makePhotoFixture(base) {
  const data=structuredClone(base);
+ for(const day of data.days)for(const stop of day.stops)delete stop.photo_points;
  const stop=data.days.find(day=>day.date==='2026-10-21').stops.find(stop=>stop.kind==='sight');
  data.fixture_notice='ՓՈՐՁԱՐԿՄԱՆ ՏՎՅԱԼ — synthetic points, not verified places; not for release';
  stop.photo_points=[0,1].map(index=>({

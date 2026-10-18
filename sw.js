@@ -1,8 +1,8 @@
 // Increment on every app-shell release. trip.json has its own version and update flow.
-const RELEASE = '0.5.0';
+const RELEASE = '0.5.2';
 const PREFIX = `champa-shell:${self.registration.scope}:`;
 const CACHE = PREFIX + RELEASE;
-const FILES = ['./', './index.html', './styles.css', './app.js', './lib/core.js', './lib/map.js', './manifest.webmanifest', './icons/icon.svg', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png', './icons/apple-touch-icon.png', './vendor/leaflet/leaflet.js', './vendor/leaflet/leaflet.css', './vendor/leaflet/images/layers.png', './vendor/leaflet/images/layers-2x.png', './vendor/leaflet/images/marker-icon.png', './vendor/leaflet/images/marker-icon-2x.png', './vendor/leaflet/images/marker-shadow.png'];
+const FILES = ['./', './index.html', './styles.css', './app.js', './lib/core.js', './lib/map.js', './manifest.webmanifest', './icons/favicon-64.png', './icons/mark.png', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png', './icons/apple-touch-icon.png', './vendor/leaflet/leaflet.js', './vendor/leaflet/leaflet.css', './vendor/leaflet/images/layers.png', './vendor/leaflet/images/layers-2x.png', './vendor/leaflet/images/marker-icon.png', './vendor/leaflet/images/marker-icon-2x.png', './vendor/leaflet/images/marker-shadow.png'];
 FILES.push('./lib/itinerary.js', './lib/airports.js', './lib/format.js', './lib/paths.js');
 const urls = new Set(FILES.map(file => new URL(file, self.registration.scope).href));
 self.addEventListener('install', event => {

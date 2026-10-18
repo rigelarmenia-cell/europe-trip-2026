@@ -1,0 +1,16 @@
+[
+  {
+    "engine": "edge",
+    "version": "2026-10-18-13",
+    "checks": [],
+    "status": "FAIL",
+    "error": "AssertionError [ERR_ASSERTION]: edge paris-21-01 fit stop: {\"x\":140,\"y\":631.15625,\"hit\":\"pp-paris-21-07-1\",\"className\":\"leaflet-marker-icon photo-marker leaflet-zoom-animated leaflet-interactive\"}\n+ actual - expected\n\n+ 'pp-paris-21-07-1'\n- 'paris-21-01'\n\n    at file:///C:/Users/sedra/Documents/ChatGPT/Travel/tools/browser-b51.mjs:28:13"
+  },
+  {
+    "engine": "webkit",
+    "version": "2026-10-18-13",
+    "checks": [],
+    "status": "FAIL",
+    "error": "AssertionError [ERR_ASSERTION]: webkit paris-21-01 fit stop: {\"x\":140,\"y\":630.0625,\"hit\":\"pp-paris-21-07-1\",\"className\":\"leaflet-marker-icon photo-marker leaflet-zoom-animated leaflet-interactive\"}\n+ actual - expected\n\n+ 'pp-paris-21-07-1'\n- 'paris-21-01'\n\n    at file:///C:/Users/sedra/Documents/ChatGPT/Travel/tools/browser-b51.mjs:28:13"
+  }
+]

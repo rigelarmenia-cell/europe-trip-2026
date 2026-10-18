@@ -26,6 +26,26 @@ const ready = async () => {await page.locator('.airport-transfer').first().waitF
 const realState = () => page.evaluate(() => Object.fromEntries(Object.entries(localStorage).filter(([k]) => k.includes(':real:') || k.endsWith(':homes') && !k.includes(':demo:'))));
 try {
   await page.goto(base); await ready();
+  assert.equal(await page.title(),'Խելառներ');
+  assert.equal(await page.locator('meta[name="apple-mobile-web-app-title"]').getAttribute('content'),'Խելառներ');
+  assert.equal(await page.locator('.brand').getAttribute('aria-label'),'Խելառներ՝ գլխավոր էջ');
+  assert.ok((await page.locator('footer strong').textContent()).includes('Խելառներ · Բ5.2 · 0.5.2'));
+  const branding=await page.evaluate(async()=>{
+    const manifestResponse=await fetch('./manifest.webmanifest'),manifest=await manifestResponse.json(),icons=[];
+    for(const icon of [...manifest.icons,{src:'./icons/apple-touch-icon.png',sizes:'180x180'},{src:'./icons/favicon-64.png',sizes:'64x64'}]){
+      const response=await fetch(icon.src),img=new Image();img.src=icon.src;await img.decode();
+      icons.push({src:icon.src,status:response.status,expected:icon.sizes,actual:`${img.naturalWidth}x${img.naturalHeight}`});
+    }
+    const brand=document.querySelector('.brand img');await brand.decode();
+    return {name:manifest.name,shortName:manifest.short_name,icons,markLoaded:brand.naturalWidth>0};
+  });
+  assert.equal(branding.name,'Խելառներ');assert.equal(branding.shortName,'Խելառներ');assert.equal(branding.markLoaded,true);
+  for(const icon of branding.icons){assert.equal(icon.status,200);assert.equal(icon.actual,icon.expected);}
+  output.branding=branding;
+  await page.setViewportSize({width:390,height:900});await page.evaluate(()=>scrollTo(0,0));
+  await page.screenshot({path:`artifacts/b52-${engine}-390.png`});
+  await page.setViewportSize({width:1400,height:900});
+  pass('Khelarner branding; manifest/Apple/favicon icons HTTP 200 and exact dimensions; 390px header screenshot');
   assert.equal(await page.locator('.airport-transfer').count(), realTrip.airport_transfers.length);
   assert.equal(await page.locator('.flight-card').count(), realTrip.flights.length);
   assert.equal(await page.locator('#day-title').textContent(), realTrip.days[0].title_hy);
@@ -38,7 +58,10 @@ try {
   assert.equal(await page.locator('.transfer-warning').count(), realTrip.airport_transfers.filter(t=>t.warning_hy).length);
   assert.ok((await page.locator('#questions-section').textContent()).length > 100);
   assert.equal(await page.locator('.stop').count(),realTrip.days[0].stops.length);
-  assert.equal(await page.locator('.leaflet-marker-icon').count(),realTrip.days[0].stops.length+1);
+  const firstDayPhotoCount=realTrip.days[0].stops.filter(s=>s.kind==='sight').reduce((count,s)=>count+(s.photo_points||[]).length,0);
+  assert.equal(await page.locator('.stop-marker').count(),realTrip.days[0].stops.length);
+  assert.equal(await page.locator('.photo-marker').count(),firstDayPhotoCount);
+  assert.equal(await page.locator('.leaflet-marker-icon').count(),realTrip.days[0].stops.length+1+firstDayPhotoCount);
   pass('Supplied trip: transfers, flights, first day counts, buffers, warnings and labels');
   for (let i = 0; i < realTrip.cities.length; i++) {
     await page.locator('#cities button').nth(i).click();
@@ -144,6 +167,9 @@ try {
   pass('Simulated GPS and denial; Samsung official UA token banner; independent browser storage');
   const urls = await page.evaluate(async () => (await Promise.all((await caches.keys()).map(async key => (await (await caches.open(key)).keys()).map(r => r.url)))).flat());
   assert.ok(urls.length > 10); assert.ok(urls.every(url => url.startsWith(base) && !url.endsWith('trip.json')));
+  assert.ok(!urls.some(url=>url.endsWith('/icons/icon.svg')));
+  assert.ok(urls.some(url=>url.endsWith('/icons/mark.png')));
+  assert.ok(urls.some(url=>url.endsWith('/icons/favicon-64.png')));
   assert.deepEqual(errors, []);
   pass('Only local shell cached, no tiles/data; zero JavaScript page errors');
   output.status = 'PASS';

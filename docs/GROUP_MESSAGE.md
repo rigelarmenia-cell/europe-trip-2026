@@ -1,4 +1,4 @@
-Մեր ճամփորդության ծրագիրը՝ https://rigelarmenia-cell.github.io/europe-trip-2026/
+Մեր ճամփորդության «Խելառներ» ծրագիրը՝ https://rigelarmenia-cell.github.io/europe-trip-2026/
 
 Android-ում բացեք ՄԻԱՅՆ Chrome-ով → ⋮ → «Установить» / «Install app»։ Որոշ տարբերակներում՝ «Установить и создать ярлык»։ Եթե Chrome չունեք՝ տեղադրեք Play Store-ից։ Samsung Internet-ով մի տեղադրեք։
 

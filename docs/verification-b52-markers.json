@@ -1,0 +1,26 @@
+[
+  {
+    "engine": "edge",
+    "version": "2026-10-18-13",
+    "checks": [
+      "paris-21-01/fit: stop and photo centre hit-tests + real clicks/popups PASS",
+      "paris-21-01/zoom16: stop and photo centre hit-tests + real clicks/popups PASS",
+      "rome-26-05/fit: stop and photo centre hit-tests + real clicks/popups PASS",
+      "rome-26-05/zoom16: stop and photo centre hit-tests + real clicks/popups PASS"
+    ],
+    "jsErrors": [],
+    "status": "PASS"
+  },
+  {
+    "engine": "webkit",
+    "version": "2026-10-18-13",
+    "checks": [
+      "paris-21-01/fit: stop and photo centre hit-tests + real clicks/popups PASS",
+      "paris-21-01/zoom16: stop and photo centre hit-tests + real clicks/popups PASS",
+      "rome-26-05/fit: stop and photo centre hit-tests + real clicks/popups PASS",
+      "rome-26-05/zoom16: stop and photo centre hit-tests + real clicks/popups PASS"
+    ],
+    "jsErrors": [],
+    "status": "PASS"
+  }
+]

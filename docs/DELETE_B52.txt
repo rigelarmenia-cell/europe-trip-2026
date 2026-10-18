@@ -1,0 +1,3 @@
+Delete from repository: icons/icon.svg
+Replaced by icons/favicon-64.png and icons/mark.png.
+No other deletions.

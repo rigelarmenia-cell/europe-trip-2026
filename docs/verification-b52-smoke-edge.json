@@ -1,0 +1,93 @@
+{
+  "device": "Windows desktop edge / Playwright, NOT a physical phone",
+  "browser": "155.0.4283.45",
+  "checks": [
+    {
+      "name": "Khelarner branding; manifest/Apple/favicon icons HTTP 200 and exact dimensions; 390px header screenshot",
+      "status": "PASS"
+    },
+    {
+      "name": "Supplied trip: transfers, flights, first day counts, buffers, warnings and labels",
+      "status": "PASS"
+    },
+    {
+      "name": "All home stations use supplied coordinates",
+      "status": "PASS"
+    },
+    {
+      "name": "Service worker controls subpath; real layout fits 320–1400px; translation attributes present",
+      "status": "PASS"
+    },
+    {
+      "name": "Synthetic home fragment scrubbed and persisted after reload",
+      "status": "PASS"
+    },
+    {
+      "name": "Explicit demo: two days, ten stops, red short buffer and optional city timezone; real storage isolated",
+      "status": "PASS"
+    },
+    {
+      "name": "Maps chunks respect mobile waypoint limit; visited/skipped persist and transit routes omit them",
+      "status": "PASS"
+    },
+    {
+      "name": "Safety polygon toggles independently of day route lines; full-screen map Back works",
+      "status": "PASS"
+    },
+    {
+      "name": "Malformed update rejected; accepted data update preserves personal stop IDs",
+      "status": "PASS"
+    },
+    {
+      "name": "Offline reload works for query demo and real data, airports, flights and personal notes",
+      "status": "PASS"
+    },
+    {
+      "name": "Simulated GPS and denial; Samsung official UA token banner; independent browser storage",
+      "status": "PASS"
+    },
+    {
+      "name": "Only local shell cached, no tiles/data; zero JavaScript page errors",
+      "status": "PASS"
+    }
+  ],
+  "branding": {
+    "name": "Խելառներ",
+    "shortName": "Խելառներ",
+    "icons": [
+      {
+        "src": "./icons/icon-192.png",
+        "status": 200,
+        "expected": "192x192",
+        "actual": "192x192"
+      },
+      {
+        "src": "./icons/icon-512.png",
+        "status": 200,
+        "expected": "512x512",
+        "actual": "512x512"
+      },
+      {
+        "src": "./icons/maskable-512.png",
+        "status": 200,
+        "expected": "512x512",
+        "actual": "512x512"
+      },
+      {
+        "src": "./icons/apple-touch-icon.png",
+        "status": 200,
+        "expected": "180x180",
+        "actual": "180x180"
+      },
+      {
+        "src": "./icons/favicon-64.png",
+        "status": 200,
+        "expected": "64x64",
+        "actual": "64x64"
+      }
+    ],
+    "markLoaded": true
+  },
+  "status": "PASS",
+  "engine": "edge"
+}

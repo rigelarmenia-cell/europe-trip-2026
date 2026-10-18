@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-18-13",
-  "generated_at": "2026-10-18T13:58:10+04:00",
+  "version": "2026-10-18-14",
+  "generated_at": "2026-10-18T14:25:07+04:00",
   "cities": [
     {
       "id": "paris",
@@ -409,7 +409,14 @@
           ],
           "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "A01 տոմսը՝ օդանավակայանային տեղափոխության հաշվարկում",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Panneau_direction_Navette_A%C3%A9roport_Beauvais_Porte_Maillot_Paris_4.jpg",
+              "author": "Chabe01",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Panneau_direction_Navette_A%C3%A9roport_Beauvais_Porte_Maillot_Paris_4.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -443,7 +450,14 @@
           ],
           "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/H%C3%B4tel_de_Ville_de_Paris_-_Fa%C3%A7ade_-_Ao%C3%BBt_2026.jpg",
+              "author": "Arthur Weidmann (ZeusUpsistos)",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Ville_de_Paris_-_Fa%C3%A7ade_-_Ao%C3%BBt_2026.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -529,7 +543,14 @@
           ],
           "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Pont_d%27Arcole.JPG",
+              "author": "LPLT",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Pont_d%27Arcole.JPG"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -652,7 +673,14 @@
           ],
           "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Eiffel_tower_from_trocadero.jpg",
+              "author": "NonOmnisMoriar",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_tower_from_trocadero.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -709,7 +737,14 @@
           ],
           "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Paris_pont_iena.jpg",
+              "author": "Jgremillot",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Paris_pont_iena.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -805,7 +840,14 @@
           ],
           "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Eiffel_Tower_from_Champ_de_Mars.jpg",
+              "author": "SElefant",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_from_Champ_de_Mars.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -858,7 +900,14 @@
           ],
           "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Pont_de_Bir-Hakeim%2C_may_2025.jpg",
+              "author": "Finvd",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Pont_de_Bir-Hakeim%2C_may_2025.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -972,7 +1021,14 @@
           ],
           "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Esplanadedesinvalides.jpg",
+              "author": "Formulavee",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Esplanadedesinvalides.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -1022,7 +1078,14 @@
           ],
           "hours_hy": "Ամեն օր 11:30–00:00 (պաշտոնական ընդհանուր ժամեր), առանց ամրագրման",
           "price_hy": "Սկսած՝ նախուտեստ 1 €, հիմնական 7 €, աղանդեր 2 €։ Գումարը ոչ կոնկրետ ուտեստի գին է։",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bouillon_Chartier_Montparnasse.jpg",
+              "author": "Arthur Weidmann",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Bouillon_Chartier_Montparnasse.jpg"
+            }
+          ],
           "menu_url": "https://www.bouillon-chartier.com/bouillon-chartier-montparnasse/",
           "menu_prices_hy": "Պաշտոնական կայք՝ նախուտեստ սկսած 1 €, հիմնականը 7 €-ից, աղանդեր 2 €-ից. կոնկրետ ճաշացանկի բաղադրությունը/ամսաթիվը և 8 տեղը ՉՍՏՈՒԳՎԱԾ",
           "reviews_source": "Կարծիքները առանձին օրագրված աղբյուրներով դեռ չեն գնահատվել. 8 հոգով մի սեղանի երաշխիք չկա, ամրագրումներ չեն ընդունվում։",
@@ -1129,7 +1192,14 @@
           ],
           "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Notre-Dame_depuis_le_quai_Saint-Michel.JPG",
+              "author": "LPLT",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Notre-Dame_depuis_le_quai_Saint-Michel.JPG"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -1409,7 +1479,14 @@
           ],
           "hours_hy": "Ամեն օր 11:30–00:00, առանց ամրագրման",
           "price_hy": "Սկսած՝ նախուտեստ 1 €, հիմնական 7 €, աղանդեր 2 €։ Գումարը ոչ կոնկրետ ուտեստի գին է։",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Une_vue_de_l%27int%C3%A9rieur_Bouillon_Chartier_Grands_Boulevards_%28ao%C3%BBt_2023%29.JPG",
+              "author": "Benoît Prieur",
+              "license": "CC0 1.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Une_vue_de_l%27int%C3%A9rieur_Bouillon_Chartier_Grands_Boulevards_%28ao%C3%BBt_2023%29.JPG"
+            }
+          ],
           "menu_url": "https://www.bouillon-chartier.com/bouillon-chartier-grands-boulevards/",
           "menu_prices_hy": "Պաշտոնական հրապարակված՝ նախուտեստ 1 €-ից, հիմնական 7 €-ից, աղանդեր 2 €-ից",
           "reviews_source": "Կարծիքները առանձին օրագրված աղբյուրներով դեռ չեն գնահատվել. 8 հոգով մի սեղանի երաշխիք չկա, ամրագրումներ չեն ընդունվում։",
@@ -1520,7 +1597,14 @@
           ],
           "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Place_du_Tertre.jpg",
+              "author": "TouN",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Place_du_Tertre.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -1570,7 +1654,14 @@
           ],
           "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Place_des_Abbesses.JPG",
+              "author": "Alex",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Place_des_Abbesses.JPG"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -1620,7 +1711,14 @@
           ],
           "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Canal_Saint-Martin_from_bridge%2C_Paris.jpg",
+              "author": "Gerda Arendt",
+              "license": "CC0 1.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Canal_Saint-Martin_from_bridge%2C_Paris.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -1670,7 +1768,14 @@
           ],
           "hours_hy": "Ամեն օր 11:30–00:00 (օպերատորի պաշտոնական էջ, ստուգված 17.10.2026)",
           "price_hy": "Սկսած՝ նախուտեստ 1 €, հիմնական 7 €, աղանդեր 2 €։ Գումարը ոչ կոնկրետ ուտեստի գին է։",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Bouillon_Chartier_Gare_de_l%27Est%2C_Paris.jpg",
+              "author": "Gerda Arendt",
+              "license": "CC0 1.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Bouillon_Chartier_Gare_de_l%27Est%2C_Paris.jpg"
+            }
+          ],
           "menu_url": "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
           "menu_prices_hy": "2025.10 պաշտոնական օրինակային մենյու՝ նախուտեստներ 1–7,50 €, հիմնականներ 7–13,80 €. Ամեն օր փոխվում է, 2026.10 այցի մենյուն ՉՍՏՈՒԳՎԱԾ։",
           "reviews_source": "Կարծիքները առանձին օրագրված աղբյուրներով դեռ չեն գնահատվել. 8 հոգով մի սեղանի երաշխիք չկա, ամրագրումներ չեն ընդունվում։",
@@ -1716,7 +1821,14 @@
           ],
           "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Airport_Barcelona_Terminal_1_001.jpg",
+              "author": "Nasobema lyricum",
+              "license": "CC0 1.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Airport_Barcelona_Terminal_1_001.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -1753,7 +1865,14 @@
           ],
           "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Barcelona_-_Pla%C3%A7a_d%27Espanya_-_Avinguda_de_la_Reina_Maria_Cristina_-_View_SSE_on_Torres_Venecianes_1929_by_Josep_Maria_Jujol_i_Gibert.jpg",
+              "author": "Txllxt TxllxT",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Pla%C3%A7a_d%27Espanya_-_Avinguda_de_la_Reina_Maria_Cristina_-_View_SSE_on_Torres_Venecianes_1929_by_Josep_Maria_Jujol_i_Gibert.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -1847,7 +1966,14 @@
           ],
           "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Barcelona_-_Avinguda_de_la_Reina_Maria_Cristina_-_View_SSE_towards_Palau_Nacional_1929_-_Palau_de_congressos_de_Barcelona.jpg",
+              "author": "Txllxt TxllxT",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Avinguda_de_la_Reina_Maria_Cristina_-_View_SSE_towards_Palau_Nacional_1929_-_Palau_de_congressos_de_Barcelona.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -2217,7 +2343,14 @@
           ],
           "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Spain.Barcelona.Plaza.Catalunya.jpg",
+              "author": "Josep Panadero",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Spain.Barcelona.Plaza.Catalunya.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -2274,7 +2407,14 @@
           ],
           "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/La_Rambla_%28Barcelona%2C_Spain%29_on_a_sunny_day.jpg",
+              "author": "Maxpeiron",
+              "license": "CC0 1.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:La_Rambla_%28Barcelona%2C_Spain%29_on_a_sunny_day.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -2386,7 +2526,14 @@
           ],
           "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Pla%C3%A7a_de_Sant_Jaume_%283400690254%29.jpg",
+              "author": "Serge Melki",
+              "license": "CC BY 2.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Pla%C3%A7a_de_Sant_Jaume_%283400690254%29.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -2438,7 +2585,14 @@
           ],
           "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Barcelona._Pla%C3%A7a_del_Rei_%2814742902172%29.jpg",
+              "author": "Catalan Art & Architecture Gallery (Josep Bracons)",
+              "license": "CC BY-SA 2.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Barcelona._Pla%C3%A7a_del_Rei_(14742902172).jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -2495,7 +2649,14 @@
           ],
           "hours_hy": "Կիրակի 10:00–20:00, 15:00-ից անվճար՝ սովորական կիրակի օրերին",
           "price_hy": "15:00-ից անվճար ըստ պաշտոնական հրապարակման; անհատական խմբային պայմանները չստուգված",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/MUHBA_Casa_Padellas_Pla%C3%A7a_del_Rei1.JPG",
+              "author": "JosepBC",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:MUHBA_Casa_Padellas_Pla%C3%A7a_del_Rei1.JPG"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -2570,7 +2731,14 @@
           ],
           "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Santa_Mar%C3%ADa_del_Mar%2C_fachada.JPG",
+              "author": "Montserrat Martinez Ruiz",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Santa_Mar%C3%ADa_del_Mar%2C_fachada.JPG"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -2622,7 +2790,14 @@
           ],
           "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/006_Moll_de_la_Fusta_%28Barcelona%29.jpg",
+              "author": "Enric",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:006_Moll_de_la_Fusta_(Barcelona).jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -2679,7 +2854,14 @@
           ],
           "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Platja_de_la_Barceloneta.jpg",
+              "author": "Nicholas Gemini",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Platja_de_la_Barceloneta.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -2779,7 +2961,14 @@
           ],
           "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Aeroporto_di_Roma-Fiumicino_%282024%29_1.jpg",
+              "author": "Air fans",
+              "license": "CC0 1.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Aeroporto_di_Roma-Fiumicino_%282024%29_1.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -2952,7 +3141,14 @@
           ],
           "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Rzym_%28Roma%29._Via_dei_Fori_Imperiali._Widok_na_Colosseum%2C_czyli_staro%C5%BCytny_Amfiteatr_Flawiusz%C3%B3w._-_panoramio.jpg",
+              "author": "Lech_Darski",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Rzym_%28Roma%29._Via_dei_Fori_Imperiali._Widok_na_Colosseum%2C_czyli_staro%C5%BCytny_Amfiteatr_Flawiusz%C3%B3w._-_panoramio.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -3208,7 +3404,14 @@
           ],
           "hours_hy": "Ավտոբուսի պաշտոնական ընդհանուր ժամանակացույց՝ ամեն օր",
           "price_hy": "Շրջադարձային՝ մեծահասակ 13 €, մինչև 25 տարեկան անվճար. խմբի համար 78 €, բացառելով մետրոն",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Roma_Metro_B_EUR_Fermi.jpg",
+              "author": "Sergio D’Afflitto",
+              "license": "CC BY-SA 3.0 IT",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Roma_Metro_B_EUR_Fermi.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -3469,7 +3672,14 @@
           ],
           "hours_hy": "Օդանավակայանի տերմինալի գիշերային մուտքն ու կոնկրետ բաժինը ՉՍՏՈՒԳՎԱԾ",
           "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Aeroporto_di_Roma-Fiumicino_%282024%29_1.jpg",
+              "author": "Air fans",
+              "license": "CC0 1.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Aeroporto_di_Roma-Fiumicino_%282024%29_1.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",

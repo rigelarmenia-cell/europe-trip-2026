@@ -5,15 +5,25 @@ import {validateTrip} from '../lib/core.js';
 import {auditTrip} from '../tools/check-trip.mjs';
 import {makePhotoFixture} from '../tools/make-photo-fixture.mjs';
 
-const base=()=>JSON.parse(readFileSync('trip.json','utf8'));
+const current=()=>JSON.parse(readFileSync('trip.json','utf8'));
+const base=()=>{
+ const data=current();
+ for(const day of data.days)for(const stop of day.stops)delete stop.photo_points;
+ return data;
+};
 function sample() {
  const data=base(), stop=data.days.find(d=>d.date==='2026-10-21').stops.find(s=>s.kind==='sight');
  const point={id:'fixture-unit-point',name_hy:'Փորձ',name_local:'Fixture',what_hy:'ՓՈՐՁԱՐԿՄԱՆ ՏՎՅԱԼ',label:'ՀԱՍՏԱՏՎԱԾ',checked:'2026-10-18',lat:stop.lat,lon:stop.lon,sources:['https://example.org/fixture'],photo:null};
  stop.photo_points=[point];return {data,stop,point};
 }
-test('v12 without photo points remains valid and audits zero points',()=>{
+test('legacy v12 shape without photo points remains valid and audits zero points',()=>{
  const data=base();assert.equal(validateTrip(data),data);
  const report=auditTrip(data);assert.equal(report.pass,true);assert.deepEqual(report.photoPoints,{count:0,withPhoto:0,invalid:[]});
+});
+test('current v13 validates and audits all 33 real photo points',()=>{
+ const data=current();assert.equal(validateTrip(data),data);
+ const report=auditTrip(data);assert.equal(report.pass,true);
+ assert.deepEqual(report.photoPoints,{count:33,withPhoto:12,invalid:[]});
 });
 test('valid points count and nullable or Wikimedia photos pass',()=>{
  const {data,stop,point}=sample();stop.photo_points.push({...point,id:'fixture-second',photo:{...stop.photos[0]},label:'ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ'});
@@ -50,7 +60,7 @@ test('schema rejects non-string sources and invalid photo field types',()=>{
  for(const key of ['url','author','license','source_page']) {point.photo={...stop.photos[0],[key]:123};assert.throws(()=>validateTrip(data));}
 });
 test('synthetic fixture is reproducible, audited, and leaves production input untouched',()=>{
- const input=base(),before=structuredClone(input),fixture=makePhotoFixture(input);
+ const input=current(),before=structuredClone(input),fixture=makePhotoFixture(input);
  assert.deepEqual(input,before);
  assert.deepEqual(fixture,JSON.parse(readFileSync('tests/fixtures/photo-points.json','utf8')));
  assert.equal(auditTrip(fixture).pass,true);
