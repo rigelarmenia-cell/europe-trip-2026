@@ -1,6 +1,6 @@
 import { coordinates, directions, localDate, localClock, parseHomes, safeUrl, validateTrip } from './lib/core.js';
 import { createMap } from './lib/map.js';
-import { orderedStops, dayRoutes, isSamsung } from './lib/itinerary.js';
+import { orderedStops, dayRoutes, isSamsung, shortestOrder, applyShortest, undoShortest } from './lib/itinerary.js';
 import { renderAirports } from './lib/airports.js';
 import { money, distanceNumber } from './lib/format.js';
 import {validatePaths} from './lib/paths.js';
@@ -37,7 +37,13 @@ function personalDay() {
 }
 function sortedStops(day) { return orderedStops(day, personalDay()); }
 function currentPaths() { try {return validatePaths(state.paths||{},state.trip);} catch {return {};} }
-function renderPaths() {state.map?.routes(currentDay(),sortedStops(currentDay()),currentCity(),currentPaths());}
+function renderPaths() {state.map?.routes(currentDay(),sortedStops(currentDay()),currentCity(),currentPaths(),personalDay().statuses);}
+function renderPhotoPoints() {
+  const stops=sortedStops(currentDay());
+  const count=stops.filter(s=>s.kind==='sight').reduce((n,s)=>n+(s.photo_points||[]).length,0);
+  $('photo-toggle').disabled=!count;$('photo-note').textContent=count?'':'Այս օրվա համար լուսանկարվելու կետեր չկան';
+  state.map?.photoPoints(stops,personalDay().statuses,$('photo-toggle').checked);
+}
 function updatePersonal(change) {
   const day = currentDay(); if (!day) return;
   const expanded = new Set([...document.querySelectorAll('.stop[open]')].map(el => el.dataset.id));
@@ -120,8 +126,9 @@ function render() {
   renderHome(city);
   renderAirports($('airports'), $('flights'), trip); renderTickets(city);
   renderDayRoutes();
-  state.map?.show(stops, day && !stops.length ? null : city?.home_station);
+  state.map?.show(stops, day && !stops.length ? null : city?.home_station,personalDay().statuses);
   renderPaths();
+  renderPhotoPoints();
   renderSafety();
   updateClock();
 }
@@ -142,7 +149,7 @@ function renderStop(stop, index) {
   for (const [shift, label] of [[-1, '↑ Վեր'], [1, '↓ Վար']]) {
     const button = element('button', label); button.dataset.action = shift < 0 ? 'up' : 'down';
     button.disabled = index + shift < 0 || index + shift >= sortedStops(currentDay()).length;
-    button.onclick = () => updatePersonal(item => { const ids = sortedStops(currentDay()).map(s => s.id); [ids[index], ids[index + shift]] = [ids[index + shift], ids[index]]; item.order = ids; });
+    button.onclick = () => updatePersonal(item => { const ids = sortedStops(currentDay()).map(s => s.id); [ids[index], ids[index + shift]] = [ids[index + shift], ids[index]]; item.order = ids; delete item.order_before_shortest;delete item.food_moves; });
     controls.append(button);
   }
   body.append(controls);
@@ -160,6 +167,12 @@ function renderStop(stop, index) {
   body.append(element('span', stop.label || 'ՉՍՏՈՒԳՎԱԾ', 'badge'));
   body.append(element('p', stop.description_hy || 'Նկարագրությունը սպասվում է։'));
   if (stop.photo_spot_hy) body.append(element('p', `Լուսանկարվելու կետ՝ ${stop.photo_spot_hy}`));
+  if(stop.kind==='sight')for(const point of list(stop.photo_points)) {
+    const row=element('div',undefined,'photo-point-row');row.append(element('span',`📷 ${point.name_hy||point.name_local}`));
+    const show=element('button','Քարտեզին');show.dataset.photoId=point.id;
+    show.onclick=()=>{$('photo-toggle').checked=true;renderPhotoPoints();setMapView(true);requestAnimationFrame(()=>state.map?.focusPhoto(point));};
+    row.append(show);body.append(row);
+  }
   const dl = element('dl');
   field(dl, 'Տևողություն', list(stop.visit_min).length === 2 && stop.visit_min.every(n => typeof n === 'number') ? `${stop.visit_min.join('–')} րոպե` : null);
   field(dl, 'Ժամեր', stop.hours_hy); field(dl, 'Գին', stop.price_hy); body.append(dl);
@@ -230,6 +243,10 @@ function renderDayRoutes() {
   else if (!routes.links.length) $('route-note').textContent = 'Բոլոր կանգառներն այցելված կամ բաց թողնված են։ Կարող եք փոխել նշումները կամ վերականգնել օրը։';
   else $('route-note').textContent = $('route-mode').value === 'metro' ? 'Հանրային տրանսպորտը՝ առանձին հատվածներով։ Բացեք մասերը հերթով․ առաջինը՝ ընթացիկ դիրքից, հաջորդը՝ նախորդ կետից։' : 'Մինչև 3 միջանկյալ կետ մեկ հղման մեջ։ Բացեք մասերը հերթով։ Որոշ Google Maps տարբերակներ կարող են անտեսել միջանկյալ կետերը․ համեմատեք ցանկի հետ։';
   routes.links.forEach((url, i) => $('day-routes').append(link(`Մաս ${i + 1} ↗`, url)));
+  $('undo-shortest').hidden=!Array.isArray(personalDay().order_before_shortest);
+  $('food-warning').replaceChildren();
+  for(const move of personalDay().food_moves||[])$('food-warning').append(element('p',`⚠ Սննդի կանգառի տեղը փոխվեց. ${move.name}՝ ${move.from} → ${move.to}։ Ստուգեք ճաշի ժամը և բացման ժամերը (${move.hours||'ժամերը նշված չեն'}). ծրագիրը ժամեր չի հաշվում`));
+  $('food-warning').hidden=!$('food-warning').childElementCount;
 }
 function renderSafety() {
   const zones = currentCity()?.safety_zones || [];
@@ -237,7 +254,19 @@ function renderSafety() {
   state.map?.safety(zones, $('safety-toggle').checked);
 }
 $('safety-toggle').onchange = renderSafety;
+$('photo-toggle').onchange = renderPhotoPoints;
 $('route-mode').onchange = renderDayRoutes;
+const replacePersonal=(item,next)=>{for(const key of Object.keys(item))delete item[key];Object.assign(item,next);};
+$('shortest-order').onclick=()=>{
+  const stops=sortedStops(currentDay()),result=shortestOrder(stops,personalDay().statuses);
+  if(!result.improved){notice('Ավելի կարճ հերթականություն չգտնվեց');return;}
+  updatePersonal(item=>replacePersonal(item,applyShortest(item,result,stops.map(s=>s.id))));
+  notice(`Ուղիղ գծով՝ ${distanceNumber(result.beforeKm.toFixed(1))} կմ → ${distanceNumber(result.afterKm.toFixed(1))} կմ։ Իրական ճանապարհը տարբեր է. ստուգեք «Բացել ամբողջ օրը»-ով`);
+};
+$('undo-shortest').onclick=()=>{
+  updatePersonal(item=>replacePersonal(item,undoShortest(item)));
+  notice('Նախորդ հերթականությունը վերականգնվել է։');
+};
 $('reset-day').onclick = () => {
   const day = currentDay(); if (!day) return;
   delete state.personal[`${state.cityId}:${state.dayDate}`]; save('personal', state.personal); render();

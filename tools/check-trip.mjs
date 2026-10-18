@@ -16,8 +16,45 @@ function validTime(s) {
  if(!m[1]) return true;
  const d=new Date(m[1]+'T00:00:00Z');return Number.isFinite(+d)&&d.toISOString().slice(0,10)===m[1];
 }
+function auditPhotoPoints(data) {
+ const result={count:0,withPhoto:0,invalid:[]},ids=new Map();
+ const collect=value=>{
+  if(!value||typeof value!=='object')return;
+  if(typeof value.id==='string')ids.set(value.id,(ids.get(value.id)||0)+1);
+  for(const item of Object.values(value))collect(item);
+ };
+ collect(data);
+ const https=value=>{try {return typeof value==='string'&&new URL(value).protocol==='https:';}catch{return false;}};
+ const nonempty=value=>typeof value==='string'&&!!value.trim();
+ const distance=(a,b)=>{
+  const rad=Math.PI/180,dLat=(b.lat-a.lat)*rad,dLon=(b.lon-a.lon)*rad;
+  const h=Math.sin(dLat/2)**2+Math.cos(a.lat*rad)*Math.cos(b.lat*rad)*Math.sin(dLon/2)**2;
+  return 6371*2*Math.asin(Math.sqrt(Math.min(1,h)));
+ };
+ for(const day of Array.isArray(data?.days)?data.days:[])for(const stop of Array.isArray(day?.stops)?day.stops:[]) {
+  if(!Array.isArray(stop?.photo_points))continue;
+  for(const [index,point] of stop.photo_points.entries()) {
+   result.count++;
+   const reasons=[];
+   if(!coordinates(point))reasons.push('coordinates');
+   if(!['ՀԱՍՏԱՏՎԱԾ','ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ'].includes(point?.label))reasons.push('label');
+   if(!Array.isArray(point?.sources)||!point.sources.some(https))reasons.push('sources');
+   if(!nonempty(point?.id)||ids.get(point.id)>1)reasons.push('id');
+   if(coordinates(point)&&coordinates(stop)&&distance(stop,point)>1.5)reasons.push('distance');
+   if(stop.kind!=='sight')reasons.push('parent');
+   if(point?.photo!==null) {
+    result.withPhoto++;
+    const photo=point?.photo;
+    if(!https(photo?.url)||new URL(photo.url).hostname!=='upload.wikimedia.org'||!['author','license','source_page'].every(key=>nonempty(photo?.[key])))reasons.push('photo');
+   }
+   if(reasons.length)result.invalid.push({id:point?.id??null,parentId:stop.id,index,reasons});
+  }
+ }
+ return result;
+}
 export function auditTrip(data) {
- const result={pass:true,validation:'PASS',cities:[],days:[],prices:[],times:{checked:0,invalid:[]}};
+ const photoPoints=auditPhotoPoints(data);
+ const result={pass:photoPoints.invalid.length===0,validation:'PASS',cities:[],days:[],prices:[],times:{checked:0,invalid:[]},photoPoints};
  try {validateTrip(data);} catch {return {...result,pass:false,validation:'FAIL'};}
  result.cities=data.cities.map(c=>({city:c.id,days:data.days.filter(d=>d.city===c.id).length,stops:data.days.filter(d=>d.city===c.id).reduce((n,d)=>n+d.stops.length,0)}));
  result.calendarDays=new Set(data.days.map(d=>d.date)).size;

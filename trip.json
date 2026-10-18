@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-17-12",
-  "generated_at": "2026-10-17T21:27:37+04:00",
+  "version": "2026-10-18-13",
+  "generated_at": "2026-10-18T13:58:10+04:00",
   "cities": [
     {
       "id": "paris",
@@ -459,7 +459,23 @@
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": []
+          "sources": [],
+          "photo_points": [
+            {
+              "id": "pp-paris-20-02-1",
+              "name_hy": "Քաղաքապետարանի հրապարակ՝ ազատ էսպլանադ",
+              "name_local": "Place de l’Hôtel-de-Ville – esplanade de la Libération",
+              "lat": 48.856667,
+              "lon": 2.351389,
+              "what_hy": "Հրապարակից կարելի է լուսանկարել Hôtel de Ville-ի ճակատը և հրապարակային տարածությունը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://fr.wikipedia.org/wiki/Place_de_l%27H%C3%B4tel-de-Ville_-_esplanade_de_la_Lib%C3%A9ration"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
+          ]
         },
         {
           "id": "paris-20-03",
@@ -529,7 +545,23 @@
             "ticket_hy": "2,55 € / անձ"
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": []
+          "sources": [],
+          "photo_points": [
+            {
+              "id": "pp-paris-20-04-1",
+              "name_hy": "Արկոլի կամրջի՝ Նոտր Դամի կողմը",
+              "name_local": "Pont d’Arcole",
+              "lat": 48.855917,
+              "lon": 2.350639,
+              "what_hy": "Կամրջից բացվում է Սենի և Île de la Cité-ի տեսարանը՝ Նոտր Դամի ուղղությամբ։ Նկարի կոորդինատը Wikimedia Commons-ի camera location-ն է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:La_Cath%C3%A9drale_Notre-Dame_de_Paris_vue_du_pont_d%27Arcole.jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
+          ]
         }
       ]
     },
@@ -581,6 +613,27 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_at_Trocadero.jpg"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-paris-21-01-1",
+              "name_hy": "Տրոկադերոյի բաց դիտահրապարակ",
+              "name_local": "Place du Trocadéro",
+              "lat": 48.862615,
+              "lon": 2.2877,
+              "what_hy": "Այս բարձրադիր հրապարակից բացվում է Էյֆելյան աշտարակի ամբողջական տեսքը։ Նշված կոորդինատը հրապարակված լուսանկարի նկարահանման տեղն է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_from_Trocadero.jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Eiffel_Tower_from_Trocadero.jpg",
+                "author": "Eric Pouhier",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_from_Trocadero.jpg"
+              }
+            }
           ]
         },
         {
@@ -617,6 +670,27 @@
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
           "sources": [
             "https://www.paris.fr/lieux/jardins-du-trocadero-1789"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-paris-21-04-1",
+              "name_hy": "Շայոյի պալատի տեռաս՝ դեպի այգիներ",
+              "name_local": "Palais de Chaillot – terrasse",
+              "lat": 48.861953,
+              "lon": 2.288767,
+              "what_hy": "Տեռասից երևում են Jardins du Trocadéro-ն, շատրվանների առանցքը և Էյֆելյան աշտարակը։ Կետը լուսանկարի camera location-ից է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Eiffel_tower_from_trocadero.jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Eiffel_tower_from_trocadero.jpg",
+                "author": "NonOmnisMoriar",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_tower_from_trocadero.jpg"
+              }
+            }
           ]
         },
         {
@@ -651,7 +725,23 @@
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": []
+          "sources": [],
+          "photo_points": [
+            {
+              "id": "pp-paris-21-05-1",
+              "name_hy": "Իենայի կամուրջ՝ գետի և աշտարակի տեսարան",
+              "name_local": "Pont d’Iéna",
+              "lat": 48.859722,
+              "lon": 2.292222,
+              "what_hy": "Կամրջի հետիոտնային հատվածից տեսանելի են Սենը, Տրոկադերոն և Էյֆելյան աշտարակը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://fr.wikipedia.org/wiki/Pont_d%27I%C3%A9na"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
+          ]
         },
         {
           "id": "paris-21-02",
@@ -696,7 +786,8 @@
             "https://www.toureiffel.paris/en/faq/spot/can-you-walk-beneath-eiffel-tower-without-paying-ticket",
             "https://www.toureiffel.paris/en/rates-opening-times",
             "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_at_Trocadero.jpg"
-          ]
+          ],
+          "photo_points": []
         },
         {
           "id": "paris-21-06",
@@ -732,6 +823,23 @@
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
           "sources": [
             "https://www.paris.fr/lieux/parc-du-champ-de-mars-1807"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-paris-21-06-1",
+              "name_hy": "Մարսյան դաշտ՝ գլխավոր այգու առանցք",
+              "name_local": "Champ-de-Mars",
+              "lat": 48.856111,
+              "lon": 2.298333,
+              "what_hy": "Հանրային այգու բաց տարածքից հնարավոր է աշտարակը նկարել կանաչ ճեմուղիների հետ։ Կոորդինատը այգու աղբյուրային ներկայացուցչական կետն է, ոչ ֆիքսված լուսանկարչական խցիկի դիրքը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://fr.wikipedia.org/wiki/Champ-de-Mars_(Paris)",
+                "https://www.paris.fr/lieux/parc-du-champ-de-mars-1807"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
           ]
         },
         {
@@ -766,7 +874,23 @@
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": []
+          "sources": [],
+          "photo_points": [
+            {
+              "id": "pp-paris-21-07-1",
+              "name_hy": "Բիր-Հաքեյմ կամրջի հետիոտնային հատված",
+              "name_local": "Pont de Bir-Hakeim",
+              "lat": 48.855556,
+              "lon": 2.287778,
+              "what_hy": "Կամրջի մետաղական կամարները ստեղծում են հեռանկարային կադր, իսկ կողքից երևում է Էյֆելյան աշտարակը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://fr.wikipedia.org/wiki/Pont_de_Bir-Hakeim"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
+          ]
         },
         {
           "id": "paris-21-09",
@@ -809,6 +933,27 @@
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
           "sources": [
             "https://commons.wikimedia.org/wiki/File:Pont_Alexandre_III,_Paris,_France.jpg"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-paris-21-09-1",
+              "name_hy": "Ալեքսանդր III կամրջի Սենի դիտակետ",
+              "name_local": "Pont Alexandre III",
+              "lat": 48.863927,
+              "lon": 2.313322,
+              "what_hy": "Կամրջից հնարավոր է նկարել Սենի ափերն ու Փարիզի գետափնյա ճարտարապետությունը։ Ճշգրիտ կետը Commons-ի լուսանկարի camera location-ն է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:View_from_Pont_Alexandre_III,_Paris_(35275631304).jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/View_from_Pont_Alexandre_III%2C_Paris_%2835275631304%29.jpg",
+                "author": "Julien Ricard",
+                "license": "CC BY 2.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:View_from_Pont_Alexandre_III,_Paris_(35275631304).jpg"
+              }
+            }
           ]
         },
         {
@@ -843,7 +988,23 @@
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": []
+          "sources": [],
+          "photo_points": [
+            {
+              "id": "pp-paris-21-10-1",
+              "name_hy": "Ինվալիդների էսպլանադ",
+              "name_local": "Esplanade des Invalides",
+              "lat": 48.86,
+              "lon": 2.313056,
+              "what_hy": "Հանրային բաց էսպլանադում կարելի է ընդգրկել Hôtel des Invalides-ի գմբեթն ու երկար կանաչ առանցքը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://fr.wikipedia.org/wiki/Esplanade_des_Invalides"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
+          ]
         },
         {
           "id": "paris-21-03",
@@ -934,6 +1095,22 @@
             "https://www.notredamedeparis.fr/en/qa/?_filtres_faq_boutons_en=visit",
             "https://www.notredamedeparis.fr/en/faq/reservation/",
             "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre_Dame_-_Paris_IV_(FR75)_-_2026-09-17_-_1.jpg"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-paris-22-01-1",
+              "name_hy": "Նոտր Դամի դիմացի հրապարակ",
+              "name_local": "Parvis Notre-Dame – place Jean-Paul-II",
+              "lat": 48.85361,
+              "lon": 2.34806,
+              "what_hy": "Տաճարի դիմացի հանրային հրապարակից երևում է գլխավոր արևմտյան ճակատը՝ աշտարակներով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://fr.wikipedia.org/wiki/Parvis_Notre-Dame_-_place_Jean-Paul-II"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
           ]
         },
         {
@@ -968,7 +1145,23 @@
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": []
+          "sources": [],
+          "photo_points": [
+            {
+              "id": "pp-paris-22-05-1",
+              "name_hy": "Սեն Միշելի առափնյա մայթ",
+              "name_local": "Quai Saint-Michel",
+              "lat": 48.853333,
+              "lon": 2.345556,
+              "what_hy": "Առափնյա հանրային հատվածից երևում է Սենը և Île de la Cité-ն՝ տաճարի ուղղությամբ։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://fr.wikipedia.org/wiki/Quai_Saint-Michel"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
+          ]
         },
         {
           "id": "paris-22-06",
@@ -1011,6 +1204,22 @@
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
           "sources": [
             "https://commons.wikimedia.org/wiki/File:Paris_-_pont_Neuf_-_2026-09-16_13-45-26_001.jpg"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-paris-22-06-1",
+              "name_hy": "Նոր կամուրջ՝ քաղաքի կղզու մոտ",
+              "name_local": "Pont Neuf",
+              "lat": 48.856667,
+              "lon": 2.340833,
+              "what_hy": "Կամրջի մայթից կարելի է նկարել Սենի երկու ճյուղերը և Île de la Cité-ի գետափերը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://fr.wikipedia.org/wiki/Pont_Neuf"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
           ]
         },
         {
@@ -1055,6 +1264,22 @@
           "sources": [
             "https://www.louvre.fr/en/visit/hours-admission/tickets-and-prices",
             "https://commons.wikimedia.org/wiki/File:The_Louvre_Glass_Pyramid,_Paris,_France_(53198133274).jpg"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-paris-22-02-1",
+              "name_hy": "Լուվրի բակ՝ բուրգի լուսանկարչական առանցք",
+              "name_local": "Cour Napoléon",
+              "lat": 48.861297,
+              "lon": 2.3347,
+              "what_hy": "Լուվրի բաց բակում կարելի է կադրում համադրել ապակե բուրգն ու պատմական ճակատները։ Տեղը լուսանկարի camera location-ն է, բայց լուսանկարը չի կցվել Ֆրանսիայի panorama հեղինակային իրավունքի զգուշացման պատճառով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
           ]
         },
         {
@@ -1099,6 +1324,23 @@
           "sources": [
             "https://www.louvre.fr/en/visit/hours-admission/tickets-and-prices",
             "https://commons.wikimedia.org/wiki/File:Jardin-des-tuileries.jpg"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-paris-22-03-1",
+              "name_hy": "Թյուիլրիի այգու գլխավոր միջանցք",
+              "name_local": "Jardin des Tuileries",
+              "lat": 48.863611,
+              "lon": 2.326667,
+              "what_hy": "Այգու բաց հատվածում կադրի մեջ են մտնում ծառուղիները, քանդակներն ու զբոսայգու երկար առանցքը։ Սա ամբողջ այգու աղբյուրային ներկայացուցչական կետն է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://fr.wikipedia.org/wiki/Jardin_des_Tuileries",
+                "https://www.louvre.fr/en/visit/hours-admission/tickets-and-prices"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
           ]
         },
         {
@@ -1133,7 +1375,23 @@
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": []
+          "sources": [],
+          "photo_points": [
+            {
+              "id": "pp-paris-22-07-1",
+              "name_hy": "Բյուրենի սև-սպիտակ սյուները",
+              "name_local": "Les Deux Plateaux (Colonnes de Buren)",
+              "lat": 48.863611,
+              "lon": 2.336944,
+              "what_hy": "Palais-Royal-ի բաց բակում գտնվող սև-սպիտակ սյուները ստեղծում են կրկնվող երկրաչափական կադր։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.wikidata.org/wiki/Q3232046"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
+          ]
         },
         {
           "id": "paris-22-04",
@@ -1223,6 +1481,27 @@
           "sources": [
             "https://www.sacre-coeur-montmartre.com/en/info-and-visits/practical-information/hours-and-directions/",
             "https://commons.wikimedia.org/wiki/File:Sacre_Coeur_Montmartre.jpg"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-paris-23-01-1",
+              "name_hy": "Լուիզ-Միշելի այգու աստիճաններ",
+              "name_local": "Square Louise-Michel",
+              "lat": 48.884805,
+              "lon": 2.343483,
+              "what_hy": "Այգու աստիճաններից երևում է Սակրե-Կյոր բազիլիկը՝ կանաչ լանջի ու աստիճանաշարի վերևում։ Կոորդինատը հենց այդ տեսարանը նկարած լուսանկարի EXIF-ից է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Paris_75018_Square_Louise-Michel_stairs_Sacr%C3%A9-Coeur_20160419_(01).jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Paris_75018_Square_Louise-Michel_stairs_Sacr%C3%A9-Coeur_20160419_%2801%29.jpg",
+                "author": "L-BBE",
+                "license": "CC BY 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Paris_75018_Square_Louise-Michel_stairs_Sacr%C3%A9-Coeur_20160419_(01).jpg"
+              }
+            }
           ]
         },
         {
@@ -1257,7 +1536,23 @@
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": []
+          "sources": [],
+          "photo_points": [
+            {
+              "id": "pp-paris-23-03-1",
+              "name_hy": "Մոնմարտրի նկարիչների հրապարակ",
+              "name_local": "Place du Tertre",
+              "lat": 48.886667,
+              "lon": 2.340833,
+              "what_hy": "Հանրային հրապարակում կարելի է նկարել նկարիչների մոլբերտներն ու Մոնմարտրի պատմական ճակատները։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://fr.wikipedia.org/wiki/Place_du_Tertre"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
+          ]
         },
         {
           "id": "paris-23-04",
@@ -1291,7 +1586,23 @@
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": []
+          "sources": [],
+          "photo_points": [
+            {
+              "id": "pp-paris-23-04-1",
+              "name_hy": "Աբեսի հրապարակ՝ մետրոյի մուտքի մոտ",
+              "name_local": "Place des Abbesses",
+              "lat": 48.884444,
+              "lon": 2.338611,
+              "what_hy": "Հրապարակում կադրին կարելի է ընդգրկել հայտնի Art nouveau ոճի մետրոյի մուտքն ու Մոնմարտրի փողոցային միջավայրը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://fr.wikipedia.org/wiki/Place_des_Abbesses"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
+          ]
         },
         {
           "id": "paris-23-06",
@@ -1325,7 +1636,23 @@
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": []
+          "sources": [],
+          "photo_points": [
+            {
+              "id": "pp-paris-23-06-1",
+              "name_hy": "Էլեն Դյուկ պտտվող կամուրջ",
+              "name_local": "Pont Hélène-Duc (pont tournant de la Grange-aux-Belles)",
+              "lat": 48.873056,
+              "lon": 2.363972,
+              "what_hy": "Ջրանցքի վրայի հանրային կամրջից երևում են Canal Saint-Martin-ի ջրային հատվածն ու ափերը։ Կետը Wikidata-ի կոնկրետ կամուրջն է, 2025-ից՝ նոր պաշտոնական անունով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.wikidata.org/wiki/Q3397655"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
+          ]
         },
         {
           "id": "paris-23-02",
@@ -1444,6 +1771,27 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://commons.wikimedia.org/wiki/Category:Pla%C3%A7a_d%27Espanya_(Barcelona)"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-24-02-1",
+              "name_hy": "Իսպանիայի հրապարակին մոտ՝ վենետիկյան աշտարակներ",
+              "name_local": "Avinguda de la Reina Maria Cristina – Torres Venecianes",
+              "lat": 41.374347,
+              "lon": 2.1498,
+              "what_hy": "Պողոտայի հանրային հատվածից երկու վենետիկյան աշտարակները ստացվում են համաչափ կադրում։ Կետը Commons-ի տեսարանի camera location-ն է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Barcelona_-_Pla%C3%A7a_d%27Espanya_-_Avinguda_de_la_Reina_Maria_Cristina_-_View_SSE_on_Torres_Venecianes_1929_by_Josep_Maria_Jujol_i_Gibert.jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Barcelona_-_Pla%C3%A7a_d%27Espanya_-_Avinguda_de_la_Reina_Maria_Cristina_-_View_SSE_on_Torres_Venecianes_1929_by_Josep_Maria_Jujol_i_Gibert.jpg",
+                "author": "Txllxt TxllxT",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Pla%C3%A7a_d%27Espanya_-_Avinguda_de_la_Reina_Maria_Cristina_-_View_SSE_on_Torres_Venecianes_1929_by_Josep_Maria_Jujol_i_Gibert.jpg"
+              }
+            }
           ]
         },
         {
@@ -1517,6 +1865,22 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://www.wikidata.org/wiki/Q4828901"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-24-04-1",
+              "name_hy": "Մարիա Քրիստինա պողոտա՝ Ազգային պալատի ուղղությամբ",
+              "name_local": "Avinguda de la Reina Maria Cristina",
+              "lat": 41.372814,
+              "lon": 2.150553,
+              "what_hy": "Պողոտայի հասարակական քայլուղուց երևում է Palau Nacional-ի ուղղությամբ բարձրացող համաչափ առանցքը։ Կետը Commons-ի նկարահանման տեղից է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Barcelona_-_Avinguda_de_la_Reina_Maria_Cristina_-_View_SSE_towards_Palau_Nacional_1929_-_Palau_de_congressos_de_Barcelona.jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
           ]
         },
         {
@@ -1598,6 +1962,27 @@
             "https://guia.barcelona.cat/es/detall/casa-batllo_75990398260.html",
             "https://www.wikidata.org/wiki/Q461371",
             "https://commons.wikimedia.org/wiki/File:Casa_Batllo_Overview_Barcelona_Spain_cut.jpg"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-24-06-1",
+              "name_hy": "Կասա Բատյոյի դիմացի մայթ",
+              "name_local": "Passeig de Gràcia – Casa Batlló",
+              "lat": 41.391762,
+              "lon": 2.165111,
+              "what_hy": "Փողոցի այս կողմից երևում է Գաուդիի ալիքաձև ճակատը և հարևան Casa Amatller-ը։ Կոորդինատը շենքի դիմացից արված իրական լուսանկարի camera location-ն է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Casa_Batll%C3%B3_fa%C3%A7ade.jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Casa_Batll%C3%B3_fa%C3%A7ade.jpg",
+                "author": "Monumencelona30",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Casa_Batll%C3%B3_fa%C3%A7ade.jpg"
+              }
+            }
           ]
         },
         {
@@ -1642,6 +2027,27 @@
           "sources": [
             "https://mapcarta.com/La_Pedrera_-_Casa_Mil%C3%A0_R8974896",
             "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0,_general_view.jpg"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-24-07-1",
+              "name_hy": "Կասա Միլայի արտաքին անկյունային դիտակետ",
+              "name_local": "Passeig de Gràcia – Casa Milà (La Pedrera)",
+              "lat": 41.394536,
+              "lon": 2.161636,
+              "what_hy": "Պողոտայի հանրային մայթից կարելի է ընդգրկել La Pedrera-ի ալիքաձև քարե ճակատն ու անկյունը։ Կետը լուսանկարի camera location-ն է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_North_on_Casa_Mil%C3%A0_%27La_Pedrera%27_1906-10_Antoni_Gaud%C3%AD.jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_North_on_Casa_Mil%C3%A0_%27La_Pedrera%27_1906-10_Antoni_Gaud%C3%AD.jpg",
+                "author": "Txllxt TxllxT",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_North_on_Casa_Mil%C3%A0_%27La_Pedrera%27_1906-10_Antoni_Gaud%C3%AD.jpg"
+              }
+            }
           ]
         },
         {
@@ -1829,6 +2235,27 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://geoportal.barcelona.cat/geoBCN/exemples/1.2/add_popup.aspx"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-25-03-1",
+              "name_hy": "Կատալոնիայի հրապարակի շատրվանների մոտ",
+              "name_local": "Plaça de Catalunya",
+              "lat": 41.387083,
+              "lon": 2.169833,
+              "what_hy": "Հանրային հրապարակից տեսանելի են շատրվանները, քանդակներն ու հարակից ճակատները։ Կոորդինատը հրապարակում արված լուսանկարի camera location-ն է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Spain.Barcelona.Plaza.Catalunya.jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Spain.Barcelona.Plaza.Catalunya.jpg",
+                "author": "Josep Panadero",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Spain.Barcelona.Plaza.Catalunya.jpg"
+              }
+            }
           ]
         },
         {
@@ -1865,6 +2292,22 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://fr.wikipedia.org/wiki/La_Rambla"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-25-04-1",
+              "name_hy": "Ժոան Միրոյի փողոցային խճանկար",
+              "name_local": "Mosaic del Pla de l’Os (Paviment Miró)",
+              "lat": 41.381165,
+              "lon": 2.173274,
+              "what_hy": "La Rambla-ի մայթին կարելի է լուսանկարել Ժոան Միրոյի մեծ գունավոր խճանկարը՝ հենց փողոցի մակերեսին։ Աղբյուրը հրապարակում է առանձին օբյեկտի կոորդինատները։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.poblesdecatalunya.cat/mapa_element.php?e=22199"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
           ]
         },
         {
@@ -1909,6 +2352,22 @@
           "sources": [
             "https://en.wikipedia.org/wiki/Barcelona_Cathedral",
             "https://commons.wikimedia.org/wiki/File:004_Catedral_de_Barcelona,_la_fa%C3%A7ana_al_capvespre.jpg"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-25-05-1",
+              "name_hy": "Բարսելոնայի տաճարի դիմացի հրապարակ",
+              "name_local": "Pla de la Seu",
+              "lat": 41.38436,
+              "lon": 2.17607,
+              "what_hy": "Հրապարակի հանրային հատվածից բացվում է Catedral de Barcelona-ի գլխավոր ճակատի տեսքը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W245839653"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
           ]
         },
         {
@@ -1945,6 +2404,22 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://fr.wikipedia.org/wiki/Place_Sant_Jaume"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-25-06-1",
+              "name_hy": "Սանտ Ժաումեի հրապարակ",
+              "name_local": "Plaça de Sant Jaume",
+              "lat": 41.3825,
+              "lon": 2.17694,
+              "what_hy": "Հրապարակից կարելի է մի կադրում ներկայացնել քաղաքապետարանի և Generalitat-ի պատմական ճակատների քաղաքային միջավայրը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Pla%C3%A7a_Sant_Jaume"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
           ]
         },
         {
@@ -1981,6 +2456,27 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://www.wikidata.org/wiki/Q2067174"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-25-07-1",
+              "name_hy": "Թագավորական հրապարակ՝ միջնադարյան ճակատներ",
+              "name_local": "Plaça del Rei",
+              "lat": 41.384126,
+              "lon": 2.177224,
+              "what_hy": "Հրապարակի բաց տարածությունից երևում են Saló del Tinell-ը, Santa Àgata մատուռը և պատմական պատերը։ Կոորդինատը Commons-ի camera location-ն է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Barcelona._Pla%C3%A7a_del_Rei_(14742902172).jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Barcelona._Pla%C3%A7a_del_Rei_%2814742902172%29.jpg",
+                "author": "Catalan Art & Architecture Gallery (Josep Bracons)",
+                "license": "CC BY-SA 2.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Barcelona._Pla%C3%A7a_del_Rei_(14742902172).jpg"
+              }
+            }
           ]
         },
         {
@@ -2018,7 +2514,8 @@
           "sources": [
             "https://guia.barcelona.cat/en/detall/museu-d-historia-de-barcelona-placa-del-rei_92086011563.html",
             "https://www.barcelonabusturistic.cat/en/muhba-barcelona-city-history-museum"
-          ]
+          ],
+          "photo_points": []
         },
         {
           "id": "barcelona-25-09",
@@ -2091,6 +2588,22 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://en.wikipedia.org/wiki/Santa_Maria_del_Mar,_Barcelona"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-25-10-1",
+              "name_hy": "Սանտա Մարիա դել Մարի դիմացի հրապարակ",
+              "name_local": "Plaça de Santa Maria",
+              "lat": 41.38341,
+              "lon": 2.18176,
+              "what_hy": "Հրապարակից կարելի է տեսնել Santa Maria del Mar բազիլիկի գոթական ճակատն ու շրջակա El Born-ի միջավայրը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W22417155"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
           ]
         },
         {
@@ -2127,6 +2640,27 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://mapcarta.com/N7497437096"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-25-11-1",
+              "name_hy": "Հին նավահանգստի փայտյա նավամատույցի զբոսավայր",
+              "name_local": "Moll de la Fusta",
+              "lat": 41.380667,
+              "lon": 2.181353,
+              "what_hy": "Հանրային առափնյա զբոսավայրում կադրին կարելի է ընդգրկել նավահանգստի ուղղությունն ու ծովափնյա քաղաքային միջավայրը։ Կետը լուսանկարի camera location-ն է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:006_Moll_de_la_Fusta_(Barcelona).jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/006_Moll_de_la_Fusta_%28Barcelona%29.jpg",
+                "author": "Enric",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:006_Moll_de_la_Fusta_(Barcelona).jpg"
+              }
+            }
           ]
         },
         {
@@ -2163,6 +2697,27 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://mapcarta.com/25260254"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-25-12-1",
+              "name_hy": "Բարսելոնետայի հանրային լողափ",
+              "name_local": "Platja de la Barceloneta",
+              "lat": 41.379038,
+              "lon": 2.192761,
+              "what_hy": "Լողափի այս հատվածից կարելի է նկարել Միջերկրական ծովն ու ափագիծը։ Կոորդինատը հենց լողափից արված Commons լուսանկարի camera location-ն է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Platja_de_la_Barceloneta.jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Platja_de_la_Barceloneta.jpg",
+                "author": "Nicholas Gemini",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Platja_de_la_Barceloneta.jpg"
+              }
+            }
           ]
         },
         {
@@ -2358,6 +2913,27 @@
           "sources": [
             "https://www.turismoroma.it/en/places/parco-archeologico-del-colosseo",
             "https://commons.wikimedia.org/wiki/File:Photo_of_The_Colosseum_in_Rome,_Italy.jpg"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-rome-26-04-1",
+              "name_hy": "Կոլիզեյի արտաքին մայթ՝ կամարների դիմաց",
+              "name_local": "Colosseo – Piazza del Colosseo",
+              "lat": 41.890602,
+              "lon": 12.490811,
+              "what_hy": "Հանրային արտաքին հատվածից կարելի է մոտիկից նկարել Կոլիզեյի բազմահարկ կամարները՝ առանց ներս մտնելու։ Կետը նկարահանումն իրականացրած լուսանկարի camera location-ն է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Colosseo,_Roma,_Italia_-_Coliseum_Colosseum,_Rome,_Italy_(48965633546).jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Colosseo%2C_Roma%2C_Italia_-_Coliseum_Colosseum%2C_Rome%2C_Italy_%2848965633546%29.jpg",
+                "author": "Romain Pontida",
+                "license": "CC BY-SA 2.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Colosseo,_Roma,_Italia_-_Coliseum_Colosseum,_Rome,_Italy_(48965633546).jpg"
+              }
+            }
           ]
         },
         {
@@ -2394,6 +2970,22 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://turismoroma.it/en/places/dei-fori-imperiali"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-rome-26-05-1",
+              "name_hy": "Կայսերական ֆորումների հանրային պողոտա",
+              "name_local": "Via dei Fori Imperiali",
+              "lat": 41.893327,
+              "lon": 12.487,
+              "what_hy": "Հանրային պողոտայից կարելի է լուսանկարել հին Հռոմի ֆորումների ավերակները և դեպի Կոլիզեյ ձգվող ուղղությունը։ Այս կետը Roma Capitale-ի զբոսաշրջային պաշտոնական էջում նշված POINT կոորդինատն է։",
+              "label": "ՀԱՍՏԱՏՎԱԾ",
+              "sources": [
+                "https://www.turismoroma.it/en/node/1545"
+              ],
+              "checked": "2026-10-18",
+              "photo": null
+            }
           ]
         },
         {
@@ -2438,7 +3030,8 @@
           "sources": [
             "https://turismoroma.it/en/places/piazza-venezia",
             "https://commons.wikimedia.org/wiki/File:Piazza_venezia,_roma.jpg"
-          ]
+          ],
+          "photo_points": []
         },
         {
           "id": "rome-26-07",
@@ -2482,7 +3075,8 @@
           "sources": [
             "https://www.turismoroma.it/en/node/1286",
             "https://commons.wikimedia.org/wiki/File:020250519_Fontana_di_Trevi.jpg"
-          ]
+          ],
+          "photo_points": []
         },
         {
           "id": "rome-26-08",

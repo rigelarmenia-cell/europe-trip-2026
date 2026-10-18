@@ -6,6 +6,16 @@ const stop=(id,mode='walk')=>({id,order:id.charCodeAt(0),lat:48+id.charCodeAt(0)
 const day={city:'paris',stops:['a','b','c','d','e'].map(id=>stop(id))};
 const city={id:'paris',home_station:{lat:48,lon:2}};
 const trip={cities:[city],days:[day]};
+test('B5 skipped middle is omitted and new adjacency is unknown',()=>{
+ const s=segments(day,day.stops,city,{}, {b:'skipped'});
+ assert.equal(s.some(x=>x.from==='b'||x.to==='b'),false);
+ assert.equal(s.find(x=>x.from==='a'&&x.to==='c')?.kind,'unknown');
+});
+test('B5 first visited moves station start and all visited removes lines',()=>{
+ assert.equal(segments(day,day.stops,city,{}, {a:'visited'})[0].to,'b');
+ assert.deepEqual(segments(day,day.stops,city,{},Object.fromEntries(day.stops.map(s=>[s.id,'visited']))),[]);
+ assert.deepEqual(segments(day,day.stops,city,{},{}),segments(day,day.stops,city,{}));
+});
 test('mixed line identifiers use neutral color',()=>{
  assert.equal(lineColor('rome','FL1 + Metro B'),lineColor('rome','unknown'));
  assert.equal(lineColor('paris','M1 + M11'),lineColor('paris','unknown'));

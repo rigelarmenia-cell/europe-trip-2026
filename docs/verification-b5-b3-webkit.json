@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "device": "Desktop Windows webkit / Playwright, not a physical phone",
+  "browser": "26.5",
+  "timezone": "America/Los_Angeles",
+  "checks": [
+    "First supplied day preserves full title/notes and data-derived stop/marker counts",
+    "All supplied transfers/options/questions, checkin blocks, literal times, null/zero prices",
+    "Taxi labels and null fares; checkin separate background/border/padding",
+    "All supplied day notes/counts; photo attribution and simulated network failure; personal note",
+    "Three Paris safety polygons; responsive 320–1400px",
+    "Offline supplied trip, checkin and notes retained; zero JavaScript errors"
+  ]
+}

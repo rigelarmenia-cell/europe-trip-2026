@@ -17,3 +17,6 @@ body.map-full{overflow:hidden}body.map-full .map-panel{position:fixed;inset:0;z-
 .route-legend { display:flex; flex-wrap:wrap; gap:6px 14px; padding:10px 14px; font-size:12px; line-height:1.5; background:#f4f6f3; color:#334155; }
 .route-legend small {flex-basis:100%;}
 .map-panel .map-message {position:static;margin:0 12px 12px;}
+
+.photo-pin{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border:2px solid #7648a3;border-radius:8px;background:#fff5ff;font-size:22px;box-shadow:0 2px 5px #0003}.photo-point-row{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:10px 0}.photo-point-row span{min-width:0;overflow-wrap:anywhere}.map-photo{margin:8px 0;max-width:100%}.map-photo img{display:block;width:100%;max-height:120px;object-fit:cover}.map-photo figcaption{font-size:11px;line-height:1.5;overflow-wrap:anywhere}.leaflet-popup-content{overflow-wrap:anywhere;max-width:calc(100vw - 70px)}.photo-point-popup .badge{display:inline-block;white-space:normal}.map-caption{flex-wrap:wrap}#shortest-order,#undo-shortest{width:100%;margin-top:10px;white-space:normal}#food-warning{margin:10px 0;font-size:13px}.stop-marker .number-pin{font-size:13px}
+
