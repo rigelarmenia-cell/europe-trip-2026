@@ -55,7 +55,7 @@
         <p id="walk-total" class="muted"></p>
         <section id="day-actions" hidden><h3>Բացել ամբողջ օրը Google Maps-ում</h3><label class="mode-label">Ռեժիմը <select id="route-mode"><option value="walk">Քայլքով</option><option value="metro">Հանրային տրանսպորտով</option><option value="taxi">Մեքենայով</option></select></label><p id="route-note" class="fine"></p><div id="day-routes" class="actions"></div><button id="shortest-order">Ամենակարճ հերթականություն (ուղիղ գծով)</button><button id="undo-shortest" hidden>Վերականգնել նախորդ հերթականությունը</button><div id="food-warning" class="banner" role="status" hidden></div><button id="reset-day" class="quiet">Վերականգնել օրվա սկզբնական պլանը</button></section>
         <div id="stops" class="stops"></div>
-        <section class="home-box"><h3>Վերադարձ դեպի տուն</h3><p id="home-note"></p><div id="home-actions" class="actions"></div><p class="fine">Մասնավոր հղումը պահեք միայն խմբի ներսում։ Այն պարունակում է հասցեներ և չպետք է հրապարակվի։</p></section>
+        <section class="home-box"><h3>Վերադարձ դեպի տուն</h3><p id="home-note"></p><div id="home-actions" class="actions"></div><p class="fine">Տան ճշգրիտ հասցեն այս կայքում չկա։ Այն կա միայն կազմակերպչի առանձին (մասնավոր) հղման մեջ. բացելով այդ հղումը՝ «Տուն» կոճակը կտանի հենց տուն։ Այդ հղումը մի տարածեք խմբից դուրս։</p></section>
       </section>
 
       <section id="map-panel" class="map-panel" aria-label="Օրվա քարտեզ">
@@ -71,7 +71,7 @@
     </section>
     <section id="airport-page" class="airport-page"><h2>Օդանավակայանային տեղափոխություններ</h2><p class="muted">Ժամերը ցուցադրված են ֆայլի պես։ Պիտակները տվյալների աղբյուրից են․ ծրագիրը դրանց նոր ստուգում չի կատարում։</p><div id="airports"></div><h2>Չվերթներ</h2><div id="flights"></div></section>
     <section id="questions-section" class="support-card"><h2>Բաց հարցեր</h2><ul id="questions"></ul></section>
-    <footer><div><strong>Խելառներ · Բ6 · 0.6.0</strong><p id="version">Տվյալների տարբերակը սպասվում է։</p></div><div><p id="offline-state">Առանց ինտերնետի բացվելու հնարավորությունը ստուգվում է…</p><p>Քարտեզի նոր հատվածները, լուսանկարները և Google Maps-ը պահանջում են ինտերնետ։</p><button id="check-update" class="text-button">Ստուգել տվյալների թարմացումը</button></div></footer>
+    <footer><div><strong>Խելառներ · Բ6 · 0.6.1</strong><p id="version">Տվյալների տարբերակը սպասվում է։</p></div><div><p id="offline-state">Առանց ինտերնետի բացվելու հնարավորությունը ստուգվում է…</p><p>Քարտեզի նոր հատվածները, լուսանկարները և Google Maps-ը պահանջում են ինտերնետ։</p><button id="check-update" class="text-button">Ստուգել տվյալների թարմացումը</button></div></footer>
   </main>
 
   <dialog id="gps-dialog"><form method="dialog"><button class="dialog-close" aria-label="Փակել">×</button><p class="eyebrow">ՁԵՐ ԴԻՐՔԸ</p><h2>Գտնենք ձեզ քարտեզի վրա</h2><p>Ձեր թույլտվությամբ հեռախոսը ցույց կտա դիրքը և ճշտության շառավիղը։ Մենք այն չենք պահում և չենք ուղարկում խմբի անդամներին։ Քարտեզի ծառայությունը ստանում է ցուցադրվող տարածքի հարցումները։</p><p>Դիրքը մերժելու դեպքում պլանը շարունակում է աշխատել։</p><button class="primary" id="gps-confirm" value="allow">Թույլատրել դիրքի հարցումը</button><button class="quiet" value="cancel">Առանց դիրքի</button></form></dialog>

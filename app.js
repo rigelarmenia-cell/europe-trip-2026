@@ -298,14 +298,15 @@ function renderHome(city) {
   const address = state.homes[city?.id];
   const station = city?.home_station;
   const destination = address || coordinates(station) || (station?.name_local && `${station.name_local}, ${city.name_local || city.name_hy}`);
-  $('home-note').textContent = address ? 'Մասնավոր հասցեն պահված է այս դիտարկչում։ «Տուն»-ը բացելիս այն փոխանցվում է Google Maps-ին։' : 'Հասցեն մուտքագրված չէ. ցույց է տրված մոտակա կայարանը։' + (!coordinates(station) && station?.name_local ? ' Կայարանը որոնված է անունով։' : '');
+  const lines = (station?.lines || []).join(', ');
+  $('home-note').textContent = 'Սեղմեք կոճակը. Google Maps-ը կվերցնի ձեր ՆԵՐԿԱ դիրքը և կառաջարկի ամենահարմար տրանսպորտը (մետրո, ավտոբուս) կամ մեքենայով ճանապարհը մինչև տուն։ ' + (address ? 'Ուղղությունը՝ տան հասցեն (պահված է միայն այս հեռախոսում)։' : `Ուղղությունը՝ տան մոտակա կայարանը${station?.name_local ? ` ${station.name_local}` : ''}${lines ? ` (${lines})` : ''}${station?.walk_from_home_min ? `, այնտեղից տուն ~${station.walk_from_home_min} ր քայլք` : ''}։`) + (!coordinates(station) && station?.name_local && !address ? ' Կայարանը որոնված է անունով։' : '');
   if (destination) {
-    $('home-actions').append(link('Տուն · քայլքով ↗', directions(destination, 'walk')), link('Տուն · տրանսպորտով ↗', directions(destination, 'metro')));
+    $('home-actions').append(link('🏠 Տուն՝ իմ տեղից, տրանսպորտով ↗', directions(destination, 'metro')), link('🚕 Տուն՝ մեքենայով ↗', directions(destination, 'taxi')));
   } else $('home-note').textContent = 'Մասնավոր հասցեն դեռ բացված չէ, իսկ մոտակա կայարանի տվյալները սպասվում են։ Իրական մասնավոր հղումը ստանալուց հետո բացեք այն այս հեռախոսում։';
 }
 
 function renderTickets(city) {
-  $('tickets').replaceChildren(element('p', city?.tickets?.summary_hy || 'Տոմսերի ստուգված տվյալները սպասվում են։'));
+  $('tickets').replaceChildren(element('p', city?.tickets?.summary_hy || 'Տոմսերի ստուգված տվյալները սպասվում են։', 'pre-line'));
   for (const option of list(city?.tickets?.options)) {
     if (!option) continue;
     const article = element('article'); article.append(element('h3', text(option.name)), element('p', `${money(option.price_eur)} · ${option.label || 'ՉՍՏՈՒԳՎԱԾ'}`), element('p', text(option.where_to_buy_hy)), element('p', text(option.how_to_use_hy)));
