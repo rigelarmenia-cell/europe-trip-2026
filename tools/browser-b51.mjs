@@ -18,7 +18,7 @@ try{for(const engine of ['edge','webkit']){
   await page.goto(base);await page.locator('.stop').first().waitFor();await page.evaluate(()=>navigator.serviceWorker.ready);await page.waitForFunction(()=>navigator.serviceWorker.controller);await page.reload();await page.locator('.stop').first().waitFor();
   for(const id of ['paris-21-01','rome-26-05']){
    const day=trip.days.find(d=>d.stops.some(s=>s.id===id)),stop=day.stops.find(s=>s.id===id),point=stop.photo_points.find(p=>p.lat===stop.lat&&p.lon===stop.lon);
-   assert.ok(point,'real v13 must exercise exact coordinate overlap');
+   assert.ok(point,'real trip must exercise exact coordinate overlap');
    await page.locator('#cities button').nth(trip.cities.findIndex(c=>c.id===day.city)).click();await page.locator('#day').selectOption(day.date);
    for(const view of ['fit','zoom16']){
     await page.locator('#tab-map').click();

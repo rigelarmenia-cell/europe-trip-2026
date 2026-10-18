@@ -1,0 +1,614 @@
+
+> travel-pwa-skeleton@0.3.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: valid data is returned unchanged, including expired alerts and literal HTML text
+ok 1 - valid data is returned unchanged, including expired alerts and literal HTML text
+  ---
+  duration_ms: 2.0468
+  type: 'test'
+  ...
+# Subtest: invalid structures, missing fields, duplicates, and enum values are rejected
+ok 2 - invalid structures, missing fields, duplicates, and enum values are rejected
+  ---
+  duration_ms: 0.9653
+  type: 'test'
+  ...
+# Subtest: dates must be real calendar dates and timestamps must include an explicit zone
+ok 3 - dates must be real calendar dates and timestamps must include an explicit zone
+  ---
+  duration_ms: 0.274
+  type: 'test'
+  ...
+# Subtest: source links require HTTPS and reject executable, malformed, and credential URLs
+ok 4 - source links require HTTPS and reject executable, malformed, and credential URLs
+  ---
+  duration_ms: 0.2232
+  type: 'test'
+  ...
+# Subtest: active alerts match city and date independently, allowing null wildcards
+ok 5 - active alerts match city and date independently, allowing null wildcards
+  ---
+  duration_ms: 0.665
+  type: 'test'
+  ...
+# Subtest: all view still excludes dismissed and expired alerts, including exact expiry boundary
+ok 6 - all view still excludes dismissed and expired alerts, including exact expiry boundary
+  ---
+  duration_ms: 0.1175
+  type: 'test'
+  ...
+# Subtest: optional plan fields allow absence, null area, unknown stop IDs, and radius boundaries
+ok 7 - optional plan fields allow absence, null area, unknown stop IDs, and radius boundaries
+  ---
+  duration_ms: 0.2502
+  type: 'test'
+  ...
+# Subtest: optional plan fields reject wrong types and invalid area coordinates or radius
+ok 8 - optional plan fields reject wrong types and invalid area coordinates or radius
+  ---
+  duration_ms: 0.3789
+  type: 'test'
+  ...
+# Subtest: personal order reconciles stable ids, ignores removed ids, appends new stops
+ok 9 - personal order reconciles stable ids, ignores removed ids, appends new stops
+  ---
+  duration_ms: 2.0019
+  type: 'test'
+  ...
+# Subtest: full-day routes preserve order with no more than three mobile waypoints and chained origins
+ok 10 - full-day routes preserve order with no more than three mobile waypoints and chained origins
+  ---
+  duration_ms: 0.9064
+  type: 'test'
+  ...
+# Subtest: visited and skipped stops leave routes; unknown coordinate blocks an incomplete route
+ok 11 - visited and skipped stops leave routes; unknown coordinate blocks an incomplete route
+  ---
+  duration_ms: 0.5606
+  type: 'test'
+  ...
+# Subtest: transit uses individual legs, not possibly ignored waypoints
+ok 12 - transit uses individual legs, not possibly ignored waypoints
+  ---
+  duration_ms: 0.2417
+  type: 'test'
+  ...
+# Subtest: buffer unknown is never zero or green; boundary uses supplied number only
+ok 13 - buffer unknown is never zero or green; boundary uses supplied number only
+  ---
+  duration_ms: 0.1132
+  type: 'test'
+  ...
+# Subtest: Samsung detection uses SamsungBrowser token, including desktop mode
+ok 14 - Samsung detection uses SamsungBrowser token, including desktop mode
+  ---
+  duration_ms: 0.1512
+  type: 'test'
+  ...
+# Subtest: the supplied trip validates without dropping collections
+ok 15 - the supplied trip validates without dropping collections
+  ---
+  duration_ms: 20.5204
+  type: 'test'
+  ...
+# Subtest: B3 literal time formatting never applies timezone arithmetic
+ok 16 - B3 literal time formatting never applies timezone arithmetic
+  ---
+  duration_ms: 0.8382
+  type: 'test'
+  ...
+# Subtest: B3 prices and unknown minutes preserve meaning
+ok 17 - B3 prices and unknown minutes preserve meaning
+  ---
+  duration_ms: 0.306
+  type: 'test'
+  ...
+# Subtest: supplied trip accepts optional checkin text and rejects wrong type
+ok 18 - supplied trip accepts optional checkin text and rejects wrong type
+  ---
+  duration_ms: 18.4146
+  type: 'test'
+  ...
+# Subtest: B6 optional fields may be absent without changing validation or audit
+ok 19 - B6 optional fields may be absent without changing validation or audit
+  ---
+  duration_ms: 18.7122
+  type: 'test'
+  ...
+# Subtest: B6 accepts all live link kinds, an empty array and nullable flight status
+ok 20 - B6 accepts all live link kinds, an empty array and nullable flight status
+  ---
+  duration_ms: 3.3091
+  type: 'test'
+  ...
+# Subtest: B6 rejects null or non-array live_links and malformed entries
+ok 21 - B6 rejects null or non-array live_links and malformed entries
+  ---
+  duration_ms: 8.1456
+  type: 'test'
+  ...
+# Subtest: B6 live link fields are required strings
+ok 22 - B6 live link fields are required strings
+  ---
+  duration_ms: 12.2019
+  type: 'test'
+  ...
+# Subtest: B6 rejects non-string non-null flight status URLs
+ok 23 - B6 rejects non-string non-null flight status URLs
+  ---
+  duration_ms: 6.9386
+  type: 'test'
+  ...
+# Subtest: B6 audit rejects unsafe, malformed and non-HTTPS URLs in both fields
+ok 24 - B6 audit rejects unsafe, malformed and non-HTTPS URLs in both fields
+  ---
+  duration_ms: 30.833
+  type: 'test'
+  ...
+# Subtest: B6 audit rejects unsupported link kinds with the field path
+ok 25 - B6 audit rejects unsupported link kinds with the field path
+  ---
+  duration_ms: 7.9397
+  type: 'test'
+  ...
+# Subtest: empty itinerary cannot pass route readiness
+ok 26 - empty itinerary cannot pass route readiness
+  ---
+  duration_ms: 14.5906
+  type: 'test'
+  ...
+# Subtest: v9-like coordinate gap reports exact IDs and fails daily routing audit
+ok 27 - v9-like coordinate gap reports exact IDs and fails daily routing audit
+  ---
+  duration_ms: 1.7772
+  type: 'test'
+  ...
+# Subtest: pending names in either language fail even when coordinates and routes exist
+ok 28 - pending names in either language fail even when coordinates and routes exist
+  ---
+  duration_ms: 2.2337
+  type: 'test'
+  ...
+# Subtest: empty day has no Google Maps route and fails readiness audit
+ok 29 - empty day has no Google Maps route and fails readiness audit
+  ---
+  duration_ms: 1.1698
+  type: 'test'
+  ...
+# Subtest: audit rejects wrong group totals even with unrelated warning
+ok 30 - audit rejects wrong group totals even with unrelated warning
+  ---
+  duration_ms: 1.7817
+  type: 'test'
+  ...
+# Subtest: audit accepts unknown total and explicitly explained group fare
+ok 31 - audit accepts unknown total and explicitly explained group fare
+  ---
+  duration_ms: 3.2456
+  type: 'test'
+  ...
+# Subtest: audit rejects impossible or unsupported times and validates HH:mm/full dates
+ok 32 - audit rejects impossible or unsupported times and validates HH:mm/full dates
+  ---
+  duration_ms: 2.4103
+  type: 'test'
+  ...
+# Subtest: unknown coordinates never become a fake location at zero
+ok 33 - unknown coordinates never become a fake location at zero
+  ---
+  duration_ms: 0.802
+  type: 'test'
+  ...
+# Subtest: directions use current position and the documented encoded destination
+ok 34 - directions use current position and the documented encoded destination
+  ---
+  duration_ms: 1.0207
+  type: 'test'
+  ...
+# Subtest: local date and clock follow DST in the city, regardless of device zone
+ok 35 - local date and clock follow DST in the city, regardless of device zone
+  ---
+  duration_ms: 14.9222
+  type: 'test'
+  ...
+# Subtest: home fragment accepts only known cities and plain nonempty addresses
+ok 36 - home fragment accepts only known cities and plain nonempty addresses
+  ---
+  duration_ms: 0.8956
+  type: 'test'
+  ...
+# Subtest: invalid data cannot replace a valid trip; absent coordinates remain allowed
+ok 37 - invalid data cannot replace a valid trip; absent coordinates remain allowed
+  ---
+  duration_ms: 0.9999
+  type: 'test'
+  ...
+# Subtest: untrusted source links cannot execute script or escape to local files
+ok 38 - untrusted source links cannot execute script or escape to local files
+  ---
+  duration_ms: 0.1265
+  type: 'test'
+  ...
+# Subtest: malformed nested fields are rejected before they can replace the offline plan
+ok 39 - malformed nested fields are rejected before they can replace the offline plan
+  ---
+  duration_ms: 1.5693
+  type: 'test'
+  ...
+# Subtest: B5 skipped middle is omitted and new adjacency is unknown
+ok 40 - B5 skipped middle is omitted and new adjacency is unknown
+  ---
+  duration_ms: 0.9427
+  type: 'test'
+  ...
+# Subtest: B5 first visited moves station start and all visited removes lines
+ok 41 - B5 first visited moves station start and all visited removes lines
+  ---
+  duration_ms: 0.9129
+  type: 'test'
+  ...
+# Subtest: mixed line identifiers use neutral color
+ok 42 - mixed line identifiers use neutral color
+  ---
+  duration_ms: 0.1905
+  type: 'test'
+  ...
+# Subtest: Armenian distance display preserves decimal precision
+ok 43 - Armenian distance display preserves decimal precision
+  ---
+  duration_ms: 0.1254
+  type: 'test'
+  ...
+# Subtest: mixed bus and metro cannot reuse road geometry
+ok 44 - mixed bus and metro cannot reuse road geometry
+  ---
+  duration_ms: 0.5341
+  type: 'test'
+  ...
+# Subtest: segments include station endpoints and preserve visited stops; metro is solid, walk dashed
+ok 45 - segments include station endpoints and preserve visited stops; metro is solid, walk dashed
+  ---
+  duration_ms: 0.2942
+  type: 'test'
+  ...
+# Subtest: gap is not bridged; next valid outgoing segment is unknown
+ok 46 - gap is not bridged; next valid outgoing segment is unknown
+  ---
+  duration_ms: 0.2121
+  type: 'test'
+  ...
+# Subtest: reordered adjacency and moved last stop do not reuse old mode or path
+ok 47 - reordered adjacency and moved last stop do not reuse old mode or path
+  ---
+  duration_ms: 0.1518
+  type: 'test'
+  ...
+# Subtest: validated street geometry supports >2 points; malformed/stale paths rejected
+ok 48 - validated street geometry supports >2 points; malformed/stale paths rejected
+  ---
+  duration_ms: 0.4453
+  type: 'test'
+  ...
+# Subtest: line recognition uses city and full line identifier, never arbitrary CSS
+ok 49 - line recognition uses city and full line identifier, never arbitrary CSS
+  ---
+  duration_ms: 0.4105
+  type: 'test'
+  ...
+# Subtest: legacy v12 shape without photo points remains valid and audits zero points
+ok 50 - legacy v12 shape without photo points remains valid and audits zero points
+  ---
+  duration_ms: 20.5477
+  type: 'test'
+  ...
+# Subtest: current v13 validates and audits all 33 real photo points
+ok 51 - current v13 validates and audits all 33 real photo points
+  ---
+  duration_ms: 3.8026
+  type: 'test'
+  ...
+# Subtest: valid points count and nullable or Wikimedia photos pass
+ok 52 - valid points count and nullable or Wikimedia photos pass
+  ---
+  duration_ms: 5.8636
+  type: 'test'
+  ...
+# Subtest: audit fails: missing coordinates
+ok 53 - audit fails: missing coordinates
+  ---
+  duration_ms: 2.0477
+  type: 'test'
+  ...
+# Subtest: audit fails: invalid coordinates
+ok 54 - audit fails: invalid coordinates
+  ---
+  duration_ms: 1.9145
+  type: 'test'
+  ...
+# Subtest: audit fails: unaccepted label
+ok 55 - audit fails: unaccepted label
+  ---
+  duration_ms: 2.0474
+  type: 'test'
+  ...
+# Subtest: audit fails: no HTTPS source
+ok 56 - audit fails: no HTTPS source
+  ---
+  duration_ms: 2.3998
+  type: 'test'
+  ...
+# Subtest: audit fails: malformed HTTPS source
+ok 57 - audit fails: malformed HTTPS source
+  ---
+  duration_ms: 2.0595
+  type: 'test'
+  ...
+# Subtest: audit fails: duplicate point id
+ok 58 - audit fails: duplicate point id
+  ---
+  duration_ms: 3.208
+  type: 'test'
+  ...
+# Subtest: audit fails: id collides with a stop
+ok 59 - audit fails: id collides with a stop
+  ---
+  duration_ms: 3.5164
+  type: 'test'
+  ...
+# Subtest: audit fails: id collides with a city
+ok 60 - audit fails: id collides with a city
+  ---
+  duration_ms: 2.4174
+  type: 'test'
+  ...
+# Subtest: audit fails: over 1.5 km away
+ok 61 - audit fails: over 1.5 km away
+  ---
+  duration_ms: 2.7827
+  type: 'test'
+  ...
+# Subtest: audit fails: parent is not sight
+ok 62 - audit fails: parent is not sight
+  ---
+  duration_ms: 2.1034
+  type: 'test'
+  ...
+# Subtest: audit fails: photo wrong host
+ok 63 - audit fails: photo wrong host
+  ---
+  duration_ms: 2.0704
+  type: 'test'
+  ...
+# Subtest: audit fails: photo host suffix trick
+ok 64 - audit fails: photo host suffix trick
+  ---
+  duration_ms: 2.2594
+  type: 'test'
+  ...
+# Subtest: audit fails: empty photo author
+ok 65 - audit fails: empty photo author
+  ---
+  duration_ms: 3.513
+  type: 'test'
+  ...
+# Subtest: audit fails: empty photo license
+ok 66 - audit fails: empty photo license
+  ---
+  duration_ms: 2.3086
+  type: 'test'
+  ...
+# Subtest: audit fails: empty photo source_page
+ok 67 - audit fails: empty photo source_page
+  ---
+  duration_ms: 2.2174
+  type: 'test'
+  ...
+# Subtest: schema rejects missing required photo-point id
+ok 68 - schema rejects missing required photo-point id
+  ---
+  duration_ms: 1.7708
+  type: 'test'
+  ...
+# Subtest: schema rejects incorrect photo-point id type
+ok 69 - schema rejects incorrect photo-point id type
+  ---
+  duration_ms: 1.578
+  type: 'test'
+  ...
+# Subtest: schema rejects missing required photo-point name_hy
+ok 70 - schema rejects missing required photo-point name_hy
+  ---
+  duration_ms: 1.5291
+  type: 'test'
+  ...
+# Subtest: schema rejects incorrect photo-point name_hy type
+ok 71 - schema rejects incorrect photo-point name_hy type
+  ---
+  duration_ms: 1.397
+  type: 'test'
+  ...
+# Subtest: schema rejects missing required photo-point name_local
+ok 72 - schema rejects missing required photo-point name_local
+  ---
+  duration_ms: 1.2681
+  type: 'test'
+  ...
+# Subtest: schema rejects incorrect photo-point name_local type
+ok 73 - schema rejects incorrect photo-point name_local type
+  ---
+  duration_ms: 2.5493
+  type: 'test'
+  ...
+# Subtest: schema rejects missing required photo-point what_hy
+ok 74 - schema rejects missing required photo-point what_hy
+  ---
+  duration_ms: 1.5621
+  type: 'test'
+  ...
+# Subtest: schema rejects incorrect photo-point what_hy type
+ok 75 - schema rejects incorrect photo-point what_hy type
+  ---
+  duration_ms: 1.3226
+  type: 'test'
+  ...
+# Subtest: schema rejects missing required photo-point label
+ok 76 - schema rejects missing required photo-point label
+  ---
+  duration_ms: 1.2569
+  type: 'test'
+  ...
+# Subtest: schema rejects incorrect photo-point label type
+ok 77 - schema rejects incorrect photo-point label type
+  ---
+  duration_ms: 1.2374
+  type: 'test'
+  ...
+# Subtest: schema rejects missing required photo-point checked
+ok 78 - schema rejects missing required photo-point checked
+  ---
+  duration_ms: 1.2537
+  type: 'test'
+  ...
+# Subtest: schema rejects incorrect photo-point checked type
+ok 79 - schema rejects incorrect photo-point checked type
+  ---
+  duration_ms: 1.3036
+  type: 'test'
+  ...
+# Subtest: schema rejects missing required photo-point lat
+ok 80 - schema rejects missing required photo-point lat
+  ---
+  duration_ms: 1.2609
+  type: 'test'
+  ...
+# Subtest: schema rejects incorrect photo-point lat type
+ok 81 - schema rejects incorrect photo-point lat type
+  ---
+  duration_ms: 1.277
+  type: 'test'
+  ...
+# Subtest: schema rejects missing required photo-point lon
+ok 82 - schema rejects missing required photo-point lon
+  ---
+  duration_ms: 1.2477
+  type: 'test'
+  ...
+# Subtest: schema rejects incorrect photo-point lon type
+ok 83 - schema rejects incorrect photo-point lon type
+  ---
+  duration_ms: 2.0334
+  type: 'test'
+  ...
+# Subtest: schema rejects missing required photo-point sources
+ok 84 - schema rejects missing required photo-point sources
+  ---
+  duration_ms: 1.6055
+  type: 'test'
+  ...
+# Subtest: schema rejects incorrect photo-point sources type
+ok 85 - schema rejects incorrect photo-point sources type
+  ---
+  duration_ms: 1.4434
+  type: 'test'
+  ...
+# Subtest: schema rejects missing required photo-point photo
+ok 86 - schema rejects missing required photo-point photo
+  ---
+  duration_ms: 1.4414
+  type: 'test'
+  ...
+# Subtest: schema rejects incorrect photo-point photo type
+ok 87 - schema rejects incorrect photo-point photo type
+  ---
+  duration_ms: 1.4073
+  type: 'test'
+  ...
+# Subtest: schema rejects null/non-array/oversized point lists and non-object entries
+ok 88 - schema rejects null/non-array/oversized point lists and non-object entries
+  ---
+  duration_ms: 5.6911
+  type: 'test'
+  ...
+# Subtest: schema rejects non-string sources and invalid photo field types
+ok 89 - schema rejects non-string sources and invalid photo field types
+  ---
+  duration_ms: 2.3998
+  type: 'test'
+  ...
+# Subtest: synthetic fixture is reproducible, audited, and leaves production input untouched
+ok 90 - synthetic fixture is reproducible, audited, and leaves production input untouched
+  ---
+  duration_ms: 8.5186
+  type: 'test'
+  ...
+# Subtest: shortest: pure single-step apply and undo preserve statuses and clear warning state
+ok 91 - shortest: pure single-step apply and undo preserve statuses and clear warning state
+  ---
+  duration_ms: 1.5685
+  type: 'test'
+  ...
+# Subtest: shortest: fixed home in fifth position splits independently optimized groups
+ok 92 - shortest: fixed home in fifth position splits independently optimized groups
+  ---
+  duration_ms: 0.9348
+  type: 'test'
+  ...
+# Subtest: shortest: visited and skipped keep their list slots while pending slots can cross them
+ok 93 - shortest: visited and skipped keep their list slots while pending slots can cross them
+  ---
+  duration_ms: 0.1964
+  type: 'test'
+  ...
+# Subtest: shortest: preceding visited coordinate anchors a free group; skipped never anchors
+ok 94 - shortest: preceding visited coordinate anchors a free group; skipped never anchors
+  ---
+  duration_ms: 0.1091
+  type: 'test'
+  ...
+# Subtest: shortest: transport, airport and missing coordinates stay fixed and split groups
+ok 95 - shortest: transport, airport and missing coordinates stay fixed and split groups
+  ---
+  duration_ms: 0.2152
+  type: 'test'
+  ...
+# Subtest: shortest: deterministic equal distances retain original relative ordering
+ok 96 - shortest: deterministic equal distances retain original relative ordering
+  ---
+  duration_ms: 0.2179
+  type: 'test'
+  ...
+# Subtest: shortest: unchanged for optimal, empty, all completed, and less than 10m gain
+ok 97 - shortest: unchanged for optimal, empty, all completed, and less than 10m gain
+  ---
+  duration_ms: 0.235
+  type: 'test'
+  ...
+# Subtest: shortest: food warnings describe only food stops whose actual list position changes
+ok 98 - shortest: food warnings describe only food stops whose actual list position changes
+  ---
+  duration_ms: 0.1424
+  type: 'test'
+  ...
+# Subtest: shortest: exact small groups match brute-force optimum for every endpoint configuration
+ok 99 - shortest: exact small groups match brute-force optimum for every endpoint configuration
+  ---
+  duration_ms: 7.8172
+  type: 'test'
+  ...
+# Subtest: shortest: 13-stop heuristic and actual 25 October never increase distance and finish under 200ms
+ok 100 - shortest: 13-stop heuristic and actual 25 October never increase distance and finish under 200ms
+  ---
+  duration_ms: 11.2909
+  type: 'test'
+  ...
+1..100
+# tests 100
+# suites 0
+# pass 100
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 242.8904

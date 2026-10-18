@@ -1,0 +1,46 @@
+[
+  {
+    "engine": "edge",
+    "browser": "155.0.4283.45",
+    "checks": [
+      "City/date/null/expiry filters, all-city/date count/dialog, literal XSS, source, 320–1400px and 390px danger screenshot",
+      "Fixture-only city links and every flight status URL, new tab and noopener",
+      "Plan suggestion never auto-skips; explicit two-stop skip, route/Google Maps omission, shortest preserves skipped slots, reset, unknown ID, clock expiry clears map/card warnings",
+      "Automatic visible-event and fake five-minute refresh; hidden page does not poll",
+      "Invalid JSON retains the last valid alerts, zero JavaScript errors",
+      "Dismissal persists across reload; a changed ID appears",
+      "Fetch failure with navigator online automatically shows offline hints; online event recovers",
+      "Offline SW reload retains latest alerts, dismissal, links and Armenian offline hints"
+    ],
+    "offlineMethod": "origin server stopped + Playwright context offline; server counters checked (context offline alone did not block SW data requests)",
+    "pageErrors": [],
+    "expectedOfflineNetworkDiagnostics": [],
+    "applicationJsErrors": [],
+    "status": "PASS"
+  },
+  {
+    "engine": "webkit",
+    "browser": "26.5",
+    "checks": [
+      "City/date/null/expiry filters, all-city/date count/dialog, literal XSS, source, 320–1400px and 390px danger screenshot",
+      "Fixture-only city links and every flight status URL, new tab and noopener",
+      "Plan suggestion never auto-skips; explicit two-stop skip, route/Google Maps omission, shortest preserves skipped slots, reset, unknown ID, clock expiry clears map/card warnings",
+      "Automatic visible-event and fake five-minute refresh; hidden page does not poll",
+      "Invalid JSON retains the last valid alerts, zero JavaScript errors",
+      "Dismissal persists across reload; a changed ID appears",
+      "Fetch failure with navigator online automatically shows offline hints; online event recovers",
+      "Offline SW reload retains latest alerts, dismissal, links and Armenian offline hints"
+    ],
+    "offlineMethod": "origin server stopped + simulated navigator.onLine=false; server counters checked (WebKit native offline cannot reload SW shell; routes bypassed by SW)",
+    "pageErrors": [
+      "/127.0.0.1:54556/travel/trip.json due to access control checks.",
+      "/127.0.0.1:54556/travel/alerts.json due to access control checks."
+    ],
+    "expectedOfflineNetworkDiagnostics": [
+      "/127.0.0.1:54556/travel/trip.json due to access control checks.",
+      "/127.0.0.1:54556/travel/alerts.json due to access control checks."
+    ],
+    "applicationJsErrors": [],
+    "status": "PASS"
+  }
+]

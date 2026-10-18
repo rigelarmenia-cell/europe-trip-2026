@@ -6,7 +6,7 @@ import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 const {chromium,webkit}=createRequire(resolve(process.argv[2],'package.json'))('playwright');
 const root=resolve('.'),results=[];
-const cases=[['v13','trip.json'],['full','tests/fixtures/full-trip.json'],['empty','tests/fixtures/full-trip.json'],['v9',process.argv[3]]].filter(([,p])=>p);
+const cases=[['production','trip.json'],['full','tests/fixtures/full-trip.json'],['empty','tests/fixtures/full-trip.json'],['v9',process.argv[3]]].filter(([,p])=>p);
 const good=s=>s&&typeof s.lat==='number'&&typeof s.lon==='number';
 const expected=(day,city)=>{
  const ss=day.stops.slice().sort((a,b)=>a.order-b.order);if(!ss.length)return 0;
@@ -16,9 +16,9 @@ for(const engine of ['edge','webkit'])for(const [name,file] of cases){
  let bytes=await readFile(file);const trip=JSON.parse(bytes);
  if(name==='empty'){trip.days[0].stops=[];bytes=Buffer.from(JSON.stringify(trip));}
  if(name==='v9')assert.equal(createHash('sha256').update(bytes).digest('hex'),'03230e614d83b8fc6e2262f4e2e994acd38cc8b21874dc0f47c0c28d88d9803f');
- const paths=name==='v13'?JSON.parse(await readFile('paths.json','utf8')):{};
+ const paths=name==='production'?JSON.parse(await readFile('paths.json','utf8')):{};
  // Deliberately synthetic >2-point street geometry, used only by this local test server.
- if(name!=='v13')for(const day of trip.days)for(let i=0;i<day.stops.length-1;i++){
+ if(name!=='production')for(const day of trip.days)for(let i=0;i<day.stops.length-1;i++){
   const a=day.stops[i],b=day.stops[i+1];if(good(a)&&good(b)&&!a.to_next?.line?.includes('+')&&['bus','tram','taxi'].includes(a.to_next?.mode))paths[`${a.id}>${b.id}:${a.to_next.mode}`]=[[a.lat,a.lon],[(a.lat+b.lat)/2+.0001,(a.lon+b.lon)/2],[b.lat,b.lon]];
  }
  let pathMode='valid';
@@ -33,7 +33,7 @@ for(const engine of ['edge','webkit'])for(const [name,file] of cases){
  const browser=await(engine==='edge'?chromium.launch({channel:'msedge',headless:true}):webkit.launch({headless:true}));
  const context=await browser.newContext({viewport:{width:1400,height:1000}}),page=await context.newPage(),errors=[],requests=[];
  page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>requests.push(r.url()));
- await context.route('https://**/*',r=>name==='v13'&&r.request().url().startsWith('https://tile.openstreetmap.org/')?r.continue():r.abort());
+ await context.route('https://**/*',r=>name==='production'&&r.request().url().startsWith('https://tile.openstreetmap.org/')?r.continue():r.abort());
  const result={engine,browser:browser.version(),case:name,checks:[]};results.push(result);
  const pass=s=>{result.checks.push(s);console.log(`${engine}/${name} PASS ${s}`);};
  try{
@@ -78,14 +78,14 @@ for(const engine of ['edge','webkit'])for(const [name,file] of cases){
     }
    }
    for(const width of [320,375,800,1400]){await page.setViewportSize({width,height:1000});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);}
-   if(name==='v13'&&['2026-10-25','2026-10-26'].includes(day.date)){
+   if(name==='production'&&['2026-10-25','2026-10-26'].includes(day.date)){
     await page.locator('#map-panel').scrollIntoViewIfNeeded();
     await page.waitForFunction(()=>Array.from(document.querySelectorAll('.leaflet-tile')).filter(i=>i.complete&&i.naturalWidth>0).length>=4,{},{timeout:30000});
     await page.locator('#map-panel').screenshot({path:`artifacts/b5-regression-${engine}-${day.date}.png`});
    }
   }
   result.photos=photoCount;result.noPhotoStops=placeholders;
-  if(name==='v13')assert.equal(photoCount,14);
+  assert.equal(photoCount,trip.days.reduce((sum,day)=>sum+day.stops.reduce((count,stop)=>count+(stop.photos||[]).length,0),0));
   pass('All days: title/notes/stops, Maps parts, photo attribution/placeholders, decimal km, line counts/styles/gaps, road geometry, 320–1400px');
   const day=trip.days.find(d=>d.date==='2026-10-21'),city=trip.cities.find(c=>c.id===day.city);
   await page.locator('#cities button').nth(trip.cities.indexOf(city)).click();await page.locator('#day').selectOption(day.date);

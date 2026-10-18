@@ -29,7 +29,7 @@ try {
   assert.equal(await page.title(),'Խելառներ');
   assert.equal(await page.locator('meta[name="apple-mobile-web-app-title"]').getAttribute('content'),'Խելառներ');
   assert.equal(await page.locator('.brand').getAttribute('aria-label'),'Խելառներ՝ գլխավոր էջ');
-  assert.ok((await page.locator('footer strong').textContent()).includes('Խելառներ · Բ5.2 · 0.5.2'));
+  assert.ok((await page.locator('footer strong').textContent()).includes('Խելառներ · Բ6 · 0.6.0'));
   const branding=await page.evaluate(async()=>{
     const manifestResponse=await fetch('./manifest.webmanifest'),manifest=await manifestResponse.json(),icons=[];
     for(const icon of [...manifest.icons,{src:'./icons/apple-touch-icon.png',sizes:'180x180'},{src:'./icons/favicon-64.png',sizes:'64x64'}]){
@@ -175,3 +175,4 @@ try {
   output.status = 'PASS';
 } catch (error) { output.status = 'FAIL'; output.error = error.stack; throw error; }
 finally { await mkdir('artifacts', { recursive: true }); output.engine=engine;output.device=`Windows desktop ${engine} / Playwright, NOT a physical phone`; await writeFile(`artifacts/b43-smoke-${engine}.json`, JSON.stringify(output, null, 2)); await browser.close();server.close(); }
+

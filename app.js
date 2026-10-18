@@ -4,6 +4,7 @@ import { orderedStops, dayRoutes, isSamsung, shortestOrder, applyShortest, undoS
 import { renderAirports } from './lib/airports.js';
 import { money, distanceNumber } from './lib/format.js';
 import {validatePaths} from './lib/paths.js';
+import {validateAlerts, activeAlerts} from './lib/alerts.js';
 
 const $ = id => document.getElementById(id);
 const base = new URL('./', location.href);
@@ -28,6 +29,82 @@ function link(label, href, className = 'action-link') {
   const anchor = element('a', label, className); anchor.href = safe; anchor.target = '_blank'; anchor.rel = 'noopener noreferrer'; return anchor;
 }
 function field(dl, label, value) { dl.append(element('dt', label), element('dd', text(value))); }
+// Alerts are independent of the explicit trip update/acceptance flow.
+state.alerts = null; state.alertsOnline = null; state.alertsLoading = false;
+try { const cached = read('alerts'); if (cached) state.alerts = validateAlerts(cached); } catch { /* Ignore invalid cached alerts. */ }
+state.dismissedAlerts = list(read('alerts-dismissed')).filter(id => typeof id === 'string');
+const liveOnline = () => navigator.onLine && state.alertsOnline !== false;
+const currentAlerts = () => state.alerts ? activeAlerts(state.alerts, {city:state.cityId,date:state.dayDate,dismissed:state.dismissedAlerts}) : [];
+function affectedStops(alert) {
+  if (!currentAlerts().some(item => item.id === alert.id)) return [];
+  const ids = new Set(list(alert.stop_ids));
+  return sortedStops(currentDay()).map((stop,index) => ({...stop,number:index+1})).filter(stop => ids.has(stop.id));
+}
+function alertCard(alert) {
+  const card = element('article', undefined, `alert-card alert-${alert.level}`); card.dataset.alertId = alert.id;
+  const close = element('button', '×', 'alert-dismiss'); close.type = 'button'; close.setAttribute('aria-label', 'Փակել զգուշացումը');
+  close.onclick = () => { state.dismissedAlerts = [...new Set([...state.dismissedAlerts, alert.id])]; save('alerts-dismissed', state.dismissedAlerts); renderAlerts(); };
+  card.append(close, element('strong', alert.title_hy), element('p', alert.text_hy));
+  if (alert.suggestion_hy) card.append(element('p', `💡 Առաջարկ՝ ${alert.suggestion_hy}`, 'alert-suggestion'));
+  const affected = affectedStops(alert);
+  if (['danger','warning'].includes(alert.level) && affected.length) {
+    card.append(element('p', `Վտանգավոր գոտում են. ${affected.map(stop => `${stop.number}. ${stop.name_hy || stop.name_local}`).join(', ')}`, 'alert-affected'));
+    const skip = element('button', 'Բաց թողնել այս կանգառները', 'alert-skip');
+    skip.onclick = () => {
+      const stops = affectedStops(alert); if (!stops.length) return renderAlerts();
+      updatePersonal(item => { item.statuses = {...item.statuses}; for (const stop of stops) item.statuses[stop.id] = 'skipped'; });
+      notice(`${stops.length} կանգառ բաց թողնվեց. վերականգնելու համար սեղմեք կանգառի «Բաց ենք թողնում»-ը կամ «Վերականգնել օրվա սկզբնական պլանը»`);
+    };
+    card.append(skip);
+  }
+  if (alert.source_url && safeUrl(alert.source_url)) card.append(link('Աղբյուր ↗', alert.source_url));
+  card.append(element('p', `Թարմացված՝ ${state.alerts.updated_at}`, 'fine'));
+  if (!liveOnline()) card.append(element('p', 'Առանց ինտերնետի. ցույց է տրված վերջին հայտնի տարբերակը', 'alerts-offline'));
+  return card;
+}
+function renderAlerts() {
+  const options = {city:state.cityId,date:state.dayDate,dismissed:state.dismissedAlerts};
+  const current = state.alerts ? activeAlerts(state.alerts, options) : [];
+  const all = state.alerts ? activeAlerts(state.alerts, {...options, all:true}) : [];
+  $('alerts-current').replaceChildren(...current.map(alertCard)); $('alerts-current').hidden = !current.length;
+  $('alerts-count').hidden = !all.length; $('alerts-count').textContent = `⚠ ${all.length}`;
+  $('alerts-count').setAttribute('aria-label', `Բոլոր զգուշացումները՝ ${all.length}`);
+  $('alerts-all').replaceChildren(...all.map(alertCard));
+  if (!all.length) $('alerts-all').append(element('p', 'Ակտիվ զգուշացումներ չկան։'));
+  state.map?.alerts(current);
+  for (const card of document.querySelectorAll('.stop')) {
+    card.querySelectorAll('.stop-alert').forEach(node => node.remove());
+    const heading = card.querySelector('.stop-title')?.parentElement;
+    if (heading) for (const alert of current.filter(item => list(item.stop_ids).includes(card.dataset.id))) {
+      heading.prepend(element('span', `⚠ Զգուշացում. ${alert.title_hy}`, 'stop-alert'));
+    }
+  }
+}
+function renderLiveLinks() {
+  const node = $('live-links'); node.replaceChildren();
+  const icons = {transit:'🚇', protests:'🚨', other:'↗'};
+  for (const item of list(currentCity()?.live_links)) {
+    const url = safeUrl(item.url); if (!url || !url.startsWith('https:') || !Object.hasOwn(icons,item.kind)) continue;
+    const row = element('span', undefined, 'live-link'); row.append(link(`${icons[item.kind]} ${item.label_hy} ↗`, url));
+    const note = element('span', 'պահանջում է ինտերնետ', 'requires-internet'); note.hidden = liveOnline(); row.append(note); node.append(row);
+  }
+  node.hidden = !node.childElementCount;
+}
+async function checkAlerts() {
+  if (state.alertsLoading) return;
+  state.alertsLoading = true;
+  let reached = false;
+  const abort = new AbortController(), timeout = setTimeout(() => abort.abort(), 10000);
+  try {
+    const response = await fetch(new URL('alerts.json', base), {cache:'no-store',signal:abort.signal});
+    if (!response.ok) throw Error('alerts network');
+    reached = true;
+    const alerts = validateAlerts(await response.json());
+    state.alerts = alerts; state.alertsOnline = true; save('alerts', alerts);
+  } catch { state.alertsOnline = reached; /* Invalid JSON keeps the last valid feed, not a false network-loss claim. */ }
+  finally { clearTimeout(timeout); state.alertsLoading = false; connection(); }
+}
+$('alerts-count').onclick = () => { renderAlerts(); $('alerts-dialog').showModal(); };
 function currentCity() { return state.trip?.cities.find(city => city.id === state.cityId); }
 function currentDay() { return state.trip?.days.find(day => day.city === state.cityId && day.date === state.dayDate); }
 function personalDay() {
@@ -125,6 +202,8 @@ function render() {
   if (!stops.length) $('stops').append(element('p', 'Կանգառները դեռ պատրաստվում են', 'empty'));
   renderHome(city);
   renderAirports($('airports'), $('flights'), trip); renderTickets(city);
+  renderLiveLinks();
+  document.querySelectorAll('.requires-internet').forEach(node => { node.hidden = liveOnline(); });
   renderDayRoutes();
   state.map?.show(stops, day && !stops.length ? null : city?.home_station,personalDay().statuses);
   renderPaths();
@@ -276,6 +355,7 @@ $('reset-day').onclick = () => {
 function updateClock() {
   const city = currentCity();
   $('city-time').textContent = city ? `Քաղաքում հիմա՝ ${localDate(city.timezone)} · ${localClock(city.timezone)} (${city.timezone})` : '';
+  renderAlerts();
 }
 function setMapView(show) {
   $('workspace').classList.toggle('show-map', show);
@@ -351,13 +431,16 @@ $('apply-update').onclick = () => {
   catch { notice('Նոր տվյալների ցուցադրումը չհաջողվեց։ Վերջին վավեր տարբերակը պահպանվել է։'); }
 };
 function connection() {
-  document.body.classList.toggle('offline', !navigator.onLine);
-  $('connection').textContent = navigator.onLine ? 'Ցանցը հասանելի է' : 'Առանց ինտերնետի';
-  if (!navigator.onLine) $('map-message').textContent = 'Առանց ինտերնետի․ քարտեզի նոր հատվածները չեն բեռնվի։';
+  document.body.classList.toggle('offline', !liveOnline());
+  $('connection').textContent = liveOnline() ? 'Ցանցը հասանելի է' : 'Առանց ինտերնետի';
+  if (!liveOnline()) $('map-message').textContent = 'Առանց ինտերնետի․ քարտեզի նոր հատվածները չեն բեռնվի։';
+  else if ($('map-message').textContent.startsWith('Առանց ինտերնետի')) $('map-message').textContent = '';
+  renderAlerts(); renderLiveLinks();
+  document.querySelectorAll('.requires-internet').forEach(node => { node.hidden = liveOnline(); });
 }
-addEventListener('online', () => { connection(); $('map-message').textContent = ''; checkData(); });
+addEventListener('online', () => { connection(); checkData(); checkAlerts(); });
 addEventListener('offline', connection);
-document.addEventListener('visibilitychange', () => { if (!document.hidden) { checkData(); state.registration?.update().catch(() => {}); } });
+document.addEventListener('visibilitychange', () => { if (!document.hidden) { checkData(); checkAlerts(); renderAlerts(); state.registration?.update().catch(() => {}); } });
 addEventListener('beforeinstallprompt', event => { event.preventDefault(); state.install = event; $('install').hidden = false; });
 $('install').onclick = async () => { if (!state.install) return; await state.install.prompt(); state.install = null; $('install').hidden = true; };
 addEventListener('appinstalled', () => { state.install = null; $('install').hidden = true; });
@@ -389,5 +472,6 @@ new ResizeObserver(() => state.map?.resize()).observe($('map-panel'));
 const cached = read('trip');
 state.paths=read('paths')||{};
 if (cached) { try { applyTrip(validateTrip(cached), true); } catch { notice('Պահված տվյալները վնասված են․ փորձում ենք նորից բեռնել։'); } }
-checkData(); registerWorker();
+checkData(); checkAlerts(); registerWorker();
 setInterval(updateClock, 30000);
+setInterval(() => { if (!document.hidden) checkAlerts(); }, 5 * 60 * 1000);

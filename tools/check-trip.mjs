@@ -4,7 +4,7 @@ import {fileURLToPath} from 'node:url';
 import {resolve,join} from 'node:path';
 import {homedir} from 'node:os';
 import {spawnSync} from 'node:child_process';
-import {validateTrip,coordinates} from '../lib/core.js';
+import {validateTrip,coordinates,safeUrl} from '../lib/core.js';
 import {dayRoutes,orderedStops} from '../lib/itinerary.js';
 import {validatePaths,pathCandidates} from '../lib/paths.js';
 
@@ -56,6 +56,19 @@ export function auditTrip(data) {
  const photoPoints=auditPhotoPoints(data);
  const result={pass:photoPoints.invalid.length===0,validation:'PASS',cities:[],days:[],prices:[],times:{checked:0,invalid:[]},photoPoints};
  try {validateTrip(data);} catch {return {...result,pass:false,validation:'FAIL'};}
+ result.liveLinks={checked:0,invalid:[]};
+ const invalidLink=path=>{result.liveLinks.invalid.push(path);result.pass=false;};
+ const httpsLink=(value,path)=>{
+  result.liveLinks.checked++;
+  const url=safeUrl(value);
+  if(!url||new URL(url).protocol!=='https:')invalidLink(path);
+ };
+ for(const [ci,city] of data.cities.entries())for(const [li,link] of (city.live_links||[]).entries()) {
+  const path=`cities[${ci}].live_links[${li}]`;
+  if(!['transit','protests','other'].includes(link.kind))invalidLink(`${path}.kind`);
+  httpsLink(link.url,`${path}.url`);
+ }
+ for(const [fi,flight] of data.flights.entries())if(flight.status_url!=null)httpsLink(flight.status_url,`flights[${fi}].status_url`);
  result.cities=data.cities.map(c=>({city:c.id,days:data.days.filter(d=>d.city===c.id).length,stops:data.days.filter(d=>d.city===c.id).reduce((n,d)=>n+d.stops.length,0)}));
  result.calendarDays=new Set(data.days.map(d=>d.date)).size;
  if(!data.days.length){result.pass=false;result.itinerary='FAIL: no days';}
