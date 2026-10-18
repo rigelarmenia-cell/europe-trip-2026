@@ -51,7 +51,7 @@
     <div class="workspace" id="workspace">
       <section id="plan" class="plan-panel" tabindex="-1" aria-labelledby="day-title">
         <div class="panel-heading"><div><p class="eyebrow">ՕՐՎԱ ՊԼԱՆԸ</p><h2 id="day-title">Բեռնվում է…</h2></div><span id="stop-count" class="count"></span></div>
-        <p id="day-notes" class="muted"></p>
+        <p id="day-notes" class="muted pre-line"></p>
         <p id="walk-total" class="muted"></p>
         <section id="day-actions" hidden><h3>Բացել ամբողջ օրը Google Maps-ում</h3><label class="mode-label">Ռեժիմը <select id="route-mode"><option value="walk">Քայլքով</option><option value="metro">Հանրային տրանսպորտով</option><option value="taxi">Մեքենայով</option></select></label><p id="route-note" class="fine"></p><div id="day-routes" class="actions"></div><button id="shortest-order">Ամենակարճ հերթականություն (ուղիղ գծով)</button><button id="undo-shortest" hidden>Վերականգնել նախորդ հերթականությունը</button><div id="food-warning" class="banner" role="status" hidden></div><button id="reset-day" class="quiet">Վերականգնել օրվա սկզբնական պլանը</button></section>
         <div id="stops" class="stops"></div>
@@ -71,7 +71,7 @@
     </section>
     <details id="airport-page" class="airport-page"><summary><h2>✈ Օդանավակայանային տեղափոխություններ և չվերթներ</h2><span>＋</span></summary><p class="muted">Ինչպես հասնել օդանավակայան և օդանավակայանից տուն՝ ամեն թռիչքի համար։ Ժամերը՝ տեղական։</p><div id="airports"></div><h2>Չվերթներ</h2><div id="flights"></div></details>
     <section id="questions-section" class="support-card"><h2>Բաց հարցեր</h2><ul id="questions"></ul></section>
-    <footer><div><strong>Խելառներ · Բ6 · 0.6.3</strong><p id="version">Տվյալների տարբերակը սպասվում է։</p></div><div><p id="offline-state">Առանց ինտերնետի բացվելու հնարավորությունը ստուգվում է…</p><p>Քարտեզի նոր հատվածները, լուսանկարները և Google Maps-ը պահանջում են ինտերնետ։</p><button id="check-update" class="text-button">Ստուգել տվյալների թարմացումը</button></div></footer>
+    <footer><div><strong>Խելառներ · Բ6 · 0.6.4</strong><p id="version">Տվյալների տարբերակը սպասվում է։</p></div><div><p id="offline-state">Առանց ինտերնետի բացվելու հնարավորությունը ստուգվում է…</p><p>Քարտեզի նոր հատվածները, լուսանկարները և Google Maps-ը պահանջում են ինտերնետ։</p><button id="check-update" class="text-button">Ստուգել տվյալների թարմացումը</button></div></footer>
   </main>
 
   <dialog id="gps-dialog"><form method="dialog"><button class="dialog-close" aria-label="Փակել">×</button><p class="eyebrow">ՁԵՐ ԴԻՐՔԸ</p><h2>Գտնենք ձեզ քարտեզի վրա</h2><p>Ձեր թույլտվությամբ հեռախոսը ցույց կտա դիրքը և ճշտության շառավիղը։ Մենք այն չենք պահում և չենք ուղարկում խմբի անդամներին։ Քարտեզի ծառայությունը ստանում է ցուցադրվող տարածքի հարցումները։</p><p>Դիրքը մերժելու դեպքում պլանը շարունակում է աշխատել։</p><button class="primary" id="gps-confirm" value="allow">Թույլատրել դիրքի հարցումը</button><button class="quiet" value="cancel">Առանց դիրքի</button></form></dialog>
