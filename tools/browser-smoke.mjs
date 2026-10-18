@@ -22,14 +22,14 @@ const base = `http://127.0.0.1:${port}/travel/`;
 const realTrip = JSON.parse(await readFile('trip.json', 'utf8'));
 const output = { device: 'Windows desktop Edge / Playwright, NOT a physical phone', browser: browser.version(), checks: [] };
 const pass = name => { output.checks.push({ name, status: 'PASS' }); console.log('PASS ' + name); };
-const ready = async () => {await page.locator('.airport-transfer').first().waitFor();await page.waitForFunction(()=>document.querySelector('#day-title').textContent!=='Բեռնվում է…');};
+const ready = async () => {await page.locator('.airport-transfer').first().waitFor({state:'attached'});await page.evaluate(()=>{const d=document.getElementById('airport-page');if(d)d.open=true;});await page.waitForFunction(()=>document.querySelector('#day-title').textContent!=='Բեռնվում է…');};
 const realState = () => page.evaluate(() => Object.fromEntries(Object.entries(localStorage).filter(([k]) => k.includes(':real:') || k.endsWith(':homes') && !k.includes(':demo:'))));
 try {
   await page.goto(base); await ready();
   assert.equal(await page.title(),'Խելառներ');
   assert.equal(await page.locator('meta[name="apple-mobile-web-app-title"]').getAttribute('content'),'Խելառներ');
   assert.equal(await page.locator('.brand').getAttribute('aria-label'),'Խելառներ՝ գլխավոր էջ');
-  assert.ok((await page.locator('footer strong').textContent()).includes('Խելառներ · Բ6 · 0.6.2'));
+  assert.ok((await page.locator('footer strong').textContent()).includes('Խելառներ · Բ6 · 0.6.3'));
   const branding=await page.evaluate(async()=>{
     const manifestResponse=await fetch('./manifest.webmanifest'),manifest=await manifestResponse.json(),icons=[];
     for(const icon of [...manifest.icons,{src:'./icons/apple-touch-icon.png',sizes:'180x180'},{src:'./icons/favicon-64.png',sizes:'64x64'}]){
@@ -158,7 +158,7 @@ try {
   await page.locator('#gps-open').click(); await page.locator('#gps-confirm').click();
   await page.waitForFunction(() => document.getElementById('notice').textContent.includes('ճշտություն՝ մոտ 25 մ'));
   const second = await browser.newContext({ userAgent: 'Mozilla/5.0 Android Chrome/130.0 SamsungBrowser/28.0', permissions: [] });
-  const other = await second.newPage(); await other.goto(base); await other.locator('.airport-transfer').first().waitFor();
+  const other = await second.newPage(); await other.goto(base); await other.locator('.airport-transfer').first().waitFor({state:'attached'});await other.evaluate(()=>{const d=document.getElementById('airport-page');if(d)d.open=true;});
   assert.equal(await other.locator('#browser-note').isVisible(), true);
   assert.equal(await other.evaluate(() => localStorage.getItem('champa:/travel/:homes')), null);
   await other.locator('#gps-open').click(); await other.locator('#gps-confirm').click();

@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-18-19",
-  "generated_at": "2026-10-19T01:34:07+04:00",
+  "version": "2026-10-18-20",
+  "generated_at": "2026-10-19T01:57:25+04:00",
   "cities": [
     {
       "id": "paris",
@@ -158,7 +158,7 @@
       "live_links": [
         {
           "kind": "transit",
-          "label_hy": "Մետրո/տրանսպորտ՝ հիմա",
+          "label_hy": "Մեր գծերը (M1, M11) աշխատո՞ւմ են հիմա",
           "url": "https://www.ratp.fr/infos-trafic"
         }
       ]
@@ -268,12 +268,12 @@
       "live_links": [
         {
           "kind": "transit",
-          "label_hy": "Մետրո/տրանսպորտ՝ հիմա",
+          "label_hy": "Մեր գծերը (L3, L9 Sud) աշխատո՞ւմ են հիմա",
           "url": "https://www.tmb.cat/ca/transport-barcelona/estat-xarxa-metro"
         },
         {
           "kind": "protests",
-          "label_hy": "Ցույցեր/փակումներ",
+          "label_hy": "Փակումներ և միջոցառումներ (TMB)",
           "url": "https://www.tmb.cat/ca/transport-barcelona/avisos-servei"
         }
       ]
@@ -405,12 +405,12 @@
       "live_links": [
         {
           "kind": "transit",
-          "label_hy": "Մետրո/տրանսպորտ՝ հիմա",
+          "label_hy": "Metro B-ն աշխատո՞ւմ է հիմա",
           "url": "https://www.atac.roma.it/stato-del-servizio"
         },
         {
           "kind": "protests",
-          "label_hy": "Ցույցեր/փակումներ",
+          "label_hy": "Փակ փողոցներ, ցույցեր (Roma Mobilità)",
           "url": "https://romamobilita.it/infomobilita/"
         }
       ]
@@ -538,7 +538,14 @@
           ],
           "hours_hy": "Ամեն օր 12:00–15:00, 19:00–23:00 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
           "price_hy": "Ֆորմուլա ~18,50–20 €, մենյու ~22,50–24 €, հիմնական ուտեստ ~16–23 € (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, կարող է փոխված լինել)",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/paris-20-03.jpg",
+              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
+              "license": "Միայն խմբի մասնավոր օգտագործման համար",
+              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/paris-20-03.jpg"
+            }
+          ],
           "menu_url": "https://www.letrumilou.fr/carte-et-menu/menu-et-carte/",
           "menu_prices_hy": "Ըստ նախկին ուսումնասիրության սոխով ապուր 11 €, օրվա մենյու 20 €՝ ընթացիկ կիրառելիությունը ՉՍՏՈՒԳՎԱԾ",
           "reviews_source": "",
@@ -1467,7 +1474,14 @@
           ],
           "hours_hy": "Palais-Royal-ի այգի՝ հոկտեմբեր–մարտ ամեն օր 08:00–20:30, անվճար (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, parisjetaime.com)",
           "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/paris-22-07.jpg",
+              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
+              "license": "Միայն խմբի մասնավոր օգտագործման համար",
+              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/paris-22-07.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -1971,7 +1985,14 @@
           ],
           "hours_hy": "Շաբաթ 12:30–18:00 և 18:30–00:30 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, guia.barcelona.cat)",
           "price_hy": "Պաստա/պիցցա ~13–16 € (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, carta.menu). Սեղան 8 հոգու համար՝ ☎ +34 933 256 949",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-24-03.jpg",
+              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
+              "license": "Միայն խմբի մասնավոր օգտագործման համար",
+              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-24-03.jpg"
+            }
+          ],
           "menu_url": "https://www.latagliatella.es/es/restaurantes/barcelona/cc-las-arenas-barcelona",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -2237,7 +2258,14 @@
           ],
           "hours_hy": "Շաբաթ 09:00–20:00 (ՀԱՍՏԱՏՎԱԾ faborit.com (ստուգված 18.10.2026))՝ հասնել մինչև ~19:30",
           "price_hy": "Սուրճ/սենդվիչ/աղցան. գները պաշտոնական էջում չկան (ՉՍՏՈՒԳՎԱԾ)",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-24-08.jpg",
+              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
+              "license": "Միայն խմբի մասնավոր օգտագործման համար",
+              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-24-08.jpg"
+            }
+          ],
           "menu_url": "https://www.faborit.com/establecimientos-faborit/faborit-illa-diagonal/",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -2351,7 +2379,14 @@
           ],
           "hours_hy": "ԿԻՐԱԿԻ ՓԱԿ (երկ.–ուրբ. 08:00–20:00, շաբ. 09:00–20:00)",
           "price_hy": "Կիրակի փակ է",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-24-08.jpg",
+              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
+              "license": "Միայն խմբի մասնավոր օգտագործման համար",
+              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-24-08.jpg"
+            }
+          ],
           "menu_url": "https://www.faborit.com/establecimientos-faborit/faborit-illa-diagonal/",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -2741,7 +2776,14 @@
           ],
           "hours_hy": "Կիրակի 12:30–23:00՝ երկրորդային տեղեկությամբ",
           "price_hy": "Հրապարակված օրինակներ՝ 5,25–11,95 €, 2025 տվյալներով",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-25-09.jpg",
+              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
+              "license": "Միայն խմբի մասնավոր օգտագործման համար",
+              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-25-09.jpg"
+            }
+          ],
           "menu_url": "https://www.thefork.es/restaurante/la-fonda-r618809/menu",
           "menu_prices_hy": "TheFork (մենյուի փոփոխություն 06.08.2025). Gazpacho 5,25 €, Pasta bolognese 9,40 €, Arroz con pollo 11,95 € (որոշ ուտեստներ նվազագույն 2 պատվեր)",
           "reviews_source": "https://www.thefork.es/restaurante/la-fonda-r618809/menu",
@@ -3088,7 +3130,14 @@
           ],
           "hours_hy": "Ամեն օր 07:30–23:30 (ՀԱՍՏԱՏՎԱԾ mercatocentrale.com (ստուգված 18.10.2026))",
           "price_hy": "Տաղավարներում ուտեստներ, գները՝ տեղում (պաշտոնական գնացուցակ չկա)",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/rome-26-03.jpg",
+              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
+              "license": "Միայն խմբի մասնավոր օգտագործման համար",
+              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/rome-26-03.jpg"
+            }
+          ],
           "menu_url": "https://www.mercatocentrale.it/roma/info/",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -3341,7 +3390,14 @@
           ],
           "hours_hy": "Ամեն օր 08:00–21:00/21:30 (ՀԱՍՏԱՏՎԱԾ montilab.it (ստուգված 18.10.2026))՝ ընթրիքը վաղ, մինչև ~20:30",
           "price_hy": "Պանինի 5–9 €, պիցցա 7–8 €, ափսե 9–12 €",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/rome-26-08.jpg",
+              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
+              "license": "Միայն խմբի մասնավոր օգտագործման համար",
+              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/rome-26-08.jpg"
+            }
+          ],
           "menu_url": "https://www.thefork.it/ristorante/monti-lab-italian-street-food-r856246/menu",
           "menu_prices_hy": "TheFork, 13.05.2026՝ focaccia 3–7 €, pizza Margherita 8 €, Diavola 9 €, այլ՝ 10–12 €",
           "reviews_source": "https://www.thefork.it/ristorante/monti-lab-italian-street-food-r856246/menu",
@@ -3501,7 +3557,14 @@
           ],
           "hours_hy": "Ամեն օր 10:00–20:00 (ՀԱՍՏԱՏՎԱԾ mcarthurglen.com (ստուգված 18.10.2026))",
           "price_hy": "Մուտքը անվճար, գնումների գները՝ ՉՍՏՈՒԳՎԱԾ",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/rome-27-03.jpg",
+              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
+              "license": "Միայն խմբի մասնավոր օգտագործման համար",
+              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/rome-27-03.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -3539,7 +3602,14 @@
           ],
           "hours_hy": "Երկ.–ուրբ. 10:00–20:00 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
           "price_hy": "Սրճարան/պաղպաղակ, գները՝ տեղում",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/rome-27-04.jpg",
+              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
+              "license": "Միայն խմբի մասնավոր օգտագործման համար",
+              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/rome-27-04.jpg"
+            }
+          ],
           "menu_url": "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-castel-romano/food-drink/bonetti/",
           "menu_prices_hy": "",
           "reviews_source": "",
@@ -3575,7 +3645,14 @@
           ],
           "hours_hy": "Երկ.–ուրբ. 10:00–20:00 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, italia.it)",
           "price_hy": "Բուրգեր ~8,50–12 € (TheFork 2026)",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/rome-27-05.jpg",
+              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
+              "license": "Միայն խմբի մասնավոր օգտագործման համար",
+              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/rome-27-05.jpg"
+            }
+          ],
           "menu_url": "https://www.thefork.it/ristorante/ham-holy-burger-castel-romano-designer-outlet-r562143/menu",
           "menu_prices_hy": "TheFork մենյու 2026՝ Honest Cheeseburger 8,50 €, Holyburger 12 €, Vegana աղցան 10 €. Գները հրապարակված, ոչ այցի օրով հաստատված",
           "reviews_source": "https://www.thefork.it/ristorante/ham-holy-burger-castel-romano-designer-outlet-r562143/menu",
@@ -3613,7 +3690,14 @@
           ],
           "hours_hy": "Ընդհանուր վերադարձներ՝ 16:30, 17:30, 19:00, 20:05",
           "price_hy": "Ներառված է նույն գնված վերադարձի shuttle տոմսի մեջ",
-          "photos": [],
+          "photos": [
+            {
+              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/rome-27-06.jpg",
+              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
+              "license": "Միայն խմբի մասնավոր օգտագործման համար",
+              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/rome-27-06.jpg"
+            }
+          ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",

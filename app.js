@@ -88,6 +88,7 @@ function renderLiveLinks() {
     const row = element('span', undefined, 'live-link'); row.append(link(`${icons[item.kind]} ${item.label_hy} ↗`, url));
     const note = element('span', 'պահանջում է ինտերնետ', 'requires-internet'); note.hidden = liveOnline(); row.append(note); node.append(row);
   }
+  if (node.childElementCount) node.append(element('p', 'Բացվում է օպերատորի պաշտոնական էջը։ Գտեք մեր գիծը. եթե գրված է «normal / normale / servei normal»՝ ամեն ինչ կարգին է, եթե կա խափանում՝ ընտրեք այլ տրանսպորտ կամ տաքսի։', 'fine'));
   node.hidden = !node.childElementCount;
 }
 async function checkAlerts() {
@@ -383,6 +384,8 @@ $('map-back').onclick = () => { if (history.state?.travelMap) history.back(); el
 addEventListener('popstate', closeFullMap);
 addEventListener('keydown', event => { if (event.key === 'Escape' && document.body.classList.contains('map-full')) $('map-back').click(); });
 $('help-open').onclick = () => $('help-dialog').showModal();
+document.querySelectorAll('a[href="#airport-page"]').forEach(a => a.addEventListener('click', () => { $('airport-page').open = true; }));
+if (location.hash === '#airport-page') $('airport-page').open = true;
 $('gps-open').onclick = () => $('gps-dialog').showModal();
 $('gps-confirm').onclick = () => {
   if (!navigator.geolocation) { notice('Դիտարկիչը դիրքի որոշում չի տրամադրում։ Պլանը կարող եք օգտագործել առանց դիրքի։'); return; }

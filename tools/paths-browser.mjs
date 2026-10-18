@@ -37,7 +37,7 @@ for(const engine of ['edge','webkit'])for(const [name,file] of cases){
  const result={engine,browser:browser.version(),case:name,checks:[]};results.push(result);
  const pass=s=>{result.checks.push(s);console.log(`${engine}/${name} PASS ${s}`);};
  try{
-  await page.goto(base);await page.locator('.airport-transfer').first().waitFor();
+  await page.goto(base);await page.locator('.airport-transfer').first().waitFor({state:'attached'});await page.evaluate(()=>{const d=document.getElementById('airport-page');if(d)d.open=true;});
   await page.waitForFunction(()=>localStorage.getItem('champa:/travel/:real:paths')!==null);
   let photoCount=0,placeholders=0;
   for(const day of trip.days){

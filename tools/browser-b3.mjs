@@ -21,7 +21,7 @@ const base = `http://127.0.0.1:${server.address().port}/travel/`;
 const pass = name => { checks.push(name); console.log('PASS '+name); };
 try {
   await context.route('**/*', route => route.request().resourceType()==='image' && !route.request().url().startsWith(base) ? route.abort() : route.continue());
-  await page.goto(base); await page.locator('.airport-transfer').first().waitFor();
+  await page.goto(base); await page.locator('.airport-transfer').first().waitFor({state:'attached'});await page.evaluate(()=>{const d=document.getElementById('airport-page');if(d)d.open=true;});
   await page.evaluate(()=>navigator.serviceWorker.ready);
   await page.waitForFunction(()=>navigator.serviceWorker.controller);
   await page.reload();
