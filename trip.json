@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-18-17",
-  "generated_at": "2026-10-18T21:32:53+04:00",
+  "version": "2026-10-18-18",
+  "generated_at": "2026-10-19T01:15:26+04:00",
   "cities": [
     {
       "id": "paris",
@@ -432,7 +432,7 @@
           "name_local": "Porte Maillot",
           "lat": 48.8788,
           "lon": 2.2824,
-          "description_hy": "BVA A01 18:00 չստուգված թեկնածուի հնարավոր վերջնակետը",
+          "description_hy": "A01 ավտոբուսի վերջնակետը (Bd Pershing 22-24). ավտոբուսը BVA-ից մեկնում է վայրէջքից ~20 ր հետո, ճանապարհ՝ 1 ժ 15 ր-ից (ՀԱՍՏԱՏՎԱԾ aeroportparisbeauvais.com (ստուգված 18.10.2026))",
           "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
           "visit_min": [
             10,
@@ -530,14 +530,14 @@
           "name_local": "Le Trumilou",
           "lat": 48.8524,
           "lon": 2.3562,
-          "description_hy": "Սեփականատերը ընտրել է ընթրիք + կարճ զբոսանք. ռեստորանի բաց լինելը և 8 տեղի առկայությունը չստուգված են",
+          "description_hy": "Սեփականատերը ընտրել է ընթրիք + կարճ զբոսանք։ Ռեստորանը բաց է ամեն օր 12:00–15:00 և 19:00–23:00, երեքշաբթի երեկոյան՝ բաց (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ (ստուգված 18.10.2026))։ Ամրագրումը խորհուրդ է տրվում՝ ☎ +33 1 42 77 63 98 կամ letrumilou.fr. 8 հոգու սեղանը նախապես ամրագրել։",
           "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
           "visit_min": [
             40,
             65
           ],
-          "hours_hy": "20.10 երեկոյան՝ ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Հրապարակված մենյուի ընթացիկ ամբողջական արժեքը ՉՍՏՈՒԳՎԱԾ",
+          "hours_hy": "Ամեն օր 12:00–15:00, 19:00–23:00 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
+          "price_hy": "Ֆորմուլա ~18,50–20 €, մենյու ~22,50–24 €, հիմնական ուտեստ ~16–23 € (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, կարող է փոխված լինել)",
           "photos": [],
           "menu_url": "https://www.letrumilou.fr/carte-et-menu/menu-et-carte/",
           "menu_prices_hy": "Ըստ նախկին ուսումնասիրության սոխով ապուր 11 €, օրվա մենյու 20 €՝ ընթացիկ կիրառելիությունը ՉՍՏՈՒԳՎԱԾ",
@@ -555,7 +555,9 @@
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
           "sources": [
-            "https://www.letrumilou.fr/carte-et-menu/menu-et-carte/"
+            "https://www.letrumilou.fr/carte-et-menu/menu-et-carte/",
+            "https://par.is/p/le-trumilou",
+            "https://www.lesrestos.com/restaurant/fiche/paris/le-trumilou"
           ]
         },
         {
@@ -823,7 +825,7 @@
             40,
             75
           ],
-          "hours_hy": "Այգի/էսպլանադ. մուտքը անվտանգության հսկողությամբ; տվյալ օրվա կոնկրետ ժամերը՝ ՉՍՏՈՒԳՎԱԾ",
+          "hours_hy": "Աշտարակ՝ ամեն օր 09:30–23:00/23:45. այգին և էսպլանադը անվճար են՝ անվտանգության ստուգումով (մուտք 1 կամ 2), ներսում ուտել/խմել միայն նշված տեղերում (ՀԱՍՏԱՏՎԱԾ (ստուգված 18.10.2026))",
           "price_hy": "0 € այգի/էսպլանադ; աստիճաններով 2-րդ հարկ՝ 14,80 €/մեծահասակ, 7,40 €/12–24տ. (ընտրովի, 8-ի համար՝ 103,60 €)",
           "photos": [
             {
@@ -869,7 +871,7 @@
             20,
             30
           ],
-          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "hours_hy": "Բաց՝ 24/24 (paris.fr, 01–24.10.2026), Champ-de-Mars-ում կարող են լինել ճանապարհների/սիզամարգերի աշխատանքներ (ՀԱՍՏԱՏՎԱԾ (ստուգված 18.10.2026))",
           "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
           "photos": [
             {
@@ -1050,7 +1052,7 @@
             20,
             35
           ],
-          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "hours_hy": "Բաց՝ 24/24 (paris.fr, 01–24.10.2026), աշխատանքների հայտարարություն չկա (ՀԱՍՏԱՏՎԱԾ (ստուգված 18.10.2026))",
           "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
           "photos": [
             {
@@ -1075,7 +1077,9 @@
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": [],
+          "sources": [
+            "https://www.paris.fr/lieux/esplanade-des-invalides-1787"
+          ],
           "photo_points": [
             {
               "id": "pp-paris-21-10-1",
@@ -1107,7 +1111,7 @@
             40,
             75
           ],
-          "hours_hy": "Ամեն օր 11:30–00:00 (պաշտոնական ընդհանուր ժամեր), առանց ամրագրման",
+          "hours_hy": "Ամեն օր 11:30–00:00, ամրագրում ՉԻ ընդունվում՝ հնարավոր է հերթ, 8 հոգով գալ ավելի վաղ (ՀԱՍՏԱՏՎԱԾ bouillon-chartier.com (ստուգված 18.10.2026))",
           "price_hy": "Սկսած՝ նախուտեստ 1 €, հիմնական 7 €, աղանդեր 2 €։ Գումարը ոչ կոնկրետ ուտեստի գին է։",
           "photos": [
             {
@@ -1134,7 +1138,8 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
-            "https://www.bouillon-chartier.com/bouillon-chartier-montparnasse/"
+            "https://www.bouillon-chartier.com/bouillon-chartier-montparnasse/",
+            "https://www.bouillon-chartier.com/en/the-bouillons/"
           ]
         }
       ]
@@ -1337,8 +1342,8 @@
             25,
             50
           ],
-          "hours_hy": "22.10 հինգշաբթի՝ Cour Napoléon 07:30–22:00; թանգարան 09:00–18:00 (մուտքը վճարովի)",
-          "price_hy": "Արտաքին բակ՝ տոմս չի պահանջվում; ներսի գինը ՉՍՏՈՒԳՎԱԾ",
+          "hours_hy": "Թանգարան՝ երկ., հինգ., շաբ., կիր. 09:00–18:00, չորք. և ուրբ. 09:00–21:00, երեքշաբթի ՓԱԿ. Cour Napoléon՝ 07:30–21:00 (ՀԱՍՏԱՏՎԱԾ)",
+          "price_hy": "Արտաքին բակը (Cour Napoléon, 07:30–21:00)՝ անվճար։ Ներս մտնել՝ 32 € (ոչ ԵՄ), մինչև 18՝ անվճար։ 17.10–01.11.2026 ներս մուտքը ՄԻԱՅՆ նախնական ամրագրմամբ՝ ticket.louvre.fr (ՀԱՍՏԱՏՎԱԾ louvre.fr (ստուգված 18.10.2026))։ Երեքշաբթի թանգարանը փակ է։",
           "photos": [
             {
               "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/The_Louvre_Glass_Pyramid%2C_Paris%2C_France_%2853198133274%29.jpg",
@@ -1364,7 +1369,9 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://www.louvre.fr/en/visit/hours-admission/tickets-and-prices",
-            "https://commons.wikimedia.org/wiki/File:The_Louvre_Glass_Pyramid,_Paris,_France_(53198133274).jpg"
+            "https://commons.wikimedia.org/wiki/File:The_Louvre_Glass_Pyramid,_Paris,_France_(53198133274).jpg",
+            "https://www.louvre.fr/visiter/horaires-tarifs",
+            "https://www.louvre.fr/en/reservations-required-from-17-october-to-1-november-2026"
           ],
           "photo_points": [
             {
@@ -1458,7 +1465,7 @@
             15,
             25
           ],
-          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "hours_hy": "Palais-Royal-ի այգի՝ հոկտեմբեր–մարտ ամեն օր 08:00–20:30, անվճար (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, parisjetaime.com)",
           "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
           "photos": [],
           "menu_url": "",
@@ -1476,7 +1483,9 @@
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": [],
+          "sources": [
+            "https://parisjetaime.com/culture/domaine-national-du-palais-royal-p991"
+          ],
           "photo_points": [
             {
               "id": "pp-paris-22-07-1",
@@ -1508,7 +1517,7 @@
             40,
             75
           ],
-          "hours_hy": "Ամեն օր 11:30–00:00, առանց ամրագրման",
+          "hours_hy": "Ամեն օր 11:30–00:00, ամրագրում ՉԻ ընդունվում՝ հնարավոր է հերթ, 8 հոգով գալ ավելի վաղ (ՀԱՍՏԱՏՎԱԾ bouillon-chartier.com (ստուգված 18.10.2026))",
           "price_hy": "Սկսած՝ նախուտեստ 1 €, հիմնական 7 €, աղանդեր 2 €։ Գումարը ոչ կոնկրետ ուտեստի գին է։",
           "photos": [
             {
@@ -1535,7 +1544,8 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://www.bouillon-chartier.com/bouillon-chartier-grands-boulevards/",
-            "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf"
+            "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
+            "https://www.bouillon-chartier.com/en/the-bouillons/"
           ]
         }
       ]
@@ -1561,8 +1571,8 @@
             35,
             70
           ],
-          "hours_hy": "Ամեն օր 06:30–22:30, տվյալ օրը հատուկ արարողության փոփոխությունները ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Բազիլիկ՝ անվճար; գմբեթի տոմսը ՉՍՏՈՒԳՎԱԾ",
+          "hours_hy": "Բազիլիկ՝ ամեն օր 06:30–22:30 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
+          "price_hy": "Բազիլիկ՝ անվճար. գմբեթ՝ ~8 € մեծահասակ, հոկտ.–ապր. ~09:30–17:00 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
           "photos": [
             {
               "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Sacre_Coeur_Montmartre.jpg",
@@ -1797,7 +1807,7 @@
             40,
             75
           ],
-          "hours_hy": "Ամեն օր 11:30–00:00 (օպերատորի պաշտոնական էջ, ստուգված 17.10.2026)",
+          "hours_hy": "Ամեն օր 11:30–00:00, ամրագրում ՉԻ ընդունվում՝ հնարավոր է հերթ, 8 հոգով գալ ավելի վաղ (ՀԱՍՏԱՏՎԱԾ bouillon-chartier.com (ստուգված 18.10.2026))",
           "price_hy": "Սկսած՝ նախուտեստ 1 €, հիմնական 7 €, աղանդեր 2 €։ Գումարը ոչ կոնկրետ ուտեստի գին է։",
           "photos": [
             {
@@ -1824,7 +1834,8 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://www.bouillon-chartier.com/bouillon-chartier-gare-de-lest/",
-            "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf"
+            "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
+            "https://www.bouillon-chartier.com/en/the-bouillons/"
           ]
         }
       ]
@@ -1958,8 +1969,8 @@
             10,
             25
           ],
-          "hours_hy": "Շաբաթ 12:30–00:00՝ հրապարակված կայքով",
-          "price_hy": "Կոնկրետ ուտեստների գները՝ ՉՍՏՈՒԳՎԱԾ",
+          "hours_hy": "Շաբաթ 12:30–18:00 և 18:30–00:30 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, guia.barcelona.cat)",
+          "price_hy": "Պաստա/պիցցա ~13–16 € (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, carta.menu). Սեղան 8 հոգու համար՝ ☎ +34 933 256 949",
           "photos": [],
           "menu_url": "https://www.latagliatella.es/es/restaurantes/barcelona/cc-las-arenas-barcelona",
           "menu_prices_hy": "",
@@ -1978,7 +1989,8 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://www.latagliatella.es/es/restaurantes/barcelona/cc-las-arenas-barcelona",
-            "https://es.aroundus.com/p/171650748-restaurant-la-tagliatella-cc.-las-arenas-barcelona"
+            "https://es.aroundus.com/p/171650748-restaurant-la-tagliatella-cc.-las-arenas-barcelona",
+            "https://guia.barcelona.cat/es/detall/restaurant-la-tagliatella-arenas_99400604192.html"
           ]
         },
         {
@@ -1989,7 +2001,7 @@
           "name_local": "Avinguda de la Reina Maria Cristina / Montjuïc",
           "lat": 41.372911,
           "lon": 2.150561,
-          "description_hy": "Տեսնել National Palace-ի հեռավոր տեսարանը՝ խուսափելով մեծ վերելքից։ Font Màgica-ի ցուցադրությունը ՉՍՏՈՒԳՎԱԾ է։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Avinguda Reina Maria Cristina փողոցի ներկայացուցչական կետը՝ Montjuïc-ի ուղղությամբ։ Աղբյուր՝ https://www.wikidata.org/wiki/Q4828901",
+          "description_hy": "Տեսնել National Palace-ի հեռավոր տեսարանը՝ խուսափելով մեծ վերելքից։ Font Màgica՝ հոկտեմբերին հինգշաբթի–շաբաթ 21:00 և 21:30 շոուներ, 24.10 շաբաթ՝ շոուի օր (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, betevé, 13.10.2026)։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Avinguda Reina Maria Cristina փողոցի ներկայացուցչական կետը՝ Montjuïc-ի ուղղությամբ։ Աղբյուր՝ https://www.wikidata.org/wiki/Q4828901",
           "photo_spot_hy": "",
           "visit_min": [
             10,
@@ -2021,7 +2033,8 @@
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
-            "https://www.wikidata.org/wiki/Q4828901"
+            "https://www.wikidata.org/wiki/Q4828901",
+            "https://beteve.cat/agenda/horaris-font-magica-montjuic-barcelona-llums-espectacle/"
           ],
           "photo_points": [
             {
@@ -2156,7 +2169,7 @@
             10,
             25
           ],
-          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "hours_hy": "Ճակատը՝ փողոցից անվճար. ներս՝ 29 € (Essential), ժամերը՝ ըստ ամրագրման օրացույցի (ՀԱՍՏԱՏՎԱԾ lapedrera.com (ստուգված 18.10.2026))",
           "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
           "photos": [
             {
@@ -2183,7 +2196,8 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://mapcarta.com/La_Pedrera_-_Casa_Mil%C3%A0_R8974896",
-            "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0,_general_view.jpg"
+            "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0,_general_view.jpg",
+            "https://www.lapedrera.com/en/tickets/la-pedrera-essential/"
           ],
           "photo_points": [
             {
@@ -2221,8 +2235,8 @@
             10,
             25
           ],
-          "hours_hy": "Ամեն օր 08:00–21:00՝ պաշտոնական էջի համաձայն",
-          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "hours_hy": "Շաբաթ 09:00–20:00 (ՀԱՍՏԱՏՎԱԾ faborit.com (ստուգված 18.10.2026))՝ հասնել մինչև ~19:30",
+          "price_hy": "Սուրճ/սենդվիչ/աղցան. գները պաշտոնական էջում չկան (ՉՍՏՈՒԳՎԱԾ)",
           "photos": [],
           "menu_url": "https://www.faborit.com/establecimientos-faborit/faborit-illa-diagonal/",
           "menu_prices_hy": "",
@@ -2329,14 +2343,14 @@
           "name_local": "Faborit L’illa Diagonal",
           "lat": 41.38954,
           "lon": 2.13519,
-          "description_hy": "Նախաճաշ/ջուր՝ մեկ սննդի կանգառ։ Հրապարակված անհատական մենյուի գինը ՉՍՏՈՒԳՎԱԾ։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). L’illa Diagonal առևտրի կենտրոնի կետ՝ Faborit-ի շենքը. ռեստորանի ճշգրիտ դուռը չստուգված։ Աղբյուր՝ https://mapcarta.com/es/W653590486",
+          "description_hy": "⚠ ԿԻՐԱԿԻ ՓԱԿ Է. Faborit L’illa Diagonal-ը կիրակի և տոն օրերին չի աշխատում (ՀԱՍՏԱՏՎԱԾ faborit.com (ստուգված 18.10.2026))։ Նախաճաշը արեք տանը կամ ճանապարհին՝ բաց սրճարանում, կամ սկսեք օրը անմիջապես Plaça de Catalunya-ից։",
           "photo_spot_hy": "",
           "visit_min": [
             10,
             25
           ],
-          "hours_hy": "Կիրակի 08:00–21:00",
-          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "hours_hy": "ԿԻՐԱԿԻ ՓԱԿ (երկ.–ուրբ. 08:00–20:00, շաբ. 09:00–20:00)",
+          "price_hy": "Կիրակի փակ է",
           "photos": [],
           "menu_url": "https://www.faborit.com/establecimientos-faborit/faborit-illa-diagonal/",
           "menu_prices_hy": "",
@@ -2495,7 +2509,7 @@
             10,
             25
           ],
-          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "hours_hy": "Կիրակի զբոսաշրջային այց՝ 14:00–17:00 (վերջին մուտք 16:30), 16 €. դրսից դիտում՝ անվճար (ՀԱՍՏԱՏՎԱԾ catedralbcn.org (ստուգված 18.10.2026))",
           "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
           "photos": [
             {
@@ -2522,7 +2536,8 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://en.wikipedia.org/wiki/Barcelona_Cathedral",
-            "https://commons.wikimedia.org/wiki/File:004_Catedral_de_Barcelona,_la_fa%C3%A7ana_al_capvespre.jpg"
+            "https://commons.wikimedia.org/wiki/File:004_Catedral_de_Barcelona,_la_fa%C3%A7ana_al_capvespre.jpg",
+            "https://catedralbcn.org/en/tourist-visit/visiting-hours/"
           ],
           "photo_points": [
             {
@@ -2672,14 +2687,14 @@
           "name_local": "MUHBA Plaça del Rei",
           "lat": 41.383906,
           "lon": 2.177837,
-          "description_hy": "Կիրակի 15:00-ից ընդհանուր այցելուների անվճար մուտք՝ ըստ քաղաքային ուղեցույցի։ 8 հոգու հերթը/խմբային պայմանները ՉՍՏՈՒԳՎԱԾ։ Կոորդինատի նշում («ՀԱՍՏԱՏՎԱԾ», ստուգում՝ 17.10.2026). քաղաքային զբոսաշրջային ծառայության MUHBA այցելության կետ։ Աղբյուր՝ https://www.barcelonabusturistic.cat/en/muhba-barcelona-city-history-museum",
+          "description_hy": "Կիրակի 15:00-ից ընդհանուր այցելուների անվճար մուտք՝ ըստ քաղաքային ուղեցույցի։ Խմբային զեղչը 10+ հոգու համար է՝ 8 հոգին սովորական տոմսով կամ անվճար 15:00-ից։ Կոորդինատի նշում («ՀԱՍՏԱՏՎԱԾ», ստուգում՝ 17.10.2026). քաղաքային զբոսաշրջային ծառայության MUHBA այցելության կետ։ Աղբյուր՝ https://www.barcelonabusturistic.cat/en/muhba-barcelona-city-history-museum",
           "photo_spot_hy": "",
           "visit_min": [
             40,
             65
           ],
-          "hours_hy": "Կիրակի 10:00–20:00, 15:00-ից անվճար՝ սովորական կիրակի օրերին",
-          "price_hy": "15:00-ից անվճար ըստ պաշտոնական հրապարակման; անհատական խմբային պայմանները չստուգված",
+          "hours_hy": "Կիրակի 10:00–20:00, երկուշաբթի փակ (ՀԱՍՏԱՏՎԱԾ)",
+          "price_hy": "Կիրակի 15:00-ից անվճար (25.10-ը ամսվա առաջին կիրակին չէ). մինչ այդ 7 €, 8 հոգին՝ սովորական գին (ՀԱՍՏԱՏՎԱԾ barcelona.cat/museuhistoria (ստուգված 18.10.2026))",
           "photos": [
             {
               "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/MUHBA_Casa_Padellas_Pla%C3%A7a_del_Rei1.JPG",
@@ -2705,7 +2720,8 @@
           "label": "ՀԱՍՏԱՏՎԱԾ",
           "sources": [
             "https://guia.barcelona.cat/en/detall/museu-d-historia-de-barcelona-placa-del-rei_92086011563.html",
-            "https://www.barcelonabusturistic.cat/en/muhba-barcelona-city-history-museum"
+            "https://www.barcelonabusturistic.cat/en/muhba-barcelona-city-history-museum",
+            "https://barcelona.cat/museuhistoria/en/heritages/els-espais-del-muhba/muhba-placa-de-rei"
           ],
           "photo_points": []
         },
@@ -2717,7 +2733,7 @@
           "name_local": "La Fonda",
           "lat": 41.37936,
           "lon": 2.17621,
-          "description_hy": "Հրապարակված երկրորդային մենյուի օրինակներով՝ մատչելի ճաշի թեկնածու, սակայն 8 հոգու տեղը հաստատված չէ։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). La Fonda նույնանուն ռեստորանի հրապարակված POI կետ՝ հանրային հասցեի մոտ։ Աղբյուր՝ https://findit.city/en/spain/barcelona/places/restaurants/la-fonda-3761312382",
+          "description_hy": "Հրապարակված երկրորդային մենյուի օրինակներով՝ մատչելի ճաշի թեկնածու, ունի խմբային սրահներ. 8 հոգու սեղանը ամրագրել TheFork-ով կամ ☎ +34 933 01 75 15 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ (ստուգված 18.10.2026))։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). La Fonda նույնանուն ռեստորանի հրապարակված POI կետ՝ հանրային հասցեի մոտ։ Աղբյուր՝ https://findit.city/en/spain/barcelona/places/restaurants/la-fonda-3761312382",
           "photo_spot_hy": "",
           "visit_min": [
             10,
@@ -2743,7 +2759,8 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://www.thefork.es/restaurante/la-fonda-r618809/menu",
-            "https://findit.city/en/spain/barcelona/places/restaurants/la-fonda-3761312382"
+            "https://findit.city/en/spain/barcelona/places/restaurants/la-fonda-3761312382",
+            "https://www.thefork.es/restaurante/la-fonda-r618809"
           ]
         },
         {
@@ -2760,7 +2777,7 @@
             10,
             25
           ],
-          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "hours_hy": "Կիրակի 10:00–20:30. անվճար՝ 10:00–13:00 և 18:00–20:30, 13:00–18:00 մշակութային այց 8 € (ՀԱՍՏԱՏՎԱԾ/ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ (ստուգված 18.10.2026))",
           "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
           "photos": [
             {
@@ -2786,7 +2803,8 @@
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
-            "https://en.wikipedia.org/wiki/Santa_Maria_del_Mar,_Barcelona"
+            "https://en.wikipedia.org/wiki/Santa_Maria_del_Mar,_Barcelona",
+            "https://www.santamariadelmar.barcelona/ca/horaris-i-tarifes"
           ],
           "photo_points": [
             {
@@ -3068,8 +3086,8 @@
             10,
             25
           ],
-          "hours_hy": "Ամեն օր 07:30–23:30՝ պաշտոնական կայքով",
-          "price_hy": "Կոնկրետ ուտեստների գները՝ ՉՍՏՈՒԳՎԱԾ",
+          "hours_hy": "Ամեն օր 07:30–23:30 (ՀԱՍՏԱՏՎԱԾ mercatocentrale.com (ստուգված 18.10.2026))",
+          "price_hy": "Տաղավարներում ուտեստներ, գները՝ տեղում (պաշտոնական գնացուցակ չկա)",
           "photos": [],
           "menu_url": "https://www.mercatocentrale.it/roma/info/",
           "menu_prices_hy": "",
@@ -3105,7 +3123,7 @@
             10,
             25
           ],
-          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "hours_hy": "25.10-ից ձմեռային ժամեր՝ 08:30–16:30 (վերջին մուտք 15:30), ներս՝ 18 € միայն ժամով ամրագրմամբ ticketing.colosseo.it. դրսից դիտում՝ ազատ (ՀԱՍՏԱՏՎԱԾ colosseo.it (ստուգված 18.10.2026))",
           "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
           "photos": [
             {
@@ -3132,7 +3150,8 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://www.turismoroma.it/en/places/parco-archeologico-del-colosseo",
-            "https://commons.wikimedia.org/wiki/File:Photo_of_The_Colosseum_in_Rome,_Italy.jpg"
+            "https://commons.wikimedia.org/wiki/File:Photo_of_The_Colosseum_in_Rome,_Italy.jpg",
+            "https://colosseo.it/orari/"
           ],
           "photo_points": [
             {
@@ -3274,7 +3293,7 @@
             15,
             30
           ],
-          "hours_hy": "Ներքին մոտեցում՝ երեքշաբթիից կիրակի 09:00–22:00, երկուշաբթի 11:30–22:00՝ պաշտոնական հայտարարություն",
+          "hours_hy": "Ներքին գոտի (2 €)՝ երկ. և ուրբ. 11:30–22:00, մյուս օրերին 09:00–22:00, վերջին մուտք 21:00, 22:00-ից հետո՝ անվճար. վճարում՝ քարտով կամ fontanaditrevi.roma.it (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ (ստուգված 18.10.2026))",
           "price_hy": "Դրսից՝ անվճար դիտում, շատրվանի ներքին գոտի՝ 2 €/անձ",
           "photos": [
             {
@@ -3301,7 +3320,8 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://www.turismoroma.it/en/node/1286",
-            "https://commons.wikimedia.org/wiki/File:020250519_Fontana_di_Trevi.jpg"
+            "https://commons.wikimedia.org/wiki/File:020250519_Fontana_di_Trevi.jpg",
+            "https://www.imuseidiroma.it/fontana-di-trevi/"
           ],
           "photo_points": []
         },
@@ -3313,14 +3333,14 @@
           "name_local": "Monti Lab – Italian Street Food",
           "lat": 41.89667,
           "lon": 12.49432,
-          "description_hy": "Via Urbana, 128 հասցեում հրապարակված պիցցա/ֆոկաչայի գներ. երկուշաբթի երեկոյան կոնկրետ ժամերը և 8 տեղերը ՉՍՏՈՒԳՎԱԾ։ կետը՝ հասցեի մոտավոր դիրքը, ոչ դուռը։",
+          "description_hy": "Via Urbana, 128. փողոցային իտալական սնունդ՝ պանինի 5–9 €, պիցցա 7–8 €, ափսե 9–12 € (ՀԱՍՏԱՏՎԱԾ montilab.it (ստուգված 18.10.2026))։ Փակվում է 21:00–21:30-ին, 8 հոգու տեղերը՝ ՉՍՏՈՒԳՎԱԾ։",
           "photo_spot_hy": "",
           "visit_min": [
             10,
             25
           ],
-          "hours_hy": "26.10 երեկոյան կոնկրետ ժամերը ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "hours_hy": "Ամեն օր 08:00–21:00/21:30 (ՀԱՍՏԱՏՎԱԾ montilab.it (ստուգված 18.10.2026))՝ ընթրիքը վաղ, մինչև ~20:30",
+          "price_hy": "Պանինի 5–9 €, պիցցա 7–8 €, ափսե 9–12 €",
           "photos": [],
           "menu_url": "https://www.thefork.it/ristorante/monti-lab-italian-street-food-r856246/menu",
           "menu_prices_hy": "TheFork, 13.05.2026՝ focaccia 3–7 €, pizza Margherita 8 €, Diavola 9 €, այլ՝ 10–12 €",
@@ -3339,7 +3359,8 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://www.thefork.it/ristorante/monti-lab-italian-street-food-r856246/menu",
-            "https://www.reteimprese.it/pelli-pellami-produzione-vendita/roma/azienda/2164617"
+            "https://www.reteimprese.it/pelli-pellami-produzione-vendita/roma/azienda/2164617",
+            "https://www.montilab.it/"
           ]
         },
         {
@@ -3427,7 +3448,7 @@
           "name_local": "EUR Fermi (Metro B)",
           "lat": 41.82861,
           "lon": 12.47111,
-          "description_hy": "Գնումների ավտոբուսի պաշտոնական ընդհանուր մեկնումները՝ 10:00, 11:00, 12:00, 13:00։ Խորհուրդ տրվող 10:00-ը նախնական ընտրություն է, նստատեղերը չստուգված։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). EUR Fermi մետրոյի կայարանի ներկայացուցչական կետ։ Աղբյուր՝ https://en.wikipedia.org/wiki/EUR_Fermi",
+          "description_hy": "Shuttle դեպի Castel Romano՝ ամեն օր 10:00, 11:00, 12:00, 13:00. տոմս՝ 13 € գնալ-գալ, մինչև 25 տարեկան անվճար, ամրագրում առցանց cilia-italia.com (ՀԱՍՏԱՏՎԱԾ mcarthurglen.com (ստուգված 18.10.2026))։ 8 հոգու համար ամրագրել նախապես։",
           "photo_spot_hy": "",
           "visit_min": [
             10,
@@ -3460,7 +3481,8 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://www.mcarthurglen.com/it/outlets/it/designer-outlet-castel-romano/servizi/servizio-navetta/",
-            "https://en.wikipedia.org/wiki/EUR_Fermi"
+            "https://en.wikipedia.org/wiki/EUR_Fermi",
+            "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-castel-romano/services/shuttle-bus-service/"
           ]
         },
         {
@@ -3477,7 +3499,7 @@
             180,
             300
           ],
-          "hours_hy": "Երեքշաբթի 10:00–20:00",
+          "hours_hy": "Ամեն օր 10:00–20:00 (ՀԱՍՏԱՏՎԱԾ mcarthurglen.com (ստուգված 18.10.2026))",
           "price_hy": "Մուտքը անվճար, գնումների գները՝ ՉՍՏՈՒԳՎԱԾ",
           "photos": [],
           "menu_url": "",
@@ -3515,8 +3537,8 @@
             10,
             25
           ],
-          "hours_hy": "Երեքշաբթի 10:00–20:00",
-          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "hours_hy": "Երկ.–ուրբ. 10:00–20:00 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
+          "price_hy": "Սրճարան/պաղպաղակ, գները՝ տեղում",
           "photos": [],
           "menu_url": "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-castel-romano/food-drink/bonetti/",
           "menu_prices_hy": "",
@@ -3551,8 +3573,8 @@
             10,
             25
           ],
-          "hours_hy": "Outlet բաց՝ 10:00–20:00; անհատական ռեստորանի ժամերը ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "hours_hy": "Երկ.–ուրբ. 10:00–20:00 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, italia.it)",
+          "price_hy": "Բուրգեր ~8,50–12 € (TheFork 2026)",
           "photos": [],
           "menu_url": "https://www.thefork.it/ristorante/ham-holy-burger-castel-romano-designer-outlet-r562143/menu",
           "menu_prices_hy": "TheFork մենյու 2026՝ Honest Cheeseburger 8,50 €, Holyburger 12 €, Vegana աղցան 10 €. Գները հրապարակված, ոչ այցի օրով հաստատված",
@@ -3571,7 +3593,8 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://www.thefork.it/ristorante/ham-holy-burger-castel-romano-designer-outlet-r562143/menu",
-            "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-castel-romano/food-drink/"
+            "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-castel-romano/food-drink/",
+            "https://www.italia.it/en/lazio/roma/where-to-eat/ham-holy-burger-castel-romano"
           ]
         },
         {
@@ -3582,7 +3605,7 @@
           "name_local": "Castel Romano → EUR Fermi",
           "lat": 41.716961,
           "lon": 12.444651,
-          "description_hy": "Նախընտրելի վերադարձ 16:30, որպես ավելի վաղ տարբերակ՝ մինչև 17:30 վերադառնալ։ Հատուկ օրվա շեղումը և 8 ուղևորի նստատեղերը դեռ չստուգված։",
+          "description_hy": "Վերադարձ outlet-ից՝ 16:30, 17:30, 19:00, 20:05 (ՀԱՍՏԱՏՎԱԾ mcarthurglen.com (ստուգված 18.10.2026))։ Նախընտրելի՝ 16:30 կամ 17:30։",
           "photo_spot_hy": "",
           "visit_min": [
             10,
@@ -3607,7 +3630,8 @@
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
-            "https://www.mcarthurglen.com/it/outlets/it/designer-outlet-castel-romano/servizi/servizio-navetta/"
+            "https://www.mcarthurglen.com/it/outlets/it/designer-outlet-castel-romano/servizi/servizio-navetta/",
+            "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-castel-romano/services/shuttle-bus-service/"
           ]
         },
         {
@@ -4533,24 +4557,16 @@
     }
   ],
   "open_questions_hy": [
-    "BVA A01՝ ճշգրիտ րոպեն չի հրապարակվում, մեկնում վայրէջքից ~20 ր հետո, ամեն 15–30 ր (ՀԱՍՏԱՏՎԱԾ 18.10)։ 8 տոմսը գնել առցանց նախապես։ A04-ի ճշգրիտ ժամերը՝ ՉՍՏՈՒԳՎԱԾ։",
-    "24.10՝ N12/N22 կանգառների իրական անցումը, Orly 4→1 գիշերային միջանցքը, քայլքն ու տերմինալային անվտանգ պահուստը։",
-    "26.10՝ BCN L3/L9 վաղ առավոտյան կոնկրետ փոխատեղումը, FL1 12:57 պաշտոնական օրվա մեկնումը։",
-    "27→28.10՝ ATAC nMB1 Bologna→Termini կոնկրետ օրվա ժամը, Metro B Bologna վերջին մեկնումը, TAM տվյալ գիշեր ծառայությունը. S05 վերաստուգել 20–26.10։",
-    "28.10՝ FCO W4 6167 մեկնում՝ T3 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, 18.10), վերջնական՝ նստեցման կտրոնով։ Տաքսին տանում է ուղիղ T3։",
-    "Տաքսու գները՝ թարմացված 18.10 պաշտոնական սակագներով (Փարիզ G7/service-public, Բարսելոնա AMB 2026, Հռոմ ADR). սրանք ԳՆԱՀԱՏՈՒՄՆԵՐ են, պատվերը՝ սեփականատիրոջ։",
+    "⚠ Բարսելոնա 25.10 (կիրակի)՝ Faborit L’illa Diagonal-ը ՓԱԿ է. նախաճաշը՝ տանը կամ այլ բաց սրճարանում (ՀԱՍՏԱՏՎԱԾ 18.10)։",
+    "⚠ Լուվր՝ 17.10–01.11 ներս մուտքը միայն նախնական ամրագրմամբ (ticket.louvre.fr, 32 €). պլանում միայն արտաքին բակն է՝ անվճար։ Կոլիզեում՝ 25.10-ից փակվում է 16:30-ին, ներսը միայն ժամով ամրագրմամբ։",
+    "Ամրագրել նախապես. Le Trumilou 20.10 ընթրիք (☎ +33 1 42 77 63 98), La Fonda 25.10 ճաշ (TheFork / ☎ +34 933 01 75 15), Castel Romano shuttle 27.10 (cilia-italia.com, 13 €, մինչև 25՝ անվճար), 2 տաքսի 28.10-ի 02:45-ի համար (3570 / 060609)։ Bouillon Chartier-ները ամրագրում չեն ընդունում։",
     "Առցանց գրանցում. 20.10 մինչև 10:25 (Երևան), 24.10 Vueling մինչև 05:30 (Փարիզ, անել 23.10-ին), 26.10 մինչև 07:00 (Բարսելոնա, անել 25.10-ին), 28.10 մինչև 03:15 (Հռոմ, անել 27.10-ին)",
-    "23→24.10 M11-ի վերջին գնացքի ճշգրիտ ժամը Romainville–Carnot-ից՝ M11+N22 պահուստային երթուղու համար",
-    "26.10 FCO ժամանում՝ T1 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, 18.10)։",
-    "Որոշված է. 20.10՝ ընթրիք + կարճ զբոսանք, Բարսելոնա՝ Maria Cristina, 28.10՝ 2 տաքսի (պատվիրել նախապես)։ 24.10՝ երկու տարբերակ, ընտրությունը տեղում",
-    "21–23.10 Փարիզ՝ օրական երկրորդ սննդի մի շարք կոնկրետ կետեր և 8 անձի նստելու պայմանները ՉՍՏՈՒԳՎԱԾ, ուղևորության քայլքի գնահատումները պահանջում են քարտեզային հաստատում։",
-    "Բարսելոնա 24–25.10՝ սննդի 8 տեղերը, բոլոր հրապարակված ուտեստների գները, MUHBA խմբային ընդունման պայմանները և քայլքի բոլոր հատվածների քարտեզային չափումները դեռ չստուգված են։",
-    "Հռոմ 26.10՝ ժամանում T1 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)։ FL1 8 €, ամեն 15 ր (ՀԱՍՏԱՏՎԱԾ), կոնկրետ գնացքը՝ ըստ ժամանման։ Երեկոյան 8 հոգու ճաշի տեղերը՝ ՉՍՏՈՒԳՎԱԾ։",
-    "Հռոմ 27.10 Castel Romano՝ EUR Fermi 10:00/16:30 shuttle-ի հենց 27.10 հատուկ շեղումները, 8 տեղերը և Bonetti/Ham Holy Burger 8 տեղանոց նստեցումը չստուգված են։",
-    "Հռոմ 27.10՝ EUR Fermi 6×13 € + 2 մինչև 25 տարեկան անվճար shuttle տարբերակը՝ 78 €; Metro B 24 € պայմանական լրացուցիչ, պետք է իրական գնման պայմանները ստուգել։",
+    "Որոշված է. 20.10՝ ընթրիք + կարճ զբոսանք, Բարսելոնա՝ Maria Cristina, 28.10՝ 2 տաքսի (պատվիրել նախապես)։ 24.10՝ երկու տարբերակ (գիշերային ավտոբուս կամ 2 տաքսի ~108 €), ընտրությունը տեղում",
+    "ԴԵՌ ԲԱՑ. 24.10 գիշերը Orly-ի բացությունը 02:00-ին (երկրորդային աղբյուրով 00:30–03:30 կարող է մասամբ փակ լինել) և ORY4→ORY1 գիշերային անցումը՝ տաքսին ավելի հուսալի է։",
+    "ԴԵՌ ԲԱՑ. A01/A04 ավտոբուսների, FL1 գնացքի և Հռոմի գիշերային ավտոբուսների ճշգրիտ րոպեները հրապարակված չեն՝ ժամանակացույցով ստուգումը կփորձի հաստատել տվյալ օրը։ Հռոմ 26.10 երեկոյան՝ Monti Lab-ը փակվում է 21:00–21:30-ին։",
+    "Տաքսու գները՝ 18.10 պաշտոնական սակագներով ԳՆԱՀԱՏՈՒՄՆԵՐ են (Փարիզ G7/service-public, Բարսելոնա AMB 2026, Հռոմ ADR)։",
+    "Ռեստորանների 8 տեղը, ճշգրիտ մենյուի գները և քայլքի ճշգրիտ երթուղիները ՉՍՏՈՒԳՎԱԾ են (քայլքը քարտեզին՝ ուղիղ գիծ, ճշգրիտը՝ «Գնալ այստեղ» Google Maps-ով)։",
     "Հռոմ և Բարսելոնա անվտանգության պոլիգոնները նկարագրական ԵՆԹԱԴՐՈՒԹՅՈՒՆ են, ոչ պաշտոնական ռիսկային գոտիների սահմաններ։",
-    "Բոլոր օրերի լուսանկարները ոչ ամբողջական են. առանց հեղինակի, ուղիղ պատկերի հղման և լիցենզիայի հաստատման չեն ավելացվել։",
-    "28.10 Հռոմ՝ 2 տաքսի (սեփականատիրոջ ընտրություն). ~58–62 €/մեքենա, առավելագույնը 80 € (ADR), պատվիրել 27.10-ին (3570 / 060609), տերմինալ T3 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)։",
-    "rome-26-08 (Monti Lab). Հանրային հասցեի մոտավոր կետը լրացված է աղբյուրով, սակայն ռեստորանի ճշգրիտ մուտքը ՉՍՏՈՒԳՎԱԾ է։ Ծրագրի իրական Google Maps հղման check-trip ստուգումը պետք է կատարվի ծրագրում։"
+    "Լուսանկարներ՝ 44/65 կանգառ (տները՝ միտումնավոր առանց նկարի). 12 կանգառի համար ազատ արտոնագրով նկար չի գտնվել։"
   ]
 }
