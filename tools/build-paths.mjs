@@ -5,12 +5,13 @@ import {pathCandidates,validatePaths} from '../lib/paths.js';
 const file=process.argv[2],output=process.argv[3]||'paths.json';
 if(!file)throw Error('Usage: node tools/build-paths.mjs <trip.json> [output.json]');
 const trip=validateTrip(JSON.parse(await readFile(file,'utf8'))),paths={},failures=[];
-const candidates=[...pathCandidates(trip)].filter(([,s])=>['bus','tram','taxi'].includes(s.kind));
+const candidates=[...pathCandidates(trip)].filter(([,s])=>['bus','tram','taxi','walk'].includes(s.kind));
 for(const [key,s] of candidates) {
  if(s.line.includes('+')) {failures.push({key,reason:'Mixed transport (+): straight fallback, not a complete road route'});continue;}
  try {
   const coords=s.points.map(([lat,lon])=>`${lon},${lat}`).join(';');
-  const url=`https://router.project-osrm.org/route/v1/driving/${coords}?overview=full&geometries=geojson&steps=false`;
+  // Walking uses the public OSM foot profile; road modes keep the OSRM driving approximation.
+  const url=s.kind==='walk'?`https://routing.openstreetmap.de/routed-foot/route/v1/driving/${coords}?overview=full&geometries=geojson&steps=false`:`https://router.project-osrm.org/route/v1/driving/${coords}?overview=full&geometries=geojson&steps=false`;
   const response=await fetch(url,{signal:AbortSignal.timeout(15000)});
   if(!response.ok)throw Error(`HTTP ${response.status}`);
   const data=await response.json();if(data.code!=='Ok')throw Error('No route');
@@ -22,4 +23,4 @@ for(const [key,s] of candidates) {
  if(candidates.length>1)await new Promise(r=>setTimeout(r,1100));
 }
 await writeFile(output,JSON.stringify(paths,null,2)+'\n');
-console.log(JSON.stringify({output,candidates:candidates.length,built:Object.keys(paths).length,fallbacks:failures,source:'https://router.project-osrm.org',profile:'driving; road approximation, not verified bus/tram route'},null,2));
+console.log(JSON.stringify({output,candidates:candidates.length,built:Object.keys(paths).length,fallbacks:failures,source:'https://router.project-osrm.org (road), https://routing.openstreetmap.de/routed-foot (walk)',profile:'driving road approximation + OSM foot walking approximation; not verified routes'},null,2));
