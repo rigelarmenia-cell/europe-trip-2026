@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-18-20",
-  "generated_at": "2026-10-19T01:57:25+04:00",
+  "version": "2026-10-18-21",
+  "generated_at": "2026-10-19T02:05:49+04:00",
   "cities": [
     {
       "id": "paris",
@@ -518,7 +518,12 @@
                 "https://fr.wikipedia.org/wiki/Place_de_l%27H%C3%B4tel-de-Ville_-_esplanade_de_la_Lib%C3%A9ration"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/H%C3%B4tel_de_Ville_de_Paris_-_Fa%C3%A7ade_-_Ao%C3%BBt_2026.jpg",
+                "author": "Arthur Weidmann (ZeusUpsistos)",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Ville_de_Paris_-_Fa%C3%A7ade_-_Ao%C3%BBt_2026.jpg"
+              }
             }
           ]
         },
@@ -620,7 +625,12 @@
                 "https://commons.wikimedia.org/wiki/File:La_Cath%C3%A9drale_Notre-Dame_de_Paris_vue_du_pont_d%27Arcole.jpg"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Pont_d%27Arcole.JPG",
+                "author": "LPLT",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Pont_d%27Arcole.JPG"
+              }
             }
           ]
         }
@@ -814,7 +824,12 @@
                 "https://fr.wikipedia.org/wiki/Pont_d%27I%C3%A9na"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Paris_pont_iena.jpg",
+                "author": "Jgremillot",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Paris_pont_iena.jpg"
+              }
             }
           ]
         },
@@ -920,7 +935,12 @@
                 "https://www.paris.fr/lieux/parc-du-champ-de-mars-1807"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Eiffel_Tower_from_Champ_de_Mars.jpg",
+                "author": "SElefant",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_from_Champ_de_Mars.jpg"
+              }
             }
           ]
         },
@@ -977,7 +997,12 @@
                 "https://fr.wikipedia.org/wiki/Pont_de_Bir-Hakeim"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Pont_de_Bir-Hakeim%2C_may_2025.jpg",
+                "author": "Finvd",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Pont_de_Bir-Hakeim%2C_may_2025.jpg"
+              }
             }
           ]
         },
@@ -1100,7 +1125,12 @@
                 "https://fr.wikipedia.org/wiki/Esplanade_des_Invalides"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Esplanadedesinvalides.jpg",
+                "author": "Formulavee",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Esplanadedesinvalides.jpg"
+              }
             }
           ]
         },
@@ -1215,7 +1245,12 @@
                 "https://fr.wikipedia.org/wiki/Parvis_Notre-Dame_-_place_Jean-Paul-II"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Cath%C3%A9drale_Notre_Dame_-_Paris_IV_%28FR75%29_-_2026-09-17_-_1.jpg",
+                "author": "Chabe01",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre_Dame_-_Paris_IV_(FR75)_-_2026-09-17_-_1.jpg"
+              }
             }
           ]
         },
@@ -1272,7 +1307,12 @@
                 "https://fr.wikipedia.org/wiki/Quai_Saint-Michel"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Notre-Dame_depuis_le_quai_Saint-Michel.JPG",
+                "author": "LPLT",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Notre-Dame_depuis_le_quai_Saint-Michel.JPG"
+              }
             }
           ]
         },
@@ -1331,7 +1371,12 @@
                 "https://fr.wikipedia.org/wiki/Pont_Neuf"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Paris_-_pont_Neuf_-_2026-09-16_13-45-26_001.jpg",
+                "author": "Matthias Süßen",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Paris_-_pont_Neuf_-_2026-09-16_13-45-26_001.jpg"
+              }
             }
           ]
         },
@@ -1393,7 +1438,12 @@
                 "https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/The_Louvre_Glass_Pyramid%2C_Paris%2C_France_%2853198133274%29.jpg",
+                "author": "Stefan Wloch",
+                "license": "CC BY-SA 2.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:The_Louvre_Glass_Pyramid,_Paris,_France_(53198133274).jpg"
+              }
             }
           ]
         },
@@ -1454,7 +1504,12 @@
                 "https://www.louvre.fr/en/visit/hours-admission/tickets-and-prices"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Jardin-des-tuileries.jpg",
+                "author": "Pline",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Jardin-des-tuileries.jpg"
+              }
             }
           ]
         },
@@ -1513,7 +1568,12 @@
                 "https://www.wikidata.org/wiki/Q3232046"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/paris-22-07.jpg",
+                "author": "Ինտերնետից, ուղարկել է Սեդրակը",
+                "license": "Միայն խմբի մասնավոր օգտագործման համար",
+                "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/paris-22-07.jpg"
+              }
             }
           ]
         },
@@ -1689,7 +1749,12 @@
                 "https://fr.wikipedia.org/wiki/Place_du_Tertre"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Place_du_Tertre.jpg",
+                "author": "TouN",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Place_du_Tertre.jpg"
+              }
             }
           ]
         },
@@ -1746,7 +1811,12 @@
                 "https://fr.wikipedia.org/wiki/Place_des_Abbesses"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Place_des_Abbesses.JPG",
+                "author": "Alex",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Place_des_Abbesses.JPG"
+              }
             }
           ]
         },
@@ -1803,7 +1873,12 @@
                 "https://www.wikidata.org/wiki/Q3397655"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Canal_Saint-Martin_from_bridge%2C_Paris.jpg",
+                "author": "Gerda Arendt",
+                "license": "CC0 1.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Canal_Saint-Martin_from_bridge%2C_Paris.jpg"
+              }
             }
           ]
         },
@@ -2070,7 +2145,12 @@
                 "https://commons.wikimedia.org/wiki/File:Barcelona_-_Avinguda_de_la_Reina_Maria_Cristina_-_View_SSE_towards_Palau_Nacional_1929_-_Palau_de_congressos_de_Barcelona.jpg"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Barcelona_-_Avinguda_de_la_Reina_Maria_Cristina_-_View_SSE_towards_Palau_Nacional_1929_-_Palau_de_congressos_de_Barcelona.jpg",
+                "author": "Txllxt TxllxT",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Avinguda_de_la_Reina_Maria_Cristina_-_View_SSE_towards_Palau_Nacional_1929_-_Palau_de_congressos_de_Barcelona.jpg"
+              }
             }
           ]
         },
@@ -2526,7 +2606,12 @@
                 "https://www.poblesdecatalunya.cat/mapa_element.php?e=22199"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/La_Rambla_%28Barcelona%2C_Spain%29_on_a_sunny_day.jpg",
+                "author": "Maxpeiron",
+                "license": "CC0 1.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:La_Rambla_%28Barcelona%2C_Spain%29_on_a_sunny_day.jpg"
+              }
             }
           ]
         },
@@ -2587,7 +2672,12 @@
                 "https://mapcarta.com/W245839653"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/004_Catedral_de_Barcelona%2C_la_fa%C3%A7ana_al_capvespre.jpg",
+                "author": "Enric",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:004_Catedral_de_Barcelona,_la_fa%C3%A7ana_al_capvespre.jpg"
+              }
             }
           ]
         },
@@ -2646,7 +2736,12 @@
                 "https://en.wikipedia.org/wiki/Pla%C3%A7a_Sant_Jaume"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Pla%C3%A7a_de_Sant_Jaume_%283400690254%29.jpg",
+                "author": "Serge Melki",
+                "license": "CC BY 2.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Pla%C3%A7a_de_Sant_Jaume_%283400690254%29.jpg"
+              }
             }
           ]
         },
@@ -2861,7 +2956,12 @@
                 "https://mapcarta.com/W22417155"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Santa_Mar%C3%ADa_del_Mar%2C_fachada.JPG",
+                "author": "Montserrat Martinez Ruiz",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Santa_Mar%C3%ADa_del_Mar%2C_fachada.JPG"
+              }
             }
           ]
         },
@@ -3279,7 +3379,12 @@
                 "https://www.turismoroma.it/en/node/1545"
               ],
               "checked": "2026-10-18",
-              "photo": null
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Rzym_%28Roma%29._Via_dei_Fori_Imperiali._Widok_na_Colosseum%2C_czyli_staro%C5%BCytny_Amfiteatr_Flawiusz%C3%B3w._-_panoramio.jpg",
+                "author": "Lech_Darski",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Rzym_%28Roma%29._Via_dei_Fori_Imperiali._Widok_na_Colosseum%2C_czyli_staro%C5%BCytny_Amfiteatr_Flawiusz%C3%B3w._-_panoramio.jpg"
+              }
             }
           ]
         },

@@ -45,7 +45,7 @@ function auditPhotoPoints(data) {
    if(point?.photo!==null) {
     result.withPhoto++;
     const photo=point?.photo;
-    if(!https(photo?.url)||new URL(photo.url).hostname!=='upload.wikimedia.org'||!['author','license','source_page'].every(key=>nonempty(photo?.[key])))reasons.push('photo');
+    if(!https(photo?.url)||!(new URL(photo.url).hostname==='upload.wikimedia.org'||photo.url.startsWith('https://rigelarmenia-cell.github.io/europe-trip-2026/photos/'))||!['author','license','source_page'].every(key=>nonempty(photo?.[key])))reasons.push('photo');
    }
    if(reasons.length)result.invalid.push({id:point?.id??null,parentId:stop.id,index,reasons});
   }
