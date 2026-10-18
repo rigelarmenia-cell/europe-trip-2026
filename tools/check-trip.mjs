@@ -8,7 +8,7 @@ import {validateTrip,coordinates,safeUrl} from '../lib/core.js';
 import {dayRoutes,orderedStops} from '../lib/itinerary.js';
 import {validatePaths,pathCandidates} from '../lib/paths.js';
 // Allowed image hosts for photo points: Wikimedia, our own /photos/ and the official/press pages checked 18.10.2026.
-const PHOTO_HOSTS=new Set(["upload.wikimedia.org", "rigelarmenia-cell.github.io", "api.questoapp.com", "barcelonalowdown.com", "barcelonanavigator.com", "cdn.paris.fr", "delivery-p147609-e1510548.adobeaemcloud.com", "firebasestorage.googleapis.com", "images.squarespace-cdn.com", "img.atlasobscura.com", "img1.digsty.com", "img3.digsty.com", "img5.digsty.com", "img7.digsty.com", "img9.digsty.com", "parisjetaime.com", "s7g10.scene7.com", "thisisbarcelona.com", "turismoroma.it", "www.turismoroma.it", "www.hmdb.org"]);
+const PHOTO_HOSTS=new Set(["upload.wikimedia.org", "rigelarmenia-cell.github.io", "api.questoapp.com", "barcelonalowdown.com", "barcelonanavigator.com", "cdn.paris.fr", "delivery-p147609-e1510548.adobeaemcloud.com", "firebasestorage.googleapis.com", "images.squarespace-cdn.com", "img.atlasobscura.com", "img1.digsty.com", "img3.digsty.com", "img5.digsty.com", "img7.digsty.com", "img9.digsty.com", "parisjetaime.com", "s7g10.scene7.com", "thisisbarcelona.com", "turismoroma.it", "www.turismoroma.it", "www.hmdb.org", "canalplan.co.uk", "fichier0.cirkwi.com", "i0.wp.com", "img2.digsty.com", "mamalovesrome.com", "media-cdn.sygictraveldata.com", "media-cdn.tripadvisor.com"]);
 
 function validTime(s) {
  if(s==null) return true;

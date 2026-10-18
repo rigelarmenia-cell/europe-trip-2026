@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-18-23",
-  "generated_at": "2026-10-19T02:33:28+04:00",
+  "version": "2026-10-18-24",
+  "generated_at": "2026-10-19T03:15:59+04:00",
   "cities": [
     {
       "id": "paris",
@@ -500,7 +500,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ ուղու մոտավոր քայլք",
+            "transfers_hy": "Ոտքով դեպի Le Trumilou (~0,65 կմ, ~9 ր)։",
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
@@ -524,6 +524,63 @@
                 "author": "Tangopaso (public domain), Around Us",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://aroundus.com/p/7417833-rue-des-barres"
+              }
+            },
+            {
+              "id": "pp-paris-20-02-2",
+              "name_hy": "Սեն-Ժակ աշտարակ",
+              "name_local": "Tour Saint-Jacques",
+              "lat": 48.858,
+              "lon": 2.34892,
+              "what_hy": "54 մ գոթական զանգակատուն՝ իր այգում, Շատլեի մոտ։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/7NdfTENbuX88qOjE"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343332323331",
+                "author": "Moonik, CC BY-SA 3.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/7NdfTENbuX88qOjE"
+              }
+            },
+            {
+              "id": "pp-paris-20-02-3",
+              "name_hy": "Ստրավինսկու շատրվան",
+              "name_local": "Fontaine Stravinsky",
+              "lat": 48.85948,
+              "lon": 2.35149,
+              "what_hy": "Գունավոր շարժվող քանդակներով շատրվան Պոմպիդու կենտրոնի կողքին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/_1bJS_C_p7Cbslt1"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832363130383537",
+                "author": "AlfvanBeem, CC0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/_1bJS_C_p7Cbslt1"
+              }
+            },
+            {
+              "id": "pp-paris-20-02-4",
+              "name_hy": "Սեն-Ժերվե եկեղեցի",
+              "name_local": "Église Saint-Gervais-Saint-Protais",
+              "lat": 48.8555,
+              "lon": 2.35472,
+              "what_hy": "Քաղաքապետարանի հետևում՝ Փարիզի առաջին բարոկկո ճակատով եկեղեցին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/rKgOBPIgqIpCfThv"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343539343536",
+                "author": "Miguel Hermoso Cuesta, CC BY-SA 4.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/rKgOBPIgqIpCfThv"
               }
             }
           ]
@@ -563,7 +620,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ Սենի ափով քայլք",
+            "transfers_hy": "Ոտքով դեպի Pont d’Arcole (~0,65 կմ, ~9 ր)։",
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
@@ -632,6 +689,44 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://parisjetaime.com/eng/article/spots-to-take-instagram-worthy-photos-in-paris-a815"
               }
+            },
+            {
+              "id": "pp-paris-20-04-2",
+              "name_hy": "Սեն-Լուի կամուրջ",
+              "name_local": "Pont Saint-Louis",
+              "lat": 48.85276,
+              "lon": 2.35277,
+              "what_hy": "Հետիոտնային կամուրջ երկու կղզիների միջև՝ Նոտր Դամի ետնամասի տեսարանով և փողոցային երաժիշտներով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/pGYI38o7a8x7nz6D"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d383739313330373836",
+                "author": "Jean-Jacques Champin, CC BY 3.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/pGYI38o7a8x7nz6D"
+              }
+            },
+            {
+              "id": "pp-paris-20-04-3",
+              "name_hy": "Կույսի շատրվան (Ժան XXIII այգի)",
+              "name_local": "Fontaine de la Vierge, Square Jean-XXIII",
+              "lat": 48.85256,
+              "lon": 2.35138,
+              "what_hy": "Նոտր Դամի ետևի այգում՝ տաճարի արևելյան մասի դասական լուսանկարի առաջնապլան։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://aroundus.com/p/7407168-fontaine-de-la-vierge"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img9.digsty.com/wtyg5Y1HqTxM8HMWaN22b4ap-klM71U3Z-B6ZTdLhQc/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xODAyODY2MjktOGQyMWMxNjYuanBn.jpg",
+                "author": "Mbzt, CC BY-SA",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/7407168-fontaine-de-la-vierge"
+              }
             }
           ]
         }
@@ -641,8 +736,8 @@
       "date": "2026-10-21",
       "city": "paris",
       "title_hy": "Տրոկադերո, Էյֆելյան աշտարակ, Սեն և Ինվալիդներ",
-      "notes_hy": "🚇 ԱՌԱՎՈՏՅԱՆ ՏՆԻՑ (1-ին կետ՝ Trocadéro). ~10 ր քայլք մինչև Romainville–Carnot, M11 (ուղղություն՝ Châtelet) → République, այնտեղ փոխում ենք M9 (ուղղություն՝ Pont de Sèvres) → Trocadéro։ Մեկ տոմս՝ 2,55 €։ Կետերը հերթով՝ 1 → 9, երեկոյան 9-ից տուն։\n\nԿետերը հերթով՝ 1 → 9, ամբողջը ոտքով, Trocadéro-ից Invalides։ Ճաշ/ընթրիք՝ Bouillon Chartier Montparnasse (ամրագրում չեն ընդունում, 8 հոգով կարող է լինել հերթ)։ Աշտարակի տակ էսպլանադը անվճար է՝ անվտանգության ստուգումով։",
-      "total_walk_km": 8.9,
+      "notes_hy": "🚇 ԱՌԱՎՈՏՅԱՆ ՏՆԻՑ (1-ին կետ՝ Trocadéro). ~10 ր քայլք մինչև Romainville–Carnot, M11 (ուղղություն՝ Châtelet) → République, այնտեղ փոխում ենք M9 (ուղղություն՝ Pont de Sèvres) → Trocadéro։ Մեկ տոմս՝ 2,55 €։ Կետերը հերթով՝ 1 → 9 (դասավորված ամենակարճ քայլքով), երեկոյան 9-ից տուն։\n\nԿետերը հերթով՝ 1 → 9, ամբողջը ոտքով. Trocadéro → Bir-Hakeim կամուրջ → Iéna → Էյֆել → Champ-de-Mars → Invalides → Alexandre III կամուրջ → ընթրիք Montparnasse-ում։ Ճաշ/ընթրիք՝ Bouillon Chartier Montparnasse (ամրագրում չեն ընդունում, 8 հոգով կարող է լինել հերթ)։ Աշտարակի տակ էսպլանադը անվճար է՝ անվտանգության ստուգումով։",
+      "total_walk_km": 7.39,
       "stops": [
         {
           "id": "paris-21-01",
@@ -673,13 +768,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 0.25,
-            "min": 4,
+            "km": 0.32,
+            "min": 5,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "transfers_hy": "Ոտքով դեպի Jardins du Trocadéro (~0,32 կմ, ~5 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -757,13 +852,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 0.5,
-            "min": 7,
+            "km": 0.75,
+            "min": 11,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "transfers_hy": "Ոտքով դեպի Pont de Bir-Hakeim (~0,75 կմ, ~11 ր)։",
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
@@ -789,12 +884,113 @@
                 "license": "CC BY-SA 3.0",
                 "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_tower_from_trocadero.jpg"
               }
+            },
+            {
+              "id": "pp-paris-21-04-2",
+              "name_hy": "Վարշավայի շատրվան",
+              "name_local": "Fontaine de Varsovie (Trocadéro)",
+              "lat": 48.86086,
+              "lon": 2.29044,
+              "what_hy": "Կասկադային շատրվան Տրոկադերոյի այգում՝ ջուրը և Էյֆելը մեկ կադրում։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://aroundus.com/p/7407205-fontaine-du-trocadero"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img5.digsty.com/ffgTu8vTSIcdwt6YFgPCg2TRlrakHkJ4EGJDDJnlczA/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4NjkxNzAtZjlmNjE1MGUuSlBH.jpg",
+                "author": "Moonik, CC BY-SA",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/7407205-fontaine-du-trocadero"
+              }
+            }
+          ]
+        },
+        {
+          "id": "paris-21-07",
+          "order": 3,
+          "kind": "sight",
+          "name_hy": "Բիր-Հաքեյմ կամուրջ",
+          "name_local": "Pont de Bir-Hakeim",
+          "lat": 48.8555,
+          "lon": 2.2874,
+          "description_hy": "Կամրջի կամարների հեռանկարից լուսանկարել աշտարակը",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            15,
+            25
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Pont_de_Bir-Hakeim%2C_may_2025.jpg",
+              "author": "Finvd",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Pont_de_Bir-Hakeim%2C_may_2025.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.76,
+            "min": 11,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով դեպի Pont d’Iéna (~0,76 կմ, ~11 ր)։",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": [],
+          "photo_points": [
+            {
+              "id": "pp-paris-21-07-1",
+              "name_hy": "Կարապների ծառուղի (Île aux Cygnes)",
+              "name_local": "Allée des Cygnes",
+              "lat": 48.85304,
+              "lon": 2.28398,
+              "what_hy": "Սենի նեղ կղզու ծառուղի Բիր-Հաքեյմից՝ Էյֆելի գետային տեսարանով և վերջում Ազատության արձանի փոքր պատճենով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://locationscout.net/france/27054-lc3aele-aux-cygnes",
+                "https://aroundus.com/p/174464810-allee-des-cygnes"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img7.digsty.com/0Ao1kXFLolpoP8KKkXsttsoVD6-K4Y6FGcqOFU6foFM/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xODM1NjkzMjctMTFjM2QxMTcuanBn.jpg",
+                "author": "Guilhem Vellut, CC BY-SA, Around Us",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/174464810-allee-des-cygnes"
+              }
+            },
+            {
+              "id": "pp-paris-21-07-2",
+              "name_hy": "«Վերածնվող Ֆրանսիա» արձան",
+              "name_local": "La France renaissante (Pont de Bir-Hakeim)",
+              "lat": 48.85576,
+              "lon": 2.28784,
+              "what_hy": "Բիր-Հաքեյմ կամրջի վրա բրոնզե ձիավոր կնոջ արձան։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://aroundus.com/p/7410617-la-france-renaissante"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img9.digsty.com/v7vbMAYjO0ecvADuWHW6bdxQlGrPgQvLRquLEHpSTIc/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTgxMjQtOGFjNmZkZjguanBn.jpg",
+                "author": "Commons, CC BY-SA",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/7410617-la-france-renaissante"
+              }
             }
           ]
         },
         {
           "id": "paris-21-05",
-          "order": 3,
+          "order": 4,
           "kind": "sight",
           "name_hy": "Իենայի կամուրջ",
           "name_local": "Pont d’Iéna",
@@ -821,13 +1017,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 0.35,
-            "min": 5,
+            "km": 0.23,
+            "min": 3,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "transfers_hy": "Ոտքով դեպի Tour Eiffel – Jardins et esplanade (~0,23 կմ, ~3 ր)։",
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
@@ -852,12 +1048,31 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://aroundus.com/p/7395612-passerelle-debilly"
               }
+            },
+            {
+              "id": "pp-paris-21-05-2",
+              "name_hy": "Քե Բրանլի թանգարան՝ կանաչ պատ",
+              "name_local": "Musée du quai Branly – Jacques Chirac",
+              "lat": 48.86109,
+              "lon": 2.29771,
+              "what_hy": "Ժան Նուվելի թանգարանը Սենի ափին՝ բույսերով պատված ճակատով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/ccnX1U2wy2_O0F9L"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d383239393834363931",
+                "author": "Lionel Allorge, CC BY-SA 3.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/ccnX1U2wy2_O0F9L"
+              }
             }
           ]
         },
         {
           "id": "paris-21-02",
-          "order": 4,
+          "order": 5,
           "kind": "sight",
           "name_hy": "Էյֆելյան աշտարակի այգի և էսպլանադ",
           "name_local": "Tour Eiffel – Jardins et esplanade",
@@ -884,13 +1099,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 0.7,
-            "min": 10,
+            "km": 0.55,
+            "min": 8,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "transfers_hy": "Ոտքով դեպի Champ-de-Mars (~0,55 կմ, ~8 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -923,7 +1138,7 @@
         },
         {
           "id": "paris-21-06",
-          "order": 5,
+          "order": 6,
           "kind": "sight",
           "name_hy": "Մարսյան դաշտ",
           "name_local": "Champ-de-Mars",
@@ -950,13 +1165,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 1.25,
-            "min": 18,
+            "km": 1.62,
+            "min": 23,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "transfers_hy": "Ոտքով դեպի Esplanade des Invalides (~1,62 կմ, ~23 ր)։",
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
@@ -983,139 +1198,31 @@
                 "license": "CC BY-SA 3.0",
                 "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_from_Champ_de_Mars.jpg"
               }
-            }
-          ]
-        },
-        {
-          "id": "paris-21-07",
-          "order": 6,
-          "kind": "sight",
-          "name_hy": "Բիր-Հաքեյմ կամուրջ",
-          "name_local": "Pont de Bir-Hakeim",
-          "lat": 48.8555,
-          "lon": 2.2874,
-          "description_hy": "Կամրջի կամարների հեռանկարից լուսանկարել աշտարակը",
-          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
-          "visit_min": [
-            15,
-            25
-          ],
-          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [
+            },
             {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Pont_de_Bir-Hakeim%2C_may_2025.jpg",
-              "author": "Finvd",
-              "license": "CC BY-SA 4.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Pont_de_Bir-Hakeim%2C_may_2025.jpg"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 2.8,
-            "min": 40,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ Pont de Bir-Hakeim → Pont Alexandre III Սենի երկայնքով մոտ 2,8 կմ/40 րոպե, քարտեզային չափումը ՉՍՏՈՒԳՎԱԾ",
-            "ticket_hy": ""
-          },
-          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": [],
-          "photo_points": [
-            {
-              "id": "pp-paris-21-07-1",
-              "name_hy": "Կարապների ծառուղի (Île aux Cygnes)",
-              "name_local": "Allée des Cygnes",
-              "lat": 48.85304,
-              "lon": 2.28398,
-              "what_hy": "Սենի նեղ կղզու ծառուղի Բիր-Հաքեյմից՝ Էյֆելի գետային տեսարանով և վերջում Ազատության արձանի փոքր պատճենով։",
+              "id": "pp-paris-21-06-2",
+              "name_hy": "Ռազմական ակադեմիա",
+              "name_local": "École Militaire",
+              "lat": 48.85192,
+              "lon": 2.30482,
+              "what_hy": "XVIII դ. շենքը Մարսյան դաշտի մյուս ծայրում՝ Էյֆելի դիմաց։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://locationscout.net/france/27054-lc3aele-aux-cygnes",
-                "https://aroundus.com/p/174464810-allee-des-cygnes"
+                "https://tripomatic.com/en/places/QqlmeXHlF8YHo8yD"
               ],
               "checked": "2026-10-18",
               "photo": {
-                "url": "https://img7.digsty.com/0Ao1kXFLolpoP8KKkXsttsoVD6-K4Y6FGcqOFU6foFM/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xODM1NjkzMjctMTFjM2QxMTcuanBn.jpg",
-                "author": "Guilhem Vellut, CC BY-SA, Around Us",
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343135333036",
+                "author": "Mbzt, CC BY 3.0",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://aroundus.com/p/174464810-allee-des-cygnes"
-              }
-            }
-          ]
-        },
-        {
-          "id": "paris-21-09",
-          "order": 7,
-          "kind": "sight",
-          "name_hy": "Ալեքսանդր III-ի կամուրջ",
-          "name_local": "Pont Alexandre III",
-          "lat": 48.8636,
-          "lon": 2.3136,
-          "description_hy": "Սենի ափերով զբոսանքի տեսարժան կամուրջ",
-          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
-          "visit_min": [
-            15,
-            25
-          ],
-          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [
-            {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Pont_Alexandre_III%2C_Paris%2C_France.jpg",
-              "author": "Didier Moïse",
-              "license": "CC BY-SA 4.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Pont_Alexandre_III,_Paris,_France.jpg"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 0.35,
-            "min": 5,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
-            "ticket_hy": ""
-          },
-          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": [
-            "https://commons.wikimedia.org/wiki/File:Pont_Alexandre_III,_Paris,_France.jpg"
-          ],
-          "photo_points": [
-            {
-              "id": "pp-paris-21-09-1",
-              "name_hy": "Ալեքսանդր III կամրջի Սենի դիտակետ",
-              "name_local": "Pont Alexandre III",
-              "lat": 48.863927,
-              "lon": 2.313322,
-              "what_hy": "Կամրջից հնարավոր է նկարել Սենի ափերն ու Փարիզի գետափնյա ճարտարապետությունը։ Ճշգրիտ կետը Commons-ի լուսանկարի camera location-ն է։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://commons.wikimedia.org/wiki/File:View_from_Pont_Alexandre_III,_Paris_(35275631304).jpg"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/View_from_Pont_Alexandre_III%2C_Paris_%2835275631304%29.jpg",
-                "author": "Julien Ricard",
-                "license": "CC BY 2.0",
-                "source_page": "https://commons.wikimedia.org/wiki/File:View_from_Pont_Alexandre_III,_Paris_(35275631304).jpg"
+                "source_page": "https://tripomatic.com/en/places/QqlmeXHlF8YHo8yD"
               }
             }
           ]
         },
         {
           "id": "paris-21-10",
-          "order": 8,
+          "order": 7,
           "kind": "sight",
           "name_hy": "Ինվալիդների էսպլանադ",
           "name_local": "Esplanade des Invalides",
@@ -1142,13 +1249,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 2.7,
-            "min": 39,
+            "km": 0.23,
+            "min": 3,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "transfers_hy": "Ոտքով դեպի Pont Alexandre III (~0,23 կմ, ~3 ր)։",
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
@@ -1173,6 +1280,127 @@
                 "author": "Formulavee",
                 "license": "CC BY-SA 4.0",
                 "source_page": "https://commons.wikimedia.org/wiki/File:Esplanadedesinvalides.jpg"
+              }
+            },
+            {
+              "id": "pp-paris-21-10-2",
+              "name_hy": "Ինվալիդների ոսկե գմբեթ",
+              "name_local": "Hôtel des Invalides",
+              "lat": 48.85592,
+              "lon": 2.31264,
+              "what_hy": "Նապոլեոնի դամբարանի ոսկե գմբեթը էսպլանադի հարավային ծայրում։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/INZGj6E8I-fh7hcr"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343231333031",
+                "author": "Victor Grigas, CC BY-SA 4.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/INZGj6E8I-fh7hcr"
+              }
+            }
+          ]
+        },
+        {
+          "id": "paris-21-09",
+          "order": 8,
+          "kind": "sight",
+          "name_hy": "Ալեքսանդր III-ի կամուրջ",
+          "name_local": "Pont Alexandre III",
+          "lat": 48.8636,
+          "lon": 2.3136,
+          "description_hy": "Սենի ափերով զբոսանքի տեսարժան կամուրջ",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            15,
+            25
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Pont_Alexandre_III%2C_Paris%2C_France.jpg",
+              "author": "Didier Moïse",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Pont_Alexandre_III,_Paris,_France.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 2.93,
+            "min": 42,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով դեպի Bouillon Chartier Montparnasse (~2,93 կմ, ~42 ր)։",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": [
+            "https://commons.wikimedia.org/wiki/File:Pont_Alexandre_III,_Paris,_France.jpg"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-paris-21-09-1",
+              "name_hy": "Ալեքսանդր III կամրջի Սենի դիտակետ",
+              "name_local": "Pont Alexandre III",
+              "lat": 48.863927,
+              "lon": 2.313322,
+              "what_hy": "Կամրջից հնարավոր է նկարել Սենի ափերն ու Փարիզի գետափնյա ճարտարապետությունը։ Ճշգրիտ կետը Commons-ի լուսանկարի camera location-ն է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:View_from_Pont_Alexandre_III,_Paris_(35275631304).jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/View_from_Pont_Alexandre_III%2C_Paris_%2835275631304%29.jpg",
+                "author": "Julien Ricard",
+                "license": "CC BY 2.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:View_from_Pont_Alexandre_III,_Paris_(35275631304).jpg"
+              }
+            },
+            {
+              "id": "pp-paris-21-09-2",
+              "name_hy": "Մեծ պալատ",
+              "name_local": "Grand Palais",
+              "lat": 48.86619,
+              "lon": 2.31265,
+              "what_hy": "Ապակե հսկայական տանիքով պալատ Ալեքսանդր III կամրջի կողքին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/poi/grand-palais-poi:599"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832353836303230",
+                "author": "Guilhem Vellut, CC BY 2.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/poi/grand-palais-poi:599"
+              }
+            },
+            {
+              "id": "pp-paris-21-09-3",
+              "name_hy": "Փոքր պալատ",
+              "name_local": "Petit Palais",
+              "lat": 48.86607,
+              "lon": 2.31492,
+              "what_hy": "Ոսկեզօծ դարպասով գեղարվեստի թանգարան Մեծ պալատի դիմաց (մուտքն անվճար է)։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/c1yEjIDbrM0CZhdd"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343537373339",
+                "author": "Jastrow, public domain",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/c1yEjIDbrM0CZhdd"
               }
             }
           ]
@@ -1266,7 +1494,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "transfers_hy": "Ոտքով դեպի Quai Saint-Michel (~0,6 կմ, ~9 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -1294,6 +1522,44 @@
                 "author": "Jim Linwood/Flickr, CC 2.0",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://www.atlasobscura.com/places/shakespeare-and-company"
+              }
+            },
+            {
+              "id": "pp-paris-22-01-2",
+              "name_hy": "Ֆրանսիայի ճանապարհների «զրո կետը»",
+              "name_local": "Point zéro des routes de France",
+              "lat": 48.8534,
+              "lon": 2.34817,
+              "what_hy": "Նոտր Դամի հրապարակի բրոնզե նշան, որից հաշվվում են Ֆրանսիայի հեռավորությունները։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.atlasobscura.com/places/paris-point-zero"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img.atlasobscura.com/U0Qvn8H1rHC92gTADP3QCaJZlSuqG3WubD42kmU8kXI/rt:fit/h:400/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8wZmYw/NDcxNmU2NTcxMmQz/YWNfMzM1NDA2NDAy/MF8yZWY2YmZhOTI1/X2IuanBn.jpg",
+                "author": "Serge Melki, CC BY 2.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://www.atlasobscura.com/places/paris-point-zero"
+              }
+            },
+            {
+              "id": "pp-paris-22-01-3",
+              "name_hy": "Արքեպիսկոպոսի կամուրջ",
+              "name_local": "Pont de l’Archevêché",
+              "lat": 48.85167,
+              "lon": 2.35167,
+              "what_hy": "Նոտր Դամի հարավային կողմի և ետնամասի ամենալավ տեսարանը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://aroundus.com/p/7394781-pont-de-larcheveche"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img5.digsty.com/G0Qgz77UMPZUMhUwjYoEfPc090_VE1hnXNca9Ew-G2s/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTc4MzEtMGU5ODBkMjAuanBn.jpg",
+                "author": "Flickr, CC BY-SA 2.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/7394781-pont-de-larcheveche"
               }
             }
           ]
@@ -1333,7 +1599,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "transfers_hy": "Ոտքով դեպի Pont Neuf (~0,8 կմ, ~11 ր)։",
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
@@ -1356,6 +1622,44 @@
                 "author": "LPLT",
                 "license": "CC BY-SA 3.0",
                 "source_page": "https://commons.wikimedia.org/wiki/File:Notre-Dame_depuis_le_quai_Saint-Michel.JPG"
+              }
+            },
+            {
+              "id": "pp-paris-22-05-2",
+              "name_hy": "Սեն-Միշել շատրվան",
+              "name_local": "Fontaine Saint-Michel",
+              "lat": 48.85318,
+              "lon": 2.3437,
+              "what_hy": "1860-ի շատրվանը՝ վիշապին հաղթող Սուրբ Միքայելով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://aroundus.com/p/7374472-fontaine-saint-michel"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img9.digsty.com/7dO91Gcyd1_HZnPzLnjF-Vr06sn4gwepyAjWLycRoaY/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTczMjQtNzQ4Y2VmNjguanBn.jpg",
+                "author": "Guilhem Vellut, CC BY 2.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/7374472-fontaine-saint-michel"
+              }
+            },
+            {
+              "id": "pp-paris-22-05-3",
+              "name_hy": "Փարիզի ամենանեղ փողոցը",
+              "name_local": "Rue du Chat-qui-Pêche",
+              "lat": 48.85306,
+              "lon": 2.34612,
+              "what_hy": "Լատինական թաղամասի միջնադարյան նեղլիկ փողոց։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.atlasobscura.com/places/rue-du-chat-qui-peche"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img.atlasobscura.com/6ndO6QBOQlWvdDPOZ-W6UGhRjM1pas9Y-GXLmciNxlA/rt:fit/h:400/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxhcy1kZXYuczMuYW1hem9uYXdzLmNvbS91cGxvYWRzL3BsYWNlX2ltYWdlcy9jZjAxOWNkOS1mOGY1LTQ1NTMtYTQyYi1hZjU5OTU0YzBjY2Y2OTk2MmY5NmNjYTc1Y2MzZGJfSU1HXzE4OTAuanBn.jpg",
+                "author": "Atlas Obscura",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://www.atlasobscura.com/places/rue-du-chat-qui-peche"
               }
             }
           ]
@@ -1395,7 +1699,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "transfers_hy": "Ոտքով դեպի Cour Napoléon – Pyramide du Louvre (~1,2 կմ, ~17 ր)։",
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
@@ -1420,6 +1724,63 @@
                 "author": "Sonia Yassa / Ville de Paris",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://www.paris.fr/lieux/square-du-vert-galant-2825"
+              }
+            },
+            {
+              "id": "pp-paris-22-06-2",
+              "name_hy": "Դոֆինի հրապարակ",
+              "name_local": "Place Dauphine",
+              "lat": 48.85651,
+              "lon": 2.34257,
+              "what_hy": "XVII դ. եռանկյուն հանգիստ հրապարակ՝ սրճարաններով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/Krmz8JnYLHHsEgKk"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d383330323933353531",
+                "author": "Myrabella, CC BY-SA 3.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/Krmz8JnYLHHsEgKk"
+              }
+            },
+            {
+              "id": "pp-paris-22-06-3",
+              "name_hy": "Հենրիխ IV-ի ձիարձան",
+              "name_local": "Statue équestre d’Henri IV",
+              "lat": 48.85714,
+              "lon": 2.34097,
+              "what_hy": "Նոր կամրջի մեջտեղում՝ թագավորի բրոնզե ձիարձան։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://aroundus.com/p/11517880-equestrian-statue-of-henry-iv"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img9.digsty.com/iHpep7xndv86mP3KNy3qlfzX2wl5YtJrMie1CgX-JkE/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTc1NDAtYjk2MGE4YWQuanBn.jpg",
+                "author": "Commons, CC BY-SA",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/11517880-equestrian-statue-of-henry-iv"
+              }
+            },
+            {
+              "id": "pp-paris-22-06-4",
+              "name_hy": "Կոնսիերժրի",
+              "name_local": "Conciergerie",
+              "lat": 48.85595,
+              "lon": 2.34603,
+              "what_hy": "Գոթական պալատ-բանտի աշտարակները, լավագույնը՝ դիմացի ափից։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/bFlAMpoqrcOtpupJ"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343136383232",
+                "author": "Alusaimi, CC BY-SA 3.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/bFlAMpoqrcOtpupJ"
               }
             }
           ]
@@ -1459,7 +1820,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "transfers_hy": "Ոտքով դեպի Jardin des Tuileries (~0,85 կմ, ~12 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -1488,6 +1849,44 @@
                 "author": "DXR, CC BY-SA 3.0, Around Us",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://aroundus.com/p/7387207-pont-des-arts"
+              }
+            },
+            {
+              "id": "pp-paris-22-02-2",
+              "name_hy": "Լուվրի Քառակուսի բակ",
+              "name_local": "Cour Carrée du Louvre",
+              "lat": 48.86037,
+              "lon": 2.33856,
+              "what_hy": "Լուվրի վերածննդի քառակուսի բակը բուրգից արևելք։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://fr.aroundus.com/p/10437113-cour-carree"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img2.digsty.com/Wu7LZUwqETDsXFYX4cwfAikF5o4iZlC48V2pRDpZdM4/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTc1NjctNTNhZjVjYjQuanBn.jpg",
+                "author": "Commons, CC BY-SA",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://fr.aroundus.com/p/10437113-cour-carree"
+              }
+            },
+            {
+              "id": "pp-paris-22-02-3",
+              "name_hy": "Սեն-Ժերմեն-լ’Օսերուա",
+              "name_local": "Saint-Germain-l’Auxerrois",
+              "lat": 48.85949,
+              "lon": 2.34135,
+              "what_hy": "Գոթական եկեղեցի զարդարված մուտքով՝ Լուվրի արևելյան ճակատի դիմաց։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/MuKycNbwmeCtt4sB"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343537383332",
+                "author": "Dinkum, CC0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/MuKycNbwmeCtt4sB"
               }
             }
           ]
@@ -1527,7 +1926,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "transfers_hy": "Ոտքով դեպի Palais-Royal – Colonnes de Buren (~0,9 կմ, ~13 ր)։",
             "ticket_hy": ""
           },
           "label": "ՀԱՍՏԱՏՎԱԾ",
@@ -1554,6 +1953,63 @@
                 "author": "Thesupermat, CC BY-SA, Around Us",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://aroundus.com/p/7372262-arc-de-triomphe-du-carrousel"
+              }
+            },
+            {
+              "id": "pp-paris-22-03-2",
+              "name_hy": "Լուքսորի կոթող (Կոնկորդ)",
+              "name_local": "Obélisque de Louxor, Place de la Concorde",
+              "lat": 48.86548,
+              "lon": 2.32113,
+              "what_hy": "3000-ամյա եգիպտական կոթողը Կոնկորդի հրապարակում՝ Թյուիլրիի ծայրին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/poi/luxor-obelisk-poi:4976320"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d383335383932373138",
+                "author": "Remi Jouan, CC BY-SA 3.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/poi/luxor-obelisk-poi:4976320"
+              }
+            },
+            {
+              "id": "pp-paris-22-03-3",
+              "name_hy": "Թյուիլրիի ութանկյուն ավազան",
+              "name_local": "Grand bassin octogonal",
+              "lat": 48.86452,
+              "lon": 2.32414,
+              "what_hy": "Մեծ ավազան աթոռներով և արձաններով՝ Կոնկորդի կողմում։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://aroundus.com/p/7432984-octagonal-basin"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img5.digsty.com/W8RAWQmAj1bIUh5igcnooXZTLRpt3wVKXrSpDOPapds/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTY2MzgtYWI0NmJlMjAuanBn.jpg",
+                "author": "Tangopaso, CC BY-SA",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/7432984-octagonal-basin"
+              }
+            },
+            {
+              "id": "pp-paris-22-03-4",
+              "name_hy": "Ժաննա դ’Արկի ոսկե արձան",
+              "name_local": "Statue de Jeanne d’Arc, place des Pyramides",
+              "lat": 48.86388,
+              "lon": 2.33219,
+              "what_hy": "Ոսկեզօծ ձիարձան Ռիվոլի փողոցում՝ Թյուիլրիի կողքին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/URUdtzROjLQNm0RR"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/380x254/612664395a40232133447d33247d383335383931333734",
+                "author": "Simdaperce, CC BY-SA 3.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/URUdtzROjLQNm0RR"
               }
             }
           ]
@@ -1593,7 +2049,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ Palais-Royal → Bouillon Chartier Grands Boulevards մոտ 1,1 կմ/16 րոպե, քարտեզային չափումը ՉՍՏՈՒԳՎԱԾ",
+            "transfers_hy": "Ոտքով դեպի Bouillon Chartier Grands Boulevards (~1,1 կմ, ~16 ր)։",
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
@@ -1619,6 +2075,44 @@
                 "author": "Benh LIEU SONG, CC BY-SA 3.0, Around Us",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://aroundus.com/p/7387450-galerie-vivienne"
+              }
+            },
+            {
+              "id": "pp-paris-22-07-2",
+              "name_hy": "Բյուրենի սյուներ",
+              "name_local": "Colonnes de Buren (Les Deux Plateaux)",
+              "lat": 48.86353,
+              "lon": 2.33706,
+              "what_hy": "260 սև-սպիտակ գծավոր սյուն Palais-Royal-ի բակում՝ դասական լուսանկար։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.cirkwi.com/en/point-interet/1646646-palais-royal-les-deux-plateaux-colonnes-de-buren"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://fichier0.cirkwi.com/image/photo/poi/800x500/1646646/fr/0.jpg?1652347715",
+                "author": "Cirkwi",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://www.cirkwi.com/en/point-interet/1646646-palais-royal-les-deux-plateaux-colonnes-de-buren"
+              }
+            },
+            {
+              "id": "pp-paris-22-07-3",
+              "name_hy": "Palais-Royal այգի",
+              "name_local": "Jardin du Palais-Royal",
+              "lat": 48.86501,
+              "lon": 2.33781,
+              "what_hy": "Ծառուղիներով և շատրվանով այգի՝ սրահներով շրջապատված։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/yBsopFALdOiOab1n"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832333838393338",
+                "author": "LPLT, CC BY-SA 3.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/yBsopFALdOiOab1n"
               }
             }
           ]
@@ -1712,7 +2206,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "transfers_hy": "Ոտքով դեպի Place du Tertre (~0,3 կմ, ~4 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -1759,6 +2253,44 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://pixeoapp.com/location/la-maison-rose/4febbf08f1d411062de046c0df48976de1edcac7"
               }
+            },
+            {
+              "id": "pp-paris-23-01-3",
+              "name_hy": "Մոնմարտրի ֆունիկուլյոր",
+              "name_local": "Funiculaire de Montmartre",
+              "lat": 48.88462,
+              "lon": 2.34262,
+              "what_hy": "1900-ից աշխատող ճոպանուղի Sacré-Cœur-ի ստորոտ։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.atlasobscura.com/places/montmartre-funicular"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img.atlasobscura.com/HqIGOmMX_dnbTYoK0I7TUI_GF1ziBceDF0Qq_yGy_XE/rt:fit/h:400/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy83YjY0/NGJhYjY4OWM3NWJj/YWVfMTIwMHB4LVBh/cmlzX01vbnRtYXJ0/cmVfQ2FibGUtQ2Fy/LmpwZWc.jpg",
+                "author": "Atlas Obscura",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://www.atlasobscura.com/places/montmartre-funicular"
+              }
+            },
+            {
+              "id": "pp-paris-23-01-4",
+              "name_hy": "Ֆոյատիեի աստիճաններ",
+              "name_local": "Rue Foyatier (escaliers de Montmartre)",
+              "lat": 48.88547,
+              "lon": 2.34239,
+              "what_hy": "222 աստիճան լապտերներով՝ ֆունիկուլյորի կողքով դեպի Sacré-Cœur։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://aroundus.com/p/10440800-rue-foyatier"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img5.digsty.com/TqhJAlmxpzLUipDE0A2z3f9JNTAAYYPQ0m8X_QYTrKA/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xODM1NzEyNzUtOTE3ZjE5ZTMuanBn.jpg",
+                "author": "Maria Eklind, CC BY-SA",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/10440800-rue-foyatier"
+              }
             }
           ]
         },
@@ -1797,7 +2329,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "transfers_hy": "Ոտքով դեպի Place des Abbesses (~0,5 կմ, ~7 ր)։",
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
@@ -1821,6 +2353,44 @@
                 "author": "© Around Us",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://aroundus.com/p/7555811-le-consulat"
+              }
+            },
+            {
+              "id": "pp-paris-23-03-2",
+              "name_hy": "Սեն-Պիեռ դը Մոնմարտր",
+              "name_local": "Saint-Pierre de Montmartre",
+              "lat": 48.8867,
+              "lon": 2.34206,
+              "what_hy": "Փարիզի ամենահին եկեղեցիներից մեկը՝ Tertre-ի և Sacré-Cœur-ի միջև։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/sM74w_maS-SkWwwY"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832363231323439",
+                "author": "BastienM, CC BY-SA 3.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/sM74w_maS-SkWwwY"
+              }
+            },
+            {
+              "id": "pp-paris-23-03-3",
+              "name_hy": "Au Lapin Agile կաբարե",
+              "name_local": "Au Lapin Agile",
+              "lat": 48.88863,
+              "lon": 2.33999,
+              "what_hy": "Վարդագույն-կանաչ պատմական կաբարե՝ Մոնմարտրի բացիկային տեսարան։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/N-QLTic70Gm6Pxsh"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343537373537",
+                "author": "Mbzt, CC BY-SA 4.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/N-QLTic70Gm6Pxsh"
               }
             }
           ]
@@ -1860,7 +2430,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ Place des Abbesses → Canal Saint-Martin մոտ 3,6 կմ/52 րոպե, քարտեզային չափումը ՉՍՏՈՒԳՎԱԾ",
+            "transfers_hy": "Ոտքով դեպի Canal Saint-Martin (~3,6 կմ, ~51 ր)։",
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
@@ -1884,6 +2454,63 @@
                 "author": "© DR, parisjetaime.com",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://parisjetaime.com/culture/le-mur-des-je-t-aime-p985"
+              }
+            },
+            {
+              "id": "pp-paris-23-04-2",
+              "name_hy": "Բատո-Լավուար",
+              "name_local": "Le Bateau-Lavoir",
+              "lat": 48.88613,
+              "lon": 2.33754,
+              "what_hy": "Արվեստանոց, որտեղ աշխատել են Պիկասոն և Բրաքը՝ Émile-Goudeau հրապարակում։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/sk/places/KaiKH41wShfOPNlO"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d383239363139353339",
+                "author": "Martin Pulaski, CC BY 2.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/sk/places/KaiKH41wShfOPNlO"
+              }
+            },
+            {
+              "id": "pp-paris-23-04-3",
+              "name_hy": "Պատից դուրս եկող մարդը",
+              "name_local": "Le Passe-Muraille",
+              "lat": 48.88754,
+              "lon": 2.33807,
+              "what_hy": "Պատից դուրս եկող մարդու բրոնզե արձան Marcel-Aymé հրապարակում։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.atlasobscura.com/places/le-passe-muraille"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img.atlasobscura.com/0ZI6Aw_zciC7EpdvM3eUQui2Vw9ic5o-4EsYit_2h7I/rt:fit/w:1200/q:80/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9lYjMy/MWFjMjVjZTE4YTQ5/NGJfMTc5ODkyNDMz/X2EzYzVjODM4ZWNf/by5qcGc.jpg",
+                "author": "Mr. Push, Flickr",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://www.atlasobscura.com/places/le-passe-muraille"
+              }
+            },
+            {
+              "id": "pp-paris-23-04-4",
+              "name_hy": "Մուլեն դը լա Գալետ",
+              "name_local": "Moulin de la Galette",
+              "lat": 48.88765,
+              "lon": 2.3363,
+              "what_hy": "Մոնմարտրի վերջին հողմաղացներից մեկը Rue Lepic-ում (Ռենուարի կտավը)։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://aroundus.com/p/7379092-moulin-de-la-galette"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img1.digsty.com/pM8oxncv3bsojT4aXPIV46JolVBMy_iWuY05qWrQNRo/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTcwNTYtN2YzMTIyYTIuanBn.jpg",
+                "author": "Commons, CC BY-SA",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/7379092-moulin-de-la-galette"
               }
             }
           ]
@@ -1923,7 +2550,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ պլանային քայլք, մոտ 4,2 կմ/ժ. քարտեզային հետիոտնային երթուղով ՉՍՏՈՒԳՎԱԾ",
+            "transfers_hy": "Ոտքով դեպի Bouillon Chartier Gare de l’Est (~0,85 կմ, ~12 ր)։",
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
@@ -1947,6 +2574,44 @@
                 "author": "Guilhem Vellut, CC BY 2.0, Around Us",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://fr.aroundus.com/p/7414169-passerelle-maria-schneider"
+              }
+            },
+            {
+              "id": "pp-paris-23-06-2",
+              "name_hy": "Hôtel du Nord",
+              "name_local": "Hôtel du Nord, Quai de Jemmapes",
+              "lat": 48.87328,
+              "lon": 2.36414,
+              "what_hy": "1938-ի հայտնի ֆիլմի ճակատը ջրանցքի ափին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.cirkwi.com/de/point-interet/120737-hotel-of-the-north-hotel-du-nord"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://fichier0.cirkwi.com/image/photo/poi/800x500/120737/en/0.jpg",
+                "author": "Inocybe-Piero d’Houin, Cirkwi",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://www.cirkwi.com/de/point-interet/120737-hotel-of-the-north-hotel-du-nord"
+              }
+            },
+            {
+              "id": "pp-paris-23-06-3",
+              "name_hy": "Ռեկոլեի ջրարգելակներ",
+              "name_local": "Écluses des Récollets",
+              "lat": 48.87354,
+              "lon": 2.36356,
+              "what_hy": "Ջրանցքի երկաստիճան ջրարգելակ՝ երկաթե կամրջակներով, նավակների բարձրանալը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://canalplan.co.uk/photo/6k_oin"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://canalplan.co.uk/photos/thumbnails/6/6k_oin.jpg",
+                "author": "John Howarth, CanalPlan",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://canalplan.co.uk/photo/6k_oin"
               }
             }
           ]
@@ -2001,9 +2666,9 @@
     {
       "date": "2026-10-24",
       "city": "barcelona",
-      "title_hy": "Ժամանում Բարսելոնա․ թեթև զբոսանք ուսապարկերով",
-      "notes_hy": "Առավոտյան ժամանում Բարսելոնա, մետրոյով տուն (Maria Cristina), հանգիստ, ապա Plaça d’Espanya և Montjuïc-ի տեսարան։ Font Màgica՝ շաբաթ 21:00 և 21:30 շոուներ (betevé)։ Քայլքի կմ-երը մոտավոր են։",
-      "total_walk_km": 9.05,
+      "title_hy": "Ժամանում · Մոնժուիկ · Գաուդի. Սագրադա Ֆամիլիա, Միլա, Բատյո · Կախարդական շատրվան",
+      "notes_hy": "✈ 08:00 ժամանում, մինչև 14:00 ուսապարկերով՝ Plaça d’Espanya, Մոնժուիկ, ճաշ Las Arenas-ում։ 14:00 տուն (check-in)։\n🏛 Կեսօրից՝ Գաուդի. Գուելի տաղավարներ → Սագրադա Ֆամիլիա (ՆԵՐՍ՝ ամրագրել ~15:45–16:00 ժամը, 26 €) → Sant Pau → Casa Milà → Casa Batlló → Casa Calvet։ Ընթրիք՝ Passeig de Gràcia-ի մոտ։\n⛲ 21:15 Font Màgica (շոու ~21:30), հետո L3-ով տուն։",
+      "total_walk_km": 4.41,
       "stops": [
         {
           "id": "barcelona-24-01",
@@ -2078,13 +2743,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 0.25,
-            "min": 4,
+            "km": 0.35,
+            "min": 5,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "transfers_hy": "Ոտքով դեպի Avinguda de la Reina Maria Cristina՝ Մոնժուիկի ուղղությամբ (~4 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -2114,53 +2779,8 @@
           ]
         },
         {
-          "id": "barcelona-24-03",
-          "order": 3,
-          "kind": "food",
-          "name_hy": "La Tagliatella՝ Las Arenas",
-          "name_local": "La Tagliatella CC Las Arenas",
-          "lat": 41.37636,
-          "lon": 2.14931,
-          "description_hy": "Շաբաթվա ճաշի տարբերակ՝ հենց Plaça d’Espanya-ի մոտ։ 8 հոգու նստելը նախապես չի հաստատվել։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). կոնկրետ La Tagliatella Las Arenas հաստատության հրապարակված POI կետ, ոչ մուտքի դուռ։ Աղբյուր՝ https://es.aroundus.com/p/171650748-restaurant-la-tagliatella-cc.-las-arenas-barcelona",
-          "photo_spot_hy": "",
-          "visit_min": [
-            10,
-            25
-          ],
-          "hours_hy": "Շաբաթ 12:30–18:00 և 18:30–00:30 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, guia.barcelona.cat)",
-          "price_hy": "Պաստա/պիցցա ~13–16 € (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, carta.menu). Սեղան 8 հոգու համար՝ ☎ +34 933 256 949",
-          "photos": [
-            {
-              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-24-03.jpg",
-              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
-              "license": "Միայն խմբի մասնավոր օգտագործման համար",
-              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-24-03.jpg"
-            }
-          ],
-          "menu_url": "https://www.latagliatella.es/es/restaurantes/barcelona/cc-las-arenas-barcelona",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 0.9,
-            "min": 13,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
-            "ticket_hy": ""
-          },
-          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-          "sources": [
-            "https://www.latagliatella.es/es/restaurantes/barcelona/cc-las-arenas-barcelona",
-            "https://es.aroundus.com/p/171650748-restaurant-la-tagliatella-cc.-las-arenas-barcelona",
-            "https://guia.barcelona.cat/es/detall/restaurant-la-tagliatella-arenas_99400604192.html"
-          ]
-        },
-        {
           "id": "barcelona-24-04",
-          "order": 4,
+          "order": 3,
           "kind": "sight",
           "name_hy": "Մոնժուիկի ստորին այգիներ",
           "name_local": "Avinguda de la Reina Maria Cristina / Montjuïc",
@@ -2187,13 +2807,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 3.2,
-            "min": 46,
+            "km": 0.52,
+            "min": 7,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "transfers_hy": "Ոտքով հետ դեպի Las Arenas (~8 ր)՝ ճաշ։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -2220,7 +2840,90 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://thisisbarcelona.com/gastronomy/rooftops-and-terraces/mnac-terrace"
               }
+            },
+            {
+              "id": "pp-barcelona-24-04-2",
+              "name_hy": "Կախարդական շատրվանը ցերեկով",
+              "name_local": "Font Màgica de Montjuïc",
+              "lat": 41.37114,
+              "lon": 2.15154,
+              "what_hy": "Բուիգասի 1929-ի շատրվանը MNAC-ի աստիճանների տակ։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://thisisbarcelona.com/architecture/urban-spaces-and-elements/font-magica-de-montjuic"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://s7g10.scene7.com/is/image/barcelonaturisme/elements-urbans-font-magica-de-montjuic-barcelona-2?qlt=85&ts=1772726207299&dpr=off",
+                "author": "Turisme de Barcelona / Marta Vidal",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://thisisbarcelona.com/architecture/urban-spaces-and-elements/font-magica-de-montjuic"
+              }
+            },
+            {
+              "id": "pp-barcelona-24-04-3",
+              "name_hy": "Միս վան դեր Ռոեի տաղավար",
+              "name_local": "Pavelló Mies van der Rohe",
+              "lat": 41.37061,
+              "lon": 2.15016,
+              "what_hy": "1929-ի գերմանական տաղավարը՝ կանաչ մարմարե պատերով և ջրավազաններով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://thisisbarcelona.com/ca/arquitectura/cases-i-edificis-emblematics/pavello-mies-van-der-rohe"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://s7g10.scene7.com/is/image/barcelonaturisme/cases-i-edificis-emblematics-pavello-mies-van-der-rohe-barcelona-3?qlt=85&ts=1776086052709&dpr=off",
+                "author": "Turisme de Barcelona / Clemente Vergara",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://thisisbarcelona.com/ca/arquitectura/cases-i-edificis-emblematics/pavello-mies-van-der-rohe"
+              }
             }
+          ]
+        },
+        {
+          "id": "barcelona-24-03",
+          "order": 4,
+          "kind": "food",
+          "name_hy": "La Tagliatella՝ Las Arenas",
+          "name_local": "La Tagliatella CC Las Arenas",
+          "lat": 41.37636,
+          "lon": 2.14931,
+          "description_hy": "Շաբաթվա ճաշի տարբերակ՝ հենց Plaça d’Espanya-ի մոտ։ 8 հոգու նստելը նախապես չի հաստատվել։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). կոնկրետ La Tagliatella Las Arenas հաստատության հրապարակված POI կետ, ոչ մուտքի դուռ։ Աղբյուր՝ https://es.aroundus.com/p/171650748-restaurant-la-tagliatella-cc.-las-arenas-barcelona",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Շաբաթ 12:30–18:00 և 18:30–00:30 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, guia.barcelona.cat)",
+          "price_hy": "Պաստա/պիցցա ~13–16 € (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, carta.menu). Սեղան 8 հոգու համար՝ ☎ +34 933 256 949",
+          "photos": [
+            {
+              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-24-03.jpg",
+              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
+              "license": "Միայն խմբի մասնավոր օգտագործման համար",
+              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-24-03.jpg"
+            }
+          ],
+          "menu_url": "https://www.latagliatella.es/es/restaurantes/barcelona/cc-las-arenas-barcelona",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "L3",
+            "color": "կանաչ",
+            "direction": "Zona Universitària",
+            "get_off": "Maria Cristina",
+            "transfers_hy": "Espanya կայարանից L3 (կանաչ, ուղղություն՝ Zona Universitària) առանց փոխելու → Maria Cristina (5 կանգառ), ~14:00 տուն (check-in)։",
+            "ticket_hy": "T-familiar / T-casual"
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.latagliatella.es/es/restaurantes/barcelona/cc-las-arenas-barcelona",
+            "https://es.aroundus.com/p/171650748-restaurant-la-tagliatella-cc.-las-arenas-barcelona",
+            "https://guia.barcelona.cat/es/detall/restaurant-la-tagliatella-arenas_99400604192.html"
           ]
         },
         {
@@ -2244,15 +2947,15 @@
           "menu_prices_hy": "",
           "reviews_source": "",
           "to_next": {
-            "mode": "metro",
-            "km": null,
-            "min": null,
-            "line": "L3",
-            "color": "կանաչ",
-            "direction": "Trinitat Nova",
-            "get_off": "Passeig de Gràcia",
-            "transfers_hy": "Maria Cristina-ից L3 (կանաչ, ուղղություն՝ Trinitat Nova) առանց փոխելու → Passeig de Gràcia (Casa Batlló-ն 2 ր քայլք է)։",
-            "ticket_hy": "T-familiar մեկ գոտու կամ մեկանգամյա տոմս, ըստ մնացած երթերի"
+            "mode": "walk",
+            "km": 0.8,
+            "min": 11,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով ~1 կմ Av. de Pedralbes-ով դեպի Գուելի տաղավարները (~13 ր)։",
+            "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
@@ -2260,8 +2963,222 @@
           ]
         },
         {
-          "id": "barcelona-24-06",
+          "id": "barcelona-24-10",
           "order": 6,
+          "kind": "sight",
+          "name_hy": "Գաուդի · Գուելի տաղավարները (վիշապի դարպաս)",
+          "name_local": "Pavellons de la Finca Güell",
+          "lat": 41.38941,
+          "lon": 2.11942,
+          "description_hy": "Գաուդիի վաղ գործը՝ երկաթե վիշապով հայտնի դարպասով (Av. Pedralbes 7)։ Դարպասը երևում է փողոցից անվճար, ներսը բաց է միայն շաբաթ-կիրակի 10:00–16:00։ Տնից ~1 կմ։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            20,
+            40
+          ],
+          "hours_hy": "Շաբ., կիր. 10:00–16:00 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, thisisbarcelona)",
+          "price_hy": "Դարպասը՝ անվճար փողոցից. ներսի գինը ՉՍՏՈՒԳՎԱԾ (2022-ին՝ ~6 €)",
+          "photos": [
+            {
+              "url": "https://s7g10.scene7.com/is/image/barcelonaturisme/espais-urbans-pavellons-de-la-finca-guell-barcelona-5?qlt=85&ts=1780923713925&dpr=off",
+              "author": "© Turisme de Barcelona / Marta Vidal",
+              "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+              "source_page": "https://thisisbarcelona.com/architecture/houses-and-emblematic-buildings/pavellons-de-la-finca-guell"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "L3 + L5",
+            "color": "",
+            "direction": "Trinitat Nova (L3), ապա Vall d’Hebron (L5)",
+            "get_off": "Sagrada Família",
+            "transfers_hy": "Ոտքով Palau Reial կայարան (~4 ր), L3 (ուղղություն՝ Trinitat Nova) → Diagonal, փոխում ենք L5 (կապույտ, ուղղություն՝ Vall d’Hebron) → Sagrada Família (2 կանգառ)։ Մեկ տոմս։",
+            "ticket_hy": "T-familiar / T-casual"
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://thisisbarcelona.com/architecture/houses-and-emblematic-buildings/pavellons-de-la-finca-guell"
+          ]
+        },
+        {
+          "id": "barcelona-24-11",
+          "order": 7,
+          "kind": "sight",
+          "name_hy": "Գաուդի · Սագրադա Ֆամիլիա",
+          "name_local": "Basílica de la Sagrada Família",
+          "lat": 41.40395,
+          "lon": 2.17393,
+          "description_hy": "Գաուդիի գլխավոր գործը։ Ներս՝ միայն ժամով ամրագրված անվանական տոմսով, ԱՄՐԱԳՐԵԼ ՀԻՄԱ (առաջարկ՝ 15:45–16:00 ժամը)։ Շաբաթ փակվում է 18:00-ին։ Դրսից ճակատները՝ անվճար։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            75,
+            110
+          ],
+          "hours_hy": "Շաբաթ 09:00–18:00 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, meet.barcelona)",
+          "price_hy": "Բազիլիկ՝ 26 €, աշտարակներով՝ 36 € (ՀԱՍՏԱՏՎԱԾ sagradafamilia.org/en/prices). 8 × 26 € = 208 €",
+          "photos": [
+            {
+              "url": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/00_sagrada_familia.optimized.8f225be0.jpg",
+              "author": "Ajuntament de Barcelona / meet.barcelona",
+              "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+              "source_page": "https://www.meet.barcelona/en/visita-la-i-estima-la/punts-dinteres-de-la-ciutat/temple-expiatori-de-la-sagrada-familia-basilica-92086004491"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 1.24,
+            "min": 18,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով Avinguda de Gaudí-ով դեպի Sant Pau (~1,3 կմ, ~18 ր)։",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://sagradafamilia.org/en/prices"
+          ]
+        },
+        {
+          "id": "barcelona-24-12",
+          "order": 8,
+          "kind": "sight",
+          "name_hy": "Սանտ Պաու՝ մոդեռնիստական համալիր",
+          "name_local": "Sant Pau Recinte Modernista",
+          "lat": 41.41242,
+          "lon": 2.17576,
+          "description_hy": "Դոմենեկ ի Մոնտաների մոդեռնիստական հիվանդանոցային համալիրը (ՅՈՒՆԵՍԿՕ)՝ Սագրադա Ֆամիլիայից Av. Gaudí-ով ~1,3 կմ։ Պլանով՝ դրսից։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            15,
+            30
+          ],
+          "hours_hy": "Շաբաթ 09:30–18:30 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
+          "price_hy": "Դրսից՝ անվճար. ներս՝ 18 € (ընտրովի)",
+          "photos": [
+            {
+              "url": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/Sant_Pau.optimized.a3f427b3.jpg",
+              "author": "Ajuntament de Barcelona / meet.barcelona",
+              "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+              "source_page": "https://www.meet.barcelona/en/visit-and-love-it/points-interest-city/sant-pau-recinte-modernista-92086008873"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "L5",
+            "color": "",
+            "direction": "Cornellà Centre",
+            "get_off": "Diagonal",
+            "transfers_hy": "Sant Pau | Dos de Maig կայարանից L5 (կապույտ, ուղղություն՝ Cornellà Centre) → Diagonal (4 կանգառ)։ Casa Milà-ն կայարանից 100 մ է։",
+            "ticket_hy": "T-familiar / T-casual"
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.meet.barcelona/en/visit-and-love-it/points-interest-city/sant-pau-recinte-modernista-92086008873"
+          ]
+        },
+        {
+          "id": "barcelona-24-07",
+          "order": 9,
+          "kind": "sight",
+          "name_hy": "Կասա Միլայի արտաքին դիտում",
+          "name_local": "Casa Milà (La Pedrera)",
+          "lat": 41.39519,
+          "lon": 2.16178,
+          "description_hy": "Դիտել ալիքաձև քարի ճակատը և պատշգամբները Passeig de Gràcia-ից։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Casa Milà շենքի OSM օբյեկտի կետ։ Աղբյուր՝ https://mapcarta.com/La_Pedrera_-_Casa_Mil%C3%A0_R8974896",
+          "photo_spot_hy": "Passeig de Gràcia անկյունից",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Ճակատը՝ փողոցից անվճար. ներս՝ 29 € (Essential), ժամերը՝ ըստ ամրագրման օրացույցի (ՀԱՍՏԱՏՎԱԾ lapedrera.com (ստուգված 18.10.2026))",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Casa_Mil%C3%A0%2C_general_view.jpg",
+              "author": "Thomas Ledl",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0,_general_view.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.62,
+            "min": 9,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով Passeig de Gràcia-ով ներքև (~500 մ, ~7 ր) դեպի Casa Batlló։",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://mapcarta.com/La_Pedrera_-_Casa_Mil%C3%A0_R8974896",
+            "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0,_general_view.jpg",
+            "https://www.lapedrera.com/en/tickets/la-pedrera-essential/"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-24-07-1",
+              "name_hy": "Կասա Միլայի արտաքին անկյունային դիտակետ",
+              "name_local": "Passeig de Gràcia – Casa Milà (La Pedrera)",
+              "lat": 41.394536,
+              "lon": 2.161636,
+              "what_hy": "Պողոտայի հանրային մայթից կարելի է ընդգրկել La Pedrera-ի ալիքաձև քարե ճակատն ու անկյունը։ Կետը լուսանկարի camera location-ն է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_North_on_Casa_Mil%C3%A0_%27La_Pedrera%27_1906-10_Antoni_Gaud%C3%AD.jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_North_on_Casa_Mil%C3%A0_%27La_Pedrera%27_1906-10_Antoni_Gaud%C3%AD.jpg",
+                "author": "Txllxt TxllxT",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_North_on_Casa_Mil%C3%A0_%27La_Pedrera%27_1906-10_Antoni_Gaud%C3%AD.jpg"
+              }
+            },
+            {
+              "id": "pp-barcelona-24-07-2",
+              "name_hy": "Կասա Կոմալատ",
+              "name_local": "Casa Comalat",
+              "lat": 41.39711,
+              "lon": 2.16069,
+              "what_hy": "1911-ի մոդեռնիստական տուն՝ ալիքաձև ճակատով և գունավոր փայտե պատշգամբներով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://thisisbarcelona.com/architecture/houses-and-emblematic-buildings/casa-comalat"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://thisisbarcelona.com/content/dam/web-this-is/poi/cases-i-edificis-emblematics/casa-comalat/imatges/cases-i-edificis-emblematics-casa-comalat-barcelona-1.jpg",
+                "author": "Turisme de Barcelona",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://thisisbarcelona.com/architecture/houses-and-emblematic-buildings/casa-comalat"
+              }
+            }
+          ]
+        },
+        {
+          "id": "barcelona-24-06",
+          "order": 10,
           "kind": "sight",
           "name_hy": "Կասա Բատյոյի արտաքին դիտում",
           "name_local": "Casa Batlló",
@@ -2288,13 +3205,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 0.7,
-            "min": 10,
+            "km": 0.88,
+            "min": 13,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "transfers_hy": "Ոտքով ~800 մ (~11 ր) դեպի Casa Calvet (Carrer de Casp 48)։ Ընթրիք՝ ճանապարհին կամ մոտակայքում։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -2341,122 +3258,136 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://thisisbarcelona.com/tickets/casa-amatller"
               }
+            },
+            {
+              "id": "pp-barcelona-24-06-3",
+              "name_hy": "Կասա Լեո ի Մորերա",
+              "name_local": "Casa Lleó i Morera",
+              "lat": 41.39115,
+              "lon": 2.16544,
+              "what_hy": "Դոմենեկ ի Մոնտաների շենքը «Վեճի թաղամասի» անկյունում։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://barcelonanavigator.com/casa-lleo-i-morera/"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://barcelonanavigator.com/wp-content/uploads/2015/05/Casa-Lle%C3%B3-i-Morera-Exterior.jpg",
+                "author": "Barcelona Navigator",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://barcelonanavigator.com/casa-lleo-i-morera/"
+              }
+            },
+            {
+              "id": "pp-barcelona-24-06-4",
+              "name_hy": "Տապիեսի հիմնադրամ",
+              "name_local": "Fundació Antoni Tàpies",
+              "lat": 41.39162,
+              "lon": 2.16366,
+              "what_hy": "Աղյուսե շենք՝ տանիքին մետաղալարե «Ամպ և աթոռ» քանդակով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://aroundus.com/p/10144844-tapies-museum"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img7.digsty.com/A-A8hl4ETAwCzVF3se8CpTYHEXUnLppo4bustHVbpFk/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xODM2MTEyOTgtYWM4MGI4ZTMuanBn.jpg",
+                "author": "Canaan, CC BY-SA",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/10144844-tapies-museum"
+              }
             }
           ]
         },
         {
-          "id": "barcelona-24-07",
-          "order": 7,
+          "id": "barcelona-24-13",
+          "order": 11,
           "kind": "sight",
-          "name_hy": "Կասա Միլայի արտաքին դիտում",
-          "name_local": "Casa Milà (La Pedrera)",
-          "lat": 41.39519,
-          "lon": 2.16178,
-          "description_hy": "Դիտել ալիքաձև քարի ճակատը և պատշգամբները Passeig de Gràcia-ից։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Casa Milà շենքի OSM օբյեկտի կետ։ Աղբյուր՝ https://mapcarta.com/La_Pedrera_-_Casa_Mil%C3%A0_R8974896",
-          "photo_spot_hy": "Passeig de Gràcia անկյունից",
+          "name_hy": "Գաուդի · Կասա Կալվետ",
+          "name_local": "Casa Calvet, Carrer de Casp 48",
+          "lat": 41.39091,
+          "lon": 2.17296,
+          "description_hy": "Գաուդիի բարոկկո ոճի բնակելի շենքը. դիտում ենք ճակատը փողոցից (ներսը փակ է, բացի առաջին հարկի ռեստորանից)։",
+          "photo_spot_hy": "",
           "visit_min": [
             10,
-            25
+            15
           ],
-          "hours_hy": "Ճակատը՝ փողոցից անվճար. ներս՝ 29 € (Essential), ժամերը՝ ըստ ամրագրման օրացույցի (ՀԱՍՏԱՏՎԱԾ lapedrera.com (ստուգված 18.10.2026))",
-          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "hours_hy": "Ճակատը՝ ցանկացած ժամի",
+          "price_hy": "Անվճար",
           "photos": [
             {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Casa_Mil%C3%A0%2C_general_view.jpg",
-              "author": "Thomas Ledl",
-              "license": "CC BY-SA 4.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0,_general_view.jpg"
+              "url": "https://thisisbarcelona.com/content/dam/web-this-is/poi/cases-i-edificis-emblematics/casa-calvet/imatges/cases-i-edificis-emblematics-casa-calvet-barcelona-1.jpg",
+              "author": "thisisbarcelona.com",
+              "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+              "source_page": "https://thisisbarcelona.com/architecture/houses-and-emblematic-buildings/casa-calvet"
             }
           ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
           "to_next": {
-            "mode": "walk",
-            "km": 2.7,
-            "min": 39,
-            "line": "",
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "L3",
             "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
-            "ticket_hy": ""
+            "direction": "Zona Universitària",
+            "get_off": "Espanya",
+            "transfers_hy": "Ոտքով Passeig de Gràcia կայարան (~6 ր), L3 (կանաչ, ուղղություն՝ Zona Universitària) → Espanya, ոտքով ~600 մ շատրվան։ Գալ ~21:15։",
+            "ticket_hy": "T-familiar / T-casual"
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
-            "https://mapcarta.com/La_Pedrera_-_Casa_Mil%C3%A0_R8974896",
-            "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0,_general_view.jpg",
-            "https://www.lapedrera.com/en/tickets/la-pedrera-essential/"
-          ],
-          "photo_points": [
-            {
-              "id": "pp-barcelona-24-07-1",
-              "name_hy": "Կասա Միլայի արտաքին անկյունային դիտակետ",
-              "name_local": "Passeig de Gràcia – Casa Milà (La Pedrera)",
-              "lat": 41.394536,
-              "lon": 2.161636,
-              "what_hy": "Պողոտայի հանրային մայթից կարելի է ընդգրկել La Pedrera-ի ալիքաձև քարե ճակատն ու անկյունը։ Կետը լուսանկարի camera location-ն է։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://commons.wikimedia.org/wiki/File:Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_North_on_Casa_Mil%C3%A0_%27La_Pedrera%27_1906-10_Antoni_Gaud%C3%AD.jpg"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_North_on_Casa_Mil%C3%A0_%27La_Pedrera%27_1906-10_Antoni_Gaud%C3%AD.jpg",
-                "author": "Txllxt TxllxT",
-                "license": "CC BY-SA 4.0",
-                "source_page": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_North_on_Casa_Mil%C3%A0_%27La_Pedrera%27_1906-10_Antoni_Gaud%C3%AD.jpg"
-              }
-            }
+            "https://thisisbarcelona.com/architecture/houses-and-emblematic-buildings/casa-calvet"
           ]
         },
         {
-          "id": "barcelona-24-08",
-          "order": 8,
-          "kind": "food",
-          "name_hy": "Faborit L’illa Diagonal",
-          "name_local": "Faborit L’illa Diagonal",
-          "lat": 41.38954,
-          "lon": 2.13519,
-          "description_hy": "Թեթև երեկոյան սնունդ Maria Cristina տան ուղղությամբ։ Նստեցումն ու ճշգրիտ մենյուի գինը ՉՍՏՈՒԳՎԱԾ են։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). L’illa Diagonal առևտրի կենտրոնի կետ՝ Faborit-ի շենքը. ռեստորանի ճշգրիտ դուռը չստուգված։ Աղբյուր՝ https://mapcarta.com/es/W653590486",
+          "id": "barcelona-24-14",
+          "order": 12,
+          "kind": "sight",
+          "name_hy": "Կախարդական շատրվան (երեկոյան շոու)",
+          "name_local": "Font Màgica de Montjuïc",
+          "lat": 41.37115,
+          "lon": 2.15176,
+          "description_hy": "Լույսի և երաժշտության շոու. հոկտեմբերին՝ չորեքշաբթի–կիրակի։ Պաշտոնական ուղեցույցով շոուները 21:30 և 22:00 են (betevé-ն գրում է 21:00 և 21:30՝ ՀԱԿԱՍՈՒԹՅՈՒՆ). գալ ~21:15։ Espanya մետրոյից ~600 մ։",
           "photo_spot_hy": "",
           "visit_min": [
-            10,
-            25
+            30,
+            60
           ],
-          "hours_hy": "Շաբաթ 09:00–20:00 (ՀԱՍՏԱՏՎԱԾ faborit.com (ստուգված 18.10.2026))՝ հասնել մինչև ~19:30",
-          "price_hy": "Սուրճ/սենդվիչ/աղցան. գները պաշտոնական էջում չկան (ՉՍՏՈՒԳՎԱԾ)",
+          "hours_hy": "Շաբաթ ~21:30–22:30 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, guia.barcelona.cat)",
+          "price_hy": "Անվճար",
           "photos": [
             {
-              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-24-08.jpg",
-              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
-              "license": "Միայն խմբի մասնավոր օգտագործման համար",
-              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-24-08.jpg"
+              "url": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/2015051-2-3-2-6-266-267-DISE-Vista-nocturna-del-Palau-Nacional-10-05-13-ALB.optimized.d123867e.jpg",
+              "author": "Ajuntament de Barcelona / meet.barcelona",
+              "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+              "source_page": "https://guia.barcelona.cat/en/detall/lighting-schedule-font-magica-fonts-de-montjuic_99400787700.html"
             }
           ],
-          "menu_url": "https://www.faborit.com/establecimientos-faborit/faborit-illa-diagonal/",
+          "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
           "to_next": {
-            "mode": "walk",
-            "km": 1.3,
-            "min": 19,
-            "line": "",
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "L3",
             "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
-            "ticket_hy": ""
+            "direction": "Zona Universitària",
+            "get_off": "Maria Cristina",
+            "transfers_hy": "🏠 Տուն. ոտքով Espanya կայարան (~8 ր), L3 (ուղղություն՝ Zona Universitària) → Maria Cristina (5 կանգառ), ~9 ր քայլք։",
+            "ticket_hy": "T-familiar / T-casual"
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
-            "https://www.faborit.com/establecimientos-faborit/faborit-illa-diagonal/",
-            "https://mapcarta.com/es/W653590486"
+            "https://guia.barcelona.cat/en/detall/lighting-schedule-font-magica-fonts-de-montjuic_99400787700.html"
           ]
         },
         {
           "id": "barcelona-24-09",
-          "order": 9,
+          "order": 13,
           "kind": "home",
           "name_hy": "Վերադարձ դեպի Maria Cristina",
           "name_local": "Maria Cristina",
@@ -2493,9 +3424,9 @@
     {
       "date": "2026-10-25",
       "city": "barcelona",
-      "title_hy": "Կիրակնօրյա Գոթական թաղամաս, MUHBA, ծովափ",
-      "notes_hy": "⏰ Այս գիշեր ժամացույցները 1 ժամ հետ են տրվում (03:00 → 02:00)։ Նախաճաշը՝ տանը (Faborit-ը կիրակի փակ է)։ MUHBA՝ 15:00-ից անվճար։ Ճաշ՝ La Fonda (ամրագրել)։ Wizz-ի առցանց գրանցումը անել այսօր։",
-      "total_walk_km": 8.03,
+      "title_hy": "Գաուդի և հին քաղաք. Գուել պարկ, Վիսենս, Գուել պալատ, Գոթական թաղամաս, Բորն, ծով",
+      "notes_hy": "⏰ Այս գիշեր ժամացույցները 1 ժամ հետ են տրվում (03:00 → 02:00)։ Նախաճաշը՝ տանը։\n🏛 Park Güell (ամրագրել 10:00 ժամը, 18 €) → Casa Vicens → Catalunya → La Rambla → Palau Güell (ամրագրել ~12:00, 15 €) → Plaça Reial (Գաուդիի լապտերներ) → ճաշ La Fonda (ամրագրել) → Sant Jaume → տաճար → Plaça del Rei → MUHBA (15:00-ից անվճար) → Santa Maria del Mar → Ցիտադելի կասկադ → Բարսելոնետա → Port Vell → L3 տուն։\nWizz-ի առցանց գրանցումը անել այսօր (մինչև 26.10 07:00)։",
+      "total_walk_km": 8.26,
       "stops": [
         {
           "id": "barcelona-25-01",
@@ -2518,44 +3449,87 @@
           "menu_prices_hy": "",
           "reviews_source": "",
           "to_next": {
-            "mode": "walk",
-            "km": 0.9,
-            "min": 13,
-            "line": "",
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "L3",
             "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
-            "ticket_hy": ""
+            "direction": "Trinitat Nova",
+            "get_off": "Vallcarca",
+            "transfers_hy": "Maria Cristina-ից L3 (կանաչ, ուղղություն՝ Trinitat Nova) → Vallcarca, ոտքով ~1,2 կմ վերելք (շարժասանդուղքներ Baixada de la Glòria-ում) դեպի Park Güell։ Դուրս գալ ~09:00՝ 10:00-ի մուտքի համար։",
+            "ticket_hy": "T-familiar / T-casual"
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
           "sources": []
         },
         {
-          "id": "barcelona-25-02",
+          "id": "barcelona-25-14",
           "order": 2,
-          "kind": "food",
-          "name_hy": "Faborit L’illa Diagonal՝ նախաճաշ",
-          "name_local": "Faborit L’illa Diagonal",
-          "lat": 41.38954,
-          "lon": 2.13519,
-          "description_hy": "⚠ ԿԻՐԱԿԻ ՓԱԿ Է. Faborit L’illa Diagonal-ը կիրակի և տոն օրերին չի աշխատում (ՀԱՍՏԱՏՎԱԾ faborit.com (ստուգված 18.10.2026))։ Նախաճաշը արեք տանը կամ ճանապարհին՝ բաց սրճարանում, կամ սկսեք օրը անմիջապես Plaça de Catalunya-ից։",
+          "kind": "sight",
+          "name_hy": "Գաուդի · Գուել պարկ",
+          "name_local": "Park Güell",
+          "lat": 41.41449,
+          "lon": 2.1527,
+          "description_hy": "Գաուդիի խճանկարային պարկը. մոնումենտալ գոտին՝ միայն ժամով ամրագրմամբ, ԱՄՐԱԳՐԵԼ ՀԻՄԱ (առաջարկ՝ 10:00 ժամը, ուշանալ կարելի է մինչև 30 ր)։ Vallcarca մետրոյից ~1,2 կմ վերելք՝ շարժասանդուղքներով։ Մուտք՝ Carretera del Carmel 23 կամ Baixada de la Glòria։",
           "photo_spot_hy": "",
           "visit_min": [
-            10,
-            25
+            75,
+            100
           ],
-          "hours_hy": "ԿԻՐԱԿԻ ՓԱԿ (երկ.–ուրբ. 08:00–20:00, շաբ. 09:00–20:00)",
-          "price_hy": "Կիրակի փակ է",
+          "hours_hy": "Ժամային մուտքեր 09:30–19:30 (ՀԱՍՏԱՏՎԱԾ parkguell.barcelona)",
+          "price_hy": "18 € մեծահասակ (ՀԱՍՏԱՏՎԱԾ). 8 × 18 € = 144 €",
           "photos": [
             {
-              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-24-08.jpg",
-              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
-              "license": "Միայն խմբի մասնավոր օգտագործման համար",
-              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-24-08.jpg"
+              "url": "https://s7g10.scene7.com/is/image/barcelonaturisme/espais-urbans-park-guell-barcelona-5?qlt=85&ts=1771964884346&dpr=off",
+              "author": "© Turisme de Barcelona / Marta Vidal",
+              "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+              "source_page": "https://parkguell.barcelona/en/planning-your-visit/prices-and-times"
             }
           ],
-          "menu_url": "https://www.faborit.com/establecimientos-faborit/faborit-illa-diagonal/",
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 1.6,
+            "min": 23,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով ներքև Gràcia-ով դեպի Casa Vicens (~1,5 կմ, ~20 ր)։",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://parkguell.barcelona/en/planning-your-visit/prices-and-times"
+          ]
+        },
+        {
+          "id": "barcelona-25-15",
+          "order": 3,
+          "kind": "sight",
+          "name_hy": "Գաուդի · Կասա Վիսենս",
+          "name_local": "Casa Vicens",
+          "lat": 41.40354,
+          "lon": 2.15059,
+          "description_hy": "Գաուդիի առաջին տունը՝ գունավոր սալիկներով (Gràcia)։ Դրսից՝ անվճար, ներս՝ ընտրովի (~1 ժ)։ Fontana մետրոյից ~250 մ։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            15,
+            30
+          ],
+          "hours_hy": "Ամեն օր 09:30–20:00 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, meet.barcelona)",
+          "price_hy": "Դրսից՝ անվճար. ներս՝ ~21–22 € (ՀԱԿԱՍՈՒԹՅՈՒՆ աղբյուրներում)",
+          "photos": [
+            {
+              "url": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/201505casa-vicens.optimized.f4b4e3b3.jpg",
+              "author": "Ajuntament de Barcelona / meet.barcelona",
+              "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+              "source_page": "https://www.meet.barcelona/en/visit-and-love-it/points-interest-city/casa-vicens-92086008808"
+            }
+          ],
+          "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
           "to_next": {
@@ -2563,21 +3537,20 @@
             "km": null,
             "min": null,
             "line": "L3",
-            "color": "կանաչ",
-            "direction": "Trinitat Nova",
+            "color": "",
+            "direction": "Zona Universitària",
             "get_off": "Catalunya",
-            "transfers_hy": "Maria Cristina-ից L3 (կանաչ, ուղղություն՝ Trinitat Nova) առանց փոխելու → Catalunya։ Faborit-ը կիրակի փակ է՝ ուղղակի գնում ենք մետրո։",
-            "ticket_hy": "T-familiar 1 գոտու պայմաններով"
+            "transfers_hy": "Fontana կայարանից (~250 մ) L3 (ուղղություն՝ Zona Universitària) → Catalunya (4 կանգառ)։",
+            "ticket_hy": "T-familiar / T-casual"
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
-            "https://www.faborit.com/establecimientos-faborit/faborit-illa-diagonal/",
-            "https://mapcarta.com/es/W653590486"
+            "https://www.meet.barcelona/en/visit-and-love-it/points-interest-city/casa-vicens-92086008808"
           ]
         },
         {
           "id": "barcelona-25-03",
-          "order": 3,
+          "order": 4,
           "kind": "sight",
           "name_hy": "Կատալոնիայի հրապարակ",
           "name_local": "Plaça de Catalunya",
@@ -2604,13 +3577,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 0.85,
-            "min": 12,
+            "km": 0.93,
+            "min": 13,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "transfers_hy": "Ոտքով La Rambla-ով ներքև (Canaletes շատրվանից սկսած)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -2636,12 +3609,31 @@
                 "license": "CC BY-SA 3.0",
                 "source_page": "https://commons.wikimedia.org/wiki/File:Spain.Barcelona.Plaza.Catalunya.jpg"
               }
+            },
+            {
+              "id": "pp-barcelona-25-03-2",
+              "name_hy": "Կանալետես շատրվան",
+              "name_local": "Font de Canaletes",
+              "lat": 41.38515,
+              "lon": 2.1702,
+              "what_hy": "Ռամբլայի սկզբի շատրվանը. ով խմում է, վերադառնում է Բարսելոնա։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://thisisbarcelona.com/ca/arquitectura/espais-i-elements-urbans/font-de-canaletes"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://thisisbarcelona.com/content/dam/web-this-is/poi/elements-urbans/font-de-canaletes/imatges/elements-urbans-font-de-canaletes-barcelona-1.jpg",
+                "author": "Ajuntament de Barcelona",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://thisisbarcelona.com/ca/arquitectura/espais-i-elements-urbans/font-de-canaletes"
+              }
             }
           ]
         },
         {
           "id": "barcelona-25-04",
-          "order": 4,
+          "order": 5,
           "kind": "sight",
           "name_hy": "Լա Ռամբլա",
           "name_local": "La Rambla",
@@ -2668,13 +3660,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 1.0,
-            "min": 14,
+            "km": 0.35,
+            "min": 5,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "transfers_hy": "Ոտքով Rambla-ով մինչև Carrer Nou de la Rambla (~5 ր)՝ Palau Güell։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -2700,12 +3692,222 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://barcelonalowdown.com/la-boqueria-food-market/"
               }
+            },
+            {
+              "id": "pp-barcelona-25-04-2",
+              "name_hy": "Հովանոցների տուն",
+              "name_local": "Casa Bruno Cuadros (Casa dels Paraigües)",
+              "lat": 41.38141,
+              "lon": 2.17335,
+              "what_hy": "Ռամբլայի նախկին հովանոցների խանութ՝ բաց հովանոցներով և վիշապով ճակատ։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://thisisbarcelona.com/architecture/houses-and-emblematic-buildings/casa-bruno-cuadros"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://s7g10.scene7.com/is/image/barcelonaturisme/cases-i-edificis-emblematics-casa-bruno-cuadros-barcelona-3?qlt=85&ts=1771503187291&dpr=off",
+                "author": "Album Zoonar / Imago",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://thisisbarcelona.com/architecture/houses-and-emblematic-buildings/casa-bruno-cuadros"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-04-3",
+              "name_hy": "Սանտա Մարիա դել Պի",
+              "name_local": "Basílica de Santa Maria del Pi / Plaça del Pi",
+              "lat": 41.38224,
+              "lon": 2.17392,
+              "what_hy": "Գոթական բազիլիկ՝ հսկա վարդյակ պատուհանով, աշխույժ հրապարակի վրա։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://thisisbarcelona.com/architecture/religious-heritage/basilica-de-santa-maria-del-pi"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://thisisbarcelona.com/content/dam/web-this-is/poi/patrimoni-religios/basilica-de-santa-maria-del-pi/imatges/patrimoni-religios-basilica-de-santa-maria-del-pi-barcelona-1.jpg",
+                "author": "Album Alamy",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://thisisbarcelona.com/architecture/religious-heritage/basilica-de-santa-maria-del-pi"
+              }
+            }
+          ]
+        },
+        {
+          "id": "barcelona-25-16",
+          "order": 6,
+          "kind": "sight",
+          "name_hy": "Գաուդի · Գուել պալատ",
+          "name_local": "Palau Güell, Carrer Nou de la Rambla 3-5",
+          "lat": 41.37909,
+          "lon": 2.17444,
+          "description_hy": "Գաուդիի պալատը La Rambla-ի մոտ՝ գունավոր ծխնելույզներով տանիքով։ Ներս՝ օրով և ժամով առցանց ամրագրմամբ (առաջարկ՝ ~12:00)։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            45,
+            75
+          ],
+          "hours_hy": "Կիրակի 10:00–20:00, երկուշաբթի փակ (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
+          "price_hy": "15 € (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ). 8 × 15 € = 120 €. Դրսից՝ անվճար",
+          "photos": [
+            {
+              "url": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/201505palau-guell.optimized.221c54ec.jpg",
+              "author": "Ajuntament de Barcelona / meet.barcelona",
+              "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+              "source_page": "https://www.palauguell.cat/en"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.2,
+            "min": 3,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով Plaça Reial-ով (Գաուդիի լապտերները) դեպի La Fonda (Escudellers 10, ~3 ր)՝ ճաշ ~13:15։",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.palauguell.cat/en",
+            "https://www.meet.barcelona/en/visit-and-love-it/points-interest-city/palau-guell-92086008810"
+          ]
+        },
+        {
+          "id": "barcelona-25-09",
+          "order": 7,
+          "kind": "food",
+          "name_hy": "La Fonda՝ ուշ ճաշ",
+          "name_local": "La Fonda",
+          "lat": 41.37936,
+          "lon": 2.17621,
+          "description_hy": "Հրապարակված երկրորդային մենյուի օրինակներով՝ մատչելի ճաշի տարբերակ, ունի խմբային սրահներ. 8 հոգու սեղանը ամրագրել TheFork-ով կամ ☎ +34 933 01 75 15 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ (ստուգված 18.10.2026))։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). La Fonda նույնանուն ռեստորանի հրապարակված POI կետ՝ հանրային հասցեի մոտ։ Աղբյուր՝ https://findit.city/en/spain/barcelona/places/restaurants/la-fonda-3761312382",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Կիրակի 12:30–23:00՝ երկրորդային տեղեկությամբ",
+          "price_hy": "Հրապարակված օրինակներ՝ 5,25–11,95 €, 2025 տվյալներով",
+          "photos": [
+            {
+              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-25-09.jpg",
+              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
+              "license": "Միայն խմբի մասնավոր օգտագործման համար",
+              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-25-09.jpg"
+            }
+          ],
+          "menu_url": "https://www.thefork.es/restaurante/la-fonda-r618809/menu",
+          "menu_prices_hy": "TheFork (մենյուի փոփոխություն 06.08.2025). Gazpacho 5,25 €, Pasta bolognese 9,40 €, Arroz con pollo 11,95 € (որոշ ուտեստներ նվազագույն 2 պատվեր)",
+          "reviews_source": "https://www.thefork.es/restaurante/la-fonda-r618809/menu",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.49,
+            "min": 7,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով դեպի Plaça Sant Jaume (~400 մ, ~6 ր)։",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.thefork.es/restaurante/la-fonda-r618809/menu",
+            "https://findit.city/en/spain/barcelona/places/restaurants/la-fonda-3761312382",
+            "https://www.thefork.es/restaurante/la-fonda-r618809"
+          ]
+        },
+        {
+          "id": "barcelona-25-06",
+          "order": 8,
+          "kind": "sight",
+          "name_hy": "Սանտ Ժաումեի հրապարակ",
+          "name_local": "Plaça Sant Jaume",
+          "lat": 41.382681,
+          "lon": 2.176982,
+          "description_hy": "Դիտել միջնադարյան կենտրոնի կարևոր քաղաքացիական ճակատները։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Plaça Sant Jaume-ի կենտրոնական կետ։ Աղբյուր՝ https://fr.wikipedia.org/wiki/Place_Sant_Jaume",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Pla%C3%A7a_de_Sant_Jaume_%283400690254%29.jpg",
+              "author": "Serge Melki",
+              "license": "CC BY 2.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Pla%C3%A7a_de_Sant_Jaume_%283400690254%29.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.19,
+            "min": 3,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով Carrer del Bisbe-ով (Եպիսկոպոսի կամուրջ) դեպի տաճար (~2 ր)։",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://fr.wikipedia.org/wiki/Place_Sant_Jaume"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-25-06-1",
+              "name_hy": "Թագավորական հրապարակ",
+              "name_local": "Plaça Reial",
+              "lat": 41.38019,
+              "lon": 2.17552,
+              "what_hy": "Կամարներով հրապարակ արմավենիներով, շատրվանով և Գաուդիի վաղ լապտերներով՝ La Fonda-ի ճանապարհին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://barcelonanavigator.com/placa-reial/"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://barcelonanavigator.com/wp-content/uploads/2026/07/Lampost-1-1024x683.jpg",
+                "author": "© barcelonanavigator.com",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://barcelonanavigator.com/placa-reial/"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-06-2",
+              "name_hy": "Սանտ Ժուստ հրապարակ",
+              "name_local": "Plaça de Sant Just",
+              "lat": 41.38287,
+              "lon": 2.17842,
+              "what_hy": "Հանգիստ միջնադարյան հրապարակ գոթական շատրվանով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://questoapp.com/fr/barcelona/places-to-visit/placa-de-sant-just"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://api.questoapp.com/image/quests/604009159a76858b7810e8bf/pictures/3eba05c4-5412-4c30-9e6d-75b4a56e8461.jpeg",
+                "author": "Questo",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://questoapp.com/fr/barcelona/places-to-visit/placa-de-sant-just"
+              }
             }
           ]
         },
         {
           "id": "barcelona-25-05",
-          "order": 5,
+          "order": 9,
           "kind": "sight",
           "name_hy": "Գոթական թաղամաս՝ տաճարի արտաքին",
           "name_local": "Catedral de Barcelona / Barri Gòtic",
@@ -2732,13 +3934,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 0.65,
-            "min": 9,
+            "km": 0.12,
+            "min": 2,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "transfers_hy": "Ոտքով դեպի Plaça del Rei (~2 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -2766,76 +3968,69 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://barcelonalowdown.com/bishops-bridge/"
               }
-            }
-          ]
-        },
-        {
-          "id": "barcelona-25-06",
-          "order": 6,
-          "kind": "sight",
-          "name_hy": "Սանտ Ժաումեի հրապարակ",
-          "name_local": "Plaça Sant Jaume",
-          "lat": 41.382681,
-          "lon": 2.176982,
-          "description_hy": "Դիտել միջնադարյան կենտրոնի կարևոր քաղաքացիական ճակատները։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Plaça Sant Jaume-ի կենտրոնական կետ։ Աղբյուր՝ https://fr.wikipedia.org/wiki/Place_Sant_Jaume",
-          "photo_spot_hy": "",
-          "visit_min": [
-            10,
-            25
-          ],
-          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [
+            },
             {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Pla%C3%A7a_de_Sant_Jaume_%283400690254%29.jpg",
-              "author": "Serge Melki",
-              "license": "CC BY 2.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Pla%C3%A7a_de_Sant_Jaume_%283400690254%29.jpg"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 0.3,
-            "min": 4,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
-            "ticket_hy": ""
-          },
-          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-          "sources": [
-            "https://fr.wikipedia.org/wiki/Place_Sant_Jaume"
-          ],
-          "photo_points": [
-            {
-              "id": "pp-barcelona-25-06-1",
-              "name_hy": "Թագավորական հրապարակ",
-              "name_local": "Plaça Reial",
-              "lat": 41.38019,
-              "lon": 2.17552,
-              "what_hy": "Կամարներով հրապարակ արմավենիներով, շատրվանով և Գաուդիի վաղ լապտերներով՝ La Fonda-ի ճանապարհին։",
+              "id": "pp-barcelona-25-05-2",
+              "name_hy": "BARCINO տառեր",
+              "name_local": "Barcino (Joan Brossa) – Plaça Nova",
+              "lat": 41.38423,
+              "lon": 2.1754,
+              "what_hy": "Հսկա «BARCINO» տառերը հռոմեական աշտարակների մոտ, տաճարի դիմաց։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://barcelonanavigator.com/placa-reial/"
+                "https://thisisbarcelona.com/arts-and-design/visual-arts/monuments-and-sculptures/barcino-joan-brossa"
               ],
               "checked": "2026-10-18",
               "photo": {
-                "url": "https://barcelonanavigator.com/wp-content/uploads/2026/07/Lampost-1-1024x683.jpg",
-                "author": "© barcelonanavigator.com",
+                "url": "https://s7g10.scene7.com/is/image/barcelonaturisme/monuments-i-escultures-barcino-de-joan-brossa-barcelona-2?qlt=85&ts=1776352790372&dpr=off",
+                "author": "Turisme de Barcelona / Antonio Lajusticia Bueno",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://barcelonanavigator.com/placa-reial/"
+                "source_page": "https://thisisbarcelona.com/arts-and-design/visual-arts/monuments-and-sculptures/barcino-joan-brossa"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-05-3",
+              "name_hy": "Els Quatre Gats",
+              "name_local": "Els Quatre Gats (Casa Martí)",
+              "lat": 41.38574,
+              "lon": 2.17364,
+              "what_hy": "Մոդեռնիստական սրճարան, որտեղ Պիկասոն ունեցավ իր առաջին ցուցահանդեսը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/Lsq4AFgoI00Haz-U"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d383134333536353738",
+                "author": "Susan Barber, CC BY 4.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/Lsq4AFgoI00Haz-U"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-05-4",
+              "name_hy": "Կատալոնական երաժշտության պալատ",
+              "name_local": "Palau de la Música Catalana",
+              "lat": 41.38755,
+              "lon": 2.17517,
+              "what_hy": "ՅՈՒՆԵՍԿՕ-ի համերգասրահ՝ քանդակազարդ անկյունային ճակատով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://passporterapp.com/en/blog/spain/palau-de-la-musica-catalana/"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://i0.wp.com/passporterapp.com/en/blog/wp-content/uploads/2022/01/palau-de-la-musica-catalana.jpg",
+                "author": "passporterapp.com",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://passporterapp.com/en/blog/spain/palau-de-la-musica-catalana/"
               }
             }
           ]
         },
         {
           "id": "barcelona-25-07",
-          "order": 7,
+          "order": 10,
           "kind": "sight",
           "name_hy": "Թագավորական հրապարակ",
           "name_local": "Plaça del Rei",
@@ -2862,13 +4057,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 0.08,
+            "km": 0.05,
             "min": 1,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "transfers_hy": "MUHBA-ն նույն հրապարակում է. մտնել 15:00-ից՝ անվճար։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -2894,12 +4089,31 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://thisisbarcelona.com/architecture/urban-spaces-and-elements/placa-de-sant-felip-neri"
               }
+            },
+            {
+              "id": "pp-barcelona-25-07-2",
+              "name_hy": "Ռամոն Բերենգեր Մեծի հրապարակ",
+              "name_local": "Plaça de Ramon Berenguer el Gran",
+              "lat": 41.38448,
+              "lon": 2.17779,
+              "what_hy": "Ձիարձան՝ հռոմեական պարսպի և աշտարակների ֆոնին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://barcelonalowdown.com/monument-to-ramon-berenguer-the-great/"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://barcelonalowdown.com/barcelona-lowdown/uploads/2016/01/ramon-berenguer-monument.jpg",
+                "author": "© Barcelonalowdown.com",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://barcelonalowdown.com/monument-to-ramon-berenguer-the-great/"
+              }
             }
           ]
         },
         {
           "id": "barcelona-25-08",
-          "order": 8,
+          "order": 11,
           "kind": "sight",
           "name_hy": "MUHBA՝ Plaça del Rei",
           "name_local": "MUHBA Plaça del Rei",
@@ -2926,13 +4140,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 0.55,
-            "min": 8,
+            "km": 0.45,
+            "min": 6,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "transfers_hy": "Ոտքով Via Laietana-ով անցնել և El Born-ով դեպի Santa Maria del Mar (~500 մ, ~7 ր)։",
             "ticket_hy": ""
           },
           "label": "ՀԱՍՏԱՏՎԱԾ",
@@ -2979,57 +4193,31 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://questoapp.com/barcelona/places-to-visit/the-kiss-of-freedom-barcelona"
               }
-            }
-          ]
-        },
-        {
-          "id": "barcelona-25-09",
-          "order": 9,
-          "kind": "food",
-          "name_hy": "La Fonda՝ ուշ ճաշ",
-          "name_local": "La Fonda",
-          "lat": 41.37936,
-          "lon": 2.17621,
-          "description_hy": "Հրապարակված երկրորդային մենյուի օրինակներով՝ մատչելի ճաշի տարբերակ, ունի խմբային սրահներ. 8 հոգու սեղանը ամրագրել TheFork-ով կամ ☎ +34 933 01 75 15 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ (ստուգված 18.10.2026))։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). La Fonda նույնանուն ռեստորանի հրապարակված POI կետ՝ հանրային հասցեի մոտ։ Աղբյուր՝ https://findit.city/en/spain/barcelona/places/restaurants/la-fonda-3761312382",
-          "photo_spot_hy": "",
-          "visit_min": [
-            10,
-            25
-          ],
-          "hours_hy": "Կիրակի 12:30–23:00՝ երկրորդային տեղեկությամբ",
-          "price_hy": "Հրապարակված օրինակներ՝ 5,25–11,95 €, 2025 տվյալներով",
-          "photos": [
+            },
             {
-              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-25-09.jpg",
-              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
-              "license": "Միայն խմբի մասնավոր օգտագործման համար",
-              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-25-09.jpg"
+              "id": "pp-barcelona-25-08-3",
+              "name_hy": "Սանտա Կատերինա շուկա",
+              "name_local": "Mercat de Santa Caterina",
+              "lat": 41.38615,
+              "lon": 2.17852,
+              "what_hy": "Գունավոր սալիկներով ալիքաձև տանիքով շուկա։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://thisisbarcelona.com/ca/gastronomia/mercats-de-barcelona/mercat-de-santa-caterina"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://s7g10.scene7.com/is/image/barcelonaturisme/mercats-mercat-de-santa-caterina-barcelona-3?qlt=85&ts=1776266762609&dpr=off",
+                "author": "Turisme de Barcelona / Antonio Lajusticia Bueno",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://thisisbarcelona.com/ca/gastronomia/mercats-de-barcelona/mercat-de-santa-caterina"
+              }
             }
-          ],
-          "menu_url": "https://www.thefork.es/restaurante/la-fonda-r618809/menu",
-          "menu_prices_hy": "TheFork (մենյուի փոփոխություն 06.08.2025). Gazpacho 5,25 €, Pasta bolognese 9,40 €, Arroz con pollo 11,95 € (որոշ ուտեստներ նվազագույն 2 պատվեր)",
-          "reviews_source": "https://www.thefork.es/restaurante/la-fonda-r618809/menu",
-          "to_next": {
-            "mode": "walk",
-            "km": 1.4,
-            "min": 20,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
-            "ticket_hy": ""
-          },
-          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-          "sources": [
-            "https://www.thefork.es/restaurante/la-fonda-r618809/menu",
-            "https://findit.city/en/spain/barcelona/places/restaurants/la-fonda-3761312382",
-            "https://www.thefork.es/restaurante/la-fonda-r618809"
           ]
         },
         {
           "id": "barcelona-25-10",
-          "order": 10,
+          "order": 12,
           "kind": "sight",
           "name_hy": "Էլ Բոռն՝ Սանտա Մարիա",
           "name_local": "Santa Maria del Mar / El Born",
@@ -3056,13 +4244,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 0.8,
-            "min": 11,
+            "km": 1.07,
+            "min": 15,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "transfers_hy": "Ոտքով Passeig del Born-ով դեպի Ցիտադելի պարկ (~900 մ, ~12 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -3089,31 +4277,69 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://thisisbarcelona.com/architecture/urban-spaces-and-elements/fossar-de-les-moreres"
               }
+            },
+            {
+              "id": "pp-barcelona-25-10-2",
+              "name_hy": "Մոնկադա փողոց",
+              "name_local": "Carrer de Montcada",
+              "lat": 41.385,
+              "lon": 2.18083,
+              "what_hy": "Գոթական առևտրական պալատներով փողոց (Պիկասոյի թանգարան)։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://aroundus.com/p/10161176-carrer-de-montcada"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img9.digsty.com/5OeRKU0rou-z3JTum42OOLEuNy7HQUG_WaPDF7vUqJY/rs:fill:540:540:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy8xNC8xMDE2MTE3Ni0zMmY2NGRjYy5qcGc.jpg",
+                "author": "CC BY-SA 3.0, Around Us",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/10161176-carrer-de-montcada"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-10-3",
+              "name_hy": "Բորնի մշակութային կենտրոն",
+              "name_local": "El Born Centre de Cultura i Memòria",
+              "lat": 41.38592,
+              "lon": 2.18368,
+              "what_hy": "1876-ի երկաթ-ապակե շուկայի սրահը՝ ներսում 1714-ի պեղված փողոցներով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://aroundus.com/p/172392431-mercat-del-born"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img7.digsty.com/hcORCd8xsOaQ2Cnk-gs49Srt_wy8knYT_bbSlOoA74M/rs:fill:540:540:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy82Mi8xNzI0MTY4MTctODEwNGU4NTIuanBn.jpg",
+                "author": "CC BY-SA 3.0, Around Us",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/172392431-mercat-del-born"
+              }
             }
           ]
         },
         {
-          "id": "barcelona-25-11",
-          "order": 11,
+          "id": "barcelona-25-17",
+          "order": 13,
           "kind": "sight",
-          "name_hy": "Հին նավահանգիստ",
-          "name_local": "Port Vell",
-          "lat": 41.3797,
-          "lon": 2.18231,
-          "description_hy": "Ծովափնյա լուսանկարչության կարճ հատված։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Port Vell՝ զբոսաշրջային հասանելի առափնյա կետ Moll de Bosch i Alsina-ի շրջանում, ոչ ամբողջ նավահանգստի կենտրոն։ Աղբյուր՝ https://mapcarta.com/N7497437096",
-          "photo_spot_hy": "Նավահանգստի դեպի ջուրը բաց տարածքը",
+          "name_hy": "Ցիտադելի պարկի կասկադ",
+          "name_local": "Cascada Monumental, Parc de la Ciutadella",
+          "lat": 41.39013,
+          "lon": 2.18653,
+          "description_hy": "Մոնումենտալ շատրվան-կասկադ, որի նախագծին մասնակցել է ուսանող Գաուդին։ Պարկը բաց է 07:00-ից մինչև մթնելը. շատրվանը կարող է չաշխատել (մաքրման աշխատանքներ, ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)։",
+          "photo_spot_hy": "",
           "visit_min": [
-            10,
-            25
+            15,
+            30
           ],
-          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "hours_hy": "Պարկ՝ 07:00–մթնշաղ",
+          "price_hy": "Անվճար",
           "photos": [
             {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/006_Moll_de_la_Fusta_%28Barcelona%29.jpg",
-              "author": "Enric",
-              "license": "CC BY-SA 4.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:006_Moll_de_la_Fusta_(Barcelona).jpg"
+              "url": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/201505parc-ciutadella.optimized.d71224f0.jpg",
+              "author": "Ajuntament de Barcelona / meet.barcelona",
+              "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+              "source_page": "https://www.meet.barcelona/en/visitez-la-et-aimez-la/points-dinteret-de-la-ville/parc-de-la-ciutadella-92086011921"
             }
           ],
           "menu_url": "",
@@ -3121,45 +4347,23 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 1.5,
-            "min": 21,
+            "km": 1.56,
+            "min": 22,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "transfers_hy": "Ոտքով դեպի Բարսելոնետայի լողափ (~1,3 կմ, ~18 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
-            "https://mapcarta.com/N7497437096"
-          ],
-          "photo_points": [
-            {
-              "id": "pp-barcelona-25-11-1",
-              "name_hy": "Ռամբլա դե Մար՝ ալիքաձև կամուրջ",
-              "name_local": "Rambla de Mar",
-              "lat": 41.37582,
-              "lon": 2.17947,
-              "what_hy": "Ալիքաձև փայտե հետիոտնային կամուրջ նավահանգստում՝ Կոլումբոսի արձանի և Մոնժուիկի տեսարանով։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://worldcitytrail.com/2024/10/29/rambla-de-mar-in-barcelona/",
-                "https://www.hmdb.org/m.asp?m=232455"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://www.hmdb.org/Photos7/748/Photo748675.jpg",
-                "author": "J. Makali Bruton, HMdb",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://www.hmdb.org/m.asp?m=232455"
-              }
-            }
+            "https://www.meet.barcelona/en/visitez-la-et-aimez-la/points-dinteret-de-la-ville/parc-de-la-ciutadella-92086011921"
           ]
         },
         {
           "id": "barcelona-25-12",
-          "order": 12,
+          "order": 14,
           "kind": "sight",
           "name_hy": "Բարսելոնետայի ծովափ",
           "name_local": "Platja de la Barceloneta",
@@ -3185,15 +4389,15 @@
           "menu_prices_hy": "",
           "reviews_source": "",
           "to_next": {
-            "mode": "metro",
-            "km": null,
-            "min": null,
-            "line": "L4+L3",
-            "color": "L4 դեղին, L3 կանաչ",
-            "direction": "L4 Trinitat Nova, ապա L3 Zona Universitària",
-            "get_off": "Maria Cristina",
-            "transfers_hy": "🏠 Տուն. Barceloneta կայարանից L4 (դեղին, ուղղություն՝ Trinitat Nova) → Passeig de Gràcia, այնտեղ փոխում ենք L3 (կանաչ, ուղղություն՝ Zona Universitària) → Maria Cristina, հետո ~9 ր քայլք։ Մեկ ուղևորություն՝ T-familiar/T-casual։",
-            "ticket_hy": "Առանձին կամ ինտեգրված տոմս՝ ըստ TMB կանոնների"
+            "mode": "walk",
+            "km": 1.25,
+            "min": 18,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով ծովափով դեպի Port Vell (~1 կմ, ~14 ր)։",
+            "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
@@ -3218,12 +4422,153 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://thisisbarcelona.com/arts-and-design/visual-arts/monuments-and-sculptures/l-estel-ferit-the-wounded-shooting-star-rebecca-horn"
               }
+            },
+            {
+              "id": "pp-barcelona-25-12-2",
+              "name_hy": "Գերիի ոսկե ձուկը",
+              "name_local": "Peix (Frank Gehry)",
+              "lat": 41.38611,
+              "lon": 2.19697,
+              "what_hy": "Ֆրենկ Գերիի հսկա ոսկե ձուկը Port Olímpic-ի մոտ։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://thisisbarcelona.com/arts-and-design/visual-arts/monuments-and-sculptures/peix-fish-frank-gehry"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://s7g10.scene7.com/is/image/barcelonaturisme/monuments-i-escultures-peix-frank-gehry-barcelona-2?qlt=85&ts=1776093981606&dpr=off",
+                "author": "Turisme de Barcelona / Clemente Vergara",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://thisisbarcelona.com/arts-and-design/visual-arts/monuments-and-sculptures/peix-fish-frank-gehry"
+              }
+            }
+          ]
+        },
+        {
+          "id": "barcelona-25-11",
+          "order": 15,
+          "kind": "sight",
+          "name_hy": "Հին նավահանգիստ",
+          "name_local": "Port Vell",
+          "lat": 41.3797,
+          "lon": 2.18231,
+          "description_hy": "Ծովափնյա լուսանկարչության կարճ հատված։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). Port Vell՝ զբոսաշրջային հասանելի առափնյա կետ Moll de Bosch i Alsina-ի շրջանում, ոչ ամբողջ նավահանգստի կենտրոն։ Աղբյուր՝ https://mapcarta.com/N7497437096",
+          "photo_spot_hy": "Նավահանգստի դեպի ջուրը բաց տարածքը",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/006_Moll_de_la_Fusta_%28Barcelona%29.jpg",
+              "author": "Enric",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:006_Moll_de_la_Fusta_(Barcelona).jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "L3",
+            "color": "",
+            "direction": "Zona Universitària",
+            "get_off": "Maria Cristina",
+            "transfers_hy": "🏠 Տուն. ոտքով Drassanes կայարան (~6 ր), L3 (կանաչ, ուղղություն՝ Zona Universitària) առանց փոխելու → Maria Cristina, ~9 ր քայլք։",
+            "ticket_hy": "T-familiar / T-casual"
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://mapcarta.com/N7497437096"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-25-11-1",
+              "name_hy": "Ռամբլա դե Մար՝ ալիքաձև կամուրջ",
+              "name_local": "Rambla de Mar",
+              "lat": 41.37582,
+              "lon": 2.17947,
+              "what_hy": "Ալիքաձև փայտե հետիոտնային կամուրջ նավահանգստում՝ Կոլումբոսի արձանի և Մոնժուիկի տեսարանով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://worldcitytrail.com/2024/10/29/rambla-de-mar-in-barcelona/",
+                "https://www.hmdb.org/m.asp?m=232455"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://www.hmdb.org/Photos7/748/Photo748675.jpg",
+                "author": "J. Makali Bruton, HMdb",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://www.hmdb.org/m.asp?m=232455"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-11-2",
+              "name_hy": "Կոլումբոսի արձան",
+              "name_local": "Mirador de Colom",
+              "lat": 41.37578,
+              "lon": 2.17763,
+              "what_hy": "60 մ սյուն Ռամբլայի ծայրին՝ վերևում դիտահարթակով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://thisisbarcelona.com/architecture/urban-spaces-and-elements/mirador-de-colom"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://s7g10.scene7.com/is/image/barcelonaturisme/espais-urbans-mirador-de-colom-barcelona-2?qlt=85&ts=1781098138911&dpr=off",
+                "author": "Turisme de Barcelona / Marta Vidal",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://thisisbarcelona.com/architecture/urban-spaces-and-elements/mirador-de-colom"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-11-3",
+              "name_hy": "«Բարսելոնայի գլուխը»",
+              "name_local": "El Cap de Barcelona (Roy Lichtenstein)",
+              "lat": 41.38091,
+              "lon": 2.18247,
+              "what_hy": "Լիխտենշտայնի փոփ-արտ քանդակը խճանկարով Passeig de Colom-ում։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://thisisbarcelona.com/arts-and-design/visual-arts/monuments-and-sculptures/cara-de-barcelona-face-of-barcelona-roy-lichtenstein"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://thisisbarcelona.com/content/dam/web-this-is/poi/monuments-i-escultures/cara-de-barcelona-roy-lichtenstein/imatges/monuments-i-escultures-cara-de-barcelona-roy-lichtenstein-barcelona-1.jpg",
+                "author": "Turisme de Barcelona / Marta Vidal",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://thisisbarcelona.com/arts-and-design/visual-arts/monuments-and-sculptures/cara-de-barcelona-face-of-barcelona-roy-lichtenstein"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-11-4",
+              "name_hy": "Maremagnum",
+              "name_local": "Maremagnum (Moll d’Espanya)",
+              "lat": 41.37465,
+              "lon": 2.18237,
+              "what_hy": "Ռամբլա դե Մարի ծայրին՝ նավահանգստի և քաղաքի տեսարանով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://thisisbarcelona.com/shops/maremagnum"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://s7g10.scene7.com/is/image/barcelonaturisme/botigues-maremagnum-barcelona-2?qlt=85&ts=1781022351126&dpr=off",
+                "author": "Turisme de Barcelona",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://thisisbarcelona.com/shops/maremagnum"
+              }
             }
           ]
         },
         {
           "id": "barcelona-25-13",
-          "order": 13,
+          "order": 16,
           "kind": "home",
           "name_hy": "Վերադարձ Maria Cristina",
           "name_local": "Maria Cristina",
@@ -3421,7 +4766,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "transfers_hy": "Ոտքով դեպի Via dei Fori Imperiali (~0,65 կմ, ~9 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -3469,6 +4814,44 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://turismoroma.it/en/node/1025"
               }
+            },
+            {
+              "id": "pp-rome-26-04-3",
+              "name_hy": "Գաետանա Անեզիի դիտահարթակ",
+              "name_local": "Largo Gaetana Agnesi (belvedere sul Colosseo)",
+              "lat": 41.89173,
+              "lon": 12.49141,
+              "what_hy": "Հետիոտնային տեռաս՝ Կոլիզեումի դիմացի բարձրադիր տեսարանով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.tripadvisor.com/ShowUserReviews-g187791-d9559380-r539049472-Largo_Gaetana_Agnesi-Rome_Lazio.html"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/1c/f5/88/30/vista-dell-anfiteatro.jpg",
+                "author": "Tripadvisor user",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://www.tripadvisor.com/ShowUserReviews-g187791-d9559380-r539049472-Largo_Gaetana_Agnesi-Rome_Lazio.html"
+              }
+            },
+            {
+              "id": "pp-rome-26-04-4",
+              "name_hy": "Կոլե Օպիո այգի",
+              "name_local": "Parco del Colle Oppio – vista sul Colosseo",
+              "lat": 41.89068,
+              "lon": 12.49546,
+              "what_hy": "Այգու տեռասներ՝ Կոլիզեումի և Պալատինի մոտիկ տեսարանով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mamalovesrome.com/best-photo-spots-in-rome/"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://mamalovesrome.com/wp-content/uploads/2021/09/Colosseum-from-Colle-Oppio.jpg",
+                "author": "Mama Loves Rome",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://mamalovesrome.com/best-photo-spots-in-rome/"
+              }
             }
           ]
         },
@@ -3507,7 +4890,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "transfers_hy": "Ոտքով դեպի Piazza Venezia (~0,85 կմ, ~12 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -3533,6 +4916,44 @@
                 "author": "sovraintendenzaroma.it",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://www.turismoroma.it/en/places/fountain-catechumens-piazza-madonna-dei-monti"
+              }
+            },
+            {
+              "id": "pp-rome-26-05-2",
+              "name_hy": "Կեսարի ֆորում",
+              "name_local": "Foro di Cesare",
+              "lat": 41.89362,
+              "lon": 12.48458,
+              "what_hy": "Վեներա Գենետրիքսի տաճարի երեք կանգուն սյուները՝ վերևից։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://turismoroma.it/it/luoghi/foro-di-cesare"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://turismoroma.it/sites/default/files/Foro%20di%20Cesare%20copertina.jpg",
+                "author": "Sovrintendenza Capitolina",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://turismoroma.it/it/luoghi/foro-di-cesare"
+              }
+            },
+            {
+              "id": "pp-rome-26-05-3",
+              "name_hy": "Տեռաս Հռոմեական ֆորումի վրա",
+              "name_local": "Terrazza sul Foro Romano (retro del Campidoglio)",
+              "lat": 41.89249,
+              "lon": 12.48365,
+              "what_hy": "Անվճար տեռաս Կապիտոլիումի ետևում՝ ֆորումի սյուներով և Կոլիզեումով, լավագույնը՝ երեկոյան։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mamalovesrome.com/best-views-of-rome/"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://mamalovesrome.com/wp-content/uploads/2020/04/Roman-Forum-view.jpg",
+                "author": "Mama Loves Rome",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://mamalovesrome.com/best-views-of-rome/"
               }
             }
           ]
@@ -3572,7 +4993,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "transfers_hy": "Ոտքով դեպի Fontana di Trevi (~0,8 կմ, ~11 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -3619,6 +5040,44 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://turismoroma.it/en/node/1021"
               }
+            },
+            {
+              "id": "pp-rome-26-06-3",
+              "name_hy": "Կապիտոլիումի հրապարակ",
+              "name_local": "Piazza del Campidoglio e Cordonata",
+              "lat": 41.89337,
+              "lon": 12.48292,
+              "what_hy": "Միքելանջելոյի հրապարակը Մարկոս Ավրելիոսի արձանով և լայն աստիճանաձև վերելքով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.turismoroma.it/en/places/piazza-del-campidoglio-capitoline-hill"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://www.turismoroma.it/sites/default/files/campidoglio.jpg",
+                "author": "Turismo Roma",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://www.turismoroma.it/en/places/piazza-del-campidoglio-capitoline-hill"
+              }
+            },
+            {
+              "id": "pp-rome-26-06-4",
+              "name_hy": "Տրայանոսի շուկաներ",
+              "name_local": "Mercati di Traiano",
+              "lat": 41.89625,
+              "lon": 12.4861,
+              "what_hy": "Կիսաշրջան աղյուսե համալիր ֆորումների վերևում (դրսից՝ անվճար)։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.turismoroma.it/it/luoghi/mercati-di-traiano-museo-dei-fori-imperiali"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://www.turismoroma.it/sites/default/files/Mercati%20di%20Traiano%20-%20Museo%20dei%20Fori%20Imperiali.jpg",
+                "author": "Turismo Roma",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://www.turismoroma.it/it/luoghi/mercati-di-traiano-museo-dei-fori-imperiali"
+              }
             }
           ]
         },
@@ -3657,7 +5116,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "transfers_hy": "Ոտքով դեպի Monti Lab – Italian Street Food (~1,05 կմ, ~15 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -3705,6 +5164,63 @@
                 "author": "© Turismo Roma",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://www.turismoroma.it/en/places/terrace-quirinale"
+              }
+            },
+            {
+              "id": "pp-rome-26-07-3",
+              "name_hy": "Ալբերտո Սորդի պասաժ",
+              "name_local": "Galleria Alberto Sordi",
+              "lat": 41.90104,
+              "lon": 12.48052,
+              "what_hy": "Ապակե տանիքով և խճանկարներով Liberty ոճի պասաժ Piazza Colonna-ում։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.turismoroma.it/en/places/galleria-alberto-sordi-formerly-galleria-colonna"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://www.turismoroma.it/sites/default/files/Galleria%20Alberto%20Sordi_0.jpg",
+                "author": "Turismo Roma",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://www.turismoroma.it/en/places/galleria-alberto-sordi-formerly-galleria-colonna"
+              }
+            },
+            {
+              "id": "pp-rome-26-07-4",
+              "name_hy": "Պիետրա հրապարակ (Ադրիանոսի տաճար)",
+              "name_local": "Piazza di Pietra (Tempio di Adriano)",
+              "lat": 41.89994,
+              "lon": 12.47915,
+              "what_hy": "Հրապարակ՝ Ադրիանոսի տաճարի 11 հսկա սյուներով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://turismoroma.it/it/node/1521"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://turismoroma.it/sites/default/files/piazza-di-pietra.jpg",
+                "author": "Turismo Roma",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://turismoroma.it/it/node/1521"
+              }
+            },
+            {
+              "id": "pp-rome-26-07-5",
+              "name_hy": "Տրիտոնի շատրվան",
+              "name_local": "Fontana del Tritone (Piazza Barberini)",
+              "lat": 41.90387,
+              "lon": 12.48843,
+              "what_hy": "Բեռնինիի շատրվանը՝ խեցուց ջուր փչող Տրիտոն։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://turismoroma.it/it/luoghi/fontana-del-tritone"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://turismoroma.it/sites/default/files/Fontana%20del%20Tritone_1920x1080.JPG",
+                "author": "Turismo Roma",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://turismoroma.it/it/luoghi/fontana-del-tritone"
               }
             }
           ]
@@ -3911,7 +5427,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ մոտ 2,8 կմ ներքին շրջայց outlet-ի խանութներով, ոչ ուղիղ Bonetti քայլուղու չափում։",
+            "transfers_hy": "Ոտքով դեպի Bonetti – Castel Romano (~2,8 կմ, ~40 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -3956,7 +5472,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "transfers_hy": "Ոտքով դեպի Ham Holy Burger – Castel Romano (~0,5 կմ, ~7 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -3999,7 +5515,7 @@
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ՝ հետիոտնային հեռավորություն և ժամանակ, քարտեզային երթուղով չստուգված",
+            "transfers_hy": "Ոտքով դեպի Castel Romano → EUR Fermi (~0,5 կմ, ~7 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -4976,7 +6492,7 @@
     }
   ],
   "open_questions_hy": [
-    "⚠ Բարսելոնա 25.10 (կիրակի)՝ Faborit L’illa Diagonal-ը ՓԱԿ է. նախաճաշը՝ տանը կամ այլ բաց սրճարանում (ՀԱՍՏԱՏՎԱԾ 18.10)։",
+    "⚠ Բարսելոնա՝ ամրագրել ՀԻՄԱ. Սագրադա Ֆամիլիա 24.10 ~15:45 (8 × 26 €), Park Güell 25.10 10:00 (8 × 18 €), Palau Güell 25.10 ~12:00 (8 × 15 €), La Fonda ճաշ 25.10 ~13:15։",
     "⚠ Լուվր՝ 17.10–01.11 ներս մուտքը միայն նախնական ամրագրմամբ (ticket.louvre.fr, 32 €). պլանում միայն արտաքին բակն է՝ անվճար։ Կոլիզեում՝ 25.10-ից փակվում է 16:30-ին, ներսը միայն ժամով ամրագրմամբ։",
     "Ամրագրել նախապես. Le Trumilou 20.10 ընթրիք (☎ +33 1 42 77 63 98), La Fonda 25.10 ճաշ (TheFork / ☎ +34 933 01 75 15), Castel Romano shuttle 27.10 (cilia-italia.com, 13 €, մինչև 25՝ անվճար), 2 տաքսի 28.10-ի 02:45-ի համար (3570 / 060609)։ Bouillon Chartier-ները ամրագրում չեն ընդունում։",
     "Առցանց գրանցում. 20.10 մինչև 10:25 (Երևան), 24.10 Vueling մինչև 05:30 (Փարիզ, անել 23.10-ին), 26.10 մինչև 07:00 (Բարսելոնա, անել 25.10-ին), 28.10 մինչև 03:15 (Հռոմ, անել 27.10-ին)",
