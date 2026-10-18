@@ -7,6 +7,8 @@ import {spawnSync} from 'node:child_process';
 import {validateTrip,coordinates,safeUrl} from '../lib/core.js';
 import {dayRoutes,orderedStops} from '../lib/itinerary.js';
 import {validatePaths,pathCandidates} from '../lib/paths.js';
+// Allowed image hosts for photo points: Wikimedia, our own /photos/ and the official/press pages checked 18.10.2026.
+const PHOTO_HOSTS=new Set(["upload.wikimedia.org", "rigelarmenia-cell.github.io", "api.questoapp.com", "barcelonalowdown.com", "barcelonanavigator.com", "cdn.paris.fr", "delivery-p147609-e1510548.adobeaemcloud.com", "firebasestorage.googleapis.com", "images.squarespace-cdn.com", "img.atlasobscura.com", "img1.digsty.com", "img3.digsty.com", "img5.digsty.com", "img7.digsty.com", "img9.digsty.com", "parisjetaime.com", "s7g10.scene7.com", "thisisbarcelona.com", "turismoroma.it", "www.turismoroma.it", "www.hmdb.org"]);
 
 function validTime(s) {
  if(s==null) return true;
@@ -45,7 +47,7 @@ function auditPhotoPoints(data) {
    if(point?.photo!==null) {
     result.withPhoto++;
     const photo=point?.photo;
-    if(!https(photo?.url)||!(new URL(photo.url).hostname==='upload.wikimedia.org'||photo.url.startsWith('https://rigelarmenia-cell.github.io/europe-trip-2026/photos/'))||!['author','license','source_page'].every(key=>nonempty(photo?.[key])))reasons.push('photo');
+    if(!https(photo?.url)||!PHOTO_HOSTS.has(new URL(photo.url).hostname)||!['author','license','source_page'].every(key=>nonempty(photo?.[key])))reasons.push('photo');
    }
    if(reasons.length)result.invalid.push({id:point?.id??null,parentId:stop.id,index,reasons});
   }
