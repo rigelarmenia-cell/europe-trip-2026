@@ -400,7 +400,7 @@ function updateClock() {
 function setMapView(show) {
   $('workspace').classList.toggle('show-map', show);
   $('tab-map').setAttribute('aria-pressed', String(show)); $('tab-plan').setAttribute('aria-pressed', String(!show));
-  requestAnimationFrame(() => state.map?.resize());
+  requestAnimationFrame(() => { state.map?.resize(); if (show) $('map-panel').scrollIntoView({ block: 'start' }); });
 }
 function closeFullMap() {
   document.body.classList.remove('map-full'); setMapView(false);
