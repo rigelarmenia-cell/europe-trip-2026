@@ -1,0 +1,13 @@
+{
+  "output": "paths.json",
+  "candidates": 53,
+  "built": 52,
+  "fallbacks": [
+    {
+      "key": "rome-27-06>rome-27-07:bus",
+      "reason": "Mixed transport (+): straight fallback, not a complete road route"
+    }
+  ],
+  "source": "https://router.project-osrm.org (road), https://routing.openstreetmap.de/routed-foot (walk)",
+  "profile": "driving road approximation + OSM foot walking approximation; not verified routes"
+}
