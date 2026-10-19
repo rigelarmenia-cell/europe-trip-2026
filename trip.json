@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-18-24",
+  "version": "2026-10-19-25",
   "generated_at": "2026-10-19T03:15:59+04:00",
   "cities": [
     {
@@ -421,8 +421,8 @@
       "date": "2026-10-20",
       "city": "paris",
       "title_hy": "Ժամանում, ընթրիք և կարճ զբոսանք Hôtel de Ville շրջանում",
-      "notes_hy": "Այսօր՝ միայն ընթրիք (Le Trumilou, սեղանը ամրագրել ☎ +33 1 42 77 63 98) և կարճ զբոսանք Սենի ափով, հետո տուն։ Ավտոբուսի և թռիչքի մանրամասները՝ «Օդանավակայանային տեղափոխություններ» բաժնում։",
-      "total_walk_km": 2.1,
+      "notes_hy": "Այսօր՝ միայն ընթրիք (Le Trumilou, սեղանը ամրագրել ☎ +33 1 42 77 63 98) և կարճ զբոսանք Սենի ափով։ Հերթականությունը ամենակարճն է. Hôtel de Ville կայարան → Pont d’Arcole → ընթրիք Le Trumilou → լուսավորված Hôtel de Ville → նույն կայարանից M11 տուն։ Ավտոբուսի և թռիչքի մանրամասները՝ «Օդանավակայանային տեղափոխություններ» բաժնում։",
+      "total_walk_km": 1.44,
       "stops": [
         {
           "id": "paris-20-01",
@@ -459,15 +459,160 @@
             "color": "դեղին",
             "direction": "Château de Vincennes",
             "get_off": "Hôtel de Ville",
-            "transfers_hy": "Porte Maillot-ից M1 (դեղին, ուղղություն՝ Château de Vincennes) առանց փոխելու → Hôtel de Ville։ Տոմս՝ 2,55 €։",
+            "transfers_hy": "Porte Maillot-ից M1 (դեղին, ուղղություն՝ Château de Vincennes) առանց փոխելու → Hôtel de Ville։ Կայարանից ~3 ր ոտքով Pont d’Arcole։ Տոմս՝ 2,55 €։",
             "ticket_hy": "2,55 € / անձ՝ առանձին մետրոյի տոմս"
           },
           "label": "ՉՍՏՈՒԳՎԱԾ",
           "sources": []
         },
         {
-          "id": "paris-20-02",
+          "id": "paris-20-04",
           "order": 2,
+          "kind": "sight",
+          "name_hy": "Արկոլի կամուրջ",
+          "name_local": "Pont d’Arcole",
+          "lat": 48.8556,
+          "lon": 2.3504,
+          "description_hy": "Կարճ երեկոյան զբոսանք Սենի ափին, վերադարձն առաջնահերթ է մինչև 23:00",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            10,
+            20
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Pont_d%27Arcole.JPG",
+              "author": "LPLT",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Pont_d%27Arcole.JPG"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.72,
+            "min": 10,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով դեպի Le Trumilou (~0,72 կմ, ~10 ր)։",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": [],
+          "photo_points": [
+            {
+              "id": "pp-paris-20-04-1",
+              "name_hy": "«Au Vieux Paris d’Arcole»՝ ծաղիկներով ճակատ",
+              "name_local": "Au Vieux Paris d’Arcole, 24 rue Chanoinesse",
+              "lat": 48.8542,
+              "lon": 2.35032,
+              "what_hy": "Ծաղիկներով և բաղեղով պատված փոքր ռեստորանի ճակատ՝ Instagram-ի դասական ֆոն, Արկոլի կամրջից մի քանի քայլ։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://parisjetaime.com/eng/article/spots-to-take-instagram-worthy-photos-in-paris-a815"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://parisjetaime.com/data/layout_image/25470_Au-Vieux-Paris-d%27Arcole--630x405--%C2%A9-Wikimedia.jpg",
+                "author": "© Wikimédia, parisjetaime.com",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://parisjetaime.com/eng/article/spots-to-take-instagram-worthy-photos-in-paris-a815"
+              }
+            },
+            {
+              "id": "pp-paris-20-04-2",
+              "name_hy": "Սեն-Լուի կամուրջ",
+              "name_local": "Pont Saint-Louis",
+              "lat": 48.85276,
+              "lon": 2.35277,
+              "what_hy": "Հետիոտնային կամուրջ երկու կղզիների միջև՝ Նոտր Դամի ետնամասի տեսարանով և փողոցային երաժիշտներով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/pGYI38o7a8x7nz6D"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d383739313330373836",
+                "author": "Jean-Jacques Champin, CC BY 3.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/pGYI38o7a8x7nz6D"
+              }
+            },
+            {
+              "id": "pp-paris-20-04-3",
+              "name_hy": "Կույսի շատրվան (Ժան XXIII այգի)",
+              "name_local": "Fontaine de la Vierge, Square Jean-XXIII",
+              "lat": 48.85256,
+              "lon": 2.35138,
+              "what_hy": "Նոտր Դամի ետևի այգում՝ տաճարի արևելյան մասի դասական լուսանկարի առաջնապլան։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://aroundus.com/p/7407168-fontaine-de-la-vierge"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img9.digsty.com/wtyg5Y1HqTxM8HMWaN22b4ap-klM71U3Z-B6ZTdLhQc/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xODAyODY2MjktOGQyMWMxNjYuanBn.jpg",
+                "author": "Mbzt, CC BY-SA",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/7407168-fontaine-de-la-vierge"
+              }
+            }
+          ]
+        },
+        {
+          "id": "paris-20-03",
+          "order": 3,
+          "kind": "food",
+          "name_hy": "Ընթրիքի տարբերակ՝ Le Trumilou",
+          "name_local": "Le Trumilou",
+          "lat": 48.8524,
+          "lon": 2.3562,
+          "description_hy": "Մենք ընտրել ենք ընթրիք + կարճ զբոսանք։ Ռեստորանը բաց է ամեն օր 12:00–15:00 և 19:00–23:00, երեքշաբթի երեկոյան՝ բաց (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ (ստուգված 18.10.2026))։ Ամրագրումը խորհուրդ է տրվում՝ ☎ +33 1 42 77 63 98 կամ letrumilou.fr. 8 հոգու սեղանը նախապես ամրագրել։",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            40,
+            65
+          ],
+          "hours_hy": "Ամեն օր 12:00–15:00, 19:00–23:00 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
+          "price_hy": "Ֆորմուլա ~18,50–20 €, մենյու ~22,50–24 €, հիմնական ուտեստ ~16–23 € (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, կարող է փոխված լինել)",
+          "photos": [
+            {
+              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/paris-20-03.jpg",
+              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
+              "license": "Միայն խմբի մասնավոր օգտագործման համար",
+              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/paris-20-03.jpg"
+            }
+          ],
+          "menu_url": "https://www.letrumilou.fr/carte-et-menu/menu-et-carte/",
+          "menu_prices_hy": "Ըստ նախկին ուսումնասիրության սոխով ապուր 11 €, օրվա մենյու 20 €՝ ընթացիկ կիրառելիությունը ՉՍՏՈՒԳՎԱԾ",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.72,
+            "min": 10,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով դեպի Place de l’Hôtel de Ville (~0,72 կմ, ~10 ր)։",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": [
+            "https://www.letrumilou.fr/carte-et-menu/menu-et-carte/",
+            "https://par.is/p/le-trumilou",
+            "https://www.lesrestos.com/restaurant/fiche/paris/le-trumilou"
+          ]
+        },
+        {
+          "id": "paris-20-02",
+          "order": 4,
           "kind": "sight",
           "name_hy": "Քաղաքապետարանի հրապարակ",
           "name_local": "Place de l’Hôtel de Ville",
@@ -493,15 +638,15 @@
           "menu_prices_hy": "",
           "reviews_source": "",
           "to_next": {
-            "mode": "walk",
-            "km": 0.65,
-            "min": 10,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Le Trumilou (~0,65 կմ, ~9 ր)։",
-            "ticket_hy": ""
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "M11",
+            "color": "շագանակագույն",
+            "direction": "Rosny–Bois-Perrier",
+            "get_off": "Romainville–Carnot",
+            "transfers_hy": "🏠 Տուն. Hôtel de Ville կայարանից M11 (ուղղություն՝ Rosny–Bois-Perrier) առանց փոխելու → Romainville–Carnot, հետո ~10 ր քայլք։ Տոմս՝ 2,55 €։ Վերջին գնացքը աշխատանքային օրերին ~01:15։",
+            "ticket_hy": "2,55 € / անձ"
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
           "sources": [],
@@ -584,728 +729,19 @@
               }
             }
           ]
-        },
-        {
-          "id": "paris-20-03",
-          "order": 3,
-          "kind": "food",
-          "name_hy": "Ընթրիքի տարբերակ՝ Le Trumilou",
-          "name_local": "Le Trumilou",
-          "lat": 48.8524,
-          "lon": 2.3562,
-          "description_hy": "Մենք ընտրել ենք ընթրիք + կարճ զբոսանք։ Ռեստորանը բաց է ամեն օր 12:00–15:00 և 19:00–23:00, երեքշաբթի երեկոյան՝ բաց (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ (ստուգված 18.10.2026))։ Ամրագրումը խորհուրդ է տրվում՝ ☎ +33 1 42 77 63 98 կամ letrumilou.fr. 8 հոգու սեղանը նախապես ամրագրել։",
-          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
-          "visit_min": [
-            40,
-            65
-          ],
-          "hours_hy": "Ամեն օր 12:00–15:00, 19:00–23:00 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
-          "price_hy": "Ֆորմուլա ~18,50–20 €, մենյու ~22,50–24 €, հիմնական ուտեստ ~16–23 € (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, կարող է փոխված լինել)",
-          "photos": [
-            {
-              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/paris-20-03.jpg",
-              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
-              "license": "Միայն խմբի մասնավոր օգտագործման համար",
-              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/paris-20-03.jpg"
-            }
-          ],
-          "menu_url": "https://www.letrumilou.fr/carte-et-menu/menu-et-carte/",
-          "menu_prices_hy": "Ըստ նախկին ուսումնասիրության սոխով ապուր 11 €, օրվա մենյու 20 €՝ ընթացիկ կիրառելիությունը ՉՍՏՈՒԳՎԱԾ",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 0.65,
-            "min": 9,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Pont d’Arcole (~0,65 կմ, ~9 ր)։",
-            "ticket_hy": ""
-          },
-          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": [
-            "https://www.letrumilou.fr/carte-et-menu/menu-et-carte/",
-            "https://par.is/p/le-trumilou",
-            "https://www.lesrestos.com/restaurant/fiche/paris/le-trumilou"
-          ]
-        },
-        {
-          "id": "paris-20-04",
-          "order": 4,
-          "kind": "sight",
-          "name_hy": "Արկոլի կամուրջ",
-          "name_local": "Pont d’Arcole",
-          "lat": 48.8556,
-          "lon": 2.3504,
-          "description_hy": "Կարճ երեկոյան զբոսանք Սենի ափին, վերադարձն առաջնահերթ է մինչև 23:00",
-          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
-          "visit_min": [
-            10,
-            20
-          ],
-          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [
-            {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Pont_d%27Arcole.JPG",
-              "author": "LPLT",
-              "license": "CC BY-SA 3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Pont_d%27Arcole.JPG"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "metro",
-            "km": null,
-            "min": null,
-            "line": "M11",
-            "color": "շագանակագույն",
-            "direction": "Rosny–Bois-Perrier",
-            "get_off": "Romainville–Carnot",
-            "transfers_hy": "🏠 Տուն. Hôtel de Ville կայարանից M11 (ուղղություն՝ Rosny–Bois-Perrier) առանց փոխելու → Romainville–Carnot, հետո ~10 ր քայլք։ Տոմս՝ 2,55 €։ Վերջին գնացքը աշխատանքային օրերին ~01:15։",
-            "ticket_hy": "2,55 € / անձ"
-          },
-          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": [],
-          "photo_points": [
-            {
-              "id": "pp-paris-20-04-1",
-              "name_hy": "«Au Vieux Paris d’Arcole»՝ ծաղիկներով ճակատ",
-              "name_local": "Au Vieux Paris d’Arcole, 24 rue Chanoinesse",
-              "lat": 48.8542,
-              "lon": 2.35032,
-              "what_hy": "Ծաղիկներով և բաղեղով պատված փոքր ռեստորանի ճակատ՝ Instagram-ի դասական ֆոն, Արկոլի կամրջից մի քանի քայլ։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://parisjetaime.com/eng/article/spots-to-take-instagram-worthy-photos-in-paris-a815"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://parisjetaime.com/data/layout_image/25470_Au-Vieux-Paris-d%27Arcole--630x405--%C2%A9-Wikimedia.jpg",
-                "author": "© Wikimédia, parisjetaime.com",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://parisjetaime.com/eng/article/spots-to-take-instagram-worthy-photos-in-paris-a815"
-              }
-            },
-            {
-              "id": "pp-paris-20-04-2",
-              "name_hy": "Սեն-Լուի կամուրջ",
-              "name_local": "Pont Saint-Louis",
-              "lat": 48.85276,
-              "lon": 2.35277,
-              "what_hy": "Հետիոտնային կամուրջ երկու կղզիների միջև՝ Նոտր Դամի ետնամասի տեսարանով և փողոցային երաժիշտներով։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://tripomatic.com/en/places/pGYI38o7a8x7nz6D"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d383739313330373836",
-                "author": "Jean-Jacques Champin, CC BY 3.0",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://tripomatic.com/en/places/pGYI38o7a8x7nz6D"
-              }
-            },
-            {
-              "id": "pp-paris-20-04-3",
-              "name_hy": "Կույսի շատրվան (Ժան XXIII այգի)",
-              "name_local": "Fontaine de la Vierge, Square Jean-XXIII",
-              "lat": 48.85256,
-              "lon": 2.35138,
-              "what_hy": "Նոտր Դամի ետևի այգում՝ տաճարի արևելյան մասի դասական լուսանկարի առաջնապլան։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://aroundus.com/p/7407168-fontaine-de-la-vierge"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://img9.digsty.com/wtyg5Y1HqTxM8HMWaN22b4ap-klM71U3Z-B6ZTdLhQc/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xODAyODY2MjktOGQyMWMxNjYuanBn.jpg",
-                "author": "Mbzt, CC BY-SA",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://aroundus.com/p/7407168-fontaine-de-la-vierge"
-              }
-            }
-          ]
         }
       ]
     },
     {
       "date": "2026-10-21",
       "city": "paris",
-      "title_hy": "Տրոկադերո, Էյֆելյան աշտարակ, Սեն և Ինվալիդներ",
-      "notes_hy": "🚇 ԱՌԱՎՈՏՅԱՆ ՏՆԻՑ (1-ին կետ՝ Trocadéro). ~10 ր քայլք մինչև Romainville–Carnot, M11 (ուղղություն՝ Châtelet) → République, այնտեղ փոխում ենք M9 (ուղղություն՝ Pont de Sèvres) → Trocadéro։ Մեկ տոմս՝ 2,55 €։ Կետերը հերթով՝ 1 → 9 (դասավորված ամենակարճ քայլքով), երեկոյան 9-ից տուն։\n\nԿետերը հերթով՝ 1 → 9, ամբողջը ոտքով. Trocadéro → Bir-Hakeim կամուրջ → Iéna → Էյֆել → Champ-de-Mars → Invalides → Alexandre III կամուրջ → ընթրիք Montparnasse-ում։ Ճաշ/ընթրիք՝ Bouillon Chartier Montparnasse (ամրագրում չեն ընդունում, 8 հոգով կարող է լինել հերթ)։ Աշտարակի տակ էսպլանադը անվճար է՝ անվտանգության ստուգումով։",
-      "total_walk_km": 7.39,
+      "title_hy": "Ալեքսանդր III, Ինվալիդներ, Էյֆել, Տրոկադերո և Բիր-Հաքեյմ",
+      "notes_hy": "🚇 ԱՌԱՎՈՏՅԱՆ ՏՆԻՑ (1-ին կետ՝ Pont Alexandre III). ~10 ր քայլք մինչև Romainville–Carnot, M11 (ուղղություն՝ Châtelet) → Châtelet, այնտեղ փոխում ենք M1 (դեղին, ուղղություն՝ La Défense) → Champs-Élysées–Clemenceau (5 կանգառ), ~5 ր ոտքով կամուրջ։ Մեկ տոմս՝ 2,55 €։\n\nԿետերը հերթով՝ 1 → 8 ոտքով (ստուգված ամենակարճ հերթականությունը՝ լուսանկարվելու կետերը հաշվի առնելով). Alexandre III → Invalides → Champ-de-Mars → Էյֆել → Iéna → Trocadéro այգիներ → Trocadéro դիտակետ → Bir-Hakeim, հետո M6-ով ընթրիք Montparnasse-ում (9)։ Trocadéro-ն ցերեկվա երկրորդ կեսին է՝ արևը Էյֆելը լուսավորում է դիմացից, ավելի լավ նկարներ։ Ընթրիք՝ Bouillon Chartier Montparnasse (ամրագրում չեն ընդունում, 8 հոգով կարող է լինել հերթ)։ Աշտարակի տակ էսպլանադը անվճար է՝ անվտանգության ստուգումով։",
+      "total_walk_km": 4.36,
       "stops": [
         {
-          "id": "paris-21-01",
-          "order": 1,
-          "kind": "sight",
-          "name_hy": "Տրոկադերոյի դիտակետ",
-          "name_local": "Place du Trocadéro",
-          "lat": 48.862615,
-          "lon": 2.2877,
-          "description_hy": "Էյֆելյան աշտարակը դիտել բարձրադիր հրապարակից։ Լուսանկարի համար օգտագործել դեպի Palais de Chaillot բացվող առանցքը։ Մուտք դեպի հրապարակը հանրային է, ժամանակացույցով վճարովի այցելություն չի նախատեսվել։",
-          "photo_spot_hy": "Palais de Chaillot-ի աստիճաններից՝ դեպի Tour Eiffel",
-          "visit_min": [
-            20,
-            35
-          ],
-          "hours_hy": "Բացօթյա հրապարակ, կոնկրետ սահմանափակումներ՝ ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Հանրային դիտակետ՝ վճարովի տոմս չի պահանջվում (հրապարակի սեփական հատուկ մուտքը ՉՍՏՈՒԳՎԱԾ)",
-          "photos": [
-            {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Eiffel_Tower_at_Trocadero.jpg",
-              "author": "Lieseylulu",
-              "license": "CC BY-SA 4.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_at_Trocadero.jpg"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 0.32,
-            "min": 5,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Jardins du Trocadéro (~0,32 կմ, ~5 ր)։",
-            "ticket_hy": ""
-          },
-          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-          "sources": [
-            "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_at_Trocadero.jpg"
-          ],
-          "photo_points": [
-            {
-              "id": "pp-paris-21-01-1",
-              "name_hy": "Տրոկադերոյի բաց դիտահրապարակ",
-              "name_local": "Place du Trocadéro",
-              "lat": 48.862615,
-              "lon": 2.2877,
-              "what_hy": "Այս բարձրադիր հրապարակից բացվում է Էյֆելյան աշտարակի ամբողջական տեսքը։ Նշված կոորդինատը հրապարակված լուսանկարի նկարահանման տեղն է։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_from_Trocadero.jpg"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Eiffel_Tower_from_Trocadero.jpg",
-                "author": "Eric Pouhier",
-                "license": "CC BY-SA 3.0",
-                "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_from_Trocadero.jpg"
-              }
-            },
-            {
-              "id": "pp-paris-21-01-2",
-              "name_hy": "Ավենյու դե Կամոենս՝ աստիճաններ և Էյֆել",
-              "name_local": "Avenue de Camoëns",
-              "lat": 48.8596,
-              "lon": 2.28641,
-              "what_hy": "Հանգիստ փողոց, որի վերջում բազրիքով աստիճաններից Էյֆելյան աշտարակը երևում է տանիքների վրայով. քիչ մարդ, գեղեցիկ կադր։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://www.france.fr/fr/article/spots-instagram/",
-                "https://fr.mappy.com/plan/voie/avenue-de-camoens-75116-paris"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://images.squarespace-cdn.com/content/v1/58c35a0e579fb3281396b7f0/1539382825161-KI2B1OTTB4U3OXRXUBZH/AvenueDeCamoens.jpg",
-                "author": "© thislifeoftravel.com",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://www.thislifeoftravel.com/france/eiffel-tower-most-instagrammable"
-              }
-            }
-          ]
-        },
-        {
-          "id": "paris-21-04",
-          "order": 2,
-          "kind": "sight",
-          "name_hy": "Տրոկադերոյի այգիներ",
-          "name_local": "Jardins du Trocadéro",
-          "lat": 48.8606,
-          "lon": 2.2891,
-          "description_hy": "Քայլել այգիներով դեպի Սեն, լուսանկարել աշտարակը",
-          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
-          "visit_min": [
-            15,
-            25
-          ],
-          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [
-            {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Eiffel_tower_from_trocadero.jpg",
-              "author": "NonOmnisMoriar",
-              "license": "CC BY-SA 3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_tower_from_trocadero.jpg"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 0.75,
-            "min": 11,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Pont de Bir-Hakeim (~0,75 կմ, ~11 ր)։",
-            "ticket_hy": ""
-          },
-          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": [
-            "https://www.paris.fr/lieux/jardins-du-trocadero-1789"
-          ],
-          "photo_points": [
-            {
-              "id": "pp-paris-21-04-1",
-              "name_hy": "Շայոյի պալատի տեռաս՝ դեպի այգիներ",
-              "name_local": "Palais de Chaillot – terrasse",
-              "lat": 48.861953,
-              "lon": 2.288767,
-              "what_hy": "Տեռասից երևում են Jardins du Trocadéro-ն, շատրվանների առանցքը և Էյֆելյան աշտարակը։ Կետը լուսանկարի camera location-ից է։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://commons.wikimedia.org/wiki/File:Eiffel_tower_from_trocadero.jpg"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Eiffel_tower_from_trocadero.jpg",
-                "author": "NonOmnisMoriar",
-                "license": "CC BY-SA 3.0",
-                "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_tower_from_trocadero.jpg"
-              }
-            },
-            {
-              "id": "pp-paris-21-04-2",
-              "name_hy": "Վարշավայի շատրվան",
-              "name_local": "Fontaine de Varsovie (Trocadéro)",
-              "lat": 48.86086,
-              "lon": 2.29044,
-              "what_hy": "Կասկադային շատրվան Տրոկադերոյի այգում՝ ջուրը և Էյֆելը մեկ կադրում։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://aroundus.com/p/7407205-fontaine-du-trocadero"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://img5.digsty.com/ffgTu8vTSIcdwt6YFgPCg2TRlrakHkJ4EGJDDJnlczA/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4NjkxNzAtZjlmNjE1MGUuSlBH.jpg",
-                "author": "Moonik, CC BY-SA",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://aroundus.com/p/7407205-fontaine-du-trocadero"
-              }
-            }
-          ]
-        },
-        {
-          "id": "paris-21-07",
-          "order": 3,
-          "kind": "sight",
-          "name_hy": "Բիր-Հաքեյմ կամուրջ",
-          "name_local": "Pont de Bir-Hakeim",
-          "lat": 48.8555,
-          "lon": 2.2874,
-          "description_hy": "Կամրջի կամարների հեռանկարից լուսանկարել աշտարակը",
-          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
-          "visit_min": [
-            15,
-            25
-          ],
-          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [
-            {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Pont_de_Bir-Hakeim%2C_may_2025.jpg",
-              "author": "Finvd",
-              "license": "CC BY-SA 4.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Pont_de_Bir-Hakeim%2C_may_2025.jpg"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 0.76,
-            "min": 11,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Pont d’Iéna (~0,76 կմ, ~11 ր)։",
-            "ticket_hy": ""
-          },
-          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": [],
-          "photo_points": [
-            {
-              "id": "pp-paris-21-07-1",
-              "name_hy": "Կարապների ծառուղի (Île aux Cygnes)",
-              "name_local": "Allée des Cygnes",
-              "lat": 48.85304,
-              "lon": 2.28398,
-              "what_hy": "Սենի նեղ կղզու ծառուղի Բիր-Հաքեյմից՝ Էյֆելի գետային տեսարանով և վերջում Ազատության արձանի փոքր պատճենով։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://locationscout.net/france/27054-lc3aele-aux-cygnes",
-                "https://aroundus.com/p/174464810-allee-des-cygnes"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://img7.digsty.com/0Ao1kXFLolpoP8KKkXsttsoVD6-K4Y6FGcqOFU6foFM/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xODM1NjkzMjctMTFjM2QxMTcuanBn.jpg",
-                "author": "Guilhem Vellut, CC BY-SA, Around Us",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://aroundus.com/p/174464810-allee-des-cygnes"
-              }
-            },
-            {
-              "id": "pp-paris-21-07-2",
-              "name_hy": "«Վերածնվող Ֆրանսիա» արձան",
-              "name_local": "La France renaissante (Pont de Bir-Hakeim)",
-              "lat": 48.85576,
-              "lon": 2.28784,
-              "what_hy": "Բիր-Հաքեյմ կամրջի վրա բրոնզե ձիավոր կնոջ արձան։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://aroundus.com/p/7410617-la-france-renaissante"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://img9.digsty.com/v7vbMAYjO0ecvADuWHW6bdxQlGrPgQvLRquLEHpSTIc/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTgxMjQtOGFjNmZkZjguanBn.jpg",
-                "author": "Commons, CC BY-SA",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://aroundus.com/p/7410617-la-france-renaissante"
-              }
-            }
-          ]
-        },
-        {
-          "id": "paris-21-05",
-          "order": 4,
-          "kind": "sight",
-          "name_hy": "Իենայի կամուրջ",
-          "name_local": "Pont d’Iéna",
-          "lat": 48.8594,
-          "lon": 2.2927,
-          "description_hy": "Կամրջից տեսնել աշտարակը և Սենը",
-          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
-          "visit_min": [
-            10,
-            20
-          ],
-          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [
-            {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Paris_pont_iena.jpg",
-              "author": "Jgremillot",
-              "license": "CC BY-SA 3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Paris_pont_iena.jpg"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 0.23,
-            "min": 3,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Tour Eiffel – Jardins et esplanade (~0,23 կմ, ~3 ր)։",
-            "ticket_hy": ""
-          },
-          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": [],
-          "photo_points": [
-            {
-              "id": "pp-paris-21-05-1",
-              "name_hy": "Դեբիյի հետիոտնային կամուրջ",
-              "name_local": "Passerelle Debilly",
-              "lat": 48.86256,
-              "lon": 2.29693,
-              "what_hy": "Կանաչ երկաթե կամուրջ Սենի վրա՝ Էյֆելյան աշտարակի կողային տեսարանով, հատկապես մայրամուտին։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://www.thislifeoftravel.com/france/eiffel-tower-most-instagrammable",
-                "https://aroundus.com/p/7395612-passerelle-debilly"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://img9.digsty.com/SviMuAbODsaGAcKb6V8lwx0t5T5DuAXAwVbKBmhbk1c/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTc5MDktMTljYjkwMTYuanBn.jpg",
-                "author": "Guilhem Vellut, CC BY 2.0, Around Us",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://aroundus.com/p/7395612-passerelle-debilly"
-              }
-            },
-            {
-              "id": "pp-paris-21-05-2",
-              "name_hy": "Քե Բրանլի թանգարան՝ կանաչ պատ",
-              "name_local": "Musée du quai Branly – Jacques Chirac",
-              "lat": 48.86109,
-              "lon": 2.29771,
-              "what_hy": "Ժան Նուվելի թանգարանը Սենի ափին՝ բույսերով պատված ճակատով։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://tripomatic.com/en/places/ccnX1U2wy2_O0F9L"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d383239393834363931",
-                "author": "Lionel Allorge, CC BY-SA 3.0",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://tripomatic.com/en/places/ccnX1U2wy2_O0F9L"
-              }
-            }
-          ]
-        },
-        {
-          "id": "paris-21-02",
-          "order": 5,
-          "kind": "sight",
-          "name_hy": "Էյֆելյան աշտարակի այգի և էսպլանադ",
-          "name_local": "Tour Eiffel – Jardins et esplanade",
-          "lat": 48.8582972,
-          "lon": 2.2944778,
-          "description_hy": "Այգին և էսպլանադը կարելի է այցելել անվճար՝ անցնելով անվտանգության ստուգումը։ Աշտարակի ներսի վերելքը առանձին վճարովի տարբերակ է, ոչ պարտադիր։ Գեղեցիկ լուսանկար ստացվում է Տրոկադերոյի կողմից և աշտարակի հիմքի մոտ։",
-          "photo_spot_hy": "Աշտարակի հիմքից՝ դեպի երկաթե կամարների հատումը",
-          "visit_min": [
-            40,
-            75
-          ],
-          "hours_hy": "Աշտարակ՝ ամեն օր 09:30–23:00/23:45. այգին և էսպլանադը անվճար են՝ անվտանգության ստուգումով (մուտք 1 կամ 2), ներսում ուտել/խմել միայն նշված տեղերում (ՀԱՍՏԱՏՎԱԾ (ստուգված 18.10.2026))",
-          "price_hy": "0 € այգի/էսպլանադ; աստիճաններով 2-րդ հարկ՝ 14,80 €/մեծահասակ, 7,40 €/12–24տ. (ընտրովի, 8-ի համար՝ 103,60 €)",
-          "photos": [
-            {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Eiffel_Tower_at_Trocadero.jpg",
-              "author": "Lieseylulu",
-              "license": "CC BY-SA 4.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_at_Trocadero.jpg"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 0.55,
-            "min": 8,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Champ-de-Mars (~0,55 կմ, ~8 ր)։",
-            "ticket_hy": ""
-          },
-          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-          "sources": [
-            "https://www.toureiffel.paris/en/faq/spot/can-you-walk-beneath-eiffel-tower-without-paying-ticket",
-            "https://www.toureiffel.paris/en/rates-opening-times",
-            "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_at_Trocadero.jpg"
-          ],
-          "photo_points": [
-            {
-              "id": "pp-paris-21-02-1",
-              "name_hy": "Սքուեր Ռապ՝ Art Nouveau և Էյֆել",
-              "name_local": "Square Rapp",
-              "lat": 48.8587,
-              "lon": 2.30099,
-              "what_hy": "Կարճ փակուղի Avenue Rapp-ի մոտ՝ Art Nouveau ճակատներով և Էյֆելյան աշտարակի տեսքով, ռոմանտիկ լուսանկարի անկյուն։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://parisjetaime.com/eng/article/spots-to-take-instagram-worthy-photos-in-paris-a815"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://parisjetaime.com/data/layout_image/25471_Square-Rapp--630x405--%C2%A9-Wikimedia.jpg",
-                "author": "© Wikimédia, parisjetaime.com",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://parisjetaime.com/eng/article/spots-to-take-instagram-worthy-photos-in-paris-a815"
-              }
-            }
-          ]
-        },
-        {
-          "id": "paris-21-06",
-          "order": 6,
-          "kind": "sight",
-          "name_hy": "Մարսյան դաշտ",
-          "name_local": "Champ-de-Mars",
-          "lat": 48.8556,
-          "lon": 2.2985,
-          "description_hy": "Էյֆելյան աշտարակի շուրջ կանաչ տարածք",
-          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
-          "visit_min": [
-            20,
-            30
-          ],
-          "hours_hy": "Բաց՝ 24/24 (paris.fr, 01–24.10.2026), Champ-de-Mars-ում կարող են լինել ճանապարհների/սիզամարգերի աշխատանքներ (ՀԱՍՏԱՏՎԱԾ (ստուգված 18.10.2026))",
-          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [
-            {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Eiffel_Tower_from_Champ_de_Mars.jpg",
-              "author": "SElefant",
-              "license": "CC BY-SA 3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_from_Champ_de_Mars.jpg"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 1.62,
-            "min": 23,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Esplanade des Invalides (~1,62 կմ, ~23 ր)։",
-            "ticket_hy": ""
-          },
-          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": [
-            "https://www.paris.fr/lieux/parc-du-champ-de-mars-1807"
-          ],
-          "photo_points": [
-            {
-              "id": "pp-paris-21-06-1",
-              "name_hy": "Մարսյան դաշտ՝ գլխավոր այգու առանցք",
-              "name_local": "Champ-de-Mars",
-              "lat": 48.856111,
-              "lon": 2.298333,
-              "what_hy": "Հանրային այգու բաց տարածքից հնարավոր է աշտարակը նկարել կանաչ ճեմուղիների հետ։ Կոորդինատը այգու աղբյուրային ներկայացուցչական կետն է, ոչ ֆիքսված լուսանկարչական խցիկի դիրքը։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://fr.wikipedia.org/wiki/Champ-de-Mars_(Paris)",
-                "https://www.paris.fr/lieux/parc-du-champ-de-mars-1807"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Eiffel_Tower_from_Champ_de_Mars.jpg",
-                "author": "SElefant",
-                "license": "CC BY-SA 3.0",
-                "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_from_Champ_de_Mars.jpg"
-              }
-            },
-            {
-              "id": "pp-paris-21-06-2",
-              "name_hy": "Ռազմական ակադեմիա",
-              "name_local": "École Militaire",
-              "lat": 48.85192,
-              "lon": 2.30482,
-              "what_hy": "XVIII դ. շենքը Մարսյան դաշտի մյուս ծայրում՝ Էյֆելի դիմաց։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://tripomatic.com/en/places/QqlmeXHlF8YHo8yD"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343135333036",
-                "author": "Mbzt, CC BY 3.0",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://tripomatic.com/en/places/QqlmeXHlF8YHo8yD"
-              }
-            }
-          ]
-        },
-        {
-          "id": "paris-21-10",
-          "order": 7,
-          "kind": "sight",
-          "name_hy": "Ինվալիդների էսպլանադ",
-          "name_local": "Esplanade des Invalides",
-          "lat": 48.8624,
-          "lon": 2.312,
-          "description_hy": "Զբոսնել լայն հրապարակով, դիտել գմբեթը",
-          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
-          "visit_min": [
-            20,
-            35
-          ],
-          "hours_hy": "Բաց՝ 24/24 (paris.fr, 01–24.10.2026), աշխատանքների հայտարարություն չկա (ՀԱՍՏԱՏՎԱԾ (ստուգված 18.10.2026))",
-          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [
-            {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Esplanadedesinvalides.jpg",
-              "author": "Formulavee",
-              "license": "CC BY-SA 4.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Esplanadedesinvalides.jpg"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 0.23,
-            "min": 3,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Pont Alexandre III (~0,23 կմ, ~3 ր)։",
-            "ticket_hy": ""
-          },
-          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": [
-            "https://www.paris.fr/lieux/esplanade-des-invalides-1787"
-          ],
-          "photo_points": [
-            {
-              "id": "pp-paris-21-10-1",
-              "name_hy": "Ինվալիդների էսպլանադ",
-              "name_local": "Esplanade des Invalides",
-              "lat": 48.86,
-              "lon": 2.313056,
-              "what_hy": "Հանրային բաց էսպլանադում կարելի է ընդգրկել Hôtel des Invalides-ի գմբեթն ու երկար կանաչ առանցքը։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://fr.wikipedia.org/wiki/Esplanade_des_Invalides"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Esplanadedesinvalides.jpg",
-                "author": "Formulavee",
-                "license": "CC BY-SA 4.0",
-                "source_page": "https://commons.wikimedia.org/wiki/File:Esplanadedesinvalides.jpg"
-              }
-            },
-            {
-              "id": "pp-paris-21-10-2",
-              "name_hy": "Ինվալիդների ոսկե գմբեթ",
-              "name_local": "Hôtel des Invalides",
-              "lat": 48.85592,
-              "lon": 2.31264,
-              "what_hy": "Նապոլեոնի դամբարանի ոսկե գմբեթը էսպլանադի հարավային ծայրում։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://tripomatic.com/en/places/INZGj6E8I-fh7hcr"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343231333031",
-                "author": "Victor Grigas, CC BY-SA 4.0",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://tripomatic.com/en/places/INZGj6E8I-fh7hcr"
-              }
-            }
-          ]
-        },
-        {
           "id": "paris-21-09",
-          "order": 8,
+          "order": 1,
           "kind": "sight",
           "name_hy": "Ալեքսանդր III-ի կամուրջ",
           "name_local": "Pont Alexandre III",
@@ -1332,13 +768,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 2.93,
-            "min": 42,
+            "km": 0.23,
+            "min": 3,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Bouillon Chartier Montparnasse (~2,93 կմ, ~42 ր)։",
+            "transfers_hy": "Ոտքով դեպի Esplanade des Invalides (~0,23 կմ, ~3 ր)։",
             "ticket_hy": ""
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
@@ -1401,6 +837,570 @@
                 "author": "Jastrow, public domain",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://tripomatic.com/en/places/c1yEjIDbrM0CZhdd"
+              }
+            }
+          ]
+        },
+        {
+          "id": "paris-21-10",
+          "order": 2,
+          "kind": "sight",
+          "name_hy": "Ինվալիդների էսպլանադ",
+          "name_local": "Esplanade des Invalides",
+          "lat": 48.8624,
+          "lon": 2.312,
+          "description_hy": "Զբոսնել լայն հրապարակով, դիտել գմբեթը",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            20,
+            35
+          ],
+          "hours_hy": "Բաց՝ 24/24 (paris.fr, 01–24.10.2026), աշխատանքների հայտարարություն չկա (ՀԱՍՏԱՏՎԱԾ (ստուգված 18.10.2026))",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Esplanadedesinvalides.jpg",
+              "author": "Formulavee",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Esplanadedesinvalides.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 1.62,
+            "min": 23,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով դեպի Champ-de-Mars (~1,62 կմ, ~23 ր)։",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": [
+            "https://www.paris.fr/lieux/esplanade-des-invalides-1787"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-paris-21-10-1",
+              "name_hy": "Ինվալիդների էսպլանադ",
+              "name_local": "Esplanade des Invalides",
+              "lat": 48.86,
+              "lon": 2.313056,
+              "what_hy": "Հանրային բաց էսպլանադում կարելի է ընդգրկել Hôtel des Invalides-ի գմբեթն ու երկար կանաչ առանցքը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://fr.wikipedia.org/wiki/Esplanade_des_Invalides"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Esplanadedesinvalides.jpg",
+                "author": "Formulavee",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Esplanadedesinvalides.jpg"
+              }
+            },
+            {
+              "id": "pp-paris-21-10-2",
+              "name_hy": "Ինվալիդների ոսկե գմբեթ",
+              "name_local": "Hôtel des Invalides",
+              "lat": 48.85592,
+              "lon": 2.31264,
+              "what_hy": "Նապոլեոնի դամբարանի ոսկե գմբեթը էսպլանադի հարավային ծայրում։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/INZGj6E8I-fh7hcr"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343231333031",
+                "author": "Victor Grigas, CC BY-SA 4.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/INZGj6E8I-fh7hcr"
+              }
+            }
+          ]
+        },
+        {
+          "id": "paris-21-06",
+          "order": 3,
+          "kind": "sight",
+          "name_hy": "Մարսյան դաշտ",
+          "name_local": "Champ-de-Mars",
+          "lat": 48.8556,
+          "lon": 2.2985,
+          "description_hy": "Էյֆելյան աշտարակի շուրջ կանաչ տարածք",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            20,
+            30
+          ],
+          "hours_hy": "Բաց՝ 24/24 (paris.fr, 01–24.10.2026), Champ-de-Mars-ում կարող են լինել ճանապարհների/սիզամարգերի աշխատանքներ (ՀԱՍՏԱՏՎԱԾ (ստուգված 18.10.2026))",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Eiffel_Tower_from_Champ_de_Mars.jpg",
+              "author": "SElefant",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_from_Champ_de_Mars.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.55,
+            "min": 8,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով դեպի Tour Eiffel – Jardins et esplanade (~0,55 կմ, ~8 ր)։",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": [
+            "https://www.paris.fr/lieux/parc-du-champ-de-mars-1807"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-paris-21-06-1",
+              "name_hy": "Մարսյան դաշտ՝ գլխավոր այգու առանցք",
+              "name_local": "Champ-de-Mars",
+              "lat": 48.856111,
+              "lon": 2.298333,
+              "what_hy": "Հանրային այգու բաց տարածքից հնարավոր է աշտարակը նկարել կանաչ ճեմուղիների հետ։ Կոորդինատը այգու աղբյուրային ներկայացուցչական կետն է, ոչ ֆիքսված լուսանկարչական խցիկի դիրքը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://fr.wikipedia.org/wiki/Champ-de-Mars_(Paris)",
+                "https://www.paris.fr/lieux/parc-du-champ-de-mars-1807"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Eiffel_Tower_from_Champ_de_Mars.jpg",
+                "author": "SElefant",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_from_Champ_de_Mars.jpg"
+              }
+            },
+            {
+              "id": "pp-paris-21-06-2",
+              "name_hy": "Ռազմական ակադեմիա",
+              "name_local": "École Militaire",
+              "lat": 48.85192,
+              "lon": 2.30482,
+              "what_hy": "XVIII դ. շենքը Մարսյան դաշտի մյուս ծայրում՝ Էյֆելի դիմաց։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/QqlmeXHlF8YHo8yD"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343135333036",
+                "author": "Mbzt, CC BY 3.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/QqlmeXHlF8YHo8yD"
+              }
+            }
+          ]
+        },
+        {
+          "id": "paris-21-02",
+          "order": 4,
+          "kind": "sight",
+          "name_hy": "Էյֆելյան աշտարակի այգի և էսպլանադ",
+          "name_local": "Tour Eiffel – Jardins et esplanade",
+          "lat": 48.8582972,
+          "lon": 2.2944778,
+          "description_hy": "Այգին և էսպլանադը կարելի է այցելել անվճար՝ անցնելով անվտանգության ստուգումը։ Աշտարակի ներսի վերելքը առանձին վճարովի տարբերակ է, ոչ պարտադիր։ Գեղեցիկ լուսանկար ստացվում է Տրոկադերոյի կողմից և աշտարակի հիմքի մոտ։",
+          "photo_spot_hy": "Աշտարակի հիմքից՝ դեպի երկաթե կամարների հատումը",
+          "visit_min": [
+            40,
+            75
+          ],
+          "hours_hy": "Աշտարակ՝ ամեն օր 09:30–23:00/23:45. այգին և էսպլանադը անվճար են՝ անվտանգության ստուգումով (մուտք 1 կամ 2), ներսում ուտել/խմել միայն նշված տեղերում (ՀԱՍՏԱՏՎԱԾ (ստուգված 18.10.2026))",
+          "price_hy": "0 € այգի/էսպլանադ; աստիճաններով 2-րդ հարկ՝ 14,80 €/մեծահասակ, 7,40 €/12–24տ. (ընտրովի, 8-ի համար՝ 103,60 €)",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Eiffel_Tower_at_Trocadero.jpg",
+              "author": "Lieseylulu",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_at_Trocadero.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.23,
+            "min": 3,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով դեպի Pont d’Iéna (~0,23 կմ, ~3 ր)։",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.toureiffel.paris/en/faq/spot/can-you-walk-beneath-eiffel-tower-without-paying-ticket",
+            "https://www.toureiffel.paris/en/rates-opening-times",
+            "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_at_Trocadero.jpg"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-paris-21-02-1",
+              "name_hy": "Սքուեր Ռապ՝ Art Nouveau և Էյֆել",
+              "name_local": "Square Rapp",
+              "lat": 48.8587,
+              "lon": 2.30099,
+              "what_hy": "Կարճ փակուղի Avenue Rapp-ի մոտ՝ Art Nouveau ճակատներով և Էյֆելյան աշտարակի տեսքով, ռոմանտիկ լուսանկարի անկյուն։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://parisjetaime.com/eng/article/spots-to-take-instagram-worthy-photos-in-paris-a815"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://parisjetaime.com/data/layout_image/25471_Square-Rapp--630x405--%C2%A9-Wikimedia.jpg",
+                "author": "© Wikimédia, parisjetaime.com",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://parisjetaime.com/eng/article/spots-to-take-instagram-worthy-photos-in-paris-a815"
+              }
+            }
+          ]
+        },
+        {
+          "id": "paris-21-05",
+          "order": 5,
+          "kind": "sight",
+          "name_hy": "Իենայի կամուրջ",
+          "name_local": "Pont d’Iéna",
+          "lat": 48.8594,
+          "lon": 2.2927,
+          "description_hy": "Կամրջից տեսնել աշտարակը և Սենը",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            10,
+            20
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Paris_pont_iena.jpg",
+              "author": "Jgremillot",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Paris_pont_iena.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.38,
+            "min": 5,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով դեպի Jardins du Trocadéro (~0,38 կմ, ~5 ր)։",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": [],
+          "photo_points": [
+            {
+              "id": "pp-paris-21-05-1",
+              "name_hy": "Դեբիյի հետիոտնային կամուրջ",
+              "name_local": "Passerelle Debilly",
+              "lat": 48.86256,
+              "lon": 2.29693,
+              "what_hy": "Կանաչ երկաթե կամուրջ Սենի վրա՝ Էյֆելյան աշտարակի կողային տեսարանով, հատկապես մայրամուտին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.thislifeoftravel.com/france/eiffel-tower-most-instagrammable",
+                "https://aroundus.com/p/7395612-passerelle-debilly"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img9.digsty.com/SviMuAbODsaGAcKb6V8lwx0t5T5DuAXAwVbKBmhbk1c/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTc5MDktMTljYjkwMTYuanBn.jpg",
+                "author": "Guilhem Vellut, CC BY 2.0, Around Us",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/7395612-passerelle-debilly"
+              }
+            },
+            {
+              "id": "pp-paris-21-05-2",
+              "name_hy": "Քե Բրանլի թանգարան՝ կանաչ պատ",
+              "name_local": "Musée du quai Branly – Jacques Chirac",
+              "lat": 48.86109,
+              "lon": 2.29771,
+              "what_hy": "Ժան Նուվելի թանգարանը Սենի ափին՝ բույսերով պատված ճակատով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/ccnX1U2wy2_O0F9L"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d383239393834363931",
+                "author": "Lionel Allorge, CC BY-SA 3.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/ccnX1U2wy2_O0F9L"
+              }
+            }
+          ]
+        },
+        {
+          "id": "paris-21-04",
+          "order": 6,
+          "kind": "sight",
+          "name_hy": "Տրոկադերոյի այգիներ",
+          "name_local": "Jardins du Trocadéro",
+          "lat": 48.8606,
+          "lon": 2.2891,
+          "description_hy": "Քայլել այգիներով դեպի Սեն, լուսանկարել աշտարակը",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            15,
+            25
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Eiffel_tower_from_trocadero.jpg",
+              "author": "NonOmnisMoriar",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_tower_from_trocadero.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.32,
+            "min": 5,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով դեպի Place du Trocadéro (~0,32 կմ, ~5 ր)։",
+            "ticket_hy": ""
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": [
+            "https://www.paris.fr/lieux/jardins-du-trocadero-1789"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-paris-21-04-1",
+              "name_hy": "Շայոյի պալատի տեռաս՝ դեպի այգիներ",
+              "name_local": "Palais de Chaillot – terrasse",
+              "lat": 48.861953,
+              "lon": 2.288767,
+              "what_hy": "Տեռասից երևում են Jardins du Trocadéro-ն, շատրվանների առանցքը և Էյֆելյան աշտարակը։ Կետը լուսանկարի camera location-ից է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Eiffel_tower_from_trocadero.jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Eiffel_tower_from_trocadero.jpg",
+                "author": "NonOmnisMoriar",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_tower_from_trocadero.jpg"
+              }
+            },
+            {
+              "id": "pp-paris-21-04-2",
+              "name_hy": "Վարշավայի շատրվան",
+              "name_local": "Fontaine de Varsovie (Trocadéro)",
+              "lat": 48.86086,
+              "lon": 2.29044,
+              "what_hy": "Կասկադային շատրվան Տրոկադերոյի այգում՝ ջուրը և Էյֆելը մեկ կադրում։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://aroundus.com/p/7407205-fontaine-du-trocadero"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img5.digsty.com/ffgTu8vTSIcdwt6YFgPCg2TRlrakHkJ4EGJDDJnlczA/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4NjkxNzAtZjlmNjE1MGUuSlBH.jpg",
+                "author": "Moonik, CC BY-SA",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/7407205-fontaine-du-trocadero"
+              }
+            }
+          ]
+        },
+        {
+          "id": "paris-21-01",
+          "order": 7,
+          "kind": "sight",
+          "name_hy": "Տրոկադերոյի դիտակետ",
+          "name_local": "Place du Trocadéro",
+          "lat": 48.862615,
+          "lon": 2.2877,
+          "description_hy": "Էյֆելյան աշտարակը դիտել բարձրադիր հրապարակից։ Լուսանկարի համար օգտագործել դեպի Palais de Chaillot բացվող առանցքը։ Մուտք դեպի հրապարակը հանրային է, ժամանակացույցով վճարովի այցելություն չի նախատեսվել։",
+          "photo_spot_hy": "Palais de Chaillot-ի աստիճաններից՝ դեպի Tour Eiffel",
+          "visit_min": [
+            20,
+            35
+          ],
+          "hours_hy": "Բացօթյա հրապարակ, կոնկրետ սահմանափակումներ՝ ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային դիտակետ՝ վճարովի տոմս չի պահանջվում (հրապարակի սեփական հատուկ մուտքը ՉՍՏՈՒԳՎԱԾ)",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Eiffel_Tower_at_Trocadero.jpg",
+              "author": "Lieseylulu",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_at_Trocadero.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 1.03,
+            "min": 15,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով դեպի Pont de Bir-Hakeim (~1,03 կմ, ~15 ր)։",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_at_Trocadero.jpg"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-paris-21-01-1",
+              "name_hy": "Տրոկադերոյի բաց դիտահրապարակ",
+              "name_local": "Place du Trocadéro",
+              "lat": 48.862615,
+              "lon": 2.2877,
+              "what_hy": "Այս բարձրադիր հրապարակից բացվում է Էյֆելյան աշտարակի ամբողջական տեսքը։ Նշված կոորդինատը հրապարակված լուսանկարի նկարահանման տեղն է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_from_Trocadero.jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Eiffel_Tower_from_Trocadero.jpg",
+                "author": "Eric Pouhier",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_from_Trocadero.jpg"
+              }
+            },
+            {
+              "id": "pp-paris-21-01-2",
+              "name_hy": "Ավենյու դե Կամոենս՝ աստիճաններ և Էյֆել",
+              "name_local": "Avenue de Camoëns",
+              "lat": 48.8596,
+              "lon": 2.28641,
+              "what_hy": "Հանգիստ փողոց, որի վերջում բազրիքով աստիճաններից Էյֆելյան աշտարակը երևում է տանիքների վրայով. քիչ մարդ, գեղեցիկ կադր։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.france.fr/fr/article/spots-instagram/",
+                "https://fr.mappy.com/plan/voie/avenue-de-camoens-75116-paris"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://images.squarespace-cdn.com/content/v1/58c35a0e579fb3281396b7f0/1539382825161-KI2B1OTTB4U3OXRXUBZH/AvenueDeCamoens.jpg",
+                "author": "© thislifeoftravel.com",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://www.thislifeoftravel.com/france/eiffel-tower-most-instagrammable"
+              }
+            }
+          ]
+        },
+        {
+          "id": "paris-21-07",
+          "order": 8,
+          "kind": "sight",
+          "name_hy": "Բիր-Հաքեյմ կամուրջ",
+          "name_local": "Pont de Bir-Hakeim",
+          "lat": 48.8555,
+          "lon": 2.2874,
+          "description_hy": "Կամրջի կամարների հեռանկարից լուսանկարել աշտարակը",
+          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "visit_min": [
+            15,
+            25
+          ],
+          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Pont_de_Bir-Hakeim%2C_may_2025.jpg",
+              "author": "Finvd",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Pont_de_Bir-Hakeim%2C_may_2025.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "M6",
+            "color": "բաց կանաչ",
+            "direction": "Nation",
+            "get_off": "Montparnasse–Bienvenüe",
+            "transfers_hy": "Bir-Hakeim կամրջի հարավային ծայրի Bir-Hakeim կայարանից M6 (ուղղություն՝ Nation) առանց փոխելու → Montparnasse–Bienvenüe (6 կանգառ). գնացքը սկզբում վերգետնյա է՝ պատուհանից Էյֆելի տեսարան։ Կայարանից ~3 ր ոտքով Chartier։ Տոմս՝ 2,55 €։",
+            "ticket_hy": "2,55 € / անձ"
+          },
+          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "sources": [],
+          "photo_points": [
+            {
+              "id": "pp-paris-21-07-1",
+              "name_hy": "Կարապների ծառուղի (Île aux Cygnes)",
+              "name_local": "Allée des Cygnes",
+              "lat": 48.85304,
+              "lon": 2.28398,
+              "what_hy": "Սենի նեղ կղզու ծառուղի Բիր-Հաքեյմից՝ Էյֆելի գետային տեսարանով և վերջում Ազատության արձանի փոքր պատճենով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://locationscout.net/france/27054-lc3aele-aux-cygnes",
+                "https://aroundus.com/p/174464810-allee-des-cygnes"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img7.digsty.com/0Ao1kXFLolpoP8KKkXsttsoVD6-K4Y6FGcqOFU6foFM/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xODM1NjkzMjctMTFjM2QxMTcuanBn.jpg",
+                "author": "Guilhem Vellut, CC BY-SA, Around Us",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/174464810-allee-des-cygnes"
+              }
+            },
+            {
+              "id": "pp-paris-21-07-2",
+              "name_hy": "«Վերածնվող Ֆրանսիա» արձան",
+              "name_local": "La France renaissante (Pont de Bir-Hakeim)",
+              "lat": 48.85576,
+              "lon": 2.28784,
+              "what_hy": "Բիր-Հաքեյմ կամրջի վրա բրոնզե ձիավոր կնոջ արձան։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://aroundus.com/p/7410617-la-france-renaissante"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img9.digsty.com/v7vbMAYjO0ecvADuWHW6bdxQlGrPgQvLRquLEHpSTIc/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTgxMjQtOGFjNmZkZjguanBn.jpg",
+                "author": "Commons, CC BY-SA",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/7410617-la-france-renaissante"
               }
             }
           ]
@@ -2667,8 +2667,8 @@
       "date": "2026-10-24",
       "city": "barcelona",
       "title_hy": "Ժամանում · Մոնժուիկ · Գաուդի. Սագրադա Ֆամիլիա, Միլա, Բատյո · Կախարդական շատրվան",
-      "notes_hy": "✈ 08:00 ժամանում, մինչև 14:00 ուսապարկերով՝ Plaça d’Espanya, Մոնժուիկ, ճաշ Las Arenas-ում։ 14:00 տուն (check-in)։\n🏛 Կեսօրից՝ Գաուդի. Գուելի տաղավարներ → Սագրադա Ֆամիլիա (ՆԵՐՍ՝ ամրագրել ~15:45–16:00 ժամը, 26 €) → Sant Pau → Casa Milà → Casa Batlló → Casa Calvet։ Ընթրիք՝ Passeig de Gràcia-ի մոտ։\n⛲ 21:15 Font Màgica (շոու ~21:30), հետո L3-ով տուն։",
-      "total_walk_km": 4.41,
+      "notes_hy": "✈ 08:00 ժամանում, մինչև 14:00 ուսապարկերով՝ Մոնժուիկի այգիներ, Plaça d’Espanya, ճաշ Las Arenas-ում։ 14:00 տուն (check-in)։\n🏛 Կեսօրից՝ Գաուդի. Գուելի տաղավարներ → Սագրադա Ֆամիլիա (դրսից) → Sant Pau → Casa Milà → Casa Batlló → Casa Calvet։ Ընթրիք՝ Passeig de Gràcia-ի մոտ։\n⛲ 21:15 Font Màgica (շոու ~21:30), հետո L3-ով տուն։",
+      "total_walk_km": 4.07,
       "stops": [
         {
           "id": "barcelona-24-01",
@@ -2705,7 +2705,7 @@
             "color": "TMB կարմիր/սպիտակ ավտոբուս (գծի պաշտոնական գույնը չի հաստատվել)",
             "direction": "Plaça Espanya",
             "get_off": "Plaça Espanya",
-            "transfers_hy": "Օդանավակայանից տուն՝ տես «Օդանավակայանային տեղափոխություններ» (առաջարկում ենք մետրո L9 Sud → L3)։ Plaça d’Espanya-ն L3-ով Maria Cristina-ից 5 կանգառ է (ուղղություն՝ Trinitat Nova)։",
+            "transfers_hy": "Օդանավակայանից տուն՝ տես «Օդանավակայանային տեղափոխություններ» (առաջարկում ենք մետրո L9 Sud → L3)։ Plaça d’Espanya-ն L3-ով Maria Cristina-ից 5 կանգառ է (ուղղություն՝ Trinitat Nova)։ Espanya կայարանից դուրս գալով՝ Venetian աշտարակների միջով ~5 ր ոտքով Մոնժուիկի այգիներ։",
             "ticket_hy": "T-familiar՝ պայմաններով 11,50 €/8 ուղևորություն; L9 օդանավակայանի մետրոյին չի վերաբերում"
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -2715,72 +2715,8 @@
           ]
         },
         {
-          "id": "barcelona-24-02",
-          "order": 2,
-          "kind": "sight",
-          "name_hy": "Իսպանիայի հրապարակ",
-          "name_local": "Plaça d’Espanya",
-          "lat": 41.375086,
-          "lon": 2.149158,
-          "description_hy": "Տեսնել Arenas-ի ճակատը և դեպի Montjuïc բացվող քաղաքային առանցքը։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). հրապարակի ներկայացուցչական կենտրոնական կետ։ Աղբյուր՝ https://commons.wikimedia.org/wiki/Category:Pla%C3%A7a_d%27Espanya_(Barcelona)",
-          "photo_spot_hy": "Հրապարակի կենտրոնի մոտ՝ դեպի երկու վենետիկյան աշտարակներ",
-          "visit_min": [
-            10,
-            25
-          ],
-          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [
-            {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Barcelona_-_Pla%C3%A7a_d%27Espanya_-_Avinguda_de_la_Reina_Maria_Cristina_-_View_SSE_on_Torres_Venecianes_1929_by_Josep_Maria_Jujol_i_Gibert.jpg",
-              "author": "Txllxt TxllxT",
-              "license": "CC BY-SA 4.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Pla%C3%A7a_d%27Espanya_-_Avinguda_de_la_Reina_Maria_Cristina_-_View_SSE_on_Torres_Venecianes_1929_by_Josep_Maria_Jujol_i_Gibert.jpg"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 0.35,
-            "min": 5,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Avinguda de la Reina Maria Cristina՝ Մոնժուիկի ուղղությամբ (~4 ր)։",
-            "ticket_hy": ""
-          },
-          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-          "sources": [
-            "https://commons.wikimedia.org/wiki/Category:Pla%C3%A7a_d%27Espanya_(Barcelona)"
-          ],
-          "photo_points": [
-            {
-              "id": "pp-barcelona-24-02-1",
-              "name_hy": "Արենաս՝ տանիքի դիտահարթակ",
-              "name_local": "Arenas de Barcelona – terrassa mirador",
-              "lat": 41.37634,
-              "lon": 2.14903,
-              "what_hy": "Նախկին ցլամարտի ասպարեզի 360° տանիքը՝ Plaça d’Espanya-ի և Մոնժուիկի տեսարանով, լավագույնը՝ մայրամուտին։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://barcelonalowdown.com/?p=6745"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://barcelonalowdown.com/barcelona-lowdown/uploads/2016/09/placa-d-espanya-from-arenas-roof.jpg",
-                "author": "© Barcelonalowdown.com",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://barcelonalowdown.com/?p=6745"
-              }
-            }
-          ]
-        },
-        {
           "id": "barcelona-24-04",
-          "order": 3,
+          "order": 2,
           "kind": "sight",
           "name_hy": "Մոնժուիկի ստորին այգիներ",
           "name_local": "Avinguda de la Reina Maria Cristina / Montjuïc",
@@ -2807,13 +2743,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 0.52,
-            "min": 7,
+            "km": 0.35,
+            "min": 5,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "Ոտքով հետ դեպի Las Arenas (~8 ր)՝ ճաշ։",
+            "transfers_hy": "Ոտքով դեպի Plaça d’Espanya (~0,35 կմ, ~5 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -2877,6 +2813,70 @@
                 "author": "Turisme de Barcelona / Clemente Vergara",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://thisisbarcelona.com/ca/arquitectura/cases-i-edificis-emblematics/pavello-mies-van-der-rohe"
+              }
+            }
+          ]
+        },
+        {
+          "id": "barcelona-24-02",
+          "order": 3,
+          "kind": "sight",
+          "name_hy": "Իսպանիայի հրապարակ",
+          "name_local": "Plaça d’Espanya",
+          "lat": 41.375086,
+          "lon": 2.149158,
+          "description_hy": "Տեսնել Arenas-ի ճակատը և դեպի Montjuïc բացվող քաղաքային առանցքը։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). հրապարակի ներկայացուցչական կենտրոնական կետ։ Աղբյուր՝ https://commons.wikimedia.org/wiki/Category:Pla%C3%A7a_d%27Espanya_(Barcelona)",
+          "photo_spot_hy": "Հրապարակի կենտրոնի մոտ՝ դեպի երկու վենետիկյան աշտարակներ",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Barcelona_-_Pla%C3%A7a_d%27Espanya_-_Avinguda_de_la_Reina_Maria_Cristina_-_View_SSE_on_Torres_Venecianes_1929_by_Josep_Maria_Jujol_i_Gibert.jpg",
+              "author": "Txllxt TxllxT",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Pla%C3%A7a_d%27Espanya_-_Avinguda_de_la_Reina_Maria_Cristina_-_View_SSE_on_Torres_Venecianes_1929_by_Josep_Maria_Jujol_i_Gibert.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.18,
+            "min": 3,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով դեպի Las Arenas (~2 ր)՝ ճաշ։",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://commons.wikimedia.org/wiki/Category:Pla%C3%A7a_d%27Espanya_(Barcelona)"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-24-02-1",
+              "name_hy": "Արենաս՝ տանիքի դիտահարթակ",
+              "name_local": "Arenas de Barcelona – terrassa mirador",
+              "lat": 41.37634,
+              "lon": 2.14903,
+              "what_hy": "Նախկին ցլամարտի ասպարեզի 360° տանիքը՝ Plaça d’Espanya-ի և Մոնժուիկի տեսարանով, լավագույնը՝ մայրամուտին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://barcelonalowdown.com/?p=6745"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://barcelonalowdown.com/barcelona-lowdown/uploads/2016/09/placa-d-espanya-from-arenas-roof.jpg",
+                "author": "© Barcelonalowdown.com",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://barcelonalowdown.com/?p=6745"
               }
             }
           ]
@@ -3003,6 +3003,28 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://thisisbarcelona.com/architecture/houses-and-emblematic-buildings/pavellons-de-la-finca-guell"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-24-10-1",
+              "name_hy": "Վիշապի դարպասը մայթից",
+              "name_local": "Drac de la porta dels Pavellons Güell (Av. de Pedralbes)",
+              "lat": 41.389305,
+              "lon": 2.119429,
+              "what_hy": "Կանգնիր Av. de Pedralbes-ի մայթին՝ դարպասի դիմաց, և նկարիր երկաթե վիշապը ամբողջությամբ։ Ներս մտնել պետք չէ։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/33029826",
+                "https://en.wikipedia.org/wiki/G%C3%BCell_Pavilions"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://live.staticflickr.com/3299/3210064288_5c4ee3e110_b.jpg",
+                "author": "SBA73 (Flickr)",
+                "license": "CC BY-SA 2.0",
+                "source_page": "https://www.flickr.com/photos/7455207@N05/3210064288"
+              }
+            }
           ]
         },
         {
@@ -3013,14 +3035,14 @@
           "name_local": "Basílica de la Sagrada Família",
           "lat": 41.40395,
           "lon": 2.17393,
-          "description_hy": "Գաուդիի գլխավոր գործը։ Ներս՝ միայն ժամով ամրագրված անվանական տոմսով, ԱՄՐԱԳՐԵԼ ՀԻՄԱ (առաջարկ՝ 15:45–16:00 ժամը)։ Շաբաթ փակվում է 18:00-ին։ Դրսից ճակատները՝ անվճար։",
+          "description_hy": "Գաուդիի գլխավոր գործը։ Ներս չենք մտնում, դիտում ենք դրսից. Ծննդյան ճակատը (Carrer de la Marina) և Չարչարանքների ճակատը (Carrer de Sardenya), լավագույն տեսարանը՝ Plaça de Gaudí լճակի մոտից։ Եթե որոշենք ներս մտնել՝ տոմսը միայն օրով/ժամով, պաշտոնական կայքից։",
           "photo_spot_hy": "",
           "visit_min": [
-            75,
-            110
+            30,
+            45
           ],
           "hours_hy": "Շաբաթ 09:00–18:00 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, meet.barcelona)",
-          "price_hy": "Բազիլիկ՝ 26 €, աշտարակներով՝ 36 € (ՀԱՍՏԱՏՎԱԾ sagradafamilia.org/en/prices). 8 × 26 € = 208 €",
+          "price_hy": "Դրսից՝ անվճար։ Ներս (ըստ ցանկության)՝ 26 €, 8 × 26 € = 208 € (ՀԱՍՏԱՏՎԱԾ sagradafamilia.org/en/prices)",
           "photos": [
             {
               "url": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/00_sagrada_familia.optimized.8f225be0.jpg",
@@ -3046,6 +3068,29 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://sagradafamilia.org/en/prices"
+          ],
+          "tickets_url": "https://sagradafamilia.org/en/tickets",
+          "photo_points": [
+            {
+              "id": "pp-barcelona-24-11-1",
+              "name_hy": "Գաուդիի հրապարակ՝ լճակի արտացոլանք",
+              "name_local": "Plaça de Gaudí (estany)",
+              "lat": 41.40441,
+              "lon": 2.17557,
+              "what_hy": "Կանգնիր լճակի հակառակ ափին և նկարիր Ծննդյան ճակատը ջրի արտացոլանքով։ Լավագույնը առավոտյան է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/33097026",
+                "https://es.wikipedia.org/wiki/Plaza_de_Gaud%C3%AD"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://live.staticflickr.com/6204/6141772371_b03bd1536f_b.jpg",
+                "author": "Jaume Escofet (Flickr: jaumescar)",
+                "license": "CC BY 2.0",
+                "source_page": "https://www.flickr.com/photos/jaumescar/6141772371"
+              }
+            }
           ]
         },
         {
@@ -3089,7 +3134,9 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://www.meet.barcelona/en/visit-and-love-it/points-interest-city/sant-pau-recinte-modernista-92086008873"
-          ]
+          ],
+          "tickets_url": "https://www.santpaubarcelona.org/en",
+          "photo_points": []
         },
         {
           "id": "barcelona-24-07",
@@ -3174,7 +3221,8 @@
                 "source_page": "https://thisisbarcelona.com/architecture/houses-and-emblematic-buildings/casa-comalat"
               }
             }
-          ]
+          ],
+          "tickets_url": "https://www.lapedrera.com/en/tickets/"
         },
         {
           "id": "barcelona-24-06",
@@ -3297,7 +3345,8 @@
                 "source_page": "https://aroundus.com/p/10144844-tapies-museum"
               }
             }
-          ]
+          ],
+          "tickets_url": "https://www.casabatllo.es/en/"
         },
         {
           "id": "barcelona-24-13",
@@ -3340,6 +3389,27 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://thisisbarcelona.com/architecture/houses-and-emblematic-buildings/casa-calvet"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-24-13-1",
+              "name_hy": "Կալվետ տան ճակատը դիմացի մայթից",
+              "name_local": "Casa Calvet, Carrer de Casp 48 (vorera de davant)",
+              "lat": 41.390774,
+              "lon": 2.173136,
+              "what_hy": "Անցիր Carrer de Casp-ի դիմացի մայթը և նկարիր կենտրոնական ապակե պատշգամբը, պատշգամբներն ու վերևի երկու կոր գագաթները։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W614574610"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://live.staticflickr.com/4547/38192868906_a163b2c824_b.jpg",
+                "author": "Spencer Means (Flickr: hunky_punk)",
+                "license": "CC BY-SA 2.0",
+                "source_page": "https://www.flickr.com/photos/28643687@N08/38192868906"
+              }
+            }
           ]
         },
         {
@@ -3383,6 +3453,28 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://guia.barcelona.cat/en/detall/lighting-schedule-font-magica-fonts-de-montjuic_99400787700.html"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-24-14-1",
+              "name_hy": "Վենետիկյան աշտարակներ՝ առանցքային տեսարան",
+              "name_local": "Torres Venecianes – Av. de la Reina Maria Cristina",
+              "lat": 41.37392,
+              "lon": 2.14977,
+              "what_hy": "Կանգնիր երկու աշտարակների միջև և նկարիր պողոտան մինչև Font Màgica-ն ու վերևում Ազգային պալատը (MNAC)։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/32826286",
+                "https://en.wikipedia.org/wiki/Venetian_Towers"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://images.pexels.com/photos/18803552/pexels-photo-18803552.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200",
+                "author": "Mehmet Turgut Kirkgoz (Pexels)",
+                "license": "Pexels License (անվճար, հեղինակի նշումը պարտադիր չէ)",
+                "source_page": "https://www.pexels.com/photo/magic-fountain-of-montjuic-and-palau-nacional-in-barcelona-18803552/"
+              }
+            }
           ]
         },
         {
@@ -3425,7 +3517,7 @@
       "date": "2026-10-25",
       "city": "barcelona",
       "title_hy": "Գաուդի և հին քաղաք. Գուել պարկ, Վիսենս, Գուել պալատ, Գոթական թաղամաս, Բորն, ծով",
-      "notes_hy": "⏰ Այս գիշեր ժամացույցները 1 ժամ հետ են տրվում (03:00 → 02:00)։ Նախաճաշը՝ տանը։\n🏛 Park Güell (ամրագրել 10:00 ժամը, 18 €) → Casa Vicens → Catalunya → La Rambla → Palau Güell (ամրագրել ~12:00, 15 €) → Plaça Reial (Գաուդիի լապտերներ) → ճաշ La Fonda (ամրագրել) → Sant Jaume → տաճար → Plaça del Rei → MUHBA (15:00-ից անվճար) → Santa Maria del Mar → Ցիտադելի կասկադ → Բարսելոնետա → Port Vell → L3 տուն։\nWizz-ի առցանց գրանցումը անել այսօր (մինչև 26.10 07:00)։",
+      "notes_hy": "⏰ Այս գիշեր ժամացույցները 1 ժամ հետ են տրվում (03:00 → 02:00)։ Նախաճաշը՝ տանը։\n🏛 Park Güell (անվճար մասը) → Casa Vicens → Catalunya → La Rambla → Palau Güell (դրսից) → Plaça Reial (Գաուդիի լապտերներ) → ճաշ La Fonda (առանց ամրագրման) → Sant Jaume → տաճար → Plaça del Rei → MUHBA (15:00-ից անվճար) → Santa Maria del Mar → Ցիտադելի կասկադ → Բարսելոնետա → Port Vell → L3 տուն։\nWizz-ի առցանց գրանցումը անել այսօր (մինչև 26.10 07:00)։",
       "total_walk_km": 8.26,
       "stops": [
         {
@@ -3470,14 +3562,14 @@
           "name_local": "Park Güell",
           "lat": 41.41449,
           "lon": 2.1527,
-          "description_hy": "Գաուդիի խճանկարային պարկը. մոնումենտալ գոտին՝ միայն ժամով ամրագրմամբ, ԱՄՐԱԳՐԵԼ ՀԻՄԱ (առաջարկ՝ 10:00 ժամը, ուշանալ կարելի է մինչև 30 ր)։ Vallcarca մետրոյից ~1,2 կմ վերելք՝ շարժասանդուղքներով։ Մուտք՝ Carretera del Carmel 23 կամ Baixada de la Glòria։",
+          "description_hy": "Գաուդիի խճանկարային պարկը։ Վճարովի մոնումենտալ գոտի (վիշապ, սյունասրահ, խճանկարային նստարան) չենք մտնում. քայլում ենք անվճար անտառային մասով՝ վիադուկներ և Turó de les Tres Creus բլուր (360° տեսարան)։ Մտնում ենք Carmel-ի մուտքից (Carretera del Carmel)՝ այնտեղից միանգամից անվճար մասն է (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, artvisitguide)։ ՀԱԿԱՍՈՒԹՅՈՒՆ. պաշտոնական կայքը գրում է, որ մուտքերում տոմս են ստուգում (բացի բնակիչներից)՝ եթե մուտքում տոմս պահանջեն, մոնումենտալ գոտին դիտում ենք պարսպից դուրս։ Vallcarca մետրոյից ~1,2 կմ վերելք՝ շարժասանդուղքներով։",
           "photo_spot_hy": "",
           "visit_min": [
-            75,
-            100
+            45,
+            75
           ],
           "hours_hy": "Ժամային մուտքեր 09:30–19:30 (ՀԱՍՏԱՏՎԱԾ parkguell.barcelona)",
-          "price_hy": "18 € մեծահասակ (ՀԱՍՏԱՏՎԱԾ). 8 × 18 € = 144 €",
+          "price_hy": "Անվճար մաս՝ 0 €։ Մոնումենտալ գոտի (ըստ ցանկության)՝ 18 €, 8 × 18 € = 144 € (ՀԱՍՏԱՏՎԱԾ parkguell.barcelona)",
           "photos": [
             {
               "url": "https://s7g10.scene7.com/is/image/barcelonaturisme/espais-urbans-park-guell-barcelona-5?qlt=85&ts=1771964884346&dpr=off",
@@ -3502,7 +3594,30 @@
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
-            "https://parkguell.barcelona/en/planning-your-visit/prices-and-times"
+            "https://parkguell.barcelona/en/planning-your-visit/prices-and-times",
+            "https://www.artvisitguide.com/park-guell-free-zones-barcelona/"
+          ],
+          "tickets_url": "https://parkguell.barcelona/en/buy-tickets",
+          "photo_points": [
+            {
+              "id": "pp-barcelona-25-14-1",
+              "name_hy": "Երեք խաչերի բլուր",
+              "name_local": "Turó de les Tres Creus (Park Güell, zona lliure)",
+              "lat": 41.41293,
+              "lon": 2.15113,
+              "what_hy": "Բարձրացիր բլրի գագաթը՝ խաչերի մոտ, և նկարիր խաչերը կամ 360° տեսարանը քաղաքի ու ծովի վրա։ Անվճար գոտի է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/35393740"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://images.pexels.com/photos/21568411/pexels-photo-21568411.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200",
+                "author": "Kağan Karatay (Pexels)",
+                "license": "Pexels License (անվճար, հեղինակի նշումը պարտադիր չէ)",
+                "source_page": "https://www.pexels.com/photo/tourist-at-turo-de-les-tres-creus-21568411/"
+              }
+            }
           ]
         },
         {
@@ -3546,6 +3661,28 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://www.meet.barcelona/en/visit-and-love-it/points-interest-city/casa-vicens-92086008808"
+          ],
+          "tickets_url": "https://casavicens.org/buy-tickets",
+          "photo_points": [
+            {
+              "id": "pp-barcelona-25-15-1",
+              "name_hy": "Վիսենս տան ճակատը փողոցից",
+              "name_local": "Casa Vicens, Carrer de les Carolines 20-26",
+              "lat": 41.40358,
+              "lon": 2.15079,
+              "what_hy": "Կանգնիր Carrer de les Carolines-ի մայթին և նկարիր գունավոր սալիկապատ ճակատն ու աշտարակները ցանկապատի վերևից։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Casa_Vicens"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://images.pexels.com/photos/35049914/pexels-photo-35049914.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200",
+                "author": "Farnaz Kohankhaki (Pexels)",
+                "license": "Pexels License (անվճար, հեղինակի նշումը պարտադիր չէ)",
+                "source_page": "https://www.pexels.com/photo/casa-vicens-in-barcelona-s-vibrant-colors-35049914/"
+              }
+            }
           ]
         },
         {
@@ -3741,14 +3878,14 @@
           "name_local": "Palau Güell, Carrer Nou de la Rambla 3-5",
           "lat": 41.37909,
           "lon": 2.17444,
-          "description_hy": "Գաուդիի պալատը La Rambla-ի մոտ՝ գունավոր ծխնելույզներով տանիքով։ Ներս՝ օրով և ժամով առցանց ամրագրմամբ (առաջարկ՝ ~12:00)։",
+          "description_hy": "Գաուդիի պալատը La Rambla-ի մոտ (Carrer Nou de la Rambla 3–5)։ Ներս չենք մտնում, դիտում ենք ճակատը և երկաթե դարպասները փողոցից։ Ներսի տոմսը (ըստ ցանկության)՝ պաշտոնական կայքից։",
           "photo_spot_hy": "",
           "visit_min": [
-            45,
-            75
+            10,
+            15
           ],
           "hours_hy": "Կիրակի 10:00–20:00, երկուշաբթի փակ (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
-          "price_hy": "15 € (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ). 8 × 15 € = 120 €. Դրսից՝ անվճար",
+          "price_hy": "Դրսից՝ անվճար։ Ներս (ըստ ցանկության)՝ 15 €, 8 × 15 € = 120 € (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
           "photos": [
             {
               "url": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/201505palau-guell.optimized.221c54ec.jpg",
@@ -3775,7 +3912,9 @@
           "sources": [
             "https://www.palauguell.cat/en",
             "https://www.meet.barcelona/en/visit-and-love-it/points-interest-city/palau-guell-92086008810"
-          ]
+          ],
+          "tickets_url": "https://www.palauguell.cat/en",
+          "photo_points": []
         },
         {
           "id": "barcelona-25-09",
@@ -3785,7 +3924,7 @@
           "name_local": "La Fonda",
           "lat": 41.37936,
           "lon": 2.17621,
-          "description_hy": "Հրապարակված երկրորդային մենյուի օրինակներով՝ մատչելի ճաշի տարբերակ, ունի խմբային սրահներ. 8 հոգու սեղանը ամրագրել TheFork-ով կամ ☎ +34 933 01 75 15 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ (ստուգված 18.10.2026))։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). La Fonda նույնանուն ռեստորանի հրապարակված POI կետ՝ հանրային հասցեի մոտ։ Աղբյուր՝ https://findit.city/en/spain/barcelona/places/restaurants/la-fonda-3761312382",
+          "description_hy": "Հրապարակված երկրորդային մենյուի օրինակներով՝ մատչելի ճաշի տարբերակ, ունի խմբային սրահներ. Ամրագրում չենք անում. եթե ուզենք նստել՝ ☎ +34 933 01 75 15 կամ TheFork (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ (ստուգված 18.10.2026))։ Կոորդինատի նշում («ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ», ստուգում՝ 17.10.2026). La Fonda նույնանուն ռեստորանի հրապարակված POI կետ՝ հանրային հասցեի մոտ։ Աղբյուր՝ https://findit.city/en/spain/barcelona/places/restaurants/la-fonda-3761312382",
           "photo_spot_hy": "",
           "visit_min": [
             10,
@@ -4359,6 +4498,46 @@
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "https://www.meet.barcelona/en/visitez-la-et-aimez-la/points-dinteret-de-la-ville/parc-de-la-ciutadella-92086011921"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-barcelona-25-17-1",
+              "name_hy": "Կասկադը դիմացից",
+              "name_local": "Cascada Monumental (davant de l'estany)",
+              "lat": 41.390127,
+              "lon": 2.186535,
+              "what_hy": "Կանգնիր կասկադի դիմացի ավազանի եզրին և նկարիր ամբողջ շենքը՝ ոսկե քառաձին կառքով վերևում։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/32906996"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://images.pexels.com/photos/19866633/pexels-photo-19866633.jpeg?cs=srgb&dl=pexels-axp-photography-500641970-19866633.jpg&fm=jpg",
+                "author": "AXP Photography (Pexels)",
+                "license": "Pexels License (անվճար, հեղինակի նշումը պարտադիր չէ)",
+                "source_page": "https://www.pexels.com/photo/cascada-monumental-in-parc-de-la-ciutadella-barcelona-spain-19866633/"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-17-2",
+              "name_hy": "Հաղթական կամար",
+              "name_local": "Arc de Triomf (Passeig de Lluís Companys)",
+              "lat": 41.39106,
+              "lon": 2.18067,
+              "what_hy": "Կանգնիր Passeig de Lluís Companys-ի հետիոտնային ծառուղում և նկարիր կարմիր աղյուսե կամարը (~500 մ պարկից)։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/25251456"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://images.pexels.com/photos/27278848/pexels-photo-27278848.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200",
+                "author": "AXP Photography (Pexels)",
+                "license": "Pexels License (անվճար, հեղինակի նշումը պարտադիր չէ)",
+                "source_page": "https://www.pexels.com/photo/the-arch-of-barcelona-is-shown-in-this-photo-27278848/"
+              }
+            }
           ]
         },
         {
@@ -4605,9 +4784,9 @@
     {
       "date": "2026-10-26",
       "city": "rome",
-      "title_hy": "Ֆիումիչինոյից Հռոմ․ Կոլիզեյ և հին կենտրոն",
-      "notes_hy": "11:55 վայրէջք Ֆյումիչինո, գնացքով և մետրոյով տուն (Bologna), հետո Կոլիզեում, ֆորումներ, Piazza Venezia, Trevi՝ դրսից, անվճար։ Ուշացման դեպքում կրճատում ենք երեկոյան կետերը։ Ընթրիք՝ Monti Lab (փակվում է 21:00–21:30)։",
-      "total_walk_km": 3.35,
+      "title_hy": "Ֆիումիչինոյից Հռոմ․ Տրևի, Վենետիկ, ֆորումներ, Կոլիզեյ",
+      "notes_hy": "11:55 վայրէջք Ֆյումիչինո, գնացքով և մետրոյով տուն (Bologna), ճաշ Termini-ում, հետո ամենակարճ հերթականությամբ՝ Trevi → Piazza Venezia → ֆորումների պողոտա → Կոլիզեում (մթնշաղին լուսավորված Կոլիզեումը լավ նկար է), բոլորը դրսից, անվճար։ Ուշացման դեպքում կրճատում ենք երեկոյան կետերը։ Ընթրիք՝ Monti Lab (փակվում է 21:00–21:30)։",
+      "total_walk_km": 2.87,
       "stops": [
         {
           "id": "rome-26-01",
@@ -4718,12 +4897,12 @@
             "mode": "metro",
             "km": null,
             "min": null,
-            "line": "Metro B",
-            "color": "կապույտ",
-            "direction": "Laurentina",
-            "get_off": "Colosseo",
-            "transfers_hy": "Termini-ից Metro B (ուղղություն՝ Laurentina) 2 կանգառ → Colosseo։",
-            "ticket_hy": "BIT 1,50 € կամ նույն տոմսը՝ միայն վավերության և մետրոյի մուտքերի պայմաններում"
+            "line": "Metro A",
+            "color": "նարնջագույն",
+            "direction": "Battistini",
+            "get_off": "Barberini",
+            "transfers_hy": "Termini-ից Metro A (նարնջագույն, ուղղություն՝ Battistini) 2 կանգառ → Barberini, հետո ~8 ր ոտքով Via del Tritone-ով դեպի Trevi։",
+            "ticket_hy": "BIT 1,50 € (100 րոպե)"
           },
           "label": "ՀԱՍՏԱՏՎԱԾ",
           "sources": [
@@ -4732,358 +4911,8 @@
           ]
         },
         {
-          "id": "rome-26-04",
-          "order": 4,
-          "kind": "sight",
-          "name_hy": "Կոլիզեյ՝ դրսից",
-          "name_local": "Colosseo",
-          "lat": 41.890501,
-          "lon": 12.491147,
-          "description_hy": "Դիտել ամֆիթատրոնի արտաքին օղակներն ու Կոնստանտինի կամարը՝ առանց վճարովի ներսի այցելության։",
-          "photo_spot_hy": "Piazza del Colosseo՝ արևմտյան դիտակետ",
-          "visit_min": [
-            10,
-            25
-          ],
-          "hours_hy": "25.10-ից ձմեռային ժամեր՝ 08:30–16:30 (վերջին մուտք 15:30), ներս՝ 18 € միայն ժամով ամրագրմամբ ticketing.colosseo.it. դրսից դիտում՝ ազատ (ՀԱՍՏԱՏՎԱԾ colosseo.it (ստուգված 18.10.2026))",
-          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [
-            {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Photo_of_The_Colosseum_in_Rome%2C_Italy.jpg",
-              "author": "Minimum-herb",
-              "license": "CC BY-SA 4.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Photo_of_The_Colosseum_in_Rome,_Italy.jpg"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 0.65,
-            "min": 9,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Via dei Fori Imperiali (~0,65 կմ, ~9 ր)։",
-            "ticket_hy": ""
-          },
-          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-          "sources": [
-            "https://www.turismoroma.it/en/places/parco-archeologico-del-colosseo",
-            "https://commons.wikimedia.org/wiki/File:Photo_of_The_Colosseum_in_Rome,_Italy.jpg",
-            "https://colosseo.it/orari/"
-          ],
-          "photo_points": [
-            {
-              "id": "pp-rome-26-04-1",
-              "name_hy": "Կոլիզեյի արտաքին մայթ՝ կամարների դիմաց",
-              "name_local": "Colosseo – Piazza del Colosseo",
-              "lat": 41.890602,
-              "lon": 12.490811,
-              "what_hy": "Հանրային արտաքին հատվածից կարելի է մոտիկից նկարել Կոլիզեյի բազմահարկ կամարները՝ առանց ներս մտնելու։ Կետը նկարահանումն իրականացրած լուսանկարի camera location-ն է։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://commons.wikimedia.org/wiki/File:Colosseo,_Roma,_Italia_-_Coliseum_Colosseum,_Rome,_Italy_(48965633546).jpg"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Colosseo%2C_Roma%2C_Italia_-_Coliseum_Colosseum%2C_Rome%2C_Italy_%2848965633546%29.jpg",
-                "author": "Romain Pontida",
-                "license": "CC BY-SA 2.0",
-                "source_page": "https://commons.wikimedia.org/wiki/File:Colosseo,_Roma,_Italia_-_Coliseum_Colosseum,_Rome,_Italy_(48965633546).jpg"
-              }
-            },
-            {
-              "id": "pp-rome-26-04-2",
-              "name_hy": "Կոստանդինի կամար",
-              "name_local": "Arco di Costantino",
-              "lat": 41.88976,
-              "lon": 12.4906,
-              "what_hy": "Հռոմի ամենամեծ հաղթական կամարը (315 թ.)՝ ետևում Կոլիզեումով, դասական կադր, դրսից՝ անվճար։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://turismoroma.it/en/node/1025",
-                "https://www.througheternity.com/travel-guide/best-views-colosseum-rome"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://turismoroma.it/sites/default/files/Arco%20di%20Costantino%20Ph.%20Turismo%20Roma.jpg",
-                "author": "Ph. Turismo Roma",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://turismoroma.it/en/node/1025"
-              }
-            },
-            {
-              "id": "pp-rome-26-04-3",
-              "name_hy": "Գաետանա Անեզիի դիտահարթակ",
-              "name_local": "Largo Gaetana Agnesi (belvedere sul Colosseo)",
-              "lat": 41.89173,
-              "lon": 12.49141,
-              "what_hy": "Հետիոտնային տեռաս՝ Կոլիզեումի դիմացի բարձրադիր տեսարանով։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://www.tripadvisor.com/ShowUserReviews-g187791-d9559380-r539049472-Largo_Gaetana_Agnesi-Rome_Lazio.html"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://media-cdn.tripadvisor.com/media/photo-l/1c/f5/88/30/vista-dell-anfiteatro.jpg",
-                "author": "Tripadvisor user",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://www.tripadvisor.com/ShowUserReviews-g187791-d9559380-r539049472-Largo_Gaetana_Agnesi-Rome_Lazio.html"
-              }
-            },
-            {
-              "id": "pp-rome-26-04-4",
-              "name_hy": "Կոլե Օպիո այգի",
-              "name_local": "Parco del Colle Oppio – vista sul Colosseo",
-              "lat": 41.89068,
-              "lon": 12.49546,
-              "what_hy": "Այգու տեռասներ՝ Կոլիզեումի և Պալատինի մոտիկ տեսարանով։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://mamalovesrome.com/best-photo-spots-in-rome/"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://mamalovesrome.com/wp-content/uploads/2021/09/Colosseum-from-Colle-Oppio.jpg",
-                "author": "Mama Loves Rome",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://mamalovesrome.com/best-photo-spots-in-rome/"
-              }
-            }
-          ]
-        },
-        {
-          "id": "rome-26-05",
-          "order": 5,
-          "kind": "sight",
-          "name_hy": "Կայսերական ֆորումների պողոտա",
-          "name_local": "Via dei Fori Imperiali",
-          "lat": 41.893327,
-          "lon": 12.487,
-          "description_hy": "Քայլել Colosseo-ից դեպի Piazza Venezia՝ հին ֆորումների բացօթյա տեսարաններով։",
-          "photo_spot_hy": "Via dei Fori Imperiali՝ Forum-ի բարձրադիր եզր",
-          "visit_min": [
-            10,
-            25
-          ],
-          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [
-            {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Rzym_%28Roma%29._Via_dei_Fori_Imperiali._Widok_na_Colosseum%2C_czyli_staro%C5%BCytny_Amfiteatr_Flawiusz%C3%B3w._-_panoramio.jpg",
-              "author": "Lech_Darski",
-              "license": "CC BY-SA 3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Rzym_%28Roma%29._Via_dei_Fori_Imperiali._Widok_na_Colosseum%2C_czyli_staro%C5%BCytny_Amfiteatr_Flawiusz%C3%B3w._-_panoramio.jpg"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 0.85,
-            "min": 12,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Piazza Venezia (~0,85 կմ, ~12 ր)։",
-            "ticket_hy": ""
-          },
-          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-          "sources": [
-            "https://turismoroma.it/en/places/dei-fori-imperiali"
-          ],
-          "photo_points": [
-            {
-              "id": "pp-rome-26-05-1",
-              "name_hy": "Մադոննա դեի Մոնտի հրապարակ",
-              "name_local": "Piazza della Madonna dei Monti – Fontana dei Catecumeni",
-              "lat": 41.89496,
-              "lon": 12.49077,
-              "what_hy": "Մոնտիի սրճարաններով հրապարակ 1589-ի ութանկյուն շատրվանով՝ դասական Մոնտիի կադր, ընթրիքի ճանապարհին։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://www.turismoroma.it/en/places/fountain-catechumens-piazza-madonna-dei-monti",
-                "https://mamalovesrome.com/monti-neighborhood-rome/"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://www.turismoroma.it/sites/default/files/fontana_dei_catecumeni_in_piazza_madonna_dei_monti.jpg",
-                "author": "sovraintendenzaroma.it",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://www.turismoroma.it/en/places/fountain-catechumens-piazza-madonna-dei-monti"
-              }
-            },
-            {
-              "id": "pp-rome-26-05-2",
-              "name_hy": "Կեսարի ֆորում",
-              "name_local": "Foro di Cesare",
-              "lat": 41.89362,
-              "lon": 12.48458,
-              "what_hy": "Վեներա Գենետրիքսի տաճարի երեք կանգուն սյուները՝ վերևից։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://turismoroma.it/it/luoghi/foro-di-cesare"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://turismoroma.it/sites/default/files/Foro%20di%20Cesare%20copertina.jpg",
-                "author": "Sovrintendenza Capitolina",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://turismoroma.it/it/luoghi/foro-di-cesare"
-              }
-            },
-            {
-              "id": "pp-rome-26-05-3",
-              "name_hy": "Տեռաս Հռոմեական ֆորումի վրա",
-              "name_local": "Terrazza sul Foro Romano (retro del Campidoglio)",
-              "lat": 41.89249,
-              "lon": 12.48365,
-              "what_hy": "Անվճար տեռաս Կապիտոլիումի ետևում՝ ֆորումի սյուներով և Կոլիզեումով, լավագույնը՝ երեկոյան։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://mamalovesrome.com/best-views-of-rome/"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://mamalovesrome.com/wp-content/uploads/2020/04/Roman-Forum-view.jpg",
-                "author": "Mama Loves Rome",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://mamalovesrome.com/best-views-of-rome/"
-              }
-            }
-          ]
-        },
-        {
-          "id": "rome-26-06",
-          "order": 6,
-          "kind": "sight",
-          "name_hy": "Վենեցիայի հրապարակ",
-          "name_local": "Piazza Venezia",
-          "lat": 41.896043,
-          "lon": 12.482468,
-          "description_hy": "Դիտել Vittoriano-ի ճակատը։ Շինարարական աշխատանքների պատճառով անցումները տեղում կարող են փոխված լինել։",
-          "photo_spot_hy": "",
-          "visit_min": [
-            10,
-            25
-          ],
-          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
-          "photos": [
-            {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Piazza_venezia%2C_roma.jpg",
-              "author": "Sailko",
-              "license": "CC BY-SA 3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Piazza_venezia,_roma.jpg"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 0.8,
-            "min": 11,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Fontana di Trevi (~0,8 կմ, ~11 ր)։",
-            "ticket_hy": ""
-          },
-          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-          "sources": [
-            "https://turismoroma.it/en/places/piazza-venezia",
-            "https://commons.wikimedia.org/wiki/File:Piazza_venezia,_roma.jpg"
-          ],
-          "photo_points": [
-            {
-              "id": "pp-rome-26-06-1",
-              "name_hy": "Վիտորիանոյի տանիքի տեռաս",
-              "name_local": "Terrazza delle Quadrighe (Terrazze del Vittoriano)",
-              "lat": 41.89518,
-              "lon": 12.48281,
-              "what_hy": "Ապակե վերելակով տանիք՝ 360° տեսարան Կոլիզեումի, ֆորումների և Via del Corso-ի վրա. վերելակը վճարովի է (~7 €), աստիճանները՝ անվճար։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://turismoroma.it/en/places/terraces-vittoriano",
-                "https://www.ourescapeclause.com/most-instagrammable-places-in-rome/"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://turismoroma.it/sites/default/files/Via%20del%20Corso%20vista%20dalle%20Terrazze%20del%20Vittoriano.jpg",
-                "author": "© Turismo Roma",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://turismoroma.it/en/places/terraces-vittoriano"
-              }
-            },
-            {
-              "id": "pp-rome-26-06-2",
-              "name_hy": "Տրայանոսի սյունը",
-              "name_local": "Colonna Traiana",
-              "lat": 41.89584,
-              "lon": 12.48364,
-              "what_hy": "Մ.թ. 113-ի 40 մ սյունը պարուրաձև քանդակով՝ Տրայանոսի ֆորումի և շուկաների հետ, Piazza Venezia-ի կողքին։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://turismoroma.it/en/node/1021"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://turismoroma.it/sites/default/files/Colonna%20traiana_copertina.jpg",
-                "author": "© Turismo Roma",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://turismoroma.it/en/node/1021"
-              }
-            },
-            {
-              "id": "pp-rome-26-06-3",
-              "name_hy": "Կապիտոլիումի հրապարակ",
-              "name_local": "Piazza del Campidoglio e Cordonata",
-              "lat": 41.89337,
-              "lon": 12.48292,
-              "what_hy": "Միքելանջելոյի հրապարակը Մարկոս Ավրելիոսի արձանով և լայն աստիճանաձև վերելքով։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://www.turismoroma.it/en/places/piazza-del-campidoglio-capitoline-hill"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://www.turismoroma.it/sites/default/files/campidoglio.jpg",
-                "author": "Turismo Roma",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://www.turismoroma.it/en/places/piazza-del-campidoglio-capitoline-hill"
-              }
-            },
-            {
-              "id": "pp-rome-26-06-4",
-              "name_hy": "Տրայանոսի շուկաներ",
-              "name_local": "Mercati di Traiano",
-              "lat": 41.89625,
-              "lon": 12.4861,
-              "what_hy": "Կիսաշրջան աղյուսե համալիր ֆորումների վերևում (դրսից՝ անվճար)։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://www.turismoroma.it/it/luoghi/mercati-di-traiano-museo-dei-fori-imperiali"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://www.turismoroma.it/sites/default/files/Mercati%20di%20Traiano%20-%20Museo%20dei%20Fori%20Imperiali.jpg",
-                "author": "Turismo Roma",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://www.turismoroma.it/it/luoghi/mercati-di-traiano-museo-dei-fori-imperiali"
-              }
-            }
-          ]
-        },
-        {
           "id": "rome-26-07",
-          "order": 7,
+          "order": 4,
           "kind": "sight",
           "name_hy": "Տրևիի շատրվան",
           "name_local": "Fontana di Trevi",
@@ -5110,13 +4939,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 1.05,
-            "min": 15,
+            "km": 0.69,
+            "min": 10,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Monti Lab – Italian Street Food (~1,05 կմ, ~15 ր)։",
+            "transfers_hy": "Ոտքով դեպի Piazza Venezia (~0,69 կմ, ~10 ր)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -5221,6 +5050,356 @@
                 "author": "Turismo Roma",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://turismoroma.it/it/luoghi/fontana-del-tritone"
+              }
+            }
+          ]
+        },
+        {
+          "id": "rome-26-06",
+          "order": 5,
+          "kind": "sight",
+          "name_hy": "Վենեցիայի հրապարակ",
+          "name_local": "Piazza Venezia",
+          "lat": 41.896043,
+          "lon": 12.482468,
+          "description_hy": "Դիտել Vittoriano-ի ճակատը։ Շինարարական աշխատանքների պատճառով անցումները տեղում կարող են փոխված լինել։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Piazza_venezia%2C_roma.jpg",
+              "author": "Sailko",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Piazza_venezia,_roma.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.63,
+            "min": 9,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով դեպի Via dei Fori Imperiali (~0,63 կմ, ~9 ր)։",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://turismoroma.it/en/places/piazza-venezia",
+            "https://commons.wikimedia.org/wiki/File:Piazza_venezia,_roma.jpg"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-rome-26-06-1",
+              "name_hy": "Վիտորիանոյի տանիքի տեռաս",
+              "name_local": "Terrazza delle Quadrighe (Terrazze del Vittoriano)",
+              "lat": 41.89518,
+              "lon": 12.48281,
+              "what_hy": "Ապակե վերելակով տանիք՝ 360° տեսարան Կոլիզեումի, ֆորումների և Via del Corso-ի վրա. վերելակը վճարովի է (~7 €), աստիճանները՝ անվճար։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://turismoroma.it/en/places/terraces-vittoriano",
+                "https://www.ourescapeclause.com/most-instagrammable-places-in-rome/"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://turismoroma.it/sites/default/files/Via%20del%20Corso%20vista%20dalle%20Terrazze%20del%20Vittoriano.jpg",
+                "author": "© Turismo Roma",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://turismoroma.it/en/places/terraces-vittoriano"
+              }
+            },
+            {
+              "id": "pp-rome-26-06-2",
+              "name_hy": "Տրայանոսի սյունը",
+              "name_local": "Colonna Traiana",
+              "lat": 41.89584,
+              "lon": 12.48364,
+              "what_hy": "Մ.թ. 113-ի 40 մ սյունը պարուրաձև քանդակով՝ Տրայանոսի ֆորումի և շուկաների հետ, Piazza Venezia-ի կողքին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://turismoroma.it/en/node/1021"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://turismoroma.it/sites/default/files/Colonna%20traiana_copertina.jpg",
+                "author": "© Turismo Roma",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://turismoroma.it/en/node/1021"
+              }
+            },
+            {
+              "id": "pp-rome-26-06-3",
+              "name_hy": "Կապիտոլիումի հրապարակ",
+              "name_local": "Piazza del Campidoglio e Cordonata",
+              "lat": 41.89337,
+              "lon": 12.48292,
+              "what_hy": "Միքելանջելոյի հրապարակը Մարկոս Ավրելիոսի արձանով և լայն աստիճանաձև վերելքով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.turismoroma.it/en/places/piazza-del-campidoglio-capitoline-hill"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://www.turismoroma.it/sites/default/files/campidoglio.jpg",
+                "author": "Turismo Roma",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://www.turismoroma.it/en/places/piazza-del-campidoglio-capitoline-hill"
+              }
+            },
+            {
+              "id": "pp-rome-26-06-4",
+              "name_hy": "Տրայանոսի շուկաներ",
+              "name_local": "Mercati di Traiano",
+              "lat": 41.89625,
+              "lon": 12.4861,
+              "what_hy": "Կիսաշրջան աղյուսե համալիր ֆորումների վերևում (դրսից՝ անվճար)։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.turismoroma.it/it/luoghi/mercati-di-traiano-museo-dei-fori-imperiali"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://www.turismoroma.it/sites/default/files/Mercati%20di%20Traiano%20-%20Museo%20dei%20Fori%20Imperiali.jpg",
+                "author": "Turismo Roma",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://www.turismoroma.it/it/luoghi/mercati-di-traiano-museo-dei-fori-imperiali"
+              }
+            }
+          ]
+        },
+        {
+          "id": "rome-26-05",
+          "order": 6,
+          "kind": "sight",
+          "name_hy": "Կայսերական ֆորումների պողոտա",
+          "name_local": "Via dei Fori Imperiali",
+          "lat": 41.893327,
+          "lon": 12.487,
+          "description_hy": "Քայլել Colosseo-ից դեպի Piazza Venezia՝ հին ֆորումների բացօթյա տեսարաններով։",
+          "photo_spot_hy": "Via dei Fori Imperiali՝ Forum-ի բարձրադիր եզր",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "Օրվա հատուկ սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Rzym_%28Roma%29._Via_dei_Fori_Imperiali._Widok_na_Colosseum%2C_czyli_staro%C5%BCytny_Amfiteatr_Flawiusz%C3%B3w._-_panoramio.jpg",
+              "author": "Lech_Darski",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Rzym_%28Roma%29._Via_dei_Fori_Imperiali._Widok_na_Colosseum%2C_czyli_staro%C5%BCytny_Amfiteatr_Flawiusz%C3%B3w._-_panoramio.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.6,
+            "min": 9,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով դեպի Colosseo (~0,6 կմ, ~9 ր)։",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://turismoroma.it/en/places/dei-fori-imperiali"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-rome-26-05-1",
+              "name_hy": "Մադոննա դեի Մոնտի հրապարակ",
+              "name_local": "Piazza della Madonna dei Monti – Fontana dei Catecumeni",
+              "lat": 41.89496,
+              "lon": 12.49077,
+              "what_hy": "Մոնտիի սրճարաններով հրապարակ 1589-ի ութանկյուն շատրվանով՝ դասական Մոնտիի կադր, ընթրիքի ճանապարհին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.turismoroma.it/en/places/fountain-catechumens-piazza-madonna-dei-monti",
+                "https://mamalovesrome.com/monti-neighborhood-rome/"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://www.turismoroma.it/sites/default/files/fontana_dei_catecumeni_in_piazza_madonna_dei_monti.jpg",
+                "author": "sovraintendenzaroma.it",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://www.turismoroma.it/en/places/fountain-catechumens-piazza-madonna-dei-monti"
+              }
+            },
+            {
+              "id": "pp-rome-26-05-2",
+              "name_hy": "Կեսարի ֆորում",
+              "name_local": "Foro di Cesare",
+              "lat": 41.89362,
+              "lon": 12.48458,
+              "what_hy": "Վեներա Գենետրիքսի տաճարի երեք կանգուն սյուները՝ վերևից։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://turismoroma.it/it/luoghi/foro-di-cesare"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://turismoroma.it/sites/default/files/Foro%20di%20Cesare%20copertina.jpg",
+                "author": "Sovrintendenza Capitolina",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://turismoroma.it/it/luoghi/foro-di-cesare"
+              }
+            },
+            {
+              "id": "pp-rome-26-05-3",
+              "name_hy": "Տեռաս Հռոմեական ֆորումի վրա",
+              "name_local": "Terrazza sul Foro Romano (retro del Campidoglio)",
+              "lat": 41.89249,
+              "lon": 12.48365,
+              "what_hy": "Անվճար տեռաս Կապիտոլիումի ետևում՝ ֆորումի սյուներով և Կոլիզեումով, լավագույնը՝ երեկոյան։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mamalovesrome.com/best-views-of-rome/"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://mamalovesrome.com/wp-content/uploads/2020/04/Roman-Forum-view.jpg",
+                "author": "Mama Loves Rome",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://mamalovesrome.com/best-views-of-rome/"
+              }
+            }
+          ]
+        },
+        {
+          "id": "rome-26-04",
+          "order": 7,
+          "kind": "sight",
+          "name_hy": "Կոլիզեյ՝ դրսից",
+          "name_local": "Colosseo",
+          "lat": 41.890501,
+          "lon": 12.491147,
+          "description_hy": "Դիտել ամֆիթատրոնի արտաքին օղակներն ու Կոնստանտինի կամարը՝ առանց վճարովի ներսի այցելության։",
+          "photo_spot_hy": "Piazza del Colosseo՝ արևմտյան դիտակետ",
+          "visit_min": [
+            10,
+            25
+          ],
+          "hours_hy": "25.10-ից ձմեռային ժամեր՝ 08:30–16:30 (վերջին մուտք 15:30), ներս՝ 18 € միայն ժամով ամրագրմամբ ticketing.colosseo.it. դրսից դիտում՝ ազատ (ՀԱՍՏԱՏՎԱԾ colosseo.it (ստուգված 18.10.2026))",
+          "price_hy": "Դրսից դիտում՝ տոմս չի նախատեսվում",
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Photo_of_The_Colosseum_in_Rome%2C_Italy.jpg",
+              "author": "Minimum-herb",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Photo_of_The_Colosseum_in_Rome,_Italy.jpg"
+            }
+          ],
+          "menu_url": "",
+          "menu_prices_hy": "",
+          "reviews_source": "",
+          "to_next": {
+            "mode": "walk",
+            "km": 0.95,
+            "min": 14,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով դեպի Monti Lab – Italian Street Food (~0,95 կմ, ~14 ր)։",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.turismoroma.it/en/places/parco-archeologico-del-colosseo",
+            "https://commons.wikimedia.org/wiki/File:Photo_of_The_Colosseum_in_Rome,_Italy.jpg",
+            "https://colosseo.it/orari/"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-rome-26-04-1",
+              "name_hy": "Կոլիզեյի արտաքին մայթ՝ կամարների դիմաց",
+              "name_local": "Colosseo – Piazza del Colosseo",
+              "lat": 41.890602,
+              "lon": 12.490811,
+              "what_hy": "Հանրային արտաքին հատվածից կարելի է մոտիկից նկարել Կոլիզեյի բազմահարկ կամարները՝ առանց ներս մտնելու։ Կետը նկարահանումն իրականացրած լուսանկարի camera location-ն է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Colosseo,_Roma,_Italia_-_Coliseum_Colosseum,_Rome,_Italy_(48965633546).jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Colosseo%2C_Roma%2C_Italia_-_Coliseum_Colosseum%2C_Rome%2C_Italy_%2848965633546%29.jpg",
+                "author": "Romain Pontida",
+                "license": "CC BY-SA 2.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Colosseo,_Roma,_Italia_-_Coliseum_Colosseum,_Rome,_Italy_(48965633546).jpg"
+              }
+            },
+            {
+              "id": "pp-rome-26-04-2",
+              "name_hy": "Կոստանդինի կամար",
+              "name_local": "Arco di Costantino",
+              "lat": 41.88976,
+              "lon": 12.4906,
+              "what_hy": "Հռոմի ամենամեծ հաղթական կամարը (315 թ.)՝ ետևում Կոլիզեումով, դասական կադր, դրսից՝ անվճար։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://turismoroma.it/en/node/1025",
+                "https://www.througheternity.com/travel-guide/best-views-colosseum-rome"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://turismoroma.it/sites/default/files/Arco%20di%20Costantino%20Ph.%20Turismo%20Roma.jpg",
+                "author": "Ph. Turismo Roma",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://turismoroma.it/en/node/1025"
+              }
+            },
+            {
+              "id": "pp-rome-26-04-3",
+              "name_hy": "Գաետանա Անեզիի դիտահարթակ",
+              "name_local": "Largo Gaetana Agnesi (belvedere sul Colosseo)",
+              "lat": 41.89173,
+              "lon": 12.49141,
+              "what_hy": "Հետիոտնային տեռաս՝ Կոլիզեումի դիմացի բարձրադիր տեսարանով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.tripadvisor.com/ShowUserReviews-g187791-d9559380-r539049472-Largo_Gaetana_Agnesi-Rome_Lazio.html"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/1c/f5/88/30/vista-dell-anfiteatro.jpg",
+                "author": "Tripadvisor user",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://www.tripadvisor.com/ShowUserReviews-g187791-d9559380-r539049472-Largo_Gaetana_Agnesi-Rome_Lazio.html"
+              }
+            },
+            {
+              "id": "pp-rome-26-04-4",
+              "name_hy": "Կոլե Օպիո այգի",
+              "name_local": "Parco del Colle Oppio – vista sul Colosseo",
+              "lat": 41.89068,
+              "lon": 12.49546,
+              "what_hy": "Այգու տեռասներ՝ Կոլիզեումի և Պալատինի մոտիկ տեսարանով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mamalovesrome.com/best-photo-spots-in-rome/"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://mamalovesrome.com/wp-content/uploads/2021/09/Colosseum-from-Colle-Oppio.jpg",
+                "author": "Mama Loves Rome",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://mamalovesrome.com/best-photo-spots-in-rome/"
               }
             }
           ]
@@ -6492,9 +6671,9 @@
     }
   ],
   "open_questions_hy": [
-    "⚠ Բարսելոնա՝ ամրագրել ՀԻՄԱ. Սագրադա Ֆամիլիա 24.10 ~15:45 (8 × 26 €), Park Güell 25.10 10:00 (8 × 18 €), Palau Güell 25.10 ~12:00 (8 × 15 €), La Fonda ճաշ 25.10 ~13:15։",
+    "ℹ Բարսելոնա՝ ներս չենք մտնում, դիտում ենք դրսից։ Եթե որևէ մեկը ուզի ներս՝ տոմսերը միայն պաշտոնական կայքերից (հղումը՝ կանգառի քարտում «🎟 Տոմս»). Սագրադա Ֆամիլիա 26 €, Park Güell 18 €, Palau Güell 15 €, Casa Vicens, Casa Milà, Casa Batlló, Sant Pau։",
     "⚠ Լուվր՝ 17.10–01.11 ներս մուտքը միայն նախնական ամրագրմամբ (ticket.louvre.fr, 32 €). պլանում միայն արտաքին բակն է՝ անվճար։ Կոլիզեում՝ 25.10-ից փակվում է 16:30-ին, ներսը միայն ժամով ամրագրմամբ։",
-    "Ամրագրել նախապես. Le Trumilou 20.10 ընթրիք (☎ +33 1 42 77 63 98), La Fonda 25.10 ճաշ (TheFork / ☎ +34 933 01 75 15), Castel Romano shuttle 27.10 (cilia-italia.com, 13 €, մինչև 25՝ անվճար), 2 տաքսի 28.10-ի 02:45-ի համար (3570 / 060609)։ Bouillon Chartier-ները ամրագրում չեն ընդունում։",
+    "Ամրագրել նախապես. Le Trumilou 20.10 ընթրիք (☎ +33 1 42 77 63 98), Castel Romano shuttle 27.10 (cilia-italia.com, 13 €, մինչև 25՝ անվճար), 2 տաքսի 28.10-ի 02:45-ի համար (3570 / 060609)։ Bouillon Chartier-ները ամրագրում չեն ընդունում։",
     "Առցանց գրանցում. 20.10 մինչև 10:25 (Երևան), 24.10 Vueling մինչև 05:30 (Փարիզ, անել 23.10-ին), 26.10 մինչև 07:00 (Բարսելոնա, անել 25.10-ին), 28.10 մինչև 03:15 (Հռոմ, անել 27.10-ին)",
     "Որոշված է. 20.10՝ ընթրիք + կարճ զբոսանք, Բարսելոնա՝ Maria Cristina, 28.10՝ 2 տաքսի (պատվիրել նախապես)։ 24.10՝ երկու տարբերակ (գիշերային ավտոբուս կամ 2 տաքսի ~108 €), ընտրությունը տեղում",
     "ԴԵՌ ԲԱՑ. 24.10 գիշերը Orly-ի բացությունը 02:00-ին (երկրորդային աղբյուրով 00:30–03:30 կարող է մասամբ փակ լինել) և ORY4→ORY1 գիշերային անցումը՝ տաքսին ավելի հուսալի է։",

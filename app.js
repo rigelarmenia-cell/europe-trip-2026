@@ -272,6 +272,7 @@ function renderStop(stop, index) {
     if (stop.menu_prices_hy) body.append(element('p', stop.menu_prices_hy));
     if (stop.menu_url) body.append(link('Բացել մենյուն ↗', stop.menu_url));
   }
+  if (stop.tickets_url) { body.append(link('🎟 Տոմս՝ պաշտոնական կայք ↗', stop.tickets_url)); body.append(element('p', 'Պլանով ներս չենք մտնում. հղումը՝ եթե որոշենք մտնել։', 'fine')); }
   const sources = element('div', undefined, 'source-links');
   list(stop.sources).filter(safeUrl).forEach((source, i) => sources.append(link(`Աղբյուր ${i + 1} ↗`, source, '')));
   if (stop.reviews_source) sources.append(link('Կարծիքների աղբյուրը ↗', stop.reviews_source, ''));
