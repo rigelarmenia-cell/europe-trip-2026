@@ -1,5 +1,5 @@
 // Increment on every app-shell release. trip.json has its own version and update flow.
-const RELEASE = '0.7.2';
+const RELEASE = '0.7.3';
 const PREFIX = `champa-shell:${self.registration.scope}:`;
 const CACHE = PREFIX + RELEASE;
 const FILES = ['./', './index.html', './styles.css', './app.js', './lib/core.js', './lib/map.js', './manifest.webmanifest', './icons/favicon-64.png', './icons/mark.png', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png', './icons/apple-touch-icon.png', './vendor/leaflet/leaflet.js', './vendor/leaflet/leaflet.css', './vendor/leaflet/images/layers.png', './vendor/leaflet/images/layers-2x.png', './vendor/leaflet/images/marker-icon.png', './vendor/leaflet/images/marker-icon-2x.png', './vendor/leaflet/images/marker-shadow.png'];

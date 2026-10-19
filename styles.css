@@ -46,3 +46,4 @@ body.map-full{overflow:hidden}body.map-full .map-panel{position:fixed;inset:0;z-
 
 .photo-point-popup>p:first-of-type,.photo-point-popup>.badge{display:none}.photo-point-popup .map-photo img{max-height:90px}.photo-point-popup figcaption{font-size:10px;opacity:.75}.photo-point-popup>a{display:inline-block;margin:2px 8px 0 0;font-size:.75rem}.photo-pin{width:26px!important;height:26px!important;font-size:15px!important;border-width:1.5px!important}
 .seat-gap{text-align:center;color:#5b6472;font-size:.75rem;margin:6px 0}
+#alerts-count{background:#c62828;color:#fff;border-color:#c62828;font-weight:700;box-shadow:0 2px 8px #c6282855}#alerts-count:hover{background:#a51f1f}
