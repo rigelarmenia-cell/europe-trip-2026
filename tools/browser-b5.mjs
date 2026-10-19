@@ -84,7 +84,7 @@ for(const engine of ['edge','webkit']) {
   await snap('25-skipped');
   assert.equal(await page.locator('#photo-toggle').isDisabled(),true);assert.match(await page.locator('#photo-note').textContent(),/կետեր չկան/);
   await page.locator('#reset-day').click();await snap('shortest-before');
-  await page.locator('#shortest-order').click();assert.notDeepEqual(await order(),original);assert.match(await page.locator('#notice').textContent(),/\d+,\d կմ → \d+,\d կմ/);
+  await page.locator('#shortest-order').click();await page.locator('#undo-shortest').waitFor();assert.notDeepEqual(await order(),original);assert.match(await page.locator('#notice').textContent(),/\d+,\d կմ → \d+,\d կմ/);
   await page.locator('#undo-shortest').waitFor();await page.locator('#food-warning').waitFor();assert.match(await page.locator('#food-warning').textContent(),/ծրագիրը ժամեր չի հաշվում/);
   const shortened=await order(),warning=await page.locator('#food-warning').textContent();await snap('shortest-after');
   await page.reload();await page.locator('.stop').first().waitFor();assert.deepEqual(await order(),shortened);assert.equal(await page.locator('#food-warning').textContent(),warning);
@@ -94,7 +94,7 @@ for(const engine of ['edge','webkit']) {
   await page.locator('#reset-day').click();
   if(engine==='webkit')await new Promise(r=>{server.close(r);server.closeAllConnections();});else await context.setOffline(true);
   const response=await page.reload();assert.equal(response.fromServiceWorker(),true);await page.locator('.stop').first().waitFor();
-  await page.locator('#shortest-order').click();assert.notDeepEqual(await order(),original);await page.locator('#undo-shortest').click();assert.deepEqual(await order(),original);
+  await page.locator('#shortest-order').click();await page.locator('#undo-shortest').waitFor();assert.notDeepEqual(await order(),original);await page.locator('#undo-shortest').click();assert.deepEqual(await order(),original);
   await select('2026-10-21');await page.locator('#reset-day').click();assert.equal(await page.locator('.photo-marker').count(),2);
   // All completed: no routes, but every numbered marker remains.
   for(const id of day.stops.map(s=>s.id)){card=await openStop(id);await card.locator('[data-action=visited]').click();}

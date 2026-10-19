@@ -3,7 +3,8 @@ import { createMap } from './lib/map.js';
 import { orderedStops, dayRoutes, isSamsung, shortestOrder, applyShortest, undoShortest } from './lib/itinerary.js';
 import { renderAirports } from './lib/airports.js';
 import { money, distanceNumber } from './lib/format.js';
-import {validatePaths} from './lib/paths.js';
+import {validatePaths, segments} from './lib/paths.js';
+import {haversine} from './lib/itinerary.js';
 import {validateAlerts, activeAlerts} from './lib/alerts.js';
 import {renderRallies, renderSeats, nearestStations} from './lib/extras.js';
 
@@ -115,9 +116,34 @@ function personalDay() {
   const item = state.personal?.[key];
   return item && typeof item === 'object' && !Array.isArray(item) ? item : {};
 }
-function sortedStops(day) { return orderedStops(day, personalDay()); }
-function currentPaths() { try {return validatePaths(state.paths||{},state.trip);} catch {return {};} }
-function renderPaths() {state.map?.routes(currentDay(),sortedStops(currentDay()),currentCity(),currentPaths(),personalDay().statuses);}
+function customStops() { return list(personalDay().custom).filter(s => s && typeof s.id === 'string' && coordinates(s)); }
+function withCustom(day) { return day ? { ...day, stops: [...day.stops, ...customStops()] } : day; }
+function sortedStops(day) { return orderedStops(withCustom(day), personalDay()); }
+function currentPaths() { let built = {}; try { built = validatePaths(state.paths||{},state.trip); } catch { built = {}; } return {...built, ...(state.livePaths||{})}; }
+function renderPaths() {state.map?.routes(currentDay(),sortedStops(currentDay()),currentCity(),currentPaths(),personalDay().statuses); fetchLivePaths();}
+// Changed or added legs: real street walking line from the public OSM foot router (online only, cached on this phone).
+async function fetchLivePaths() {
+  if (!liveOnline() || state.liveLoading || !currentDay()) return;
+  const segs = segments(currentDay(), sortedStops(currentDay()), currentCity(), currentPaths(), personalDay().statuses).filter(s => s.kind === 'unknown');
+  const todo = segs.filter(s => { const [a, b] = [s.points[0], s.points.at(-1)]; return haversine({lat:a[0],lon:a[1]},{lat:b[0],lon:b[1]}) < 2.5 && !(state.livePaths||{})[`${s.from}>${s.to}:live`] && !state.liveFailed?.has(s.from+'>'+s.to); });
+  if (!todo.length) return;
+  state.liveLoading = true; state.livePaths = state.livePaths || {}; state.liveFailed = state.liveFailed || new Set();
+  try {
+    for (const s of todo.slice(0, 6)) {
+      const [a, b] = [s.points[0], s.points.at(-1)];
+      try {
+        const r = await fetch(`https://routing.openstreetmap.de/routed-foot/route/v1/driving/${a[1]},${a[0]};${b[1]},${b[0]}?overview=full&geometries=geojson`, { signal: AbortSignal.timeout(10000) });
+        const j = await r.json(); if (j.code !== 'Ok') throw Error('no route');
+        let pts = j.routes[0].geometry.coordinates.map(([lon, lat]) => [lat, lon]);
+        if (pts.length > 200) pts = Array.from({length:200}, (_, i) => pts[Math.round(i * (pts.length - 1) / 199)]);
+        state.livePaths[`${s.from}>${s.to}:live`] = pts;
+      } catch { state.liveFailed.add(s.from+'>'+s.to); }
+      await new Promise(r => setTimeout(r, 1100));
+    }
+    save('live-paths', state.livePaths);
+  } finally { state.liveLoading = false; }
+  state.map?.routes(currentDay(),sortedStops(currentDay()),currentCity(),currentPaths(),personalDay().statuses);
+}
 function renderPhotoPoints() {
   const stops=sortedStops(currentDay());
   const count=stops.filter(s=>s.kind==='sight').reduce((n,s)=>n+(s.photo_points||[]).length,0);
@@ -235,6 +261,7 @@ function renderStop(stop, index) {
     button.onclick = () => updatePersonal(item => { const ids = sortedStops(currentDay()).map(s => s.id); [ids[index], ids[index + shift]] = [ids[index + shift], ids[index]]; item.order = ids; delete item.order_before_shortest;delete item.food_moves; });
     controls.append(button);
   }
+  if (stop.custom) { const del = element('button', '🗑 Ջնջել այս տեղը'); del.dataset.action = 'delete'; del.onclick = () => updatePersonal(item => { item.custom = list(item.custom).filter(s => s.id !== stop.id); if (Array.isArray(item.order)) item.order = item.order.filter(id => id !== stop.id); delete item.order_before_shortest; delete item.food_moves; }); controls.append(del); }
   body.append(controls);
   if (status === 'visited' || status === 'skipped') heading.append(element('span', status === 'visited' ? '✓ Այցելել ենք' : '↷ Բաց ենք թողնում', 'stop-status'));
   const photos = list(stop.photos).filter(photo => photo && safeUrl(photo.url));
@@ -321,13 +348,7 @@ function renderTickets(city) {
 }
 
 function renderDayRoutes() {
-  const day = currentDay(); $('day-actions').hidden = !day;
-  $('day-routes').replaceChildren(); if (!day) return;
-  const routes = dayRoutes(sortedStops(day), personalDay().statuses, $('route-mode').value);
-  if (routes.missing.length) $('route-note').textContent = `Չայցելած ${routes.missing.length} կանգառի կոորդինատները սպասվում են։ Ամբողջ օրվա հղում չի կազմվել, որպեսզի կանգառները լուռ չբաց թողնվեն։`;
-  else if (!routes.links.length) $('route-note').textContent = 'Բոլոր կանգառներն այցելված կամ բաց թողնված են։ Կարող եք փոխել նշումները կամ վերականգնել օրը։';
-  else $('route-note').textContent = $('route-mode').value === 'metro' ? 'Հանրային տրանսպորտը՝ առանձին հատվածներով։ Բացեք մասերը հերթով․ առաջինը՝ ընթացիկ դիրքից, հաջորդը՝ նախորդ կետից։' : 'Մինչև 3 միջանկյալ կետ մեկ հղման մեջ։ Բացեք մասերը հերթով։ Որոշ Google Maps տարբերակներ կարող են անտեսել միջանկյալ կետերը․ համեմատեք ցանկի հետ։';
-  routes.links.forEach((url, i) => $('day-routes').append(link(`Մաս ${i + 1} ↗`, url)));
+  const day = currentDay(); $('day-actions').hidden = !day; if (!day) return;
   $('undo-shortest').hidden=!Array.isArray(personalDay().order_before_shortest);
   $('food-warning').replaceChildren();
   for(const move of personalDay().food_moves||[])$('food-warning').append(element('p',`⚠ Սննդի կանգառի տեղը փոխվեց. ${move.name}՝ ${move.from} → ${move.to}։ Ստուգեք ճաշի ժամը և բացման ժամերը (${move.hours||'ժամերը նշված չեն'}). ծրագիրը ժամեր չի հաշվում`));
@@ -340,13 +361,24 @@ function renderSafety() {
 }
 $('safety-toggle').onchange = renderSafety;
 $('photo-toggle').onchange = renderPhotoPoints;
-$('route-mode').onchange = renderDayRoutes;
 const replacePersonal=(item,next)=>{for(const key of Object.keys(item))delete item[key];Object.assign(item,next);};
-$('shortest-order').onclick=()=>{
-  const stops=sortedStops(currentDay()),result=shortestOrder(stops,personalDay().statuses);
-  if(!result.improved){notice('Ավելի կարճ հերթականություն չգտնվեց');return;}
+async function walkingDistance(stops) {
+  // Real street walking distances (OSM foot router) for the pending stops; null when offline or unavailable.
+  const pts = stops.filter(s => coordinates(s)); if (!liveOnline() || pts.length < 2 || pts.length > 60) return null;
+  try {
+    const r = await fetch(`https://routing.openstreetmap.de/routed-foot/table/v1/driving/${pts.map(s => `${s.lon},${s.lat}`).join(';')}?annotations=distance`, { signal: AbortSignal.timeout(12000) });
+    const j = await r.json(); if (j.code !== 'Ok') return null;
+    const idx = new Map(pts.map((s, i) => [`${s.lat},${s.lon}`, i]));
+    return (a, b) => { const i = idx.get(`${a.lat},${a.lon}`), k = idx.get(`${b.lat},${b.lon}`); const v = i == null || k == null ? null : j.distances[i][k]; return v == null ? haversine(a, b) * 1.3 : v / 1000; };
+  } catch { return null; }
+}
+$('shortest-order').onclick=async()=>{
+  const stops=sortedStops(currentDay());$('shortest-order').disabled=true;
+  const dist=await walkingDistance(stops);$('shortest-order').disabled=false;
+  const result=shortestOrder(stops,personalDay().statuses,dist||((a,b)=>haversine(a,b)*1.3));
+  if(!result.improved){notice('Ավելի կարճ հերթականություն չգտնվեց. ներկայիս հերթականությունն արդեն ամենակարճն է');return;}
   updatePersonal(item=>replacePersonal(item,applyShortest(item,result,stops.map(s=>s.id))));
-  notice(`Ուղիղ գծով՝ ${distanceNumber(result.beforeKm.toFixed(1))} կմ → ${distanceNumber(result.afterKm.toFixed(1))} կմ։ Իրական ճանապարհը տարբեր է. ստուգեք «Բացել ամբողջ օրը»-ով`);
+  notice(`${dist?'Իրական քայլքով (OSM)':'Առանց ինտերնետի՝ մոտավոր'}՝ ${distanceNumber(result.beforeKm.toFixed(1))} կմ → ${distanceNumber(result.afterKm.toFixed(1))} կմ։ Գծերը քարտեզին թարմացվում են։`);
 };
 $('undo-shortest').onclick=()=>{
   updatePersonal(item=>replacePersonal(item,undoShortest(item)));
@@ -354,7 +386,9 @@ $('undo-shortest').onclick=()=>{
 };
 $('reset-day').onclick = () => {
   const day = currentDay(); if (!day) return;
-  delete state.personal[`${state.cityId}:${state.dayDate}`]; save('personal', state.personal); render();
+  const keep = list(personalDay().custom); delete state.personal[`${state.cityId}:${state.dayDate}`];
+  if (keep.length) state.personal[`${state.cityId}:${state.dayDate}`] = { custom: keep };
+  save('personal', state.personal); render();
   notice('Օրվա սկզբնական հերթականությունն ու նշումները վերականգնվել են։');
 };
 
@@ -404,6 +438,38 @@ $('gps-confirm').onclick = () => {
   }, { enableHighAccuracy: true, timeout: 15000, maximumAge: 0 });
 };
 
+const cityBoxes = { paris: [2.22, 48.92, 2.47, 48.80], barcelona: [2.06, 41.47, 2.23, 41.32], rome: [12.40, 41.98, 12.62, 41.80] };
+$('add-place-form').onsubmit = async event => {
+  event.preventDefault();
+  const q = $('add-place-q').value.trim(), out = $('add-place-results'); if (!q) return;
+  if (!liveOnline()) { out.replaceChildren(element('p', 'Որոնումը պահանջում է ինտերնետ։', 'fine')); return; }
+  out.replaceChildren(element('p', 'Որոնվում է…', 'muted'));
+  try {
+    const box = cityBoxes[state.cityId] || null;
+    const url = new URL('https://nominatim.openstreetmap.org/search');
+    url.searchParams.set('q', q); url.searchParams.set('format', 'jsonv2'); url.searchParams.set('limit', '5'); url.searchParams.set('accept-language', 'hy,en');
+    if (box) { url.searchParams.set('viewbox', box.join(',')); url.searchParams.set('bounded', '1'); }
+    const r = await fetch(url, { signal: AbortSignal.timeout(10000) }); const found = await r.json();
+    if (!Array.isArray(found) || !found.length) { out.replaceChildren(element('p', 'Այս քաղաքում չգտնվեց. փորձեք այլ անուն կամ հասցե։')); return; }
+    const ul = element('ul', undefined, 'place-results');
+    for (const f of found) {
+      const li = element('li'); li.append(element('span', f.display_name));
+      const add = element('button', '＋ Ավելացնել', 'primary');
+      add.onclick = () => {
+        const name = (f.name || f.display_name.split(',')[0]).trim();
+        const stop = { id: `custom-${Date.now()}`, kind: 'sight', custom: true, name_hy: `＋ ${name}`, name_local: f.display_name, lat: Number(f.lat), lon: Number(f.lon), description_hy: 'Այս տեղը ավելացրել ենք մենք (պահված է միայն այս հեռախոսում)։', label: 'ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ', sources: [`https://www.openstreetmap.org/${f.osm_type}/${f.osm_id}`] };
+        updatePersonal(item => {
+          const ids = sortedStops(currentDay()).map(s => s.id); item.custom = [...list(item.custom), stop];
+          const lastFixed = sortedStops(currentDay()).at(-1); const at = lastFixed && ['home','food','transport','airport'].includes(lastFixed.kind) ? ids.length - 1 : ids.length;
+          ids.splice(at, 0, stop.id); item.order = ids; delete item.order_before_shortest; delete item.food_moves;
+        });
+        out.replaceChildren(element('p', `Ավելացվեց՝ ${name}։ Սեղմեք «Դասավորել ամենակարճ ճանապարհով»։`, 'fine')); $('add-place-q').value = '';
+      };
+      li.append(add); ul.append(li);
+    }
+    out.replaceChildren(element('p', 'Ընտրեք ճիշտ տեղը (աղբյուր՝ OpenStreetMap Nominatim)։', 'fine'), ul);
+  } catch { out.replaceChildren(element('p', 'Որոնումը չհաջողվեց. փորձեք մի փոքր ուշ։')); }
+};
 $('lost-find').onclick = () => {
   const out = $('lost-result'); out.replaceChildren(element('p', 'Դիրքը որոշվում է…', 'muted'));
   if (!navigator.geolocation) { out.replaceChildren(element('p', 'Այս սարքում դիրքը հասանելի չէ։')); return; }
@@ -417,7 +483,7 @@ $('lost-find').onclick = () => {
     const near = nearestStations(stations, state.cityId, lat, lon);
     if (near.length) {
       const ul = element('ul', undefined, 'lost-stations');
-      for (const s of near) ul.append(element('li', `🚇 ${s.name} — ${s.lines.map(l => l.ref).join(', ')} · ~${s.walk_min} ր ոտքով (${Math.round(s.m)} մ ուղիղ գծով)`));
+      for (const s of near) ul.append(element('li', `🚇 ${s.name} — ${s.lines.map(l => state.cityId === 'paris' && /^\d/.test(l.ref) ? 'M' + l.ref : state.cityId === 'rome' && /^[A-C]1?$/.test(l.ref) ? 'Metro ' + l.ref : l.ref).join(', ')} · ~${s.walk_min} ր ոտքով (${Math.round(s.m)} մ ուղիղ գծով)`));
       out.append(element('p', 'Մոտակա կայարանները.'), ul);
     } else out.append(element('p', 'Կայարանների ցանկը հասանելի չէ (պահանջում է ինտերնետ). օգտվեք ստորևի հղումից։', 'fine'));
     const go = (mode) => { const url = new URL(directions(coordinates(next), mode)); url.searchParams.set('origin', here); return url.href; };
@@ -484,7 +550,8 @@ async function registerWorker() {
   try {
     const registration = await navigator.serviceWorker.register('./sw.js', { scope: './', updateViaCache: 'none' });
     state.registration = registration;
-    const offer = () => { if (registration.waiting) $('shell-update').hidden = false; };
+    // New app version: activate automatically so every phone gets fixes without pressing a button.
+    const offer = () => { if (registration.waiting && navigator.serviceWorker.controller) { $('shell-update').hidden = false; registration.waiting.postMessage({ type: 'ACTIVATE' }); } };
     offer(); registration.addEventListener('updatefound', () => {
       const installing = registration.installing;
       installing?.addEventListener('statechange', () => { if (installing.state === 'installed') offer(); });
@@ -505,6 +572,7 @@ state.map = createMap($('map'), message => { $('map-message').textContent = mess
 new ResizeObserver(() => state.map?.resize()).observe($('map-panel'));
 const cached = read('trip');
 state.paths=read('paths')||{};
+state.livePaths=read('live-paths')||{};
 if (cached) { try { applyTrip(validateTrip(cached), true); } catch { notice('Պահված տվյալները վնասված են․ փորձում ենք նորից բեռնել։'); } }
 checkData(); checkAlerts(); registerWorker();
 setInterval(updateClock, 30000);

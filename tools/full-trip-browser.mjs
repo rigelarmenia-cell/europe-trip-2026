@@ -40,7 +40,7 @@ try{
     assert.equal(await page.locator('#day-notes').textContent(),day.notes_hy);
     assert.equal(await page.locator('.leaflet-marker-icon').count(),day.stops.length+1);
     const links=await page.locator('#day-routes a').evaluateAll(nodes=>nodes.map(n=>({href:n.href,text:n.textContent})));
-    assert.equal(links.length,Math.ceil(day.stops.length/4));
+    assert.equal(links.length,0);
     for(const [i,link] of links.entries()){
      assert.ok(link.text.includes(`Մաս ${i+1}`));
      const u=new URL(link.href);assert.ok(u.hostname==='www.google.com');

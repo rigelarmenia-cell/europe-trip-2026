@@ -29,7 +29,7 @@ try {
   assert.equal(await page.title(),'Խելառներ');
   assert.equal(await page.locator('meta[name="apple-mobile-web-app-title"]').getAttribute('content'),'Խելառներ');
   assert.equal(await page.locator('.brand').getAttribute('aria-label'),'Խելառներ՝ գլխավոր էջ');
-  assert.ok((await page.locator('footer strong').textContent()).includes('Խելառներ · Բ6 · 0.6.8'));
+  assert.ok((await page.locator('footer strong').textContent()).includes('Խելառներ · Բ6 · 0.6.9'));
   const branding=await page.evaluate(async()=>{
     const manifestResponse=await fetch('./manifest.webmanifest'),manifest=await manifestResponse.json(),icons=[];
     for(const icon of [...manifest.icons,{src:'./icons/apple-touch-icon.png',sizes:'180x180'},{src:'./icons/favicon-64.png',sizes:'64x64'}]){
@@ -90,7 +90,7 @@ try {
   assert.equal(await page.locator('#demo-banner').isVisible(), true);
   assert.equal(await page.locator('#day option').count(), 2);
   assert.equal(await page.locator('.stop').count(), 10);
-  assert.equal(await page.locator('#day-routes a').count(), 3);
+  assert.equal(await page.locator('#day-routes').count(), 0);
   assert.equal(await page.locator('.buffer-short').count(), 1);
   assert.equal(await page.locator('.airport-transfer').count(), 2);
   assert.match(await page.locator('#airports').textContent(), /Europe\/Paris/);
@@ -108,8 +108,7 @@ try {
   assert.equal(await stop(1).getAttribute('data-status'), 'visited');
   assert.equal(await stop(2).getAttribute('data-status'), 'skipped');
   assert.equal(await page.locator('.stop').nth(2).getAttribute('data-id'), 'demo-20-4');
-  await page.locator('#route-mode').selectOption('metro');
-  assert.equal(await page.locator('#day-routes a').count(), 8);
+  assert.equal(await page.locator('#route-mode').count(), 0);
   pass('Maps chunks respect mobile waypoint limit; visited/skipped persist and transit routes omit them');
   await page.setViewportSize({ width: 375, height: 900 });
   await page.locator('#tab-map').click();

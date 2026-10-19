@@ -48,7 +48,7 @@ for(const engine of ['edge','webkit'])for(const [name,file] of cases){
    assert.equal(await page.locator('#day-notes').textContent(),day.notes_hy);
    if(!day.stops.length){assert.match(await page.locator('#stops').textContent(),/Կանգառները դեռ պատրաստվում են/);assert.equal(await page.locator('.leaflet-marker-icon').count(),0);}
    const links=await page.locator('#day-routes a').evaluateAll(ns=>ns.map(n=>({href:n.href,text:n.textContent})));
-   assert.equal(links.length,day.stops.every(good)?Math.ceil(day.stops.length/4):0);
+   assert.equal(links.length,0);
    for(const [i,link] of links.entries()){assert.ok(link.text.includes(`Մաս ${i+1}`));assert.equal(new URL(link.href).hostname,'www.google.com');}
    for(const stop of day.stops){
     const card=page.locator(`.stop[data-id="${stop.id}"]`),photos=stop.photos||[];
