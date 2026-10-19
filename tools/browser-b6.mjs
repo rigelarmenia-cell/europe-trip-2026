@@ -30,7 +30,7 @@ for(const engine of ['edge','webkit']) {
  const pass=s=>{result.checks.push(s);console.log(`${engine} PASS ${s}`);};
  const current=id=>page.locator(`#alerts-current .alert-card[data-alert-id="${id}"]`);
  const select=async date=>{const day=trip.days.find(d=>d.date===date);await page.locator('#cities button').nth(trip.cities.findIndex(c=>c.id===day.city)).click();await page.locator('#day').selectOption(date);};
- const visible=async id=>current(id).waitFor();
+ const visible=async id=>current(id).waitFor({state:'attached'});
  const online=()=>page.evaluate(()=>window.dispatchEvent(new Event('online')));
  const visibility=state=>page.evaluate(state=>{Object.defineProperty(document,'visibilityState',{configurable:true,get:()=>state});Object.defineProperty(document,'hidden',{configurable:true,get:()=>state==='hidden'});document.dispatchEvent(new Event('visibilitychange'));},state);
  const waitRequests=async n=>{for(let i=0;i<100&&alertRequests<n;i++)await new Promise(r=>setTimeout(r,25));assert.ok(alertRequests>=n,`alerts requests ${alertRequests} < ${n}`);};

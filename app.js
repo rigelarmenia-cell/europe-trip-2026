@@ -68,7 +68,7 @@ function renderAlerts() {
   const options = {city:state.cityId,date:state.dayDate,dismissed:state.dismissedAlerts};
   const current = state.alerts ? activeAlerts(state.alerts, options) : [];
   const all = state.alerts ? activeAlerts(state.alerts, {...options, all:true}) : [];
-  $('alerts-current').replaceChildren(...current.map(alertCard)); $('alerts-current').hidden = !current.length;
+  $('alerts-current').replaceChildren(...current.map(alertCard)); $('alerts-current').hidden = !current.some(a => a.level === 'danger'); // top shows only real danger; everything else lives in the ⚠ list
   $('alerts-count').hidden = !all.length; $('alerts-count').textContent = `⚠ ${all.length} զգուշացում`;
   $('alerts-count').setAttribute('aria-label', `Բոլոր զգուշացումները՝ ${all.length}`);
   $('alerts-all').replaceChildren(...all.map(alertCard));
