@@ -5,6 +5,7 @@ import { renderAirports } from './lib/airports.js';
 import { money, distanceNumber } from './lib/format.js';
 import {validatePaths} from './lib/paths.js';
 import {validateAlerts, activeAlerts} from './lib/alerts.js';
+import {renderRallies, renderSeats, nearestStations} from './lib/extras.js';
 
 const $ = id => document.getElementById(id);
 const base = new URL('./', location.href);
@@ -72,6 +73,7 @@ function renderAlerts() {
   $('alerts-all').replaceChildren(...all.map(alertCard));
   if (!all.length) $('alerts-all').append(element('p', 'Ակտիվ զգուշացումներ չկան։'));
   state.map?.alerts(current);
+  if (state.trip) renderRallies($('rallies'), state.alerts, state.trip);
   for (const card of document.querySelectorAll('.stop')) {
     card.querySelectorAll('.stop-alert').forEach(node => node.remove());
     const heading = card.querySelector('.stop-title')?.parentElement;
@@ -210,6 +212,7 @@ function render() {
   renderPaths();
   renderPhotoPoints();
   renderSafety();
+  renderRallies($('rallies'), state.alerts, trip); renderSeats($('seats'), trip);
   updateClock();
 }
 
@@ -399,6 +402,32 @@ $('gps-confirm').onclick = () => {
     $('gps-open').disabled = false; $('gps-open').textContent = '◎ Իմ դիրքը'; state.map?.clearPosition();
     notice(error.code === 1 ? 'Դիրքի թույլտվությունը մերժված է։ Պլանն աշխատում է առանց դիրքի։ Կրկին թույլատրելու համար բացեք կայքի թույլտվությունները։' : 'Դիրքը չի որոշվել։ Փորձեք բաց տարածքում կամ շարունակեք առանց դիրքի։');
   }, { enableHighAccuracy: true, timeout: 15000, maximumAge: 0 });
+};
+
+$('lost-find').onclick = () => {
+  const out = $('lost-result'); out.replaceChildren(element('p', 'Դիրքը որոշվում է…', 'muted'));
+  if (!navigator.geolocation) { out.replaceChildren(element('p', 'Այս սարքում դիրքը հասանելի չէ։')); return; }
+  navigator.geolocation.getCurrentPosition(async position => {
+    const lat = position.coords.latitude, lon = position.coords.longitude, here = `${lat.toFixed(6)},${lon.toFixed(6)}`;
+    const day = currentDay(), statuses = personalDay().statuses || {};
+    const next = sortedStops(day).find(stop => !['visited', 'skipped'].includes(statuses[stop.id]) && coordinates(stop));
+    out.replaceChildren(element('p', `Դիրքը՝ ճշտությամբ ~${Math.round(position.coords.accuracy)} մ։`, 'fine'));
+    let stations = state.stations;
+    if (!stations) { try { const r = await fetch(new URL('stations.json', base), { signal: AbortSignal.timeout(8000) }); if (r.ok) stations = state.stations = await r.json(); } catch { /* offline */ } }
+    const near = nearestStations(stations, state.cityId, lat, lon);
+    if (near.length) {
+      const ul = element('ul', undefined, 'lost-stations');
+      for (const s of near) ul.append(element('li', `🚇 ${s.name} — ${s.lines.map(l => l.ref).join(', ')} · ~${s.walk_min} ր ոտքով (${Math.round(s.m)} մ ուղիղ գծով)`));
+      out.append(element('p', 'Մոտակա կայարանները.'), ul);
+    } else out.append(element('p', 'Կայարանների ցանկը հասանելի չէ (պահանջում է ինտերնետ). օգտվեք ստորևի հղումից։', 'fine'));
+    const go = (mode) => { const url = new URL(directions(coordinates(next), mode)); url.searchParams.set('origin', here); return url.href; };
+    const actions = element('div', undefined, 'actions');
+    if (next) {
+      const num = sortedStops(day).indexOf(next) + 1;
+      actions.append(link(`🚇 Տրանսպորտով դեպի ${num}. ${next.name_hy || next.name_local} ↗`, go('metro'), 'action-link primary'), link('🚶 Ոտքով ↗', go('walk')), link('🚕 Մեքենայով ↗', go('taxi')));
+    } else out.append(element('p', 'Այսօրվա բոլոր կանգառները նշված են որպես այցելած. տուն գնալու համար՝ «Վերադարձ դեպի տուն»։'));
+    out.append(actions);
+  }, () => out.replaceChildren(element('p', 'Դիրքը չորոշվեց կամ թույլտվությունը մերժված է։ Կարող եք բացել Google Maps-ը «Գնալ այստեղ» կոճակով կանգառի քարտից։')), { enableHighAccuracy: true, timeout: 15000, maximumAge: 30000 });
 };
 
 async function checkData(manual = false) {

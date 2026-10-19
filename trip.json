@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-19-26",
+  "version": "2026-10-19-27",
   "generated_at": "2026-10-19T03:15:59+04:00",
   "cities": [
     {
@@ -507,41 +507,37 @@
           "sources": [],
           "photo_points": [
             {
-              "id": "pp-paris-20-02-2",
-              "name_hy": "Սեն-Ժակ աշտարակ",
-              "name_local": "Tour Saint-Jacques",
-              "lat": 48.858,
-              "lon": 2.34892,
-              "what_hy": "54 մ գոթական զանգակատուն՝ իր այգում, Շատլեի մոտ։",
+              "id": "pp-paris-20-02-7",
+              "name_hy": "Էտյեն Մարսելի ձիարձան",
+              "name_local": "Statue équestre d'Étienne Marcel (jardin des Combattants-de-la-Nueve)",
+              "lat": 48.856212,
+              "lon": 2.353254,
+              "what_hy": "Քաղաքապետարանի հարավային կողմի այգուց լուսանկարեք Էտյեն Մարսելի ձիարձանը՝ շենքի ճակատի ֆոնին։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://tripomatic.com/en/places/7NdfTENbuX88qOjE"
+                "https://www.paris.fr/lieux/jardin-des-combattants-de-la-nueve-17991",
+                "https://fr.wikipedia.org/wiki/Statue_%C3%A9questre_d%27%C3%89tienne_Marcel"
               ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343332323331",
-                "author": "Moonik, CC BY-SA 3.0",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://tripomatic.com/en/places/7NdfTENbuX88qOjE"
-              }
+              "checked": "2026-10-19",
+              "photo": null
             },
             {
-              "id": "pp-paris-20-02-3",
-              "name_hy": "Ստրավինսկու շատրվան",
-              "name_local": "Fontaine Stravinsky",
-              "lat": 48.85948,
-              "lon": 2.35149,
-              "what_hy": "Գունավոր շարժվող քանդակներով շատրվան Պոմպիդու կենտրոնի կողքին։",
+              "id": "pp-paris-20-02-4",
+              "name_hy": "Սեն-Ժերվե եկեղեցի",
+              "name_local": "Église Saint-Gervais-Saint-Protais",
+              "lat": 48.8555,
+              "lon": 2.35472,
+              "what_hy": "Քաղաքապետարանի հետևում՝ Փարիզի առաջին բարոկկո ճակատով եկեղեցին։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://tripomatic.com/en/places/_1bJS_C_p7Cbslt1"
+                "https://tripomatic.com/en/places/rKgOBPIgqIpCfThv"
               ],
               "checked": "2026-10-18",
               "photo": {
-                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832363130383537",
-                "author": "AlfvanBeem, CC0",
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343539343536",
+                "author": "Miguel Hermoso Cuesta, CC BY-SA 4.0",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://tripomatic.com/en/places/_1bJS_C_p7Cbslt1"
+                "source_page": "https://tripomatic.com/en/places/rKgOBPIgqIpCfThv"
               }
             },
             {
@@ -565,23 +561,75 @@
               }
             },
             {
-              "id": "pp-paris-20-02-4",
-              "name_hy": "Սեն-Ժերվե եկեղեցի",
-              "name_local": "Église Saint-Gervais-Saint-Protais",
-              "lat": 48.8555,
-              "lon": 2.35472,
-              "what_hy": "Քաղաքապետարանի հետևում՝ Փարիզի առաջին բարոկկո ճակատով եկեղեցին։",
+              "id": "pp-paris-20-02-3",
+              "name_hy": "Ստրավինսկու շատրվան",
+              "name_local": "Fontaine Stravinsky",
+              "lat": 48.85948,
+              "lon": 2.35149,
+              "what_hy": "Գունավոր շարժվող քանդակներով շատրվան Պոմպիդու կենտրոնի կողքին։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://tripomatic.com/en/places/rKgOBPIgqIpCfThv"
+                "https://tripomatic.com/en/places/_1bJS_C_p7Cbslt1"
               ],
               "checked": "2026-10-18",
               "photo": {
-                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343539343536",
-                "author": "Miguel Hermoso Cuesta, CC BY-SA 4.0",
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832363130383537",
+                "author": "AlfvanBeem, CC0",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://tripomatic.com/en/places/rKgOBPIgqIpCfThv"
+                "source_page": "https://tripomatic.com/en/places/_1bJS_C_p7Cbslt1"
               }
+            },
+            {
+              "id": "pp-paris-20-02-5",
+              "name_hy": "Սեն-Մերի եկեղեցի",
+              "name_local": "Église Saint-Merri",
+              "lat": 48.85889,
+              "lon": 2.35111,
+              "what_hy": "Կանգնեք Սեն-Մարտեն փողոցում և լուսանկարեք եկեղեցու ուշ գոթական ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Saint-Merri"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://live.staticflickr.com/614/22426840506_7abb514957_b.jpg",
+                "author": "Jorge Láscar",
+                "license": "CC BY 2.0",
+                "source_page": "https://www.flickr.com/photos/jlascar/22426840506/"
+              }
+            },
+            {
+              "id": "pp-paris-20-02-2",
+              "name_hy": "Սեն-Ժակ աշտարակ",
+              "name_local": "Tour Saint-Jacques",
+              "lat": 48.858,
+              "lon": 2.34892,
+              "what_hy": "54 մ գոթական զանգակատուն՝ իր այգում, Շատլեի մոտ։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://tripomatic.com/en/places/7NdfTENbuX88qOjE"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343332323331",
+                "author": "Moonik, CC BY-SA 3.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/places/7NdfTENbuX88qOjE"
+              }
+            },
+            {
+              "id": "pp-paris-20-02-6",
+              "name_hy": "Նոտր-Դամ կամուրջ",
+              "name_local": "Pont Notre-Dame",
+              "lat": 48.856047,
+              "lon": 2.348558,
+              "what_hy": "Կանգնեք Ժեսվր առափնյակում և լուսանկարեք կամրջի կամարները Սենի վրա՝ Սիտե կղզու ֆոնին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Pont_Notre-Dame"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
             }
           ]
         },
@@ -682,6 +730,20 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://tripomatic.com/en/places/pGYI38o7a8x7nz6D"
               }
+            },
+            {
+              "id": "pp-paris-20-04-4",
+              "name_hy": "Լուի-Ֆիլիպ կամուրջ",
+              "name_local": "Pont Louis-Philippe",
+              "lat": 48.85389,
+              "lon": 2.35444,
+              "what_hy": "Կամրջի մեջտեղից լուսանկարեք Սիտե կղզին և Նոտր-Դամը Սենի վրայով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Pont_Louis-Philippe"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
             }
           ]
         },
@@ -710,7 +772,7 @@
             }
           ],
           "menu_url": "https://www.letrumilou.fr/carte-et-menu/menu-et-carte/",
-          "menu_prices_hy": "Ըստ նախկին ուսումնասիրության սոխով ապուր 11 €, օրվա մենյու 20 €՝ ընթացիկ կիրառելիությունը ՉՍՏՈՒԳՎԱԾ",
+          "menu_prices_hy": "Մանրամասն ընթացիկ մենյու չգտնվեց (պաշտոնական կայքը չբացվեց)։ Գներ (restoaparis.com, առանց ամսաթվի). Canard aux pruneaux 17 €; Ris de veau grand mère 22 €։ Սեթեր. Formule 16,5 € (plat + entrée ou dessert; dimanche 18 €); Menu 20,5 € (entrée + plat + dessert; dimanche 22 €)։",
           "reviews_source": "",
           "to_next": {
             "mode": "metro",
@@ -720,14 +782,15 @@
             "color": "շագանակագույն",
             "direction": "Rosny–Bois-Perrier",
             "get_off": "Romainville–Carnot",
-            "transfers_hy": "🏠 Տուն. ~7 ր ոտքով հետ Hôtel de Ville կայարան, M11 (ուղղություն՝ Rosny–Bois-Perrier) առանց փոխելու → Romainville–Carnot, հետո ~10 ր քայլք։ Տոմս՝ 2,55 €։ Վերջին գնացքը աշխատանքային օրերին ~01:15։",
+            "transfers_hy": "🏠 Տուն. ~7 ր ոտքով հետ Hôtel de Ville կայարան, M11 (ուղղություն՝ Rosny–Bois-Perrier) առանց փոխելու → Romainville–Carnot, հետո ~10 ր քայլք։ Տոմս՝ 2,55 €։ Վերջին գնացքը Hôtel de Ville-ից երկ.–հինգ.՝ ~00:40 (RATP)։",
             "ticket_hy": "2,55 € / անձ"
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
           "sources": [
             "https://www.letrumilou.fr/carte-et-menu/menu-et-carte/",
             "https://par.is/p/le-trumilou",
-            "https://www.lesrestos.com/restaurant/fiche/paris/le-trumilou"
+            "https://www.lesrestos.com/restaurant/fiche/paris/le-trumilou",
+            "https://www.restoaparis.com/fiche-restaurant-paris/le-trumilou.html"
           ]
         }
       ]
@@ -802,6 +865,45 @@
               }
             },
             {
+              "id": "pp-paris-21-01-3",
+              "name_hy": "Պասիի գերեզմանատուն",
+              "name_local": "Cimetière de Passy",
+              "lat": 48.86249,
+              "lon": 2.28503,
+              "what_hy": "Գերեզմանատան բարձր պատի մոտից նկարիր Էյֆելյան աշտարակը ծառերի ու հին շիրիմների արանքից։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/25262810",
+                "https://en.wikipedia.org/wiki/Passy_Cemetery"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Aerial_view_of_Cimeti%C3%A8re_de_Passy.jpg/960px-Aerial_view_of_Cimeti%C3%A8re_de_Passy.jpg.webp",
+                "author": "Paige",
+                "license": "CC BY 2.0",
+                "source_page": "https://mapcarta.com/25262810"
+              }
+            },
+            {
+              "id": "pp-paris-21-01-4",
+              "name_hy": "Յորքթաունի պուրակ",
+              "name_local": "Square de Yorktown",
+              "lat": 48.861585,
+              "lon": 2.286429,
+              "what_hy": "Փոքր կանաչ պուրակ Բենջամին Ֆրանկլինի փողոցում. նկարիր արձանն ու կանաչը՝ կանգնելով պուրակի մուտքի մոտ։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W82683449"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Square_de_Yorktown%2C_Paris_16e_8.jpg/960px-Square_de_Yorktown%2C_Paris_16e_8.jpg.webp",
+                "author": "Polymagou",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://mapcarta.com/W82683449"
+              }
+            },
+            {
               "id": "pp-paris-21-01-2",
               "name_hy": "Ավենյու դե Կամոենս՝ աստիճաններ և Էյֆել",
               "name_local": "Avenue de Camoëns",
@@ -865,6 +967,44 @@
           "sources": [],
           "photo_points": [
             {
+              "id": "pp-paris-21-07-2",
+              "name_hy": "«Վերածնվող Ֆրանսիա» արձան",
+              "name_local": "La France renaissante (Pont de Bir-Hakeim)",
+              "lat": 48.85576,
+              "lon": 2.28784,
+              "what_hy": "Բիր-Հաքեյմ կամրջի վրա բրոնզե ձիավոր կնոջ արձան։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://aroundus.com/p/7410617-la-france-renaissante"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img9.digsty.com/v7vbMAYjO0ecvADuWHW6bdxQlGrPgQvLRquLEHpSTIc/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTgxMjQtOGFjNmZkZjguanBn.jpg",
+                "author": "Commons, CC BY-SA",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/7410617-la-france-renaissante"
+              }
+            },
+            {
+              "id": "pp-paris-21-07-4",
+              "name_hy": "Ճապոնական մշակույթի տուն",
+              "name_local": "Maison de la culture du Japon à Paris",
+              "lat": 48.85473,
+              "lon": 2.28976,
+              "what_hy": "Կամրջից իջնելով Բրանլի առափնյակով՝ նկարիր շենքի կոր ապակե ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W151074455"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Fa%C3%A7ade_MCJP.jpg/960px-Fa%C3%A7ade_MCJP.jpg.webp",
+                "author": "ADM MCJP",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://mapcarta.com/W151074455"
+              }
+            },
+            {
               "id": "pp-paris-21-07-1",
               "name_hy": "Կարապների ծառուղի (Île aux Cygnes)",
               "name_local": "Allée des Cygnes",
@@ -885,23 +1025,19 @@
               }
             },
             {
-              "id": "pp-paris-21-07-2",
-              "name_hy": "«Վերածնվող Ֆրանսիա» արձան",
-              "name_local": "La France renaissante (Pont de Bir-Hakeim)",
-              "lat": 48.85576,
-              "lon": 2.28784,
-              "what_hy": "Բիր-Հաքեյմ կամրջի վրա բրոնզե ձիավոր կնոջ արձան։",
+              "id": "pp-paris-21-07-3",
+              "name_hy": "Պասի մետրոյի կայարան",
+              "name_local": "Station Passy (métro ligne 6)",
+              "lat": 48.8575,
+              "lon": 2.28578,
+              "what_hy": "Կայարանի բարձր հարթակից կամ աստիճաններից նկարիր վերգետնյա մետրոն Բիր-Հաքեյմի կամրջի վրա՝ Էյֆելյան աշտարակի ֆոնին։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://aroundus.com/p/7410617-la-france-renaissante"
+                "https://mapcarta.com/N260765390",
+                "https://en.wikipedia.org/wiki/Passy_station"
               ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://img9.digsty.com/v7vbMAYjO0ecvADuWHW6bdxQlGrPgQvLRquLEHpSTIc/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTgxMjQtOGFjNmZkZjguanBn.jpg",
-                "author": "Commons, CC BY-SA",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://aroundus.com/p/7410617-la-france-renaissante"
-              }
+              "checked": "2026-10-19",
+              "photo": null
             }
           ]
         },
@@ -985,6 +1121,41 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://aroundus.com/p/7407205-fontaine-du-trocadero"
               }
+            },
+            {
+              "id": "pp-paris-21-04-3",
+              "name_hy": "Լեհ մարտիկների հուշարձան",
+              "name_local": "Monument aux combattants polonais pour la défense et la libération de la France",
+              "lat": 48.86131,
+              "lon": 2.29178,
+              "what_hy": "Տրոկադերոյի այգու ստորին մասում նկարիր հուշարձանը՝ հետևում Էյֆելյան աշտարակով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/N7126620755"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-paris-21-04-4",
+              "name_hy": "Իենայի կամրջի դիտակետ",
+              "name_local": "Pont d'Iéna (point de vue)",
+              "lat": 48.85978,
+              "lon": 2.29199,
+              "what_hy": "Կամրջի մեջտեղից նկարիր Էյֆելյան աշտարակը ուղիղ դիմացից և Սենը երկու կողմից։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/N4790157523",
+                "https://mapcarta.com/29198902",
+                "https://en.wikipedia.org/wiki/Pont_d%27I%C3%A9na"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Paris_75007_Port_de_Suffren_20161101_Pont_d%27I%C3%A9na.jpg/960px-Paris_75007_Port_de_Suffren_20161101_Pont_d%27I%C3%A9na.jpg.webp",
+                "author": "Guilhem Vellut",
+                "license": "CC BY 2.0",
+                "source_page": "https://mapcarta.com/29198902"
+              }
             }
           ]
         },
@@ -1029,6 +1200,34 @@
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
           "sources": [],
           "photo_points": [
+            {
+              "id": "pp-paris-21-05-4",
+              "name_hy": "Էյֆելյան աշտարակի կարուսել",
+              "name_local": "Le Carrousel de la Tour Eiffel",
+              "lat": 48.85892,
+              "lon": 2.29262,
+              "what_hy": "Նկարիր հին կարուսելը՝ հետևում Էյֆելյան աշտարակով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W239873024"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-paris-21-05-3",
+              "name_hy": "Գալլ մարտիկի արձան",
+              "name_local": "Guerrier gaulois (Cavalier gaulois), pont d'Iéna",
+              "lat": 48.85944,
+              "lon": 2.29301,
+              "what_hy": "Կամրջի աշտարակի կողմի ծայրում նկարիր ձիավոր մարտիկի արձանը՝ ներքևից դեպի վեր։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/N4587429425"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
             {
               "id": "pp-paris-21-05-1",
               "name_hy": "Դեբիյի հետիոտնային կամուրջ",
@@ -1133,6 +1332,34 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://parisjetaime.com/eng/article/spots-to-take-instagram-worthy-photos-in-paris-a815"
               }
+            },
+            {
+              "id": "pp-paris-21-02-2",
+              "name_hy": "Մարդու իրավունքների հուշարձան",
+              "name_local": "Monument des Droits de l'Homme et du Citoyen",
+              "lat": 48.85523,
+              "lon": 2.30112,
+              "what_hy": "Մարսյան դաշտի հարավ-արևելյան անկյունում նկարիր քարե հուշարձանը ծառերի մեջ։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W369434380"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-paris-21-02-3",
+              "name_hy": "Կարուսել «Մանեժ 1913»",
+              "name_local": "Manège 1913 (Champ-de-Mars)",
+              "lat": 48.85416,
+              "lon": 2.29997,
+              "what_hy": "Նկարիր հին փայտե կարուսելը Մարսյան դաշտի հարավային մասում։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/N12568501797"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
             }
           ]
         },
@@ -1217,6 +1444,40 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://tripomatic.com/en/places/QqlmeXHlF8YHo8yD"
               }
+            },
+            {
+              "id": "pp-paris-21-06-4",
+              "name_hy": "Կլեր փողոց",
+              "name_local": "Rue Cler",
+              "lat": 48.85736,
+              "lon": 2.30608,
+              "what_hy": "Հետիոտն շուկայական փողոց. նկարիր մրգի ու ծաղկի կրպակները փողոցի մեջտեղից։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/25260210"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-paris-21-06-3",
+              "name_hy": "Մարսի շատրվան",
+              "name_local": "Fontaine de Mars",
+              "lat": 48.85837,
+              "lon": 2.3024,
+              "what_hy": "Սեն-Դոմինիկ փողոցում նկարիր սյունազարդ շատրվանն ու շրջակա սրճարանները։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W69859631",
+                "https://fr.wikipedia.org/wiki/Fontaine_de_Mars"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Fontaine_de_Mars.jpg/960px-Fontaine_de_Mars.jpg.webp",
+                "author": "Siren-Com",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://mapcarta.com/W69859631"
+              }
             }
           ]
         },
@@ -1264,22 +1525,60 @@
           ],
           "photo_points": [
             {
-              "id": "pp-paris-21-09-2",
-              "name_hy": "Մեծ պալատ",
-              "name_local": "Grand Palais",
-              "lat": 48.86619,
-              "lon": 2.31265,
-              "what_hy": "Ապակե հսկայական տանիքով պալատ Ալեքսանդր III կամրջի կողքին։",
+              "id": "pp-paris-21-09-1",
+              "name_hy": "Ալեքսանդր III կամրջի Սենի դիտակետ",
+              "name_local": "Pont Alexandre III",
+              "lat": 48.863927,
+              "lon": 2.313322,
+              "what_hy": "Կամրջից հնարավոր է նկարել Սենի ափերն ու Փարիզի գետափնյա ճարտարապետությունը։ Ճշգրիտ կետը Commons-ի լուսանկարի camera location-ն է։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://tripomatic.com/en/poi/grand-palais-poi:599"
+                "https://commons.wikimedia.org/wiki/File:View_from_Pont_Alexandre_III,_Paris_(35275631304).jpg"
               ],
               "checked": "2026-10-18",
               "photo": {
-                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832353836303230",
-                "author": "Guilhem Vellut, CC BY 2.0",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://tripomatic.com/en/poi/grand-palais-poi:599"
+                "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/View_from_Pont_Alexandre_III%2C_Paris_%2835275631304%29.jpg",
+                "author": "Julien Ricard",
+                "license": "CC BY 2.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:View_from_Pont_Alexandre_III,_Paris_(35275631304).jpg"
+              }
+            },
+            {
+              "id": "pp-paris-21-09-6",
+              "name_hy": "Ինվալիդների օդակայան",
+              "name_local": "Aérogare des Invalides",
+              "lat": 48.86206,
+              "lon": 2.31471,
+              "what_hy": "Էսպլանադի անկյունից նկարիր հին կայարանի քարե ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W64959884"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Gare_des_Invalides%2C_Paris_001.jpg/960px-Gare_des_Invalides%2C_Paris_001.jpg.webp",
+                "author": "Moonik",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://mapcarta.com/W64959884"
+              }
+            },
+            {
+              "id": "pp-paris-21-09-5",
+              "name_hy": "Արտաքին գործերի նախարարություն (Կե դ'Օրսե)",
+              "name_local": "Hôtel du ministre des Affaires étrangères (Quai d'Orsay)",
+              "lat": 48.86225,
+              "lon": 2.31614,
+              "what_hy": "Օրսե առափնյակից նկարիր պալատի ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W448794899"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Minist%C3%A8re_des_Affaires_%C3%89trang%C3%A8res.JPG/960px-Minist%C3%A8re_des_Affaires_%C3%89trang%C3%A8res.JPG.webp",
+                "author": "Chaperon rouge007",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://mapcarta.com/W448794899"
               }
             },
             {
@@ -1302,22 +1601,42 @@
               }
             },
             {
-              "id": "pp-paris-21-09-1",
-              "name_hy": "Ալեքսանդր III կամրջի Սենի դիտակետ",
-              "name_local": "Pont Alexandre III",
-              "lat": 48.863927,
-              "lon": 2.313322,
-              "what_hy": "Կամրջից հնարավոր է նկարել Սենի ափերն ու Փարիզի գետափնյա ճարտարապետությունը։ Ճշգրիտ կետը Commons-ի լուսանկարի camera location-ն է։",
+              "id": "pp-paris-21-09-2",
+              "name_hy": "Մեծ պալատ",
+              "name_local": "Grand Palais",
+              "lat": 48.86619,
+              "lon": 2.31265,
+              "what_hy": "Ապակե հսկայական տանիքով պալատ Ալեքսանդր III կամրջի կողքին։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://commons.wikimedia.org/wiki/File:View_from_Pont_Alexandre_III,_Paris_(35275631304).jpg"
+                "https://tripomatic.com/en/poi/grand-palais-poi:599"
               ],
               "checked": "2026-10-18",
               "photo": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/View_from_Pont_Alexandre_III%2C_Paris_%2835275631304%29.jpg",
-                "author": "Julien Ricard",
+                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832353836303230",
+                "author": "Guilhem Vellut, CC BY 2.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://tripomatic.com/en/poi/grand-palais-poi:599"
+              }
+            },
+            {
+              "id": "pp-paris-21-09-4",
+              "name_hy": "Ինվալիդների կամուրջ",
+              "name_local": "Pont des Invalides",
+              "lat": 48.86358,
+              "lon": 2.31039,
+              "what_hy": "Ալեքսանդր III կամրջից արևմուտք, առափնյակից նկարիր կամրջի կամարները Սենի վրա։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/29198900",
+                "https://en.wikipedia.org/wiki/Pont_des_Invalides"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Pont_des_Invalides_%2834471766401%29.jpg/960px-Pont_des_Invalides_%2834471766401%29.jpg.webp",
+                "author": "Dmitry Dzhus",
                 "license": "CC BY 2.0",
-                "source_page": "https://commons.wikimedia.org/wiki/File:View_from_Pont_Alexandre_III,_Paris_(35275631304).jpg"
+                "source_page": "https://mapcarta.com/29198900"
               }
             }
           ]
@@ -1402,6 +1721,39 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://tripomatic.com/en/places/INZGj6E8I-fh7hcr"
               }
+            },
+            {
+              "id": "pp-paris-21-10-3",
+              "name_hy": "Ինվալիդների գմբեթ (Վոբանի հրապարակից)",
+              "name_local": "Dôme des Invalides (église), place Vauban",
+              "lat": 48.85502,
+              "lon": 2.31251,
+              "what_hy": "Հարավային կողմից՝ Վոբանի հրապարակից, նկարիր ոսկեզօծ գմբեթը ամբողջությամբ։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/24884752"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-paris-21-10-4",
+              "name_hy": "Սեն-Ֆրանսուա-Քսավյե եկեղեցի",
+              "name_local": "Église Saint-François-Xavier",
+              "lat": 48.85066,
+              "lon": 2.31344,
+              "what_hy": "Ինվալիդների բուլվարից նկարիր եկեղեցու ճակատն ու զանգակատները։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/35848894"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Saint-Fran%C3%A7ois_Xavier_2010.jpg/960px-Saint-Fran%C3%A7ois_Xavier_2010.jpg.webp",
+                "author": "Sfu",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://mapcarta.com/35848894"
+              }
             }
           ]
         },
@@ -1429,8 +1781,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Bouillon_Chartier_Montparnasse.jpg"
             }
           ],
-          "menu_url": "https://www.bouillon-chartier.com/bouillon-chartier-montparnasse/",
-          "menu_prices_hy": "Պաշտոնական կայք՝ նախուտեստ սկսած 1 €, հիմնականը 7 €-ից, աղանդեր 2 €-ից. կոնկրետ ճաշացանկի բաղադրությունը/ամսաթիվը և 8 տեղը ՉՍՏՈՒԳՎԱԾ",
+          "menu_url": "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
+          "menu_prices_hy": "Պաշտոնական մենյուն ամեն օր փոխվում է և գներ չունի ըստ ուտեստի (նախուտեստ՝ 1-ից, ուտեստ՝ 7-ից, աղանդեր՝ 2 €-ից). գները՝ երկրորդային աղբյուրից։ Գներ (lucandjune.com, 2025-12-30). Oeuf dur mayonnaise 2 €; Poireau-vinaigrette 1 €; Terrine de campagne 3,8 €; Céleri rémoulade 2,7 €; Escargots (6) 7,5 €; Confit de canard 9,8 €; Choucroute 10,8 €; Saucisse de Francfort frites 6,5 €; Pot au feu 9,5 €; Pont l'Évêque 2,8 €; Profiteroles 4 €; House rosé wine (bottle) 15 €։",
           "reviews_source": "Կարծիքները առանձին օրագրված աղբյուրներով դեռ չեն գնահատվել. 8 հոգով մի սեղանի երաշխիք չկա, ամրագրումներ չեն ընդունվում։",
           "to_next": {
             "mode": "metro",
@@ -1447,7 +1799,8 @@
           "sources": [
             "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
             "https://www.bouillon-chartier.com/bouillon-chartier-montparnasse/",
-            "https://www.bouillon-chartier.com/en/the-bouillons/"
+            "https://www.bouillon-chartier.com/en/the-bouillons/",
+            "https://www.lucandjune.com/le-bouillon-chartier-paris/"
           ]
         }
       ]
@@ -1542,6 +1895,59 @@
               }
             },
             {
+              "id": "pp-paris-22-03-7",
+              "name_hy": "Առափնյա տեռաս",
+              "name_local": "Terrasse du Bord-de-l'Eau (Jardin des Tuileries)",
+              "lat": 48.86303,
+              "lon": 2.32431,
+              "what_hy": "Բարձր տեռասից նկարիր Սենը և դիմացի Օրսե թանգարանը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/fr/W964672738",
+                "https://mapcarta.com/fr/N9913141548"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Terrasse_du_Bord-de-l%27Eau%2C_Jardin_des_Tuileries%2C_Paris_8_March_2015.jpg/960px-Terrasse_du_Bord-de-l%27Eau%2C_Jardin_des_Tuileries%2C_Paris_8_March_2015.jpg.webp",
+                "author": "Ana Paula Hirama",
+                "license": "CC BY-SA 2.0",
+                "source_page": "https://mapcarta.com/fr/W964672738"
+              }
+            },
+            {
+              "id": "pp-paris-22-03-5",
+              "name_hy": "Լեոպոլդ Սեդար Սենգոր հետիոտն կամուրջ",
+              "name_local": "Passerelle Léopold-Sédar-Senghor",
+              "lat": 48.8618,
+              "lon": 2.3247,
+              "what_hy": "Կամրջի մեջտեղից նկարիր Օրսե թանգարանն ու Թյուիլրիի այգին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/29198904"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Passerelle_Solferino_Paris_FRA_002.jpg/960px-Passerelle_Solferino_Paris_FRA_002.jpg.webp",
+                "author": "Ignis",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://mapcarta.com/29198904"
+              }
+            },
+            {
+              "id": "pp-paris-22-03-6",
+              "name_hy": "Թյուիլրիի մեծ կլոր ավազան",
+              "name_local": "Grand Bassin rond (Jardin des Tuileries)",
+              "lat": 48.86287,
+              "lon": 2.32929,
+              "what_hy": "Ավազանի եզրին դրված կանաչ աթոռներից նկարիր շատրվանը՝ Լուվրի կողմը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W14037695"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
               "id": "pp-paris-22-03-4",
               "name_hy": "Ժաննա դ’Արկի ոսկե արձան",
               "name_local": "Statue de Jeanne d’Arc, place des Pyramides",
@@ -1629,25 +2035,6 @@
           ],
           "photo_points": [
             {
-              "id": "pp-paris-22-02-2",
-              "name_hy": "Լուվրի Քառակուսի բակ",
-              "name_local": "Cour Carrée du Louvre",
-              "lat": 48.86037,
-              "lon": 2.33856,
-              "what_hy": "Լուվրի վերածննդի քառակուսի բակը բուրգից արևելք։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://fr.aroundus.com/p/10437113-cour-carree"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://img2.digsty.com/Wu7LZUwqETDsXFYX4cwfAikF5o4iZlC48V2pRDpZdM4/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTc1NjctNTNhZjVjYjQuanBn.jpg",
-                "author": "Commons, CC BY-SA",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://fr.aroundus.com/p/10437113-cour-carree"
-              }
-            },
-            {
               "id": "pp-paris-22-02-1",
               "name_hy": "Արվեստների կամուրջ",
               "name_local": "Pont des Arts",
@@ -1668,6 +2055,39 @@
               }
             },
             {
+              "id": "pp-paris-22-02-2",
+              "name_hy": "Լուվրի Քառակուսի բակ",
+              "name_local": "Cour Carrée du Louvre",
+              "lat": 48.86037,
+              "lon": 2.33856,
+              "what_hy": "Լուվրի վերածննդի քառակուսի բակը բուրգից արևելք։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://fr.aroundus.com/p/10437113-cour-carree"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img2.digsty.com/Wu7LZUwqETDsXFYX4cwfAikF5o4iZlC48V2pRDpZdM4/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTc1NjctNTNhZjVjYjQuanBn.jpg",
+                "author": "Commons, CC BY-SA",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://fr.aroundus.com/p/10437113-cour-carree"
+              }
+            },
+            {
+              "id": "pp-paris-22-02-4",
+              "name_hy": "Լուվրի սյունաշար (Պերոյի կոլոնադ)",
+              "name_local": "Colonnade de Perrault (Louvre)",
+              "lat": 48.86013,
+              "lon": 2.33975,
+              "what_hy": "Լուվրի փողոցի կողմից նկարիր արևելյան ճակատի երկար սյունաշարը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/37337014"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
               "id": "pp-paris-22-02-3",
               "name_hy": "Սեն-Ժերմեն-լ’Օսերուա",
               "name_local": "Saint-Germain-l’Auxerrois",
@@ -1684,6 +2104,25 @@
                 "author": "Dinkum, CC0",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://tripomatic.com/en/places/MuKycNbwmeCtt4sB"
+              }
+            },
+            {
+              "id": "pp-paris-22-02-5",
+              "name_hy": "Սամարիտեն",
+              "name_local": "La Samaritaine",
+              "lat": 48.85934,
+              "lon": 2.3424,
+              "what_hy": "Լուվրի առափնյակից նկարիր Ար Նուվո ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/fr/N8854893320"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/La_Samaritaine_and_Statue_of_Henri_IV.jpg/960px-La_Samaritaine_and_Statue_of_Henri_IV.jpg.webp",
+                "author": "Adrian Scottow",
+                "license": "CC BY-SA 2.0",
+                "source_page": "https://mapcarta.com/fr/N8854893320"
               }
             }
           ]
@@ -1732,25 +2171,6 @@
           ],
           "photo_points": [
             {
-              "id": "pp-paris-22-06-3",
-              "name_hy": "Հենրիխ IV-ի ձիարձան",
-              "name_local": "Statue équestre d’Henri IV",
-              "lat": 48.85714,
-              "lon": 2.34097,
-              "what_hy": "Նոր կամրջի մեջտեղում՝ թագավորի բրոնզե ձիարձան։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://aroundus.com/p/11517880-equestrian-statue-of-henry-iv"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://img9.digsty.com/iHpep7xndv86mP3KNy3qlfzX2wl5YtJrMie1CgX-JkE/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTc1NDAtYjk2MGE4YWQuanBn.jpg",
-                "author": "Commons, CC BY-SA",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://aroundus.com/p/11517880-equestrian-statue-of-henry-iv"
-              }
-            },
-            {
               "id": "pp-paris-22-06-1",
               "name_hy": "Վեր-Գալան այգի՝ կղզու ծայրին",
               "name_local": "Square du Vert-Galant",
@@ -1767,6 +2187,25 @@
                 "author": "Sonia Yassa / Ville de Paris",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://www.paris.fr/lieux/square-du-vert-galant-2825"
+              }
+            },
+            {
+              "id": "pp-paris-22-06-3",
+              "name_hy": "Հենրիխ IV-ի ձիարձան",
+              "name_local": "Statue équestre d’Henri IV",
+              "lat": 48.85714,
+              "lon": 2.34097,
+              "what_hy": "Նոր կամրջի մեջտեղում՝ թագավորի բրոնզե ձիարձան։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://aroundus.com/p/11517880-equestrian-statue-of-henry-iv"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img9.digsty.com/iHpep7xndv86mP3KNy3qlfzX2wl5YtJrMie1CgX-JkE/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTc1NDAtYjk2MGE4YWQuanBn.jpg",
+                "author": "Commons, CC BY-SA",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://aroundus.com/p/11517880-equestrian-statue-of-henry-iv"
               }
             },
             {
@@ -1789,6 +2228,25 @@
               }
             },
             {
+              "id": "pp-paris-22-06-5",
+              "name_hy": "Սենտ-Շապել",
+              "name_local": "Sainte-Chapelle",
+              "lat": 48.8554,
+              "lon": 2.34504,
+              "what_hy": "Պալատի բուլվարից նկարիր գոթական մատուռի բարակ գագաթը Արդարադատության պալատի վերևում։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/25251472"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Paris_Sainte_Chapelle_East_View_02.JPG/960px-Paris_Sainte_Chapelle_East_View_02.JPG.webp",
+                "author": "Uoaei1",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://mapcarta.com/25251472"
+              }
+            },
+            {
               "id": "pp-paris-22-06-4",
               "name_hy": "Կոնսիերժրի",
               "name_local": "Conciergerie",
@@ -1806,6 +2264,20 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://tripomatic.com/en/places/bFlAMpoqrcOtpupJ"
               }
+            },
+            {
+              "id": "pp-paris-22-06-6",
+              "name_hy": "Եղիսաբեթ II ծաղկաշուկա",
+              "name_local": "Marché aux fleurs Reine-Elizabeth-II",
+              "lat": 48.85542,
+              "lon": 2.34766,
+              "what_hy": "Նկարիր կանաչ երկաթե տաղավարները և ծաղիկները։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W152843972"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
             }
           ]
         },
@@ -1874,6 +2346,39 @@
               }
             },
             {
+              "id": "pp-paris-22-01-4",
+              "name_hy": "Հովհաննես XXIII պուրակ",
+              "name_local": "Square Jean-XXIII",
+              "lat": 48.85238,
+              "lon": 2.35034,
+              "what_hy": "Տաճարի հետևի այգուց նկարիր Նոտր-Դամի հետին ճակատն ու նեցուկ կամարները։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W20444455"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-paris-22-01-2",
+              "name_hy": "Ֆրանսիայի ճանապարհների «զրո կետը»",
+              "name_local": "Point zéro des routes de France",
+              "lat": 48.8534,
+              "lon": 2.34817,
+              "what_hy": "Նոտր Դամի հրապարակի բրոնզե նշան, որից հաշվվում են Ֆրանսիայի հեռավորությունները։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.atlasobscura.com/places/paris-point-zero"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://img.atlasobscura.com/U0Qvn8H1rHC92gTADP3QCaJZlSuqG3WubD42kmU8kXI/rt:fit/h:400/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8wZmYw/NDcxNmU2NTcxMmQz/YWNfMzM1NDA2NDAy/MF8yZWY2YmZhOTI1/X2IuanBn.jpg",
+                "author": "Serge Melki, CC BY 2.0",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://www.atlasobscura.com/places/paris-point-zero"
+              }
+            },
+            {
               "id": "pp-paris-22-01-1",
               "name_hy": "Shakespeare and Company գրախանութ",
               "name_local": "Shakespeare and Company",
@@ -1894,22 +2399,22 @@
               }
             },
             {
-              "id": "pp-paris-22-01-2",
-              "name_hy": "Ֆրանսիայի ճանապարհների «զրո կետը»",
-              "name_local": "Point zéro des routes de France",
-              "lat": 48.8534,
-              "lon": 2.34817,
-              "what_hy": "Նոտր Դամի հրապարակի բրոնզե նշան, որից հաշվվում են Ֆրանսիայի հեռավորությունները։",
+              "id": "pp-paris-22-01-5",
+              "name_hy": "Փոքր կամուրջ",
+              "name_local": "Petit Pont",
+              "lat": 48.85331,
+              "lon": 2.34696,
+              "what_hy": "Կամրջից նկարիր Նոտր-Դամի ճակատը կողքից և Սենը։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://www.atlasobscura.com/places/paris-point-zero"
+                "https://mapcarta.com/25737850"
               ],
-              "checked": "2026-10-18",
+              "checked": "2026-10-19",
               "photo": {
-                "url": "https://img.atlasobscura.com/U0Qvn8H1rHC92gTADP3QCaJZlSuqG3WubD42kmU8kXI/rt:fit/h:400/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8wZmYw/NDcxNmU2NTcxMmQz/YWNfMzM1NDA2NDAy/MF8yZWY2YmZhOTI1/X2IuanBn.jpg",
-                "author": "Serge Melki, CC BY 2.0",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://www.atlasobscura.com/places/paris-point-zero"
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Petit-Pont%2C_Paris_2_June_2006.jpg/960px-Petit-Pont%2C_Paris_2_June_2006.jpg.webp",
+                "author": "Kurt Raschke",
+                "license": "CC BY 2.0",
+                "source_page": "https://mapcarta.com/25737850"
               }
             }
           ]
@@ -2011,6 +2516,44 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://aroundus.com/p/7374472-fontaine-saint-michel"
               }
+            },
+            {
+              "id": "pp-paris-22-05-4",
+              "name_hy": "Սեն-Միշել կամուրջ",
+              "name_local": "Pont Saint-Michel",
+              "lat": 48.85406,
+              "lon": 2.34459,
+              "what_hy": "Կամրջից նկարիր Սենը, Սեն-Միշել առափնյակը և Նոտր-Դամը հեռվում։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/37336420"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Pont_Saint-Michel_and_quai_Saint-Michel%2C_4_October_2014.jpg/960px-Pont_Saint-Michel_and_quai_Saint-Michel%2C_4_October_2014.jpg.webp",
+                "author": "Kwangmo",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://mapcarta.com/37336420"
+              }
+            },
+            {
+              "id": "pp-paris-22-05-5",
+              "name_hy": "Պալե-Ռոյալի հրապարակ",
+              "name_local": "Place du Palais-Royal",
+              "lat": 48.86255,
+              "lon": 2.33678,
+              "what_hy": "Հրապարակի կենտրոնից նկարիր Պալե-Ռոյալի ճակատն ու Լուվրի կողմը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/25251122"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Place_du_Palais-Royal_as_seen_from_the_Mus%C3%A9e_du_Louvre%2C_29_April_2011.jpg/960px-Place_du_Palais-Royal_as_seen_from_the_Mus%C3%A9e_du_Louvre%2C_29_April_2011.jpg.webp",
+                "author": "Cristian Bortes",
+                "license": "CC BY 2.0",
+                "source_page": "https://mapcarta.com/25251122"
+              }
             }
           ]
         },
@@ -2057,6 +2600,25 @@
             "https://parisjetaime.com/culture/domaine-national-du-palais-royal-p991"
           ],
           "photo_points": [
+            {
+              "id": "pp-paris-22-07-4",
+              "name_hy": "Կոմեդի Ֆրանսեզ (Ռիշելյե դահլիճ)",
+              "name_local": "Comédie-Française – Salle Richelieu",
+              "lat": 48.86354,
+              "lon": 2.33619,
+              "what_hy": "Կոլետ հրապարակից նկարիր թատրոնի արևմտյան ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/26253926"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Com%C3%A9die-Fran%C3%A7aise_-_west_facade.JPG/960px-Com%C3%A9die-Fran%C3%A7aise_-_west_facade.JPG.webp",
+                "author": "Daderot",
+                "license": "Public domain",
+                "source_page": "https://mapcarta.com/26253926"
+              }
+            },
             {
               "id": "pp-paris-22-07-2",
               "name_hy": "Բյուրենի սյուներ",
@@ -2114,6 +2676,34 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://aroundus.com/p/7387450-galerie-vivienne"
               }
+            },
+            {
+              "id": "pp-paris-22-07-5",
+              "name_hy": "Բրոնյարի պալատ (հին բորսա)",
+              "name_local": "Palais Brongniart",
+              "lat": 48.86917,
+              "lon": 2.34139,
+              "what_hy": "Բորսայի հրապարակից նկարիր սյունազարդ ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Palais_Brongniart"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-paris-22-07-6",
+              "name_hy": "Պանորամաների պասաժ",
+              "name_local": "Passage des Panoramas",
+              "lat": 48.87111,
+              "lon": 2.34167,
+              "what_hy": "Պասաժի ներսից նկարիր ապակե տանիքն ու հին խանութների ցուցափեղկերը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Passage_des_Panoramas"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
             }
           ]
         },
@@ -2141,8 +2731,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Une_vue_de_l%27int%C3%A9rieur_Bouillon_Chartier_Grands_Boulevards_%28ao%C3%BBt_2023%29.JPG"
             }
           ],
-          "menu_url": "https://www.bouillon-chartier.com/bouillon-chartier-grands-boulevards/",
-          "menu_prices_hy": "Պաշտոնական հրապարակված՝ նախուտեստ 1 €-ից, հիմնական 7 €-ից, աղանդեր 2 €-ից",
+          "menu_url": "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
+          "menu_prices_hy": "Պաշտոնական մենյուն ամեն օր փոխվում է և գներ չունի ըստ ուտեստի (նախուտեստ՝ 1-ից, ուտեստ՝ 7-ից, աղանդեր՝ 2 €-ից). գները՝ երկրորդային աղբյուրից։ Գներ (lucandjune.com, 2025-12-30). Oeuf dur mayonnaise 2 €; Poireau-vinaigrette 1 €; Terrine de campagne 3,8 €; Céleri rémoulade 2,7 €; Escargots (6) 7,5 €; Confit de canard 9,8 €; Choucroute 10,8 €; Saucisse de Francfort frites 6,5 €; Pot au feu 9,5 €; Pont l'Évêque 2,8 €; Profiteroles 4 €; House rosé wine (bottle) 15 €։",
           "reviews_source": "Կարծիքները առանձին օրագրված աղբյուրներով դեռ չեն գնահատվել. 8 հոգով մի սեղանի երաշխիք չկա, ամրագրումներ չեն ընդունվում։",
           "to_next": {
             "mode": "metro",
@@ -2159,7 +2749,8 @@
           "sources": [
             "https://www.bouillon-chartier.com/bouillon-chartier-grands-boulevards/",
             "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
-            "https://www.bouillon-chartier.com/en/the-bouillons/"
+            "https://www.bouillon-chartier.com/en/the-bouillons/",
+            "https://www.lucandjune.com/le-bouillon-chartier-paris/"
           ]
         }
       ]
@@ -2212,6 +2803,35 @@
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
           "sources": [],
           "photo_points": [
+            {
+              "id": "pp-paris-23-04-5",
+              "name_hy": "Սեն-Ժան դը Մոնմարտր եկեղեցի",
+              "name_local": "Église Saint-Jean-de-Montmartre",
+              "lat": 48.884106,
+              "lon": 2.337883,
+              "what_hy": "Աբեսի հրապարակից լուսանկարեք կարմիր աղյուսե Ար-նուվո ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Saint-Jean_de_Montmartre"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-paris-23-04-6",
+              "name_hy": "Ատելիե թատրոն",
+              "name_local": "Théâtre de l'Atelier (place Charles-Dullin)",
+              "lat": 48.8834,
+              "lon": 2.3423,
+              "what_hy": "Շառլ-Դյուլեն փոքրիկ հրապարակից լուսանկարեք թատրոնի հին ճակատը ծառերի միջով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_de_l%27Atelier",
+                "https://fr.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_de_l%27Atelier"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
             {
               "id": "pp-paris-23-04-1",
               "name_hy": "«Ես քեզ սիրում եմ» պատը",
@@ -2288,6 +2908,21 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://www.atlasobscura.com/places/le-passe-muraille"
               }
+            },
+            {
+              "id": "pp-paris-23-04-7",
+              "name_hy": "Կալվեր փողոցի աստիճաններ",
+              "name_local": "Escalier de la rue du Calvaire",
+              "lat": 48.88618,
+              "lon": 2.34045,
+              "what_hy": "Աստիճանների վերևից լուսանկարեք Փարիզի համայնապատկերը, ներքևից՝ աստիճանները դեպի Տերտր։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.komoot.com/highlight/4698308",
+                "https://fr.wikipedia.org/wiki/Rue_du_Calvaire_(Paris)"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
             }
           ]
         },
@@ -2372,6 +3007,20 @@
               }
             },
             {
+              "id": "pp-paris-23-03-6",
+              "name_hy": "Մոն-Սենի փողոցի աստիճաններ",
+              "name_local": "Escalier de la rue du Mont-Cenis",
+              "lat": 48.888031,
+              "lon": 2.341755,
+              "what_hy": "Աստիճանների վերևից լուսանկարեք լապտերներով իջնող աստիճանաշարը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.komoot.com/highlight/4698306"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
               "id": "pp-paris-23-03-2",
               "name_hy": "Սեն-Պիեռ դը Մոնմարտր",
               "name_local": "Saint-Pierre de Montmartre",
@@ -2389,6 +3038,35 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://tripomatic.com/en/places/sM74w_maS-SkWwwY"
               }
+            },
+            {
+              "id": "pp-paris-23-03-4",
+              "name_hy": "Շևալյե դը լա Բարի արձան",
+              "name_local": "Statue du Chevalier de la Barre (square Nadar)",
+              "lat": 48.885865,
+              "lon": 2.341409,
+              "what_hy": "Նադար սկվերում լուսանկարեք արձանը՝ Սակրե-Կյորի գմբեթների ֆոնին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.komoot.com/de-de/highlight/6326805",
+                "https://parcours.commune1871.org/en/communard-montmartre/square-nadar/"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-paris-23-03-5",
+              "name_hy": "Տեսարան Սակրե-Կյորի հրապարակից",
+              "name_local": "Parvis du Sacré-Cœur (vue sur Paris)",
+              "lat": 48.886119,
+              "lon": 2.343328,
+              "what_hy": "Բազիլիկի մուտքի առջևի աստիճաններից լուսանկարեք ամբողջ Փարիզի համայնապատկերը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.komoot.com/highlight/7836446"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
             }
           ]
         },
@@ -2512,6 +3190,53 @@
                 "license": "CC BY 3.0",
                 "source_page": "https://commons.wikimedia.org/wiki/File:Paris_75018_Square_Louise-Michel_stairs_Sacr%C3%A9-Coeur_20160419_(01).jpg"
               }
+            },
+            {
+              "id": "pp-paris-23-01-5",
+              "name_hy": "Սեն-Պիեռ դահլիճ",
+              "name_local": "Halle Saint-Pierre",
+              "lat": 48.884844,
+              "lon": 2.344525,
+              "what_hy": "Ռոնսար փողոցից լուսանկարեք 19-րդ դարի երկաթե-ապակյա շուկայի ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W45073393"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://live.staticflickr.com/8119/8700962857_2fdcb4a34c_b.jpg",
+                "author": "Jim Linwood",
+                "license": "CC BY 2.0",
+                "source_page": "https://www.flickr.com/photos/brighton/8700962857"
+              }
+            },
+            {
+              "id": "pp-paris-23-01-6",
+              "name_hy": "Հյուսիսային կայարան",
+              "name_local": "Gare du Nord",
+              "lat": 48.88111,
+              "lon": 2.35528,
+              "what_hy": "Նապոլեոն III հրապարակից լուսանկարեք կայարանի արձաններով քարե ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Gare_du_Nord"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-paris-23-01-7",
+              "name_hy": "Սեն-Կանտեն ծածկած շուկա",
+              "name_local": "Marché couvert Saint-Quentin",
+              "lat": 48.876923,
+              "lon": 2.355037,
+              "what_hy": "Մաժենտա բուլվարից լուսանկարեք 1866թ. երկաթե-ապակյա շուկայի ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W63201016"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
             }
           ]
         },
@@ -2613,6 +3338,48 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://canalplan.co.uk/photo/6k_oin"
               }
+            },
+            {
+              "id": "pp-paris-23-06-4",
+              "name_hy": "Վիլմեն այգի",
+              "name_local": "Jardin Villemin",
+              "lat": 48.875148,
+              "lon": 2.361826,
+              "what_hy": "Ռեկոլե փողոցի կողմից լուսանկարեք այգու ծառուղին և նախկին վանքի շենքը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W16405088"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-paris-23-06-5",
+              "name_hy": "Սեն-Լորան եկեղեցի",
+              "name_local": "Église Saint-Laurent",
+              "lat": 48.874849,
+              "lon": 2.358311,
+              "what_hy": "Մաժենտա և Ստրասբուրգ բուլվարների խաչմերուկից լուսանկարեք գոթական ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Saint-Laurent,_Paris"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-paris-23-06-6",
+              "name_hy": "Արևելյան կայարան",
+              "name_local": "Gare de l'Est",
+              "lat": 48.87694,
+              "lon": 2.35917,
+              "what_hy": "Ստրասբուրգ բուլվարի ծայրից լուսանկարեք կայարանի կամարաձև ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Gare_de_l%27Est"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
             }
           ]
         },
@@ -2641,7 +3408,7 @@
             }
           ],
           "menu_url": "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
-          "menu_prices_hy": "2025.10 պաշտոնական օրինակային մենյու՝ նախուտեստներ 1–7,50 €, հիմնականներ 7–13,80 €. Ամեն օր փոխվում է, 2026.10 այցի մենյուն ՉՍՏՈՒԳՎԱԾ։",
+          "menu_prices_hy": "Պաշտոնական մենյուն ամեն օր փոխվում է և գներ չունի ըստ ուտեստի (նախուտեստ՝ 1-ից, ուտեստ՝ 7-ից, աղանդեր՝ 2 €-ից). գները՝ երկրորդային աղբյուրից։ Գներ (fr.newtable.com, առանց ամսաթվի). Oeuf dur mayo 2 €; Saucisse de Francfort frites 6,5 €։",
           "reviews_source": "Կարծիքները առանձին օրագրված աղբյուրներով դեռ չեն գնահատվել. 8 հոգով մի սեղանի երաշխիք չկա, ամրագրումներ չեն ընդունվում։",
           "to_next": {
             "mode": "metro",
@@ -2658,7 +3425,8 @@
           "sources": [
             "https://www.bouillon-chartier.com/bouillon-chartier-gare-de-lest/",
             "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
-            "https://www.bouillon-chartier.com/en/the-bouillons/"
+            "https://www.bouillon-chartier.com/en/the-bouillons/",
+            "https://fr.newtable.com/restaurant-bouillon-chartier-a-gare-de-l-est-6530.php"
           ]
         }
       ]
@@ -2667,7 +3435,7 @@
       "date": "2026-10-24",
       "city": "barcelona",
       "title_hy": "Ժամանում · Մոնժուիկ · Գաուդի. Սագրադա Ֆամիլիա, Միլա, Բատյո · Կախարդական շատրվան",
-      "notes_hy": "✈ 08:00 ժամանում, մինչև 14:00 ուսապարկերով՝ Մոնժուիկի այգիներ, Plaça d’Espanya, ճաշ Las Arenas-ում։ 14:00 տուն (check-in)։\n🏛 Կեսօրից՝ Գաուդի. Գուելի տաղավարներ → Սագրադա Ֆամիլիա (դրսից) → Sant Pau → Casa Milà → Casa Batlló → Casa Calvet։ Ընթրիք՝ Passeig de Gràcia-ի մոտ։\n⛲ 21:15 Font Màgica (շոու ~21:30), հետո L3-ով տուն։",
+      "notes_hy": "✈ 08:00 ժամանում, մինչև 14:00 ուսապարկերով՝ Մոնժուիկի այգիներ, Plaça d’Espanya, ճաշ Las Arenas-ում։ 14:00 տուն (check-in)։\n🏛 Կեսօրից՝ Գաուդի. Գուելի տաղավարներ → Սագրադա Ֆամիլիա (դրսից) → Sant Pau → Casa Milà → Casa Batlló → Casa Calvet։ Ընթրիք՝ Passeig de Gràcia-ի մոտ։\n⛲ 20:50 Font Màgica (շոու 21:00–22:00), հետո L3-ով տուն։\n⏰ Այս գիշեր (24→25.10) ժամացույցները 1 ժամ հետ են տրվում (03:00 → 02:00). հեռախոսն ինքն է փոխում։",
       "total_walk_km": 6.57,
       "stops": [
         {
@@ -2814,6 +3582,25 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://thisisbarcelona.com/ca/arquitectura/cases-i-edificis-emblematics/pavello-mies-van-der-rohe"
               }
+            },
+            {
+              "id": "pp-barcelona-24-04-4",
+              "name_hy": "CaixaForum (Կազարամոնա գործարան)",
+              "name_local": "CaixaForum Barcelona (Fàbrica Casaramona)",
+              "lat": 41.371483,
+              "lon": 2.149355,
+              "what_hy": "Լուսանկարիր մոդեռնիստական աղյուսե գործարանի աշտարակներն ու ճակատը մայթից՝ Avinguda de Francesc Ferrer i Guàrdia-ից։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/36041056"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/PiC-Casarramona-0294.JPG/960px-PiC-Casarramona-0294.JPG.webp",
+                "author": "amadalvarez",
+                "license": "CC BY 3.0",
+                "source_page": "https://mapcarta.com/36041056"
+              }
             }
           ]
         },
@@ -2878,6 +3665,25 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://barcelonalowdown.com/?p=6745"
               }
+            },
+            {
+              "id": "pp-barcelona-24-02-2",
+              "name_hy": "Խուան Միրոյի այգի (Կինը և թռչունը)",
+              "name_local": "Parc de Joan Miró (Dona i Ocell)",
+              "lat": 41.377955,
+              "lon": 2.148354,
+              "what_hy": "Այգու լճակի մոտից լուսանկարիր Միրոյի բարձր գունավոր «Dona i Ocell» քանդակը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/32946400"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/ES-BCN-parc-miro.jpg/960px-ES-BCN-parc-miro.jpg.webp",
+                "author": "Balou46",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://mapcarta.com/32946400"
+              }
             }
           ]
         },
@@ -2905,8 +3711,8 @@
               "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-24-03.jpg"
             }
           ],
-          "menu_url": "https://www.latagliatella.es/es/restaurantes/barcelona/cc-las-arenas-barcelona",
-          "menu_prices_hy": "",
+          "menu_url": "https://www.just-eat.es/restaurants-la-tagliatella-barcelona-barcelona-08015/menu",
+          "menu_prices_hy": "⚠ Գները՝ առաքման հավելվածից (ռեստորանում կարող են ցածր լինել)։ TripAdvisor-ը գրում է «ժամանակավորապես փակ», իսկ 2026-ի կարծիքներ կան (ՀԱԿԱՍՈՒԹՅՈՒՆ). ստուգել ☎ +34 933 25 69 49։ Գներ (just-eat.es, 2026-10-19). Pizza de carrillera al curry Thai 19,5 €; Gnocchi di pulpo a feira 20,9 €; Sorrentino alla Beurre Blanc 20,9 €։",
           "reviews_source": "",
           "to_next": {
             "mode": "metro",
@@ -2923,7 +3729,8 @@
           "sources": [
             "https://www.latagliatella.es/es/restaurantes/barcelona/cc-las-arenas-barcelona",
             "https://es.aroundus.com/p/171650748-restaurant-la-tagliatella-cc.-las-arenas-barcelona",
-            "https://guia.barcelona.cat/es/detall/restaurant-la-tagliatella-arenas_99400604192.html"
+            "https://guia.barcelona.cat/es/detall/restaurant-la-tagliatella-arenas_99400604192.html",
+            "https://www.just-eat.es/restaurants-la-tagliatella-barcelona-barcelona-08015/menu"
           ]
         },
         {
@@ -3072,6 +3879,44 @@
           "tickets_url": "https://sagradafamilia.org/en/tickets",
           "photo_points": [
             {
+              "id": "pp-barcelona-24-11-2",
+              "name_hy": "Սագրադա Ֆամիլիայի հրապարակ",
+              "name_local": "Plaça de la Sagrada Família",
+              "lat": 41.402662,
+              "lon": 2.173166,
+              "what_hy": "Լճակի արևմտյան ափից լուսանկարիր Ծննդյան ճակատն ու աշտարակները ջրի մեջ արտացոլված։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W23431084"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/ES_-_Temple_Expiatori_de_la_Sagrada_Fam%C3%ADlia_1.jpg/960px-ES_-_Temple_Expiatori_de_la_Sagrada_Fam%C3%ADlia_1.jpg.webp",
+                "author": "Alexandru Ene",
+                "license": "CC BY-SA 3.0 ES",
+                "source_page": "https://mapcarta.com/W23431084"
+              }
+            },
+            {
+              "id": "pp-barcelona-24-11-3",
+              "name_hy": "Սագրադա Ֆամիլիայի դպրոցները",
+              "name_local": "Escoles de la Sagrada Família",
+              "lat": 41.402996,
+              "lon": 2.174199,
+              "what_hy": "Լուսանկարիր Գաուդիի ալիքաձև տանիքով փոքր դպրոցի շենքը տաճարի ֆոնին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W132513667"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/SF_-_Escuelas.jpg/960px-SF_-_Escuelas.jpg.webp",
+                "author": "Canaan",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://mapcarta.com/W132513667"
+              }
+            },
+            {
               "id": "pp-barcelona-24-11-1",
               "name_hy": "Գաուդիի հրապարակ՝ լճակի արտացոլանք",
               "name_local": "Plaça de Gaudí (estany)",
@@ -3090,6 +3935,20 @@
                 "license": "CC BY 2.0",
                 "source_page": "https://www.flickr.com/photos/jaumescar/6141772371"
               }
+            },
+            {
+              "id": "pp-barcelona-24-11-4",
+              "name_hy": "Գաուդի պողոտա",
+              "name_local": "Avinguda de Gaudí",
+              "lat": 41.408681,
+              "lon": 2.174375,
+              "what_hy": "Կանգնիր պողոտայի մեջտեղում և լուսանկարիր հետ՝ Սագրադա Ֆամիլիան պողոտայի վերջում։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W459464521"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
             }
           ]
         },
@@ -3128,7 +3987,7 @@
             "color": "",
             "direction": "Cornellà Centre",
             "get_off": "Diagonal",
-            "transfers_hy": "Sant Pau | Dos de Maig կայարանից L5 (կապույտ, ուղղություն՝ Cornellà Centre) → Diagonal (4 կանգառ)։ Casa Milà-ն կայարանից 100 մ է։",
+            "transfers_hy": "Sant Pau | Dos de Maig կայարանից L5 (կապույտ, ուղղություն՝ Cornellà Centre) → Diagonal (3 կանգառ՝ Sagrada Família, Verdaguer, Diagonal)։ Casa Milà-ն կայարանից 100 մ է։",
             "ticket_hy": "T-familiar / T-casual"
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -3184,6 +4043,25 @@
           ],
           "photo_points": [
             {
+              "id": "pp-barcelona-24-07-4",
+              "name_hy": "Բարոն դե Կուադրասի պալատ",
+              "name_local": "Palau del Baró de Quadras",
+              "lat": 41.396656,
+              "lon": 2.1614,
+              "what_hy": "Diagonal-ի մայթից լուսանկարիր Պուչ ի Կադաֆալքի գոթական-մոդեռնիստական քանդակազարդ ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W646004637"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Josep.Puig.i.Calafalch.Palau.del.Baro.Barcelona.jpg/960px-Josep.Puig.i.Calafalch.Palau.del.Baro.Barcelona.jpg.webp",
+                "author": "Josep Panadero",
+                "license": "CC BY 2.5",
+                "source_page": "https://mapcarta.com/W646004637"
+              }
+            },
+            {
               "id": "pp-barcelona-24-07-2",
               "name_hy": "Կասա Կոմալատ",
               "name_local": "Casa Comalat",
@@ -3200,6 +4078,25 @@
                 "author": "Turisme de Barcelona",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://thisisbarcelona.com/architecture/houses-and-emblematic-buildings/casa-comalat"
+              }
+            },
+            {
+              "id": "pp-barcelona-24-07-3",
+              "name_hy": "Պալաու Ռոբերտ",
+              "name_local": "Palau Robert",
+              "lat": 41.396065,
+              "lon": 2.159415,
+              "what_hy": "Լուսանկարիր նեոկլասիկ պալատը Passeig de Gràcia-ից, կամ մտիր անվճար այգին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W124189501"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Palaurobertbarcelona.JPG/3840px-Palaurobertbarcelona.JPG",
+                "author": "Jordiferrer",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://mapcarta.com/W124189501"
               }
             },
             {
@@ -3270,25 +4167,6 @@
           ],
           "photo_points": [
             {
-              "id": "pp-barcelona-24-06-1",
-              "name_hy": "Կասա Բատյոյի դիմացի մայթ",
-              "name_local": "Passeig de Gràcia – Casa Batlló",
-              "lat": 41.391762,
-              "lon": 2.165111,
-              "what_hy": "Փողոցի այս կողմից երևում է Գաուդիի ալիքաձև ճակատը և հարևան Casa Amatller-ը։ Կոորդինատը շենքի դիմացից արված իրական լուսանկարի camera location-ն է։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://commons.wikimedia.org/wiki/File:Casa_Batll%C3%B3_fa%C3%A7ade.jpg"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Casa_Batll%C3%B3_fa%C3%A7ade.jpg",
-                "author": "Monumencelona30",
-                "license": "CC BY-SA 4.0",
-                "source_page": "https://commons.wikimedia.org/wiki/File:Casa_Batll%C3%B3_fa%C3%A7ade.jpg"
-              }
-            },
-            {
               "id": "pp-barcelona-24-06-4",
               "name_hy": "Տապիեսի հիմնադրամ",
               "name_local": "Fundació Antoni Tàpies",
@@ -3305,6 +4183,25 @@
                 "author": "Canaan, CC BY-SA",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://aroundus.com/p/10144844-tapies-museum"
+              }
+            },
+            {
+              "id": "pp-barcelona-24-06-1",
+              "name_hy": "Կասա Բատյոյի դիմացի մայթ",
+              "name_local": "Passeig de Gràcia – Casa Batlló",
+              "lat": 41.391762,
+              "lon": 2.165111,
+              "what_hy": "Փողոցի այս կողմից երևում է Գաուդիի ալիքաձև ճակատը և հարևան Casa Amatller-ը։ Կոորդինատը շենքի դիմացից արված իրական լուսանկարի camera location-ն է։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:Casa_Batll%C3%B3_fa%C3%A7ade.jpg"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Casa_Batll%C3%B3_fa%C3%A7ade.jpg",
+                "author": "Monumencelona30",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Casa_Batll%C3%B3_fa%C3%A7ade.jpg"
               }
             },
             {
@@ -3343,6 +4240,44 @@
                 "author": "Barcelona Navigator",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://barcelonanavigator.com/casa-lleo-i-morera/"
+              }
+            },
+            {
+              "id": "pp-barcelona-24-06-5",
+              "name_hy": "Դիանայի աղբյուր",
+              "name_local": "Font de Diana (Venanci Vallmitjana)",
+              "lat": 41.391605,
+              "lon": 2.171178,
+              "what_hy": "Gran Via-ի մայթից՝ Hotel Ritz-ի մոտ, լուսանկարիր Դիանայի մարմարե արձանով աղբյուրը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W273229618"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Font_de_Diana%2C_Venanci_Vallmitjana.JPG/960px-Font_de_Diana%2C_Venanci_Vallmitjana.JPG.webp",
+                "author": "Canaan",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://mapcarta.com/W273229618"
+              }
+            },
+            {
+              "id": "pp-barcelona-24-06-6",
+              "name_hy": "Cotton House (Fomento del Algodón շենք)",
+              "name_local": "Cotton House Hotel (Gran Via 670)",
+              "lat": 41.391668,
+              "lon": 2.171908,
+              "what_hy": "Գրան Վիայի հակառակ մայթից լուսանկարիր XIX դարի պալատական ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W814238072"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Cotton_House_Hotel%2C_Autograph_Collection.jpg/960px-Cotton_House_Hotel%2C_Autograph_Collection.jpg.webp",
+                "author": "Cataleirxs",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://mapcarta.com/W814238072"
               }
             }
           ],
@@ -3383,7 +4318,7 @@
             "color": "",
             "direction": "Zona Universitària",
             "get_off": "Espanya",
-            "transfers_hy": "Ոտքով Passeig de Gràcia կայարան (~6 ր), L3 (կանաչ, ուղղություն՝ Zona Universitària) → Espanya, ոտքով ~600 մ շատրվան։ Գալ ~21:15։",
+            "transfers_hy": "Ոտքով Passeig de Gràcia կայարան (~6 ր), L3 (կանաչ, ուղղություն՝ Zona Universitària) → Espanya, ոտքով ~600 մ շատրվան։ Գալ ~20:50 (շոուն սկսվում է 21:00-ին)։",
             "ticket_hy": "T-familiar / T-casual"
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -3420,13 +4355,13 @@
           "name_local": "Font Màgica de Montjuïc",
           "lat": 41.37115,
           "lon": 2.15176,
-          "description_hy": "Լույսի և երաժշտության շոու. հոկտեմբերին՝ չորեքշաբթի–կիրակի։ Պաշտոնական ուղեցույցով շոուները 21:30 և 22:00 են (betevé-ն գրում է 21:00 և 21:30՝ ՀԱԿԱՍՈՒԹՅՈՒՆ). գալ ~21:15։ Espanya մետրոյից ~600 մ։",
+          "description_hy": "Լույսի և երաժշտության շոու։ 2026-ի հոկտեմբերին՝ հինգշաբթի–շաբաթ 21:00–22:00 (երկրորդ մասը՝ 21:30)։ Գալ ~20:50։ Espanya մետրոյից ~600 մ։ (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ՝ barcelonaurbana.com, 21.09.2026. նախկին աղբյուրները տարբեր ժամեր էին տալիս)",
           "photo_spot_hy": "",
           "visit_min": [
             30,
             60
           ],
-          "hours_hy": "Շաբաթ ~21:30–22:30 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, guia.barcelona.cat)",
+          "hours_hy": "Շաբաթ 24.10՝ 21:00–22:00 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
           "price_hy": "Անվճար",
           "photos": [
             {
@@ -3452,7 +4387,8 @@
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
-            "https://guia.barcelona.cat/en/detall/lighting-schedule-font-magica-fonts-de-montjuic_99400787700.html"
+            "https://guia.barcelona.cat/en/detall/lighting-schedule-font-magica-fonts-de-montjuic_99400787700.html",
+            "https://barcelonaurbana.com/ca/blog/font-magica-de-montjuic-quins-dies-funciona-i-a-quina-hora"
           ],
           "photo_points": [
             {
@@ -3517,7 +4453,7 @@
       "date": "2026-10-25",
       "city": "barcelona",
       "title_hy": "Գաուդի և ծով, հետո հին քաղաք. Գուել պարկ, Վիսենս, Բարսելոնետա, Գուել պալատ, Գոթական թաղամաս, Բորն",
-      "notes_hy": "⏰ Այս գիշեր ժամացույցները 1 ժամ հետ են տրվում (03:00 → 02:00)։ Նախաճաշը՝ տանը։\n🏛 Park Güell (անվճար մասը) → Casa Vicens → L3+L4 Barceloneta → լողափ → Port Vell → ճաշ La Fonda (առանց ամրագրման, ~13:00–14:00) → Palau Güell (դրսից) → La Rambla → Sant Jaume → Plaça del Rei → Santa Maria del Mar → Ցիտադելի կասկադ → MUHBA (15:00-ից անվճար) → տաճար → Catalunya → L3 տուն։\nՀերթականությունը ստուգված է իրական փողոցային քայլքով (OSM)՝ բոլոր 📷 տեղերով, ժամային պայմաններով (ճաշ, MUHBA)։\nWizz-ի առցանց գրանցումը անել այսօր (մինչև 26.10 07:00)։",
+      "notes_hy": "⏰ Գիշերը ժամացույցները 1 ժամ հետ են տրվել (ձմեռային ժամ)։ Նախաճաշը՝ տանը։\n🏛 Park Güell (անվճար մասը) → Casa Vicens → L3+L4 Barceloneta → լողափ → Port Vell → ճաշ La Fonda (առանց ամրագրման, ~13:00–14:00) → Palau Güell (դրսից) → La Rambla → Sant Jaume → Plaça del Rei → Santa Maria del Mar → Ցիտադելի կասկադ → MUHBA (15:00-ից անվճար) → տաճար → Catalunya → L3 տուն։\nՀերթականությունը ստուգված է իրական փողոցային քայլքով (OSM)՝ բոլոր 📷 տեղերով, ժամային պայմաններով (ճաշ, MUHBA)։\nWizz-ի առցանց գրանցումը անել այսօր (մինչև 26.10 07:00)։\n⚽ 21:00 Էլ Կլասիկո Camp Nou-ում. L3-ը 18:30–21:00 և 22:50–00:00 լեփ-լեցուն է, մեր տունը մարզադաշտի մոտ է։",
       "total_walk_km": 16.74,
       "stops": [
         {
@@ -3599,6 +4535,39 @@
           ],
           "tickets_url": "https://parkguell.barcelona/en/buy-tickets",
           "photo_points": [
+            {
+              "id": "pp-barcelona-25-14-3",
+              "name_hy": "Խուան Սալեսի դիտակետ",
+              "name_local": "Mirador de Joan Sales",
+              "lat": 41.416345,
+              "lon": 2.152858,
+              "what_hy": "Պարկի վերին եզրի դիտակետից լուսանկարիր քաղաքի և ծովի համայնապատկերը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W1148514721"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-barcelona-25-14-2",
+              "name_hy": "Մարտի Տրիաս տուն (Պարկ Գուել)",
+              "name_local": "Casa Martí Trias i Domènech (Park Güell)",
+              "lat": 41.415313,
+              "lon": 2.152582,
+              "what_hy": "Պարկի անվճար հատվածի արահետից լուսանկարիր այգով շրջապատված մոդեռնիստական առանձնատունը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W242766777"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Casa_Trias_Batllevell.jpg/960px-Casa_Trias_Batllevell.jpg.webp",
+                "author": "Canaan",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://mapcarta.com/W242766777"
+              }
+            },
             {
               "id": "pp-barcelona-25-14-1",
               "name_hy": "Երեք խաչերի բլուր",
@@ -3765,6 +4734,63 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://thisisbarcelona.com/arts-and-design/visual-arts/monuments-and-sculptures/l-estel-ferit-the-wounded-shooting-star-rebecca-horn"
               }
+            },
+            {
+              "id": "pp-barcelona-25-12-3",
+              "name_hy": "Բարսելոնետայի շուկա",
+              "name_local": "Mercat de la Barceloneta",
+              "lat": 41.380377,
+              "lon": 2.189187,
+              "what_hy": "Plaça del Poeta Boscà-ից լուսանկարիր շուկայի երկաթե-ապակե ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W122432799"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mercat_de_la_Barceloneta_-_panoramio.jpg/960px-Mercat_de_la_Barceloneta_-_panoramio.jpg.webp",
+                "author": "jordi domènech",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://mapcarta.com/W122432799"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-12-4",
+              "name_hy": "Սան Միկել դել Պորտ եկեղեցի",
+              "name_local": "Església de Sant Miquel del Port",
+              "lat": 41.380004,
+              "lon": 2.188621,
+              "what_hy": "Plaça de la Barceloneta-ից լուսանկարիր բարոկկո եկեղեցու ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W122560863"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/BARRI_DE_LA_BARCELONETA_1.jpg/960px-BARRI_DE_LA_BARCELONETA_1.jpg.webp",
+                "author": "Acountries",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://mapcarta.com/W122560863"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-12-5",
+              "name_hy": "Պալաու դե Մար (Կատալոնիայի պատմության թանգարան)",
+              "name_local": "Palau de Mar – Museu d'Història de Catalunya",
+              "lat": 41.380817,
+              "lon": 2.185869,
+              "what_hy": "Moll de la Fusta-ի կողմից լուսանկարիր նավահանգստի աղյուսե պահեստ-պալատը զբոսանավերի հետ։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/N6742154244"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Magatzems_generals_del_Dip%C3%B2sit_-_vista_general.JPG/960px-Magatzems_generals_del_Dip%C3%B2sit_-_vista_general.JPG.webp",
+                "author": "Jordiferrer",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://mapcarta.com/N6742154244"
+              }
             }
           ]
         },
@@ -3828,6 +4854,25 @@
                 "author": "Turisme de Barcelona / Marta Vidal",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://thisisbarcelona.com/arts-and-design/visual-arts/monuments-and-sculptures/cara-de-barcelona-face-of-barcelona-roy-lichtenstein"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-11-5",
+              "name_hy": "Մերսեի բազիլիկ",
+              "name_local": "Basílica de la Mercè",
+              "lat": 41.379599,
+              "lon": 2.179701,
+              "what_hy": "Plaça de la Mercè-ից լուսանկարիր բարոկկո ճակատը և գմբեթի Մերսեի արձանը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W311546101"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Bas%C3%ADlica_de_la_Merc%C3%A8_-_Barcelona_%28Catalonia%29.jpg/3840px-Bas%C3%ADlica_de_la_Merc%C3%A8_-_Barcelona_%28Catalonia%29.jpg",
+                "author": "Puigalder",
+                "license": "Public domain",
+                "source_page": "https://mapcarta.com/W311546101"
               }
             },
             {
@@ -3915,7 +4960,7 @@
             }
           ],
           "menu_url": "https://www.thefork.es/restaurante/la-fonda-r618809/menu",
-          "menu_prices_hy": "TheFork (մենյուի փոփոխություն 06.08.2025). Gazpacho 5,25 €, Pasta bolognese 9,40 €, Arroz con pollo 11,95 € (որոշ ուտեստներ նվազագույն 2 պատվեր)",
+          "menu_prices_hy": "Գներ (thefork.es, 2025-08-06). Patatas bravas la fonda 5,8 €; Croqueta de gamba y vieira 2,95 €; Gazpacho 5,25 €; Ensalada catalana 8,5 €; Mezzi riggatonni a la boloñesa 9,4 €; Canelón maria trias 14,5 €; Pollo con salsa de colmenillas 12,25 €; Confit de pato 15,95 €; Paella mixta 14,75 €; Arroz con pollo y verduras 11,95 €; Crema catalana 3,95 €; Copa de vino (Tous Baró) 3 €։ Միջինը ~20 €/անձ. 8 × 20 € = 160 € (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)։",
           "reviews_source": "https://www.thefork.es/restaurante/la-fonda-r618809/menu",
           "to_next": {
             "mode": "walk",
@@ -3979,7 +5024,27 @@
             "https://www.meet.barcelona/en/visit-and-love-it/points-interest-city/palau-guell-92086008810"
           ],
           "tickets_url": "https://www.palauguell.cat/en",
-          "photo_points": []
+          "photo_points": [
+            {
+              "id": "pp-barcelona-25-16-1",
+              "name_hy": "Լիսեու օպերային թատրոն",
+              "name_local": "Gran Teatre del Liceu",
+              "lat": 41.38013,
+              "lon": 2.17341,
+              "what_hy": "Ռամբլայի հակառակ կողմից լուսանկարիր թատրոնի ճակատը, իսկ դիմացի մայթին՝ Միրոյի մոզաիկան։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/25260158"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Th%C3%A9%C3%A2tre_Liceu_Barcelone_3.jpg/3840px-Th%C3%A9%C3%A2tre_Liceu_Barcelone_3.jpg",
+                "author": "Chabe01",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://mapcarta.com/25260158"
+              }
+            }
+          ]
         },
         {
           "id": "barcelona-25-04",
@@ -4080,6 +5145,20 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://thisisbarcelona.com/architecture/religious-heritage/basilica-de-santa-maria-del-pi"
               }
+            },
+            {
+              "id": "pp-barcelona-25-04-4",
+              "name_hy": "Էլ Կալ՝ Մանուել Ռիբեի հրապարակ",
+              "name_local": "El Call – Plaça de Manuel Ribé",
+              "lat": 41.382756,
+              "lon": 2.175472,
+              "what_hy": "Հրեական թաղամասի նեղ փողոցներում լուսանկարիր փոքր հրապարակը և մոտակա Հին սինագոգի մուտքը (Carrer de Marlet)։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W38477601"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
             }
           ]
         },
@@ -4163,6 +5242,25 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://questoapp.com/fr/barcelona/places-to-visit/placa-de-sant-just"
               }
+            },
+            {
+              "id": "pp-barcelona-25-06-3",
+              "name_hy": "Սերերիա Սուբիրա (մոմերի խանութ)",
+              "name_local": "Cereria Subirà, Baixada de la Llibreteria 7",
+              "lat": 41.383821,
+              "lon": 2.178037,
+              "what_hy": "Լուսանկարիր քաղաքի ամենահին խանութի XIX դարի ճակատն ու ներսի ոլորապտույտ աստիճանը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/N4569739389"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cereria_Subir%C3%A0%2C_fa%C3%A7ana.jpg/960px-Cereria_Subir%C3%A0%2C_fa%C3%A7ana.jpg.webp",
+                "author": "Enfo",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://mapcarta.com/N4569739389"
+              }
             }
           ]
         },
@@ -4245,6 +5343,39 @@
                 "author": "© Barcelonalowdown.com",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://barcelonalowdown.com/monument-to-ramon-berenguer-the-great/"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-07-3",
+              "name_hy": "Էմիլի Վիլանովայի հրապարակ (հռոմեական պարիսպ)",
+              "name_local": "Plaça d'Emili Vilanova (Muralla romana)",
+              "lat": 41.383364,
+              "lon": 2.179093,
+              "what_hy": "Հրապարակից լուսանկարիր Բարսինոյի հռոմեական պարսպի ու աշտարակների պահպանված հատվածը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W19919609"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-barcelona-25-07-4",
+              "name_hy": "Սանտա Մարիայի հրապարակ",
+              "name_local": "Plaça de Santa Maria",
+              "lat": 41.383413,
+              "lon": 2.181764,
+              "what_hy": "Հրապարակից լուսանկարիր Սանտա Մարիա դել Մար բազիլիկի գոթական գլխավոր մուտքն ու վարդյակը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W22417155"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Q136349305.jpg/960px-Q136349305.jpg.webp",
+                "author": "Pere prlpz",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://mapcarta.com/W22417155"
               }
             }
           ]
@@ -4332,6 +5463,25 @@
               }
             },
             {
+              "id": "pp-barcelona-25-10-4",
+              "name_hy": "Բորնի զբոսուղի",
+              "name_local": "Passeig del Born",
+              "lat": 41.384733,
+              "lon": 2.182861,
+              "what_hy": "Զբոսուղու մեջտեղից լուսանկարիր Սանտա Մարիա դել Մարի հետնամասը մի ծայրում և Բորնի շուկան մյուսում։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W22430203"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Barcelona_Part_Deux_-_69_%283466084959%29.jpg/3840px-Barcelona_Part_Deux_-_69_%283466084959%29.jpg",
+                "author": "Kyle Taylor",
+                "license": "CC BY 2.0",
+                "source_page": "https://mapcarta.com/W22430203"
+              }
+            },
+            {
               "id": "pp-barcelona-25-10-3",
               "name_hy": "Բորնի մշակութային կենտրոն",
               "name_local": "El Born Centre de Cultura i Memòria",
@@ -4348,6 +5498,44 @@
                 "author": "CC BY-SA 3.0, Around Us",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://aroundus.com/p/172392431-mercat-del-born"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-10-6",
+              "name_hy": "Մարտորել թանգարան",
+              "name_local": "Museu Martorell (Parc de la Ciutadella)",
+              "lat": 41.387132,
+              "lon": 2.184365,
+              "what_hy": "Լուսանկարիր քաղաքի առաջին թանգարանի նեոկլասիկ ճակատը սյունասրահով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/32903080"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/059_Museu_Martorell%2C_parc_de_la_Ciutadella.JPG/960px-059_Museu_Martorell%2C_parc_de_la_Ciutadella.JPG.webp",
+                "author": "Enfo",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://mapcarta.com/32903080"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-10-5",
+              "name_hy": "Իվերնակլ ջերմոց",
+              "name_local": "Hivernacle (Parc de la Ciutadella)",
+              "lat": 41.387659,
+              "lon": 2.183929,
+              "what_hy": "Լուսանկարիր 1888-ի երկաթե-ապակե ջերմոցը Passeig de Picasso-ի կողմի մուտքից։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W33570471"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/HivernacleBarcelona.jpg/960px-HivernacleBarcelona.jpg.webp",
+                "author": "Amadalvarez",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://mapcarta.com/W33570471"
               }
             }
           ]
@@ -4432,6 +5620,44 @@
                 "license": "Pexels License (անվճար, հեղինակի նշումը պարտադիր չէ)",
                 "source_page": "https://www.pexels.com/photo/the-arch-of-barcelona-is-shown-in-this-photo-27278848/"
               }
+            },
+            {
+              "id": "pp-barcelona-25-17-3",
+              "name_hy": "Երեք վիշապների ամրոց",
+              "name_local": "Castell dels Tres Dragons",
+              "lat": 41.388076,
+              "lon": 2.183308,
+              "what_hy": "Այգու ծառուղուց լուսանկարիր Դոմենեկ ի Մոնտաների աղյուսե ամրոցանման շենքը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/32903070"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tres_Dragons_2022.jpg/960px-Tres_Dragons_2022.jpg.webp",
+                "author": "Canaan",
+                "license": "CC BY-SA 4.0",
+                "source_page": "https://mapcarta.com/32903070"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-17-4",
+              "name_hy": "Շոկոլադի թանգարան (Սան Ագուստի մենաստան)",
+              "name_local": "Museu de la Xocolata, Carrer del Comerç 36",
+              "lat": 41.387108,
+              "lon": 2.181725,
+              "what_hy": "Carrer del Comerç-ից լուսանկարիր հին մենաստանի քարե ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/32903076"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Museu_de_la_Xocolata_de_Barcelona_fa%C3%A7ana.JPG/960px-Museu_de_la_Xocolata_de_Barcelona_fa%C3%A7ana.JPG.webp",
+                "author": "Kippelboy",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://mapcarta.com/32903076"
+              }
             }
           ]
         },
@@ -4481,6 +5707,39 @@
           ],
           "photo_points": [
             {
+              "id": "pp-barcelona-25-08-1",
+              "name_hy": "Օգոստոսի տաճարի սյուները",
+              "name_local": "Temple d’August, Carrer Paradís 10",
+              "lat": 41.3834,
+              "lon": 2.17718,
+              "what_hy": "Մ.թ.ա. I դարի հռոմեական տաճարի չորս սյուն միջնադարյան բակում (MUHBA-ի մաս)։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://thisisbarcelona.com/es/museos-y-exposiciones/temple-d-august-museu-d-historia-de-barcelona"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://thisisbarcelona.com/content/dam/web-this-is/poi/museus/temple-d-august-museu-d-historia-de-barcelona/imatges/museus-temple-d-august-museu-d-historia-de-barcelona-barcelona-1.jpg",
+                "author": "Turisme de Barcelona / Dasha Daria Kopylova",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://thisisbarcelona.com/es/museos-y-exposiciones/temple-d-august-museu-d-historia-de-barcelona"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-08-4",
+              "name_hy": "Սան Իվի հրապարակ",
+              "name_local": "Plaça de Sant Iu",
+              "lat": 41.38412,
+              "lon": 2.176889,
+              "what_hy": "Հրապարակից լուսանկարիր տաճարի կողային գոթական Սան Իվի դարպասն ու Ֆրեդերիկ Մարեսի թանգարանի բակը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W210764973"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
               "id": "pp-barcelona-25-08-3",
               "name_hy": "Սանտա Կատերինա շուկա",
               "name_local": "Mercat de Santa Caterina",
@@ -4519,23 +5778,18 @@
               }
             },
             {
-              "id": "pp-barcelona-25-08-1",
-              "name_hy": "Օգոստոսի տաճարի սյուները",
-              "name_local": "Temple d’August, Carrer Paradís 10",
-              "lat": 41.3834,
-              "lon": 2.17718,
-              "what_hy": "Մ.թ.ա. I դարի հռոմեական տաճարի չորս սյուն միջնադարյան բակում (MUHBA-ի մաս)։",
+              "id": "pp-barcelona-25-08-5",
+              "name_hy": "Գարիգա ի Բաքսի հրապարակ",
+              "name_local": "Plaça de Garriga i Bachs",
+              "lat": 41.383604,
+              "lon": 2.175829,
+              "what_hy": "Լուսանկարիր հերոսների բրոնզե բարձրաքանդակը տաճարի մենաստանի գոթական պատի ֆոնին։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://thisisbarcelona.com/es/museos-y-exposiciones/temple-d-august-museu-d-historia-de-barcelona"
+                "https://mapcarta.com/W37428138"
               ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://thisisbarcelona.com/content/dam/web-this-is/poi/museus/temple-d-august-museu-d-historia-de-barcelona/imatges/museus-temple-d-august-museu-d-historia-de-barcelona-barcelona-1.jpg",
-                "author": "Turisme de Barcelona / Dasha Daria Kopylova",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://thisisbarcelona.com/es/museos-y-exposiciones/temple-d-august-museu-d-historia-de-barcelona"
-              }
+              "checked": "2026-10-19",
+              "photo": null
             }
           ]
         },
@@ -4623,22 +5877,36 @@
               }
             },
             {
-              "id": "pp-barcelona-25-05-4",
-              "name_hy": "Կատալոնական երաժշտության պալատ",
-              "name_local": "Palau de la Música Catalana",
-              "lat": 41.38755,
-              "lon": 2.17517,
-              "what_hy": "ՅՈՒՆԵՍԿՕ-ի համերգասրահ՝ քանդակազարդ անկյունային ճակատով։",
+              "id": "pp-barcelona-25-05-5",
+              "name_hy": "Կուկուրուլայի հրապարակ",
+              "name_local": "Plaça de Cucurulla",
+              "lat": 41.383973,
+              "lon": 2.17403,
+              "what_hy": "Փոքր հրապարակից լուսանկարիր Portal de l'Àngel-ի սկիզբն ու շրջակա հին շենքերը։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://passporterapp.com/en/blog/spain/palau-de-la-musica-catalana/"
+                "https://mapcarta.com/W20020891"
               ],
-              "checked": "2026-10-18",
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-barcelona-25-05-6",
+              "name_hy": "Սանտա Աննայի գոթական աղբյուր",
+              "name_local": "Font de Santa Anna (Font Gòtica)",
+              "lat": 41.384527,
+              "lon": 2.174202,
+              "what_hy": "Portal de l'Àngel-ի վրա լուսանկարիր սալիկազարդ հին աղբյուրը Casa Bassols-ի դիմաց։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W1385275835"
+              ],
+              "checked": "2026-10-19",
               "photo": {
-                "url": "https://i0.wp.com/passporterapp.com/en/blog/wp-content/uploads/2022/01/palau-de-la-musica-catalana.jpg",
-                "author": "passporterapp.com",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://passporterapp.com/en/blog/spain/palau-de-la-musica-catalana/"
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Font_de_Santa_Anna%2C_davant_la_Casa_Bassols.jpg/960px-Font_de_Santa_Anna%2C_davant_la_Casa_Bassols.jpg.webp",
+                "author": "Enfo",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://mapcarta.com/W1385275835"
               }
             },
             {
@@ -4659,6 +5927,39 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://tripomatic.com/en/places/Lsq4AFgoI00Haz-U"
               }
+            },
+            {
+              "id": "pp-barcelona-25-05-4",
+              "name_hy": "Կատալոնական երաժշտության պալատ",
+              "name_local": "Palau de la Música Catalana",
+              "lat": 41.38755,
+              "lon": 2.17517,
+              "what_hy": "ՅՈՒՆԵՍԿՕ-ի համերգասրահ՝ քանդակազարդ անկյունային ճակատով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://passporterapp.com/en/blog/spain/palau-de-la-musica-catalana/"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://i0.wp.com/passporterapp.com/en/blog/wp-content/uploads/2022/01/palau-de-la-musica-catalana.jpg",
+                "author": "passporterapp.com",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://passporterapp.com/en/blog/spain/palau-de-la-musica-catalana/"
+              }
+            },
+            {
+              "id": "pp-barcelona-25-05-7",
+              "name_hy": "Կատալոնիայի հրապարակի քանդակներ",
+              "name_local": "Plaça de Catalunya – escultura «Dona / Montseny»",
+              "lat": 41.387385,
+              "lon": 2.170457,
+              "what_hy": "Հրապարակի հյուսիսային մասում լուսանկարիր շատրվաններն ու քանդակները՝ Passeig de Gràcia-ի ֆոնին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://mapcarta.com/W128346426"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
             }
           ]
         },
@@ -4890,8 +6191,8 @@
               "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/rome-26-03.jpg"
             }
           ],
-          "menu_url": "https://www.mercatocentrale.it/roma/info/",
-          "menu_prices_hy": "",
+          "menu_url": "https://www.mercatocentrale.it/roma/artigiani/",
+          "menu_prices_hy": "Սննդի շուկա՝ 17 կրպակով, գները ըստ կրպակի։ Գներ (trapizzino.it, առանց ամսաթվի). Trapizzino (Doppia panna / Parmigiana / Polpetta al sugo / Pollo alla cacciatora / Lingua in salsa verde) 5 €։ Սեթեր. Aperitivo Centrale 12 € (1 drink + 1 'bontà a scelta' from artisan stalls; special drink +3 €; every day 17:00–21:00)։",
           "reviews_source": "",
           "to_next": {
             "mode": "metro",
@@ -4907,7 +6208,9 @@
           "label": "ՀԱՍՏԱՏՎԱԾ",
           "sources": [
             "https://www.mercatocentrale.it/roma/info/",
-            "https://www.turismoroma.it/it/luoghi/mercato-centrale-roma"
+            "https://www.turismoroma.it/it/luoghi/mercato-centrale-roma",
+            "https://www.trapizzino.it/en/trapizzino/trapizzino-roma-mercato-centrale/",
+            "https://www.mercatocentrale.it/roma/artigiani/"
           ]
         },
         {
@@ -5031,6 +6334,45 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://www.tripadvisor.com/ShowUserReviews-g187791-d9559380-r539049472-Largo_Gaetana_Agnesi-Rome_Lazio.html"
               }
+            },
+            {
+              "id": "pp-rome-26-04-5",
+              "name_hy": "Վեներայի և Հռոմի տաճար",
+              "name_local": "Tempio di Venere e Roma",
+              "lat": 41.89083,
+              "lon": 12.48972,
+              "what_hy": "Կոլիզեյի հրապարակից՝ Կոլիզեյին մեջքով կանգնած, նկարիր տաճարի սյուներն ու հարթակը Ֆորումի բլրի վրա։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Temple_of_Venus_and_Roma",
+                "https://commons.wikimedia.org/wiki/Category:Temple_of_Venus_and_Rome_(Rome)?uselang=it"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://images.pexels.com/photos/17057065/pexels-photo-17057065/free-photo-of-view-of-the-temple-of-venus-and-roma-in-rome-italy.jpeg?auto=compress&w=1260&h=750&dpr=1",
+                "author": "Maksym Harbar",
+                "license": "Pexels License",
+                "source_page": "https://www.pexels.com/photo/view-of-the-temple-of-venus-and-roma-in-rome-italy-17057065/"
+              }
+            },
+            {
+              "id": "pp-rome-26-04-6",
+              "name_hy": "Մաքսենտիոսի բազիլիկ",
+              "name_local": "Basilica di Massenzio",
+              "lat": 41.8919,
+              "lon": 12.4883,
+              "what_hy": "Via dei Fori Imperiali-ի մայթից նկարիր բազիլիկի հսկա կամարները և պատին փակցված Հռոմեական կայսրության մարմարե քարտեզները։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Basilica_of_Maxentius"
+              ],
+              "checked": "2026-10-19",
+              "photo": {
+                "url": "https://live.staticflickr.com/3516/3885469182_d65a70d0f1.jpg",
+                "author": "Elliott Brown (ell-r-brown)",
+                "license": "CC BY 2.0",
+                "source_page": "https://www.flickr.com/photos/ell-r-brown/3885469182"
+              }
             }
           ]
         },
@@ -5098,23 +6440,38 @@
               }
             },
             {
-              "id": "pp-rome-26-05-2",
-              "name_hy": "Կեսարի ֆորում",
-              "name_local": "Foro di Cesare",
-              "lat": 41.89362,
-              "lon": 12.48458,
-              "what_hy": "Վեներա Գենետրիքսի տաճարի երեք կանգուն սյուները՝ վերևից։",
+              "id": "pp-rome-26-05-5",
+              "name_hy": "Օգոստոսի ֆորում և Մարսի տաճար",
+              "name_local": "Foro di Augusto – Tempio di Marte Ultore",
+              "lat": 41.8942,
+              "lon": 12.4867,
+              "what_hy": "Փողոցի ճաղավանդակից վերևից նկարիր Մարս Վրիժառուի տաճարի սյուներն ու ետևի բարձր քարե պատը։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://turismoroma.it/it/luoghi/foro-di-cesare"
+                "https://en.wikipedia.org/wiki/Forum_of_Augustus",
+                "https://turismoroma.it/fr/places/alessandrina"
               ],
-              "checked": "2026-10-18",
+              "checked": "2026-10-19",
               "photo": {
-                "url": "https://turismoroma.it/sites/default/files/Foro%20di%20Cesare%20copertina.jpg",
-                "author": "Sovrintendenza Capitolina",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://turismoroma.it/it/luoghi/foro-di-cesare"
+                "url": "https://live.staticflickr.com/6133/6013392586_ccb03b4584_b.jpg",
+                "author": "Navin75",
+                "license": "CC BY-SA 2.0",
+                "source_page": "https://www.flickr.com/photos/navin75/6013392586"
               }
+            },
+            {
+              "id": "pp-rome-26-05-4",
+              "name_hy": "Ներվայի ֆորում (Colonnacce)",
+              "name_local": "Foro di Nerva – Le Colonnacce",
+              "lat": 41.89305,
+              "lon": 12.48617,
+              "what_hy": "Via dei Fori Imperiali-ի ճաղավանդակի մոտից նկարիր երկու բարձր կորնթյան սյուները՝ Միներվայի քանդակով ֆրիզով։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Forum_of_Nerva"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
             },
             {
               "id": "pp-rome-26-05-3",
@@ -5133,6 +6490,25 @@
                 "author": "Mama Loves Rome",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://mamalovesrome.com/best-views-of-rome/"
+              }
+            },
+            {
+              "id": "pp-rome-26-05-2",
+              "name_hy": "Կեսարի ֆորում",
+              "name_local": "Foro di Cesare",
+              "lat": 41.89362,
+              "lon": 12.48458,
+              "what_hy": "Վեներա Գենետրիքսի տաճարի երեք կանգուն սյուները՝ վերևից։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://turismoroma.it/it/luoghi/foro-di-cesare"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://turismoroma.it/sites/default/files/Foro%20di%20Cesare%20copertina.jpg",
+                "author": "Sovrintendenza Capitolina",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://turismoroma.it/it/luoghi/foro-di-cesare"
               }
             }
           ]
@@ -5182,23 +6558,22 @@
           ],
           "photo_points": [
             {
-              "id": "pp-rome-26-06-1",
-              "name_hy": "Վիտորիանոյի տանիքի տեռաս",
-              "name_local": "Terrazza delle Quadrighe (Terrazze del Vittoriano)",
-              "lat": 41.89518,
-              "lon": 12.48281,
-              "what_hy": "Ապակե վերելակով տանիք՝ 360° տեսարան Կոլիզեումի, ֆորումների և Via del Corso-ի վրա. վերելակը վճարովի է (~7 €), աստիճանները՝ անվճար։",
+              "id": "pp-rome-26-06-5",
+              "name_hy": "Վենետիկյան պալատ (պատշգամբը)",
+              "name_local": "Palazzo Venezia",
+              "lat": 41.8962,
+              "lon": 12.4815,
+              "what_hy": "Piazza Venezia-ի կենտրոնից նկարիր պալատի ատամնավոր ճակատն ու կենտրոնի պատմական պատշգամբը։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://turismoroma.it/en/places/terraces-vittoriano",
-                "https://www.ourescapeclause.com/most-instagrammable-places-in-rome/"
+                "https://en.wikipedia.org/wiki/Palazzo_Venezia"
               ],
-              "checked": "2026-10-18",
+              "checked": "2026-10-19",
               "photo": {
-                "url": "https://turismoroma.it/sites/default/files/Via%20del%20Corso%20vista%20dalle%20Terrazze%20del%20Vittoriano.jpg",
-                "author": "© Turismo Roma",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://turismoroma.it/en/places/terraces-vittoriano"
+                "url": "https://live.staticflickr.com/65535/48064951887_70f5b6aea2_b.jpg",
+                "author": "Warren LeMay",
+                "license": "CC0 1.0",
+                "source_page": "https://www.flickr.com/photos/warrenlemay/48064951887"
               }
             },
             {
@@ -5218,6 +6593,26 @@
                 "author": "Turismo Roma",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://www.turismoroma.it/en/places/piazza-del-campidoglio-capitoline-hill"
+              }
+            },
+            {
+              "id": "pp-rome-26-06-1",
+              "name_hy": "Վիտորիանոյի տանիքի տեռաս",
+              "name_local": "Terrazza delle Quadrighe (Terrazze del Vittoriano)",
+              "lat": 41.89518,
+              "lon": 12.48281,
+              "what_hy": "Ապակե վերելակով տանիք՝ 360° տեսարան Կոլիզեումի, ֆորումների և Via del Corso-ի վրա. վերելակը վճարովի է (~7 €), աստիճանները՝ անվճար։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://turismoroma.it/en/places/terraces-vittoriano",
+                "https://www.ourescapeclause.com/most-instagrammable-places-in-rome/"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://turismoroma.it/sites/default/files/Via%20del%20Corso%20vista%20dalle%20Terrazze%20del%20Vittoriano.jpg",
+                "author": "© Turismo Roma",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://turismoroma.it/en/places/terraces-vittoriano"
               }
             },
             {
@@ -5257,6 +6652,35 @@
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://www.turismoroma.it/it/luoghi/mercati-di-traiano-museo-dei-fori-imperiali"
               }
+            },
+            {
+              "id": "pp-rome-26-06-6",
+              "name_hy": "Սուրբ Առաքյալների հրապարակ",
+              "name_local": "Piazza dei Santi Apostoli",
+              "lat": 41.898106,
+              "lon": 12.483206,
+              "what_hy": "Երկար հրապարակի մյուս ծայրից նկարիր բազիլիկի 15-րդ դարի սյունասրահը և կողքի Կոլոննաների պալատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Santi_Apostoli,_Rome"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-rome-26-06-7",
+              "name_hy": "Շարրա պատկերասրահ",
+              "name_local": "Galleria Sciarra",
+              "lat": 41.899471,
+              "lon": 12.48222,
+              "what_hy": "Ներքին բակի կենտրոնում կանգնիր և նկարիր Art Nouveau որմնանկարներով պատերն ու ապակե տանիքը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://turismoroma.it/en/node/1895",
+                "https://www.ancient-history-sites.com/sites/galleria-sciarra/"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
             }
           ]
         },
@@ -5326,25 +6750,6 @@
               }
             },
             {
-              "id": "pp-rome-26-07-4",
-              "name_hy": "Պիետրա հրապարակ (Ադրիանոսի տաճար)",
-              "name_local": "Piazza di Pietra (Tempio di Adriano)",
-              "lat": 41.89994,
-              "lon": 12.47915,
-              "what_hy": "Հրապարակ՝ Ադրիանոսի տաճարի 11 հսկա սյուներով։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://turismoroma.it/it/node/1521"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://turismoroma.it/sites/default/files/piazza-di-pietra.jpg",
-                "author": "Turismo Roma",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://turismoroma.it/it/node/1521"
-              }
-            },
-            {
               "id": "pp-rome-26-07-3",
               "name_hy": "Ալբերտո Սորդի պասաժ",
               "name_local": "Galleria Alberto Sordi",
@@ -5364,22 +6769,22 @@
               }
             },
             {
-              "id": "pp-rome-26-07-5",
-              "name_hy": "Տրիտոնի շատրվան",
-              "name_local": "Fontana del Tritone (Piazza Barberini)",
-              "lat": 41.90387,
-              "lon": 12.48843,
-              "what_hy": "Բեռնինիի շատրվանը՝ խեցուց ջուր փչող Տրիտոն։",
+              "id": "pp-rome-26-07-4",
+              "name_hy": "Պիետրա հրապարակ (Ադրիանոսի տաճար)",
+              "name_local": "Piazza di Pietra (Tempio di Adriano)",
+              "lat": 41.89994,
+              "lon": 12.47915,
+              "what_hy": "Հրապարակ՝ Ադրիանոսի տաճարի 11 հսկա սյուներով։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://turismoroma.it/it/luoghi/fontana-del-tritone"
+                "https://turismoroma.it/it/node/1521"
               ],
               "checked": "2026-10-18",
               "photo": {
-                "url": "https://turismoroma.it/sites/default/files/Fontana%20del%20Tritone_1920x1080.JPG",
+                "url": "https://turismoroma.it/sites/default/files/piazza-di-pietra.jpg",
                 "author": "Turismo Roma",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://turismoroma.it/it/luoghi/fontana-del-tritone"
+                "source_page": "https://turismoroma.it/it/node/1521"
               }
             },
             {
@@ -5400,6 +6805,67 @@
                 "author": "© Turismo Roma",
                 "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
                 "source_page": "https://www.turismoroma.it/en/places/terrace-quirinale"
+              }
+            },
+            {
+              "id": "pp-rome-26-07-7",
+              "name_hy": "Սանտ Անդրեա ալ Կվիրինալե",
+              "name_local": "Sant'Andrea al Quirinale",
+              "lat": 41.90068,
+              "lon": 12.48934,
+              "what_hy": "Via del Quirinale-ի դիմացի մայթից նկարիր Բեռնինիի կոր, կիսաշրջան մուտքով ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Sant%27Andrea_al_Quirinale"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-rome-26-07-8",
+              "name_hy": "Ցուցահանդեսների պալատ",
+              "name_local": "Palazzo delle Esposizioni",
+              "lat": 41.89944,
+              "lon": 12.49,
+              "what_hy": "Via Nazionale-ի դիմացի մայթից նկարիր հաղթական կամարի ձևով սպիտակ նեոդասական ճակատը։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Palazzo_delle_Esposizioni"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-rome-26-07-6",
+              "name_hy": "Չորս շատրվանների խաչմերուկ",
+              "name_local": "Quattro Fontane",
+              "lat": 41.901964,
+              "lon": 12.490717,
+              "what_hy": "Խաչմերուկի անկյունում կանգնիր և նկարիր անկյունային շատրվաններից մեկը՝ Բորոմինիի San Carlo եկեղեցու հետ։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Quattro_Fontane"
+              ],
+              "checked": "2026-10-19",
+              "photo": null
+            },
+            {
+              "id": "pp-rome-26-07-5",
+              "name_hy": "Տրիտոնի շատրվան",
+              "name_local": "Fontana del Tritone (Piazza Barberini)",
+              "lat": 41.90387,
+              "lon": 12.48843,
+              "what_hy": "Բեռնինիի շատրվանը՝ խեցուց ջուր փչող Տրիտոն։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://turismoroma.it/it/luoghi/fontana-del-tritone"
+              ],
+              "checked": "2026-10-18",
+              "photo": {
+                "url": "https://turismoroma.it/sites/default/files/Fontana%20del%20Tritone_1920x1080.JPG",
+                "author": "Turismo Roma",
+                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
+                "source_page": "https://turismoroma.it/it/luoghi/fontana-del-tritone"
               }
             }
           ]
@@ -5429,7 +6895,7 @@
             }
           ],
           "menu_url": "https://www.thefork.it/ristorante/monti-lab-italian-street-food-r856246/menu",
-          "menu_prices_hy": "TheFork, 13.05.2026՝ focaccia 3–7 €, pizza Margherita 8 €, Diavola 9 €, այլ՝ 10–12 €",
+          "menu_prices_hy": "ՀԱԿԱՍՈՒԹՅՈՒՆ. պաշտոնական կայքում պիցցան ավելի էժան է (Margherita 7, Capricciosa 8 €)։ Գներ (thefork.it, 2026-05-13). Focaccia semplice 3 €; Focaccia prosciutto 7 €; Bagel salmon 8 €; Margherita 8 €; Diavola 9 €; Quattro stagioni 10 €; Capricciosa 12 €; Rucola, crudo & pecorino 12 €; Toast 4 €; Cornetto semplice 1,5 €; Yogurt complete 4,5 €։",
           "reviews_source": "https://www.thefork.it/ristorante/monti-lab-italian-street-food-r856246/menu",
           "to_next": {
             "mode": "metro",
@@ -5641,7 +7107,7 @@
             }
           ],
           "menu_url": "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-castel-romano/food-drink/bonetti/",
-          "menu_prices_hy": "",
+          "menu_prices_hy": "Գներ ոչ մի աղբյուրում չգտնվեցին. սրճարան-պաղպաղակ (Illy սուրճ, պանինի), 10:00–20:00։",
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
@@ -5683,8 +7149,8 @@
               "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/rome-27-05.jpg"
             }
           ],
-          "menu_url": "https://www.thefork.it/ristorante/ham-holy-burger-castel-romano-designer-outlet-r562143/menu",
-          "menu_prices_hy": "TheFork մենյու 2026՝ Honest Cheeseburger 8,50 €, Holyburger 12 €, Vegana աղցան 10 €. Գները հրապարակված, ոչ այցի օրով հաստատված",
+          "menu_url": "https://www.sluurpy.it/castel-romano/ristorante/247555/ham-holy-burger-castel-romano-designer-outlet",
+          "menu_prices_hy": "⚠ ՀԱԿԱՍՈՒԹՅՈՒՆ. ցանցի պաշտոնական կայքը Castel Romano-ն չի նշում, իսկ outlet-ի կայքը նշում է՝ տեղում ստուգել։ Գներ (sluurpy.it, 2025-12-19). Il miracolo della mozzarella 7 €; La consacrazione del pollo 6,5 €; Stick classiche 4 €; Holyburger 10,5 €; Pollofritto 11 €; Ham loves roma 13 €; Velvet 6 €; Bun tiramisù 6 €; Tiramisù alla frutta 6 €։",
           "reviews_source": "https://www.thefork.it/ristorante/ham-holy-burger-castel-romano-designer-outlet-r562143/menu",
           "to_next": {
             "mode": "walk",
@@ -5701,7 +7167,8 @@
           "sources": [
             "https://www.thefork.it/ristorante/ham-holy-burger-castel-romano-designer-outlet-r562143/menu",
             "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-castel-romano/food-drink/",
-            "https://www.italia.it/en/lazio/roma/where-to-eat/ham-holy-burger-castel-romano"
+            "https://www.italia.it/en/lazio/roma/where-to-eat/ham-holy-burger-castel-romano",
+            "https://www.sluurpy.it/castel-romano/ristorante/247555/ham-holy-burger-castel-romano-designer-outlet"
           ]
         },
         {
@@ -6073,7 +7540,7 @@
               "depart": "2026-10-24T01:25",
               "arrive": "2026-10-24T02:23",
               "price_eur_person": 0,
-              "where_to_buy_hy": "Նույն տոմսով՝ N12-ից N22 փոխատեղում, եթե Bus-Tram տոմսի վավերականության պայմանները պահպանվել են։"
+              "where_to_buy_hy": "Նույն տոմսով՝ N12-ից N22 փոխատեղում, եթե Bus-Tram տոմսի վավերականության պայմանները պահպանվել են։ ՀԱԿԱՍՈՒԹՅՈՒՆ. որոշ աղբյուրներ (Wikipedia, Transit) N22-ը ցույց են տալիս Châtelet ↔ Juvisy՝ առանց Orly 4-ի. ավելի ապահով է տաքսին։"
             },
             {
               "mode": "walk",
@@ -6672,5 +8139,54 @@
     "Ռեստորանների 8 տեղը, ճշգրիտ մենյուի գները և քայլքի ճշգրիտ երթուղիները ՉՍՏՈՒԳՎԱԾ են (քայլքը քարտեզին՝ ուղիղ գիծ, ճշգրիտը՝ «Գնալ այստեղ» Google Maps-ով)։",
     "Հռոմ և Բարսելոնա անվտանգության պոլիգոնները նկարագրական ԵՆԹԱԴՐՈՒԹՅՈՒՆ են, ոչ պաշտոնական ռիսկային գոտիների սահմաններ։",
     "Լուսանկարներ՝ 44/65 կանգառ (տները՝ միտումնավոր առանց նկարի). 12 կանգառի համար ազատ արտոնագրով նկար չի գտնվել։"
+  ],
+  "seat_maps": [
+    {
+      "flight": "W6 7829",
+      "date": "2026-10-20",
+      "date_hy": "20.10.2026, 13:25 → 16:55",
+      "route_hy": "Երևան (Զվարթնոց) → Փարիզ Բովե",
+      "note_hy": "⚠ 5 PDF-ը նստեցման տալոն ՉԵՆ («ЭТО НЕ ПОСАДОЧНЫЙ ТАЛОН»). մինչև անվտանգության ստուգումը բոլորս գնում ենք Wizz-ի գրանցման սեղան՝ փաստաթղթերի ստուգման (ոչ-ԵՄ քաղաքացիներ), այնտեղ կտան նստեցման տալոնը։ Նստեցման մուտքը փակվում է 12:55-ին։ Ամեն մեկիս՝ 1 անվճար պայուսակ նստատեղի տակ՝ 40 × 30 × 20 սմ, առանց գրանցված ուղեբեռի։",
+      "passengers": [
+        {
+          "name": "Vardan Vardanyan",
+          "seat": "10D"
+        },
+        {
+          "name": "Meline Muradyan",
+          "seat": "11E"
+        },
+        {
+          "name": "Hayk Vardanyan",
+          "seat": "12B"
+        },
+        {
+          "name": "Sedrak Muradyan",
+          "seat": null,
+          "seat_hy": "նստատեղը՝ գրանցման սեղանում"
+        },
+        {
+          "name": "Irina Muradyan",
+          "seat": null,
+          "seat_hy": "նստատեղը՝ գրանցման սեղանում"
+        },
+        {
+          "name": "Ani Atsikyan",
+          "seat": null,
+          "seat_hy": "նստատեղը՝ գրանցման սեղանում"
+        },
+        {
+          "name": "Rafayel",
+          "seat": null,
+          "seat_hy": "նստատեղը՝ գրանցման սեղանում"
+        },
+        {
+          "name": "Gayane Muradyan",
+          "seat": null,
+          "seat_hy": "նստատեղը՝ գրանցման սեղանում"
+        }
+      ],
+      "aircraft_hy": "Սխեմա՝ 3 + 3 տեղ շարքում (Airbus A320/A321 ընտանիք). ինքնաթիռի ճշգրիտ տիպը ՉՍՏՈՒԳՎԱԾ։ Ցույց են տրված միայն մեր շարքերը։"
+    }
   ]
 }
