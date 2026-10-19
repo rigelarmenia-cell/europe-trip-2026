@@ -1,4 +1,127 @@
 {
-  "updated_at": "2026-10-18T15:21:34Z",
-  "alerts": []
+  "updated_at": "2026-10-19T18:58:00+02:00",
+  "city_status": {
+    "paris": {
+      "checked_at": "2026-10-19T18:58:00+02:00",
+      "summary_hy": "20–23.10-ի համար հայտարարված միտինգ կամ RATP/SNCF գործադուլ մեր երթուղում չի գտնվել. հաջորդ համազգային բողոքի օրը 5.11-ն է։ Կա M2-ի փակում և 20.10-ի ֆուտբոլ։"
+    },
+    "barcelona": {
+      "checked_at": "2026-10-19T18:58:00+02:00",
+      "summary_hy": "24–25.10-ի համար միտինգ կամ TMB գործադուլ չի գտնվել (TMB ավտոբուսի գործադուլները չեղարկված են)։ Կարևորը՝ 25.10-ի Էլ Կլասիկոն։"
+    },
+    "rome": {
+      "checked_at": "2026-10-19T18:58:00+02:00",
+      "summary_hy": "26–28.10-ի համար գործադուլ չկա Իտալիայի պաշտոնական օրացույցում (scioperi.mit.gov.it). համազգային գործադուլը 30.10-ին է՝ մեր մեկնումից հետո։ Միտինգ չի գտնվել։"
+    }
+  },
+  "alerts": [
+    {
+      "id": "par-1020-psg",
+      "level": "info",
+      "city": "paris",
+      "date": "2026-10-20",
+      "until": "2026-10-20T23:59:00+02:00",
+      "title_hy": "⚽ 20.10 ՓՍԺ–Բարսելոնա, Parc des Princes",
+      "text_hy": "Երեկոյան 21:00 ֆուտբոլ Parc des Princes-ում (Porte de Saint-Cloud)։ Շատ ոստիկան, M9/M10 մետրոն լեփ-լեցուն 18:30–23:30։ Մեր երթուղուց հեռու է։",
+      "suggestion_hy": "Երեկոյան Porte de Saint-Cloud-ի կողմ չգնալ. մեր M1/M11 գծերի վրա չի ազդում։",
+      "source_url": "https://www.psg.fr/en/mens-football/fixtures/season/2026-27?period=Oct",
+      "stop_ids": [],
+      "area": null
+    },
+    {
+      "id": "par-m2-works",
+      "level": "warning",
+      "city": "paris",
+      "date": null,
+      "until": "2026-10-25T23:59:00+02:00",
+      "title_hy": "🚇 M2 փակ է Barbès–Père Lachaise (19–25.10)",
+      "text_hy": "Մետրո 2 գիծը փակ է Barbès–Rochechouart ↔ Père Lachaise հատվածում (La Chapelle, Stalingrad, Jaurès, Colonel Fabien, Belleville, Couronnes, Ménilmontant)։ Barbès → Anvers → Pigalle աշխատում է։",
+      "suggestion_hy": "23.10-ի մեր երթուղին արդեն շրջանցում է փակ հատվածը (M4 → Barbès → M2 Pigalle)։",
+      "source_url": "https://www.sortiraparis.com/en/news/in-paris/articles/291320-metro-and-rer-works-and-disruptions-from-october-19-to-25-2026",
+      "stop_ids": [],
+      "area": null
+    },
+    {
+      "id": "par-m4-stmichel",
+      "level": "info",
+      "city": "paris",
+      "date": null,
+      "until": "2026-12-19T23:59:00+01:00",
+      "title_hy": "🚇 M4 Saint-Michel կայարանը փակ է",
+      "text_hy": "Նոտր-Դամի մոտ M4-ի Saint-Michel կայարանը չի սպասարկվում մինչև 19.12։ Գնացքներն անցնում են առանց կանգառի։",
+      "suggestion_hy": "Օգտվել Cité (M4) կամ RER B/C Saint-Michel Notre-Dame կայարանից։",
+      "source_url": "https://www.sortiraparis.com/en/news/in-paris/articles/291320-metro-and-rer-works-and-disruptions-from-october-19-to-25-2026",
+      "stop_ids": [],
+      "area": null
+    },
+    {
+      "id": "par-air-strike",
+      "level": "info",
+      "city": "paris",
+      "date": null,
+      "until": "2026-10-24T10:00:00+02:00",
+      "title_hy": "✈ Ֆրանսիայի օդաչուների գործադուլը չեղարկված է",
+      "text_hy": "17–21.10-ի օդաչուների/բորտուղեկցորդների գործադուլը 12.10-ին կասեցվել է։ 24.10-ի Orly-ի թռիչքի վրա չի ազդում. արհմիությունները կարող են նոր ծանուցում տալ։",
+      "suggestion_hy": "23.10-ին նորից ստուգում ենք (ավտոմատ)։",
+      "source_url": "https://www.deplacementspros.com/transport/l-intersyndicale-des-pnc-suspendent-leur-preavis-de-greve-nationale",
+      "stop_ids": [],
+      "area": null
+    },
+    {
+      "id": "bcn-1025-clasico",
+      "level": "warning",
+      "city": "barcelona",
+      "date": "2026-10-25",
+      "until": "2026-10-26T01:00:00+01:00",
+      "title_hy": "⚽ 25.10 Էլ Կլասիկո, Camp Nou, 21:00",
+      "text_hy": "Կիրակի 21:00 «Բարսելոնա»–«Ռեալ» Spotify Camp Nou-ում (Les Corts)։ 18:00–23:30 L3 և L5 մետրոն լեփ-լեցուն, շատ ոստիկան, երկրպագուներ կենտրոնում։ Մեր տունը (Maria Cristina, L3) մարզադաշտի մոտ է։",
+      "suggestion_hy": "Տուն վերադառնալ մինչև ~19:30 կամ խաղից հետո՝ 23:30-ից ուշ. երեկոյան Les Corts / Palau Reial-ի մոտ զգույշ լինել։",
+      "source_url": "https://www.football-espana.net/2026/09/02/2026-27-el-clasico-date",
+      "stop_ids": [],
+      "area": {
+        "lat": 41.3809,
+        "lon": 2.1228,
+        "radius_m": 1500
+      }
+    },
+    {
+      "id": "bcn-fcb-strike",
+      "level": "info",
+      "city": "barcelona",
+      "date": null,
+      "until": "2026-10-26T06:00:00+01:00",
+      "title_hy": "«Բարսելոնա» ակումբի աշխատակիցների գործադուլ",
+      "text_hy": "23.10 00:00 – 26.10 06:00 Camp Nou-ում և ակումբի այլ վայրերում։ Փողոցային երթ հայտարարված չէ. մեզ քիչ է վերաբերում։",
+      "suggestion_hy": "",
+      "source_url": "https://www.infobae.com/espana/agencias/2026/10/16/los-trabajadores-fijos-discontinuos-del-barcelona-convocan-una-huelga-para-el-clasico/",
+      "stop_ids": [],
+      "area": null
+    },
+    {
+      "id": "bcn-1026-t1-rally",
+      "level": "info",
+      "city": "barcelona",
+      "date": "2026-10-26",
+      "until": "2026-10-26T15:00:00+01:00",
+      "title_hy": "Էլ Պրատ T1. փոքր արհմիութենական հավաք 26.10",
+      "text_hy": "CGT-ի փոքր հավաք T1-ի մեկնումների սրահում (նախկինում՝ 11:00–14:00)։ Groundforce-ի գործադուլը չեղարկված է, թռիչքների վրա չի ազդում։ Մենք մեկնում ենք T2-ից։",
+      "suggestion_hy": "",
+      "source_url": "https://www.catalunyapress.es/articulo/economia/2026-10-17/6055485-groundforce-pone-fin-huelga-prat-pero-mantiene-pulso-tres-trabajadores",
+      "stop_ids": [],
+      "area": null
+    },
+    {
+      "id": "rom-1027-olimpico",
+      "level": "info",
+      "city": "rome",
+      "date": "2026-10-27",
+      "until": "2026-10-27T23:59:00+01:00",
+      "title_hy": "⚽ 27.10 Ռոմա–Կալյարի, Stadio Olimpico",
+      "text_hy": "Երեկոյան 20:45 ֆուտբոլ Օլիմպիկոյում (Foro Italico)։ Կենտրոնից և մեր երթուղուց հեռու է։",
+      "suggestion_hy": "",
+      "source_url": "https://futboltotal.futbol/partido/as-roma-vs-cagliari-serie-a-2026-10-27",
+      "stop_ids": [],
+      "area": null
+    }
+  ]
 }
