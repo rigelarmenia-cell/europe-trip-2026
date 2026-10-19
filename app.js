@@ -69,7 +69,7 @@ function renderAlerts() {
   const current = state.alerts ? activeAlerts(state.alerts, options) : [];
   const all = state.alerts ? activeAlerts(state.alerts, {...options, all:true}) : [];
   $('alerts-current').replaceChildren(...current.map(alertCard)); $('alerts-current').hidden = !current.length;
-  $('alerts-count').hidden = !all.length; $('alerts-count').textContent = `⚠ ${all.length}`;
+  $('alerts-count').hidden = !all.length; $('alerts-count').textContent = `⚠ ${all.length} զգուշացում`;
   $('alerts-count').setAttribute('aria-label', `Բոլոր զգուշացումները՝ ${all.length}`);
   $('alerts-all').replaceChildren(...all.map(alertCard));
   if (!all.length) $('alerts-all').append(element('p', 'Ակտիվ զգուշացումներ չկան։'));
