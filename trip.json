@@ -2948,13 +2948,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 0.8,
-            "min": 11,
+            "km": 0.75,
+            "min": 10,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "Ոտքով ~1 կմ Av. de Pedralbes-ով դեպի Գուելի տաղավարները (~13 ր)։",
+            "transfers_hy": "Ոտքով Av. de Pedralbes-ով դեպի Գուելի տաղավարները (~0,75 կմ, ~10 ր, իրական փողոցներով՝ OSM)։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -5852,17 +5852,7 @@
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 0,
-            "min": 0,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Երթուղու վերջ",
-            "ticket_hy": ""
-          },
+          "to_next": null,
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
             "Մեր ամրագրում՝ 17.10.2026",
