@@ -29,7 +29,7 @@ try {
   assert.equal(await page.title(),'Խելառներ');
   assert.equal(await page.locator('meta[name="apple-mobile-web-app-title"]').getAttribute('content'),'Խելառներ');
   assert.equal(await page.locator('.brand').getAttribute('aria-label'),'Խելառներ՝ գլխավոր էջ');
-  assert.ok((await page.locator('footer strong').textContent()).includes('Խելառներ · Բ6 · 0.6.6'));
+  assert.ok((await page.locator('footer strong').textContent()).includes('Խելառներ · Բ6 · 0.6.7'));
   const branding=await page.evaluate(async()=>{
     const manifestResponse=await fetch('./manifest.webmanifest'),manifest=await manifestResponse.json(),icons=[];
     for(const icon of [...manifest.icons,{src:'./icons/apple-touch-icon.png',sizes:'180x180'},{src:'./icons/favicon-64.png',sizes:'64x64'}]){
