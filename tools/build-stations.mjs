@@ -5,9 +5,10 @@ const routeTypes={paris:'subway',barcelona:'subway',rome:'subway'};
 const endpoints=['https://overpass-api.de/api/interpreter','https://overpass.kumi.systems/api/interpreter','https://maps.mail.ru/osm/tools/overpass/api/interpreter'];
 async function overpass(q){
  let last;
- for(const url of endpoints){
-  try{const r=await fetch(url,{method:'POST',body:'data='+encodeURIComponent(q),headers:{'Content-Type':'application/x-www-form-urlencoded','User-Agent':'khelarner-trip-planner (github.com/rigelarmenia-cell/europe-trip-2026)'},signal:AbortSignal.timeout(180000)});
-   if(!r.ok)throw Error(url+' HTTP '+r.status);return await r.json();}catch(e){last=e;}
+ for(let attempt=0;attempt<3;attempt++)for(const url of endpoints){
+  try{const r=await fetch(url+'?data='+encodeURIComponent(q),{headers:{'User-Agent':'khelarner-trip-planner/1.0 (github.com/rigelarmenia-cell/europe-trip-2026)','Accept':'application/json'},signal:AbortSignal.timeout(180000)});
+   const text=await r.text();
+   if(!r.ok)throw Error(url+' HTTP '+r.status+' '+text.slice(0,200));return JSON.parse(text);}catch(e){last=e;console.log('overpass fail',String(e.message).slice(0,300));await new Promise(r=>setTimeout(r,15000));}
  }
  throw last;
 }
