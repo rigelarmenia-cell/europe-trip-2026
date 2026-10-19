@@ -11,7 +11,7 @@ for(const [key,s] of candidates) {
  try {
   // Walking legs pass the origin stop's photo spots in their stored visiting order (real streets via OSM).
   const origin=trip.days.flatMap(d=>d.stops).find(x=>x.id===s.from);
-  const via=s.kind==='walk'&&origin?.kind==='sight'?(origin.photo_points||[]).map(p=>[p.lat,p.lon]):[];
+  const via=s.kind==='walk'&&origin?.kind==='sight'?(origin.photo_points||[]).filter(p=>p.on_route!==false).map(p=>[p.lat,p.lon]):[];
   const waypoints=[s.points[0],...via,s.points.at(-1)];
   const coords=waypoints.map(([lat,lon])=>`${lon},${lat}`).join(';');
   // Walking uses the public OSM foot profile; road modes keep the OSRM driving approximation.
