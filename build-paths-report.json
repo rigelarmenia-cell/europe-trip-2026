@@ -1,7 +1,274 @@
 {
   "output": "paths.json",
-  "candidates": 53,
-  "built": 52,
+  "meta": {
+    "paris-20-02>paris-20-04:walk": {
+      "km": 1.87,
+      "min": 25,
+      "via": 4
+    },
+    "paris-20-04>paris-20-03:walk": {
+      "km": 0.81,
+      "min": 11,
+      "via": 3
+    },
+    "paris-21-01>paris-21-07:walk": {
+      "km": 1.05,
+      "min": 14,
+      "via": 2
+    },
+    "paris-21-07>paris-21-04:walk": {
+      "km": 1.7,
+      "min": 23,
+      "via": 2
+    },
+    "paris-21-04>paris-21-05:walk": {
+      "km": 0.84,
+      "min": 11,
+      "via": 2
+    },
+    "paris-21-05>paris-21-02:walk": {
+      "km": 1.36,
+      "min": 18,
+      "via": 2
+    },
+    "paris-21-02>paris-21-06:walk": {
+      "km": 1.06,
+      "min": 14,
+      "via": 1
+    },
+    "paris-21-06>paris-21-09:walk": {
+      "km": 3.03,
+      "min": 40,
+      "via": 2
+    },
+    "paris-21-09>paris-21-10:walk": {
+      "km": 1.51,
+      "min": 20,
+      "via": 3
+    },
+    "paris-21-10>paris-21-03:walk": {
+      "km": 2.79,
+      "min": 37,
+      "via": 2
+    },
+    "paris-22-03>paris-22-02:walk": {
+      "km": 2.29,
+      "min": 31,
+      "via": 4
+    },
+    "paris-22-02>paris-22-06:walk": {
+      "km": 1.3,
+      "min": 17,
+      "via": 3
+    },
+    "paris-22-06>paris-22-01:walk": {
+      "km": 1.54,
+      "min": 21,
+      "via": 4
+    },
+    "paris-22-01>paris-22-05:walk": {
+      "km": 1.39,
+      "min": 19,
+      "via": 3
+    },
+    "paris-22-05>paris-22-07:walk": {
+      "km": 2.09,
+      "min": 28,
+      "via": 3
+    },
+    "paris-22-07>paris-22-04:walk": {
+      "km": 1.43,
+      "min": 19,
+      "via": 3
+    },
+    "paris-23-04>paris-23-03:walk": {
+      "km": 0.98,
+      "min": 13,
+      "via": 4
+    },
+    "paris-23-03>paris-23-01:walk": {
+      "km": 0.79,
+      "min": 11,
+      "via": 3
+    },
+    "paris-23-01>paris-23-06:walk": {
+      "km": 3.56,
+      "min": 47,
+      "via": 4
+    },
+    "paris-23-06>paris-23-02:walk": {
+      "km": 1.11,
+      "min": 15,
+      "via": 3
+    },
+    "barcelona-24-01>barcelona-24-04:bus": {
+      "km": 14.88,
+      "min": 17,
+      "via": 0
+    },
+    "barcelona-24-04>barcelona-24-02:walk": {
+      "km": 1.78,
+      "min": 24,
+      "via": 3
+    },
+    "barcelona-24-02>barcelona-24-03:walk": {
+      "km": 0.25,
+      "min": 3,
+      "via": 1
+    },
+    "barcelona-24-05>barcelona-24-10:walk": {
+      "km": 0.75,
+      "min": 10,
+      "via": 0
+    },
+    "barcelona-24-11>barcelona-24-12:walk": {
+      "km": 1.31,
+      "min": 18,
+      "via": 1
+    },
+    "barcelona-24-07>barcelona-24-06:walk": {
+      "km": 1.18,
+      "min": 16,
+      "via": 2
+    },
+    "barcelona-24-06>barcelona-24-13:walk": {
+      "km": 1.25,
+      "min": 17,
+      "via": 4
+    },
+    "barcelona-24-09>home:barcelona:walk": {
+      "km": 0,
+      "min": 0,
+      "via": 0
+    },
+    "barcelona-25-14>barcelona-25-15:walk": {
+      "km": 1.83,
+      "min": 24,
+      "via": 1
+    },
+    "barcelona-25-12>barcelona-25-11:walk": {
+      "km": 3.18,
+      "min": 42,
+      "via": 2
+    },
+    "barcelona-25-11>barcelona-25-09:walk": {
+      "km": 2.09,
+      "min": 28,
+      "via": 4
+    },
+    "barcelona-25-09>barcelona-25-16:walk": {
+      "km": 0.23,
+      "min": 3,
+      "via": 0
+    },
+    "barcelona-25-16>barcelona-25-04:walk": {
+      "km": 0.35,
+      "min": 5,
+      "via": 0
+    },
+    "barcelona-25-04>barcelona-25-06:walk": {
+      "km": 1.06,
+      "min": 14,
+      "via": 3
+    },
+    "barcelona-25-06>barcelona-25-07:walk": {
+      "km": 1.13,
+      "min": 15,
+      "via": 2
+    },
+    "barcelona-25-07>barcelona-25-10:walk": {
+      "km": 1.13,
+      "min": 15,
+      "via": 2
+    },
+    "barcelona-25-10>barcelona-25-17:walk": {
+      "km": 1.33,
+      "min": 18,
+      "via": 3
+    },
+    "barcelona-25-17>barcelona-25-08:walk": {
+      "km": 1.7,
+      "min": 23,
+      "via": 2
+    },
+    "barcelona-25-08>barcelona-25-05:walk": {
+      "km": 1.35,
+      "min": 18,
+      "via": 3
+    },
+    "barcelona-25-05>barcelona-25-03:walk": {
+      "km": 1.36,
+      "min": 18,
+      "via": 4
+    },
+    "barcelona-25-13>home:barcelona:walk": {
+      "km": 0,
+      "min": 0,
+      "via": 0
+    },
+    "rome-26-04>rome-26-05:walk": {
+      "km": 1.6,
+      "min": 21,
+      "via": 4
+    },
+    "rome-26-05>rome-26-06:walk": {
+      "km": 2.15,
+      "min": 29,
+      "via": 3
+    },
+    "rome-26-06>rome-26-07:walk": {
+      "km": 1.81,
+      "min": 24,
+      "via": 4
+    },
+    "rome-26-07>rome-26-08:walk": {
+      "km": 3.22,
+      "min": 43,
+      "via": 5
+    },
+    "rome-26-09>home:rome:walk": {
+      "km": 0,
+      "min": 0,
+      "via": 0
+    },
+    "rome-27-02>rome-27-03:bus": {
+      "km": 15.07,
+      "min": 19,
+      "via": 0
+    },
+    "rome-27-03>rome-27-04:walk": {
+      "km": 0,
+      "min": 0,
+      "via": 0
+    },
+    "rome-27-04>rome-27-05:walk": {
+      "km": 0,
+      "min": 0,
+      "via": 0
+    },
+    "rome-27-05>rome-27-06:walk": {
+      "km": 0,
+      "min": 0,
+      "via": 0
+    },
+    "rome-27-07>home:rome:walk": {
+      "km": 0,
+      "min": 0,
+      "via": 0
+    },
+    "rome-28-01>rome-28-02:taxi": {
+      "km": 32.23,
+      "min": 35,
+      "via": 0
+    },
+    "rome-28-02>home:rome:walk": {
+      "km": 32.96,
+      "min": 440,
+      "via": 0
+    }
+  },
+  "candidates": 54,
+  "built": 53,
   "fallbacks": [
     {
       "key": "rome-27-06>rome-27-07:bus",
