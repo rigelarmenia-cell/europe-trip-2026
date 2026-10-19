@@ -260,15 +260,10 @@
       "km": 32.23,
       "min": 35,
       "via": 0
-    },
-    "rome-28-02>home:rome:walk": {
-      "km": 32.96,
-      "min": 440,
-      "via": 0
     }
   },
-  "candidates": 54,
-  "built": 53,
+  "candidates": 53,
+  "built": 52,
   "fallbacks": [
     {
       "key": "rome-27-06>rome-27-07:bus",
