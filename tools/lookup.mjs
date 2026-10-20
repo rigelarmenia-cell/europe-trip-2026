@@ -17,4 +17,5 @@ for (const q of input.geocode || []) {
   try { out['geo:' + q] = (await (await fetch(u, { headers: ua })).json()).map(f => ({ name: f.display_name, lat: +f.lat, lon: +f.lon, osm: `${f.osm_type}/${f.osm_id}` })); } catch (e) { out['geo:' + q] = String(e); }
   await sleep(1100);
 }
+for (const u of input.head || []) { try { const r = await fetch(u, { headers: ua }); out['head:' + u] = [r.status, r.headers.get('content-type')]; } catch (e) { out['head:' + u] = String(e); } await sleep(300); }
 writeFileSync(process.argv[3] || 'lookup.json', JSON.stringify(out, null, 1));
