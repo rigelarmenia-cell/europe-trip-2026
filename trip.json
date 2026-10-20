@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-20-29",
-  "generated_at": "2026-10-20T10:46:49+04:00",
+  "version": "2026-10-20-30",
+  "generated_at": "2026-10-20T12:40:30+04:00",
   "cities": [
     {
       "id": "paris",
@@ -420,8 +420,8 @@
     {
       "date": "2026-10-20",
       "city": "paris",
-      "title_hy": "Ժամանում, լուսավորված Եռակամար և ընթրիք Étoile-ում",
-      "notes_hy": "🔄 Պլանը փոխված է 20.10 առավոտյան. Hôtel de Ville / Pont d’Arcole / Le Trumilou շրջանը կից է 17–19.10-ի թալանի և պարետային ժամի գոտուն (BHV Marais, rue Berger–Sébastopol, Châtelet), իսկ այսօր երեկոյան կառավարությունը նոր պարետային ժամեր է որոշելու։ Եթե Le Trumilou-ում սեղան եք ամրագրել՝ զանգել և չեղարկել ☎ +33 1 42 77 63 98։\nՆոր պլան (թեժ կետերից հեռու, Porte Maillot-ից ոտքով). ~18:45 Porte Maillot → Avenue de la Grande Armée-ով ~16 ր → Եռակամար (լուսավորված, կամարի տակ՝ ստորգետնյա անցումով) → ~19:45 ընթրիք Le Général (Avenue de Wagram) → մինչև ~21:45 M1 Charles de Gaulle–Étoile → Hôtel de Ville (փոխել գետնի տակ) → M11 տուն։\n⚠ Champs-Élysées-ի շրջանում այս օրերին հավաքներն արգելված են, և ոստիկանությունը շատ է. Champs-Élysées-ով չիջնել։ ⚽ 21:00-ին ՓՍԺ–Բարսելոնա խաղ է. խաղից հետո երկրպագուները կարող են հավաքվել Champs-Élysées/Étoile-ում → Étoile-ից հեռանալ մինչև 22:00։ 💡 «Առաջարկներ» բաժնում կա ևս 2 տեղ (Տրոկադերո՝ Էյֆելի փայլատակումով, Բելվիլի դիտակետ՝ տան ճանապարհին)։",
+      "title_hy": "Ժամանում, մատչելի ընթրիք Porte Maillot-ում և լուսավորված Եռակամար",
+      "notes_hy": "🔄 Պլանը փոխված է 20.10 առավոտյան. Hôtel de Ville / Pont d’Arcole / Le Trumilou շրջանը կից է 17–19.10-ի թալանի և պարետային ժամի գոտուն (BHV Marais, rue Berger–Sébastopol, Châtelet), իսկ այսօր երեկոյան կառավարությունը նոր պարետային ժամեր է որոշելու։ Եթե Le Trumilou-ում սեղան եք ամրագրել՝ զանգել և չեղարկել ☎ +33 1 42 77 63 98։\nՆոր պլան (թեժ կետերից հեռու). ~18:45 Porte Maillot → 19:00 մատչելի ընթրիք Le Grand Banquet-ում (նույն տեղում, ուտեստները մինչև ~15 €, ☎ +33 1 72 69 03 03) → ոտքով Avenue de la Grande Armée-ով (~17 ր) → լուսավորված Եռակամար (կամարի տակ՝ ստորգետնյա անցումով) → մինչև ~21:45 M1 Charles de Gaulle–Étoile → Hôtel de Ville (փոխել գետնի տակ) → M11 տուն։\n🍔 Եթե Grand Banquet-ը լիքն է կամ փակ՝ ֆասթ ֆուդ Եռակամարից 150 մ՝ McDonald’s (11 av. de Wagram) կամ O’Tacos (15 av. de Wagram, երեքշաբթի՝ 11:00–02:00) (տես «Առաջարկներ»)։\n⚠ Champs-Élysées-ի շրջանում այս օրերին հավաքներն արգելված են, և ոստիկանությունը շատ է. Champs-Élysées-ով չիջնել։ ⚽ 21:00-ին ՓՍԺ–Բարսելոնա խաղ է. խաղից հետո երկրպագուները կարող են հավաքվել Champs-Élysées/Étoile-ում → Étoile-ից հեռանալ մինչև 22:00։",
       "total_walk_km": 1.6,
       "stops": [
         {
@@ -453,21 +453,59 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 1.2,
-            "min": 16,
+            "km": 0.15,
+            "min": 3,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "Ոտքով Avenue de la Grande Armée-ով ուղիղ դեպի Եռակամարը (~1,2 կմ, ~16 ր). կամարը ամբողջ ճանապարհին երևում է դիմացը։ Եթե հոգնած եք՝ M1 (ուղղություն՝ Château de Vincennes) 1 կանգառ → Charles de Gaulle–Étoile (2,55 €)։",
+            "transfers_hy": "A01 կանգառից ~3 ր ոտքով Palais des Congrès (2 place de la Porte Maillot)։",
             "ticket_hy": ""
           },
           "label": "ՉՍՏՈՒԳՎԱԾ",
           "sources": []
         },
         {
-          "id": "paris-20-05",
+          "id": "paris-20-07",
           "order": 2,
+          "kind": "food",
+          "name_hy": "Ընթրիք՝ Le Grand Banquet (bouillon, մատչելի)",
+          "name_local": "Le Grand Banquet, Palais des Congrès, 2 place de la Porte Maillot",
+          "lat": 48.8792259,
+          "lon": 2.2832742,
+          "description_hy": "Bouillon-ոճի ֆրանսիական ճաշարան հենց Porte Maillot-ում (Palais des Congrès), ավտոբուսի կանգառից մի քանի րոպե։ Մեծ սրահ երկար փայտե սեղաններով՝ հարմար 8 հոգու համար։ Երկ.–չրք. երեկոյան աշխատում է «Bouillon» ձևաչափով՝ à la carte, ուտեստները մինչև ~15 € (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)։ Ամրագրումը խորհուրդ է տրվում՝ ☎ +33 1 72 69 03 03։ ⚠ Աղբյուրները 2024–2025 թթ. են. 2026-ին բաց լինելը ստուգել զանգով։",
+          "photo_spot_hy": "",
+          "visit_min": [
+            50,
+            70
+          ],
+          "hours_hy": "Bouillon՝ երկ.–շբթ. 12:00–14:30, երկ.–չրք. 19:00–23:00. կիրակի փակ (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, lesrestos.com)",
+          "price_hy": "Ուտեստները՝ մինչև ~15 € (pariszigzag). օրինակներ՝ ձու մայոնեզով 3 €, նրբերշիկ կարտոֆիլի պյուրեով 10 €, կարամելային կրեմ 4 € (Time Out, 12.2024) (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
+          "photos": [],
+          "menu_url": "https://www.lesrestos.com/restaurant/fiche/paris/le-grand-banquet",
+          "menu_prices_hy": "Time Out (03.12.2024). Œuf mayo 3 €, saucisse purée 10 €, tête de veau 12,50 €, crème caramel 4 €։ Ըստ lesrestos.com-ի՝ միջինը 15–33 €/անձ։ 2026-ի գներ՝ ՉՍՏՈՒԳՎԱԾ։",
+          "reviews_source": "Time Out Paris (քննադատ). «Pas cher pour le quartier»՝ էժան է թաղամասի համար, հայեցակարգը՝ ոչ շատ օրիգինալ։ Google/Tripadvisor-ի գնահատական չգտնվեց (ՉՍՏՈՒԳՎԱԾ)։",
+          "to_next": {
+            "mode": "walk",
+            "km": 1.3,
+            "min": 17,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ընթրիքից հետո ոտքով Avenue de la Grande Armée-ով ուղիղ դեպի լուսավորված Եռակամարը (~1,3 կմ, ~17 ր)։ Հոգնածության դեպքում՝ M1 Porte Maillot → Charles de Gaulle–Étoile (1 կանգառ, 2,55 €)։",
+            "ticket_hy": ""
+          },
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.lesrestos.com/restaurant/fiche/paris/le-grand-banquet",
+            "https://www.timeout.fr/paris/actualites/grand-banquet-festif-120324",
+            "https://www.pariszigzag.fr/bar-restaurant/restaurant/grand-banquet-bouillon-festif/"
+          ]
+        },
+        {
+          "id": "paris-20-05",
+          "order": 3,
           "kind": "sight",
           "name_hy": "Եռակամար (Հաղթական կամար)",
           "name_local": "Arc de Triomphe de l’Étoile",
@@ -500,15 +538,15 @@
           "reviews_source": "",
           "tickets_url": "https://www.paris-arc-de-triomphe.fr/",
           "to_next": {
-            "mode": "walk",
-            "km": 0.25,
-            "min": 4,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Ստորգետնյա անցումով դուրս գալ, Avenue de Wagram-ով ~150 մ դեպի ռեստորանը։",
-            "ticket_hy": ""
+            "mode": "metro",
+            "km": null,
+            "min": null,
+            "line": "M1 + M11",
+            "color": "դեղին + շագանակագույն",
+            "direction": "Château de Vincennes, ապա Rosny–Bois-Perrier",
+            "get_off": "Romainville–Carnot",
+            "transfers_hy": "🏠 Տուն. Եռակամարի մոտ՝ Charles de Gaulle–Étoile կայարան → M1 (դեղին, ուղղություն՝ Château de Vincennes) 10 կանգառ → Hôtel de Ville, փոխել ԳԵՏՆԻ ՏԱԿ (դուրս չգալ) → M11 (շագանակագույն, ուղղություն՝ Rosny–Bois-Perrier) → Romainville–Carnot, հետո ~10 ր քայլք։ Ընդամենը ~45 ր, մեկ տոմս՝ 2,55 €։ Étoile-ից դուրս գալ մինչև ~21:45։",
+            "ticket_hy": "2,55 € / անձ"
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
@@ -535,71 +573,7 @@
                 "source_page": "https://commons.wikimedia.org/wiki/File:Flamme_Arc_triomphe.jpg"
               },
               "on_route": true
-            },
-            {
-              "id": "pp-paris-20-05-2",
-              "name_hy": "Avenue de Wagram-ի տեսարանը կամարից",
-              "name_local": "Avenue de Wagram (vue depuis l’Étoile)",
-              "lat": 48.87455,
-              "lon": 2.29565,
-              "what_hy": "Wagram պողոտայի մեկնարկը՝ Haussmann-ի ոճի շենքերով, ռեստորանի ճանապարհին։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://commons.wikimedia.org/wiki/File:Avenue_de_Wagram_depuis_Arc_de_Triomphe_Etoile_Paris.jpg"
-              ],
-              "checked": "2026-10-20",
-              "photo": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Avenue_de_Wagram_depuis_Arc_de_Triomphe_Etoile_Paris.jpg/1280px-Avenue_de_Wagram_depuis_Arc_de_Triomphe_Etoile_Paris.jpg",
-                "author": "Jebulon",
-                "license": "CC BY-SA 3.0",
-                "source_page": "https://commons.wikimedia.org/wiki/File:Avenue_de_Wagram_depuis_Arc_de_Triomphe_Etoile_Paris.jpg"
-              },
-              "on_route": true
             }
-          ]
-        },
-        {
-          "id": "paris-20-06",
-          "order": 3,
-          "kind": "food",
-          "name_hy": "Ընթրիք՝ Brasserie Le Général",
-          "name_local": "Le Général, 17 avenue de Wagram",
-          "lat": 48.8758973,
-          "lon": 2.2962852,
-          "description_hy": "Ֆրանսիական բրասերի Եռակամարից ~150 մ (Avenue de Wagram, 17-րդ թաղամաս, թեժ կետերից հեռու)։ Բաց է ամեն օր մինչև ուշ գիշեր. ֆիրմային ուտեստներ՝ բադի կրծքամիս (magret), տարտար, ծովամթերք, կան բուսակերային տարբերակներ (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, Փարիզի պաշտոնական զբոսաշրջային կայք)։ 8 հոգու համար նախապես զանգել ☎ +33 1 43 80 34 12։",
-          "photo_spot_hy": "",
-          "visit_min": [
-            60,
-            80
-          ],
-          "hours_hy": "Ամեն օր, մինչև ուշ գիշեր (աղբյուրում ժամերը հակասական են → զանգով ճշտել) (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
-          "price_hy": "À la carte միջինը 20–40 € / անձ (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, parisjetaime.com)",
-          "photos": [
-            {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Avenue_de_Wagram_depuis_Arc_de_Triomphe_Etoile_Paris.jpg/1280px-Avenue_de_Wagram_depuis_Arc_de_Triomphe_Etoile_Paris.jpg",
-              "author": "Jebulon",
-              "license": "CC BY-SA 3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Avenue_de_Wagram_depuis_Arc_de_Triomphe_Etoile_Paris.jpg"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "Մանրամասն մենյու և գներ չգտնվեցին. աղբյուրում միայն միջին գինը՝ 20–40 € (parisjetaime.com, ստուգված 20.10.2026)։ Նկարը՝ Avenue de Wagram-ն է, ոչ թե ռեստորանը։",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "metro",
-            "km": null,
-            "min": null,
-            "line": "M1 + M11",
-            "color": "դեղին + շագանակագույն",
-            "direction": "Château de Vincennes, ապա Rosny–Bois-Perrier",
-            "get_off": "Romainville–Carnot",
-            "transfers_hy": "🏠 Տուն. ~4 ր ոտքով Charles de Gaulle–Étoile կայարան → M1 (դեղին, ուղղություն՝ Château de Vincennes) 10 կանգառ → Hôtel de Ville, փոխել ԳԵՏՆԻ ՏԱԿ (դուրս չգալ) → M11 (շագանակագույն, ուղղություն՝ Rosny–Bois-Perrier) → Romainville–Carnot, հետո ~10 ր քայլք։ Ընդամենը ~45 ր, մեկ տոմս՝ 2,55 €։ Étoile-ից դուրս գալ մինչև ~21:45։",
-            "ticket_hy": "2,55 € / անձ"
-          },
-          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-          "sources": [
-            "https://parisjetaime.com/restaurant/brasserie-le-general-p4790",
-            "https://www.openstreetmap.org/search?query=17%20avenue%20de%20Wagram%20Paris"
           ]
         }
       ],
@@ -612,7 +586,7 @@
           "lat": 48.8620816,
           "lon": 2.2885435,
           "why_hy": "Ամենագեղեցիկ տեսարանը լուսավորված Էյֆելի աշտարակին. ամեն ժամի սկզբին (20:00, 21:00) 5 րոպե աշտարակը փայլատակում է։",
-          "how_hy": "Ընթրիքից հետո՝ M6 Charles de Gaulle–Étoile → Trocadéro (2 կանգառ, 2,55 €) կամ ~1,4 կմ ոտքով Avenue Kléber-ով։ Հասնել 21:00-ի փայլատակմանը։ Տուն՝ M6 → Étoile → M1 → Hôtel de Ville (փոխել գետնի տակ) → M11։",
+          "how_hy": "Եռակամարից հետո՝ M6 Charles de Gaulle–Étoile → Trocadéro (2 կանգառ, 2,55 €) կամ ~1,4 կմ ոտքով Avenue Kléber-ով։ Հասնել 21:00-ի փայլատակմանը։ Տուն՝ M6 → Étoile → M1 → Hôtel de Ville (փոխել գետնի տակ) → M11։",
           "description_hy": "Պալե դը Շայոյի հրապարակը Էյֆելի աշտարակի դիմաց։ 21.10-ին այստեղ ցերեկով ենք լինելու. երեկոյան տեսարանը բոլորովին այլ է։",
           "hours_hy": "Բացօթյա, միշտ։ Փայլատակում՝ մութն ընկնելուց հետո ամեն ժամի սկզբին, 5 րոպե (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
           "price_hy": "0 €",
@@ -649,7 +623,7 @@
               "on_route": true
             }
           ],
-          "insert_after": "paris-20-06"
+          "insert_after": "paris-20-05"
         },
         {
           "id": "sug-paris-20-2",
@@ -687,6 +661,32 @@
             "https://www.bonjour-ratp.fr/en/lieux/parc-de-belleville/"
           ],
           "photo_points": []
+        },
+        {
+          "id": "sug-paris-20-3",
+          "kind": "food",
+          "name_hy": "Ֆասթ ֆուդ Եռակամարի մոտ՝ McDonald’s / O’Tacos",
+          "name_local": "McDonald’s, 11 av. de Wagram · O’Tacos, 15 av. de Wagram",
+          "lat": 48.8755787,
+          "lon": 2.2961105,
+          "why_hy": "Ամենաէժան տարբերակը, եթե Grand Banquet-ը լիքն է կամ եթե ուզում եք արագ ուտել Եռակամարի մոտ։ Երկուսն էլ Եռակամարից ~150 մ են, իրար կողքի։",
+          "description_hy": "McDonald’s-ում կան ինքնասպասարկման էկրաններ մի քանի լեզվով, սրահ և բացօթյա տեղեր. կարծիքներում նշում են, որ արագ է, բայց ժամերին մարդաշատ է, իսկ զուգարանը՝ կտրոնով (custplace.com, ոչ պաշտոնական ամփոփում)։ O’Tacos՝ ֆրանսիական «տակոս» (լավաշով փաթաթված միս, կարտոֆիլ, սոուս)։ Գնահատականներ (աստղեր) չգտնվեցին՝ ՉՍՏՈՒԳՎԱԾ։",
+          "how_hy": "Եռակամարից Avenue de Wagram-ով ~2 ր։ Հետո՝ Charles de Gaulle–Étoile → M1 → Hôtel de Ville → M11 տուն։",
+          "hours_hy": "O’Tacos՝ երկ.–չրք. 11:00–02:00 (au-magasin.fr). McDonald’s-ի ժամերը՝ ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Ճշգրիտ գներ՝ ՉՍՏՈՒԳՎԱԾ (ֆասթ ֆուդ)",
+          "visit_min": [
+            25,
+            40
+          ],
+          "photos": [],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.au-magasin.fr/75017-paris-17e/restauration-rapide/",
+            "https://www.au-magasin.fr/75017-paris-17e/otacos-275099.html",
+            "https://fr.custplace.com/macdo-mcdonalds-Paris-32"
+          ],
+          "photo_points": [],
+          "insert_after": "paris-20-05"
         }
       ]
     },

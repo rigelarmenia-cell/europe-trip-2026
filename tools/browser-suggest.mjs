@@ -23,8 +23,8 @@ try {
   await page.waitForFunction(() => document.querySelectorAll('#stops .stop').length > 0);
   const names = () => page.$$eval('#stops .stop .stop-title', n => n.map(x => x.textContent));
   assert.equal(await page.$eval('#day', s => s.value), '2026-10-20');
-  assert.deepEqual(await names(), ['Պորտ Մայոյի կանգառ', 'Եռակամար (Հաղթական կամար)', 'Ընթրիք՝ Brasserie Le Général']);
-  assert.equal(await page.locator('#suggest-list .suggest-card').count(), 2);
+  assert.deepEqual(await names(), ['Պորտ Մայոյի կանգառ', 'Ընթրիք՝ Le Grand Banquet (bouillon, մատչելի)', 'Եռակամար (Հաղթական կամար)']);
+  assert.equal(await page.locator('#suggest-list .suggest-card').count(), 3);
   await page.locator('#suggest-list .suggest-card').first().screenshot({ path: `${out}/suggest-card.png` });
   await page.click('button[data-suggestion="sug-paris-20-1"]');
   const after = await names();
