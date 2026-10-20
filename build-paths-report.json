@@ -1,15 +1,15 @@
 {
   "output": "paths.json",
   "meta": {
-    "paris-20-01>paris-20-05:walk": {
-      "km": 1.15,
-      "min": 15,
+    "paris-20-01>paris-20-07:walk": {
+      "km": 0.16,
+      "min": 2,
       "via": 0
     },
-    "paris-20-05>paris-20-06:walk": {
-      "km": 0.48,
-      "min": 6,
-      "via": 2
+    "paris-20-07>paris-20-05:walk": {
+      "km": 1.31,
+      "min": 17,
+      "via": 0
     },
     "paris-21-01>paris-21-07:walk": {
       "km": 1.09,
