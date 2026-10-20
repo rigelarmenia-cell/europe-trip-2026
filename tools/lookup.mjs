@@ -19,4 +19,14 @@ for (const q of input.geocode || []) {
 }
 for (const u of input.head || []) { try { const r = await fetch(u, { headers: ua }); out['head:' + u] = [r.status, r.headers.get('content-type')]; } catch (e) { out['head:' + u] = String(e); } await sleep(4000); }
 for (const q of input.overpass || []) { try { const r = await fetch('https://overpass.kumi.systems/api/interpreter', { method: 'POST', headers: { ...ua, 'content-type': 'application/x-www-form-urlencoded' }, body: 'data=' + encodeURIComponent(q) }); out['overpass:' + q.slice(0, 60)] = (await r.json()).elements.map(e => ({ name: e.tags?.name, brand: e.tags?.brand, shop: e.tags?.shop, hours: e.tags?.opening_hours, street: e.tags?.['addr:street'], num: e.tags?.['addr:housenumber'], lat: e.lat ?? e.center?.lat, lon: e.lon ?? e.center?.lon, osm: e.type + '/' + e.id })); } catch (e) { out['overpass:' + q.slice(0, 60)] = String(e); } }
+async function gouv(q) { const r = await fetch('https://api-adresse.data.gouv.fr/search/?limit=1&q=' + encodeURIComponent(q), { headers: ua }); const f = (await r.json()).features?.[0]; return f ? { lon: f.geometry.coordinates[0], lat: f.geometry.coordinates[1], label: f.properties.label, score: f.properties.score } : null; }
+if (input.walk) {
+  const o = await gouv(input.walk.from); const res = { from: o, to: [] };
+  for (const q of input.walk.to) {
+    const g = await gouv(q); await sleep(300); let m = null, min = null;
+    if (o && g) { try { const j = await (await fetch(`https://routing.openstreetmap.de/routed-foot/route/v1/driving/${o.lon},${o.lat};${g.lon},${g.lat}?overview=false`, { headers: ua })).json(); m = Math.round(j.routes[0].distance); min = Math.round(j.routes[0].duration / 60); } catch {} }
+    res.to.push({ q, label: g?.label, score: g?.score, walk_m: m, walk_min: min }); await sleep(1100);
+  }
+  res.to.sort((a, b) => (a.walk_m ?? 1e9) - (b.walk_m ?? 1e9)); out.walk = res;
+}
 writeFileSync(process.argv[3] || 'lookup.json', JSON.stringify(out, null, 1));
