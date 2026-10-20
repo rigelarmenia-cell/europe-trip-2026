@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-20-30",
-  "generated_at": "2026-10-20T12:40:30+04:00",
+  "version": "2026-10-20-31",
+  "generated_at": "2026-10-20T13:04:24+04:00",
   "cities": [
     {
       "id": "paris",
@@ -1719,7 +1719,7 @@
           ],
           "menu_url": "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
           "menu_prices_hy": "Պաշտոնական մենյուն ամեն օր փոխվում է և գներ չունի ըստ ուտեստի (նախուտեստ՝ 1-ից, ուտեստ՝ 7-ից, աղանդեր՝ 2 €-ից). գները՝ երկրորդային աղբյուրից։ Գներ (lucandjune.com, 2025-12-30). Oeuf dur mayonnaise 2 €; Poireau-vinaigrette 1 €; Terrine de campagne 3,8 €; Céleri rémoulade 2,7 €; Escargots (6) 7,5 €; Confit de canard 9,8 €; Choucroute 10,8 €; Saucisse de Francfort frites 6,5 €; Pot au feu 9,5 €; Pont l'Évêque 2,8 €; Profiteroles 4 €; House rosé wine (bottle) 15 €։",
-          "reviews_source": "Կարծիքները առանձին օրագրված աղբյուրներով դեռ չեն գնահատվել. 8 հոգով մի սեղանի երաշխիք չկա, ամրագրումներ չեն ընդունվում։",
+          "reviews_source": "Naboo՝ 4,3/5 (15 195 կարծիք, աղբյուրը չի նշված). Tripadvisor/Google՝ չգտնվեց։ Ավելի էժան և լավ գնահատված այլընտրանք 600 մ-ում չգտնվեց → մնում է Chartier (ստուգված 20.10.2026)։ Հերթ. 8 հոգով գալ մինչև 19:30, խմբին կարող են նստեցնել տարբեր սեղանների (Tripadvisor-ի կարծիքներ)։",
           "to_next": {
             "mode": "metro",
             "km": null,
@@ -1736,7 +1736,9 @@
             "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
             "https://www.bouillon-chartier.com/bouillon-chartier-montparnasse/",
             "https://www.bouillon-chartier.com/en/the-bouillons/",
-            "https://www.lucandjune.com/le-bouillon-chartier-paris/"
+            "https://www.lucandjune.com/le-bouillon-chartier-paris/",
+            "https://www.naboo.app/en-us/explorer/houses/bouillon-chartier-montparnasse",
+            "https://www.familinparis.fr/le-bouillon-chartier"
           ]
         }
       ],
@@ -2784,7 +2786,7 @@
           ],
           "menu_url": "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
           "menu_prices_hy": "Պաշտոնական մենյուն ամեն օր փոխվում է և գներ չունի ըստ ուտեստի (նախուտեստ՝ 1-ից, ուտեստ՝ 7-ից, աղանդեր՝ 2 €-ից). գները՝ երկրորդային աղբյուրից։ Գներ (lucandjune.com, 2025-12-30). Oeuf dur mayonnaise 2 €; Poireau-vinaigrette 1 €; Terrine de campagne 3,8 €; Céleri rémoulade 2,7 €; Escargots (6) 7,5 €; Confit de canard 9,8 €; Choucroute 10,8 €; Saucisse de Francfort frites 6,5 €; Pot au feu 9,5 €; Pont l'Évêque 2,8 €; Profiteroles 4 €; House rosé wine (bottle) 15 €։",
-          "reviews_source": "Կարծիքները առանձին օրագրված աղբյուրներով դեռ չեն գնահատվել. 8 հոգով մի սեղանի երաշխիք չկա, ամրագրումներ չեն ընդունվում։",
+          "reviews_source": "Tripadvisor՝ 3,7/5 (17 462 կարծիք). հերթ 30–50 ր երեկոյան։ Ընթրիքի ժամին ավելի էժան այլընտրանք մոտակայքում չգտնվեց → մնում է Chartier (ստուգված 20.10.2026)։ Հերթ. 8 հոգով գալ մինչև 19:30, խմբին կարող են նստեցնել տարբեր սեղանների (Tripadvisor-ի կարծիքներ)։",
           "to_next": {
             "mode": "metro",
             "km": null,
@@ -2801,7 +2803,9 @@
             "https://www.bouillon-chartier.com/bouillon-chartier-grands-boulevards/",
             "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
             "https://www.bouillon-chartier.com/en/the-bouillons/",
-            "https://www.lucandjune.com/le-bouillon-chartier-paris/"
+            "https://www.lucandjune.com/le-bouillon-chartier-paris/",
+            "https://www.tripadvisor.co.uk/Restaurant_Review-g187147-d714938-Reviews-Le_Bouillon_Chartier-Paris_Ile_de_France.html",
+            "https://www.familinparis.fr/le-bouillon-chartier"
           ]
         }
       ],
@@ -3575,7 +3579,7 @@
           ],
           "menu_url": "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
           "menu_prices_hy": "Պաշտոնական մենյուն ամեն օր փոխվում է և գներ չունի ըստ ուտեստի (նախուտեստ՝ 1-ից, ուտեստ՝ 7-ից, աղանդեր՝ 2 €-ից). գները՝ երկրորդային աղբյուրից։ Գներ (fr.newtable.com, առանց ամսաթվի). Oeuf dur mayo 2 €; Saucisse de Francfort frites 6,5 €։",
-          "reviews_source": "Կարծիքները առանձին օրագրված աղբյուրներով դեռ չեն գնահատվել. 8 հոգով մի սեղանի երաշխիք չկա, ամրագրումներ չեն ընդունվում։",
+          "reviews_source": "Petit Futé՝ 4,2/5 (79), Naboo՝ 4,5 (8 436). Օրվա մենյու 15,50 € (G. Pudlowski, 09.2024)։ Մնում է Chartier. եթե հերթը երկար է՝ «Առաջարկներ»-ում Urfa Dürüm (վերցնել հետը)։ Հերթ. 8 հոգով գալ մինչև 19:30, խմբին կարող են նստեցնել տարբեր սեղանների (Tripadvisor-ի կարծիքներ)։",
           "to_next": {
             "mode": "metro",
             "km": null,
@@ -3592,7 +3596,9 @@
             "https://www.bouillon-chartier.com/bouillon-chartier-gare-de-lest/",
             "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
             "https://www.bouillon-chartier.com/en/the-bouillons/",
-            "https://fr.newtable.com/restaurant-bouillon-chartier-a-gare-de-l-est-6530.php"
+            "https://fr.newtable.com/restaurant-bouillon-chartier-a-gare-de-l-est-6530.php",
+            "https://www.petitfute.com/v17231-17284-paris-75010/c1165-restaurants/c4-cuisine-francaise/c1-bistrot-brasserie/2015448-bouillon-chartier-gare-de-l-est/tous-les-avis.html",
+            "https://www.gillespudlowski.com/?p=382203"
           ]
         }
       ],
@@ -3656,6 +3662,30 @@
             "https://www.sortiraparis.com/arts-culture/balades/articles/298016-en-balade-au-vignoble-du-clos-montmartre-les-plus-anciennes-vignes-de-paris"
           ],
           "photo_points": []
+        },
+        {
+          "id": "sug-paris-23-3",
+          "kind": "food",
+          "name_hy": "Էժան պահուստ՝ Urfa Dürüm (քյաբաբ, հետը վերցնել)",
+          "name_local": "Urfa Dürüm, 58 rue du Faubourg Saint-Denis",
+          "lat": 48.8724069,
+          "lon": 2.3542518,
+          "why_hy": "Եթե Chartier-ում հերթը շատ երկար է. լահմաջո 2 €, դյուրյում 6–7,50 € (Time Out 4/5)։",
+          "description_hy": "Շատ փոքր տեղ է՝ 8 հոգով նստել չի ստացվի, միայն վերցնել հետը։",
+          "how_hy": "Chartier Gare de l’Est-ից ~500 մ հարավ, Faubourg Saint-Denis-ով։",
+          "hours_hy": "Ամեն օր 12:00–00:00 (Time Out)",
+          "price_hy": "Լահմաջո 2 €, դյուրյում 6–7,50 € (Time Out)",
+          "visit_min": [
+            15,
+            40
+          ],
+          "photos": [],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.timeout.fr/paris/restaurants/urfa-dueruem"
+          ],
+          "photo_points": [],
+          "insert_after": "paris-23-02"
         }
       ]
     },
@@ -3948,8 +3978,8 @@
             }
           ],
           "menu_url": "https://www.just-eat.es/restaurants-la-tagliatella-barcelona-barcelona-08015/menu",
-          "menu_prices_hy": "⚠ Գները՝ առաքման հավելվածից (ռեստորանում կարող են ցածր լինել)։ TripAdvisor-ը գրում է «ժամանակավորապես փակ», իսկ 2026-ի կարծիքներ կան (ՀԱԿԱՍՈՒԹՅՈՒՆ). ստուգել ☎ +34 933 25 69 49։ Գներ (just-eat.es, 2026-10-19). Pizza de carrillera al curry Thai 19,5 €; Gnocchi di pulpo a feira 20,9 €; Sorrentino alla Beurre Blanc 20,9 €։",
-          "reviews_source": "",
+          "menu_prices_hy": "⚠ Գները՝ առաքման հավելվածից (ռեստորանում կարող են ցածր լինել)։ Բաց լինելը հաստատվում է 10.2026-ի կարծիքներով։ ՀԱԿԱՍՈՒԹՅՈՒՆ. GastroRanking-ը գրում է 20–30 €/անձ (ըմպելիքով), մենյուի գները՝ 13–16 €։ Գներ (just-eat.es, 2026-10-19). Pizza de carrillera al curry Thai 19,5 €; Gnocchi di pulpo a feira 20,9 €; Sorrentino alla Beurre Blanc 20,9 €։",
+          "reviews_source": "Google 4,3/5 (5 776), Tripadvisor 3,5/5 (572), TheFork 4,2/5 (462) (GastroRanking, 10/10 սանդղակից վերահաշված)։ Բաց է. Google-ի կարծիքներ 12–14.10.2026-ից (11 հոգանոց խումբ գոհ էր)։ Tripadvisor-ի «ժամանակավորապես փակ»-ը հնացած է։",
           "to_next": {
             "mode": "metro",
             "km": null,
@@ -3966,7 +3996,8 @@
             "https://www.latagliatella.es/es/restaurantes/barcelona/cc-las-arenas-barcelona",
             "https://es.aroundus.com/p/171650748-restaurant-la-tagliatella-cc.-las-arenas-barcelona",
             "https://guia.barcelona.cat/es/detall/restaurant-la-tagliatella-arenas_99400604192.html",
-            "https://www.just-eat.es/restaurants-la-tagliatella-barcelona-barcelona-08015/menu"
+            "https://www.just-eat.es/restaurants-la-tagliatella-barcelona-barcelona-08015/menu",
+            "https://gastroranking.es/r/la-tagliatella-las-arenas_149938/"
           ]
         },
         {
@@ -4732,6 +4763,30 @@
             "https://barcelona.cat/en/coneixbcn/pics/la-casa-de-les-punxes-92086008882"
           ],
           "photo_points": []
+        },
+        {
+          "id": "sug-bcn-24-2",
+          "kind": "food",
+          "name_hy": "Էժան տարբերակ՝ Buenas Migas Plaça Espanya",
+          "name_local": "Buenas Migas, Plaça d’Espanya 6–8",
+          "lat": 41.3755556,
+          "lon": 2.1485252,
+          "why_hy": "Ֆոկաչչա, աղցաններ, թխվածքներ. ~8 €/անձ (4 հոգին՝ ~33 €, կարծիք 01.2026)։ Google 4,1/5 (1 986)։",
+          "description_hy": "Հացաբուլկեղենի սրճարան։ Շաբաթվա ժամերը և 8 հոգու տեղը՝ ՉՍՏՈՒԳՎԱԾ։",
+          "how_hy": "Plaça d’Espanya-ում, Las Arenas-ի դիմաց։",
+          "hours_hy": "Շաբաթ օրվա ժամերը՝ ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "~8 €/անձ (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, GastroRanking)",
+          "visit_min": [
+            15,
+            40
+          ],
+          "photos": [],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://gastroranking.es/r/buenas-migas-plaza-espanya_83087/"
+          ],
+          "photo_points": [],
+          "insert_after": "barcelona-24-02"
         }
       ]
     },
@@ -5254,7 +5309,7 @@
             25
           ],
           "hours_hy": "Կիրակի 12:30–23:00՝ երկրորդային տեղեկությամբ",
-          "price_hy": "Հրապարակված օրինակներ՝ 5,25–11,95 €, 2025 տվյալներով",
+          "price_hy": "⚠ 10,85 € «menú del día»-ն միայն երկ.–ուրբ. է, կիրակի՝ à la carte կամ սեթ 17,85 €-ից → հաշվել ~18–20 €/անձ (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, GastroRanking)։ Ավելի էժան՝ «Առաջարկներ»-ում Bo de B (սենդվիչ ~6–8 €, վերցնել հետը)",
           "photos": [
             {
               "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/barcelona-25-09.jpg",
@@ -5265,7 +5320,7 @@
           ],
           "menu_url": "https://www.thefork.es/restaurante/la-fonda-r618809/menu",
           "menu_prices_hy": "Գներ (thefork.es, 2025-08-06). Patatas bravas la fonda 5,8 €; Croqueta de gamba y vieira 2,95 €; Gazpacho 5,25 €; Ensalada catalana 8,5 €; Mezzi riggatonni a la boloñesa 9,4 €; Canelón maria trias 14,5 €; Pollo con salsa de colmenillas 12,25 €; Confit de pato 15,95 €; Paella mixta 14,75 €; Arroz con pollo y verduras 11,95 €; Crema catalana 3,95 €; Copa de vino (Tous Baró) 3 €։ Միջինը ~20 €/անձ. 8 × 20 € = 160 € (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)։",
-          "reviews_source": "https://www.thefork.es/restaurante/la-fonda-r618809/menu",
+          "reviews_source": "Google 4,4/5 (21 761), Tripadvisor 3,8/5 (7 164), վերջին կարծիք՝ 18.10.2026 (GastroRanking). Trip.com 4,1/5 (727)։ Խմբային ամրագրում՝ ըստ առկայության ☎ +34 933 01 75 15։",
           "to_next": {
             "mode": "walk",
             "km": 0.23,
@@ -5281,7 +5336,9 @@
           "sources": [
             "https://www.thefork.es/restaurante/la-fonda-r618809/menu",
             "https://findit.city/en/spain/barcelona/places/restaurants/la-fonda-3761312382",
-            "https://www.thefork.es/restaurante/la-fonda-r618809"
+            "https://www.thefork.es/restaurante/la-fonda-r618809",
+            "https://gastroranking.es/r/la-fonda-14_50926/",
+            "https://uk.trip.com/restaurant/spain/barcelona/detail/la-fonda-491168"
           ]
         },
         {
@@ -6461,6 +6518,31 @@
           ],
           "photo_points": [],
           "insert_after": "barcelona-25-14"
+        },
+        {
+          "id": "sug-bcn-25-2",
+          "kind": "food",
+          "name_hy": "Էժան տարբերակ՝ Bo de B (սենդվիչներ)",
+          "name_local": "Bo de B, Carrer de la Fusteria 14",
+          "lat": 41.3811969,
+          "lon": 2.1811013,
+          "why_hy": "Google 4,5/5 (3 652), Tripadvisor 4,4/5 (820). մեծ սենդվիչ ~6 €։",
+          "description_hy": "Մի քանի սեղան, հիմնականում վերցնել հետը. հաճախ միայն կանխիկ. երբեմն հերթ։",
+          "how_hy": "Port Vell-ից ~300 մ (Carrer de la Mercè-ի անկյուն)։",
+          "hours_hy": "Ամեն օր 12:00–23:00 (2020-ի աղբյուր, ՉՍՏՈՒԳՎԱԾ 2026-ի համար)",
+          "price_hy": "~6–8 €/անձ (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
+          "visit_min": [
+            15,
+            40
+          ],
+          "photos": [],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://gastroranking.es/r/bo-de-b_51379",
+            "https://moostips.com/en/today-were-going-to-bo-de-b-barrio-gotico/"
+          ],
+          "photo_points": [],
+          "insert_after": "barcelona-25-11"
         }
       ]
     },
@@ -6575,7 +6657,7 @@
           ],
           "menu_url": "https://www.mercatocentrale.it/roma/artigiani/",
           "menu_prices_hy": "Սննդի շուկա՝ 17 կրպակով, գները ըստ կրպակի։ Գներ (trapizzino.it, առանց ամսաթվի). Trapizzino (Doppia panna / Parmigiana / Polpetta al sugo / Pollo alla cacciatora / Lingua in salsa verde) 5 €։ Սեթեր. Aperitivo Centrale 12 € (1 drink + 1 'bontà a scelta' from artisan stalls; special drink +3 €; every day 17:00–21:00)։",
-          "reviews_source": "",
+          "reviews_source": "Ամբողջ շուկայի գնահատական չգտնվեց։ Ամենաէժան լավ գնահատված կրպակը՝ Trapizzino (Google 4,5/5, 3 752 կարծիք, ~5–6 €)։ ⚠ Խուսափել կշռով պիցցայի կրպակից (25–35 €/կգ, 3 կտորը՝ 32 €)։",
           "to_next": {
             "mode": "metro",
             "km": null,
@@ -6592,7 +6674,9 @@
             "https://www.mercatocentrale.it/roma/info/",
             "https://www.turismoroma.it/it/luoghi/mercato-centrale-roma",
             "https://www.trapizzino.it/en/trapizzino/trapizzino-roma-mercato-centrale/",
-            "https://www.mercatocentrale.it/roma/artigiani/"
+            "https://www.mercatocentrale.it/roma/artigiani/",
+            "https://wanderlog.com/place/details/1139805/trapizzino--mercato-centrale-roma",
+            "https://www.gamberorosso.it/notizie/pizza-rossa-a-35-euro-al-chilo-al-mercato-centrale-di-roma/"
           ]
         },
         {
@@ -7318,7 +7402,7 @@
           ],
           "menu_url": "https://www.thefork.it/ristorante/monti-lab-italian-street-food-r856246/menu",
           "menu_prices_hy": "ՀԱԿԱՍՈՒԹՅՈՒՆ. պաշտոնական կայքում պիցցան ավելի էժան է (Margherita 7, Capricciosa 8 €)։ Գներ (thefork.it, 2026-05-13). Focaccia semplice 3 €; Focaccia prosciutto 7 €; Bagel salmon 8 €; Margherita 8 €; Diavola 9 €; Quattro stagioni 10 €; Capricciosa 12 €; Rucola, crudo & pecorino 12 €; Toast 4 €; Cornetto semplice 1,5 €; Yogurt complete 4,5 €։",
-          "reviews_source": "https://www.thefork.it/ristorante/monti-lab-italian-street-food-r856246/menu",
+          "reviews_source": "Monti Lab-ի գնահատականը չգտնվեց (ՉՍՏՈՒԳՎԱԾ)։ Լավագույն գնահատված այլընտրանքը՝ «Առաջարկներ»-ում Pinsitaly Trevi (Google 4,8/5, 5 972 կարծիք, երկուշաբթի մինչև 22:30)։",
           "to_next": {
             "mode": "metro",
             "km": null,
@@ -7462,6 +7546,31 @@
             "https://www.money.it/Roma-vietato-sedersi-scalinata-trinita-dei-monti"
           ],
           "photo_points": []
+        },
+        {
+          "id": "sug-rome-26-4",
+          "kind": "food",
+          "name_hy": "Լավագույն գնահատված՝ Pinsitaly Trevi (պինսա)",
+          "name_local": "Pinsitaly Trevi, Via della Panetteria 12",
+          "lat": 41.901757,
+          "lon": 12.4844293,
+          "why_hy": "Google 4,8/5 (5 972), Tripadvisor 4,9/5 (2 264). Տրևիից ~100 մ, երկուշաբթի բաց մինչև 22:30։",
+          "description_hy": "Հռոմեական պինսա (պիցցայի տեսակ)։ Ասում են «մատչելի», բայց ճշգրիտ գներ չգտնվեցին (ՉՍՏՈՒԳՎԱԾ)։",
+          "how_hy": "Fontana di Trevi-ից ~2 ր։ Տուն՝ Barberini (A) → Termini → B → Bologna։",
+          "hours_hy": "Երկուշաբթի 10:30–22:30 (wanderlog)",
+          "price_hy": "Գները՝ ՉՍՏՈՒԳՎԱԾ",
+          "visit_min": [
+            15,
+            40
+          ],
+          "photos": [],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://wanderlog.com/place/details/807171",
+            "https://chefdenise.com/all/best-cheap-eats-in-rome"
+          ],
+          "photo_points": [],
+          "insert_after": "rome-26-07"
         }
       ]
     },
@@ -7664,8 +7773,8 @@
             }
           ],
           "menu_url": "https://www.sluurpy.it/castel-romano/ristorante/247555/ham-holy-burger-castel-romano-designer-outlet",
-          "menu_prices_hy": "⚠ ՀԱԿԱՍՈՒԹՅՈՒՆ. ցանցի պաշտոնական կայքը Castel Romano-ն չի նշում, իսկ outlet-ի կայքը նշում է՝ տեղում ստուգել։ Գներ (sluurpy.it, 2025-12-19). Il miracolo della mozzarella 7 €; La consacrazione del pollo 6,5 €; Stick classiche 4 €; Holyburger 10,5 €; Pollofritto 11 €; Ham loves roma 13 €; Velvet 6 €; Bun tiramisù 6 €; Tiramisù alla frutta 6 €։",
-          "reviews_source": "https://www.thefork.it/ristorante/ham-holy-burger-castel-romano-designer-outlet-r562143/menu",
+          "menu_prices_hy": "✅ Outlet-ի պաշտոնական ցանկում կա (mcarthurglen.com, 2026), ամեն օր 10:00–20:00։ Գներ (sluurpy.it, 2025-12-19). Il miracolo della mozzarella 7 €; La consacrazione del pollo 6,5 €; Stick classiche 4 €; Holyburger 10,5 €; Pollofritto 11 €; Ham loves roma 13 €; Velvet 6 €; Bun tiramisù 6 €; Tiramisù alla frutta 6 €։",
+          "reviews_source": "Գնահատական չգտնվեց։ Outlet-ում կա նաև McDonald’s (ամենաէժանը, 10:00–20:00) և Farinella (նեապոլիտանական պիցցա)։",
           "to_next": {
             "mode": "walk",
             "km": 0.5,
@@ -7682,7 +7791,8 @@
             "https://www.thefork.it/ristorante/ham-holy-burger-castel-romano-designer-outlet-r562143/menu",
             "https://www.mcarthurglen.com/en/outlets/it/designer-outlet-castel-romano/food-drink/",
             "https://www.italia.it/en/lazio/roma/where-to-eat/ham-holy-burger-castel-romano",
-            "https://www.sluurpy.it/castel-romano/ristorante/247555/ham-holy-burger-castel-romano-designer-outlet"
+            "https://www.sluurpy.it/castel-romano/ristorante/247555/ham-holy-burger-castel-romano-designer-outlet",
+            "https://www.mcarthurglen.com/de/outlets/it/Designer-Outlet-Castel-Romano/Essen-Trinken/ham-holy-burger/"
           ]
         },
         {
@@ -7826,6 +7936,31 @@
           ],
           "photo_points": [],
           "insert_after": "rome-27-06"
+        },
+        {
+          "id": "sug-rome-27-3",
+          "kind": "food",
+          "name_hy": "Ամենաէժանը outlet-ում՝ McDonald’s",
+          "name_local": "McDonald’s – Castel Romano Designer Outlet",
+          "lat": 41.717,
+          "lon": 12.4447,
+          "why_hy": "Outlet-ի պաշտոնական սննդի ցանկում կա, ամեն օր 10:00–20:00։",
+          "description_hy": "Գներ և գնահատական՝ ՉՍՏՈՒԳՎԱԾ։ Outlet-ում կա նաև Farinella (նեապոլիտանական պիցցա)։",
+          "how_hy": "Outlet-ի ներսում։",
+          "hours_hy": "Ամեն օր 10:00–20:00 (mcarthurglen.com)",
+          "price_hy": "ՉՍՏՈՒԳՎԱԾ",
+          "visit_min": [
+            15,
+            40
+          ],
+          "photos": [],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.mcarthurglen.com/de/outlets/it/Designer-Outlet-Castel-Romano/Essen-Trinken/mcdonalds/",
+            "https://www.mcarthurglen.com/pl/outlets/it/designer-outlet-castel-romano/food-drink/"
+          ],
+          "photo_points": [],
+          "insert_after": "rome-27-03"
         }
       ]
     },
