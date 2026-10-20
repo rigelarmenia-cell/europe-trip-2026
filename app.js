@@ -6,7 +6,8 @@ import { money, distanceNumber } from './lib/format.js';
 import {validatePaths, segments} from './lib/paths.js';
 import {haversine} from './lib/itinerary.js';
 import {validateAlerts, activeAlerts} from './lib/alerts.js';
-import {renderRallies, renderSeats, nearestStations} from './lib/extras.js';
+import {renderRallies, renderSeats, nearestStations, renderWeather, weatherHoursText} from './lib/extras.js';
+import {weatherUrl, normalizeWeather, validateWeather, dayLineHy, adviceHy} from './lib/weather.js';
 
 const $ = id => document.getElementById(id);
 const base = new URL('./', location.href);
@@ -109,6 +110,40 @@ async function checkAlerts() {
   finally { clearTimeout(timeout); state.alertsLoading = false; connection(); }
 }
 $('alerts-count').onclick = () => { renderAlerts(); $('alerts-dialog').showModal(); };
+// 🌤 Weather: live from Open-Meteo on the phone; fallback weather.json (hourly GitHub Actions); offline: last saved.
+state.weather = null; state.weatherOnline = null; state.weatherLoading = false;
+try { const cachedWeather = read('weather'); if (cachedWeather) state.weather = validateWeather(cachedWeather); } catch { /* Ignore invalid cached weather. */ }
+async function fetchJson(url) {
+  const response = await fetch(url, {cache:'no-store', signal:AbortSignal.timeout(10000)});
+  if (!response.ok) throw Error('weather network');
+  return response.json();
+}
+async function checkWeather() {
+  if (state.weatherLoading) return;
+  state.weatherLoading = true;
+  let fresh = null;
+  try { fresh = validateWeather(normalizeWeather(await fetchJson(weatherUrl()))); }
+  catch { try { fresh = validateWeather(await fetchJson(new URL('weather.json', base))); } catch { fresh = null; } }
+  if (fresh && (!state.weather || Date.parse(fresh.updated_at) >= Date.parse(state.weather.updated_at))) { state.weather = fresh; save('weather', fresh); }
+  state.weatherOnline = !!fresh; state.weatherLoading = false;
+  renderWeatherAll();
+}
+function renderDayWeather() {
+  const node = $('day-weather'); if (!node) return;
+  const city = state.weather?.cities?.[state.cityId], date = state.dayDate;
+  const day = list(city?.daily).find(x => x.date === date);
+  node.replaceChildren();
+  if (!state.trip || !date) { node.hidden = true; return; }
+  node.hidden = false;
+  if (!day) { node.append(element('span', state.weather ? '🌤 Այս օրվա կանխատեսումը դեռ չկա։' : '🌤 Եղանակը բեռնվում է…', 'muted')); return; }
+  node.append(element('strong', dayLineHy(day)));
+  const hrs = weatherHoursText(city, date); if (hrs) node.append(element('span', hrs, 'weather-hours'));
+  const tip = adviceHy(day); if (tip) node.append(element('span', tip, 'weather-tip'));
+}
+function renderWeatherAll() {
+  renderDayWeather();
+  if (state.trip) renderWeather($('weather'), state.weather, state.trip, {online: state.weatherOnline !== false && navigator.onLine});
+}
 function currentCity() { return state.trip?.cities.find(city => city.id === state.cityId); }
 function currentDay() { return state.trip?.days.find(day => day.city === state.cityId && day.date === state.dayDate); }
 function personalDay() {
@@ -239,6 +274,7 @@ function render() {
   renderPhotoPoints();
   renderSafety();
   renderRallies($('rallies'), state.alerts, trip); renderSeats($('seats'), trip);
+  renderWeatherAll();
   updateClock();
 }
 
@@ -538,9 +574,9 @@ function connection() {
   renderAlerts(); renderLiveLinks();
   document.querySelectorAll('.requires-internet').forEach(node => { node.hidden = liveOnline(); });
 }
-addEventListener('online', () => { connection(); checkData(); checkAlerts(); });
+addEventListener('online', () => { connection(); checkData(); checkAlerts(); checkWeather(); });
 addEventListener('offline', connection);
-document.addEventListener('visibilitychange', () => { if (!document.hidden) { checkData(); checkAlerts(); renderAlerts(); state.registration?.update().catch(() => {}); } });
+document.addEventListener('visibilitychange', () => { if (!document.hidden) { checkData(); checkAlerts(); renderAlerts(); if (!state.weather || Date.now() - Date.parse(state.weather.updated_at) > 30 * 60 * 1000) checkWeather(); state.registration?.update().catch(() => {}); } });
 addEventListener('beforeinstallprompt', event => { event.preventDefault(); state.install = event; $('install').hidden = false; });
 $('install').onclick = async () => { if (!state.install) return; await state.install.prompt(); state.install = null; $('install').hidden = true; };
 addEventListener('appinstalled', () => { state.install = null; $('install').hidden = true; });
@@ -574,6 +610,7 @@ const cached = read('trip');
 state.paths=read('paths')||{};
 state.livePaths=read('live-paths')||{};
 if (cached) { try { applyTrip(validateTrip(cached), true); } catch { notice('Պահված տվյալները վնասված են․ փորձում ենք նորից բեռնել։'); } }
-checkData(); checkAlerts(); registerWorker();
+checkData(); checkAlerts(); checkWeather(); registerWorker();
 setInterval(updateClock, 30000);
 setInterval(() => { if (!document.hidden) checkAlerts(); }, 5 * 60 * 1000);
+setInterval(() => { if (!document.hidden) checkWeather(); }, 60 * 60 * 1000);

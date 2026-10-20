@@ -1,0 +1,29 @@
+name: weather
+# Same rhythm as alerts.json: every hour 06:00–23:00 Paris time (04–22 UTC covers CEST and CET after 25.10), until 28.10.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 4-22 * * *'
+permissions:
+  contents: write
+concurrency: weather
+jobs:
+  weather:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Stop after the trip
+        run: '[ "$(date -u +%Y%m%d)" -le 20261028 ] || { echo "trip over"; exit 1; }'
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Open-Meteo forecast → weather.json
+        run: node tools/build-weather.mjs weather.json
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898+github-actions[bot]@users.noreply.github.com"
+          git add weather.json
+          git diff --cached --quiet && exit 0
+          git commit -m "weather: hourly Open-Meteo update"
+          for i in 1 2 3; do git fetch origin main && git rebase -X theirs origin/main && git push origin HEAD:main && break; sleep 5; done
