@@ -1,0 +1,25 @@
+name: lookup
+# Research helper: results go to branch "lookup-output" (never main, so the site is not rebuilt).
+on:
+  workflow_dispatch:
+    inputs:
+      q:
+        description: 'JSON {"commons":[...],"geocode":[...]}'
+        required: true
+permissions:
+  contents: write
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/lookup.mjs "$Q" /tmp/lookup.json
+        env:
+          Q: ${{ inputs.q }}
+      - run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan lookup-output && git rm -rqf . && cp /tmp/lookup.json lookup.json && git add lookup.json
+          git commit -qm "lookup ${{ github.run_id }}" && git push -f origin lookup-output
