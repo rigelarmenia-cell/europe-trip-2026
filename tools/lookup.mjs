@@ -18,4 +18,5 @@ for (const q of input.geocode || []) {
   await sleep(1100);
 }
 for (const u of input.head || []) { try { const r = await fetch(u, { headers: ua }); out['head:' + u] = [r.status, r.headers.get('content-type')]; } catch (e) { out['head:' + u] = String(e); } await sleep(4000); }
+for (const q of input.overpass || []) { try { const r = await fetch('https://overpass-api.de/api/interpreter', { method: 'POST', headers: { ...ua, 'content-type': 'application/x-www-form-urlencoded' }, body: 'data=' + encodeURIComponent(q) }); out['overpass:' + q.slice(0, 60)] = (await r.json()).elements.map(e => ({ name: e.tags?.name, brand: e.tags?.brand, shop: e.tags?.shop, hours: e.tags?.opening_hours, street: e.tags?.['addr:street'], num: e.tags?.['addr:housenumber'], lat: e.lat ?? e.center?.lat, lon: e.lon ?? e.center?.lon, osm: e.type + '/' + e.id })); } catch (e) { out['overpass:' + q.slice(0, 60)] = String(e); } }
 writeFileSync(process.argv[3] || 'lookup.json', JSON.stringify(out, null, 1));
