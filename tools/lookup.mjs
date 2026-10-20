@@ -10,7 +10,7 @@ for (const q of input.commons || []) {
   try { const j = await (await fetch(u, { headers: ua })).json();
     out['commons:' + q] = Object.values(j.query?.pages || {}).map(p => { const i = p.imageinfo?.[0] || {}; return { title: p.title, url: i.thumburl || i.url, orig: i.url, w: i.width, h: i.height, page: i.descriptionurl, author: strip(i.extmetadata?.Artist?.value), license: i.extmetadata?.LicenseShortName?.value }; });
   } catch (e) { out['commons:' + q] = String(e); }
-  await sleep(500);
+  await sleep(3000);
 }
 for (const q of input.geocode || []) {
   const u = new URL('https://nominatim.openstreetmap.org/search'); u.searchParams.set('q', q); u.searchParams.set('format', 'jsonv2'); u.searchParams.set('limit', '3');
