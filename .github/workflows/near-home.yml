@@ -1,0 +1,26 @@
+name: near-home
+# Distances from the private home address (repo secret HOME_ADDR, never printed) to public shop addresses. Output → branch lookup-output.
+on:
+  workflow_dispatch:
+    inputs:
+      shops:
+        description: 'JSON array of public shop addresses'
+        required: true
+permissions:
+  contents: write
+jobs:
+  near:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/near-home.mjs "$SHOPS" /tmp/near-home.json
+        env:
+          SHOPS: ${{ inputs.shops }}
+          HOME_ADDR: ${{ secrets.HOME_ADDR }}
+      - run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan lookup-output && git rm -rqf . && cp /tmp/near-home.json lookup.json && git add lookup.json
+          git commit -qm "near-home ${{ github.run_id }}" && git push -f origin lookup-output
