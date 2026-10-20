@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-19-27",
-  "generated_at": "2026-10-19T03:15:59+04:00",
+  "version": "2026-10-20-28",
+  "generated_at": "2026-10-20T10:29:01+04:00",
   "cities": [
     {
       "id": "paris",
@@ -420,9 +420,9 @@
     {
       "date": "2026-10-20",
       "city": "paris",
-      "title_hy": "Ժամանում, ընթրիք և կարճ զբոսանք Hôtel de Ville շրջանում",
-      "notes_hy": "Այսօր՝ միայն ընթրիք (Le Trumilou, սեղանը ամրագրել ☎ +33 1 42 77 63 98) և կարճ զբոսանք։ Հերթականությունը ստուգված է իրական փողոցային քայլքով (OSM). Hôtel de Ville → Pont d’Arcole → ընթրիք Le Trumilou → Hôtel de Ville կայարանից M11 տուն։ Ավտոբուսի և թռիչքի մանրամասները՝ «Օդանավակայանային տեղափոխություններ» բաժնում։ ⚠ 20.10 ԱՆՎՏԱՆԳՈՒԹՅՈՒՆ. 17–19.10-ին Châtelet–Les Halles-ում և République-ում թալան/բախումներ են եղել, BHV Marais-ը (Hôtel de Ville-ի դիմաց, rue de Rivoli) 18.10-ին թալանվել է։ Մնալ Սենի կողմում (Hôtel de Ville հրապարակ → Pont d’Arcole → Le Trumilou), rue de Rivoli-ից հյուսիս, Les Halles, Châtelet, rue Saint-Denis չմտնել։ Ընթրիքը սկսել 19:30-ին, մինչև ~21:30 նստել M11 Hôtel de Ville-ից։ Եթե 20.10 երեկոյան նորից պարետային ժամ հայտարարվի՝ զբոսանքը կրճատել և անմիջապես տուն գնալ։",
-      "total_walk_km": 3.02,
+      "title_hy": "Ժամանում, լուսավորված Եռակամար և ընթրիք Étoile-ում",
+      "notes_hy": "🔄 Պլանը փոխված է 20.10 առավոտյան. Hôtel de Ville / Pont d’Arcole / Le Trumilou շրջանը կից է 17–19.10-ի թալանի և պարետային ժամի գոտուն (BHV Marais, rue Berger–Sébastopol, Châtelet), իսկ այսօր երեկոյան կառավարությունը նոր պարետային ժամեր է որոշելու։ Եթե Le Trumilou-ում սեղան եք ամրագրել՝ զանգել և չեղարկել ☎ +33 1 42 77 63 98։\nՆոր պլան (թեժ կետերից հեռու, Porte Maillot-ից ոտքով). ~18:45 Porte Maillot → Avenue de la Grande Armée-ով ~16 ր → Եռակամար (լուսավորված, կամարի տակ՝ ստորգետնյա անցումով) → ~19:45 ընթրիք Le Général (Avenue de Wagram) → մինչև ~21:45 M1 Charles de Gaulle–Étoile → Hôtel de Ville (փոխել գետնի տակ) → M11 տուն։\n⚠ Champs-Élysées-ի շրջանում այս օրերին հավաքներն արգելված են, և ոստիկանությունը շատ է. Champs-Élysées-ով չիջնել։ ⚽ 21:00-ին ՓՍԺ–Բարսելոնա խաղ է. խաղից հետո երկրպագուները կարող են հավաքվել Champs-Élysées/Étoile-ում → Étoile-ից հեռանալ մինչև 22:00։ 💡 «Առաջարկներ» բաժնում կա ևս 2 տեղ (Տրոկադերո՝ Էյֆելի փայլատակումով, Բելվիլի դիտակետ՝ տան ճանապարհին)։",
+      "total_walk_km": 1.6,
       "stops": [
         {
           "id": "paris-20-01",
@@ -452,357 +452,241 @@
           "menu_prices_hy": "",
           "reviews_source": "",
           "to_next": {
-            "mode": "metro",
-            "km": null,
-            "min": null,
-            "line": "M1",
-            "color": "դեղին",
-            "direction": "Château de Vincennes",
-            "get_off": "Hôtel de Ville",
-            "transfers_hy": "Porte Maillot-ից M1 (դեղին, ուղղություն՝ Château de Vincennes) առանց փոխելու → Hôtel de Ville։ Տոմս՝ 2,55 €։",
-            "ticket_hy": "2,55 € / անձ՝ առանձին մետրոյի տոմս"
+            "mode": "walk",
+            "km": 1.2,
+            "min": 16,
+            "line": "",
+            "color": "",
+            "direction": "",
+            "get_off": "",
+            "transfers_hy": "Ոտքով Avenue de la Grande Armée-ով ուղիղ դեպի Եռակամարը (~1,2 կմ, ~16 ր). կամարը ամբողջ ճանապարհին երևում է դիմացը։ Եթե հոգնած եք՝ M1 (ուղղություն՝ Château de Vincennes) 1 կանգառ → Charles de Gaulle–Étoile (2,55 €)։",
+            "ticket_hy": ""
           },
           "label": "ՉՍՏՈՒԳՎԱԾ",
           "sources": []
         },
         {
-          "id": "paris-20-02",
+          "id": "paris-20-05",
           "order": 2,
           "kind": "sight",
-          "name_hy": "Քաղաքապետարանի հրապարակ",
-          "name_local": "Place de l’Hôtel de Ville",
-          "lat": 48.8566,
-          "lon": 2.3522,
-          "description_hy": "Մետրոյով կենտրոն հասնելուց հետո դիտել հրապարակն ու լուսավորված ճակատը",
-          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "name_hy": "Եռակամար (Հաղթական կամար)",
+          "name_local": "Arc de Triomphe de l’Étoile",
+          "lat": 48.8737791,
+          "lon": 2.2950372,
+          "description_hy": "Փարիզի խորհրդանիշներից մեկը՝ երեկոյան լուսավորված։ Կամարի տակ է Անհայտ զինվորի շիրիմը (կրակը վառում են ամեն երեկո 18:30-ին)։ ⚠ Կամարին մոտենալ ՄԻԱՅՆ ստորգետնյա անցումով (մուտքերը Champs-Élysées-ի և Grande Armée-ի անկյուններում), հրապարակը վերևով չանցնել՝ շատ ծանր երթևեկություն (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)։ Ըստ ցանկության՝ բարձրանալ տանիք (284 աստիճան, վերելակ չկա բոլորի համար). գիշերային Փարիզ և Էյֆելի աշտարակի փայլատակումը ժամը 20:00/21:00-ին։",
+          "photo_spot_hy": "Avenue de la Grande Armée-ի մայթից (կամարը դիմացից) և կամարի տակից",
           "visit_min": [
-            10,
-            20
+            20,
+            40
           ],
-          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
+          "hours_hy": "Արտաքինից՝ միշտ։ Տանիք՝ հոկտեմբերին 10:00–22:30 (երեքշաբթի 11:00-ից), վերջին մուտք 21:45 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, offi.fr)",
+          "price_hy": "Դրսից և կամարի տակ՝ 0 €։ Տանիք՝ 16 € (մինչև 18 տարեկան՝ անվճար) (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, offi.fr)",
           "photos": [
             {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/H%C3%B4tel_de_Ville_de_Paris_-_Fa%C3%A7ade_-_Ao%C3%BBt_2026.jpg",
-              "author": "Arthur Weidmann (ZeusUpsistos)",
-              "license": "CC BY-SA 4.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Ville_de_Paris_-_Fa%C3%A7ade_-_Ao%C3%BBt_2026.jpg"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 2.07,
-            "min": 28,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Pont d’Arcole, ճանապարհին՝ 📷 7 լուսանկարվելու տեղ (~2,07 կմ, ~28 ր, իրական փողոցներով՝ OSM)։",
-            "ticket_hy": ""
-          },
-          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": [],
-          "photo_points": [
-            {
-              "id": "pp-paris-20-02-7",
-              "name_hy": "Էտյեն Մարսելի ձիարձան",
-              "name_local": "Statue équestre d'Étienne Marcel (jardin des Combattants-de-la-Nueve)",
-              "lat": 48.856212,
-              "lon": 2.353254,
-              "what_hy": "Քաղաքապետարանի հարավային կողմի այգուց լուսանկարեք Էտյեն Մարսելի ձիարձանը՝ շենքի ճակատի ֆոնին։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://www.paris.fr/lieux/jardin-des-combattants-de-la-nueve-17991",
-                "https://fr.wikipedia.org/wiki/Statue_%C3%A9questre_d%27%C3%89tienne_Marcel"
-              ],
-              "checked": "2026-10-19",
-              "photo": null,
-              "on_route": true
-            },
-            {
-              "id": "pp-paris-20-02-4",
-              "name_hy": "Սեն-Ժերվե եկեղեցի",
-              "name_local": "Église Saint-Gervais-Saint-Protais",
-              "lat": 48.8555,
-              "lon": 2.35472,
-              "what_hy": "Քաղաքապետարանի հետևում՝ Փարիզի առաջին բարոկկո ճակատով եկեղեցին։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://tripomatic.com/en/places/rKgOBPIgqIpCfThv"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343539343536",
-                "author": "Miguel Hermoso Cuesta, CC BY-SA 4.0",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://tripomatic.com/en/places/rKgOBPIgqIpCfThv"
-              },
-              "on_route": true
-            },
-            {
-              "id": "pp-paris-20-02-1",
-              "name_hy": "Ռյու դե Բար՝ միջնադարյան փողոց",
-              "name_local": "Rue des Barres",
-              "lat": 48.8553,
-              "lon": 2.35528,
-              "what_hy": "Սալահատակ նեղ փողոց Saint-Gervais եկեղեցու հետևում՝ կիսափայտե տներով. Մարեի ամենաշատ լուսանկարվող հին փողոցներից։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://aroundus.com/p/7417833-rue-des-barres",
-                "https://aroundus.com/c/551-paris-instagrammable-locations-for-photographers"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://img5.digsty.com/7Auz23nLXFXT0lcoctrLnfaaQBf5zeRq37qgWqJaq_A/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xNzk4OTg1NjctYWNmMjJlNDIuanBn.jpg",
-                "author": "Tangopaso (public domain), Around Us",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://aroundus.com/p/7417833-rue-des-barres"
-              },
-              "on_route": true
-            },
-            {
-              "id": "pp-paris-20-02-3",
-              "name_hy": "Ստրավինսկու շատրվան",
-              "name_local": "Fontaine Stravinsky",
-              "lat": 48.85948,
-              "lon": 2.35149,
-              "what_hy": "Գունավոր շարժվող քանդակներով շատրվան Պոմպիդու կենտրոնի կողքին։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://tripomatic.com/en/places/_1bJS_C_p7Cbslt1"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832363130383537",
-                "author": "AlfvanBeem, CC0",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://tripomatic.com/en/places/_1bJS_C_p7Cbslt1"
-              },
-              "on_route": true
-            },
-            {
-              "id": "pp-paris-20-02-5",
-              "name_hy": "Սեն-Մերի եկեղեցի",
-              "name_local": "Église Saint-Merri",
-              "lat": 48.85889,
-              "lon": 2.35111,
-              "what_hy": "Կանգնեք Սեն-Մարտեն փողոցում և լուսանկարեք եկեղեցու ուշ գոթական ճակատը։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://en.wikipedia.org/wiki/Saint-Merri"
-              ],
-              "checked": "2026-10-19",
-              "photo": {
-                "url": "https://live.staticflickr.com/614/22426840506_7abb514957_b.jpg",
-                "author": "Jorge Láscar",
-                "license": "CC BY 2.0",
-                "source_page": "https://www.flickr.com/photos/jlascar/22426840506/"
-              },
-              "on_route": true
-            },
-            {
-              "id": "pp-paris-20-02-2",
-              "name_hy": "Սեն-Ժակ աշտարակ",
-              "name_local": "Tour Saint-Jacques",
-              "lat": 48.858,
-              "lon": 2.34892,
-              "what_hy": "54 մ գոթական զանգակատուն՝ իր այգում, Շատլեի մոտ։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://tripomatic.com/en/places/7NdfTENbuX88qOjE"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3832343332323331",
-                "author": "Moonik, CC BY-SA 3.0",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://tripomatic.com/en/places/7NdfTENbuX88qOjE"
-              },
-              "on_route": true
-            },
-            {
-              "id": "pp-paris-20-02-6",
-              "name_hy": "Նոտր-Դամ կամուրջ",
-              "name_local": "Pont Notre-Dame",
-              "lat": 48.856047,
-              "lon": 2.348558,
-              "what_hy": "Կանգնեք Ժեսվր առափնյակում և լուսանկարեք կամրջի կամարները Սենի վրա՝ Սիտե կղզու ֆոնին։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://en.wikipedia.org/wiki/Pont_Notre-Dame"
-              ],
-              "checked": "2026-10-19",
-              "photo": null,
-              "on_route": true
-            }
-          ]
-        },
-        {
-          "id": "paris-20-04",
-          "order": 3,
-          "kind": "sight",
-          "name_hy": "Արկոլի կամուրջ",
-          "name_local": "Pont d’Arcole",
-          "lat": 48.8556,
-          "lon": 2.3504,
-          "description_hy": "Կարճ երեկոյան զբոսանք Սենի ափին, վերադարձն առաջնահերթ է մինչև 23:00",
-          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
-          "visit_min": [
-            10,
-            20
-          ],
-          "hours_hy": "Բացօթյա՝ տեղային սահմանափակումները ՉՍՏՈՒԳՎԱԾ",
-          "price_hy": "Հանրային բացօթյա դիտում՝ 0 €",
-          "photos": [
-            {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Pont_d%27Arcole.JPG",
-              "author": "LPLT",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Arc_Triomphe_at_night%2C_21_October_2007_%28cropped%29.jpg/1280px-Arc_Triomphe_at_night%2C_21_October_2007_%28cropped%29.jpg",
+              "author": "Benh LIEU SONG",
               "license": "CC BY-SA 3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Pont_d%27Arcole.JPG"
+              "source_page": "https://commons.wikimedia.org/wiki/File:Arc_Triomphe_at_night,_21_October_2007_(cropped).jpg"
+            },
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Arc_de_Triomphe_from_the_avenue_de_la_Grande-Arm%C3%A9e%2C_9_September_2015.jpg/1280px-Arc_de_Triomphe_from_the_avenue_de_la_Grande-Arm%C3%A9e%2C_9_September_2015.jpg",
+              "author": "VarockAndRoll",
+              "license": "CC BY-SA 2.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe_from_the_avenue_de_la_Grande-Arm%C3%A9e,_9_September_2015.jpg"
             }
           ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
+          "tickets_url": "https://www.paris-arc-de-triomphe.fr/",
           "to_next": {
             "mode": "walk",
-            "km": 0.95,
-            "min": 13,
+            "km": 0.25,
+            "min": 4,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Le Trumilou, ճանապարհին՝ 📷 4 լուսանկարվելու տեղ (~0,95 կմ, ~13 ր, իրական փողոցներով՝ OSM)։",
+            "transfers_hy": "Ստորգետնյա անցումով դուրս գալ, Avenue de Wagram-ով ~150 մ դեպի ռեստորանը։",
             "ticket_hy": ""
           },
-          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
-          "sources": [],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.offi.fr/a-travers-paris/arc-de-triomphe-1423.html",
+            "https://www.openstreetmap.org/search?query=Arc%20de%20Triomphe%20Paris"
+          ],
           "photo_points": [
             {
-              "id": "pp-paris-20-04-1",
-              "name_hy": "«Au Vieux Paris d’Arcole»՝ ծաղիկներով ճակատ",
-              "name_local": "Au Vieux Paris d’Arcole, 24 rue Chanoinesse",
-              "lat": 48.8542,
-              "lon": 2.35032,
-              "what_hy": "Ծաղիկներով և բաղեղով պատված փոքր ռեստորանի ճակատ՝ Instagram-ի դասական ֆոն, Արկոլի կամրջից մի քանի քայլ։",
+              "id": "pp-paris-20-05-1",
+              "name_hy": "Անհայտ զինվորի շիրիմը և կրակը",
+              "name_local": "Tombe du Soldat inconnu – Flamme",
+              "lat": 48.87378,
+              "lon": 2.29504,
+              "what_hy": "Կամարի տակ՝ մշտական կրակը և շիրիմը. լուսանկարել հարգանքով, առանց կանգնելու շիրիմի վրա։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://parisjetaime.com/eng/article/spots-to-take-instagram-worthy-photos-in-paris-a815"
+                "https://www.offi.fr/a-travers-paris/arc-de-triomphe-1423.html"
               ],
-              "checked": "2026-10-18",
+              "checked": "2026-10-20",
               "photo": {
-                "url": "https://parisjetaime.com/data/layout_image/25470_Au-Vieux-Paris-d%27Arcole--630x405--%C2%A9-Wikimedia.jpg",
-                "author": "© Wikimédia, parisjetaime.com",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://parisjetaime.com/eng/article/spots-to-take-instagram-worthy-photos-in-paris-a815"
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Flamme_Arc_triomphe.jpg/1280px-Flamme_Arc_triomphe.jpg",
+                "author": "Jebulon",
+                "license": "CC0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Flamme_Arc_triomphe.jpg"
               },
               "on_route": true
             },
             {
-              "id": "pp-paris-20-04-3",
-              "name_hy": "Կույսի շատրվան (Ժան XXIII այգի)",
-              "name_local": "Fontaine de la Vierge, Square Jean-XXIII",
-              "lat": 48.85256,
-              "lon": 2.35138,
-              "what_hy": "Նոտր Դամի ետևի այգում՝ տաճարի արևելյան մասի դասական լուսանկարի առաջնապլան։",
+              "id": "pp-paris-20-05-2",
+              "name_hy": "Avenue de Wagram-ի տեսարանը կամարից",
+              "name_local": "Avenue de Wagram (vue depuis l’Étoile)",
+              "lat": 48.87455,
+              "lon": 2.29565,
+              "what_hy": "Wagram պողոտայի մեկնարկը՝ Haussmann-ի ոճի շենքերով, ռեստորանի ճանապարհին։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://aroundus.com/p/7407168-fontaine-de-la-vierge"
+                "https://commons.wikimedia.org/wiki/File:Avenue_de_Wagram_depuis_Arc_de_Triomphe_Etoile_Paris.jpg"
               ],
-              "checked": "2026-10-18",
+              "checked": "2026-10-20",
               "photo": {
-                "url": "https://img9.digsty.com/wtyg5Y1HqTxM8HMWaN22b4ap-klM71U3Z-B6ZTdLhQc/rs:fit:400:400:1/g:fp:0.5:0.5/czM6Ly9hcm91bmR1cy80OS8xODAyODY2MjktOGQyMWMxNjYuanBn.jpg",
-                "author": "Mbzt, CC BY-SA",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://aroundus.com/p/7407168-fontaine-de-la-vierge"
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Avenue_de_Wagram_depuis_Arc_de_Triomphe_Etoile_Paris.jpg/1280px-Avenue_de_Wagram_depuis_Arc_de_Triomphe_Etoile_Paris.jpg",
+                "author": "Jebulon",
+                "license": "CC BY-SA 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Avenue_de_Wagram_depuis_Arc_de_Triomphe_Etoile_Paris.jpg"
               },
-              "on_route": true
-            },
-            {
-              "id": "pp-paris-20-04-2",
-              "name_hy": "Սեն-Լուի կամուրջ",
-              "name_local": "Pont Saint-Louis",
-              "lat": 48.85276,
-              "lon": 2.35277,
-              "what_hy": "Հետիոտնային կամուրջ երկու կղզիների միջև՝ Նոտր Դամի ետնամասի տեսարանով և փողոցային երաժիշտներով։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://tripomatic.com/en/places/pGYI38o7a8x7nz6D"
-              ],
-              "checked": "2026-10-18",
-              "photo": {
-                "url": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d383739313330373836",
-                "author": "Jean-Jacques Champin, CC BY 3.0",
-                "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-                "source_page": "https://tripomatic.com/en/places/pGYI38o7a8x7nz6D"
-              },
-              "on_route": true
-            },
-            {
-              "id": "pp-paris-20-04-4",
-              "name_hy": "Լուի-Ֆիլիպ կամուրջ",
-              "name_local": "Pont Louis-Philippe",
-              "lat": 48.85389,
-              "lon": 2.35444,
-              "what_hy": "Կամրջի մեջտեղից լուսանկարեք Սիտե կղզին և Նոտր-Դամը Սենի վրայով։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://en.wikipedia.org/wiki/Pont_Louis-Philippe"
-              ],
-              "checked": "2026-10-19",
-              "photo": null,
               "on_route": true
             }
           ]
         },
         {
-          "id": "paris-20-03",
-          "order": 4,
+          "id": "paris-20-06",
+          "order": 3,
           "kind": "food",
-          "name_hy": "Ընթրիքի տարբերակ՝ Le Trumilou",
-          "name_local": "Le Trumilou",
-          "lat": 48.8524,
-          "lon": 2.3562,
-          "description_hy": "Մենք ընտրել ենք ընթրիք + կարճ զբոսանք։ Ռեստորանը բաց է ամեն օր 12:00–15:00 և 19:00–23:00, երեքշաբթի երեկոյան՝ բաց (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ (ստուգված 18.10.2026))։ Ամրագրումը խորհուրդ է տրվում՝ ☎ +33 1 42 77 63 98 կամ letrumilou.fr. 8 հոգու սեղանը նախապես ամրագրել։",
-          "photo_spot_hy": "Դիտակետը՝ նշված կանգառի հանրային հատվածից (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)",
+          "name_hy": "Ընթրիք՝ Brasserie Le Général",
+          "name_local": "Le Général, 17 avenue de Wagram",
+          "lat": 48.8758973,
+          "lon": 2.2962852,
+          "description_hy": "Ֆրանսիական բրասերի Եռակամարից ~150 մ (Avenue de Wagram, 17-րդ թաղամաս, թեժ կետերից հեռու)։ Բաց է ամեն օր մինչև ուշ գիշեր. ֆիրմային ուտեստներ՝ բադի կրծքամիս (magret), տարտար, ծովամթերք, կան բուսակերային տարբերակներ (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, Փարիզի պաշտոնական զբոսաշրջային կայք)։ 8 հոգու համար նախապես զանգել ☎ +33 1 43 80 34 12։",
+          "photo_spot_hy": "",
           "visit_min": [
-            40,
-            65
+            60,
+            80
           ],
-          "hours_hy": "Ամեն օր 12:00–15:00, 19:00–23:00 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
-          "price_hy": "Ֆորմուլա ~18,50–20 €, մենյու ~22,50–24 €, հիմնական ուտեստ ~16–23 € (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, կարող է փոխված լինել)",
+          "hours_hy": "Ամեն օր, մինչև ուշ գիշեր (աղբյուրում ժամերը հակասական են → զանգով ճշտել) (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
+          "price_hy": "À la carte միջինը 20–40 € / անձ (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, parisjetaime.com)",
           "photos": [
             {
-              "url": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/paris-20-03.jpg",
-              "author": "Ինտերնետից, ուղարկել է Սեդրակը",
-              "license": "Միայն խմբի մասնավոր օգտագործման համար",
-              "source_page": "https://rigelarmenia-cell.github.io/europe-trip-2026/photos/paris-20-03.jpg"
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Avenue_de_Wagram_depuis_Arc_de_Triomphe_Etoile_Paris.jpg/1280px-Avenue_de_Wagram_depuis_Arc_de_Triomphe_Etoile_Paris.jpg",
+              "author": "Jebulon",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Avenue_de_Wagram_depuis_Arc_de_Triomphe_Etoile_Paris.jpg"
             }
           ],
-          "menu_url": "https://www.letrumilou.fr/carte-et-menu/menu-et-carte/",
-          "menu_prices_hy": "Մանրամասն ընթացիկ մենյու չգտնվեց (պաշտոնական կայքը չբացվեց)։ Գներ (restoaparis.com, առանց ամսաթվի). Canard aux pruneaux 17 €; Ris de veau grand mère 22 €։ Սեթեր. Formule 16,5 € (plat + entrée ou dessert; dimanche 18 €); Menu 20,5 € (entrée + plat + dessert; dimanche 22 €)։",
+          "menu_url": "",
+          "menu_prices_hy": "Մանրամասն մենյու և գներ չգտնվեցին. աղբյուրում միայն միջին գինը՝ 20–40 € (parisjetaime.com, ստուգված 20.10.2026)։ Նկարը՝ Avenue de Wagram-ն է, ոչ թե ռեստորանը։",
           "reviews_source": "",
           "to_next": {
             "mode": "metro",
             "km": null,
             "min": null,
-            "line": "M11",
-            "color": "շագանակագույն",
-            "direction": "Rosny–Bois-Perrier",
+            "line": "M1 + M11",
+            "color": "դեղին + շագանակագույն",
+            "direction": "Château de Vincennes, ապա Rosny–Bois-Perrier",
             "get_off": "Romainville–Carnot",
-            "transfers_hy": "🏠 Տուն. ~7 ր ոտքով հետ Hôtel de Ville կայարան, M11 (ուղղություն՝ Rosny–Bois-Perrier) առանց փոխելու → Romainville–Carnot, հետո ~10 ր քայլք։ Տոմս՝ 2,55 €։ Վերջին գնացքը Hôtel de Ville-ից երկ.–հինգ.՝ ~00:40 (RATP)։",
+            "transfers_hy": "🏠 Տուն. ~4 ր ոտքով Charles de Gaulle–Étoile կայարան → M1 (դեղին, ուղղություն՝ Château de Vincennes) 10 կանգառ → Hôtel de Ville, փոխել ԳԵՏՆԻ ՏԱԿ (դուրս չգալ) → M11 (շագանակագույն, ուղղություն՝ Rosny–Bois-Perrier) → Romainville–Carnot, հետո ~10 ր քայլք։ Ընդամենը ~45 ր, մեկ տոմս՝ 2,55 €։ Étoile-ից դուրս գալ մինչև ~21:45։",
             "ticket_hy": "2,55 € / անձ"
           },
-          "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
-            "https://www.letrumilou.fr/carte-et-menu/menu-et-carte/",
-            "https://par.is/p/le-trumilou",
-            "https://www.lesrestos.com/restaurant/fiche/paris/le-trumilou",
-            "https://www.restoaparis.com/fiche-restaurant-paris/le-trumilou.html"
+            "https://parisjetaime.com/restaurant/brasserie-le-general-p4790",
+            "https://www.openstreetmap.org/search?query=17%20avenue%20de%20Wagram%20Paris"
           ]
+        }
+      ],
+      "suggestions": [
+        {
+          "id": "sug-paris-20-1",
+          "kind": "sight",
+          "name_hy": "Տրոկադերո. Էյֆելի աշտարակի գիշերային փայլատակումը",
+          "name_local": "Place du Trocadéro – Parvis des Droits-de-l’Homme",
+          "lat": 48.8620816,
+          "lon": 2.2885435,
+          "why_hy": "Ամենագեղեցիկ տեսարանը լուսավորված Էյֆելի աշտարակին. ամեն ժամի սկզբին (20:00, 21:00) 5 րոպե աշտարակը փայլատակում է։",
+          "how_hy": "Ընթրիքից հետո՝ M6 Charles de Gaulle–Étoile → Trocadéro (2 կանգառ, 2,55 €) կամ ~1,4 կմ ոտքով Avenue Kléber-ով։ Հասնել 21:00-ի փայլատակմանը։ Տուն՝ M6 → Étoile → M1 → Hôtel de Ville (փոխել գետնի տակ) → M11։",
+          "description_hy": "Պալե դը Շայոյի հրապարակը Էյֆելի աշտարակի դիմաց։ 21.10-ին այստեղ ցերեկով ենք լինելու. երեկոյան տեսարանը բոլորովին այլ է։",
+          "hours_hy": "Բացօթյա, միշտ։ Փայլատակում՝ մութն ընկնելուց հետո ամեն ժամի սկզբին, 5 րոպե (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
+          "price_hy": "0 €",
+          "visit_min": [
+            15,
+            30
+          ],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/View_of_Paris_at_night_from_the_Arc_de_Triomphe_%2849654775043%29.jpg/1280px-View_of_Paris_at_night_from_the_Arc_de_Triomphe_%2849654775043%29.jpg",
+              "author": "Cheng-en Cheng from Taichung City, Taiwan",
+              "license": "CC BY-SA 2.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:View_of_Paris_at_night_from_the_Arc_de_Triomphe_(49654775043).jpg"
+            }
+          ],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.pariscityvision.com/fr/paris/monuments/tour-eiffel/horaire"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-sug-paris-20-1-1",
+              "name_hy": "Տրոկադերոյի հարթակից՝ Էյֆելը",
+              "name_local": "Parvis des Droits-de-l’Homme",
+              "lat": 48.8619,
+              "lon": 2.2878,
+              "what_hy": "Հարթակի կենտրոնից՝ ամբողջ աշտարակը, փայլատակումը ժամի սկզբին։",
+              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+              "sources": [
+                "https://www.pariscityvision.com/fr/paris/monuments/tour-eiffel/horaire"
+              ],
+              "checked": "2026-10-20",
+              "photo": null,
+              "on_route": true
+            }
+          ],
+          "insert_after": "paris-20-06"
+        },
+        {
+          "id": "sug-paris-20-2",
+          "kind": "sight",
+          "name_hy": "Բելվիլի դիտակետ (Willy Ronis)՝ տան ճանապարհին",
+          "name_local": "Belvédère Willy Ronis, rue Piat",
+          "lat": 48.8715819,
+          "lon": 2.3853213,
+          "why_hy": "Մեր M11 գծի վրա է. Pyrénées կայարանից ~3 ր ոտքով, ամբողջ Փարիզը Էյֆելով, առանց զբոսաշրջիկների։ Հետո նույն M11-ով ուղիղ տուն։",
+          "how_hy": "M1 → Hôtel de Ville → M11 → Pyrénées (դուրս գալ), rue de Belleville → rue Piat-ի վերին մասը։ Հետ՝ Pyrénées → M11 → Romainville–Carnot։",
+          "description_hy": "Բելվիլ այգու վերին հարթակը rue Piat-ի վրա։ ⚠ Այգին հոկտեմբերին փակվում է 19:30-ին. երեկոյան դիտակետը մատչելի է՞ դարպասից դուրս՝ ՉՍՏՈՒԳՎԱԾ (rue Piat-ի մայթից տեսարանը մասամբ երևում է)։ République-ի շրջան (Faubourg du Temple-ի ներքևի մասը) ՉԻՋՆԵԼ։",
+          "hours_hy": "Այգի՝ 08:00–19:30 (հոկտեմբեր) (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, bonjour-ratp.fr)",
+          "price_hy": "0 €",
+          "visit_min": [
+            10,
+            20
+          ],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Vue_de_la_tour_eiffel_depuis_le_parc_de_belle_ville.jpg/1280px-Vue_de_la_tour_eiffel_depuis_le_parc_de_belle_ville.jpg",
+              "author": "Shems02",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Vue_de_la_tour_eiffel_depuis_le_parc_de_belle_ville.jpg"
+            },
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Vue_depuis_le_Parc_de_Belleville.JPG/1280px-Vue_depuis_le_Parc_de_Belleville.JPG",
+              "author": "LPLT",
+              "license": "CC BY-SA 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Vue_depuis_le_Parc_de_Belleville.JPG"
+            }
+          ],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.pariszigzag.fr/sortir-paris/balade-paris/la-plus-belle-rue-pour-admirer-tout-paris/",
+            "https://www.bonjour-ratp.fr/en/lieux/parc-de-belleville/"
+          ],
+          "photo_points": []
         }
       ]
     },

@@ -151,6 +151,55 @@ function personalDay() {
   const item = state.personal?.[key];
   return item && typeof item === 'object' && !Array.isArray(item) ? item : {};
 }
+// 💡 Day suggestions (trip.json days[].suggestions): one tap adds the place to the plan at the cheapest position.
+function suggestionAdded(sug) { return customStops().some(s => s.suggestion_id === sug.id); }
+function addSuggestion(sug) {
+  const stop = { ...sug, id: `custom-${sug.id}`, custom: true, suggestion_id: sug.id, name_hy: `💡 ${sug.name_hy}`, to_next: undefined };
+  updatePersonal(item => {
+    const stops = sortedStops(currentDay()), ids = stops.map(s => s.id);
+    const home = currentCity()?.home_station, pt = s => s && coordinates(s) ? {lat:s.lat, lon:s.lon} : null;
+    let best = ids.length, cost = Infinity;
+    for (let i = 1; i <= stops.length; i++) {
+      const prev = pt(stops[i - 1]), next = pt(stops[i]) || pt(home);
+      if (!prev) continue;
+      const c = haversine(prev, stop) + (next ? haversine(stop, next) - haversine(prev, next) : 0);
+      if (c < cost) { cost = c; best = i; }
+    }
+    const after = ids.indexOf(sug.insert_after); if (after >= 0) best = after + 1; // data can pin a better time slot (e.g. after dinner)
+    item.custom = [...list(item.custom).filter(s => s.suggestion_id !== sug.id), stop];
+    ids.splice(best, 0, stop.id); item.order = ids; delete item.order_before_shortest; delete item.food_moves;
+  });
+  notice(`Ավելացվեց՝ ${sug.name_hy}։ Տեսեք օրվա ցանկում և քարտեզին։`);
+}
+function removeSuggestion(sug) {
+  updatePersonal(item => { item.custom = list(item.custom).filter(s => s.suggestion_id !== sug.id); if (Array.isArray(item.order)) item.order = item.order.filter(id => id !== `custom-${sug.id}`); delete item.order_before_shortest; delete item.food_moves; });
+}
+function renderSuggestions(day) {
+  const box = $('suggestions'), out = $('suggest-list'); if (!box) return;
+  const items = list(day?.suggestions).filter(s => s && typeof s.id === 'string' && coordinates(s));
+  box.hidden = !items.length; out.replaceChildren();
+  for (const sug of items) {
+    const added = suggestionAdded(sug);
+    const card = element('div', undefined, 'suggest-card' + (added ? ' suggest-added' : ''));
+    const more = element('details'); const sum = element('summary'); sum.append(element('strong', sug.name_hy), element('span', sug.name_local || '', 'stop-local'));
+    if (added) sum.append(element('span', '✓ պլանում է', 'stop-status'));
+    more.append(sum);
+    const body = element('div', undefined, 'stop-body');
+    const photo = list(sug.photos).find(p => p && safeUrl(p.url));
+    if (photo) { const fig = element('figure'), img = document.createElement('img'); img.src = photo.url; img.alt = sug.name_hy; img.loading = 'lazy'; img.referrerPolicy = 'no-referrer'; img.onerror = () => fig.remove();
+      const cap = element('figcaption', `${text(photo.author)} · ${text(photo.license)} `); if (safeUrl(photo.source_page)) cap.append(link('Աղբյուր', photo.source_page, '')); fig.append(img, cap); body.append(fig); }
+    if (sug.why_hy) body.append(element('p', '⭐ ' + sug.why_hy));
+    if (sug.description_hy) body.append(element('p', sug.description_hy));
+    if (sug.how_hy) body.append(element('p', '🚶 ' + sug.how_hy, 'fine'));
+    const dl = element('dl'); field(dl, 'Ժամեր', sug.hours_hy); field(dl, 'Գին', sug.price_hy); body.append(dl);
+    for (const point of list(sug.photo_points)) body.append(element('p', `📷 ${point.name_hy || point.name_local}${point.what_hy ? ' — ' + point.what_hy : ''}`, 'fine'));
+    body.append(element('span', sug.label || 'ՉՍՏՈՒԳՎԱԾ', 'badge'));
+    for (const src of list(sug.sources).filter(u => safeUrl(u))) body.append(link('Աղբյուր ↗', src, 'fine-link'));
+    const btn = element('button', added ? 'Հանել պլանից' : '✓ Այցելում ենք', added ? 'quiet' : 'primary');
+    btn.dataset.suggestion = sug.id; btn.onclick = () => added ? removeSuggestion(sug) : addSuggestion(sug);
+    more.append(body); card.append(more, btn); out.append(card);
+  }
+}
 function customStops() { return list(personalDay().custom).filter(s => s && typeof s.id === 'string' && coordinates(s)); }
 function withCustom(day) { return day ? { ...day, stops: [...day.stops, ...customStops()] } : day; }
 function sortedStops(day) { return orderedStops(withCustom(day), personalDay()); }
@@ -263,6 +312,7 @@ function render() {
   $('walk-total').textContent = day ? `Քայլք՝ ${day.total_walk_km == null ? 'չստուգված' : `${distanceNumber(day.total_walk_km)} կմ`}` : '';
   $('stop-count').textContent = `${stops.length} կանգառ`;
   $('stops').replaceChildren(...stops.map(renderStop));
+  renderSuggestions(day);
   if (!stops.length) $('stops').append(element('p', 'Կանգառները դեռ պատրաստվում են', 'empty'));
   renderHome(city);
   renderAirports($('airports'), $('flights'), trip); renderTickets(city);
