@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-20-28",
-  "generated_at": "2026-10-20T10:29:01+04:00",
+  "version": "2026-10-20-29",
+  "generated_at": "2026-10-20T10:46:49+04:00",
   "cities": [
     {
       "id": "paris",
@@ -1739,6 +1739,84 @@
             "https://www.lucandjune.com/le-bouillon-chartier-paris/"
           ]
         }
+      ],
+      "suggestions": [
+        {
+          "id": "sug-paris-21-1",
+          "kind": "sight",
+          "name_hy": "Ազատության կրակ (Դիանայի հուշավայր)",
+          "name_local": "Flamme de la Liberté, Place de l’Alma",
+          "lat": 48.864183,
+          "lon": 2.300876,
+          "why_hy": "Ազատության արձանի ջահի ոսկեզօծ կրկնօրինակը, Պոն դ’Իենայից Ալեքսանդր III կամուրջ գնալու ճանապարհին։",
+          "description_hy": "Նվեր է Ֆրանսիային 1987-ին (International Herald Tribune)՝ ֆրանս-ամերիկյան բարեկամության խորհրդանիշ. 1997-ից հետո դարձել է արքայադուստր Դիանայի հիշատակի վայր (նրա վթարը եղել է հենց տակի թունելում)։",
+          "how_hy": "Սենի աջ ափով Pont d’Iéna-ից ~1 կմ դեպի արևելք (Place de l’Alma), այնտեղից ափով շարունակել դեպի Pont Alexandre III (~1,2 կմ)։",
+          "hours_hy": "Բացօթյա, 24/7 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, parisjetaime.com)",
+          "price_hy": "0 €",
+          "visit_min": [
+            10,
+            15
+          ],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Flamme_de_la_Libert%C3%A9%2C_Paris_3_December_2016.jpg/1280px-Flamme_de_la_Libert%C3%A9%2C_Paris_3_December_2016.jpg",
+              "author": "Guilhem Vellut from Paris, France",
+              "license": "CC BY 2.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Flamme_de_la_Libert%C3%A9,_Paris_3_December_2016.jpg"
+            }
+          ],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://parisjetaime.com/eng/culture/flamme-de-la-liberte-stele-commemorative-a-la-princesse-diana-p1091"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-sug-paris-21-1-1",
+              "name_hy": "Կրակը Էյֆելի ֆոնին",
+              "name_local": "Place de l’Alma",
+              "lat": 48.86445,
+              "lon": 2.30155,
+              "what_hy": "Place de l’Alma-ի հարավային մայթից՝ ոսկեզօծ կրակը, հետևում՝ Էյֆելի աշտարակը (ԵՆԹԱԴՐՈՒԹՅՈՒՆ)։",
+              "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+              "sources": [
+                "https://parisjetaime.com/eng/culture/flamme-de-la-liberte-stele-commemorative-a-la-princesse-diana-p1091"
+              ],
+              "checked": "2026-10-20",
+              "photo": null,
+              "on_route": true
+            }
+          ]
+        },
+        {
+          "id": "sug-paris-21-2",
+          "kind": "sight",
+          "name_hy": "Ռոդենի թանգարանի այգի («Մտածողը»)",
+          "name_local": "Musée Rodin, 77 rue de Varenne",
+          "lat": 48.8547473,
+          "lon": 2.315867,
+          "why_hy": "Ռոդենի «Մտածողը» և այլ քանդակներ վարդերի այգում, Ինվալիդներից ~400 մ։",
+          "description_hy": "Թանգարանը և այգին՝ Hôtel Biron առանձնատանը։ Այգին և թանգարանը նույն տոմսով են։ Երկուշաբթի փակ է (21.10-ը չորեքշաբթի է՝ բաց)։",
+          "how_hy": "Esplanade des Invalides-ից դեպի հարավ, Avenue de Tourville → rue de Varenne (~8 ր ոտքով)։ Մետրո՝ Varenne (M13)։",
+          "hours_hy": "Երք–Կիր 10:00–18:30, վերջին մուտք 17:45, այգին դատարկում են 17:30-ին (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, avygeo.com)",
+          "price_hy": "Տոմսը՝ ~15 €-ից (ճշգրիտ գինը և «միայն այգի» տոմսը ՉՍՏՈՒԳՎԱԾ. ստուգել musee-rodin.fr)",
+          "visit_min": [
+            40,
+            75
+          ],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Le_mus%C3%A9e_Rodin%2C_Le_Penseur%2C_2010.jpg/1280px-Le_mus%C3%A9e_Rodin%2C_Le_Penseur%2C_2010.jpg",
+              "author": "Jean-Pierre Dalbéra from Paris, France",
+              "license": "CC BY 2.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Le_mus%C3%A9e_Rodin,_Le_Penseur,_2010.jpg"
+            }
+          ],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.avygeo.com/fr/guide/lieux-interet/19374-musee-rodin"
+          ],
+          "photo_points": []
+        }
       ]
     },
     {
@@ -2726,6 +2804,90 @@
             "https://www.lucandjune.com/le-bouillon-chartier-paris/"
           ]
         }
+      ],
+      "suggestions": [
+        {
+          "id": "sug-paris-22-1",
+          "kind": "sight",
+          "name_hy": "Սեն-Լուի կղզի և Berthillon պաղպաղակ",
+          "name_local": "Île Saint-Louis – Berthillon, 31 rue Saint-Louis-en-l’Île",
+          "lat": 48.8517084,
+          "lon": 2.356718,
+          "why_hy": "Նոտր Դամի հետևի հանգիստ կղզին՝ 17-րդ դարի տներով, և Փարիզի ամենահայտնի պաղպաղակը։",
+          "description_hy": "Pont Saint-Louis կամրջով Նոտր Դամից անցնել կղզի, քայլել rue Saint-Louis-en-l’Île-ով մինչև Berthillon (31)։ Quai d’Orléans-ից՝ Նոտր Դամի հետևի տեսարանը։",
+          "how_hy": "Նոտր Դամից ~600 մ ոտքով (Pont Saint-Louis)։ Հետո Quai d’Orléans-ով վերադառնալ Quai Saint-Michel։",
+          "hours_hy": "Berthillon-ի ժամերը և փակ օրերը ՉՍՏՈՒԳՎԱԾ (☎ +33 1 43 54 31 61). կղզին՝ միշտ բաց",
+          "price_hy": "Կղզին՝ 0 €։ Պաղպաղակի գինը ՉՍՏՈՒԳՎԱԾ",
+          "visit_min": [
+            20,
+            40
+          ],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/%C3%8Ele_Saint-Louis_-_Quai_d%27Orl%C3%A9ans_%28Paris%29.jpg/1280px-%C3%8Ele_Saint-Louis_-_Quai_d%27Orl%C3%A9ans_%28Paris%29.jpg",
+              "author": "Milvus~commonswiki",
+              "license": "CC BY 2.5",
+              "source_page": "https://commons.wikimedia.org/wiki/File:%C3%8Ele_Saint-Louis_-_Quai_d%27Orl%C3%A9ans_(Paris).jpg"
+            }
+          ],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://parisjetaime.com/restaurant/glacier-berthillon-p3376",
+            "https://www.openstreetmap.org/search?query=Berthillon%20Paris"
+          ],
+          "photo_points": [
+            {
+              "id": "pp-sug-paris-22-1-1",
+              "name_hy": "Quai d’Orléans-ից՝ Նոտր Դամի հետևը",
+              "name_local": "Quai d’Orléans",
+              "lat": 48.8517,
+              "lon": 2.3542,
+              "what_hy": "Կղզու արևմտյան ափից՝ Նոտր Դամի արևելյան կողմը և Սենը։",
+              "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
+              "sources": [
+                "https://commons.wikimedia.org/wiki/File:%C3%8Ele_Saint-Louis_-_Quai_d%27Orl%C3%A9ans_(Paris).jpg"
+              ],
+              "checked": "2026-10-20",
+              "photo": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/%C3%8Ele_Saint-Louis_-_Quai_d%27Orl%C3%A9ans_%28Paris%29.jpg/1280px-%C3%8Ele_Saint-Louis_-_Quai_d%27Orl%C3%A9ans_%28Paris%29.jpg",
+                "author": "Milvus~commonswiki",
+                "license": "CC BY 2.5",
+                "source_page": "https://commons.wikimedia.org/wiki/File:%C3%8Ele_Saint-Louis_-_Quai_d%27Orl%C3%A9ans_(Paris).jpg"
+              },
+              "on_route": true
+            }
+          ]
+        },
+        {
+          "id": "sug-paris-22-2",
+          "kind": "sight",
+          "name_hy": "Պանթեոն",
+          "name_local": "Panthéon, Place du Panthéon",
+          "lat": 48.8461947,
+          "lon": 2.3460507,
+          "why_hy": "Ֆրանսիայի մեծերի դամբարանը (Վոլտեր, Հյուգո, Կյուրի)՝ հսկայական գմբեթով, Quai Saint-Michel-ից ~900 մ։",
+          "description_hy": "Ներսում՝ Ֆուկոյի ճոճանակը և դամբարանները։ Դրսից էլ տպավորիչ է՝ rue Soufflot-ից։",
+          "how_hy": "Quai Saint-Michel-ից Boulevard Saint-Michel → rue Soufflot (~12 ր ոտքով, վերելք)։",
+          "hours_hy": "Հոկտեմբերին 10:00–18:00, վերջին մուտք 17:15 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, offi.fr)",
+          "price_hy": "13 € (մինչև 18 տարեկան՝ անվճար) (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, offi.fr). դրսից՝ 0 €",
+          "visit_min": [
+            20,
+            60
+          ],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Panth%C3%A9on_de_Paris_%28fa%C3%A7ade%2C_depuis_la_rue_Souflot%29.jpg/1280px-Panth%C3%A9on_de_Paris_%28fa%C3%A7ade%2C_depuis_la_rue_Souflot%29.jpg",
+              "author": "Philippe",
+              "license": "CC BY-SA 2.0 fr",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Panth%C3%A9on_de_Paris_(fa%C3%A7ade,_depuis_la_rue_Souflot).jpg"
+            }
+          ],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.offi.fr/a-travers-paris/pantheon-2918.html"
+          ],
+          "photo_points": []
+        }
       ]
     },
     {
@@ -3432,6 +3594,68 @@
             "https://www.bouillon-chartier.com/en/the-bouillons/",
             "https://fr.newtable.com/restaurant-bouillon-chartier-a-gare-de-l-est-6530.php"
           ]
+        }
+      ],
+      "suggestions": [
+        {
+          "id": "sug-paris-23-1",
+          "kind": "sight",
+          "name_hy": "Մուլեն Ռուժ (դրսից)",
+          "name_local": "Moulin Rouge, 82 boulevard de Clichy",
+          "lat": 48.8841094,
+          "lon": 2.3323564,
+          "why_hy": "Աշխարհահռչակ կաբարեն՝ կարմիր ջրաղացով, Place des Abbesses-ից ~600 մ ներքև։",
+          "description_hy": "Դիտել և լուսանկարել ճակատը. ներկայացման տոմսերը թանկ են և պետք է նախապես ամրագրել։",
+          "how_hy": "Place des Abbesses-ից rue Lepic-ով ներքև մինչև Boulevard de Clichy (~8 ր)։ Մետրո՝ Blanche (M2)։",
+          "hours_hy": "Ճակատը՝ միշտ. ներկայացումների ժամերը՝ ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից՝ 0 €",
+          "visit_min": [
+            10,
+            20
+          ],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Moulin-Rouge_2009.jpg/1280px-Moulin-Rouge_2009.jpg",
+              "author": "Nicolas Richoffer",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Moulin-Rouge_2009.jpg"
+            }
+          ],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.offi.fr/cabarets/moulin-rouge-42.html"
+          ],
+          "photo_points": []
+        },
+        {
+          "id": "sug-paris-23-2",
+          "kind": "sight",
+          "name_hy": "Մոնմարտրի խաղողի այգի",
+          "name_local": "Vigne du Clos Montmartre, rue des Saules",
+          "lat": 48.8881857,
+          "lon": 2.339834,
+          "why_hy": "Փարիզի ամենահայտնի խաղողի այգին՝ Au Lapin Agile-ի մոտ. հոկտեմբերը բերքահավաքի տոնի ամիսն է։",
+          "description_hy": "Հիմնադրվել է 1933-ին, 1760+ որթ, 27 տեսակ. գինու եկամուտը գնում է կարիքավորներին։ Այգին տեսանելի է rue des Saules-ից (ներս մտնել՝ միայն էքսկուրսիայով, շաբաթ օրերին 36 €)։",
+          "how_hy": "Place du Tertre-ից rue des Saules-ով ~300 մ ներքև (Au Lapin Agile-ի ուղղությամբ)։",
+          "hours_hy": "Փողոցից՝ միշտ. ներսում՝ միայն էքսկուրսիա (շաբաթ կեսօրից հետո) (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, sortiraparis.com)",
+          "price_hy": "Փողոցից՝ 0 €",
+          "visit_min": [
+            10,
+            15
+          ],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Vignoble_de_Montmartre.JPG/1280px-Vignoble_de_Montmartre.JPG",
+              "author": "LPLT",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Vignoble_de_Montmartre.JPG"
+            }
+          ],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.sortiraparis.com/arts-culture/balades/articles/298016-en-balade-au-vignoble-du-clos-montmartre-les-plus-anciennes-vignes-de-paris"
+          ],
+          "photo_points": []
         }
       ]
     },
@@ -4476,6 +4700,38 @@
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
           "sources": []
+        }
+      ],
+      "suggestions": [
+        {
+          "id": "sug-bcn-24-1",
+          "kind": "sight",
+          "name_hy": "Կասա դե լես Պունշես («Սրածայր տուն»)",
+          "name_local": "Casa de les Punxes (Casa Terradas), Avinguda Diagonal 420",
+          "lat": 41.3980126,
+          "lon": 2.1640287,
+          "why_hy": "Պույգ ի Կադաֆալկի 1905-ի «ասպետական դղյակը» Diagonal-ի վրա՝ Սագրադա Ֆամիլիայից Լա Պեդրերա ճանապարհին։",
+          "description_hy": "Մոդեռնիզմի գլուխգործոցներից մեկը. սրածայր աշտարակներ, ցեղային կերամիկա։ Դիտել դրսից՝ Diagonal-ի և Rosselló-ի անկյունից։",
+          "how_hy": "Casa Milà-ից ~450 մ (Passeig de Gràcia → Diagonal)։ Մետրո՝ Diagonal (L3/L5) կամ Verdaguer (L4/L5)։",
+          "hours_hy": "Դրսից՝ միշտ (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, barcelona.cat). ներսի այցի ժամերը՝ ՉՍՏՈՒԳՎԱԾ",
+          "price_hy": "Դրսից՝ 0 €",
+          "visit_min": [
+            10,
+            15
+          ],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Casa_de_les_Punxes_-_002.jpg",
+              "author": "Mutari",
+              "license": "Public domain",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Casa_de_les_Punxes_-_002.jpg"
+            }
+          ],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://barcelona.cat/en/coneixbcn/pics/la-casa-de-les-punxes-92086008882"
+          ],
+          "photo_points": []
         }
       ]
     },
@@ -6173,6 +6429,39 @@
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
           "sources": []
         }
+      ],
+      "suggestions": [
+        {
+          "id": "sug-bcn-25-1",
+          "kind": "sight",
+          "name_hy": "Կարմելի բունկերներ (համայնապատկեր)",
+          "name_local": "Búnquers del Carmel – Turó de la Rovira",
+          "lat": 41.4193923,
+          "lon": 2.1616974,
+          "why_hy": "Բարսելոնայի լավագույն անվճար համայնապատկերը՝ ամբողջ քաղաքը, ծովը և Սագրադա Ֆամիլիան, Գուել պարկից ~20–25 ր ոտքով։",
+          "description_hy": "Քաղաքացիական պատերազմի հակաօդային մարտկոցի մնացորդներ բլրի գագաթին։ 2023-ից տարածքը ցանկապատված է և գիշերը փակ. 2026-ին նոր կանոններ են ընդունվել → գնալ միայն ցերեկով։ Վերևում ստվեր և ջուր չկա։",
+          "how_hy": "Park Güell-ից ~20–25 ր ոտքով (վերելք) կամ ավտոբուս V17/22/24 + վերջին հատվածը ոտքով Carrer de Marià Labèrnia-ով։",
+          "hours_hy": "Ամառ 09:00–19:30, ձմեռ 09:00–17:30 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, barcelonaurbana.com. ո՞ր ժամանակացույցն է գործում 25.10-ին՝ ՉՍՏՈՒԳՎԱԾ)",
+          "price_hy": "0 €",
+          "visit_min": [
+            30,
+            45
+          ],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/View_from_the_Bunkers_del_Carmel.jpg/1280px-View_from_the_Bunkers_del_Carmel.jpg",
+              "author": "Thingstodoinbarcelona",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:View_from_the_Bunkers_del_Carmel.jpg"
+            }
+          ],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://barcelonaurbana.com/en/blog/bunkers-carmel-barcelona-guide"
+          ],
+          "photo_points": [],
+          "insert_after": "barcelona-25-14"
+        }
       ]
     },
     {
@@ -7082,6 +7371,98 @@
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
           "sources": []
         }
+      ],
+      "suggestions": [
+        {
+          "id": "sug-rome-26-1",
+          "kind": "sight",
+          "name_hy": "Պանթեոն",
+          "name_local": "Pantheon, Piazza della Rotonda",
+          "lat": 41.898616,
+          "lon": 12.4768334,
+          "why_hy": "Հին Հռոմի ամենալավ պահպանված տաճարը՝ 2000-ամյա գմբեթով և վերևի բաց «աչքով», Տրևիից ~700 մ։",
+          "description_hy": "Ներսում՝ Ռաֆայելի դամբարանը։ Մեսսայի ժամանակ մուտքը միայն հավատացյալների համար է։",
+          "how_hy": "Fontana di Trevi-ից Via del Seminario-ով ~10 ր ոտքով։",
+          "hours_hy": "Ամեն օր 09:00–19:00, վերջին մուտք 18:30, տոմսարկղը՝ մինչև 18:00 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, cultura.gov.it)",
+          "price_hy": "7 € (18–25 տ.՝ 2 €, մինչև 18՝ անվճար) 01.07.2026-ից (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, cultura.gov.it)",
+          "visit_min": [
+            25,
+            40
+          ],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rome_Pantheon_front.jpg/1280px-Rome_Pantheon_front.jpg",
+              "author": "Roberta Dragan",
+              "license": "CC BY-SA 2.5",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Rome_Pantheon_front.jpg"
+            }
+          ],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://cultura.gov.it/luogo/pantheon?page=1"
+          ],
+          "photo_points": []
+        },
+        {
+          "id": "sug-rome-26-2",
+          "kind": "sight",
+          "name_hy": "Պյացցա Նավոնա",
+          "name_local": "Piazza Navona",
+          "lat": 41.8989282,
+          "lon": 12.4731178,
+          "why_hy": "Բեռնինիի «Չորս գետերի շատրվանը» և Բորոմինիի եկեղեցին՝ Հռոմի ամենագեղեցիկ հրապարակում, Պանթեոնից ~350 մ։",
+          "description_hy": "Երեք շատրվան (Մավրի, Նեպտունի, Չորս գետերի), Sant’Agnese in Agone եկեղեցի. հրապարակը կառուցված է Դոմիտիանոսի մարզադաշտի տեղում։",
+          "how_hy": "Պանթեոնից Via Giustiniani → Corso del Rinascimento (~5 ր)։",
+          "hours_hy": "Բացօթյա, միշտ (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, turismoroma.it)",
+          "price_hy": "0 €",
+          "visit_min": [
+            15,
+            30
+          ],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Fontana_dei_Quattro_Fiumi_%28Piazza_Navona%29_September_2015-1.jpg/1280px-Fontana_dei_Quattro_Fiumi_%28Piazza_Navona%29_September_2015-1.jpg",
+              "author": "Alvesgaspar",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Fontana_dei_Quattro_Fiumi_(Piazza_Navona)_September_2015-1.jpg"
+            }
+          ],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://turismoroma.it/it/luoghi/piazza-navona"
+          ],
+          "photo_points": []
+        },
+        {
+          "id": "sug-rome-26-3",
+          "kind": "sight",
+          "name_hy": "Իսպանական աստիճաններ",
+          "name_local": "Scalinata di Trinità dei Monti – Piazza di Spagna",
+          "lat": 41.9056392,
+          "lon": 12.482358,
+          "why_hy": "Հռոմի ամենահայտնի աստիճանները և Barcaccia շատրվանը, Տրևիից ~600 մ։",
+          "description_hy": "⚠ Աստիճաններին նստելն արգելված է, տուգանք 250–400 € (2019-ից)։ Վերևից՝ Trinità dei Monti եկեղեցի և քաղաքի տեսարան։",
+          "how_hy": "Fontana di Trevi-ից Via delle Muratte → Via dei Due Macelli (~8 ր)։ Մետրո՝ Spagna (A)։",
+          "hours_hy": "Բացօթյա, միշտ",
+          "price_hy": "0 € (նստելու համար տուգանք) (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, money.it)",
+          "visit_min": [
+            15,
+            25
+          ],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Spanish_Steps%2C_Rome_%28Ank_Kumar%29_03.jpg/1280px-Spanish_Steps%2C_Rome_%28Ank_Kumar%29_03.jpg",
+              "author": "Ank Kumar",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Spanish_Steps,_Rome_(Ank_Kumar)_03.jpg"
+            }
+          ],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.money.it/Roma-vietato-sedersi-scalinata-trinita-dei-monti"
+          ],
+          "photo_points": []
+        }
       ]
     },
     {
@@ -7381,6 +7762,70 @@
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
           "sources": []
+        }
+      ],
+      "suggestions": [
+        {
+          "id": "sug-rome-27-1",
+          "kind": "sight",
+          "name_hy": "«Քառակուսի Կոլիզեյ» (EUR)",
+          "name_local": "Palazzo della Civiltà Italiana, Quadrato della Concordia",
+          "lat": 41.8367053,
+          "lon": 12.4651239,
+          "why_hy": "XX դարի ճարտարապետության խորհրդանիշը՝ կամարների շարքերով «քառակուսի Կոլիզեյ», EUR Fermi-ից ~1 կմ։",
+          "description_hy": "Այսօր Fendi-ի գլխավոր գրասենյակն է. ներս մտնել կարելի է միայն ցուցահանդեսների ժամանակ։ Դրսից՝ շատ լուսանկարելի։",
+          "how_hy": "Օութլեթից վերադառնալիս EUR Fermi-ից ~12–15 ր ոտքով, հետո մետրո B՝ EUR Magliana կամ EUR Fermi կայարանից։",
+          "hours_hy": "Դրսից՝ միշտ (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, turismoroma.it)",
+          "price_hy": "0 €",
+          "visit_min": [
+            15,
+            25
+          ],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Palazzo_della_Civilt%C3%A0_Italiana%2C_viewed_from_the_North%2C_Rome%2C_Italy.jpg/1280px-Palazzo_della_Civilt%C3%A0_Italiana%2C_viewed_from_the_North%2C_Rome%2C_Italy.jpg",
+              "author": "Julian Lupyan",
+              "license": "CC0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Palazzo_della_Civilt%C3%A0_Italiana,_viewed_from_the_North,_Rome,_Italy.jpg"
+            }
+          ],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.turismoroma.it/it/luoghi/palazzo-della-civiltà-italiana"
+          ],
+          "photo_points": [],
+          "insert_after": "rome-27-06"
+        },
+        {
+          "id": "sug-rome-27-2",
+          "kind": "sight",
+          "name_hy": "Տրաստևերե՝ երեկոյան",
+          "name_local": "Piazza di Santa Maria in Trastevere",
+          "lat": 41.8895638,
+          "lon": 12.470508,
+          "why_hy": "Հռոմի ամենամթնոլորտային թաղամասը երեկոյան՝ նեղ փողոցներ, տրատորիաներ, 12-րդ դարի խճանկարներով բազիլիկ։",
+          "description_hy": "Santa Maria in Trastevere եկեղեցին՝ XIII դ. ոսկե խճանկարներով ճակատով, հրապարակը՝ առանց մեքենաների, շատրվանով։ Լավ տեղ է վերջին ընթրիքի համար։",
+          "how_hy": "Տրամվայ 8 (Piazza Venezia / Largo Argentina-ից) մինչև Viale Trastevere, ~5 ր ոտքով։",
+          "hours_hy": "Եկեղեցին՝ 07:30–21:00 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, timeout.com). հրապարակը՝ միշտ",
+          "price_hy": "0 €",
+          "visit_min": [
+            30,
+            90
+          ],
+          "photos": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Fontana_di_piazza_Santa_Maria_in_Trastevere_%282%29.jpg/1280px-Fontana_di_piazza_Santa_Maria_in_Trastevere_%282%29.jpg",
+              "author": "Krzysztof Golik",
+              "license": "CC BY-SA 4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Fontana_di_piazza_Santa_Maria_in_Trastevere_(2).jpg"
+            }
+          ],
+          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
+          "sources": [
+            "https://www.timeout.com/rome/attractions/santa-maria-in-trastevere"
+          ],
+          "photo_points": [],
+          "insert_after": "rome-27-06"
         }
       ]
     },

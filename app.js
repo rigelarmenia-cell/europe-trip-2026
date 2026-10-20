@@ -161,7 +161,7 @@ function addSuggestion(sug) {
     let best = ids.length, cost = Infinity;
     for (let i = 1; i <= stops.length; i++) {
       const prev = pt(stops[i - 1]), next = pt(stops[i]) || pt(home);
-      if (!prev) continue;
+      if (!prev || ['airport', 'home', 'transport'].includes(stops[i - 1].kind) || stops[i]?.kind === 'airport') continue; // never inside a long transfer leg
       const c = haversine(prev, stop) + (next ? haversine(stop, next) - haversine(prev, next) : 0);
       if (c < cost) { cost = c; best = i; }
     }
@@ -187,7 +187,7 @@ function renderSuggestions(day) {
     const body = element('div', undefined, 'stop-body');
     const photo = list(sug.photos).find(p => p && safeUrl(p.url));
     if (photo) { const fig = element('figure'), img = document.createElement('img'); img.src = photo.url; img.alt = sug.name_hy; img.loading = 'lazy'; img.referrerPolicy = 'no-referrer'; img.onerror = () => fig.remove();
-      const cap = element('figcaption', `${text(photo.author)} · ${text(photo.license)} `); if (safeUrl(photo.source_page)) cap.append(link('Աղբյուր', photo.source_page, '')); fig.append(img, cap); body.append(fig); }
+      const cap = element('figcaption', `${text(photo.author)} · ${text(photo.license)} `); if (safeUrl(photo.source_page)) cap.append(link('Աղբյուր', photo.source_page, '')); fig.append(img, cap); card.append(fig); }
     if (sug.why_hy) body.append(element('p', '⭐ ' + sug.why_hy));
     if (sug.description_hy) body.append(element('p', sug.description_hy));
     if (sug.how_hy) body.append(element('p', '🚶 ' + sug.how_hy, 'fine'));
