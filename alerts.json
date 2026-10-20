@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-20T06:25:00+02:00",
+  "updated_at": "2026-10-20T07:20:00+02:00",
   "city_status": {
     "paris": {
-      "checked_at": "2026-10-20T06:25:00+02:00",
-      "summary_hy": "17–19.10-ին Փարիզում եղել են բռնություններ և թալան (Châtelet/Les Halles, République). 19→20.10 գիշերը գործել է պարետային ժամ այդ գոտիներում, 20→21.10-ի համար դեռ հայտարարված չէ։ RATP/SNCF գործադուլ 20–23.10-ին չի գտնվել. 24.10-ին «դեղին բաճկոնների» ակցիա՝ Bastille/République (մենք արդեն մեկնած կլինենք)։"
+      "checked_at": "2026-10-20T07:20:00+02:00",
+      "summary_hy": "Թեժ կետեր (17–19.10)՝ République (Faubourg du Temple, Faubourg-Saint-Martin), Châtelet–Les Halles–Sébastopol, Rivoli–Saint-Honoré–Madeleine։ 19→20.10-ի պարետային ժամը միայն մեկ գիշերվա համար էր. 20→21.10-ի որոշում դեռ չկա (սովորաբար հայտարարվում է 18:00–19:30)։ 20–23.10-ի համար Փարիզում ցույց հայտարարված չէ, RATP/SNCF գործադուլ չկա. 24.10-ին՝ «դեղին բաճկոններ», Bastille 17:00։"
     },
     "barcelona": {
-      "checked_at": "2026-10-20T06:25:00+02:00",
+      "checked_at": "2026-10-20T07:20:00+02:00",
       "summary_hy": "24–25.10-ի համար միտինգ կամ TMB մետրոյի գործադուլ չի գտնվել (ստուգված 20.10 առավոտ)։ Կարևորը՝ 25.10-ի Էլ Կլասիկոն։"
     },
     "rome": {
-      "checked_at": "2026-10-20T06:25:00+02:00",
+      "checked_at": "2026-10-20T07:20:00+02:00",
       "summary_hy": "26–28.10-ի համար գործադուլ կամ միտինգ չի գտնվել (ստուգված 20.10 առավոտ). 29–30.10-ի համազգային գործադուլները մեր մեկնումից հետո են։"
     }
   },
@@ -34,10 +34,10 @@
       "city": "paris",
       "date": null,
       "until": "2026-10-24T06:00:00+02:00",
-      "title_hy": "🚨 Անկարգություններ, պարետային ժամ Châtelet/République",
-      "text_hy": "17–19.10-ին Փարիզում թալան և բախումներ են եղել, հատկապես Châtelet–Les Halles (Rue Saint-Denis) և Place de la République. 19→20.10 գիշերը 23:00–06:00 պարետային ժամ էր այդ գոտիներում, իսկ 22:00-ից փակ էին Châtelet, Les Halles, République կայարանները (M1/M4/M7/M11/M14, RER A/B/D)։ 20.10-ի երեկոյի համար որոշումը դեռ չկա. մեր Hôtel de Ville / Pont d’Arcole / Le Trumilou կանգառները ~0,5–1 կմ են Châtelet-ից։",
-      "suggestion_hy": "20.10-ի երեկոն պլանավորել մինչև ~21:30 և Hôtel de Ville-ից M11-ով անմիջապես տուն գնալ. Châtelet, Les Halles, Rue Saint-Denis, République չմտնել, խմբով մնալ, ամբոխից հեռանալ։",
-      "source_url": "https://www.sortiraparis.com/actualites/a-paris/articles/355161-couvre-feu-a-paris-quelles-stations-de-metro-et-de-rer-sont-fermees-des-22-heures",
+      "title_hy": "🚨 Անկարգություններ. խուսափել Châtelet, République, Rivoli",
+      "text_hy": "17–19.10-ին Փարիզում թալան և բախումներ են եղել՝ République (Faubourg du Temple, Faubourg-Saint-Martin), Châtelet–Les Halles (rue Saint-Denis, Sébastopol), rue de Rivoli–Saint-Honoré–Madeleine. 18.10-ին թալանվել է BHV Marais-ը (Hôtel de Ville-ի դիմաց)։ 19→20.10 գիշերը 23:00–06:00 պարետային ժամ էր République-ում և Les Halles-ում, 22:00-ից փակ էին Châtelet, Les Halles, République կայարանները. 20→21.10-ի համար որոշում դեռ չկա (սպասվում է 18:00–19:30)։ 19→20.10 գիշերվա մասին հաշվետվություն դեռ չկա։",
+      "suggestion_hy": "20.10. Porte Maillot → M1 → Hôtel de Ville կարելի է (M1-ը աշխատում է), մնալ Սենի կողմում, rue de Rivoli-ից հյուսիս չգնալ, մինչև ~21:30 M11-ով տուն։ 21–23.10-ի տուն վերադարձի երթուղիները փոխված են՝ առանց Châtelet/République փոխադրման (տես օրվա քարտերը)։",
+      "source_url": "https://www.lejdd.fr/Societe/pillages-de-commerces-immeuble-dhabitation-pris-dassaut-nouvelle-flambee-de-violences-a-paris-dimanche-186387",
       "stop_ids": [
         "paris-20-02",
         "paris-20-04",
@@ -56,11 +56,29 @@
       "date": null,
       "until": "2026-10-22T23:59:00+02:00",
       "title_hy": "🏛 Լուվրը 19.10-ին փակ էր ուսանողների շրջափակման պատճառով",
-      "text_hy": "19.10-ի առավոտյան École du Louvre-ի ուսանողները փակել էին Լուվրի մուտքը (Cour Napoléon – Pyramide), և թանգարանը 9:00-ին չբացվեց։ Նոր շրջափակում 22.10-ի համար հայտարարված չէ։",
+      "text_hy": "19.10-ին École du Louvre-ի ուսանողները փակել էին Լուվրի մուտքը (Cour Napoléon – Pyramide), թանգարանը ամբողջ օրը փակ էր։ 20.10-ի և 22.10-ի համար նոր շրջափակում հայտարարված չէ, բայց ուսանողները խոստացել են շարունակել։ 17.10-ին rue de Rivoli-ում և rue Saint-Honoré-ում խանութներ են թալանվել։",
       "suggestion_hy": "22.10-ին մենք Լուվրը դրսից ենք տեսնում (Pyramide). եթե մուտքի մոտ ցույց լինի՝ անցնել Tuileries → Pont Neuf առանց կանգ առնելու։",
       "source_url": "https://fr.euronews.com/2026/10/19/manifestations-en-france-lentre-du-musee-du-louvre-bloquee-par-des-etudiants",
       "stop_ids": [
         "paris-22-02"
+      ],
+      "area": null
+    },
+    {
+      "id": "par-plan-changes",
+      "level": "warning",
+      "city": "paris",
+      "date": null,
+      "until": "2026-10-24T06:00:00+02:00",
+      "title_hy": "📍 Պլանը փոխված է. տուն՝ առանց Châtelet/République",
+      "text_hy": "21.10. Montparnasse → M4 → Réaumur–Sébastopol → M3 (1 կանգառ) → Arts et Métiers → M11։ 22.10. Grands Boulevards-ից ~6 ր ոտքով Bourse → M3 (3 կանգառ) → Arts et Métiers → M11։ 23.10. Gare de l’Est → M7 → Louis Blanc → M7bis → Place des Fêtes → M11, իսկ Canal Saint-Martin-ը դիտել միայն հյուսիսից (Jardin Villemin / Récollets), République-ի կողմ չիջնել։",
+      "suggestion_hy": "Եթե պարետային ժամը չերկարաձգվի և հանդարտ լինի, հին երթուղիներն էլ աշխատում են. նոր երթուղիները ~5 ր ավելի երկար են, բայց շրջանցում են թեժ կայարանները։",
+      "source_url": "https://www.sortiraparis.com/en/news/in-paris/articles/355161-curfew-in-paris-which-metro-and-rer-stations-will-be-closed-from-10-p-m",
+      "stop_ids": [
+        "paris-21-03",
+        "paris-22-04",
+        "paris-23-06",
+        "paris-23-02"
       ],
       "area": null
     },

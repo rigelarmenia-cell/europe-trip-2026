@@ -421,7 +421,7 @@
       "date": "2026-10-20",
       "city": "paris",
       "title_hy": "Ժամանում, ընթրիք և կարճ զբոսանք Hôtel de Ville շրջանում",
-      "notes_hy": "Այսօր՝ միայն ընթրիք (Le Trumilou, սեղանը ամրագրել ☎ +33 1 42 77 63 98) և կարճ զբոսանք։ Հերթականությունը ստուգված է իրական փողոցային քայլքով (OSM). Hôtel de Ville → Pont d’Arcole → ընթրիք Le Trumilou → Hôtel de Ville կայարանից M11 տուն։ Ավտոբուսի և թռիչքի մանրամասները՝ «Օդանավակայանային տեղափոխություններ» բաժնում։",
+      "notes_hy": "Այսօր՝ միայն ընթրիք (Le Trumilou, սեղանը ամրագրել ☎ +33 1 42 77 63 98) և կարճ զբոսանք։ Հերթականությունը ստուգված է իրական փողոցային քայլքով (OSM). Hôtel de Ville → Pont d’Arcole → ընթրիք Le Trumilou → Hôtel de Ville կայարանից M11 տուն։ Ավտոբուսի և թռիչքի մանրամասները՝ «Օդանավակայանային տեղափոխություններ» բաժնում։ ⚠ 20.10 ԱՆՎՏԱՆԳՈՒԹՅՈՒՆ. 17–19.10-ին Châtelet–Les Halles-ում և République-ում թալան/բախումներ են եղել, BHV Marais-ը (Hôtel de Ville-ի դիմաց, rue de Rivoli) 18.10-ին թալանվել է։ Մնալ Սենի կողմում (Hôtel de Ville հրապարակ → Pont d’Arcole → Le Trumilou), rue de Rivoli-ից հյուսիս, Les Halles, Châtelet, rue Saint-Denis չմտնել։ Ընթրիքը սկսել 19:30-ին, մինչև ~21:30 նստել M11 Hôtel de Ville-ից։ Եթե 20.10 երեկոյան նորից պարետային ժամ հայտարարվի՝ զբոսանքը կրճատել և անմիջապես տուն գնալ։",
       "total_walk_km": 3.02,
       "stops": [
         {
@@ -1840,11 +1840,11 @@
             "mode": "metro",
             "km": null,
             "min": null,
-            "line": "M4 + M11",
+            "line": "M4 + M3 + M11",
             "color": "շագանակագույն (M11)",
-            "direction": "Porte de Clignancourt (M4), հետո Rosny–Bois-Perrier (M11)",
+            "direction": "Porte de Clignancourt (M4) → Gallieni (M3) → Rosny–Bois-Perrier (M11)",
             "get_off": "Romainville–Carnot",
-            "transfers_hy": "🏠 Տուն. Montparnasse-Bienvenüe կայարանից M4 (ուղղություն՝ Porte de Clignancourt) → Châtelet, այնտեղ փոխում ենք M11 (ուղղություն՝ Rosny–Bois-Perrier) → Romainville–Carnot, հետո ~10 ր քայլք։ Մեկ տոմս՝ 2,55 €։",
+            "transfers_hy": "⚠ Փոփոխված 20.10՝ Փարիզի անկարգությունների պատճառով (Châtelet/République կայարանները 19.10-ին փակվել էին 22:00-ից)։ 🏠 Տուն՝ առանց Châtelet-ում փոխելու. Montparnasse-Bienvenüe կայարանից M4 (ուղղություն՝ Porte de Clignancourt) → Réaumur–Sébastopol, փոխում ենք M3 (ուղղություն՝ Gallieni) 1 կանգառ → Arts et Métiers, փոխում ենք M11 (ուղղություն՝ Rosny–Bois-Perrier) → Romainville–Carnot, հետո ~10 ր քայլք։ Կայարանից դուրս չգալ։ Եթե իրավիճակը հանդարտ է՝ կարելի է հին ձևով՝ M4 → Châtelet → M11։ Մեկ տոմս՝ 2,55 €։",
             "ticket_hy": "Ticket Métro–Train–RER, 2,55 €"
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -2827,11 +2827,11 @@
             "mode": "metro",
             "km": null,
             "min": null,
-            "line": "M9 + M11",
+            "line": "M3 + M11",
             "color": "շագանակագույն (M11)",
-            "direction": "Mairie de Montreuil (M9), հետո Rosny–Bois-Perrier (M11)",
+            "direction": "Gallieni (M3), հետո Rosny–Bois-Perrier (M11)",
             "get_off": "Romainville–Carnot",
-            "transfers_hy": "🏠 Տուն. Grands Boulevards կայարանից M9 (ուղղություն՝ Mairie de Montreuil) → République, այնտեղ փոխում ենք M11 (ուղղություն՝ Rosny–Bois-Perrier) → Romainville–Carnot, հետո ~10 ր քայլք։ Մեկ տոմս՝ 2,55 €։",
+            "transfers_hy": "⚠ Փոփոխված 20.10՝ Փարիզի անկարգությունների պատճառով (Châtelet/République կայարանները 19.10-ին փակվել էին 22:00-ից)։ 🏠 Տուն՝ առանց République-ի. ~6 ր ոտքով Grands Boulevards-ից Bourse կայարան (rue Vivienne-ով), M3 (ուղղություն՝ Gallieni) 3 կանգառ → Arts et Métiers, փոխում ենք M11 (ուղղություն՝ Rosny–Bois-Perrier) → Romainville–Carnot, հետո ~10 ր քայլք։ Place de la Bourse-ում հավաք լինելու դեպքում չկանգնել։ Եթե իրավիճակը հանդարտ է՝ կարելի է հին ձևով՝ M9 → République → M11։ Մեկ տոմս՝ 2,55 €։",
             "ticket_hy": "Ticket Métro–Train–RER, 2,55 €"
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -2848,7 +2848,7 @@
       "date": "2026-10-23",
       "city": "paris",
       "title_hy": "Մոնմարտր (Աբես → Տերտր → Սակրե-Կյոր) և Canal Saint-Martin՝ վաղ վերադարձով",
-      "notes_hy": "🚇 ԱՌԱՎՈՏՅԱՆ ՏՆԻՑ (1-ին կետ՝ Place des Abbesses). M2-ը 19–25.10 չի աշխատում Belleville-ի հատվածում, ուստի. M11 (ուղղություն՝ Châtelet) → Châtelet, այնտեղ M4 (ուղղություն՝ Porte de Clignancourt) → Barbès–Rochechouart, հետո M2 (ուղղություն՝ Porte Dauphine) 2 կանգառ → Pigalle, ~6 ր վերելք դեպի Place des Abbesses։ Մեկ տոմս՝ 2,55 €։\n\nAbbesses → Tertre → Sacré-Cœur (վերևից ներքև), հետո ոտքով ներքև դեպի Canal Saint-Martin։ Հերթականությունը ստուգված է իրական փողոցային քայլքով (OSM)։ Երեկոն կարճ, որովհետև գիշերը օդանավակայան ենք գնում (24.10, 06:20 թռիչք)։ Ընթրիք՝ Bouillon Chartier Gare de l’Est։ Vueling-ի առցանց գրանցումը անել այսօր։",
+      "notes_hy": "🚇 ԱՌԱՎՈՏՅԱՆ ՏՆԻՑ (1-ին կետ՝ Place des Abbesses). M2-ը 19–25.10 չի աշխատում Belleville-ի հատվածում, ուստի. M11 (ուղղություն՝ Châtelet) → Châtelet, այնտեղ M4 (ուղղություն՝ Porte de Clignancourt) → Barbès–Rochechouart, հետո M2 (ուղղություն՝ Porte Dauphine) 2 կանգառ → Pigalle, ~6 ր վերելք դեպի Place des Abbesses։ Մեկ տոմս՝ 2,55 €։\n\nAbbesses → Tertre → Sacré-Cœur (վերևից ներքև), հետո ոտքով ներքև դեպի Canal Saint-Martin։ Հերթականությունը ստուգված է իրական փողոցային քայլքով (OSM)։ Երեկոն կարճ, որովհետև գիշերը օդանավակայան ենք գնում (24.10, 06:20 թռիչք)։ Ընթրիք՝ Bouillon Chartier Gare de l’Est։ Vueling-ի առցանց գրանցումը անել այսօր։ ⚠ Փոփոխված 20.10. Canal Saint-Martin-ի հարավային հատվածը (Faubourg du Temple, rue Yves-Toudic, République-ի մոտ) 18.10-ին բախումների վայր էր։ Ջրանցքը դիտել միայն հյուսիսային մասից՝ Jardin Villemin / Écluses des Récollets (Gare de l’Est-ի մոտ), République-ի կողմ չիջնել։ Տուն՝ M7 → Louis Blanc → M7bis → Place des Fêtes → M11։",
       "total_walk_km": 6.74,
       "stops": [
         {
@@ -3534,11 +3534,11 @@
             "mode": "metro",
             "km": null,
             "min": null,
-            "line": "M5 + M11",
+            "line": "M7 + M7bis + M11",
             "color": "շագանակագույն (M11)",
-            "direction": "Place d’Italie (M5), հետո Rosny–Bois-Perrier (M11)",
+            "direction": "La Courneuve (M7) → Pré-Saint-Gervais (M7bis) → Rosny–Bois-Perrier (M11)",
             "get_off": "Romainville–Carnot",
-            "transfers_hy": "🏠 Տուն. Gare de l’Est կայարանից M5 (ուղղություն՝ Place d’Italie) → République, այնտեղ փոխում ենք M11 (ուղղություն՝ Rosny–Bois-Perrier) → Romainville–Carnot, հետո ~10 ր քայլք։ Մեկ տոմս՝ 2,55 €։",
+            "transfers_hy": "⚠ Փոփոխված 20.10՝ Փարիզի անկարգությունների պատճառով (Châtelet/République կայարանները 19.10-ին փակվել էին 22:00-ից)։ 🏠 Տուն՝ առանց République-ի. Gare de l’Est կայարանից M7 (ուղղություն՝ La Courneuve–8 Mai 1945) 1 կանգառ → Louis Blanc, փոխում ենք M7bis (ուղղություն՝ Pré-Saint-Gervais) → Place des Fêtes, փոխում ենք M11 (ուղղություն՝ Rosny–Bois-Perrier) → Romainville–Carnot, հետո ~10 ր քայլք։ Մեկ տոմս՝ 2,55 €։",
             "ticket_hy": "Ticket Métro–Train–RER, 2,55 €"
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
