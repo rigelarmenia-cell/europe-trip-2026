@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-20T17:25:00+02:00",
+  "updated_at": "2026-10-20T18:20:00+02:00",
   "city_status": {
     "paris": {
-      "checked_at": "2026-10-20T17:25:00+02:00",
-      "summary_hy": "Պարետային ժամը երկարաձգվել է 20.10 23:00 → 21.10 06:00 (գոտիները՝ prefecture-ը դեռ վերջնական չի հրապարակել). République, Châtelet, Châtelet–Les Halles, Les Halles կայարանները փակ են 22:00-ից 20.10-ին և 21.10-ին։ 21–23.10-ի համար նոր ցույց չի գտնվել, բացի 22.10-ի աշակերտների հնարավոր երթից (երթուղին անհայտ). RATP գործադուլ չկա։ W6 7829-ը վայրէջք է կատարել ~16:30։"
+      "checked_at": "2026-10-20T18:20:00+02:00",
+      "summary_hy": "Պարետային ժամը՝ 20.10 23:00 → 21.10 06:00 (République-ի կենտրոն և Les Halles՝ Sébastopol/Rambuteau/rue Berger). République, Châtelet, Les Halles կայարանները փակ են 20.10 22:00-ից մինչև 21.10 ~06:00. 21→22.10 գիշերվա համար որոշում դեռ չկա։ 21–23.10-ի համար նոր ցույց/RATP գործադուլ չի գտնվել, բացի 22.10-ի աշակերտների հնարավոր երթից. Gilets jaunes-ը 24.10-ին (Bastille/République) կոչ է արել՝ մեր Orly մեկնումից հետո, մանրամասներն անհայտ։"
     },
     "barcelona": {
-      "checked_at": "2026-10-20T17:25:00+02:00",
+      "checked_at": "2026-10-20T18:20:00+02:00",
       "summary_hy": "24–25.10-ի համար միտինգ, փողոցների փակում կամ TMB մետրոյի գործադուլ չի գտնվել. TMB ավտոբուսների գործադուլի օրերից ոչ մեկը 24–26.10-ին չէ։ Կարևորը՝ 25.10-ի Էլ Կլասիկոն։"
     },
     "rome": {
-      "checked_at": "2026-10-20T17:25:00+02:00",
+      "checked_at": "2026-10-20T18:20:00+02:00",
       "summary_hy": "MIT-ի պաշտոնական օրացույցով 24–28.10-ին Հռոմում/Լացիոյում/Ֆյումիչինոյում կամ համազգային տրանսպորտային գործադուլ չկա (ստուգված 20.10 15:15). մեծ միտինգ չի գտնվել. 30.10-ի USB համազգային գործադուլը մեր մեկնումից հետո է։"
     }
   },
@@ -35,9 +35,9 @@
       "date": null,
       "until": "2026-10-24T06:00:00+02:00",
       "title_hy": "🚨 Անկարգություններ. խուսափել Châtelet, République, Rivoli",
-      "text_hy": "17–19.10-ին Փարիզում թալան և բախումներ են եղել՝ République (Faubourg du Temple, Faubourg-Saint-Martin), Châtelet–Les Halles (rue Saint-Denis, Sébastopol), rue de Rivoli–Saint-Honoré–Madeleine։ Պարետային ժամը երկարաձգվել է 20.10 23:00-ից մինչև 21.10 06:00 (նախկին գոտիները՝ Place de la République-ի կենտրոն և Les Halles / rue Rambuteau; վերջնական գոտիները՝ prefecture-ով)։ République, Châtelet, Châtelet–Les Halles, Les Halles կայարանները 20.10-ին և 21.10-ին 22:00-ից փակ են (գնացքներն անցնում են առանց կանգառի), M11-ը 22:00-ից չի աշխատում Hôtel de Ville ↔ Châtelet հատվածում, RER B-ն՝ Saint-Michel ↔ Châtelet հատվածում։",
+      "text_hy": "17–19.10-ին Փարիզում թալան և բախումներ են եղել՝ République (Faubourg du Temple, Faubourg-Saint-Martin), Châtelet–Les Halles (rue Saint-Denis, Sébastopol), rue de Rivoli–Saint-Honoré–Madeleine։ Պարետային ժամ՝ 20.10 23:00 → 21.10 06:00, գոտիները՝ Place de la République-ի կենտրոնական մասը և Les Halles-ը (place Maurice-Quentin, rue Berger, bd de Sébastopol, rue Rambuteau)։ République, Châtelet, Les Halles, Châtelet–Les Halles կայարանները փակ են 20.10 22:00-ից մինչև 21.10 ~06:00 (գնացքներն անցնում են առանց կանգառի, M11-ն էլ). 21→22.10 գիշերվա համար նոր որոշում դեռ չկա։",
       "suggestion_hy": "Այսօր տուն՝ M1 → Hôtel de Ville → M11 (դեպի Mairie des Lilas), անպայման մինչև 22:00. M11-ի փակ հատվածը Hôtel de Ville-ից արևմուտք է և մեզ չի խանգարում։ 21–23.10-ի վերադարձի երթուղիներն արդեն շրջանցում են Châtelet/République-ը (տես օրվա քարտերը)։",
-      "source_url": "https://www.sortiraparis.com/actualites/a-paris/articles/355189-couvre-feu-a-paris-quels-trajets-pour-rentrer-en-banlieue",
+      "source_url": "https://www.sortiraparis.com/actualites/a-paris/articles/355221-couvre-feu-a-paris-jusqu-a-quand-les-restrictions-pourraient-elles-durer",
       "stop_ids": [],
       "area": {
         "lat": 48.859,
