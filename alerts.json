@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-20T07:20:00+02:00",
+  "updated_at": "2026-10-20T08:35:00+02:00",
   "city_status": {
     "paris": {
-      "checked_at": "2026-10-20T07:20:00+02:00",
-      "summary_hy": "Թեժ կետեր (17–19.10)՝ République (Faubourg du Temple, Faubourg-Saint-Martin), Châtelet–Les Halles–Sébastopol, Rivoli–Saint-Honoré–Madeleine։ 19→20.10-ի պարետային ժամը միայն մեկ գիշերվա համար էր. 20→21.10-ի որոշում դեռ չկա (սովորաբար հայտարարվում է 18:00–19:30)։ 20–23.10-ի համար Փարիզում ցույց հայտարարված չէ, RATP/SNCF գործադուլ չկա. 24.10-ին՝ «դեղին բաճկոններ», Bastille 17:00։"
+      "checked_at": "2026-10-20T08:35:00+02:00",
+      "summary_hy": "Ըստ franceinfo-ի՝ 19→20.10 գիշերը պարետային ժամով անցել է «հանգիստ». նոր պարետային ժամերի մասին կորոշեն 20.10 երեկոյան՝ «որտեղ անհրաժեշտ է»։ 20–23.10-ի համար Փարիզում ցույց հայտարարված չէ, RATP/SNCF գործադուլ չկա. 24.10-ին՝ «դեղին բաճկոններ», Bastille 17:00։ W6 7829-ը ըստ պլանի է։"
     },
     "barcelona": {
-      "checked_at": "2026-10-20T07:20:00+02:00",
-      "summary_hy": "24–25.10-ի համար միտինգ կամ TMB մետրոյի գործադուլ չի գտնվել (ստուգված 20.10 առավոտ)։ Կարևորը՝ 25.10-ի Էլ Կլասիկոն։"
+      "checked_at": "2026-10-20T08:35:00+02:00",
+      "summary_hy": "24–25.10-ի համար միտինգ կամ TMB գործադուլ չի գտնվել. TMB ավտոբուսների հոկտեմբերյան գործադուլը (14.10) ամբողջությամբ չեղարկված է։ Կարևորը՝ 25.10-ի Էլ Կլասիկոն։"
     },
     "rome": {
-      "checked_at": "2026-10-20T07:20:00+02:00",
-      "summary_hy": "26–28.10-ի համար գործադուլ կամ միտինգ չի գտնվել (ստուգված 20.10 առավոտ). 29–30.10-ի համազգային գործադուլները մեր մեկնումից հետո են։"
+      "checked_at": "2026-10-20T08:35:00+02:00",
+      "summary_hy": "26–28.10-ի համար ATAC/օդային գործադուլ կամ միտինգ չի գտնվել (ստուգված 20.10 առավոտ). 30.10-ի USB համազգային գործադուլը մեր մեկնումից հետո է։"
     }
   },
   "alerts": [
@@ -35,9 +35,9 @@
       "date": null,
       "until": "2026-10-24T06:00:00+02:00",
       "title_hy": "🚨 Անկարգություններ. խուսափել Châtelet, République, Rivoli",
-      "text_hy": "17–19.10-ին Փարիզում թալան և բախումներ են եղել՝ République (Faubourg du Temple, Faubourg-Saint-Martin), Châtelet–Les Halles (rue Saint-Denis, Sébastopol), rue de Rivoli–Saint-Honoré–Madeleine. 18.10-ին թալանվել է BHV Marais-ը (Hôtel de Ville-ի դիմաց)։ 19→20.10 գիշերը 23:00–06:00 պարետային ժամ էր République-ում և Les Halles-ում, 22:00-ից փակ էին Châtelet, Les Halles, République կայարանները. 20→21.10-ի համար որոշում դեռ չկա (սպասվում է 18:00–19:30)։ 19→20.10 գիշերվա մասին հաշվետվություն դեռ չկա։",
+      "text_hy": "17–19.10-ին Փարիզում թալան և բախումներ են եղել՝ République (Faubourg du Temple, Faubourg-Saint-Martin), Châtelet–Les Halles (rue Saint-Denis, Sébastopol), rue de Rivoli–Saint-Honoré–Madeleine. 18.10-ին թալանվել է BHV Marais-ը (Hôtel de Ville-ի դիմաց)։ 19→20.10 գիշերը (պարետային ժամ 23:00–06:00 République-ում և Les Halles-ում, 22:00-ից փակ Châtelet/Les Halles/République կայարաններ) ըստ վարչապետ Լըկորնյուի անցել է «հանգիստ»։ Նոր պարետային ժամերը կորոշեն 20.10 երեկոյան՝ «որտեղ իրավիճակը պահանջում է»։",
       "suggestion_hy": "20.10. Porte Maillot → M1 → Hôtel de Ville կարելի է (M1-ը աշխատում է), մնալ Սենի կողմում, rue de Rivoli-ից հյուսիս չգնալ, մինչև ~21:30 M11-ով տուն։ 21–23.10-ի տուն վերադարձի երթուղիները փոխված են՝ առանց Châtelet/République փոխադրման (տես օրվա քարտերը)։",
-      "source_url": "https://www.lejdd.fr/Societe/pillages-de-commerces-immeuble-dhabitation-pris-dassaut-nouvelle-flambee-de-violences-a-paris-dimanche-186387",
+      "source_url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/direct-violences-du-17-octobre-les-premiers-couvre-feux-sont-entres-en-vigueur-dans-la-nuit-avant-une-serie-de-reunions-d-urgence-ce-mardi_8245078.html",
       "stop_ids": [
         "paris-20-02",
         "paris-20-04",
