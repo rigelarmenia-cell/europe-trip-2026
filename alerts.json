@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-21T17:30:00+02:00",
+  "updated_at": "2026-10-21T19:20:00+02:00",
   "city_status": {
     "paris": {
-      "checked_at": "2026-10-21T17:30:00+02:00",
-      "summary_hy": "Պարետային ժամը երկարաձգվել է 21→22.10 գիշերվա համար (République-ի կենտրոն, Les Halles-ի հատված, 23:00–06:00), République/Châtelet/Les Halles կայարանները փակ են 22:00-ից։ 22.10-ի ուսանողական երթը արգելվել է (AFP, ոստիկանական աղբյուր)։ 24.10-ի երթերի (Bastille→Opéra, Bastille→Nation) որոշումը դեռ չկա։ RATP-ի, Orly-ի կամ օդային երթևեկության գործադուլ 21–24.10-ին չի գտնվել։"
+      "checked_at": "2026-10-21T19:20:00+02:00",
+      "summary_hy": "22.10-ի ուսանողական երթը արգելված է, և RATP-ը 22.10 10:00-ից փակում է Bastille, Saint-Paul, Place d’Italie, Gare d’Austerlitz և Bastille-ի շրջանի այլ կայարանները, M10-ը կանգնած է Austerlitz–Jussieu հատվածում։ 21→22.10 գիշերվա պարետային ժամը գործում է, 22→23 և 23→24 գիշերների համար որոշում դեռ չկա։ 24.10-ի երթերն արգելված չեն. RATP-ի, Orly-ի կամ ավիա գործադուլ 21–24.10-ին չի գտնվել։"
     },
     "barcelona": {
-      "checked_at": "2026-10-21T17:30:00+02:00",
-      "summary_hy": "24–26.10-ի համար նոր միտինգ, փողոցների փակում կամ TMB մետրոյի գործադուլ չի գտնվել. TMB ավտոբուսների գործադուլի օրերն են 22, 27, 29.10 (մեր օրերին չեն)։ Կարևորը՝ 25.10-ի Էլ Կլասիկոն։"
+      "checked_at": "2026-10-21T19:20:00+02:00",
+      "summary_hy": "24–26.10-ի համար նոր միտինգ, փողոցների փակում կամ TMB մետրոյի գործադուլ չի գտնվել (ստուգված 21.10 19:15). TMB ավտոբուսների գործադուլի օրերը 22, 27, 29.10-ն են։ Գլխավորը՝ 25.10-ի Էլ Կլասիկոն։"
     },
     "rome": {
-      "checked_at": "2026-10-21T17:30:00+02:00",
-      "summary_hy": "26–28.10-ին Հռոմում ATAC-ի, ազգային տրանսպորտի կամ ավիա գործադուլ չի գտնվել (scioperiitalia՝ 20.10 դրությամբ, ստուգված 21.10 17:20). մոտակա համընդհանուր գործադուլը 30.10-ն է՝ մեր մեկնումից հետո։ Մեծ երթ 26–28.10-ի համար հայտարարված չէ։"
+      "checked_at": "2026-10-21T19:20:00+02:00",
+      "summary_hy": "26–28.10-ին Հռոմում ATAC-ի, ազգային տրանսպորտի կամ ավիա գործադուլ չի գտնվել (scioperiitalia՝ 20.10-ի դրությամբ)։ 30.10-ի գործադուլը չեղարկվել է մետրոյի, ավտոբուսի և տրամվայի համար ու մեր մեկնումից հետո է։ Մեծ երթ հայտարարված չէ։"
     }
   },
   "alerts": [
@@ -53,10 +53,10 @@
       "city": "paris",
       "date": "2026-10-22",
       "until": "2026-10-22T23:59:00+02:00",
-      "title_hy": "🚫 22.10 ուսանողների երթը արգելված է (Austerlitz–Bastille)",
-      "text_hy": "Ոստիկանության աղբյուրը AFP-ին հայտնել է, որ prefecture-ը արգելել է Interfac IDF-ի 22.10 (հինգշաբթի) կեսօրից հետո նախատեսված երթը՝ Pitié-Salpêtrière (bd de l’Hôpital) → Gare d’Austerlitz → Gare de Lyon → Place de la Bastille. արգելման որոշման տեքստը դեռ չի հրապարակվել։ Արգելված երթերի դեպքում հնարավոր են չթույլատրված հավաքներ և բախումներ Bastille–Austerlitz–Gare de Lyon շրջանում։ Notre-Dame / Quai Saint-Michel-ը Bastille-ից ~1,4 կմ է։",
-      "suggestion_hy": "22.10 կեսօրից հետո Bastille, Gare de Lyon, Austerlitz, Saint-Marcel չգնալ, M1-ով Bastille-ի կողմ չանցնել։ Notre-Dame-ում ցույցի/ոստիկանության կուտակում տեսնելիս անմիջապես շարժվել արևմուտք՝ Pont Neuf → Louvre։",
-      "source_url": "https://icibeyrouth.com/dernieres-nouvelles/131695/mouvement-lyceen-et-etudiant--manifestation-d-interfac-idf-jeudi-a-paris-interdite-par-la-prefecture-de-police-source-policiere-a-l-afp",
+      "title_hy": "🚫 22.10 երթն արգելված է, Bastille/Austerlitz կայարանները փակ են",
+      "text_hy": "Prefecture-ը արգելել է Interfac IDF-ի 22.10-ի երթը (Pitié-Salpêtrière → Austerlitz → Gare de Lyon → Bastille)։ RATP-ը ոստիկանության պահանջով 22.10 10:00-ից փակում է հետևյալ կայարանները. M1՝ Bastille, Saint-Paul, M5՝ Place d’Italie, Campo-Formio, Saint-Marcel, Gare d’Austerlitz, Quai de la Râpée, Bastille, Bréguet-Sabin, M6/M7՝ Place d’Italie, M8՝ Bastille, Chemin Vert։ M10-ը կանգնած է Gare d’Austerlitz–Jussieu հատվածում։ Գնացքները փակ կայարաններում չեն կանգնում, փոխադրումներ չկան։ Հնարավոր են չթույլատրված հավաքներ, իսկ Notre-Dame / Quai Saint-Michel-ը Bastille-ից ~1,4 կմ է։",
+      "suggestion_hy": "Մեր 22.10-ի երթուղին (Tuileries–Louvre–Notre-Dame–Grands Boulevards) փակ կայարաններով չի անցնում, իսկ M1-ով Saint-Paul/Bastille-ի կողմ չանցնել։ Կեսօրից հետո Bastille, Gare de Lyon, Austerlitz և Place d’Italie չգնալ։ Notre-Dame-ի մոտ ոստիկանության կուտակում տեսնելիս շարժվել արևմուտք՝ Pont Neuf → Louvre։",
+      "source_url": "https://www.sortiraparis.com/actualites/a-paris/articles/355456-manifestation-du-22-octobre-a-paris-les-stations-de-metro-fermees",
       "stop_ids": [
         "paris-22-01",
         "paris-22-05"
