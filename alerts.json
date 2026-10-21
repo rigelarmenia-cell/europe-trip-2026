@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-21T13:25:00+02:00",
+  "updated_at": "2026-10-21T17:30:00+02:00",
   "city_status": {
     "paris": {
-      "checked_at": "2026-10-21T13:25:00+02:00",
-      "summary_hy": "RATP-ն պաշտոնապես հայտարարել է. այսօր՝ 21.10 22:00-ից République, Châtelet, Les Halles, Châtelet–Les Halles կայարանները կրկին փակ են (prefecture-ի պահանջով)։ 21→22.10 գիշերվա պարետային ժամի որոշումը դեռ չի հրապարակվել (sortiraparis 21.10 11:58)։ 22.10-ի ուսանողական երթի համար prefecture-ի որոշում դեռ չկա։ 24.10-ի «դեղին ժիլետների» երթը հայտարարագրվել է Bastille → Opéra։ RATP-ի կամ Orly-ի գործադուլ 21–24.10-ին չի գտնվել։"
+      "checked_at": "2026-10-21T17:30:00+02:00",
+      "summary_hy": "Պարետային ժամը երկարաձգվել է 21→22.10 գիշերվա համար (République-ի կենտրոն, Les Halles-ի հատված, 23:00–06:00), République/Châtelet/Les Halles կայարանները փակ են 22:00-ից։ 22.10-ի ուսանողական երթը արգելվել է (AFP, ոստիկանական աղբյուր)։ 24.10-ի երթերի (Bastille→Opéra, Bastille→Nation) որոշումը դեռ չկա։ RATP-ի, Orly-ի կամ օդային երթևեկության գործադուլ 21–24.10-ին չի գտնվել։"
     },
     "barcelona": {
-      "checked_at": "2026-10-21T13:25:00+02:00",
-      "summary_hy": "24–26.10-ի համար նոր միտինգ, փողոցների փակում կամ TMB մետրոյի գործադուլ չի գտնվել. TMB ավտոբուսների գործադուլի օրերն են 22, 27, 29.10 (մեր օրերին չեն) (ստուգված 21.10 13:20)։ Կարևորը՝ 25.10-ի Էլ Կլասիկոն։"
+      "checked_at": "2026-10-21T17:30:00+02:00",
+      "summary_hy": "24–26.10-ի համար նոր միտինգ, փողոցների փակում կամ TMB մետրոյի գործադուլ չի գտնվել. TMB ավտոբուսների գործադուլի օրերն են 22, 27, 29.10 (մեր օրերին չեն)։ Կարևորը՝ 25.10-ի Էլ Կլասիկոն։"
     },
     "rome": {
-      "checked_at": "2026-10-21T13:25:00+02:00",
-      "summary_hy": "26–28.10-ին Հռոմում ATAC-ի, ազգային տրանսպորտի կամ ավիա գործադուլ չի գտնվել (scioperiitalia, virgilio՝ 20.10 դրությամբ, ստուգված 21.10 13:20). մոտակա համընդհանուր գործադուլը 30.10-ն է՝ մեր մեկնումից հետո։"
+      "checked_at": "2026-10-21T17:30:00+02:00",
+      "summary_hy": "26–28.10-ին Հռոմում ATAC-ի, ազգային տրանսպորտի կամ ավիա գործադուլ չի գտնվել (scioperiitalia՝ 20.10 դրությամբ, ստուգված 21.10 17:20). մոտակա համընդհանուր գործադուլը 30.10-ն է՝ մեր մեկնումից հետո։ Մեծ երթ 26–28.10-ի համար հայտարարված չէ։"
     }
   },
   "alerts": [
@@ -22,9 +22,9 @@
       "date": null,
       "until": "2026-10-24T06:00:00+02:00",
       "title_hy": "🚨 Անկարգություններ. խուսափել Châtelet, République, Rivoli",
-      "text_hy": "17–19.10-ին Փարիզում թալան և բախումներ են եղել՝ République, Châtelet–Les Halles, rue de Rivoli–Saint-Honoré–Madeleine։ Պարետային ժամ (23:00–06:00) գործել է 19→20 և 20→21.10 գիշերները՝ Place de la République-ի կենտրոնական մասում և Les Halles-ի հարավային մասում. 21→22.10-ի համար որոշումը դեռ չկա։ ԱՅՍՕՐ՝ 21.10 22:00-ից RATP-ը prefecture-ի պահանջով կրկին փակում է République (M3, M5, M8, M9, M11), Châtelet (M1, M4, M7, M11, M14), Les Halles (M4) և Châtelet–Les Halles (RER A, B, D) կայարանները. գնացքներն անցնում են առանց կանգառի, փոխադրումներ չկան։",
+      "text_hy": "17–19.10-ին Փարիզում թալան և բախումներ են եղել՝ République, Châtelet–Les Halles, rue de Rivoli–Saint-Honoré–Madeleine։ Պարետային ժամը (23:00–06:00) երկարաձգվել է նաև 21→22.10 գիշերվա համար՝ Place de la République-ի կենտրոնական մասում և Les Halles-ի հատվածում (allée André-Breton, rue Rambuteau, bd de Sébastopol, rue Berger). 20:00–06:00 արգելված են հավաքները Champs-Élysées-ի, Bastille-ի և մեծ կայարանների շրջակայքում։ Այսօր՝ 21.10 22:00-ից RATP-ը փակում է République, Châtelet, Les Halles և Châtelet–Les Halles կայարանները (գնացքներն անցնում են առանց կանգառի, փոխադրումներ չկան)։",
       "suggestion_hy": "Այսօրվա մեր տուն երթուղին (Montparnasse → M4 → Réaumur–Sébastopol → M3 → Arts et Métiers → M11) աշխատում է. M4-ը Châtelet/Les Halles-ով, M11-ը République-ով կանցնեն առանց կանգառի։ Այդ կայարաններում մի իջեք և փոխադրում մի պլանավորեք, ավելի լավ է տանը լինել մինչև 22:00–23:00։",
-      "source_url": "https://www.ratp.fr/en/infos-trafic",
+      "source_url": "https://www.sortiraparis.com/actualites/a-paris/articles/355185-couvre-feu-a-paris-quelles-sont-les-villes-d-ile-de-france-concernees",
       "stop_ids": [],
       "area": {
         "lat": 48.859,
@@ -49,14 +49,14 @@
     },
     {
       "id": "par-1022-students",
-      "level": "info",
+      "level": "warning",
       "city": "paris",
       "date": "2026-10-22",
       "until": "2026-10-22T23:59:00+02:00",
-      "title_hy": "🎓 22.10 14:00 ուսանողների երթ՝ Austerlitz → Bastille",
-      "text_hy": "Կազմակերպիչները (Interfac, Coordination nationale lycéenne և այլք) հայտարարել են երթ հինգշաբթի 22.10 14:00-ին. մեկնարկ՝ boulevard de l’Hôpital, Pitié-Salpêtrière (մետրո Saint-Marcel), անցնում է Gare d’Austerlitz և Gare de Lyon, ավարտ՝ Place de la Bastille։ Prefecture-ը երթուղին դեռ չի հաստատել։ Մեր մոտակա կանգառը (Notre-Dame / Quai Saint-Michel) Bastille-ից ~1,4 կմ է, Լուվրը՝ ավելի հեռու։",
-      "suggestion_hy": "Մեր երթուղին Սենայի արևմտյան մասում է. 22.10-ի կեսօրից հետո Bastille, Gare de Lyon, Austerlitz չգնալ և M1-ով Bastille-ի կողմ չանցնել։ Notre-Dame-ի մոտ ցույցի աղմուկ լինի՝ անցնել Pont Neuf → Louvre ուղղությամբ։",
-      "source_url": "https://paris-luttes.info/manifestation-jeudi-22-octobre-a-21326?lang=fr",
+      "title_hy": "🚫 22.10 ուսանողների երթը արգելված է (Austerlitz–Bastille)",
+      "text_hy": "Ոստիկանության աղբյուրը AFP-ին հայտնել է, որ prefecture-ը արգելել է Interfac IDF-ի 22.10 (հինգշաբթի) կեսօրից հետո նախատեսված երթը՝ Pitié-Salpêtrière (bd de l’Hôpital) → Gare d’Austerlitz → Gare de Lyon → Place de la Bastille. արգելման որոշման տեքստը դեռ չի հրապարակվել։ Արգելված երթերի դեպքում հնարավոր են չթույլատրված հավաքներ և բախումներ Bastille–Austerlitz–Gare de Lyon շրջանում։ Notre-Dame / Quai Saint-Michel-ը Bastille-ից ~1,4 կմ է։",
+      "suggestion_hy": "22.10 կեսօրից հետո Bastille, Gare de Lyon, Austerlitz, Saint-Marcel չգնալ, M1-ով Bastille-ի կողմ չանցնել։ Notre-Dame-ում ցույցի/ոստիկանության կուտակում տեսնելիս անմիջապես շարժվել արևմուտք՝ Pont Neuf → Louvre։",
+      "source_url": "https://icibeyrouth.com/dernieres-nouvelles/131695/mouvement-lyceen-et-etudiant--manifestation-d-interfac-idf-jeudi-a-paris-interdite-par-la-prefecture-de-police-source-policiere-a-l-afp",
       "stop_ids": [
         "paris-22-01",
         "paris-22-05"
@@ -74,9 +74,9 @@
       "date": "2026-10-24",
       "until": "2026-10-24T10:00:00+02:00",
       "title_hy": "🦺 24.10 «դեղին ժիլետներ»՝ Bastille → Opéra",
-      "text_hy": "Շաբաթ 24.10-ին «դեղին ժիլետների» Acte II-ի երթը prefecture-ում հայտարարագրվել է Place de la Bastille → Opéra երթուղով (դեռ չհաստատված, ժամը հայտնի չէ), միանում են նաև աշակերտներն ու ուսանողները։ Ներքին գործերի նախարարը հայտարարել է Sentinelle զինվորների տեղակայման մասին (Փարիզում ~1000)։ Մենք Châtelet-ով (N12 → N22) անցնում ենք 24.10 00:44–01:05-ին և Orly-ում ենք ~02:00-ին՝ ցույցից շատ առաջ։",
+      "text_hy": "Շաբաթ 24.10-ին հայտարարագրված է «դեղին ժիլետների» երթը Bastille → République → Grands Boulevards → Opéra, CGT Paris-ինը՝ Bastille → Nation, Union étudiante-ն հավաքվում է Bastille-ում 14:00-ից. prefecture-ը դեռ չի որոշել (նախարարը կոչ է արել արգելել անկարգություն սպառնացող երթերը)։ Մենք Châtelet-ով (N12 → N22) անցնում ենք 24.10 00:44–01:05-ին և Orly-ում ենք ~02:00-ին՝ ցույցից շատ առաջ։",
       "suggestion_hy": "Մեզ վրա չպետք է ազդի. 23.10-ի երեկոյան նորից նայել այս բաժինը՝ եթե Châtelet-ի գիշերային փակում կամ պարետային ժամ հայտարարվի 23→24.10 գիշերվա համար։",
-      "source_url": "https://mesinfos.fr/75000-paris/gilets-jaunes-quel-parcours-pour-la-manifestation-declaree-a-paris-ce-samedi-341574.html",
+      "source_url": "https://sortiraparis.com/actualites/a-paris/articles/355171-manifestation-du-24-octobre-a-paris-rassemblement-parcours-et-arme-mobilise",
       "stop_ids": [],
       "area": {
         "lat": 48.862,
