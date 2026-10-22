@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-22T16:25:00+02:00",
+  "updated_at": "2026-10-22T17:20:00+02:00",
   "city_status": {
     "paris": {
-      "checked_at": "2026-10-22T16:25:00+02:00",
-      "summary_hy": "22.10 16:25. Վարչական դատարանը կասեցրել է 22.10-ի ուսանողական երթի արգելքը. երթը 14:00-ից Pitié-Salpêtrière → Bastille է, կայարանների փակումը մնում է։ 23.10-ին «Austen» փոթորկի համար դեղին զգուշացում է (քամի 70–90 կմ/ժ)։ 24.10-ին թույլատրված է միայն Bastille → Nation երթը, 22→23 գիշերվա պարետային ժամի մասին նոր որոշում չի գտնվել։"
+      "checked_at": "2026-10-22T17:20:00+02:00",
+      "summary_hy": "22.10 17:20. RATP-ը պաշտոնապես երկարաձգել է կայարանների փակումը 22.10 երեկոյի համար՝ 22:00-ից République, Châtelet, Les Halles, Châtelet–Les Halles, Trocadéro, M11-ը կանգնած է Châtelet–Hôtel de Ville հատվածում։ 22→23 գիշերվա պարետային ժամի նոր որոշում դեռ չկա։ Ուսանողական երթը (14:00, Pitié-Salpêtrière → Bastille) շարունակվում է, 23.10-ին «Austen» փոթորկի դեղին զգուշացումն է, իսկ 24.10-ին թույլատրված է միայն Bastille → Nation երթը։"
     },
     "barcelona": {
-      "checked_at": "2026-10-22T16:25:00+02:00",
-      "summary_hy": "24–26.10-ի համար նոր միտինգ, փողոցների փակում կամ TMB գործադուլ չի գտնվել (ստուգված 22.10 15:15). բնակարանային համընդհանուր գործադուլը նախատեսված է 11.11-ին՝ մեր օրերից հետո։ Գլխավորը՝ 25.10-ի Էլ Կլասիկոն (Camp Nou, 21:00)։"
+      "checked_at": "2026-10-22T17:20:00+02:00",
+      "summary_hy": "24–26.10-ի համար նոր միտինգ, փողոցների փակում կամ TMB գործադուլ չի գտնվել (ստուգված 22.10 17:15, TMB avisos). 24.10-ի վազքն ու 25.10-ի տրիատլոնը ազդում են միայն ավտոբուսներին։ Գլխավորը՝ 25.10-ի Էլ Կլասիկոն (Camp Nou, 21:00)։"
     },
     "rome": {
-      "checked_at": "2026-10-22T16:25:00+02:00",
-      "summary_hy": "26–28.10-ին Հռոմում ATAC-ի, երկաթուղու կամ ավիա գործադուլ չի գտնվել (ստուգված 22.10 15:15). 30.10-ի գործադուլը չեղարկված է և մեր օրերից հետո է։ Մեծ երթ հայտարարված չէ։"
+      "checked_at": "2026-10-22T17:20:00+02:00",
+      "summary_hy": "26–28.10-ին Հռոմում ATAC-ի, երկաթուղու կամ ավիա գործադուլ, մեծ երթ չի գտնվել (ստուգված 22.10 17:15, romamobilita). 30.10-ի գործադուլը չեղարկված է։ Ponte Matteotti-ի աշխատանքները (24.10–11.11) մեր երթուղուց հեռու են։"
     }
   },
   "alerts": [
@@ -21,10 +21,10 @@
       "city": "paris",
       "date": null,
       "until": "2026-10-24T06:00:00+02:00",
-      "title_hy": "🚨 Անկարգություններ. խուսափել Châtelet, République, Rivoli",
-      "text_hy": "17–19.10-ին Փարիզում թալան և բախումներ են եղել՝ République, Châtelet–Les Halles, rue de Rivoli–Saint-Honoré–Madeleine։ Պարետային ժամը (23:00–06:00) երկարաձգվել է նաև 21→22.10 գիշերվա համար՝ Place de la République-ի կենտրոնական մասում և Les Halles-ի հատվածում (allée André-Breton, rue Rambuteau, bd de Sébastopol, rue Berger). 20:00–06:00 արգելված են հավաքները Champs-Élysées-ի, Bastille-ի և մեծ կայարանների շրջակայքում։ Այսօր՝ 21.10 22:00-ից RATP-ը փակում է République, Châtelet, Les Halles և Châtelet–Les Halles կայարանները (գնացքներն անցնում են առանց կանգառի, փոխադրումներ չկան)։",
-      "suggestion_hy": "Այսօրվա մեր տուն երթուղին (Montparnasse → M4 → Réaumur–Sébastopol → M3 → Arts et Métiers → M11) աշխատում է. M4-ը Châtelet/Les Halles-ով, M11-ը République-ով կանցնեն առանց կանգառի։ Այդ կայարաններում մի իջեք և փոխադրում մի պլանավորեք, ավելի լավ է տանը լինել մինչև 22:00–23:00։",
-      "source_url": "https://www.sortiraparis.com/actualites/a-paris/articles/355185-couvre-feu-a-paris-quelles-sont-les-villes-d-ile-de-france-concernees",
+      "title_hy": "🚨 Այսօր 22:00-ից փակ են République, Châtelet, Les Halles",
+      "text_hy": "17–19.10-ին Փարիզում թալան և բախումներ են եղել (République, Châtelet–Les Halles, rue de Rivoli)։ RATP-ը prefecture-ի խնդրանքով երկարաձգել է փակումը նաև 22.10-ի երեկոյի համար. 22:00-ից փակ են République, Châtelet, Châtelet–Les Halles, Les Halles և Trocadéro կայարանները (գնացքներն անցնում են առանց կանգառի, փոխադրումներ չկան), M11-ը կանգնած է Châtelet ↔ Hôtel de Ville հատվածում, RER B-ն ընդհատված է Saint-Michel Notre-Dame-ից հյուսիս։ Պարետային ժամը (23:00–06:00, République-ի կենտրոն և Les Halles) 22→23 գիշերվա համար դեռ պաշտոնապես հայտարարված չէ, prefecture-ը ասում է՝ «այնքան, որքան անհրաժեշտ է»։",
+      "suggestion_hy": "Այսօրվա մեր տուն երթուղին (Grands Boulevards → ոտքով Bourse → M3 → Arts et Métiers → M11) աշխատում է. M11-ը République-ով կանցնի առանց կանգառի։ Châtelet/Les Halles/République/Trocadéro-ում մի իջեք, ավելի լավ է տանը լինել մինչև 22:00։",
+      "source_url": "https://www.bonjour-ratp.fr/actualites/articles/fermetures-20-21-octobre-2026/",
       "stop_ids": [],
       "area": {
         "lat": 48.859,
