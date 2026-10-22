@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-22T13:20:00+02:00",
+  "updated_at": "2026-10-22T15:15:00+02:00",
   "city_status": {
     "paris": {
-      "checked_at": "2026-10-22T13:20:00+02:00",
-      "summary_hy": "22.10 13:20. ուժի մեջ են 22.10 08:00–20:00 հավաքների արգելքը և 10:00-ից Bastille/Saint-Paul/Place d’Italie/Austerlitz կայարանների փակումը (Interfac-ի երթն արգելված է)։ 22→23 գիշերվա պարետային ժամի, 23.10-ի արգելքների, RATP/SNCF գործադուլի և 24.10-ի երթերի մասին prefecture-ի նոր որոշում դեռ չկա (sortiraparis 09:09, securmanif)։"
+      "checked_at": "2026-10-22T15:15:00+02:00",
+      "summary_hy": "22.10 15:15. Prefecture-ը 24.10-ի համար թույլատրել է միայն արհմիությունների երթը Bastille → Nation, իսկ «դեղին ժիլետների»/Interfac-ի Bastille → Opéra երթը արգելվում է (Le Figaro, Entrevue, 22.10)։ Ուժի մեջ են 22.10 08:00–20:00 հավաքների արգելքը և Bastille/Austerlitz/Place d’Italie կայարանների փակումը։ 22→23 գիշերվա պարետային ժամի և 23.10-ի արգելքների մասին նոր որոշում դեռ չկա։"
     },
     "barcelona": {
-      "checked_at": "2026-10-22T13:20:00+02:00",
-      "summary_hy": "24–26.10-ի համար նոր միտինգ, փողոցների փակում կամ TMB մետրոյի/ավտոբուսի գործադուլ չի գտնվել (TMB ավտոբուսների հոկտեմբերյան գործադուլը չեղարկված է), ստուգված 22.10 13:20։ Գլխավորը՝ 25.10-ի Էլ Կլասիկոն (Camp Nou, 21:00)։"
+      "checked_at": "2026-10-22T15:15:00+02:00",
+      "summary_hy": "24–26.10-ի համար նոր միտինգ, փողոցների փակում կամ TMB գործադուլ չի գտնվել (ստուգված 22.10 15:15). բնակարանային համընդհանուր գործադուլը նախատեսված է 11.11-ին՝ մեր օրերից հետո։ Գլխավորը՝ 25.10-ի Էլ Կլասիկոն (Camp Nou, 21:00)։"
     },
     "rome": {
-      "checked_at": "2026-10-22T13:20:00+02:00",
-      "summary_hy": "26–28.10-ին Հռոմում ATAC-ի, երկաթուղու կամ ավիա գործադուլ չի գտնվել (ստուգված 22.10 13:20, scioperiitalia/romamobilita/missionline)։ Մեծ երթ հայտարարված չէ։ 24.10–11.11 Ponte Matteotti-ն մասնակի փակ է (մեր երթուղուց հեռու)։"
+      "checked_at": "2026-10-22T15:15:00+02:00",
+      "summary_hy": "26–28.10-ին Հռոմում ATAC-ի, երկաթուղու կամ ավիա գործադուլ չի գտնվել (ստուգված 22.10 15:15). 30.10-ի գործադուլը չեղարկված է և մեր օրերից հետո է։ Մեծ երթ հայտարարված չէ։"
     }
   },
   "alerts": [
@@ -97,14 +97,14 @@
       "city": "paris",
       "date": "2026-10-24",
       "until": "2026-10-24T10:00:00+02:00",
-      "title_hy": "🦺 24.10 «դեղին ժիլետներ»՝ Bastille → Opéra",
-      "text_hy": "Շաբաթ 24.10-ին հայտարարագրված է «դեղին ժիլետների» երթը Bastille → République → Grands Boulevards → Opéra, CGT Paris-ինը՝ Bastille → Nation, Union étudiante-ն հավաքվում է Bastille-ում 14:00-ից. prefecture-ը դեռ չի որոշել (նախարարը կոչ է արել արգելել անկարգություն սպառնացող երթերը)։ Մենք Châtelet-ով (N12 → N22) անցնում ենք 24.10 00:44–01:05-ին և Orly-ում ենք ~02:00-ին՝ ցույցից շատ առաջ։",
+      "title_hy": "🦺 24.10 միայն Bastille → Nation երթն է թույլատրված",
+      "text_hy": "22.10-ին prefecture-ը թույլատրել է 24.10-ի արհմիությունների (CGT և այլք) երթը Place de la Bastille → Place de la Nation, իսկ «դեղին ժիլետների» և Interfac-ի Bastille → République → Grands Boulevards → Opéra երթը արգելվում է։ Ոստիկանների թիվը 20%-ով ավելի կլինի, Bastille-ում հավաքը սկսվում է կեսօրին։ Մենք Châtelet-ով (N12 → N22) անցնում ենք 24.10 00:44–01:05-ին և Orly-ում ենք ~02:00-ին՝ ցույցից շատ առաջ։",
       "suggestion_hy": "Մեզ վրա չպետք է ազդի. 23.10-ի երեկոյան նորից նայել այս բաժինը՝ եթե Châtelet-ի գիշերային փակում կամ պարետային ժամ հայտարարվի 23→24.10 գիշերվա համար։",
-      "source_url": "https://sortiraparis.com/actualites/a-paris/articles/355171-manifestation-du-24-octobre-a-paris-rassemblement-parcours-et-arme-mobilise",
+      "source_url": "https://www.lefigaro.fr/actualite-france/mobilisation-du-24-octobre-le-parcours-de-la-manifestation-parisienne-valide-entre-bastille-et-nation-interdit-vers-opera-20261022",
       "stop_ids": [],
       "area": {
-        "lat": 48.862,
-        "lon": 2.351,
+        "lat": 48.85,
+        "lon": 2.38,
         "radius_m": 2000
       }
     },
