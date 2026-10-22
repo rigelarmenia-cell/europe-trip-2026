@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-22T21:20:00+02:00",
+  "updated_at": "2026-10-22T22:25:00+02:00",
   "city_status": {
     "paris": {
-      "checked_at": "2026-10-22T21:20:00+02:00",
-      "summary_hy": "22.10 21:20. 22:00-ից փակ են République, Châtelet, Les Halles, Châtelet–Les Halles (RATP), M11-ը՝ Hôtel de Ville ↔ Châtelet ընդհատված։ 22→23 և 23→24 գիշերների պարետային ժամի նոր որոշում դեռ չկա, 23.10-ի համար նոր ցույց հայտարարված չէ։ «Austen» փոթորիկ. Météo-France-ի 16:00-ի տեղեկագրով Փարիզը դեղին է, պոռթկումներ մինչև 90–100 կմ/ժ, մետրոյի խափանում հայտարարված չէ. 24.10-ին միայն Bastille → Nation երթն է թույլատրված։"
+      "checked_at": "2026-10-22T22:25:00+02:00",
+      "summary_hy": "22.10 22:25. Prefecture-ը երկարաձգել է պարետային ժամը (23:00–06:00, République-ի կենտրոն և Les Halles-ի հարավային հատված) մինչև 26.10, ուրեմն այն գործում է նաև 23→24 գիշերը, երբ մենք մեկնում ենք Orly։ Այսօր 22:00-ից փակ են République, Châtelet, Les Halles, Châtelet–Les Halles. 23.10-ի երեկոյի կայարանների փակման որոշումը դեռ չկա։ 23.10-ին նոր ցույց չկա, «Austen» փոթորիկը՝ դեղին։ 24.10-ին 09:00-ից փակվում են ցույցի երթուղու ~28 կայարաններ (մենք արդեն Orly-ում ենք)։"
     },
     "barcelona": {
-      "checked_at": "2026-10-22T21:20:00+02:00",
+      "checked_at": "2026-10-22T22:25:00+02:00",
       "summary_hy": "24–26.10-ի համար նոր միտինգ, փողոցների փակում կամ TMB գործադուլ չի գտնվել (TMB avisos, ստուգված 22.10 21:15, համընդհանուր գործադուլը՝ միայն 11.11-ին)։ 24.10-ին Baix Llobregat-ի Avanza ավտոբուսների գործադուլ է (TMB-ին, Aerobús-ին և L9 Sud-ին չի վերաբերում)։ Գլխավորը՝ 25.10-ի Էլ Կլասիկոն (Camp Nou, 21:00)։"
     },
     "rome": {
-      "checked_at": "2026-10-22T21:20:00+02:00",
+      "checked_at": "2026-10-22T22:25:00+02:00",
       "summary_hy": "26–28.10-ին Հռոմում ATAC-ի, երկաթուղու, ավիա կամ տաքսու գործադուլ, մեծ երթ չի գտնվել (romamobilita, ստուգված 22.10 21:15). ուսանողների երթը 24.10-ին է, գործադուլը՝ 30.10-ին (ATAC-ի համար չեղարկված), CGIL-ինը՝ 20.11-ին։ 24.10–11.11 Ponte Matteotti-ի տրամվայի աշխատանքներ (մեր երթուղուց դուրս)։"
     }
   },
@@ -21,10 +21,10 @@
       "city": "paris",
       "date": null,
       "until": "2026-10-24T06:00:00+02:00",
-      "title_hy": "🚨 Այսօր 22:00-ից փակ են République, Châtelet, Les Halles",
-      "text_hy": "17–19.10-ին Փարիզում թալան և բախումներ են եղել (République, Châtelet–Les Halles, rue de Rivoli)։ RATP-ը prefecture-ի խնդրանքով երկարաձգել է փակումը նաև 22.10-ի երեկոյի համար. 22:00-ից փակ են République, Châtelet, Châtelet–Les Halles, Les Halles և Trocadéro կայարանները (գնացքներն անցնում են առանց կանգառի, փոխադրումներ չկան), M11-ը կանգնած է Châtelet ↔ Hôtel de Ville հատվածում, RER B-ն ընդհատված է Saint-Michel Notre-Dame-ից հյուսիս։ Պարետային ժամը (23:00–06:00, République-ի կենտրոն և Les Halles) 22→23 գիշերվա համար դեռ պաշտոնապես հայտարարված չէ, prefecture-ը ասում է՝ «այնքան, որքան անհրաժեշտ է»։",
-      "suggestion_hy": "Այսօրվա մեր տուն երթուղին (Grands Boulevards → ոտքով Bourse → M3 → Arts et Métiers → M11) աշխատում է. M11-ը République-ով կանցնի առանց կանգառի։ Châtelet/Les Halles/République/Trocadéro-ում մի իջեք, ավելի լավ է տանը լինել մինչև 22:00։",
-      "source_url": "https://www.bonjour-ratp.fr/actualites/articles/fermetures-20-21-octobre-2026/",
+      "title_hy": "🚨 Պարետային ժամը երկարաձգված է մինչև 26.10",
+      "text_hy": "17–19.10-ի թալանից և բախումներից հետո prefecture-ը պարետային ժամը (23:00–06:00) երկարաձգել է մինչև երկուշաբթի՝ 26.10. գոտին՝ Place de la République-ի կենտրոնական մասը և Les Halles-ի հարավը (Place Maurice Quentin, rue Berger, boulevard de Sébastopol rue Berger-ից rue Rambuteau, rue Rambuteau)։ 22.10-ին 22:00-ից փակ են République, Châtelet, Châtelet–Les Halles, Les Halles կայարանները (գնացքներն անցնում են առանց կանգառի), M11-ը ընդհատված է Châtelet ↔ Hôtel de Ville, RER B-ն՝ Saint-Michel Notre-Dame ↔ Châtelet։ 23.10-ի երեկոյի համար RATP-ի որոշումը դեռ չկա, հավանական է նույն փակումը։",
+      "suggestion_hy": "23.10-ին տուն գնալ մեր նոր երթուղով (Gare de l’Est → M7 → M7bis → M11), Châtelet/Les Halles/République-ում չիջնել, 22:00-ից հետո կենտրոնում չմնալ։",
+      "source_url": "https://www.titrespresse.com/26163272603/paris-halles-couvre",
       "stop_ids": [],
       "area": {
         "lat": 48.859,
@@ -84,19 +84,19 @@
     },
     {
       "id": "par-1024-gj-acte2",
-      "level": "info",
+      "level": "warning",
       "city": "paris",
       "date": "2026-10-24",
       "until": "2026-10-24T10:00:00+02:00",
-      "title_hy": "🦺 24.10 միայն Bastille → Nation երթն է թույլատրված",
-      "text_hy": "22.10-ին prefecture-ը թույլատրել է 24.10-ի արհմիությունների (CGT և այլք) երթը Place de la Bastille → Place de la Nation, իսկ «դեղին ժիլետների» և Interfac-ի Bastille → République → Grands Boulevards → Opéra երթը արգելվում է։ Ոստիկանների թիվը 20%-ով ավելի կլինի, Bastille-ում հավաքը սկսվում է կեսօրին։ Մենք Châtelet-ով (N12 → N22) անցնում ենք 24.10 00:44–01:05-ին և Orly-ում ենք ~02:00-ին՝ ցույցից շատ առաջ։",
-      "suggestion_hy": "Մեզ վրա չպետք է ազդի. 23.10-ի երեկոյան նորից նայել այս բաժինը՝ եթե Châtelet-ի գիշերային փակում կամ պարետային ժամ հայտարարվի 23→24.10 գիշերվա համար։",
-      "source_url": "https://www.lefigaro.fr/actualite-france/mobilisation-du-24-octobre-le-parcours-de-la-manifestation-parisienne-valide-entre-bastille-et-nation-interdit-vers-opera-20261022",
+      "title_hy": "🚕 23→24.10 գիշերը Châtelet-ը պարետային ժամի մոտ է",
+      "text_hy": "Պարետային ժամը (23:00–06:00, Les Halles-ի հարավ և République) գործում է մինչև 26.10, իսկ մեր էժան տարբերակով մենք Châtelet-ում N12 → N22 փոխանցում ունենք 00:44–01:05-ին՝ գոտուց ~300–500 մ հեռու, ոստիկանական ուժեղ ներկայությամբ. Noctilien-ի շեղման մասին տեղեկություն չկա։ 24.10-ին կեսօրին Bastille → Nation արհմիութենական երթն է (թույլատրված), 09:00-ից փակվում են ~28 մետրոյի կայարաններ (Concorde, Odéon, Charles de Gaulle–Étoile և այլն)՝ մենք այդ ժամին արդեն օդում ենք։",
+      "suggestion_hy": "Ընտրել պլանի հիմնական տարբերակը՝ 2 տաքսի (G7, տնից ~02:45–03:00), Châtelet-ով չանցնել։ Եթե գնում եք Noctilien-ով, 23.10-ի երեկոյան ստուգել N12/N22-ի խափանումները bonjour-ratp.fr-ում։",
+      "source_url": "https://www.sortiraparis.com/actualites/a-paris/guides/355584-manifestation-du-24-octobre-2026-les-lieux-exceptionnellement-fermes-ce-samedi",
       "stop_ids": [],
       "area": {
-        "lat": 48.85,
-        "lon": 2.38,
-        "radius_m": 2000
+        "lat": 48.8585,
+        "lon": 2.3475,
+        "radius_m": 600
       }
     },
     {
