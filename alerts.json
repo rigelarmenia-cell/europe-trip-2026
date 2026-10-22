@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-22T17:20:00+02:00",
+  "updated_at": "2026-10-22T18:25:00+02:00",
   "city_status": {
     "paris": {
-      "checked_at": "2026-10-22T17:20:00+02:00",
-      "summary_hy": "22.10 17:20. RATP-ը պաշտոնապես երկարաձգել է կայարանների փակումը 22.10 երեկոյի համար՝ 22:00-ից République, Châtelet, Les Halles, Châtelet–Les Halles, Trocadéro, M11-ը կանգնած է Châtelet–Hôtel de Ville հատվածում։ 22→23 գիշերվա պարետային ժամի նոր որոշում դեռ չկա։ Ուսանողական երթը (14:00, Pitié-Salpêtrière → Bastille) շարունակվում է, 23.10-ին «Austen» փոթորկի դեղին զգուշացումն է, իսկ 24.10-ին թույլատրված է միայն Bastille → Nation երթը։"
+      "checked_at": "2026-10-22T18:25:00+02:00",
+      "summary_hy": "22.10 18:25. Interfac-ի երթը prefecture-ի նոր որոշմամբ դարձել է անշարժ հավաք Pitié-Salpêtrière հիվանդանոցի մոտ (13-րդ թաղամաս), Bastille չի գնում, բախումների մասին տեղեկություն չկա։ 22:00-ից République, Châtelet, Les Halles, Trocadéro փակ են (RATP)։ 22→23 գիշերվա պարետային ժամի նոր որոշում դեռ չկա, 23.10-ին պաշտպանության խորհուրդ է, «Austen» փոթորկի դեղին զգուշացում, 24.10-ին թույլատրված է միայն Bastille → Nation երթը։ Տրանսպորտի գործադուլ 23–24.10-ի համար չկա (cestlagreve)։"
     },
     "barcelona": {
-      "checked_at": "2026-10-22T17:20:00+02:00",
-      "summary_hy": "24–26.10-ի համար նոր միտինգ, փողոցների փակում կամ TMB գործադուլ չի գտնվել (ստուգված 22.10 17:15, TMB avisos). 24.10-ի վազքն ու 25.10-ի տրիատլոնը ազդում են միայն ավտոբուսներին։ Գլխավորը՝ 25.10-ի Էլ Կլասիկոն (Camp Nou, 21:00)։"
+      "checked_at": "2026-10-22T18:25:00+02:00",
+      "summary_hy": "24–26.10-ի համար նոր միտինգ, փողոցների փակում կամ TMB գործադուլ չի գտնվել (TMB avisos, ստուգված 22.10 18:20). 24.10-ի վազքն ու 25.10-ի տրիատլոնը ազդում են միայն ավտոբուսներին։ Գլխավորը՝ 25.10-ի Էլ Կլասիկոն (Camp Nou, 21:00)։"
     },
     "rome": {
-      "checked_at": "2026-10-22T17:20:00+02:00",
-      "summary_hy": "26–28.10-ին Հռոմում ATAC-ի, երկաթուղու կամ ավիա գործադուլ, մեծ երթ չի գտնվել (ստուգված 22.10 17:15, romamobilita). 30.10-ի գործադուլը չեղարկված է։ Ponte Matteotti-ի աշխատանքները (24.10–11.11) մեր երթուղուց հեռու են։"
+      "checked_at": "2026-10-22T18:25:00+02:00",
+      "summary_hy": "26–28.10-ին Հռոմում ATAC-ի, երկաթուղու, ավիա կամ տաքսու գործադուլ, մեծ երթ չի գտնվել (romamobilita, scioperiitalia, virgilio/MIT, ստուգված 22.10 18:20). 30.10-ի գործադուլը չեղարկված է, բեռնատարների բողոքը միայն հարավում է։ 28.10-ին Piazza Santi Apostoli-ում հավաք կա, բայց այդ օրը մենք օդանավակայան ենք գնում։"
     }
   },
   "alerts": [
@@ -49,21 +49,18 @@
     },
     {
       "id": "par-1022-students",
-      "level": "warning",
+      "level": "info",
       "city": "paris",
       "date": "2026-10-22",
       "until": "2026-10-22T23:59:00+02:00",
-      "title_hy": "🚶 22.10 ուսանողների երթը թույլատրված է, կայարանները փակ են",
-      "text_hy": "Վարչական դատարանը 22.10-ին կասեցրել է prefecture-ի արգելքը. Interfac IDF-ի երթը 14:00-ից անցնում է Pitié-Salpêtrière → Gare d’Austerlitz → Gare de Lyon → Bastille։ 10:00-ից փակ են. M1՝ Bastille, Saint-Paul, M5՝ Place d’Italie, Campo-Formio, Saint-Marcel, Gare d’Austerlitz, Quai de la Râpée, Bastille, Bréguet-Sabin, M6/M7՝ Place d’Italie, M8՝ Bastille, Chemin Vert, M10-ը կանգնած է Gare d’Austerlitz–Jussieu հատվածում։ Notre-Dame / Quai Saint-Michel-ը երթի վերջնակետից (Bastille) ~1,4 կմ է։",
-      "suggestion_hy": "Մեր 22.10-ի երթուղին փակ կայարաններով չի անցնում։ Երեկոյան Bastille, Gare de Lyon, Austerlitz և Place d’Italie չգնալ, M1-ով Saint-Paul/Bastille-ի կողմ չանցնել։ Notre-Dame-ի մոտ ամբոխ կամ ոստիկանական շղթա տեսնելիս շարժվել արևմուտք՝ Pont Neuf → Louvre։",
-      "source_url": "https://www.lalibre.be/dernieres-depeches/2026/10/22/manifestations-en-france-la-justice-suspend-linterdiction-de-la-manifestation-prevue-par-linterfac-a-paris-jeudi-TOLHBHV3T5FFHC43WDRFEH452M/",
-      "stop_ids": [
-        "paris-22-01",
-        "paris-22-05"
-      ],
+      "title_hy": "🚶 22.10 ուսանողների երթը՝ անշարժ հավաք Pitié-ի մոտ",
+      "text_hy": "Դատարանը կասեցրել էր արգելքը, բայց prefecture-ի նոր որոշմամբ Interfac-ի ակցիան 22.10-ին անշարժ հավաք է Pitié-Salpêtrière հիվանդանոցի մոտ (boulevard de l’Hôpital, 13-րդ թաղամաս), երթ դեպի Bastille չկա, բախումների մասին տեղեկություն չկա (17:00-ի դրությամբ)։ 10:00-ից փակ են. M1՝ Bastille, Saint-Paul, M5՝ Place d’Italie, Campo-Formio, Saint-Marcel, Gare d’Austerlitz, Quai de la Râpée, Bastille, Bréguet-Sabin, M6/M7՝ Place d’Italie, M8՝ Bastille, Chemin Vert, M10-ը կանգնած է Gare d’Austerlitz–Jussieu հատվածում։ Մեր երթուղուց (Notre-Dame) ~1,8 կմ հեռու է։",
+      "suggestion_hy": "Մեր 22.10-ի երթուղին փակ կայարաններով չի անցնում։ Երեկոյան Bastille, Austerlitz և Place d’Italie չգնալ։",
+      "source_url": "https://sortiraparis.com/actualites/a-paris/articles/355354-manifestation-du-22-octobre-a-paris-parcours-maintenu-stations-fermees-les-infos",
+      "stop_ids": [],
       "area": {
-        "lat": 48.8475,
-        "lon": 2.364,
+        "lat": 48.8385,
+        "lon": 2.3615,
         "radius_m": 1200
       }
     },
