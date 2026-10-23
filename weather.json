@@ -1,15 +1,15 @@
 {
- "updated_at": "2026-10-23T19:34:33.816Z",
+ "updated_at": "2026-10-23T20:33:11.964Z",
  "source": "Open-Meteo (open-meteo.com), CC BY 4.0",
  "cities": {
   "paris": {
    "timezone": "Europe/Paris",
    "current": {
-    "time": "2026-10-23T21:30",
-    "temp": 10.2,
-    "feels": 5.6,
+    "time": "2026-10-23T22:30",
+    "temp": 9.6,
+    "feels": 5.4,
     "code": 80,
-    "wind": 23.1,
+    "wind": 20.5,
     "precip": 0.1
    },
    "daily": [
@@ -17,9 +17,9 @@
      "date": "2026-10-23",
      "code": 80,
      "tmax": 14.4,
-     "tmin": 8.8,
+     "tmin": 9.3,
      "pprob": 93,
-     "psum": 9.3,
+     "psum": 7,
      "wind": 35.5,
      "sunrise": "08:23",
      "sunset": "18:45"
@@ -27,17 +27,17 @@
     {
      "date": "2026-10-24",
      "code": 80,
-     "tmax": 13.6,
+     "tmax": 13.5,
      "tmin": 9.1,
      "pprob": 100,
-     "psum": 10.58,
-     "wind": 24.5,
+     "psum": 10.63,
+     "wind": 24.7,
      "sunrise": "08:24",
      "sunset": "18:44"
     },
     {
      "date": "2026-10-25",
-     "code": 63,
+     "code": 80,
      "tmax": 17.5,
      "tmin": 10.4,
      "pprob": 98,
@@ -215,43 +215,43 @@
     },
     {
      "time": "2026-10-23T22:00",
-     "temp": 9.9,
+     "temp": 10,
      "code": 80,
      "pprob": 18
     },
     {
      "time": "2026-10-23T23:00",
-     "temp": 8.8,
+     "temp": 9.3,
      "code": 80,
      "pprob": 8
     },
     {
      "time": "2026-10-24T00:00",
      "temp": 9.6,
-     "code": 3,
+     "code": 80,
      "pprob": 8
     },
     {
      "time": "2026-10-24T01:00",
-     "temp": 9.8,
-     "code": 2,
+     "temp": 9.7,
+     "code": 3,
      "pprob": 10
     },
     {
      "time": "2026-10-24T02:00",
-     "temp": 10,
-     "code": 3,
+     "temp": 9.8,
+     "code": 2,
      "pprob": 23
     },
     {
      "time": "2026-10-24T03:00",
-     "temp": 9.9,
-     "code": 2,
+     "temp": 9.8,
+     "code": 80,
      "pprob": 20
     },
     {
      "time": "2026-10-24T04:00",
-     "temp": 9.4,
+     "temp": 9.5,
      "code": 3,
      "pprob": 18
     },
@@ -263,13 +263,13 @@
     },
     {
      "time": "2026-10-24T06:00",
-     "temp": 9.5,
+     "temp": 9.4,
      "code": 80,
      "pprob": 40
     },
     {
      "time": "2026-10-24T07:00",
-     "temp": 9.4,
+     "temp": 9.3,
      "code": 3,
      "pprob": 28
     },
@@ -287,7 +287,7 @@
     },
     {
      "time": "2026-10-24T10:00",
-     "temp": 9.5,
+     "temp": 9.6,
      "code": 3,
      "pprob": 20
     },
@@ -299,7 +299,7 @@
     },
     {
      "time": "2026-10-24T12:00",
-     "temp": 11.3,
+     "temp": 11.4,
      "code": 3,
      "pprob": 15
     },
@@ -312,12 +312,12 @@
     {
      "time": "2026-10-24T14:00",
      "temp": 12,
-     "code": 3,
+     "code": 61,
      "pprob": 23
     },
     {
      "time": "2026-10-24T15:00",
-     "temp": 12.4,
+     "temp": 12.5,
      "code": 3,
      "pprob": 45
     },
@@ -353,26 +353,26 @@
     },
     {
      "time": "2026-10-24T21:00",
-     "temp": 11.7,
+     "temp": 11.6,
      "code": 61,
      "pprob": 100
     },
     {
      "time": "2026-10-24T22:00",
-     "temp": 12,
+     "temp": 11.9,
      "code": 61,
      "pprob": 100
     },
     {
      "time": "2026-10-24T23:00",
-     "temp": 12.6,
+     "temp": 12.5,
      "code": 61,
      "pprob": 98
     },
     {
      "time": "2026-10-25T00:00",
-     "temp": 13.6,
-     "code": 3,
+     "temp": 13.5,
+     "code": 80,
      "pprob": 83
     },
     {
@@ -950,11 +950,11 @@
   "barcelona": {
    "timezone": "Europe/Madrid",
    "current": {
-    "time": "2026-10-23T21:30",
-    "temp": 19.4,
-    "feels": 18,
+    "time": "2026-10-23T22:30",
+    "temp": 19.3,
+    "feels": 18.1,
     "code": 2,
-    "wind": 18.2,
+    "wind": 16.9,
     "precip": 0
    },
    "daily": [
@@ -1895,11 +1895,11 @@
   "rome": {
    "timezone": "Europe/Rome",
    "current": {
-    "time": "2026-10-23T21:30",
-    "temp": 17.1,
-    "feels": 17.9,
+    "time": "2026-10-23T22:30",
+    "temp": 16.9,
+    "feels": 17.5,
     "code": 2,
-    "wind": 4.7,
+    "wind": 5,
     "precip": 0
    },
    "daily": [
