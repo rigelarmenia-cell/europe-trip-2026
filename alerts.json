@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-23T09:25:00+02:00",
+  "updated_at": "2026-10-23T10:20:00+02:00",
   "city_status": {
     "paris": {
-      "checked_at": "2026-10-23T09:25:00+02:00",
-      "summary_hy": "23.10 09:25. Փարիզը «Austen» փոթորկի պատճառով նարնջագույն զգուշացման տակ է 10:00–16:00 (պոռթկումներ մինչև ~100 կմ/ժ). այգիների փակման որոշում դեռ չկա։ Պարետային ժամը գործում է մինչև 26.10, 23.10-ի երեկոյի կայարանների փակման որոշումը դեռ չի հրապարակվել. 23.10-ին նոր ցույց և 24.10-ի համար Orly-ի գործադուլ/չեղարկումներ չեն գտնվել (VY8003-ի կարգավիճակը կստուգվի երեկոյան)։"
+      "checked_at": "2026-10-23T10:20:00+02:00",
+      "summary_hy": "23.10 10:20. «Austen» փոթորիկ՝ նարնջագույն 10:00–16:00. Փարիզի քաղաքապետարանը այսօր փակել է ԲՈԼՈՐ այգիներն ու սկվերները (վերաբացում՝ ստուգումից հետո)։ Պարետային ժամը գործում է մինչև 26.10, 23.10-ի երեկոյի կայարանների փակման որոշումը դեռ չկա. 23.10-ին նոր ցույց և 24.10-ի Orly-ի գործադուլ/չեղարկումներ չեն գտնվել (VY8003-ը կստուգվի երեկոյան)։"
     },
     "barcelona": {
-      "checked_at": "2026-10-23T09:25:00+02:00",
-      "summary_hy": "24–26.10-ի համար նոր միտինգ, փողոցների փակում, TMB կամ El Prat-ի գործադուլ չի գտնվել (բնակարանային շարժման համընդհանուր գործադուլի ամսաթիվ դեռ չկա)։ Գլխավորը՝ 25.10-ի Էլ Կլասիկոն (Camp Nou, 21:00)։"
+      "checked_at": "2026-10-23T10:20:00+02:00",
+      "summary_hy": "24–26.10-ի համար TMB/El Prat-ի գործադուլ կամ մեծ միտինգ չի գտնվել (բնակարանային համընդհանուր գործադուլը՝ 11.11, մեզնից հետո)։ 24.10 առավոտյան Montjuïc-ում վազք է (Cursa Lluís Companys), 25.10-ին՝ Էլ Կլասիկո (Camp Nou, 21:00)։"
     },
     "rome": {
-      "checked_at": "2026-10-23T09:25:00+02:00",
+      "checked_at": "2026-10-23T10:20:00+02:00",
       "summary_hy": "26–28.10-ին ATAC-ի, երկաթուղու, ավիա կամ տաքսու գործադուլ, մեծ երթ չի գտնվել (romamobilita, luceverde). 28.10-ին Piazza dei Santi Apostoli-ում հավաք կա (մանրամասներ չկան, մենք այդ օրը միայն օդանավակայան ենք գնում)։ Fiumicino-ի Leonardo Express-ի աշխատանքներն ավարտվում են 23.10-ին։"
     }
   },
@@ -38,10 +38,10 @@
       "city": "paris",
       "date": "2026-10-23",
       "until": "2026-10-23T22:00:00+02:00",
-      "title_hy": "🌬 23.10 «Austen». Փարիզը՝ նարնջագույն, 10:00–16:00",
-      "text_hy": "Météo-France-ն 23.10-ի առավոտյան ամբողջ Île-de-France-ը, այդ թվում Փարիզը, տեղափոխել է նարնջագույն զգուշացման (vigilance orange vent violent) 10:00–16:00. պոռթկումները մինչև ~100 կմ/ժ են, գագաթնակետը 12:00–15:00, երեկոյան իջնում է մինչև ~60 կմ/ժ, գիշերը հանդարտվում է։ Paris–Beauvais TER-ը կեսօրից կանգնած է, Նորմանդիայի գծերը՝ փակ, որոշ RER/Transilien ճյուղեր կարող են դանդաղել ընկած ճյուղերից։ Փարիզի այգիների (օր.՝ Square Louise-Michel) փակման որոշումը դեռ չի հրապարակվել, բայց հավանական է. մետրոյի և Orly-ի խափանում հայտարարված չէ։",
-      "suggestion_hy": "12:00–15:00-ին Montmartre-ի բաց հատվածները (Sacré-Cœur-ի աստիճաններ, Place du Tertre, Place des Abbesses) տեղափոխել առավոտ կամ 16:00-ից հետո, ծառերի, փայտամածների և ցուցանակների տակ չկանգնել։ Այգին փակ լինելու դեպքում բարձրանալ rue Foyatier-ով կամ funiculaire-ով, Canal Saint-Martin-ը թողնել երեկոյան։ Ստուգել paris.fr-ը։",
-      "source_url": "https://sortiraparis.com/actualites/a-paris/articles/355470-tempete-austen-toute-l-ile-de-france-en-vigilance-orange-ce-vendredi",
+      "title_hy": "🌬 23.10 «Austen». նարնջագույն 10–16, այգիները՝ փակ",
+      "text_hy": "Météo-France. Île-de-France-ը, այդ թվում Փարիզը, նարնջագույն զգուշացման տակ է (vigilance orange vent violent) 10:00–16:00, պոռթկումները մինչև ~100 կմ/ժ, գագաթնակետը 12:00–15:00։ Փարիզի քաղաքապետարանը 23.10-ին փակել է բոլոր այգիները, սկվերներն ու գերեզմանատները (parcs, jardins, squares et cimetières)՝ վերաբացում ստուգումից հետո. սա ներառում է Square Louise-Michel-ը (Sacré-Cœur-ի առջևի պարտեզ-աստիճանները) և Jardin Villemin-ը (Canal Saint-Martin)։ Paris–Beauvais TER-ը կեսօրից կանգնած է, մետրոյի և Orly-ի խափանում հայտարարված չէ։",
+      "suggestion_hy": "Sacré-Cœur բարձրանալ rue Foyatier-ի աստիճաններով կամ funiculaire-ով (եթե աշխատում է), ոչ այգու միջով. 12:00–15:00-ին Place du Tertre/Abbesses-ի բաց հատվածներում երկար չմնալ, ծառերի, փայտամածների տակ չկանգնել։ Canal Saint-Martin-ը՝ միայն երեկոյան, առանց Jardin Villemin-ի. վերաբացումը ստուգել paris.fr-ում։",
+      "source_url": "https://sortiraparis.com/actualites/a-paris/articles/355519-tempete-austen-de-nombreux-parcs-et-cimetieres-fermes-en-ile-de-france-ce-vendredi",
       "stop_ids": [
         "paris-23-04",
         "paris-23-03",
@@ -179,6 +179,26 @@
       "source_url": "https://futboltotal.futbol/partido/as-roma-vs-cagliari-serie-a-2026-10-27",
       "stop_ids": [],
       "area": null
+    },
+    {
+      "id": "bcn-1024-cursa-companys",
+      "level": "info",
+      "city": "barcelona",
+      "date": "2026-10-24",
+      "until": "2026-10-24T11:30:00+02:00",
+      "title_hy": "🏃 24.10 առավոտ վազք Montjuïc-ում (Lluís Companys)",
+      "text_hy": "Cursa i Caminada Lluís Companys. մեկնարկ/ավարտ Estadi Joan Serrahima (Poble-sec), քայլք 09:00, 10 կմ՝ 09:30, 5 կմ՝ 09:40, երթուղին Montjuïc լեռով, փակումները մինչև ~11:10։ TMB-ն նշում է ավտոբուսների շեղումներ. Montjuïc-ի ճանապարհներին հնարավոր են փակումներ, մետրոյի վրա չի ազդում։",
+      "suggestion_hy": "Մինչև ~11:30 Montjuïc-ի ավտոբուսների (55, 150) վրա չհույսել, Plaça d’Espanya / Maria Cristina հատվածն անցնել ոտքով կամ L3-ով։",
+      "source_url": "https://ajuntament.barcelona.cat/sants-montjuic/es/guia-del-distrito/agenda/15a-cursa-i-caminada-lluis-companys-homenatge-a-l-olimpiades-populars-de-barcelona-1936_99400256345",
+      "stop_ids": [
+        "barcelona-24-04",
+        "barcelona-24-02"
+      ],
+      "area": {
+        "lat": 41.368,
+        "lon": 2.158,
+        "radius_m": 1500
+      }
     }
   ]
 }
