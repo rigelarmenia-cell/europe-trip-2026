@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-24-32",
-  "generated_at": "2026-10-24T22:22:03+02:00",
+  "version": "2026-10-24-33",
+  "generated_at": "2026-10-24T22:24:32+02:00",
   "cities": [
     {
       "id": "paris",
@@ -4794,8 +4794,8 @@
       "date": "2026-10-25",
       "city": "barcelona",
       "title_hy": "Տիբիդաբո, Վիսենս, ծով, հետո հին քաղաք. Բարսելոնետա, Գուել պալատ, Գոթական թաղամաս, Բորն",
-      "notes_hy": "⏰ Գիշերը ժամացույցները 1 ժամ հետ են տրվել (ձմեռային ժամ)։ Նախաճաշը՝ տանը։\n🏛 Տիբիդաբո (տաճարը անվճար, վերելակ 4 €) → FGC Gràcia → Casa Vicens → L3+L4 Barceloneta → լողափ → Port Vell → ճաշ La Fonda (առանց ամրագրման, ~13:00–14:00) → Palau Güell (դրսից) → La Rambla → Sant Jaume → Plaça del Rei → Santa Maria del Mar → Ցիտադելի կասկադ → MUHBA (15:00-ից անվճար) → տաճար → Catalunya → L3 տուն։\n🔄 24.10-ին սեփականատիրոջ որոշմամբ Park Güell-ը հանված է, փոխարենը՝ Տիբիդաբո (L3 → FGC S1/S2 → Վալվիդրերայի ճոպանուղի → 111 ավտոբուս, մեկ ուղևորություն T-familiar-ով)։ ⚠ 25.10-ին զբոսայգու/Cuca de Llum-ի աշխատանքը պաշտոնապես ՉՍՏՈՒԳՎԱԾ, բայց տաճարը և 111 ավտոբուսը կախված չեն դրանից։\nWizz-ի առցանց գրանցումը անել այսօր (մինչև 26.10 07:00)։\n⚽ 21:00 Էլ Կլասիկո Camp Nou-ում. L3-ը 18:30–21:00 և 22:50–00:00 լեփ-լեցուն է, մեր տունը մարզադաշտի մոտ է։",
-      "total_walk_km": 10.2,
+      "notes_hy": "⏰ Գիշերը ժամացույցները 1 ժամ հետ են տրվել (ձմեռային ժամ)։ Նախաճաշը՝ տանը։\n🏛 Տիբիդաբո (տաճարը անվճար, վերելակ 4 €) → FGC Gràcia → Casa Vicens → L3+L4 Barceloneta → լողափ → Port Vell → ճաշ La Fonda (առանց ամրագրման, ~13:00–14:00) → Palau Güell (դրսից) → La Rambla → Sant Jaume → Plaça del Rei → Santa Maria del Mar → MUHBA (15:00-ից անվճար) → տաճար → Catalunya → L3 տուն։\n🔄 24.10-ին սեփականատիրոջ որոշմամբ Park Güell-ը և Ցիտադելի կասկադը հանված են, փոխարենը՝ Տիբիդաբո (L3 → FGC S1/S2 → Վալվիդրերայի ճոպանուղի → 111 ավտոբուս, մեկ ուղևորություն T-familiar-ով)։ ⚠ 25.10-ին զբոսայգու/Cuca de Llum-ի աշխատանքը պաշտոնապես ՉՍՏՈՒԳՎԱԾ, բայց տաճարը և 111 ավտոբուսը կախված չեն դրանից։\nWizz-ի առցանց գրանցումը անել այսօր (մինչև 26.10 07:00)։\n⚽ 21:00 Էլ Կլասիկո Camp Nou-ում. L3-ը 18:30–21:00 և 22:50–00:00 լեփ-լեցուն է, մեր տունը մարզադաշտի մոտ է։",
+      "total_walk_km": 8.1,
       "stops": [
         {
           "id": "barcelona-25-01",
@@ -5776,13 +5776,13 @@
           "reviews_source": "",
           "to_next": {
             "mode": "walk",
-            "km": 1.27,
-            "min": 17,
+            "km": 0.5,
+            "min": 7,
             "line": "",
             "color": "",
             "direction": "",
             "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Cascada Monumental, Parc de la Ciutadella, ճանապարհին՝ 📷 5 լուսանկարվելու տեղ, մոտակայքում՝ ևս 1 (~1,27 կմ, ~17 ր, իրական փողոցներով՝ OSM)։",
+            "transfers_hy": "Ոտքով դեպի MUHBA (Plaça del Rei), ճանապարհին՝ 📷 3 լուսանկարվելու տեղ (~0,5 կմ, ~7 ր). Ցիտադելի պարկը այս անգամ բաց ենք թողնում։",
             "ticket_hy": ""
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
@@ -5869,7 +5869,8 @@
                 "license": "CC BY-SA 3.0",
                 "source_page": "https://mapcarta.com/32903080"
               },
-              "on_route": true
+              "on_route": false,
+              "detour_min": 15
             },
             {
               "id": "pp-barcelona-25-10-5",
@@ -5889,7 +5890,8 @@
                 "license": "CC BY-SA 3.0",
                 "source_page": "https://mapcarta.com/W33570471"
               },
-              "on_route": true
+              "on_route": false,
+              "detour_min": 15
             },
             {
               "id": "pp-barcelona-25-10-2",
@@ -5915,134 +5917,8 @@
           ]
         },
         {
-          "id": "barcelona-25-17",
-          "order": 12,
-          "kind": "sight",
-          "name_hy": "Ցիտադելի պարկի կասկադ",
-          "name_local": "Cascada Monumental, Parc de la Ciutadella",
-          "lat": 41.39013,
-          "lon": 2.18653,
-          "description_hy": "Մոնումենտալ շատրվան-կասկադ, որի նախագծին մասնակցել է ուսանող Գաուդին։ Պարկը բաց է 07:00-ից մինչև մթնելը. շատրվանը կարող է չաշխատել (մաքրման աշխատանքներ, ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)։",
-          "photo_spot_hy": "",
-          "visit_min": [
-            15,
-            30
-          ],
-          "hours_hy": "Պարկ՝ 07:00–մթնշաղ",
-          "price_hy": "Անվճար",
-          "photos": [
-            {
-              "url": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/201505parc-ciutadella.optimized.d71224f0.jpg",
-              "author": "Ajuntament de Barcelona / meet.barcelona",
-              "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-              "source_page": "https://www.meet.barcelona/en/visitez-la-et-aimez-la/points-dinteret-de-la-ville/parc-de-la-ciutadella-92086011921"
-            }
-          ],
-          "menu_url": "",
-          "menu_prices_hy": "",
-          "reviews_source": "",
-          "to_next": {
-            "mode": "walk",
-            "km": 1.31,
-            "min": 18,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Ոտքով դեպի MUHBA Plaça del Rei, ճանապարհին՝ 📷 3 լուսանկարվելու տեղ, մոտակայքում՝ ևս 1 (~1,31 կմ, ~18 ր, իրական փողոցներով՝ OSM)։",
-            "ticket_hy": ""
-          },
-          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-          "sources": [
-            "https://www.meet.barcelona/en/visitez-la-et-aimez-la/points-dinteret-de-la-ville/parc-de-la-ciutadella-92086011921"
-          ],
-          "photo_points": [
-            {
-              "id": "pp-barcelona-25-17-1",
-              "name_hy": "Կասկադը դիմացից",
-              "name_local": "Cascada Monumental (davant de l'estany)",
-              "lat": 41.390127,
-              "lon": 2.186535,
-              "what_hy": "Կանգնիր կասկադի դիմացի ավազանի եզրին և նկարիր ամբողջ շենքը՝ ոսկե քառաձին կառքով վերևում։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://mapcarta.com/32906996"
-              ],
-              "checked": "2026-10-19",
-              "photo": {
-                "url": "https://images.pexels.com/photos/19866633/pexels-photo-19866633.jpeg?cs=srgb&dl=pexels-axp-photography-500641970-19866633.jpg&fm=jpg",
-                "author": "AXP Photography (Pexels)",
-                "license": "Pexels License (անվճար, հեղինակի նշումը պարտադիր չէ)",
-                "source_page": "https://www.pexels.com/photo/cascada-monumental-in-parc-de-la-ciutadella-barcelona-spain-19866633/"
-              },
-              "on_route": true
-            },
-            {
-              "id": "pp-barcelona-25-17-3",
-              "name_hy": "Երեք վիշապների ամրոց",
-              "name_local": "Castell dels Tres Dragons",
-              "lat": 41.388076,
-              "lon": 2.183308,
-              "what_hy": "Այգու ծառուղուց լուսանկարիր Դոմենեկ ի Մոնտաների աղյուսե ամրոցանման շենքը։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://mapcarta.com/32903070"
-              ],
-              "checked": "2026-10-19",
-              "photo": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tres_Dragons_2022.jpg/960px-Tres_Dragons_2022.jpg.webp",
-                "author": "Canaan",
-                "license": "CC BY-SA 4.0",
-                "source_page": "https://mapcarta.com/32903070"
-              },
-              "on_route": true
-            },
-            {
-              "id": "pp-barcelona-25-17-4",
-              "name_hy": "Շոկոլադի թանգարան (Սան Ագուստի մենաստան)",
-              "name_local": "Museu de la Xocolata, Carrer del Comerç 36",
-              "lat": 41.387108,
-              "lon": 2.181725,
-              "what_hy": "Carrer del Comerç-ից լուսանկարիր հին մենաստանի քարե ճակատը։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://mapcarta.com/32903076"
-              ],
-              "checked": "2026-10-19",
-              "photo": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Museu_de_la_Xocolata_de_Barcelona_fa%C3%A7ana.JPG/960px-Museu_de_la_Xocolata_de_Barcelona_fa%C3%A7ana.JPG.webp",
-                "author": "Kippelboy",
-                "license": "CC BY-SA 3.0",
-                "source_page": "https://mapcarta.com/32903076"
-              },
-              "on_route": true
-            },
-            {
-              "id": "pp-barcelona-25-17-2",
-              "name_hy": "Հաղթական կամար",
-              "name_local": "Arc de Triomf (Passeig de Lluís Companys)",
-              "lat": 41.39106,
-              "lon": 2.18067,
-              "what_hy": "Կանգնիր Passeig de Lluís Companys-ի հետիոտնային ծառուղում և նկարիր կարմիր աղյուսե կամարը (~500 մ պարկից)։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://mapcarta.com/25251456"
-              ],
-              "checked": "2026-10-19",
-              "photo": {
-                "url": "https://images.pexels.com/photos/27278848/pexels-photo-27278848.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200",
-                "author": "AXP Photography (Pexels)",
-                "license": "Pexels License (անվճար, հեղինակի նշումը պարտադիր չէ)",
-                "source_page": "https://www.pexels.com/photo/the-arch-of-barcelona-is-shown-in-this-photo-27278848/"
-              },
-              "on_route": false,
-              "detour_min": 18
-            }
-          ]
-        },
-        {
           "id": "barcelona-25-08",
-          "order": 13,
+          "order": 12,
           "kind": "sight",
           "name_hy": "MUHBA՝ Plaça del Rei",
           "name_local": "MUHBA Plaça del Rei",
@@ -6181,7 +6057,7 @@
         },
         {
           "id": "barcelona-25-05",
-          "order": 14,
+          "order": 13,
           "kind": "sight",
           "name_hy": "Գոթական թաղամաս՝ տաճարի արտաքին",
           "name_local": "Catedral de Barcelona / Barri Gòtic",
@@ -6359,7 +6235,7 @@
         },
         {
           "id": "barcelona-25-03",
-          "order": 15,
+          "order": 14,
           "kind": "sight",
           "name_hy": "Կատալոնիայի հրապարակ",
           "name_local": "Plaça de Catalunya",
@@ -6445,7 +6321,7 @@
         },
         {
           "id": "barcelona-25-13",
-          "order": 16,
+          "order": 15,
           "kind": "home",
           "name_hy": "Վերադարձ Maria Cristina",
           "name_local": "Maria Cristina",

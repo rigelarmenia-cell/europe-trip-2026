@@ -23,7 +23,7 @@ test('legacy v12 shape without photo points remains valid and audits zero points
 test('current v13 validates and audits all 33 real photo points',()=>{
  const data=current();assert.equal(validateTrip(data),data);
  const report=auditTrip(data);assert.equal(report.pass,true);
- assert.deepEqual(report.photoPoints,{count:192,withPhoto:154,invalid:[]});
+ assert.deepEqual(report.photoPoints,{count:188,withPhoto:150,invalid:[]});
 });
 test('valid points count and nullable or Wikimedia photos pass',()=>{
  const {data,stop,point}=sample();stop.photo_points.push({...point,id:'fixture-second',photo:{...stop.photos[0]},label:'ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ'});
