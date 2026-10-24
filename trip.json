@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-20-31",
-  "generated_at": "2026-10-20T13:04:24+04:00",
+  "version": "2026-10-24-32",
+  "generated_at": "2026-10-24T22:22:03+02:00",
   "cities": [
     {
       "id": "paris",
@@ -4793,9 +4793,9 @@
     {
       "date": "2026-10-25",
       "city": "barcelona",
-      "title_hy": "Գաուդի և ծով, հետո հին քաղաք. Գուել պարկ, Վիսենս, Բարսելոնետա, Գուել պալատ, Գոթական թաղամաս, Բորն",
-      "notes_hy": "⏰ Գիշերը ժամացույցները 1 ժամ հետ են տրվել (ձմեռային ժամ)։ Նախաճաշը՝ տանը։\n🏛 Park Güell (անվճար մասը) → Casa Vicens → L3+L4 Barceloneta → լողափ → Port Vell → ճաշ La Fonda (առանց ամրագրման, ~13:00–14:00) → Palau Güell (դրսից) → La Rambla → Sant Jaume → Plaça del Rei → Santa Maria del Mar → Ցիտադելի կասկադ → MUHBA (15:00-ից անվճար) → տաճար → Catalunya → L3 տուն։\nՀերթականությունը ստուգված է իրական փողոցային քայլքով (OSM)՝ բոլոր 📷 տեղերով, ժամային պայմաններով (ճաշ, MUHBA)։\nWizz-ի առցանց գրանցումը անել այսօր (մինչև 26.10 07:00)։\n⚽ 21:00 Էլ Կլասիկո Camp Nou-ում. L3-ը 18:30–21:00 և 22:50–00:00 լեփ-լեցուն է, մեր տունը մարզադաշտի մոտ է։",
-      "total_walk_km": 12.0,
+      "title_hy": "Տիբիդաբո, Վիսենս, ծով, հետո հին քաղաք. Բարսելոնետա, Գուել պալատ, Գոթական թաղամաս, Բորն",
+      "notes_hy": "⏰ Գիշերը ժամացույցները 1 ժամ հետ են տրվել (ձմեռային ժամ)։ Նախաճաշը՝ տանը։\n🏛 Տիբիդաբո (տաճարը անվճար, վերելակ 4 €) → FGC Gràcia → Casa Vicens → L3+L4 Barceloneta → լողափ → Port Vell → ճաշ La Fonda (առանց ամրագրման, ~13:00–14:00) → Palau Güell (դրսից) → La Rambla → Sant Jaume → Plaça del Rei → Santa Maria del Mar → Ցիտադելի կասկադ → MUHBA (15:00-ից անվճար) → տաճար → Catalunya → L3 տուն։\n🔄 24.10-ին սեփականատիրոջ որոշմամբ Park Güell-ը հանված է, փոխարենը՝ Տիբիդաբո (L3 → FGC S1/S2 → Վալվիդրերայի ճոպանուղի → 111 ավտոբուս, մեկ ուղևորություն T-familiar-ով)։ ⚠ 25.10-ին զբոսայգու/Cuca de Llum-ի աշխատանքը պաշտոնապես ՉՍՏՈՒԳՎԱԾ, բայց տաճարը և 111 ավտոբուսը կախված չեն դրանից։\nWizz-ի առցանց գրանցումը անել այսօր (մինչև 26.10 07:00)։\n⚽ 21:00 Էլ Կլասիկո Camp Nou-ում. L3-ը 18:30–21:00 և 22:50–00:00 լեփ-լեցուն է, մեր տունը մարզադաշտի մոտ է։",
+      "total_walk_km": 10.2,
       "stops": [
         {
           "id": "barcelona-25-01",
@@ -4818,119 +4818,110 @@
           "menu_prices_hy": "",
           "reviews_source": "",
           "to_next": {
-            "mode": "metro",
+            "mode": "train",
             "km": null,
             "min": null,
-            "line": "L3",
-            "color": "",
-            "direction": "Trinitat Nova",
-            "get_off": "Vallcarca",
-            "transfers_hy": "Maria Cristina-ից L3 (կանաչ, ուղղություն՝ Trinitat Nova) → Vallcarca, ոտքով ~1,2 կմ վերելք (շարժասանդուղքներ Baixada de la Glòria-ում) դեպի Park Güell։ Դուրս գալ ~09:00՝ 10:00-ի մուտքի համար։",
-            "ticket_hy": "T-familiar / T-casual"
+            "line": "L3 + FGC S1/S2 + Funicular de Vallvidrera + 111",
+            "color": "կանաչ + FGC",
+            "direction": "Catalunya → Peu del Funicular → Vallvidrera Superior → Tibidabo",
+            "get_off": "Tibidabo (Plaça del Tibidabo)",
+            "transfers_hy": "Maria Cristina-ից L3 (կանաչ, ուղղություն՝ Trinitat Nova) → Catalunya (5 կանգառ), FGC կայարան՝ S1 կամ S2 գնացք → Peu del Funicular, Վալվիդրերայի ճոպանուղի (funicular) → Vallvidrera Superior, այնտեղից 111 ավտոբուս → Tibidabo։ Ընդամենը ~60–70 ր։ Մեկ ուղևորություն T-familiar/T-casual-ով (75 ր, մինչև 3 փոխանցում)։ ⚠ 111-ը փոքր ավտոբուս է (32 տեղ), հանգստյան օրերին հերթ է լինում. 8 հոգով կարող է պետք լինել սպասել հաջորդին։ Թանկ այլընտրանք՝ L7 → Av. Tibidabo → 196 ավտոբուս → Cuca de Llum ճոպանուղի (13,50 € գնալ-գալ, քաղաքային տոմսերը չեն գործում)։ Դուրս գալ ~09:00։",
+            "ticket_hy": "T-familiar / T-casual (1 ուղևորություն)"
           },
           "label": "ԵՆԹԱԴՐՈՒԹՅՈՒՆ",
           "sources": []
         },
         {
-          "id": "barcelona-25-14",
+          "id": "barcelona-25-18",
           "order": 2,
           "kind": "sight",
-          "name_hy": "Գաուդի · Գուել պարկ",
-          "name_local": "Park Güell",
-          "lat": 41.41449,
-          "lon": 2.1527,
-          "description_hy": "Գաուդիի խճանկարային պարկը։ Վճարովի մոնումենտալ գոտի (վիշապ, սյունասրահ, խճանկարային նստարան) չենք մտնում. քայլում ենք անվճար անտառային մասով՝ վիադուկներ և Turó de les Tres Creus բլուր (360° տեսարան)։ Մտնում ենք Carmel-ի մուտքից (Carretera del Carmel)՝ այնտեղից միանգամից անվճար մասն է (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, artvisitguide)։ ՀԱԿԱՍՈՒԹՅՈՒՆ. պաշտոնական կայքը գրում է, որ մուտքերում տոմս են ստուգում (բացի բնակիչներից)՝ եթե մուտքում տոմս պահանջեն, մոնումենտալ գոտին դիտում ենք պարսպից դուրս։ Vallcarca մետրոյից ~1,2 կմ վերելք՝ շարժասանդուղքներով։",
-          "photo_spot_hy": "",
+          "name_hy": "Տիբիդաբո. Սուրբ Սրտի տաճար և համայնապատկեր",
+          "name_local": "Temple Expiatori del Sagrat Cor, Tibidabo",
+          "lat": 41.4220642,
+          "lon": 2.1188794,
+          "description_hy": "Բարսելոնայի ամենաբարձր կետը (Collserola լեռը)՝ տաճարով և ամբողջ քաղաքի ու ծովի տեսարանով։ Տաճարն ու ստորգետնյա եկեղեցին (crypt) անվճար են։ Վերելակով կարելի է բարձրանալ տաճարի վերին դիտահարթակ (~518 մ)։ Կողքին զվարճանքների զբոսայգին է (առանձին, վճարովի)։",
+          "photo_spot_hy": "Plaça del Tibidabo-ից և տաճարի վերին դիտահարթակից",
           "visit_min": [
             45,
             75
           ],
-          "hours_hy": "Ժամային մուտքեր 09:30–19:30 (ՀԱՍՏԱՏՎԱԾ parkguell.barcelona)",
-          "price_hy": "Անվճար մաս՝ 0 €։ Մոնումենտալ գոտի (ըստ ցանկության)՝ 18 €, 8 × 18 € = 144 € (ՀԱՍՏԱՏՎԱԾ parkguell.barcelona)",
+          "hours_hy": "Տաճար՝ ամեն օր 08:00–20:15. վերելակը փակվում է ավելի շուտ՝ գալ մինչև 17:30 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, barcelonaurbana.com, 03.2026)",
+          "price_hy": "Տաճար՝ 0 €։ Վերելակ դեպի դիտահարթակ՝ 4 € (մինչև 12 տ.՝ անվճար) (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)",
           "photos": [
             {
-              "url": "https://s7g10.scene7.com/is/image/barcelonaturisme/espais-urbans-park-guell-barcelona-5?qlt=85&ts=1771964884346&dpr=off",
-              "author": "© Turisme de Barcelona / Marta Vidal",
-              "license": "Աղբյուրի կայքի լուսանկար, միայն մասնավոր օգտագործման",
-              "source_page": "https://parkguell.barcelona/en/planning-your-visit/prices-and-times"
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Temple_Expiatori_del_Sagrat_Cor_2013.jpg/1280px-Temple_Expiatori_del_Sagrat_Cor_2013.jpg",
+              "author": "Felix König",
+              "license": "CC BY 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Temple_Expiatori_del_Sagrat_Cor_2013.jpg"
+            },
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Panorama_of_Barcelona_from_Tibidabo_%282014%29_-_panoramio.jpg/1280px-Panorama_of_Barcelona_from_Tibidabo_%282014%29_-_panoramio.jpg",
+              "author": "Alexander Kachkaev",
+              "license": "CC BY 3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Panorama_of_Barcelona_from_Tibidabo_(2014)_-_panoramio.jpg"
             }
           ],
           "menu_url": "",
           "menu_prices_hy": "",
           "reviews_source": "",
           "to_next": {
-            "mode": "walk",
-            "km": 2.06,
-            "min": 28,
-            "line": "",
-            "color": "",
-            "direction": "",
-            "get_off": "",
-            "transfers_hy": "Ոտքով դեպի Casa Vicens, ճանապարհին՝ 📷 2 լուսանկարվելու տեղ, մոտակայքում՝ ևս 1 (~2,06 կմ, ~28 ր, իրական փողոցներով՝ OSM)։",
-            "ticket_hy": ""
+            "mode": "train",
+            "km": null,
+            "min": null,
+            "line": "111 + Funicular de Vallvidrera + FGC S1/S2",
+            "color": "FGC",
+            "direction": "Vallvidrera Superior → Peu del Funicular → Barcelona",
+            "get_off": "Gràcia (FGC)",
+            "transfers_hy": "111 ավտոբուս → Vallvidrera Superior, ճոպանուղի → Peu del Funicular, FGC S1/S2 (ուղղություն՝ Barcelona–Pl. Catalunya) → Gràcia կայարան, ոտքով ~900 մ դեպի Casa Vicens (Carrer de les Carolines 20)։ Մեկ ուղևորություն T-familiar/T-casual-ով։",
+            "ticket_hy": "T-familiar / T-casual (1 ուղևորություն)"
           },
           "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
           "sources": [
-            "https://parkguell.barcelona/en/planning-your-visit/prices-and-times",
-            "https://www.artvisitguide.com/park-guell-free-zones-barcelona/"
+            "https://barcelonaurbana.com/en/blog/tibidabo-barcelona-guide",
+            "https://tibidabo.cat/en/plan-the-visit/schedules",
+            "https://en.ara.cat/society/the-climb-to-tibidabo-collapses-vallvidrera-the-weekend-is-horrible_1_5393778.html",
+            "https://www.openstreetmap.org/search?query=Temple%20Expiatori%20del%20Sagrat%20Cor"
           ],
-          "tickets_url": "https://parkguell.barcelona/en/buy-tickets",
           "photo_points": [
             {
-              "id": "pp-barcelona-25-14-2",
-              "name_hy": "Մարտի Տրիաս տուն (Պարկ Գուել)",
-              "name_local": "Casa Martí Trias i Domènech (Park Güell)",
-              "lat": 41.415313,
-              "lon": 2.152582,
-              "what_hy": "Պարկի անվճար հատվածի արահետից լուսանկարիր այգով շրջապատված մոդեռնիստական առանձնատունը։",
+              "id": "pp-barcelona-25-18-1",
+              "name_hy": "Տաճարի վերին դիտահարթակ",
+              "name_local": "Mirador del Sagrat Cor",
+              "lat": 41.4218306,
+              "lon": 2.1189923,
+              "what_hy": "Վերելակով բարձրանալով (4 €)՝ 360° տեսարան. ամբողջ Բարսելոնան, ծովը, Սագրադա Ֆամիլիան։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://mapcarta.com/W242766777"
+                "https://barcelonaurbana.com/en/blog/tibidabo-barcelona-guide"
               ],
-              "checked": "2026-10-19",
+              "checked": "2026-10-24",
               "photo": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Casa_Trias_Batllevell.jpg/960px-Casa_Trias_Batllevell.jpg.webp",
-                "author": "Canaan",
-                "license": "CC BY-SA 4.0",
-                "source_page": "https://mapcarta.com/W242766777"
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Panorama_of_Barcelona_from_Tibidabo_%282014%29_-_panoramio.jpg/1280px-Panorama_of_Barcelona_from_Tibidabo_%282014%29_-_panoramio.jpg",
+                "author": "Alexander Kachkaev",
+                "license": "CC BY 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Panorama_of_Barcelona_from_Tibidabo_(2014)_-_panoramio.jpg"
               },
               "on_route": true
             },
             {
-              "id": "pp-barcelona-25-14-1",
-              "name_hy": "Երեք խաչերի բլուր",
-              "name_local": "Turó de les Tres Creus (Park Güell, zona lliure)",
-              "lat": 41.41293,
-              "lon": 2.15113,
-              "what_hy": "Բարձրացիր բլրի գագաթը՝ խաչերի մոտ, և նկարիր խաչերը կամ 360° տեսարանը քաղաքի ու ծովի վրա։ Անվճար գոտի է։",
+              "id": "pp-barcelona-25-18-2",
+              "name_hy": "Plaça del Tibidabo՝ տաճարը և քաղաքը",
+              "name_local": "Plaça del Tibidabo",
+              "lat": 41.421592,
+              "lon": 2.1190832,
+              "what_hy": "Հրապարակից՝ տաճարի ճակատը վերևում (Commons-ի լուսանկարը նույն տեսանկյունից է), անվճար։",
               "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
               "sources": [
-                "https://mapcarta.com/35393740"
+                "https://commons.wikimedia.org/wiki/File:Sagrat_Cor_2013.jpg"
               ],
-              "checked": "2026-10-19",
+              "checked": "2026-10-24",
               "photo": {
-                "url": "https://images.pexels.com/photos/21568411/pexels-photo-21568411.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200",
-                "author": "Kağan Karatay (Pexels)",
-                "license": "Pexels License (անվճար, հեղինակի նշումը պարտադիր չէ)",
-                "source_page": "https://www.pexels.com/photo/tourist-at-turo-de-les-tres-creus-21568411/"
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Sagrat_Cor_2013.jpg/1280px-Sagrat_Cor_2013.jpg",
+                "author": "Felix König",
+                "license": "CC BY 3.0",
+                "source_page": "https://commons.wikimedia.org/wiki/File:Sagrat_Cor_2013.jpg"
               },
               "on_route": true
-            },
-            {
-              "id": "pp-barcelona-25-14-3",
-              "name_hy": "Խուան Սալեսի դիտակետ",
-              "name_local": "Mirador de Joan Sales",
-              "lat": 41.416345,
-              "lon": 2.152858,
-              "what_hy": "Պարկի վերին եզրի դիտակետից լուսանկարիր քաղաքի և ծովի համայնապատկերը։",
-              "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-              "sources": [
-                "https://mapcarta.com/W1148514721"
-              ],
-              "checked": "2026-10-19",
-              "photo": null,
-              "on_route": false,
-              "detour_min": 12
             }
           ]
         },
@@ -6488,37 +6479,6 @@
         }
       ],
       "suggestions": [
-        {
-          "id": "sug-bcn-25-1",
-          "kind": "sight",
-          "name_hy": "Կարմելի բունկերներ (համայնապատկեր)",
-          "name_local": "Búnquers del Carmel – Turó de la Rovira",
-          "lat": 41.4193923,
-          "lon": 2.1616974,
-          "why_hy": "Բարսելոնայի լավագույն անվճար համայնապատկերը՝ ամբողջ քաղաքը, ծովը և Սագրադա Ֆամիլիան, Գուել պարկից ~20–25 ր ոտքով։",
-          "description_hy": "Քաղաքացիական պատերազմի հակաօդային մարտկոցի մնացորդներ բլրի գագաթին։ 2023-ից տարածքը ցանկապատված է և գիշերը փակ. 2026-ին նոր կանոններ են ընդունվել → գնալ միայն ցերեկով։ Վերևում ստվեր և ջուր չկա։",
-          "how_hy": "Park Güell-ից ~20–25 ր ոտքով (վերելք) կամ ավտոբուս V17/22/24 + վերջին հատվածը ոտքով Carrer de Marià Labèrnia-ով։",
-          "hours_hy": "Ամառ 09:00–19:30, ձմեռ 09:00–17:30 (ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ, barcelonaurbana.com. ո՞ր ժամանակացույցն է գործում 25.10-ին՝ ՉՍՏՈՒԳՎԱԾ)",
-          "price_hy": "0 €",
-          "visit_min": [
-            30,
-            45
-          ],
-          "photos": [
-            {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/View_from_the_Bunkers_del_Carmel.jpg/1280px-View_from_the_Bunkers_del_Carmel.jpg",
-              "author": "Thingstodoinbarcelona",
-              "license": "CC BY-SA 4.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:View_from_the_Bunkers_del_Carmel.jpg"
-            }
-          ],
-          "label": "ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ",
-          "sources": [
-            "https://barcelonaurbana.com/en/blog/bunkers-carmel-barcelona-guide"
-          ],
-          "photo_points": [],
-          "insert_after": "barcelona-25-14"
-        },
         {
           "id": "sug-bcn-25-2",
           "kind": "food",
