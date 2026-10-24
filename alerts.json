@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-23T22:15:00+02:00",
+  "updated_at": "2026-10-24T06:15:00+02:00",
   "city_status": {
     "paris": {
-      "checked_at": "2026-10-23T22:15:00+02:00",
-      "summary_hy": "23.10 22:10. Այսօր 22:00-ից փակ են Châtelet, Châtelet–Les Halles, Les Halles, République կայարանները (նույնը՝ 24 և 25.10), RER B-ն ընդհատված է 22:45-ից. Noctilien-ի շեղման մասին տեղեկություն չկա։ VY8003-ը 24.10-ին ըստ պլանի է (06:20, ORY 1, gate A21՝ նախնական)։ «Austen»-ի զգուշացումը ավարտվել է։"
+      "checked_at": "2026-10-24T06:15:00+02:00",
+      "summary_hy": "24.10 06:12. Փարիզի օրերն ավարտված են. մնացել է միայն VY8003-ի զգուշացումը (ըստ պլանի, gate A16, նախորդ չվերթի ուշացման ռիսկ)։ Պարետային ժամի և մետրոյի զգուշացումները հանված են։"
     },
     "barcelona": {
-      "checked_at": "2026-10-23T22:15:00+02:00",
-      "summary_hy": "23.10 22:10. TMB-ի ծանուցումներում 24–26.10-ի մետրոյի գործադուլ/փակում չկա (L1–L5 փոխանցումը Sants-ում փակ է ապրիլից), մեծ միտինգ չի գտնվել. 24.10 առավոտյան Montjuïc-ում վազք է, 25.10-ին՝ Էլ Կլասիկո (Camp Nou, 21:00)։"
+      "checked_at": "2026-10-24T06:15:00+02:00",
+      "summary_hy": "24.10 06:15. TMB-ի ծանուցումներում 24–26.10-ի մետրոյի գործադուլ/փակում չկա (միայն Sants-ի L1–L5 փոխանցումը), 24–25.10-ի մեծ միտինգ չի գտնվել (համընդհանուր գործադուլը 11.11-ին է). այսօր առավոտ Montjuïc-ում վազք է, 25.10-ին՝ Էլ Կլասիկո (21:00)։"
     },
     "rome": {
-      "checked_at": "2026-10-23T22:15:00+02:00",
-      "summary_hy": "23.10 22:10. 26–28.10-ին ATAC-ի, FL1-ի, Fiumicino-ի գործադուլ չի գտնվել. 26.10 10:00–13:00 Porta Pia-ում տաքսիստների նստացույց է, 28.10-ին Piazza dei Santi Apostoli-ում փոքր հավաք է նշված (մեր երթուղուց դուրս), 30.10-ի համընդհանուր գործադուլը մեր մեկնումից հետո է։"
+      "checked_at": "2026-10-24T06:15:00+02:00",
+      "summary_hy": "24.10 06:15. romamobilita-ում 26–28.10-ի գործադուլ կամ մեծ ցույց չկա. 24.10–11.11 Ponte Matteotti-ն մասնակի փակ է (ավտոբուսները շեղված են Ponte Risorgimento-ով), 26.10-ին Porta Pia-ում տաքսիստների նստացույց, 30.10-ի գործադուլը մեր մեկնումից հետո է։"
     }
   },
   "alerts": [
@@ -21,101 +21,10 @@
       "city": "paris",
       "date": "2026-10-24",
       "until": "2026-10-24T10:00:00+02:00",
-      "title_hy": "✈ 24.10 VY8003 · ORY 1 · 06:20 ըստ պլանի · gate A21",
-      "text_hy": "Ստուգված 23.10 22:10. VY8003 Orly 1 06:20 → Barcelona T1 08:00, կարգավիճակ՝ ըստ պլանի. trip.com-ի տվյալով gate A21, check-in սեղաններ 11–12 (նախնական, կարող է փոխվել. 23.10-ի նույն թռիչքը մեկնել է A11-ից)։ Չեղարկում կամ գործադուլ 24.10-ի համար հայտարարված չէ։",
-      "suggestion_hy": "Առցանց check-in-ը ավարտել այսօր երեկոյան, ստանալ բոլորի նստեցման կտրոնները. դուրս գալուց առաջ (~03:00) նորից ստուգել կարգավիճակը vueling.com-ում, Orly 1-ում լինել ~04:45–05:00։",
-      "source_url": "https://fr.trip.com/flights/status-vy8003/",
-      "stop_ids": [],
-      "area": null
-    },
-    {
-      "id": "par-unrest-curfew",
-      "level": "warning",
-      "city": "paris",
-      "date": null,
-      "until": "2026-10-24T06:00:00+02:00",
-      "title_hy": "🚨 Պարետային ժամ. 22:00-ից փակ են Châtelet/République",
-      "text_hy": "Պարետային ժամը (23:00–06:00) գործում է մինչև 25/26.10՝ Place de la République-ի կենտրոնական մասում և Les Halles-ի հարավում (rue Berger, boulevard de Sébastopol, rue Rambuteau)։ Ամեն երեկո, այդ թվում այսօր՝ 23.10, 22:00-ից փակ են République, Châtelet, Châtelet–Les Halles, Les Halles կայարանները (գնացքներն անցնում են առանց կանգառի, փոխանցումները չեն աշխատում), M11-ը և RER B-ն մասնակի ընդհատված են։",
-      "suggestion_hy": "23.10-ին տուն գնալ մեր նոր երթուղով (Gare de l’Est → M7 → M7bis → M11), Châtelet/Les Halles/République-ում չիջնել, 22:00-ից հետո կենտրոնում չմնալ։",
-      "source_url": "https://www.titrespresse.com/26287352603/chatelet-republique-stations",
-      "stop_ids": [],
-      "area": {
-        "lat": 48.859,
-        "lon": 2.347,
-        "radius_m": 1200
-      }
-    },
-    {
-      "id": "par-1024-gj-acte2",
-      "level": "warning",
-      "city": "paris",
-      "date": "2026-10-24",
-      "until": "2026-10-24T10:00:00+02:00",
-      "title_hy": "🚕 23→24.10 գիշերը Châtelet-ը պարետային ժամի մոտ է",
-      "text_hy": "Մեր հիմնական գիշերային տարբերակով Châtelet-ում N12 → N22 փոխանցում ունենք 00:44–01:05-ին՝ պարետային գոտուց (23:00–06:00, Les Halles-ի հարավ) ~300–500 մ հեռու, ոստիկանական ուժեղ ներկայությամբ. մետրոյի Châtelet կայարանը 22:00-ից փակ է, Noctilien-ի շեղման մասին տեղեկություն չկա։ 24.10-ին 14:00-ից Bastille → Nation երթն է, 09:00-ից փակվում են մետրոյի մի շարք կայարաններ՝ մենք այդ ժամին արդեն օդում ենք։",
-      "suggestion_hy": "Ավելի ապահով է պահեստային տարբերակը՝ 2 տաքսի (G7), Châtelet-ով չանցնել։ Եթե գնում եք Noctilien-ով, դուրս գալուց առաջ ստուգել N12/N22-ի խափանումները bonjour-ratp.fr-ում կամ IDFM-ի հավելվածում։",
-      "source_url": "https://www.sortiraparis.com/actualites/a-paris/articles/355633-manifestation-du-24-octobre-quelles-lignes-de-metro-et-de-rer-circulent-pour-visiter-paris",
-      "stop_ids": [],
-      "area": {
-        "lat": 48.8585,
-        "lon": 2.3475,
-        "radius_m": 600
-      }
-    },
-    {
-      "id": "par-plan-changes",
-      "level": "warning",
-      "city": "paris",
-      "date": null,
-      "until": "2026-10-24T06:00:00+02:00",
-      "title_hy": "📍 Պլանը փոխված է. տուն՝ առանց Châtelet/République",
-      "text_hy": "21.10. Montparnasse → M4 → Réaumur–Sébastopol → M3 (1 կանգառ) → Arts et Métiers → M11։ 22.10. Grands Boulevards-ից ~6 ր ոտքով Bourse → M3 (3 կանգառ) → Arts et Métiers → M11։ 23.10. Gare de l’Est → M7 → Louis Blanc → M7bis → Place des Fêtes → M11, իսկ Canal Saint-Martin-ը դիտել միայն հյուսիսից (Jardin Villemin / Récollets), République-ի կողմ չիջնել։",
-      "suggestion_hy": "Եթե պարետային ժամը չերկարաձգվի և հանդարտ լինի, հին երթուղիներն էլ աշխատում են. նոր երթուղիները ~5 ր ավելի երկար են, բայց շրջանցում են թեժ կայարանները։",
-      "source_url": "https://www.sortiraparis.com/en/news/in-paris/articles/355161-curfew-in-paris-which-metro-and-rer-stations-will-be-closed-from-10-p-m",
-      "stop_ids": [
-        "paris-21-03",
-        "paris-22-04",
-        "paris-23-06",
-        "paris-23-02"
-      ],
-      "area": null
-    },
-    {
-      "id": "par-m2-works",
-      "level": "warning",
-      "city": "paris",
-      "date": null,
-      "until": "2026-10-25T23:59:00+02:00",
-      "title_hy": "🚇 M2 փակ է Barbès–Père Lachaise (19–25.10)",
-      "text_hy": "Մետրո 2 գիծը փակ է Barbès–Rochechouart ↔ Père Lachaise հատվածում (La Chapelle, Stalingrad, Jaurès, Colonel Fabien, Belleville, Couronnes, Ménilmontant)։ Barbès → Anvers → Pigalle աշխատում է։",
-      "suggestion_hy": "23.10-ի մեր երթուղին արդեն շրջանցում է փակ հատվածը (M4 → Barbès → M2 Pigalle)։",
-      "source_url": "https://www.sortiraparis.com/en/news/in-paris/articles/291320-metro-and-rer-works-and-disruptions-from-october-19-to-25-2026",
-      "stop_ids": [],
-      "area": null
-    },
-    {
-      "id": "par-m4-stmichel",
-      "level": "info",
-      "city": "paris",
-      "date": null,
-      "until": "2026-12-19T23:59:00+01:00",
-      "title_hy": "🚇 M4 Saint-Michel կայարանը փակ է",
-      "text_hy": "Նոտր-Դամի մոտ M4-ի Saint-Michel կայարանը չի սպասարկվում մինչև 19.12։ Գնացքներն անցնում են առանց կանգառի։",
-      "suggestion_hy": "Օգտվել Cité (M4) կամ RER B/C Saint-Michel Notre-Dame կայարանից։",
-      "source_url": "https://www.sortiraparis.com/en/news/in-paris/articles/291320-metro-and-rer-works-and-disruptions-from-october-19-to-25-2026",
-      "stop_ids": [],
-      "area": null
-    },
-    {
-      "id": "par-air-strike",
-      "level": "info",
-      "city": "paris",
-      "date": null,
-      "until": "2026-10-24T10:00:00+02:00",
-      "title_hy": "✈ Ֆրանսիայի օդաչուների գործադուլը չեղարկված է",
-      "text_hy": "17–21.10-ի օդաչուների/բորտուղեկցորդների գործադուլը 12.10-ին կասեցվել է։ 24.10-ի Orly-ի թռիչքի վրա չի ազդում. արհմիությունները կարող են նոր ծանուցում տալ։",
-      "suggestion_hy": "23.10-ին նորից ստուգում ենք (ավտոմատ)։",
-      "source_url": "https://www.deplacementspros.com/transport/l-intersyndicale-des-pnc-suspendent-leur-preavis-de-greve-nationale",
+      "title_hy": "✈ 24.10 VY8003 · ORY 1 · 06:20 · gate A16 (փոխված)",
+      "text_hy": "Ստուգված 24.10 06:12. VY8003 Orly 1 06:20 → Barcelona T1 08:00, կարգավիճակ՝ ըստ պլանի, gate-ը այժմ A16 (նախկինում A21)։ Ռիսկ. airportinfo.live-ի տվյալով ինքնաթիռի նախորդ չվերթը (VY8027) կարող է ուշանալ ~2 ժամ, ինչը կարող է ուշացնել նաև մեր թռիչքը (չհաստատված, ժամը դեռ փոխված չէ)։",
+      "suggestion_hy": "Հետևել Orly-ի էկրաններին և Vueling-ի հավելվածին. գնալ A16 gate, ուշացման դեպքում մնալ gate-ի մոտ։ Barcelona T1-ից Aerobus/L9 Sud-ով տուն։",
+      "source_url": "https://airportinfo.live/flight/vy8003",
       "stop_ids": [],
       "area": null
     },
