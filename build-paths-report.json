@@ -176,14 +176,9 @@
       "min": 11,
       "via": 3
     },
-    "barcelona-25-10>barcelona-25-17:walk": {
-      "km": 1.27,
-      "min": 17,
-      "via": 5
-    },
-    "barcelona-25-17>barcelona-25-08:walk": {
-      "km": 1.31,
-      "min": 18,
+    "barcelona-25-10>barcelona-25-08:walk": {
+      "km": 1.22,
+      "min": 16,
       "via": 3
     },
     "barcelona-25-08>barcelona-25-05:walk": {
@@ -257,8 +252,8 @@
       "via": 0
     }
   },
-  "candidates": 52,
-  "built": 51,
+  "candidates": 51,
+  "built": 50,
   "fallbacks": [
     {
       "key": "rome-27-06>rome-27-07:bus",
