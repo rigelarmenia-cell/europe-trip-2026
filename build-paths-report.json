@@ -97,8 +97,8 @@
       "via": 5
     },
     "paris-23-06>paris-23-02:walk": {
-      "km": 1.43,
-      "min": 19,
+      "km": 1.63,
+      "min": 22,
       "via": 5
     },
     "barcelona-24-01>barcelona-24-04:bus": {
@@ -140,11 +140,6 @@
       "km": 0,
       "min": 0,
       "via": 0
-    },
-    "barcelona-25-14>barcelona-25-15:walk": {
-      "km": 2.06,
-      "min": 28,
-      "via": 2
     },
     "barcelona-25-12>barcelona-25-11:walk": {
       "km": 1.45,
@@ -262,8 +257,8 @@
       "via": 0
     }
   },
-  "candidates": 53,
-  "built": 52,
+  "candidates": 52,
+  "built": 51,
   "fallbacks": [
     {
       "key": "rome-27-06>rome-27-07:bus",
