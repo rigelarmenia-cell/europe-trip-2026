@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-24T10:15:00+02:00",
+  "updated_at": "2026-10-24T12:15:00+02:00",
   "city_status": {
     "barcelona": {
-      "checked_at": "2026-10-24T10:15:00+02:00",
-      "summary_hy": "24.10 10:15. TMB-ում L3/L4/L5/L9 Sud և 46 ավտոբուսի խափանում չկա, 24–25.10-ի մեծ միտինգ կամ մետրոյի գործադուլ չի գտնվել (մետրոյի գործադուլը 11.11-ին է). մնում են այսօրվա Montjuïc-ի վազքը, 25.10-ի տրիատլոնը և Էլ Կլասիկոն։ 25.10-ին 03:00-ին ժամը հետ է տարվում։"
+      "checked_at": "2026-10-24T12:15:00+02:00",
+      "summary_hy": "24.10 12:15. TMB-ում L3/L4/L5 և 46 ավտոբուսի խափանում չկա (միայն L1–L5 փոխանցումը Sants-ում փակ է), 24–25.10-ի միտինգ կամ մետրոյի գործադուլ չի գտնվել. Montjuïc-ի վազքն ավարտվել է, մնում են 25.10-ի տրիատլոնը և Էլ Կլասիկոն։ 25.10-ին 03:00-ին ժամը հետ է տարվում։"
     },
     "rome": {
-      "checked_at": "2026-10-24T10:15:00+02:00",
-      "summary_hy": "24.10 10:15. romamobilita-ում 26–28.10-ի գործադուլ չկա. երկաթուղային գործադուլը 29.10 21:00-ից է՝ մեր մեկնումից հետո։ Ponte Matteotti-ն մասնակի փակ է մինչև 11.11, 26.10-ին Porta Pia-ում տաքսիստների նստացույց, 28.10-ին փոքր հավաք Santi Apostoli-ում (մեզ չի վերաբերում)։"
+      "checked_at": "2026-10-24T12:15:00+02:00",
+      "summary_hy": "24.10 12:15. romamobilita-ում և scioperiitalia-ում 26–28.10-ի գործադուլ չկա. համընդհանուր գործադուլը 30.10-ին է (երկաթուղին՝ 29.10 21:00-ից)՝ մեր մեկնումից հետո։ Ponte Matteotti-ն մասնակի փակ է մինչև 11.11, 26.10-ին Porta Pia-ում տաքսիստների նստացույց, 28.10-ին փոքր հավաք Santi Apostoli-ում։"
     }
   },
   "alerts": [
@@ -66,26 +66,6 @@
       "source_url": "https://futboltotal.futbol/partido/as-roma-vs-cagliari-serie-a-2026-10-27",
       "stop_ids": [],
       "area": null
-    },
-    {
-      "id": "bcn-1024-cursa-companys",
-      "level": "info",
-      "city": "barcelona",
-      "date": "2026-10-24",
-      "until": "2026-10-24T11:30:00+02:00",
-      "title_hy": "🏃 24.10 առավոտ վազք Montjuïc-ում (Lluís Companys)",
-      "text_hy": "Cursa i Caminada Lluís Companys. մեկնարկ/ավարտ Estadi Joan Serrahima (Poble-sec), քայլք 09:00, 10 կմ՝ 09:30, 5 կմ՝ 09:40, երթուղին Montjuïc լեռով, փակումները մինչև ~11:10։ TMB-ն նշում է ավտոբուսների շեղումներ. Montjuïc-ի ճանապարհներին հնարավոր են փակումներ, մետրոյի վրա չի ազդում։",
-      "suggestion_hy": "Մինչև ~11:30 Montjuïc-ի ավտոբուսների (55, 150) վրա չհույսել, Plaça d’Espanya / Maria Cristina հատվածն անցնել ոտքով կամ L3-ով։",
-      "source_url": "https://ajuntament.barcelona.cat/sants-montjuic/es/guia-del-distrito/agenda/15a-cursa-i-caminada-lluis-companys-homenatge-a-l-olimpiades-populars-de-barcelona-1936_99400256345",
-      "stop_ids": [
-        "barcelona-24-04",
-        "barcelona-24-02"
-      ],
-      "area": {
-        "lat": 41.368,
-        "lon": 2.158,
-        "radius_m": 1500
-      }
     },
     {
       "id": "rom-1026-taxi-portapia",
