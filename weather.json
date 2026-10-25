@@ -1,15 +1,15 @@
 {
- "updated_at": "2026-10-25T21:28:41.911Z",
+ "updated_at": "2026-10-25T22:26:09.142Z",
  "source": "Open-Meteo (open-meteo.com), CC BY 4.0",
  "cities": {
   "paris": {
    "timezone": "Europe/Paris",
    "current": {
-    "time": "2026-10-25T22:15",
-    "temp": 10.8,
-    "feels": 8,
-    "code": 0,
-    "wind": 11.8,
+    "time": "2026-10-25T23:15",
+    "temp": 10.3,
+    "feels": 7.7,
+    "code": 2,
+    "wind": 11.5,
     "precip": 0
    },
    "daily": [
@@ -17,7 +17,7 @@
      "date": "2026-10-25",
      "code": 63,
      "tmax": 16.1,
-     "tmin": 10,
+     "tmin": 10.1,
      "pprob": 100,
      "psum": 10.1,
      "wind": 30,
@@ -27,22 +27,22 @@
     {
      "date": "2026-10-26",
      "code": 61,
-     "tmax": 14.2,
-     "tmin": 9.3,
-     "pprob": 58,
+     "tmax": 14,
+     "tmin": 9.2,
+     "pprob": 70,
      "psum": 0.1,
-     "wind": 15.9,
+     "wind": 16.3,
      "sunrise": "07:27",
      "sunset": "17:40"
     },
     {
      "date": "2026-10-27",
-     "code": 3,
-     "tmax": 18.1,
+     "code": 80,
+     "tmax": 18.2,
      "tmin": 10.4,
-     "pprob": 19,
-     "psum": 0.1,
-     "wind": 15.4,
+     "pprob": 35,
+     "psum": 0.3,
+     "wind": 14.3,
      "sunrise": "07:29",
      "sunset": "17:38"
     },
@@ -193,37 +193,37 @@
     },
     {
      "time": "2026-10-25T22:00",
-     "temp": 11,
+     "temp": 11.1,
      "code": 0,
      "pprob": 0
     },
     {
      "time": "2026-10-25T23:00",
-     "temp": 10.3,
+     "temp": 10.4,
      "code": 0,
      "pprob": 0
     },
     {
      "time": "2026-10-26T00:00",
-     "temp": 10,
+     "temp": 10.1,
      "code": 2,
      "pprob": 0
     },
     {
      "time": "2026-10-26T01:00",
-     "temp": 9.9,
+     "temp": 10,
      "code": 3,
      "pprob": 0
     },
     {
      "time": "2026-10-26T02:00",
-     "temp": 9.8,
+     "temp": 10.1,
      "code": 3,
      "pprob": 0
     },
     {
      "time": "2026-10-26T03:00",
-     "temp": 9.9,
+     "temp": 10.1,
      "code": 3,
      "pprob": 0
     },
@@ -235,25 +235,25 @@
     },
     {
      "time": "2026-10-26T05:00",
-     "temp": 9.8,
+     "temp": 9.9,
      "code": 2,
      "pprob": 0
     },
     {
      "time": "2026-10-26T06:00",
-     "temp": 9.5,
-     "code": 3,
+     "temp": 9.4,
+     "code": 2,
      "pprob": 0
     },
     {
      "time": "2026-10-26T07:00",
-     "temp": 9.4,
+     "temp": 9.3,
      "code": 3,
      "pprob": 0
     },
     {
      "time": "2026-10-26T08:00",
-     "temp": 9.3,
+     "temp": 9.2,
      "code": 3,
      "pprob": 0
     },
@@ -261,35 +261,35 @@
      "time": "2026-10-26T09:00",
      "temp": 9.5,
      "code": 3,
-     "pprob": 0
+     "pprob": 8
     },
     {
      "time": "2026-10-26T10:00",
-     "temp": 10,
-     "code": 61,
-     "pprob": 3
-    },
-    {
-     "time": "2026-10-26T11:00",
-     "temp": 10.9,
-     "code": 61,
+     "temp": 10.2,
+     "code": 3,
      "pprob": 13
     },
     {
+     "time": "2026-10-26T11:00",
+     "temp": 11,
+     "code": 3,
+     "pprob": 45
+    },
+    {
      "time": "2026-10-26T12:00",
-     "temp": 11.5,
+     "temp": 11.6,
      "code": 61,
-     "pprob": 48
+     "pprob": 60
     },
     {
      "time": "2026-10-26T13:00",
-     "temp": 12.3,
+     "temp": 12.2,
      "code": 61,
-     "pprob": 58
+     "pprob": 70
     },
     {
      "time": "2026-10-26T14:00",
-     "temp": 13,
+     "temp": 12.7,
      "code": 3,
      "pprob": 40
     },
@@ -297,24 +297,24 @@
      "time": "2026-10-26T15:00",
      "temp": 13.3,
      "code": 3,
-     "pprob": 18
+     "pprob": 15
     },
     {
      "time": "2026-10-26T16:00",
      "temp": 13.9,
-     "code": 3,
-     "pprob": 3
+     "code": 2,
+     "pprob": 5
     },
     {
      "time": "2026-10-26T17:00",
-     "temp": 14.2,
+     "temp": 14,
      "code": 2,
      "pprob": 0
     },
     {
      "time": "2026-10-26T18:00",
-     "temp": 13.9,
-     "code": 1,
+     "temp": 13.8,
+     "code": 2,
      "pprob": 0
     },
     {
@@ -325,19 +325,19 @@
     },
     {
      "time": "2026-10-26T20:00",
-     "temp": 12.9,
+     "temp": 13,
      "code": 1,
      "pprob": 0
     },
     {
      "time": "2026-10-26T21:00",
-     "temp": 12.6,
+     "temp": 13.1,
      "code": 2,
      "pprob": 0
     },
     {
      "time": "2026-10-26T22:00",
-     "temp": 12.6,
+     "temp": 13.1,
      "code": 2,
      "pprob": 0
     },
@@ -355,133 +355,133 @@
     },
     {
      "time": "2026-10-27T01:00",
-     "temp": 12.7,
+     "temp": 12.8,
      "code": 3,
      "pprob": 0
     },
     {
      "time": "2026-10-27T02:00",
-     "temp": 12.9,
-     "code": 3,
-     "pprob": 0
-    },
-    {
-     "time": "2026-10-27T03:00",
-     "temp": 13.5,
-     "code": 3,
-     "pprob": 0
-    },
-    {
-     "time": "2026-10-27T04:00",
-     "temp": 13.4,
-     "code": 3,
-     "pprob": 0
-    },
-    {
-     "time": "2026-10-27T05:00",
-     "temp": 13.2,
-     "code": 3,
-     "pprob": 0
-    },
-    {
-     "time": "2026-10-27T06:00",
-     "temp": 13.1,
-     "code": 3,
-     "pprob": 0
-    },
-    {
-     "time": "2026-10-27T07:00",
      "temp": 12.7,
      "code": 3,
      "pprob": 0
     },
     {
-     "time": "2026-10-27T08:00",
+     "time": "2026-10-27T03:00",
+     "temp": 12.7,
+     "code": 3,
+     "pprob": 0
+    },
+    {
+     "time": "2026-10-27T04:00",
+     "temp": 12.9,
+     "code": 3,
+     "pprob": 0
+    },
+    {
+     "time": "2026-10-27T05:00",
+     "temp": 12.8,
+     "code": 3,
+     "pprob": 0
+    },
+    {
+     "time": "2026-10-27T06:00",
+     "temp": 12.8,
+     "code": 3,
+     "pprob": 0
+    },
+    {
+     "time": "2026-10-27T07:00",
      "temp": 12.5,
+     "code": 3,
+     "pprob": 0
+    },
+    {
+     "time": "2026-10-27T08:00",
+     "temp": 12.1,
      "code": 3,
      "pprob": 0
     },
     {
      "time": "2026-10-27T09:00",
-     "temp": 12.5,
+     "temp": 12.1,
      "code": 3,
      "pprob": 0
     },
     {
      "time": "2026-10-27T10:00",
-     "temp": 13.4,
+     "temp": 12.6,
      "code": 3,
      "pprob": 0
     },
     {
      "time": "2026-10-27T11:00",
-     "temp": 15.6,
+     "temp": 14.6,
      "code": 2,
      "pprob": 0
     },
     {
      "time": "2026-10-27T12:00",
-     "temp": 17,
+     "temp": 16.7,
      "code": 3,
      "pprob": 0
     },
     {
      "time": "2026-10-27T13:00",
-     "temp": 17.4,
+     "temp": 16.6,
+     "code": 3,
+     "pprob": 0
+    },
+    {
+     "time": "2026-10-27T14:00",
+     "temp": 18,
      "code": 3,
      "pprob": 5
     },
     {
-     "time": "2026-10-27T14:00",
-     "temp": 18.1,
-     "code": 3,
-     "pprob": 8
-    },
-    {
      "time": "2026-10-27T15:00",
-     "temp": 18,
+     "temp": 18.2,
      "code": 3,
-     "pprob": 12
+     "pprob": 10
     },
     {
      "time": "2026-10-27T16:00",
      "temp": 17.9,
      "code": 3,
-     "pprob": 15
+     "pprob": 23
     },
     {
      "time": "2026-10-27T17:00",
-     "temp": 16.7,
+     "temp": 17.7,
      "code": 3,
-     "pprob": 17
+     "pprob": 35
     },
     {
      "time": "2026-10-27T18:00",
-     "temp": 15.9,
-     "code": 3,
-     "pprob": 19
+     "temp": 16.7,
+     "code": 80,
+     "pprob": 23
     },
     {
      "time": "2026-10-27T19:00",
-     "temp": 14.9,
-     "code": 0,
-     "pprob": 18
+     "temp": 15.9,
+     "code": 3,
+     "pprob": 10
     },
     {
      "time": "2026-10-27T20:00",
-     "temp": 13.9,
+     "temp": 14.7,
      "code": 3,
-     "pprob": 13
+     "pprob": 6
     },
     {
      "time": "2026-10-27T21:00",
-     "temp": 12.8,
-     "code": 1,
-     "pprob": 5
+     "temp": 13.4,
+     "code": 0,
+     "pprob": 2
     },
     {
      "time": "2026-10-27T22:00",
-     "temp": 12,
+     "temp": 12.2,
      "code": 0,
      "pprob": 0
     },
@@ -640,11 +640,11 @@
   "barcelona": {
    "timezone": "Europe/Madrid",
    "current": {
-    "time": "2026-10-25T22:15",
-    "temp": 16.7,
-    "feels": 16.2,
-    "code": 1,
-    "wind": 7.6,
+    "time": "2026-10-25T23:15",
+    "temp": 16.6,
+    "feels": 16,
+    "code": 0,
+    "wind": 7.9,
     "precip": 0
    },
    "daily": [
@@ -686,7 +686,7 @@
      "code": 3,
      "tmax": 23.4,
      "tmin": 16.5,
-     "pprob": 5,
+     "pprob": 0,
      "psum": 0,
      "wind": 16.1,
      "sunrise": "07:17",
@@ -1220,66 +1220,66 @@
      "time": "2026-10-28T15:00",
      "temp": 22.6,
      "code": 1,
-     "pprob": 1
+     "pprob": 0
     },
     {
      "time": "2026-10-28T16:00",
      "temp": 20.9,
      "code": 2,
-     "pprob": 1
+     "pprob": 0
     },
     {
      "time": "2026-10-28T17:00",
      "temp": 20,
      "code": 2,
-     "pprob": 2
+     "pprob": 0
     },
     {
      "time": "2026-10-28T18:00",
      "temp": 19.4,
      "code": 2,
-     "pprob": 3
+     "pprob": 0
     },
     {
      "time": "2026-10-28T19:00",
      "temp": 19.4,
      "code": 2,
-     "pprob": 3
+     "pprob": 0
     },
     {
      "time": "2026-10-28T20:00",
      "temp": 19.5,
      "code": 2,
-     "pprob": 3
+     "pprob": 0
     },
     {
      "time": "2026-10-28T21:00",
      "temp": 19.5,
      "code": 2,
-     "pprob": 4
+     "pprob": 0
     },
     {
      "time": "2026-10-28T22:00",
      "temp": 19.4,
      "code": 2,
-     "pprob": 4
+     "pprob": 0
     },
     {
      "time": "2026-10-28T23:00",
      "temp": 19.1,
      "code": 2,
-     "pprob": 5
+     "pprob": 0
     }
    ]
   },
   "rome": {
    "timezone": "Europe/Rome",
    "current": {
-    "time": "2026-10-25T22:15",
-    "temp": 12.5,
-    "feels": 11.5,
-    "code": 3,
-    "wind": 3.1,
+    "time": "2026-10-25T23:15",
+    "temp": 12.4,
+    "feels": 11.4,
+    "code": 2,
+    "wind": 3.5,
     "precip": 0
    },
    "daily": [
@@ -1321,7 +1321,7 @@
      "code": 3,
      "tmax": 20.4,
      "tmin": 8.4,
-     "pprob": 5,
+     "pprob": 0,
      "psum": 0,
      "wind": 7,
      "sunrise": "06:37",
@@ -1849,61 +1849,61 @@
      "time": "2026-10-28T14:00",
      "temp": 20.3,
      "code": 2,
-     "pprob": 1
+     "pprob": 0
     },
     {
      "time": "2026-10-28T15:00",
      "temp": 20.3,
      "code": 3,
-     "pprob": 2
+     "pprob": 0
     },
     {
      "time": "2026-10-28T16:00",
      "temp": 19.7,
      "code": 3,
-     "pprob": 3
+     "pprob": 0
     },
     {
      "time": "2026-10-28T17:00",
      "temp": 18.9,
      "code": 3,
-     "pprob": 4
+     "pprob": 0
     },
     {
      "time": "2026-10-28T18:00",
      "temp": 17.7,
      "code": 3,
-     "pprob": 5
+     "pprob": 0
     },
     {
      "time": "2026-10-28T19:00",
      "temp": 16.6,
      "code": 3,
-     "pprob": 5
+     "pprob": 0
     },
     {
      "time": "2026-10-28T20:00",
      "temp": 16,
      "code": 3,
-     "pprob": 5
+     "pprob": 0
     },
     {
      "time": "2026-10-28T21:00",
      "temp": 14.5,
      "code": 3,
-     "pprob": 4
+     "pprob": 0
     },
     {
      "time": "2026-10-28T22:00",
      "temp": 13,
      "code": 3,
-     "pprob": 3
+     "pprob": 0
     },
     {
      "time": "2026-10-28T23:00",
      "temp": 12,
      "code": 3,
-     "pprob": 2
+     "pprob": 0
     }
    ]
   }
