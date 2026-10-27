@@ -1,15 +1,15 @@
 {
- "updated_at": "2026-10-27T20:38:16.027Z",
+ "updated_at": "2026-10-27T21:37:15.269Z",
  "source": "Open-Meteo (open-meteo.com), CC BY 4.0",
  "cities": {
   "paris": {
    "timezone": "Europe/Paris",
    "current": {
-    "time": "2026-10-27T21:30",
-    "temp": 11.6,
-    "feels": 10.4,
-    "code": 1,
-    "wind": 6.2,
+    "time": "2026-10-27T22:30",
+    "temp": 11.4,
+    "feels": 9.9,
+    "code": 0,
+    "wind": 7.9,
     "precip": 0
    },
    "daily": [
@@ -172,7 +172,7 @@
     {
      "time": "2026-10-27T22:00",
      "temp": 11.4,
-     "code": 1,
+     "code": 0,
      "pprob": 0
     },
     {
@@ -189,7 +189,7 @@
     },
     {
      "time": "2026-10-28T01:00",
-     "temp": 10.3,
+     "temp": 10.2,
      "code": 0,
      "pprob": 0
     },
@@ -213,7 +213,7 @@
     },
     {
      "time": "2026-10-28T05:00",
-     "temp": 8.8,
+     "temp": 8.7,
      "code": 0,
      "pprob": 0
     },
@@ -226,13 +226,13 @@
     {
      "time": "2026-10-28T07:00",
      "temp": 8.2,
-     "code": 0,
+     "code": 1,
      "pprob": 0
     },
     {
      "time": "2026-10-28T08:00",
      "temp": 8,
-     "code": 0,
+     "code": 1,
      "pprob": 0
     },
     {
@@ -285,7 +285,7 @@
     },
     {
      "time": "2026-10-28T17:00",
-     "temp": 14.7,
+     "temp": 14.8,
      "code": 2,
      "pprob": 0
     },
@@ -309,19 +309,19 @@
     },
     {
      "time": "2026-10-28T21:00",
-     "temp": 12,
+     "temp": 11.8,
      "code": 1,
      "pprob": 0
     },
     {
      "time": "2026-10-28T22:00",
-     "temp": 11.7,
+     "temp": 11.5,
      "code": 2,
      "pprob": 0
     },
     {
      "time": "2026-10-28T23:00",
-     "temp": 11.2,
+     "temp": 10.9,
      "code": 0,
      "pprob": 0
     }
@@ -330,11 +330,11 @@
   "barcelona": {
    "timezone": "Europe/Madrid",
    "current": {
-    "time": "2026-10-27T21:30",
-    "temp": 19.6,
+    "time": "2026-10-27T22:30",
+    "temp": 19.2,
     "feels": 21.1,
     "code": 3,
-    "wind": 7.7,
+    "wind": 5.5,
     "precip": 0
    },
    "daily": [
@@ -354,7 +354,7 @@
      "code": 3,
      "tmax": 23,
      "tmin": 17.4,
-     "pprob": 3,
+     "pprob": 8,
      "psum": 0,
      "wind": 15.5,
      "sunrise": "07:17",
@@ -540,13 +540,13 @@
      "time": "2026-10-28T05:00",
      "temp": 17.8,
      "code": 2,
-     "pprob": 3
+     "pprob": 0
     },
     {
      "time": "2026-10-28T06:00",
      "temp": 17.8,
      "code": 3,
-     "pprob": 0
+     "pprob": 3
     },
     {
      "time": "2026-10-28T07:00",
@@ -594,19 +594,19 @@
      "time": "2026-10-28T14:00",
      "temp": 23,
      "code": 1,
-     "pprob": 3
+     "pprob": 0
     },
     {
      "time": "2026-10-28T15:00",
      "temp": 22.9,
      "code": 2,
-     "pprob": 3
+     "pprob": 0
     },
     {
      "time": "2026-10-28T16:00",
      "temp": 21.9,
      "code": 1,
-     "pprob": 3
+     "pprob": 0
     },
     {
      "time": "2026-10-28T17:00",
@@ -618,7 +618,7 @@
      "time": "2026-10-28T18:00",
      "temp": 21.1,
      "code": 1,
-     "pprob": 0
+     "pprob": 3
     },
     {
      "time": "2026-10-28T19:00",
@@ -630,36 +630,36 @@
      "time": "2026-10-28T20:00",
      "temp": 20.6,
      "code": 2,
-     "pprob": 0
+     "pprob": 3
     },
     {
      "time": "2026-10-28T21:00",
      "temp": 20.3,
      "code": 2,
-     "pprob": 0
+     "pprob": 5
     },
     {
      "time": "2026-10-28T22:00",
      "temp": 20.1,
      "code": 1,
-     "pprob": 0
+     "pprob": 8
     },
     {
      "time": "2026-10-28T23:00",
      "temp": 20.2,
      "code": 1,
-     "pprob": 0
+     "pprob": 3
     }
    ]
   },
   "rome": {
    "timezone": "Europe/Rome",
    "current": {
-    "time": "2026-10-27T21:30",
-    "temp": 14.6,
-    "feels": 15.3,
+    "time": "2026-10-27T22:30",
+    "temp": 13.6,
+    "feels": 13.9,
     "code": 2,
-    "wind": 2.4,
+    "wind": 2.6,
     "precip": 0
    },
    "daily": [
