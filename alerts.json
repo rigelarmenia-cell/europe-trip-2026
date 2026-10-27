@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-27T09:24:52+01:00",
+  "updated_at": "2026-10-27T11:15:31+01:00",
   "city_status": {
     "rome": {
-      "checked_at": "2026-10-27T09:24:52+01:00",
-      "summary_hy": "27.10 09:24. ATAC tempo reale, MIT/missionline/meteo.it օրացույցներում 27–28.10-ին ATAC/Metro B-ի, Fiumicino-ի, ավիացիայի կամ տաքսիների գործադուլ չկա. USB-ի համընդհանուր գործադուլը 29.10 երեկոյից/30.10-ն է՝ մեր մեկնումից հետո։ Ֆերմերների 27.10-ի ակցիայի վայրը դեռ չհայտարարված. 28.10-ի Piazza dei Cinquecento-ի հավաքը մեր մեկնումից հետո է։ W4 6167-ի կարգավիճակը՝ 27.10 երեկոյից։"
+      "checked_at": "2026-10-27T11:15:31+01:00",
+      "summary_hy": "27.10 11:15. Roma Mobilità «In agenda»-ում 27–28.10-ին գործադուլ և Metro B-ի զգուշացում չկա (USB-ի գործադուլը 30.10-ին է՝ մեր մեկնումից հետո). տաքսիների 26.10-ի ակցիան ավարտվել է, 27–28.10-ի համար տաքսու գործադուլ հայտարարված չէ։ Ֆերմերների/բեռնափոխադրողների այսօրվա երթը՝ Piazza Capranica → Montecitorio (կենտրոն)։ 28.10-ի Սբ Պետրոսի հանդիսությունը մեր մեկնումից հետո է։ W4 6167-ի կարգավիճակը՝ 27.10 երեկոյից։"
     }
   },
   "alerts": [
@@ -26,12 +26,16 @@
       "city": "rome",
       "date": "2026-10-27",
       "until": "2026-10-27T23:59:00+01:00",
-      "title_hy": "🚜 27.10 ֆերմերների/բեռնափոխադրողների ցույց Հռոմում",
-      "text_hy": "27.10-ին «Autoconvocati» բեռնափոխադրողները և ֆերմերները («Tutti a Roma») ազգային բողոքի ակցիա են անում վառելիքի գնի դեմ, իսկ 16:00-ին MIT-ում (Porta Pia, Via Nomentana, մեր Bologna կանգառից ~1,7 կմ) Սալվինիի հետ հանդիպում է։ Կոնկրետ հրապարակը և ժամը դեռ հայտարարված չեն. մենք այդ օրը Castel Romano-ում ենք՝ կենտրոնից հեռու։",
-      "suggestion_hy": "Երեկոյան տուն վերադառնալիս Porta Pia / Via Nomentana շրջանից խուսափել. Metro B-ն օգտագործել նախատեսված ձևով, հնարավոր են ավտոբուսների շեղումներ։",
-      "source_url": "https://www.corrierenazionale.net/2026/10/26/tir-trattori-taxi-sciopero-roma-mit/",
+      "title_hy": "🚜 27.10 ֆերմերների երթ՝ Capranica → Montecitorio",
+      "text_hy": "Այսօր առավոտից «Autoconvocati» բեռնափոխադրողներն ու ֆերմերները երթ են անում Piazza Capranica-ից դեպի Montecitorio (պատմական կենտրոն, Տրևիից ~0,5 կմ), իսկ 16:00-ին MIT-ում (Porta Pia, Via Nomentana, մեր Bologna կանգառից ~1,7 կմ) Սալվինիի հետ հանդիպում է։ Մենք այսօր Castel Romano-ում ենք՝ մեր երթուղուց հեռու է։",
+      "suggestion_hy": "Երեկոյան կենտրոն չգնալ Pantheon/Montecitorio/Via del Corso շրջան. տուն վերադառնալ Metro B-ով նախատեսված ձևով, հնարավոր են ավտոբուսների շեղումներ։",
+      "source_url": "https://www.lacapitale.it/articolo/autotrasportatori-e-agricoltori-in-piazza-a-roma-manifestazione-da-piazza-capranica-verso-montecitorio",
       "stop_ids": [],
-      "area": null
+      "area": {
+        "lat": 41.8996,
+        "lon": 12.4777,
+        "radius_m": 600
+      }
     }
   ]
 }
