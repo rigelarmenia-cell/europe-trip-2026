@@ -1,15 +1,15 @@
 {
- "updated_at": "2026-10-28T18:47:08.489Z",
+ "updated_at": "2026-10-28T19:48:00.354Z",
  "source": "Open-Meteo (open-meteo.com), CC BY 4.0",
  "cities": {
   "paris": {
    "timezone": "Europe/Paris",
    "current": {
-    "time": "2026-10-28T19:45",
-    "temp": 14,
-    "feels": 12.8,
+    "time": "2026-10-28T20:45",
+    "temp": 13.5,
+    "feels": 12.5,
     "code": 3,
-    "wind": 3.4,
+    "wind": 2.3,
     "precip": 0
    },
    "daily": [
@@ -142,7 +142,7 @@
     },
     {
      "time": "2026-10-28T19:00",
-     "temp": 14.5,
+     "temp": 14.4,
      "code": 3,
      "pprob": 0
     },
@@ -154,19 +154,19 @@
     },
     {
      "time": "2026-10-28T21:00",
-     "temp": 13.3,
-     "code": 2,
+     "temp": 13.4,
+     "code": 3,
      "pprob": 0
     },
     {
      "time": "2026-10-28T22:00",
-     "temp": 13,
+     "temp": 13.1,
      "code": 2,
      "pprob": 0
     },
     {
      "time": "2026-10-28T23:00",
-     "temp": 12.5,
+     "temp": 12.7,
      "code": 2,
      "pprob": 0
     }
@@ -175,11 +175,11 @@
   "barcelona": {
    "timezone": "Europe/Madrid",
    "current": {
-    "time": "2026-10-28T19:45",
-    "temp": 20.8,
-    "feels": 22.6,
-    "code": 1,
-    "wind": 3.7,
+    "time": "2026-10-28T20:45",
+    "temp": 20,
+    "feels": 21.3,
+    "code": 2,
+    "wind": 7.8,
     "precip": 0
    },
    "daily": [
@@ -345,11 +345,11 @@
   "rome": {
    "timezone": "Europe/Rome",
    "current": {
-    "time": "2026-10-28T19:45",
-    "temp": 15.8,
-    "feels": 15.7,
-    "code": 3,
-    "wind": 1.4,
+    "time": "2026-10-28T20:45",
+    "temp": 15,
+    "feels": 14.7,
+    "code": 2,
+    "wind": 2,
     "precip": 0
    },
    "daily": [
