@@ -1,22 +1,22 @@
 {
- "updated_at": "2026-10-28T13:58:49.788Z",
+ "updated_at": "2026-10-28T14:54:16.064Z",
  "source": "Open-Meteo (open-meteo.com), CC BY 4.0",
  "cities": {
   "paris": {
    "timezone": "Europe/Paris",
    "current": {
-    "time": "2026-10-28T14:45",
-    "temp": 15.7,
+    "time": "2026-10-28T15:45",
+    "temp": 15.6,
     "feels": 14.3,
     "code": 2,
-    "wind": 3.9,
+    "wind": 2.4,
     "precip": 0
    },
    "daily": [
     {
      "date": "2026-10-28",
      "code": 2,
-     "tmax": 15.7,
+     "tmax": 15.6,
      "tmin": 7,
      "pprob": 0,
      "psum": 0,
@@ -118,7 +118,7 @@
     },
     {
      "time": "2026-10-28T15:00",
-     "temp": 15.7,
+     "temp": 15.6,
      "code": 2,
      "pprob": 0
     },
@@ -130,13 +130,13 @@
     },
     {
      "time": "2026-10-28T17:00",
-     "temp": 15.3,
+     "temp": 15.4,
      "code": 2,
      "pprob": 0
     },
     {
      "time": "2026-10-28T18:00",
-     "temp": 14.8,
+     "temp": 14.9,
      "code": 2,
      "pprob": 0
     },
@@ -154,20 +154,20 @@
     },
     {
      "time": "2026-10-28T21:00",
-     "temp": 12.4,
+     "temp": 12.5,
      "code": 2,
      "pprob": 0
     },
     {
      "time": "2026-10-28T22:00",
-     "temp": 11.8,
+     "temp": 11.9,
      "code": 2,
      "pprob": 0
     },
     {
      "time": "2026-10-28T23:00",
-     "temp": 11.2,
-     "code": 1,
+     "temp": 11.6,
+     "code": 2,
      "pprob": 0
     }
    ]
@@ -175,11 +175,11 @@
   "barcelona": {
    "timezone": "Europe/Madrid",
    "current": {
-    "time": "2026-10-28T14:45",
-    "temp": 24.1,
-    "feels": 23.2,
+    "time": "2026-10-28T15:45",
+    "temp": 22.8,
+    "feels": 22.8,
     "code": 0,
-    "wind": 9.5,
+    "wind": 12.6,
     "precip": 0
    },
    "daily": [
@@ -345,11 +345,11 @@
   "rome": {
    "timezone": "Europe/Rome",
    "current": {
-    "time": "2026-10-28T14:45",
-    "temp": 19.7,
-    "feels": 18.7,
+    "time": "2026-10-28T15:45",
+    "temp": 19.4,
+    "feels": 18.3,
     "code": 3,
-    "wind": 5.4,
+    "wind": 6.3,
     "precip": 0
    },
    "daily": [
