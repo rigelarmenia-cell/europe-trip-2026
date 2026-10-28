@@ -1,42 +1,12 @@
 {
-  "updated_at": "2026-10-27T23:10:00+01:00",
+  "updated_at": "2026-10-28T06:10:00+01:00",
   "city_status": {
     "rome": {
-      "checked_at": "2026-10-27T23:10:00+01:00",
-      "summary_hy": "27.10 23:10. 28.10-ի գիշերը/առավոտը Հռոմում տրանսպորտի, տաքսու կամ օդանավակայանի գործադուլ կամ ճանապարհային արգելափակում չի գտնվել. ATAC/երկաթուղու գործադուլները 29–30.10-ին են՝ մեր մեկնումից հետո։ W4 6167-ը 28.10 06:15 ըստ պլանի է (FlightStats, 23:10), չեղարկում/ուշացում չկա։"
+      "checked_at": "2026-10-28T06:10:00+01:00",
+      "summary_hy": "28.10 06:10. W4 6167-ը 06:15 ըստ պլանի է (T3, gate E, Trip.com/VariFlight)։ Fiumicino-ում կամ Հռոմի տրանսպորտում այսօր առավոտյան գործադուլ/խափանում չի գտնվել. 27.10-ի (ֆուտբոլ, ֆերմերների երթ) զգուշացումները ավարտվել և հանվել են։"
     }
   },
   "alerts": [
-    {
-      "id": "rom-1027-olimpico",
-      "level": "info",
-      "city": "rome",
-      "date": "2026-10-27",
-      "until": "2026-10-27T23:59:00+01:00",
-      "title_hy": "⚽ 27.10 Ռոմա–Կալյարի, Stadio Olimpico",
-      "text_hy": "Երեկոյան 20:45 ֆուտբոլ Օլիմպիկոյում (Foro Italico)։ Կենտրոնից և մեր երթուղուց հեռու է։",
-      "suggestion_hy": "",
-      "source_url": "https://futboltotal.futbol/partido/as-roma-vs-cagliari-serie-a-2026-10-27",
-      "stop_ids": [],
-      "area": null
-    },
-    {
-      "id": "rom-1027-agricoltori",
-      "level": "info",
-      "city": "rome",
-      "date": "2026-10-27",
-      "until": "2026-10-27T23:59:00+01:00",
-      "title_hy": "🚜 27.10 ֆերմերների երթ՝ Capranica → Montecitorio",
-      "text_hy": "Այսօր առավոտից «Autoconvocati» բեռնափոխադրողներն ու ֆերմերները երթ են անում Piazza Capranica-ից դեպի Montecitorio (պատմական կենտրոն, Տրևիից ~0,5 կմ), իսկ 16:00-ին MIT-ում (Porta Pia, Via Nomentana, մեր Bologna կանգառից ~1,7 կմ) Սալվինիի հետ հանդիպում է։ Մենք այսօր Castel Romano-ում ենք՝ մեր երթուղուց հեռու է։",
-      "suggestion_hy": "Երեկոյան կենտրոն չգնալ Pantheon/Montecitorio/Via del Corso շրջան. տուն վերադառնալ Metro B-ով նախատեսված ձևով, հնարավոր են ավտոբուսների շեղումներ։",
-      "source_url": "https://www.lacapitale.it/articolo/autotrasportatori-e-agricoltori-in-piazza-a-roma-manifestazione-da-piazza-capranica-verso-montecitorio",
-      "stop_ids": [],
-      "area": {
-        "lat": 41.8996,
-        "lon": 12.4777,
-        "radius_m": 600
-      }
-    },
     {
       "id": "flt-1028-W46167",
       "level": "info",
@@ -44,8 +14,8 @@
       "date": "2026-10-28",
       "until": "2026-10-28T15:10:00+04:00",
       "title_hy": "✈ 28.10 W4 6167 · FCO T3 · 06:15 ըստ պլանի",
-      "text_hy": "Wizz Air W4 6167 Fiumicino (FCO) T3 → Երևան. մեկնում 06:15, վայրէջք 13:10 (Երևանի ժամով)։ Կարգավիճակ՝ ըստ պլանի. գրանցման սեղան 241, gate E (VariFlight/Trip.com, ստուգված 27.10 16:15, կրկնակի՝ FlightStats 19:18, ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)։",
-      "suggestion_hy": "Առցանց գրանցումը անել այսօր (վերջնաժամկետ 28.10 03:15). տնից դուրս գալ 02:45 տաքսիներով, T3-ում լինել մինչև 03:45։ Տերմինալը և gate-ը ստուգել նստեցման կտրոնում և FCO-ի տախտակին։",
+      "text_hy": "Wizz Air W4 6167 Fiumicino (FCO) T3 → Երևան. մեկնում 06:15, վայրէջք 13:10 (Երևանի ժամով)։ Կարգավիճակ՝ ըստ պլանի, ուշացում/չեղարկում չկա. գրանցման սեղան 241, gate E (VariFlight/Trip.com, ստուգված 28.10 06:10, ԱՂԲՅՈՒՐՈՎ ՀԱՂՈՐԴՎԱԾ)։",
+      "suggestion_hy": "Gate-ը և նստեցման ժամը հետևել FCO-ի տախտակին և Wizz-ի հավելվածում։",
       "source_url": "https://it.trip.com/flights/status-w46167/",
       "stop_ids": [
         "rome-28-02"
